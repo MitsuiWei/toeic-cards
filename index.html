@@ -1,0 +1,174 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>多益單字卡</title>
+<meta name="description" content="多益 1000 單字間隔複習卡片，點一下就能聽單字和例句發音。">
+<meta name="theme-color" content="#F9F7E8">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="apple-mobile-web-app-title" content="多益單字">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23593F28'/%3E%3Crect x='12' y='16' width='40' height='32' rx='6' fill='%23F9F7E8'/%3E%3Crect x='18' y='24' width='22' height='4' rx='2' fill='%23FC8300'/%3E%3Crect x='18' y='34' width='28' height='3' rx='1.5' fill='%238F7962'/%3E%3C/svg%3E">
+</head>
+<body>
+
+<div class="page">
+  <!-- 左側級別側標（手機改為上方橫列） -->
+  <nav class="rail" aria-label="級別">
+    <button class="tab tab-400" data-level="400"><span class="tab-text"><b>衝</b><i>400</i><em>分必備單字</em></span><span class="tab-count" data-count="400"></span></button>
+    <button class="tab tab-600" data-level="600"><span class="tab-text"><b>衝</b><i>600</i><em>分必備單字</em></span><span class="tab-count" data-count="600"></span></button>
+    <button class="tab tab-800" data-level="800"><span class="tab-text"><b>衝</b><i>800</i><em>分必備單字</em></span><span class="tab-count" data-count="800"></span></button>
+    <button class="tab tab-990" data-level="990"><span class="tab-text"><b>衝</b><i>990</i><em>分必備單字</em></span><span class="tab-count" data-count="990"></span></button>
+    <button class="tab tab-all" data-level="all"><span class="tab-text"><b>全部</b><i>1000</i><em>字</em></span><span class="tab-count" data-count="all"></span></button>
+  </nav>
+
+  <main class="frame">
+    <header class="frame-head">
+      <div class="pill" id="deckPill">衝 <span class="pill-num">400</span> 分必備單字</div>
+      <div class="brand">
+        <span class="brand-name">多益單字卡</span>
+        <span class="brand-sub">間隔複習・點一下就發音</span>
+      </div>
+    </header>
+
+    <nav class="views" aria-label="功能">
+      <button class="view-btn is-active" data-view="study">學習</button>
+      <button class="view-btn" data-view="browse">單字庫</button>
+      <button class="view-btn" data-view="stats">統計</button>
+      <button class="view-btn" data-view="settings">設定</button>
+    </nav>
+
+    <!-- ===== 學習 ===== -->
+    <section class="view view-study is-active" id="view-study">
+      <div class="counts" id="counts">
+        <span class="count count-new" title="今天還可以學的新字">新 <b id="cNew">0</b></span>
+        <span class="count count-learn" title="學習中（幾分鐘後會再出現）">學習 <b id="cLearn">0</b></span>
+        <span class="count count-review" title="今天到期的複習">複習 <b id="cReview">0</b></span>
+        <button class="link-btn" id="undoBtn" hidden>復原上一張 (Z)</button>
+      </div>
+
+      <article class="card" id="card" hidden>
+        <div class="card-face card-front" id="cardFront"></div>
+        <button class="reveal" id="revealBtn">顯示答案 <kbd>空白鍵</kbd></button>
+        <div class="card-face card-back" id="cardBack" hidden></div>
+      </article>
+
+      <div class="empty" id="studyEmpty" hidden></div>
+
+      <div class="ratings" id="ratings" hidden>
+        <button class="rate rate-again" data-rating="1"><span class="rate-name">重來</span><span class="rate-iv" id="iv1"></span><kbd>1</kbd></button>
+        <button class="rate rate-hard" data-rating="2"><span class="rate-name">困難</span><span class="rate-iv" id="iv2"></span><kbd>2</kbd></button>
+        <button class="rate rate-good" data-rating="3"><span class="rate-name">良好</span><span class="rate-iv" id="iv3"></span><kbd>3</kbd></button>
+        <button class="rate rate-easy" data-rating="4"><span class="rate-name">簡單</span><span class="rate-iv" id="iv4"></span><kbd>4</kbd></button>
+      </div>
+
+      <div class="study-tools" id="studyTools">
+        <button class="tool-btn" id="screenBtn">先挑掉已經會的字</button>
+        <button class="tool-btn" id="knownBtn" hidden>這個字我早就會了，跳過</button>
+      </div>
+
+      <!-- 快速篩選模式 -->
+      <div class="screen" id="screen" hidden>
+        <p class="screen-hint">看到字 1 秒內想得起意思就按「認得」，會被標成已會、不排進複習；猶豫就按「不確定」，保留當新字。</p>
+        <div class="screen-card">
+          <button class="screen-word speakable" id="screenWord"></button>
+          <div class="screen-progress"><span id="screenDone">0</span> / <span id="screenTotal">0</span></div>
+        </div>
+        <div class="screen-actions">
+          <button class="rate rate-again" id="screenNo">不確定 <kbd>1</kbd></button>
+          <button class="rate rate-good" id="screenYes">認得 <kbd>2</kbd></button>
+        </div>
+        <div class="screen-foot">
+          <button class="link-btn" id="screenUndo">上一個</button>
+          <button class="link-btn" id="screenExit">結束篩選</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== 單字庫 ===== -->
+    <section class="view view-browse" id="view-browse">
+      <div class="browse-bar">
+        <input type="search" id="searchBox" placeholder="搜尋單字或中文" autocomplete="off">
+        <select id="stateFilter">
+          <option value="all">全部狀態</option>
+          <option value="new">新字</option>
+          <option value="learning">學習中</option>
+          <option value="review">複習中</option>
+          <option value="known">已會</option>
+          <option value="suspended">停用</option>
+          <option value="lapsed">常忘（忘記 2 次以上）</option>
+        </select>
+      </div>
+      <div class="browse-summary" id="browseSummary"></div>
+      <ul class="wordlist" id="wordList"></ul>
+    </section>
+
+    <!-- ===== 統計 ===== -->
+    <section class="view view-stats" id="view-stats">
+      <div class="stat-row" id="statToday"></div>
+      <h2 class="stat-h">各級進度</h2>
+      <div class="level-bars" id="levelBars"></div>
+      <h2 class="stat-h">未來 7 天到期</h2>
+      <div class="forecast" id="forecast"></div>
+      <h2 class="stat-h">最近 12 週</h2>
+      <div class="heat" id="heat"></div>
+      <h2 class="stat-h">最常忘記的字</h2>
+      <ul class="lapsed" id="lapsedList"></ul>
+    </section>
+
+    <!-- ===== 設定 ===== -->
+    <section class="view view-settings" id="view-settings">
+      <form id="settingsForm" onsubmit="return false">
+        <h2 class="stat-h">雲端同步</h2>
+        <div id="syncBox"></div>
+
+        <h2 class="stat-h">學習</h2>
+        <label class="row"><span>每天新字上限</span><input type="number" min="0" max="200" name="newPerDay"></label>
+        <label class="row"><span>新字順序</span><select name="newOrder"><option value="list">照單字表順序</option><option value="random">隨機</option></select></label>
+        <label class="row"><span>卡片方向</span><select name="direction"><option value="en">看英文，想中文</option><option value="zh">看中文，想英文</option></select></label>
+        <label class="row"><span>正面的例句</span><select name="frontExample"><option value="show">顯示，單字標橘色</option><option value="cloze">顯示，把單字挖空</option><option value="hide">不顯示</option></select></label>
+
+        <h2 class="stat-h">發音</h2>
+        <label class="row"><span>翻面時自動播放</span><select name="autoSpeak"><option value="none">不播</option><option value="word">單字</option><option value="both">單字＋例句</option></select></label>
+        <label class="row"><span>翻到正面時自動唸單字</span><select name="frontSpeak"><option value="no">不唸</option><option value="yes">唸</option></select></label>
+        <label class="row"><span>語速</span><select name="rate"><option value="0.7">0.7 慢</option><option value="0.85">0.85</option><option value="1">1.0 正常</option><option value="1.15">1.15 快</option></select></label>
+        <label class="row"><span>語音</span><select name="voice" id="voiceSelect"><option value="">自動（偏好美式）</option></select></label>
+        <p class="note">發音用的是瀏覽器內建的語音（Web Speech API），不同裝置聲音會不一樣。Chrome 的「Google US English」和 iPhone / Mac 的「Samantha」品質較好。</p>
+
+        <h2 class="stat-h">資料</h2>
+        <p class="note">進度只存在這台裝置的瀏覽器裡。換裝置或清除瀏覽資料前，先匯出備份。</p>
+        <div class="btn-row">
+          <button type="button" class="tool-btn" id="exportBtn">匯出備份 (JSON)</button>
+          <button type="button" class="tool-btn" id="importBtn">匯入備份</button>
+          <input type="file" id="importFile" accept="application/json" hidden>
+          <button type="button" class="tool-btn" id="ankiBtn">匯出成 Anki 可匯入的 TSV</button>
+        </div>
+        <div class="btn-row">
+          <button type="button" class="tool-btn danger" id="resetBtn">清除全部進度</button>
+        </div>
+        <p class="note">單字內容來自刷刷庫《多益一千單字表》，僅供個人學習。</p>
+      </form>
+    </section>
+  </main>
+</div>
+
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+<script src="data/words.js"></script>
+<script src="js/srs.js"></script>
+<script src="https://www.gstatic.com/firebasejs/10.14.1/firebase-app-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/10.14.1/firebase-auth-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/10.14.1/firebase-firestore-compat.js"></script>
+<script src="js/firebase-config.js"></script>
+<script src="js/sync.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>

@@ -45,6 +45,7 @@
       <button class="view-btn" data-view="browse">單字庫</button>
       <button class="view-btn" data-view="stats">統計</button>
       <button class="view-btn" data-view="settings">設定</button>
+      <button class="view-btn" data-view="help">說明</button>
     </nav>
 
     <!-- ===== 學習 ===== -->
@@ -157,6 +158,34 @@
         </div>
         <p class="note">單字內容來自刷刷庫《多益一千單字表》，僅供個人學習。</p>
       </form>
+    </section>
+
+    <!-- ===== 說明 ===== -->
+    <section class="view view-help" id="view-help">
+      <p class="help-intro">這是一個仿 Anki 的間隔複習單字卡，單字來自刷刷庫《多益一千單字表》。</p>
+      <details open>
+          <summary>翻面後的四個按鈕是什麼意思</summary>
+          <p>它們是你對「剛才想不想得起來」的誠實自評，決定這張卡多久後再出現：</p>
+          <ul>
+            <li><b>重來</b>：完全想不起來或想錯 → 1 分鐘後再出現</li>
+            <li><b>困難</b>：想很久才勉強想到 → 幾分鐘後再出現</li>
+            <li><b>良好</b>：正常想到 → 新卡 10 分鐘後再考一次就畢業，之後 1 天、3 天、1 週、2 週、1 個月…愈拉愈長</li>
+            <li><b>簡單</b>：秒答、根本不用想 → 直接畢業，4 天後再見</li>
+          </ul>
+          <p>按鈕下方的小字就是下次出現的時間。原則：大多數時候按「良好」；想不起來就老實按「重來」。為了讓卡快點消失而亂按「簡單」，一個月後忘光的還是自己。這就是 Anki 的間隔複習邏輯：記得愈牢，隔愈久才考你。</p>
+        </details>
+      <details open>
+          <summary>下面兩個「已經會了」是做什麼的</summary>
+          <ul>
+            <li><b>這個字我早就會了，跳過</b>：針對目前這張。像 company、printer 這種早就會的，按它就標成「已會」，不再排進複習。</li>
+            <li><b>先挑掉已經會的字</b>：批次版。一個字一個字快速閃過，只問「認得／不確定」。開始背一個級別之前先跑一輪，把本來就會的清掉，剩下的才是真正要花時間的。</li>
+          </ul>
+          <p>標成已會的字在「單字庫」用狀態篩選「已會」找得到，隨時可以取消。</p>
+        </details>
+      <details open>
+          <summary>電腦快捷鍵</summary>
+          <p>空白鍵 翻面（翻面後再按一次＝良好）・1 2 3 4 評分・P 唸單字・S 唸例句・Z 復原上一張</p>
+        </details>
     </section>
   </main>
 </div>

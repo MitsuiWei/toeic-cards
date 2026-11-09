@@ -482,6 +482,36 @@ kbd {
 .note { font-size: 13px; color: var(--muted); margin: 10px 0; }
 .btn-row { display: flex; gap: 10px; flex-wrap: wrap; margin: 10px 0; }
 
+/* 使用說明 */
+.help-intro { font-size: 15px; color: var(--text); margin: 0 0 14px; line-height: 1.7; }
+.help details { border-bottom: 1px solid var(--rule); }
+.help details:first-of-type { border-top: 1px solid var(--rule); }
+.help summary {
+  cursor: pointer;
+  padding: 10px 4px;
+  font-weight: 700;
+  color: var(--ink);
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.help summary::-webkit-details-marker { display: none; }
+.help summary::before {
+  content: "";
+  width: 7px; height: 7px;
+  border-right: 2px solid var(--orange);
+  border-bottom: 2px solid var(--orange);
+  transform: rotate(-45deg);
+  transition: transform .15s ease;
+  flex: none;
+}
+.help details[open] summary::before { transform: rotate(45deg); }
+.help p, .help ul { font-size: 14px; line-height: 1.75; color: var(--text); margin: 4px 0 12px; }
+.help ul { padding-left: 20px; }
+.help li { margin-bottom: 4px; }
+.help b { color: var(--ink); }
+
 /* 雲端同步 */
 .sync-user { display: flex; align-items: center; gap: 12px; padding: 10px 0; }
 .sync-user img { width: 40px; height: 40px; border-radius: 50%; border: 1.5px solid var(--rule); }
@@ -548,7 +578,8 @@ kbd {
   .brand { text-align: left; }
   .brand-sub { display: none; }
   .views { margin: 12px 0 14px; overflow-x: auto; }
-  .view-btn { padding: 6px 10px 8px; font-size: 15px; white-space: nowrap; }
+  .views { gap: 0; }
+  .view-btn { padding: 6px 8px 8px; font-size: 15px; white-space: nowrap; flex: 1; text-align: center; }
   .card { padding: 20px 18px 16px; min-height: 0; }
   .word { font-size: 32px; }
   .meaning { font-size: 20px; }

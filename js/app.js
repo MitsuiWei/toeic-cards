@@ -741,6 +741,17 @@
 
   // 離線快取（file:// 直接開啟時不註冊）
   if ('serviceWorker' in navigator && location.protocol !== 'file:') {
-    navigator.serviceWorker.register('sw.js').catch(function () {});
+    var hadController = !!navigator.serviceWorker.controller;
+    var reloaded = false;
+    navigator.serviceWorker.register('sw.js').then(function (reg) {
+      // 每次打開都檢查有沒有新版
+      try { reg.update(); } catch (e) {}
+    }).catch(function () {});
+    // 新版快取接手後自動重載一次（第一次安裝不重載）
+    navigator.serviceWorker.addEventListener('controllerchange', function () {
+      if (!hadController || reloaded) return;
+      reloaded = true;
+      location.reload();
+    });
   }
 })();

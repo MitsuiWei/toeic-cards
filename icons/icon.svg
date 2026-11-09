@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 360" width="360" height="360">
+  <rect width="360" height="360" fill="#593F28"/>
+  <rect x="92" y="60" width="216" height="240" rx="28" fill="#F9F7E8"/>
+  <rect x="58" y="76" width="42" height="46" rx="11" fill="#EEE0D5"/>
+  <rect x="58" y="132" width="42" height="46" rx="11" fill="#DEF4C6"/>
+  <rect x="58" y="188" width="42" height="46" rx="11" fill="#CBE5FE"/>
+  <rect x="58" y="244" width="42" height="46" rx="11" fill="#FDFEBC"/>
+  <text x="200" y="233" font-size="158" font-weight="900" fill="#FC8300" text-anchor="middle" font-family="Noto Sans CJK TC, Noto Sans TC, PingFang TC, sans-serif">多</text>
+</svg>

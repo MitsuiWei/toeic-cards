@@ -514,33 +514,35 @@ kbd {
   .page { grid-template-columns: 1fr; padding: 12px 12px 90px; }
   .rail {
     position: static;
-    flex-direction: row;
-    gap: 6px;
-    padding: 0 0 0 10px;
-    overflow-x: auto;
-    scrollbar-width: none;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 5px;
+    padding: 0 8px;
+    overflow: visible;
   }
-  .rail::-webkit-scrollbar { display: none; }
   .tab {
     width: auto;
     min-height: 0;
-    flex: 0 0 auto;
     border-right: 2.5px solid var(--ink);
     border-bottom: 0;
     border-radius: 12px 12px 0 0;
-    padding: 7px 12px 6px;
+    padding: 8px 2px 6px;
     flex-direction: row;
-    gap: 6px;
+    justify-content: center;
     align-items: baseline;
+    gap: 4px;
+    flex: none;
   }
   .tab-all { min-height: 0; }
   .tab.is-active { margin-right: 0; margin-bottom: -2.5px; }
   .tab.is-active::before { display: none; }
-  .tab-text { writing-mode: horizontal-tb; text-orientation: mixed; letter-spacing: 0; font-size: 13px; gap: 3px; }
-  .tab-text b { font-size: 14px; }
-  .tab-text i { font-size: 15px; }
+  .tab-text { writing-mode: horizontal-tb; text-orientation: mixed; letter-spacing: 0; font-size: 13px; gap: 0; }
+  .tab:not(.tab-all) .tab-text b { display: none; }   /* 手機不顯示「衝」 */
+  .tab-all .tab-text b { font-size: 15px; }
+  .tab-all .tab-text i { display: none; }               /* 手機不顯示「1000」 */
+  .tab-text i { font-size: 17px; font-weight: 700; }
   .tab-text em { display: none; }
-  .tab-count { margin: 0; padding: 0; min-height: 0; font-size: 12px; }
+  .tab-count { margin: 0; padding: 0; min-height: 0; font-size: 11px; }
   .frame { padding: 16px 16px 20px; border-radius: 18px; min-height: 0; }
   .frame-head { flex-direction: column; align-items: flex-start; gap: 6px; }
   .brand { text-align: left; }

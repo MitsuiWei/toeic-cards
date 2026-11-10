@@ -60,7 +60,7 @@ kbd {
   margin: 0 auto;
   padding: 28px 20px 48px;
   display: grid;
-  grid-template-columns: 62px 1fr;
+  grid-template-columns: 62px minmax(0, 1fr);   /* minmax(0,…)：內容再寬也不會把框撐出畫面 */
   align-items: stretch;           /* 側標與棕框同高，互相撐開 */
 }
 
@@ -238,6 +238,20 @@ kbd {
 .meaning .pos { margin-right: 4px; }
 .meaning-list { display: flex; flex-direction: column; gap: 2px; }
 
+/* 音標：用涵蓋 IPA 字元的字型，避免和中文字型混排高低不齊 */
+.phon {
+  font-family: "Noto Sans", "Segoe UI", "Lucida Sans Unicode", "Helvetica Neue", Arial, sans-serif;
+  color: var(--muted);
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 1.4;
+  letter-spacing: .01em;
+}
+.phon i { font-style: normal; font-size: .78em; font-weight: 700; color: var(--ink); margin-right: 5px; }
+.phon-sep { display: inline-block; width: 16px; }
+.phon-line { margin-top: -6px; }
+.wl-main .phon { font-size: 14px; }
+
 .speakable {
   text-align: left;
   border-radius: 10px;
@@ -385,7 +399,7 @@ kbd {
 .wl-item { border-bottom: 1.5px solid var(--rule); }
 .wl-head {
   display: grid;
-  grid-template-columns: 1fr auto;
+  grid-template-columns: minmax(0, 1fr) auto;
   align-items: center;
   gap: 8px;
   padding: 10px 4px;
@@ -395,7 +409,7 @@ kbd {
   border-radius: 8px;
 }
 .wl-head:hover { background: var(--paper); }
-.wl-main { display: flex; align-items: baseline; gap: 10px; flex-wrap: wrap; }
+.wl-main { display: flex; align-items: baseline; gap: 4px 10px; flex-wrap: wrap; min-width: 0; }
 .wl-word { font-weight: 700; color: var(--orange); font-size: 18px; }
 .wl-def { color: var(--ink); font-size: 14px; }
 .wl-meta { display: flex; align-items: center; gap: 8px; font-size: 12px; color: var(--muted); white-space: nowrap; }
@@ -541,7 +555,7 @@ kbd {
 
 /* ===== 手機 ===== */
 @media (max-width: 720px) {
-  .page { grid-template-columns: 1fr; padding: 12px 12px 90px; }
+  .page { grid-template-columns: minmax(0, 1fr); padding: 12px 12px 90px; }
   .rail {
     position: static;
     display: grid;
@@ -573,6 +587,9 @@ kbd {
   .tab-text i { font-size: 17px; font-weight: 700; }
   .tab-text em { display: none; }
   .tab-count { margin: 0; padding: 0; min-height: 0; font-size: 11px; }
+  .browse-bar { flex-wrap: wrap; }
+  .browse-bar input { flex: 1 1 160px; }
+  .browse-bar select { flex: 1 1 140px; min-width: 0; }
   .frame { padding: 16px 16px 20px; border-radius: 18px; min-height: 0; }
   .frame-head { flex-direction: column; align-items: flex-start; gap: 6px; }
   .brand { text-align: left; }
@@ -582,6 +599,8 @@ kbd {
   .view-btn { padding: 6px 8px 8px; font-size: 15px; white-space: nowrap; flex: 1; text-align: center; }
   .card { padding: 20px 18px 16px; min-height: 0; }
   .word { font-size: 32px; }
+  .phon { font-size: 17px; }
+  .wl-main .phon { font-size: 13px; }
   .meaning { font-size: 20px; }
   .example { font-size: 17px; }
   .example-zh { font-size: 15px; }

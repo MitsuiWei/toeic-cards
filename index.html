@@ -14,7 +14,7 @@
 <link rel="apple-touch-icon" sizes="180x180" href="icons/apple-touch-icon.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700;900&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;500&family=Noto+Sans+TC:wght@400;500;700;900&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="css/style.css">
 <link rel="icon" href="favicon.ico" sizes="32x32">
 <link rel="icon" href="icons/icon.svg" type="image/svg+xml">
@@ -137,12 +137,14 @@
         <label class="row"><span>新字順序</span><select name="newOrder"><option value="list">照單字表順序</option><option value="random">隨機</option></select></label>
         <label class="row"><span>卡片方向</span><select name="direction"><option value="en">看英文，想中文</option><option value="zh">看中文，想英文</option></select></label>
         <label class="row"><span>正面的例句</span><select name="frontExample"><option value="show">顯示，單字標橘色</option><option value="cloze">顯示，把單字挖空</option><option value="hide">不顯示</option></select></label>
+        <label class="row"><span>音標</span><select name="phonetic"><option value="kk">KK 音標 [ˋkʌmpənɪ]</option><option value="ipa">IPA 國際音標 /ˈkʌmpəni/</option><option value="none">不顯示</option></select></label>
 
         <h2 class="stat-h">發音</h2>
+        <label class="row"><span>新卡出現時自動唸單字</span><select name="speakOnShow"><option value="yes">唸</option><option value="no">不唸</option></select></label>
         <label class="row"><span>翻面時自動播放</span><select name="autoSpeak"><option value="none">不播</option><option value="word">單字</option><option value="both">單字＋例句</option></select></label>
-        <label class="row"><span>翻到正面時自動唸單字</span><select name="frontSpeak"><option value="no">不唸</option><option value="yes">唸</option></select></label>
         <label class="row"><span>語速</span><select name="rate"><option value="0.7">0.7 慢</option><option value="0.85">0.85</option><option value="1">1.0 正常</option><option value="1.15">1.15 快</option></select></label>
         <label class="row"><span>語音</span><select name="voice" id="voiceSelect"><option value="">自動（偏好美式）</option></select></label>
+        <p class="note">「新卡出現時自動唸」只在「看英文，想中文」時作用；剛打開網頁的第一張卡不會自動唸（瀏覽器規定要先有點擊才能出聲）。音標依美式發音標註，詞性不同唸法不同的字會分開列。</p>
         <p class="note">發音用的是瀏覽器內建的語音（Web Speech API），不同裝置聲音會不一樣。Chrome 的「Google US English」和 iPhone / Mac 的「Samantha」品質較好。</p>
 
         <h2 class="stat-h">資料</h2>

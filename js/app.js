@@ -17,7 +17,8 @@
     direction: 'en',
     frontExample: 'show',
     autoSpeak: 'word',
-    frontSpeak: 'no',
+    speakOnShow: 'yes',
+    phonetic: 'kk',
     rate: '0.85',
     voice: ''
   };
@@ -99,6 +100,26 @@
   }
   function posText(d) { return '(' + d[0] + ')'; }
   function defsText(w) { return w.d.map(function (d) { return posText(d) + ' ' + d[1]; }).join('　'); }
+  /* 音標：KK 用 [ ]，IPA 用 / /；詞性不同唸法不同的字分開列 */
+  function phonText(w, mode) {
+    mode = mode || state.settings.phonetic;
+    if (mode === 'none') return '';
+    var v = mode === 'ipa' ? w.ip : w.kk;
+    if (!v) return '';
+    var a = mode === 'ipa' ? '/' : '[', b = mode === 'ipa' ? '/' : ']';
+    if (typeof v === 'string') return a + v + b;
+    return v.map(function (x) { return x[0] + ' ' + a + x[1] + b; }).join('　');
+  }
+  function phonHtml(w, cls) {
+    var mode = state.settings.phonetic;
+    if (mode === 'none') return '';
+    var v = mode === 'ipa' ? w.ip : w.kk;
+    if (!v) return '';
+    var a = mode === 'ipa' ? '/' : '[', b = mode === 'ipa' ? '/' : ']';
+    var inner = typeof v === 'string' ? esc(a + v + b)
+      : v.map(function (x) { return '<i>' + esc(x[0]) + '</i>' + esc(a + x[1] + b); }).join('<span class="phon-sep"></span>');
+    return '<span class="phon ' + (cls || '') + '" lang="en">' + inner + '</span>';
+  }
 
   /* ---------- 發音 ---------- */
   var synth = window.speechSynthesis;
@@ -137,10 +158,21 @@
     if (speakingEl) { speakingEl.classList.remove('is-speaking'); speakingEl = null; }
   }
   /* items: [{text, el}] 依序播放 */
-  function speakSeq(items) {
-    if (!synth) { toast('這個瀏覽器不支援語音發音'); return; }
+  // 最近一次使用者操作的時間：自動發音只在操作之後觸發（瀏覽器不允許頁面自己出聲）
+  var lastGesture = 0;
+  ['pointerdown', 'touchend', 'click', 'keydown'].forEach(function (ev) {
+    document.addEventListener(ev, function () { lastGesture = Date.now(); }, true);
+  });
+  var cancelBusyAt = 0;
+  function stopSpeech() {
+    if (!synth) return;
+    if (synth.speaking || synth.pending) cancelBusyAt = Date.now();
     synth.cancel();
     clearSpeaking();
+  }
+  function speakSeq(items) {
+    if (!synth) { toast('這個瀏覽器不支援語音發音'); return; }
+    stopSpeech();
     var i = 0;
     function next() {
       if (i >= items.length) return;
@@ -155,8 +187,9 @@
       u.onerror = function () { clearSpeaking(); };
       synth.speak(u);
     }
-    // Chrome 在 cancel 之後立刻 speak 偶爾會被吃掉，延遲一點點
-    setTimeout(next, 60);
+    // 剛打斷正在播的語音時，Chrome 立刻 speak 偶爾會被吃掉，稍等一下；
+    // 其他情況同步播放（iPhone 要求發聲必須發生在點擊事件裡）
+    if (Date.now() - cancelBusyAt < 150) setTimeout(next, 80); else next();
   }
   function speak(text, el) { speakSeq([{ text: text, el: el }]); }
   if (synth) {
@@ -224,11 +257,21 @@
       empty.hidden = false;
       empty.innerHTML = emptyMessage(q);
       $('#knownBtn').hidden = true;
+      shownId = null;
       return;
     }
     empty.hidden = true;
     card.hidden = false;
     renderCard(byId[current.id]);
+    if (current.id !== shownId) { shownId = current.id; speakShown(); }
+  }
+  /* 新卡出現時自動唸單字（設定可關）。看中文想英文時不唸，不然等於先講答案 */
+  var shownId = null;
+  function speakShown() {
+    var s = state.settings;
+    if (s.speakOnShow !== 'yes' || s.direction !== 'en' || revealed || !current) return;
+    if (document.hidden || Date.now() - lastGesture > 1500) return;
+    speak(byId[current.id].w, wordEl());
   }
   function stillValid(id, q) {
     if (q.learn.indexOf(id) >= 0 || q.review.indexOf(id) >= 0 || q.fresh.indexOf(id) >= 0) return true;
@@ -256,7 +299,7 @@
     var front = $('#cardFront'), back = $('#cardBack');
     var badge = state.level === 'all' ? '<span class="level-badge" data-level="' + w.lv + '">衝 ' + w.lv + ' 分</span>' : '';
     var wordBtn = '<div class="word-line"><button class="speakable word" data-say="word" aria-label="唸單字 ' + esc(w.w) + '">' + esc(w.w) + SPK + '</button>' +
-      '<span class="pos">' + esc(posText(w.d[0])) + '</span></div>';
+      '<span class="pos">' + esc(posText(w.d[0])) + '</span></div>' + phonHtml(w, 'phon-line');
     var meanings = '<div class="meaning-list">' + w.d.map(function (d) {
       return '<div class="meaning"><span class="pos">' + esc(posText(d)) + '</span>' + esc(d[1]) + '</div>';
     }).join('') + '</div>';
@@ -310,10 +353,9 @@
     state.log.push([Date.now(), id, rating, before.st]);
     if (state.log.length > 30000) state.log = state.log.slice(-25000);
     save();
-    current = null; revealed = false; forceAhead = false;
-    if (synth) synth.cancel();
+    current = null; revealed = false; forceAhead = false; shownId = null;
+    stopSpeech();
     renderAll();
-    if (current && state.settings.frontSpeak === 'yes' && state.settings.direction === 'en') speak(byId[current.id].w, wordEl());
   }
   function undo() {
     var u = undoStack.pop();
@@ -323,7 +365,7 @@
     state.log.length = u.logLen;
     save();
     current = { id: u.id, kind: u.prev.st === 'new' ? 'new' : u.prev.st === 'review' ? 'review' : 'learn', ahead: true };
-    revealed = false;
+    revealed = false; shownId = null;
     renderAll();
     toast('已復原：' + byId[u.id].w);
   }
@@ -419,7 +461,7 @@
       }
       return '<li class="wl-item" data-id="' + w.id + '">' +
         '<div class="wl-head" role="button" tabindex="0" aria-expanded="' + open + '">' +
-          '<span class="wl-main"><button class="speakable wl-word" data-say-text="' + esc(w.w) + '" aria-label="唸 ' + esc(w.w) + '">' + esc(w.w) + SPK + '</button>' +
+          '<span class="wl-main"><button class="speakable wl-word" data-say-text="' + esc(w.w) + '" aria-label="唸 ' + esc(w.w) + '">' + esc(w.w) + SPK + '</button>' + phonHtml(w) +
           '<span class="wl-def">' + esc(defsText(w)) + '</span></span>' +
           '<span class="wl-meta">' + meta + '</span>' +
         '</div>' + body + '</li>';
@@ -623,9 +665,10 @@
   $('#ankiBtn').addEventListener('click', function () {
     var rows = WORDS.map(function (w) {
       var ex = exampleHtml(w, false).replace(/<mark>/g, '<b>').replace(/<\/mark>/g, '</b>');
-      return [w.w, defsText(w), ex, w.zh, 'TOEIC' + w.lv].join('\t');
+      var ph = phonText(w, state.settings.phonetic === 'ipa' ? 'ipa' : 'kk');
+      return [w.w, ph, defsText(w), ex, w.zh, 'TOEIC' + w.lv].join('\t');
     });
-    download('toeic-1000-anki.tsv', '#separator:tab\n#html:true\n#tags column:5\n' + rows.join('\n'), 'text/tab-separated-values');
+    download('toeic-1000-anki.tsv', '#separator:tab\n#html:true\n#tags column:6\n' + rows.join('\n'), 'text/tab-separated-values');
     toast('已匯出 Anki TSV（匯入時選「製表符」分隔）');
   });
   $('#resetBtn').addEventListener('click', function () {

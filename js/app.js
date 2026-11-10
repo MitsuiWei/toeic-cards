@@ -247,6 +247,7 @@
     if (!current || !stillValid(current.id, q)) {
       var pick = SRS.pickNext(q, Date.now());
       if (!pick && forceAhead && q.pendingLearn.length) pick = { id: q.pendingLearn[0].id, kind: 'learn', ahead: true };
+      if (!pick) forceAhead = false;   // 學習中的卡都出完了，下次回到正常節奏
       current = pick;
       revealed = false;
     }
@@ -254,6 +255,7 @@
     $('#screenBtn').hidden = !q.freshTotal;
     if (!current) {
       card.hidden = true; ratings.hidden = true;
+      if (empty.hidden) emptyShownAt = Date.now();
       empty.hidden = false;
       empty.innerHTML = emptyMessage(q);
       $('#knownBtn').hidden = true;
@@ -265,6 +267,7 @@
     renderCard(byId[current.id]);
     if (current.id !== shownId) { shownId = current.id; speakShown(); }
   }
+  var emptyShownAt = 0;   // 休息畫面出現的時間（快捷鍵防誤觸用）
   /* 新卡出現時自動唸單字（設定可關）。看中文想英文時不唸，不然等於先講答案 */
   var shownId = null;
   function speakShown() {
@@ -281,7 +284,7 @@
     if (q.pendingLearn.length) {
       var wait = Math.max(1, Math.ceil((q.pendingLearn[0].due - Date.now()) / SRS.MIN));
       return '<strong>先休息一下</strong>還有 ' + q.pendingLearn.length + ' 張學習中的卡，' + wait + ' 分鐘後回來。' +
-        '<br><button class="tool-btn" id="aheadBtn">不等了，現在複習</button>';
+        '<br><button class="tool-btn" id="aheadBtn">不等了，現在複習 <kbd>空白鍵</kbd></button>';
     }
     if (q.freshTotal > 0) {
       return '<strong>今天的新字額度用完了</strong>目前每天 ' + state.settings.newPerDay + ' 個新字。這一級還有 ' + q.freshTotal + ' 個沒學過的字。' +
@@ -353,7 +356,7 @@
     state.log.push([Date.now(), id, rating, before.st]);
     if (state.log.length > 30000) state.log = state.log.slice(-25000);
     save();
-    current = null; revealed = false; forceAhead = false; shownId = null;
+    current = null; revealed = false; shownId = null;
     stopSpeech();
     renderAll();
   }
@@ -556,7 +559,7 @@
     t.addEventListener('click', function () {
       var lv = t.getAttribute('data-level');
       state.level = lv === 'all' ? 'all' : Number(lv);
-      current = null; revealed = false; openItem = null; browseLimit = 80;
+      current = null; revealed = false; openItem = null; browseLimit = 80; forceAhead = false;
       if (screen) screen = null;
       $('#counts').hidden = false; $('#studyTools').hidden = false;
       save(); renderAll();
@@ -689,7 +692,16 @@
       if (e.key === 'p' || e.key === 'P') speak(byId[screen.list[screen.idx]].w, $('#screenWord'));
       return;
     }
-    if (state.view !== 'study' || !current) return;
+    if (state.view !== 'study') return;
+    if (!current) {
+      // 休息畫面：空白鍵 / Enter =「不等了，現在複習」。畫面剛出現的 0.6 秒內不反應，避免連按評分時誤觸
+      var ab = document.getElementById('aheadBtn');
+      if (ab && (e.key === ' ' || e.key === 'Enter')) {
+        e.preventDefault();
+        if (Date.now() - emptyShownAt > 600) ab.click();
+      }
+      return;
+    }
     var w = byId[current.id];
     if (e.key === ' ' || e.key === 'Enter') { e.preventDefault(); if (!revealed) reveal(); else rate(3); return; }
     if (/^[1-4]$/.test(e.key)) { e.preventDefault(); rate(Number(e.key)); return; }

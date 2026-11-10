@@ -366,6 +366,7 @@ kbd {
   background: #fff;
 }
 .tool-btn:hover { background: var(--orange-soft); }
+.tool-btn kbd { margin-left: 6px; }
 .tool-btn.danger { border-color: var(--again); color: var(--again); }
 .tool-btn.danger:hover { background: var(--again-bg); }
 
@@ -620,6 +621,7 @@ kbd {
   .speakable { padding: 6px 8px; margin-left: -8px; }
   .speakable .spk { width: 22px; height: 22px; }
   .tool-btn { padding: 10px 16px; }
+  .tool-btn kbd { display: none; }
   .screen-actions .rate { min-height: 60px; }
   .stat-row { grid-template-columns: 1fr 1fr; }
   .row { grid-template-columns: 1fr; gap: 4px; }

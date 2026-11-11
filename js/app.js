@@ -10,6 +10,12 @@
   var SRS = window.SRS;
   var byId = {};
   WORDS.forEach(function (w) { byId[w.id] = w; });
+  var BASE_N = WORDS.length;         // 字表本身的字數；陣列後面接的是「自選」單字
+  function idOf(s) { return /^\d+$/.test(String(s)) ? Number(s) : String(s); }   // 字表的字是數字 id，自選的是 'c_xxx'
+  function lvOf(v) { return v === 'all' || v === 'my' ? v : Number(v); }
+  function lvLabel(lv) { return lv === 'my' ? '自選' : '衝 ' + lv + ' 分'; }
+  function lvShort(lv) { return lv === 'my' ? '自選' : String(lv); }
+  function levels() { return WORDS.length > BASE_N ? [400, 600, 800, 990, 'my'] : [400, 600, 800, 990]; }
 
   var DEFAULT_SETTINGS = {
     newPerDay: 20,
@@ -25,6 +31,7 @@
   };
 
   var state = load();
+  rebuildCustom();
   var undoStack = [];
   var current = null;        // {id, kind}
   var revealed = false;
@@ -45,15 +52,63 @@
     s.view = s.view || 'study';
     s.daily = s.daily || { day: todayKey(), newCount: 0, extraNew: 0 };
     s.settingsUpdated = s.settingsUpdated || 0;
-    // 練習成績：practice[題型][題號] = [作答次數, 答對數, 最後作答時間, 最後一次答對數]
+    // 練習成績：practice[題型][題號] = [作答次數, 答對數, 最後作答時間, 最後一次答對數, 最後一次選的選項（字串）]
     s.practice = s.practice || {};
     ['p5', 'read', 'listen'].forEach(function (k) { s.practice[k] = s.practice[k] || {}; });
     // 每天的練習量：pday[日期] = { p5: [題數, 答對], read: [...], listen: [...], t: 最後更新時間 }
     s.pday = s.pday || {};
+    // 自選單字（在練習題裡點一下存下來、字表以外的字）
+    s.custom = s.custom || {};
     return s;
   }
+  /* 自選單字：state.custom[id] = { w, kk, ip, d: ['詞性|中文', …], ex, zh, hl: [起, 迄], t, del }
+     del = 1 是刪除記號（留著給雲端同步用）。這些字接在 WORDS 後面，lv 是 'my'，排程和字表的字一樣。
+     d 存成字串陣列是因為 Firestore 不能存巢狀陣列。 */
+  function customId(word) { return 'c_' + String(word).toLowerCase().replace(/[^a-z0-9]+/g, '_'); }
+  function rebuildCustom() {
+    WORDS.length = BASE_N;
+    Object.keys(byId).forEach(function (k) { if (byId[k].custom) delete byId[k]; });
+    Object.keys(state.custom).filter(function (id) { var c = state.custom[id]; return c && !c.del && c.w; })
+      .sort(function (a, b) { return (state.custom[a].t || 0) - (state.custom[b].t || 0); })
+      .forEach(function (id) {
+        var c = state.custom[id];
+        var d = (c.d || []).map(function (x) { var i = String(x).indexOf('|'); return [String(x).slice(0, i), String(x).slice(i + 1)]; });
+        var w = { id: id, w: c.w, lv: 'my', kk: c.kk || '', ip: c.ip || '', d: d.length ? d : [['', '']],
+                  ex: c.ex || '', zh: c.zh || '', hl: c.hl && c.hl.length === 2 ? c.hl : [0, 0], custom: true };
+        WORDS.push(w); byId[id] = w;
+      });
+  }
+  function addCustom(e) {
+    var id = customId(e.w), now = Date.now();
+    state.custom[id] = { w: e.w, kk: e.kk || '', ip: e.ip || '', d: (e.d || []).map(function (x) { return x[0] + '|' + x[1]; }),
+                         ex: e.ex || '', zh: e.zh || '', hl: e.hl || [0, 0], t: now, del: 0 };
+    pending.custom[id] = true;
+    rebuildCustom();
+    if (!state.recs[id] || state.recs[id].st === 'new') setRec(id, Object.assign(SRS.newRecord(), { last: now, pri: now }));
+    save(); renderTabs();
+    return id;
+  }
+  function removeCustom(id) {
+    if (!state.custom[id]) return;
+    state.custom[id] = { t: Date.now(), del: 1 };
+    pending.custom[id] = true;
+    delete state.recs[id]; pending.ids[id] = true;
+    rebuildCustom();
+    if (current && current.id === id) { current = null; revealed = false; }
+    undoStack = [];
+    save(); renderTabs();
+  }
+  /* 字表裡還沒學的字：排到新字的最前面（on = false 取消） */
+  function prioritize(id, on) {
+    var r = rec(id);
+    if (r.st !== 'new') return false;
+    var now = Date.now();
+    setRec(id, Object.assign({}, r, { pri: on ? now : 0, last: now }));
+    save();
+    return true;
+  }
   // 還沒推到雲端的變更
-  var pending = { ids: {}, settings: false, logFrom: state.log.length, practice: {}, pdays: {} };
+  var pending = { ids: {}, settings: false, logFrom: state.log.length, practice: {}, pdays: {}, custom: {} };
   function persist() {
     try { localStorage.setItem(STORE_KEY, JSON.stringify(state)); }
     catch (e) { toast('無法儲存進度：瀏覽器儲存空間不可用'); }
@@ -64,13 +119,13 @@
     if (pending.logFrom > state.log.length) pending.logFrom = state.log.length;
     var ids = Object.keys(pending.ids);
     var entries = state.log.slice(pending.logFrom);
-    var pr = Object.keys(pending.practice), pd = Object.keys(pending.pdays);
-    if (ids.length || pending.settings || entries.length || pr.length || pd.length) {
-      Sync.noteChange({ ids: ids, settings: pending.settings, daily: true, log: entries, practice: pr, pdays: pd });
+    var pr = Object.keys(pending.practice), pd = Object.keys(pending.pdays), cu = Object.keys(pending.custom);
+    if (ids.length || pending.settings || entries.length || pr.length || pd.length || cu.length) {
+      Sync.noteChange({ ids: ids, settings: pending.settings, daily: true, log: entries, practice: pr, pdays: pd, custom: cu });
     }
     clearPending();
   }
-  function clearPending() { pending = { ids: {}, settings: false, logFrom: state.log.length, practice: {}, pdays: {} }; }
+  function clearPending() { pending = { ids: {}, settings: false, logFrom: state.log.length, practice: {}, pdays: {}, custom: {} }; }
   function notePractice(type, id) { pending.practice[type + '|' + id] = true; pending.pdays[todayKey()] = true; }
   function todayKey(t) {
     var d = new Date(t || Date.now());
@@ -101,7 +156,7 @@
     toastTimer = setTimeout(function () { t.classList.remove('is-on'); }, 2200);
   }
   var SPK = '<svg class="spk" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M11 5 6 9H2v6h4l5 4V5z"/><path d="M15.5 8.5a5 5 0 0 1 0 7"/><path d="M18.5 5.5a9 9 0 0 1 0 13"/></svg>';
-  function levelFilter() { return state.level === 'all' ? 'all' : Number(state.level); }
+  function levelFilter() { return lvOf(state.level); }
   function levelCards() {
     var f = levelFilter();
     return WORDS.filter(function (w) { return f === 'all' || w.lv === f; });
@@ -227,11 +282,12 @@
     $all('.tab').forEach(function (t) {
       var lv = t.getAttribute('data-level');
       t.classList.toggle('is-active', String(state.level) === lv);
-      var n = dueCount(lv === 'all' ? 'all' : Number(lv));
+      var n = dueCount(lvOf(lv));
       t.querySelector('.tab-count').textContent = n ? String(n) : '';
     });
     var pill = $('#deckPill');
-    if (state.level === 'all') pill.innerHTML = '全部 <span class="pill-num">1000</span> 字';
+    if (state.level === 'all') pill.innerHTML = '全部 <span class="pill-num">' + WORDS.length + '</span> 字';
+    else if (state.level === 'my') pill.innerHTML = '自選單字 <span class="pill-num">' + (WORDS.length - BASE_N) + '</span> 個';
     else pill.innerHTML = '衝 <span class="pill-num">' + state.level + '</span> 分必備單字';
   }
   function renderViews() {
@@ -292,6 +348,9 @@
     return q.pendingLearn.some(function (p) { return p.id === id; }) && (forceAhead || current.ahead);
   }
   function emptyMessage(q) {
+    if (state.level === 'my' && WORDS.length === BASE_N) {
+      return '<strong>還沒有自選單字</strong>做「練習」的題目時，點一下不認識的英文字，就會存到這裡，之後和其他單字卡一樣排進來背。';
+    }
     if (q.pendingLearn.length) {
       var wait = Math.max(1, Math.ceil((q.pendingLearn[0].due - Date.now()) / SRS.MIN));
       return '<strong>先休息一下</strong>還有 ' + q.pendingLearn.length + ' 張學習中的卡，' + wait + ' 分鐘後回來。' +
@@ -311,15 +370,15 @@
   function renderCard(w) {
     var s = state.settings;
     var front = $('#cardFront'), back = $('#cardBack');
-    var badge = state.level === 'all' ? '<span class="level-badge" data-level="' + w.lv + '">衝 ' + w.lv + ' 分</span>' : '';
+    var badge = state.level === 'all' ? '<span class="level-badge" data-level="' + w.lv + '">' + lvLabel(w.lv) + '</span>' : '';
     var wordBtn = '<div class="word-line"><button class="speakable word" data-say="word" aria-label="唸單字 ' + esc(w.w) + '">' + esc(w.w) + SPK + '</button>' +
       '<span class="pos">' + esc(posText(w.d[0])) + '</span></div>' + phonHtml(w, 'phon-line');
     var meanings = '<div class="meaning-list">' + w.d.map(function (d) {
       return '<div class="meaning"><span class="pos">' + esc(posText(d)) + '</span>' + esc(d[1]) + '</div>';
     }).join('') + '</div>';
     var exHtml = exampleHtml(w, s.frontExample === 'cloze' && s.direction === 'en' && !revealed);
-    var exBtn = '<button class="speakable example" data-say="ex" aria-label="唸例句">' + exHtml + SPK + '</button>';
-    var zh = '<div class="example-zh">' + esc(w.zh) + '</div>';
+    var exBtn = w.ex ? '<button class="speakable example" data-say="ex" aria-label="唸例句">' + exHtml + SPK + '</button>' : '';   // 自選的字不一定有例句
+    var zh = w.zh ? '<div class="example-zh">' + esc(w.zh) + '</div>' : '';
 
     if (s.direction === 'en') {
       front.innerHTML = badge + wordBtn + (s.frontExample !== 'hide' ? exBtn : '');
@@ -460,17 +519,18 @@
       var open = openItem === w.id;
       var meta = '<span class="state state-' + r.st + '">' + stateLabel(r) + '</span>';
       if (r.st === 'review' || r.st === 'learning' || r.st === 'relearning') meta += '<span>' + SRS.fmtDue(r.due, now) + '</span>';
-      if (state.level === 'all') meta = '<span class="level-badge" data-level="' + w.lv + '" style="margin:0">' + w.lv + '</span>' + meta;
+      if (state.level === 'all') meta = '<span class="level-badge" data-level="' + w.lv + '" style="margin:0">' + lvShort(w.lv) + '</span>' + meta;
       var body = '';
       if (open) {
         body = '<div class="wl-body">' +
-          '<button class="speakable example" data-say-text="' + esc(w.ex) + '">' + exampleHtml(w, false) + SPK + '</button>' +
-          '<div class="example-zh">' + esc(w.zh) + '</div>' +
+          (w.ex ? '<button class="speakable example" data-say-text="' + esc(w.ex) + '">' + exampleHtml(w, false) + SPK + '</button>' : '') +
+          (w.zh ? '<div class="example-zh">' + esc(w.zh) + '</div>' : '') +
           '<div class="browse-summary">複習 ' + (r.reps || 0) + ' 次・忘記 ' + (r.lapses || 0) + ' 次' + (r.st === 'review' ? '・間隔 ' + r.iv + ' 天' : '') + '</div>' +
           '<div class="wl-actions">' +
             (r.st === 'known' ? '<button class="tool-btn" data-act="unknown">取消已會，重新學</button>' : '<button class="tool-btn" data-act="known">標記為已會</button>') +
             (r.st === 'suspended' ? '<button class="tool-btn" data-act="resume">恢復</button>' : (r.st !== 'known' ? '<button class="tool-btn" data-act="suspend">停用</button>' : '')) +
             (r.st !== 'new' ? '<button class="tool-btn" data-act="reset">重置進度</button>' : '') +
+            (w.custom ? '<button class="tool-btn danger" data-act="remove">從自選移除</button>' : '') +
           '</div></div>';
       }
       return '<li class="wl-item" data-id="' + w.id + '">' +
@@ -511,15 +571,20 @@
       '<div class="stat"><b>' + newToday + '</b><span>今天新學</span></div>' +
       '<div class="stat"><b>' + streak + '</b><span>連續天數</span></div>';
 
-    $('#levelBars').innerHTML = [400, 600, 800, 990].map(function (lv) {
+    $('#levelBars').innerHTML = levels().map(function (lv) {
       var cards = WORDS.filter(function (w) { return w.lv === lv; });
       var k = 0, rv = 0, ln = 0;
       cards.forEach(function (w) { var r = rec(w.id); if (r.st === 'known') k++; else if (r.st === 'review') rv++; else if (r.st === 'learning' || r.st === 'relearning') ln++; });
       var n = cards.length;
-      return '<div class="lb"><span class="lb-name level-badge" data-level="' + lv + '" style="margin:0">' + lv + '</span>' +
+      return '<div class="lb" role="button" tabindex="0" data-stat-lv="' + lv + '" title="看這一級有哪些字"><span class="lb-name level-badge" data-level="' + lv + '" style="margin:0">' + lvShort(lv) + '</span>' +
         '<div class="lb-bar"><i class="seg-review" style="width:' + (rv / n * 100) + '%"></i><i class="seg-learning" style="width:' + (ln / n * 100) + '%"></i><i class="seg-known" style="width:' + (k / n * 100) + '%"></i></div>' +
         '<span class="lb-num">' + (rv + ln + k) + ' / ' + n + '</span></div>';
-    }).join('') + '<div class="legend"><span><i style="background:var(--good)"></i>複習中 ' + reviewN + '</span><span><i style="background:var(--again)"></i>學習中 ' + learnN + '</span><span><i style="background:var(--ink);opacity:.55"></i>已會 ' + known + '</span><span>還沒學 ' + (total - reviewN - learnN - known) + '</span></div>';
+    }).join('') + '<div class="legend">' + STAT_GROUPS.map(function (g) {
+      var n = g[0] === 'review' ? reviewN : g[0] === 'learning' ? learnN : g[0] === 'known' ? known : total - reviewN - learnN - known;
+      return '<button type="button" class="legend-btn' + (statSel && statSel.g === g[0] ? ' is-on' : '') + '" data-stat-g="' + g[0] + '" aria-expanded="' + !!(statSel && statSel.g === g[0]) + '">' +
+        '<i style="background:' + g[2] + '"></i>' + g[1] + ' <b>' + n + '</b></button>';
+    }).join('') + '</div><p class="note legend-note">點上面任一項，會列出是哪些字。</p>';
+    renderStatWords();
 
     var fc = [0, 0, 0, 0, 0, 0, 0], start = SRS.startOfDay(now);
     WORDS.forEach(function (w) {
@@ -553,6 +618,95 @@
     }).join('') : '<li><span>還沒有忘記過的字</span></li>';
   }
 
+  /* 統計頁：點「複習中／學習中／已會／還沒學」列出是哪些字 */
+  var STAT_GROUPS = [['review', '複習中', 'var(--good)'], ['learning', '學習中', 'var(--again)'], ['known', '已會', 'var(--ink);opacity:.55'], ['new', '還沒學', '#cdbfae']];
+  var statSel = null;               // { g: 群組, lv: 'all' 或級別, limit: 顯示幾個 }
+  function statGroup(r) {
+    return r.st === 'review' ? 'review' : (r.st === 'learning' || r.st === 'relearning') ? 'learning' : r.st === 'known' ? 'known' : 'new';
+  }
+  function renderStatWords() {
+    var box = $('#statWords'); if (!box) return;
+    if (!statSel) { box.innerHTML = ''; box.hidden = true; return; }
+    box.hidden = false;
+    var now = Date.now(), g = statSel.g, endToday = SRS.startOfDay(now) + SRS.DAY;
+    var name = STAT_GROUPS.filter(function (x) { return x[0] === g; })[0][1];
+    var all = WORDS.filter(function (w) { return statGroup(rec(w.id)) === g; });
+    var byLv = {};
+    all.forEach(function (w) { byLv[w.lv] = (byLv[w.lv] || 0) + 1; });
+    var items = all.filter(function (w) { return statSel.lv === 'all' || w.lv === statSel.lv; });
+    if (g === 'review' || g === 'learning') items.sort(function (a, b) { return rec(a.id).due - rec(b.id).due; });
+    var h = '<div class="sw-head"><b>' + name + '的字</b><span>' + items.length + ' 個</span><button type="button" class="link-btn" data-stat-close>收起</button></div>' +
+      '<div class="prac-scope sw-levels"><button type="button" class="chip' + (statSel.lv === 'all' ? ' is-on' : '') + '" data-stat-lv="all">全部 ' + all.length + '</button>' +
+      [400, 600, 800, 990, 'my'].map(function (lv) {
+        if (!byLv[lv] && statSel.lv !== lv) return '';          // 沒有字的級別不列
+        return '<button type="button" class="chip' + (statSel.lv === lv ? ' is-on' : '') + '" data-stat-lv="' + lv + '">' + (lv === 'my' ? '自選' : lv + ' 分') + ' ' + (byLv[lv] || 0) + '</button>';
+      }).join('') + '</div>';
+    var note = '';
+    if (g === 'review' && items.length) {
+      var dueToday = 0, week = 0, mature = 0, sum = 0;
+      items.forEach(function (w) {
+        var r = rec(w.id);
+        if (r.due < endToday) dueToday++;
+        if (r.due < endToday + 6 * SRS.DAY) week++;
+        if ((r.iv || 0) >= 21) mature++;
+        sum += r.iv || 0;
+      });
+      note = '今天到期 <b>' + dueToday + '</b> 個・7 天內到期 <b>' + week + '</b> 個・平均間隔 <b>' + Math.round(sum / items.length) + '</b> 天・間隔 21 天以上（已經很熟）<b>' + mature + '</b> 個。快到期的排前面。';
+    } else if (g === 'learning' && items.length) {
+      var re = items.filter(function (w) { return rec(w.id).st === 'relearning'; }).length;
+      note = '新學的 <b>' + (items.length - re) + '</b> 個・忘記後重學的 <b>' + re + '</b> 個。這些字要再答對才會進到「複習中」；可以複習的排前面。';
+    } else if (g === 'known') {
+      note = '你標成「已會」的字，不會出現在複習裡。要改回來，到「單字庫」點那個字，按「取消已會」。';
+    } else if (g === 'new') {
+      note = '還沒開始學的字，依單字表的順序排。';
+    }
+    if (note) h += '<p class="note sw-note">' + note + '</p>';
+    h += '<ul class="wordlist sw-list">' + items.slice(0, statSel.limit).map(function (w) {
+      var r = rec(w.id), meta = '';
+      if (g === 'review') {
+        meta = '<span class="sw-due">' + (r.due < endToday ? '今天' : SRS.fmtDue(r.due, now)) + '</span><span>間隔 ' + (r.iv || 0) + ' 天</span>' + (r.lapses ? '<span>忘 ' + r.lapses + ' 次</span>' : '');
+      } else if (g === 'learning') {
+        meta = '<span class="state state-' + r.st + '">' + (r.st === 'relearning' ? '重學' : '新學') + '</span><span class="sw-due">' + (r.due <= now ? '現在可複習' : SRS.fmtDue(r.due, now)) + '</span>';
+      } else if (r.st === 'suspended') {
+        meta = '<span class="state state-suspended">停用</span>';
+      }
+      if (statSel.lv === 'all') meta = '<span class="level-badge" data-level="' + w.lv + '" style="margin:0">' + lvShort(w.lv) + '</span>' + meta;
+      return '<li class="wl-item"><div class="wl-head sw-row"><span class="wl-main">' +
+        '<button type="button" class="speakable wl-word" data-say-text="' + esc(w.w) + '" aria-label="唸 ' + esc(w.w) + '">' + esc(w.w) + SPK + '</button>' + phonHtml(w) +
+        '<span class="wl-def">' + esc(defsText(w)) + '</span></span><span class="wl-meta">' + meta + '</span></div></li>';
+    }).join('') + '</ul>';
+    if (!items.length) h += '<p class="note">' + (statSel.lv === 'all' ? '' : lvLabel(statSel.lv)) + '目前沒有「' + name + '」的字。</p>';
+    if (items.length > statSel.limit) h += '<div class="wl-more"><button type="button" class="tool-btn" id="statMore">顯示更多（還有 ' + (items.length - statSel.limit) + ' 個）</button></div>';
+    box.innerHTML = h;
+  }
+  function statClick(e) {
+    var t = e.target;
+    var sp = t.closest('.speakable[data-say-text]');
+    if (sp) { speak(sp.getAttribute('data-say-text'), sp); return; }
+    if (t.closest('[data-goto="wrong"]')) { state.view = 'practice'; stopSpeech(); save(); renderViews(); if (window.Practice) Practice.openWrong(); return; }
+    if (t.closest('[data-stat-close]')) { statSel = null; renderStats(); return; }
+    if (t.id === 'statMore') { statSel.limit += 100; renderStatWords(); return; }
+    var gb = t.closest('[data-stat-g]');
+    if (gb) {
+      var k = gb.getAttribute('data-stat-g');
+      statSel = statSel && statSel.g === k ? null : { g: k, lv: statSel ? statSel.lv : 'all', limit: 60 };
+      renderStats(); return;
+    }
+    var lb = t.closest('[data-stat-lv]');
+    if (lb) {
+      var v = lb.getAttribute('data-stat-lv'), lv = lvOf(v), grp = statSel ? statSel.g : null;
+      var fromRow = lb.classList.contains('lb');
+      if (!grp) {                     // 從級別那一列點進來：挑這一級第一個有字的分類
+        var has = {};
+        WORDS.forEach(function (w) { if (w.lv === lv) has[statGroup(rec(w.id))] = true; });
+        grp = ['review', 'learning', 'known', 'new'].filter(function (x) { return has[x]; })[0] || 'new';
+      }
+      statSel = { g: grp, lv: lv, limit: 60 };
+      renderStats();
+      if (fromRow) $('#statWords').scrollIntoView({ block: 'nearest' });
+    }
+  }
+
   /* ---------- 設定 ---------- */
   function renderSettings() {
     renderSync();
@@ -575,13 +729,17 @@
   $all('.tab').forEach(function (t) {
     t.addEventListener('click', function () {
       var lv = t.getAttribute('data-level');
-      state.level = lv === 'all' ? 'all' : Number(lv);
+      state.level = lvOf(lv);
       current = null; revealed = false; openItem = null; browseLimit = 80; forceAhead = false;
       if (screen) screen = null;
       if (window.Practice) Practice.reset();
       $('#counts').hidden = false; $('#studyTools').hidden = false;
       save(); renderAll();
     });
+  });
+  $('#view-stats').addEventListener('click', statClick);
+  $('#view-stats').addEventListener('keydown', function (e) {
+    if ((e.key === 'Enter' || e.key === ' ') && e.target.classList && e.target.classList.contains('lb')) { e.preventDefault(); statClick(e); }
   });
   $all('.view-btn').forEach(function (b) {
     b.addEventListener('click', function () {
@@ -629,9 +787,10 @@
     var act = e.target.closest('[data-act]');
     var li = e.target.closest('.wl-item');
     if (!li) return;
-    var id = Number(li.getAttribute('data-id'));
+    var id = idOf(li.getAttribute('data-id'));
     if (act) {
       var a = act.getAttribute('data-act');
+      if (a === 'remove') { openItem = null; removeCustom(id); renderBrowse(); toast('已從自選移除'); return; }
       if (a === 'known') markKnown(id, true);
       if (a === 'unknown' || a === 'reset') { setRec(id, Object.assign(SRS.newRecord(), { last: Date.now() })); save(); }
       if (a === 'suspend') { setRec(id, Object.assign({}, rec(id), { st: 'suspended', last: Date.now() })); save(); }
@@ -645,7 +804,7 @@
   $('#wordList').addEventListener('keydown', function (e) {
     if ((e.key === 'Enter' || e.key === ' ') && e.target.classList.contains('wl-head')) {
       e.preventDefault();
-      var id = Number(e.target.closest('.wl-item').getAttribute('data-id'));
+      var id = idOf(e.target.closest('.wl-item').getAttribute('data-id'));
       openItem = openItem === id ? null : id; renderBrowse();
       var el = document.querySelector('.wl-item[data-id="' + id + '"] .wl-head'); if (el) el.focus();
     }
@@ -674,8 +833,9 @@
         if (!s || !s.recs) throw new Error('bad');
         if (!confirm('匯入會覆蓋目前這台裝置的進度，確定嗎？')) return;
         localStorage.setItem(STORE_KEY, JSON.stringify(s));
-        state = load(); current = null; undoStack = [];
+        state = load(); rebuildCustom(); current = null; undoStack = [];
         var now = Date.now();
+        Object.keys(state.custom).forEach(function (id) { pending.custom[id] = true; });
         Object.keys(state.recs).forEach(function (id) { state.recs[id].last = Math.max(state.recs[id].last || 0, now); pending.ids[id] = true; });
         state.settingsUpdated = now; pending.settings = true; pending.logFrom = 0;
         ['p5', 'read', 'listen'].forEach(function (tp) { Object.keys(state.practice[tp]).forEach(function (id) { pending.practice[tp + '|' + id] = true; }); });
@@ -697,10 +857,10 @@
     toast('已匯出 Anki TSV（匯入時選「製表符」分隔）');
   });
   $('#resetBtn').addEventListener('click', function () {
-    if (!confirm('確定要清除全部學習進度？設定會保留，單字不會消失。')) return;
+    if (!confirm('確定要清除全部學習進度？設定會保留，單字（包含自選的字）不會消失。')) return;
     var now = Date.now();
     state.recs = {};
-    WORDS.forEach(function (w) { setRec(w.id, Object.assign(SRS.newRecord(), { last: now })); });
+    WORDS.forEach(function (w) { setRec(w.id, Object.assign(SRS.newRecord(), { last: now }, w.custom ? { pri: now } : {})); });
     state.log = []; state.daily = { day: todayKey(), newCount: 0, extraNew: 0 };
     // 練習成績也歸零（留下時間戳，雲端才會跟著歸零）
     ['p5', 'read', 'listen'].forEach(function (tp) { Object.keys(state.practice[tp]).forEach(function (id) { state.practice[tp][id] = [0, 0, now, 0]; pending.practice[tp + '|' + id] = true; }); });
@@ -742,14 +902,25 @@
 
   /* ---------- 雲端同步：合併與介面 ---------- */
   function mergeRemote(remote) {
-    var changed = false, localWin = [], settingsLocalWins = false;
+    var changed = false, localWin = [], settingsLocalWins = false, cWins = [];
+    if (remote.custom) {                 // 自選單字要先合併，後面的進度才對得上
+      var cChanged = false;
+      Object.keys(remote.custom).forEach(function (id) {
+        var r = remote.custom[id]; if (!r || typeof r !== 'object') return;
+        var l = state.custom[id];
+        if (!l || (r.t || 0) > (l.t || 0)) { state.custom[id] = r; cChanged = true; }
+        else if ((l.t || 0) > (r.t || 0)) cWins.push(id);
+      });
+      Object.keys(state.custom).forEach(function (id) { if (!remote.custom[id]) cWins.push(id); });
+      if (cChanged) { rebuildCustom(); changed = true; if (current && !byId[current.id]) { current = null; revealed = false; } }
+    }
     if (remote.recs) {
       Object.keys(remote.recs).forEach(function (id) {
         var rr = remote.recs[id]; if (!rr || !byId[id]) return;
         var lr = state.recs[id];
         var rl = rr.last || 0, ll = lr ? (lr.last || 0) : -1;
         if (!lr && rr.st === 'new' && !rl) return;
-        if (rl > ll) { state.recs[id] = rr; changed = true; if (current && current.id === Number(id)) { current = null; revealed = false; } }
+        if (rl > ll) { state.recs[id] = rr; changed = true; if (current && String(current.id) === String(id)) { current = null; revealed = false; } }
         else if (ll > rl) localWin.push(id);
       });
       Object.keys(state.recs).forEach(function (id) { if (!remote.recs[id]) localWin.push(id); });
@@ -793,7 +964,7 @@
       Object.keys(state.pday).forEach(function (k) { if (!remote.pday[k]) dWins.push(k); });
     }
     if (changed) persist();
-    return { changed: changed, localWinIds: localWin, settingsLocalWins: settingsLocalWins, practiceLocalWins: pWins, pdayLocalWins: dWins };
+    return { changed: changed, localWinIds: localWin, settingsLocalWins: settingsLocalWins, practiceLocalWins: pWins, pdayLocalWins: dWins, customLocalWins: cWins };
   }
   function fmtTime(t) { var d = new Date(t); return pad(d.getHours()) + ':' + pad(d.getMinutes()); }
   function renderSync() {
@@ -832,7 +1003,9 @@
       state: function () { return state; },
       save: save, notePractice: notePractice, todayKey: todayKey,
       esc: esc, toast: toast, byId: byId, rec: rec, setRec: setRec, SRS: SRS,
-      levelFilter: levelFilter, levelName: function () { return state.level === 'all' ? '全部級別' : '衝 ' + state.level + ' 分'; },
+      levelFilter: levelFilter, levelName: function () { return state.level === 'all' ? '全部級別' : lvLabel(state.level); },
+      lvLabel: lvLabel, words: function () { return WORDS; }, baseCount: BASE_N,
+      customId: customId, addCustom: addCustom, removeCustom: removeCustom, prioritize: prioritize,
       speak: speak, speakSeq: speakSeq, stopSpeech: stopSpeech, canSpeak: function () { return !!synth; },
       phonHtml: phonHtml, SPK: SPK,
       renderTabs: renderTabs, isActive: function () { return state.view === 'practice'; }

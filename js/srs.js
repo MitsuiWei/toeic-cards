@@ -178,6 +178,10 @@
     learn.sort(function (a, b) { return recs[a].due - recs[b].due; });
     shuffle(review);
     if (newOrder === 'random') shuffle(fresh);
+    // 在練習題裡點過「要背」的字（pri = 存的時間）排最前面，先存的先背
+    var pri = [], rest = [];
+    for (var k = 0; k < fresh.length; k++) { var pr = recs[fresh[k]]; if (pr && pr.pri) pri.push(fresh[k]); else rest.push(fresh[k]); }
+    if (pri.length) { pri.sort(function (a, b) { return recs[a].pri - recs[b].pri; }); fresh = pri.concat(rest); }
     var newToday = fresh.slice(0, Math.max(0, newAllowance));
     pendingLearn.sort(function (a, b) { return a.due - b.due; });
     return {

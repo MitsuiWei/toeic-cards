@@ -1,0 +1,1457 @@
+[
+{
+"wid": 125,
+"w": "network",
+"pos": [
+"n.",
+"v."
+],
+"zh": [
+"網絡；人際網絡",
+"建立關係"
+],
+"seen_example": "The company expanded its distribution network across Asia."
+},
+{
+"wid": 126,
+"w": "survey",
+"pos": [
+"n.",
+"v."
+],
+"zh": [
+"調查",
+"調查"
+],
+"seen_example": "We are conducting a survey to collect customers' feedback."
+},
+{
+"wid": 127,
+"w": "range",
+"pos": [
+"n.",
+"v."
+],
+"zh": [
+"範圍；系列",
+"涉及…範圍"
+],
+"seen_example": "The new product has a wide range of applications."
+},
+{
+"wid": 128,
+"w": "experiment",
+"pos": [
+"n.",
+"v."
+],
+"zh": [
+"實驗；試驗",
+"實驗；試驗"
+],
+"seen_example": "The scientist conducted an experiment to test their hypothesis."
+},
+{
+"wid": 129,
+"w": "bargain",
+"pos": [
+"n.",
+"v."
+],
+"zh": [
+"折扣品；交易",
+"討價還價"
+],
+"seen_example": "The client drove a hard bargain with the company."
+},
+{
+"wid": 130,
+"w": "draft",
+"pos": [
+"n.",
+"v."
+],
+"zh": [
+"草稿；匯票",
+"起草"
+],
+"seen_example": "I finally finished the first draft of my dissertation."
+},
+{
+"wid": 131,
+"w": "research",
+"pos": [
+"n.",
+"v."
+],
+"zh": [
+"研究；調查",
+"研究；調查"
+],
+"seen_example": "I conducted research to gather data for my project."
+},
+{
+"wid": 132,
+"w": "raise",
+"pos": [
+"n.",
+"v."
+],
+"zh": [
+"加薪",
+"提高；引起"
+],
+"seen_example": "He did not get a raise this year."
+},
+{
+"wid": 133,
+"w": "project",
+"pos": [
+"n.",
+"v."
+],
+"zh": [
+"專案；專題研究",
+"預計；預估"
+],
+"seen_example": "The construction project will start next month."
+},
+{
+"wid": 134,
+"w": "private",
+"pos": [
+"adj."
+],
+"zh": [
+"私人的；私立的"
+],
+"seen_example": "They had a private conversation in the office."
+},
+{
+"wid": 135,
+"w": "personal",
+"pos": [
+"adj."
+],
+"zh": [
+"個人的"
+],
+"seen_example": "She packed up her personal belongings and left."
+},
+{
+"wid": 136,
+"w": "common",
+"pos": [
+"adj."
+],
+"zh": [
+"普遍的；共同的"
+],
+"seen_example": "Chen is a fairly common family name in Taiwan."
+},
+{
+"wid": 137,
+"w": "regular",
+"pos": [
+"adj."
+],
+"zh": [
+"定期的；經常的"
+],
+"seen_example": "They have regular meetings to discuss project updates."
+},
+{
+"wid": 138,
+"w": "major",
+"pos": [
+"adj."
+],
+"zh": [
+"主要的；重大的"
+],
+"seen_example": "Tokyo and New York are major financial centers."
+},
+{
+"wid": 139,
+"w": "available",
+"pos": [
+"adj."
+],
+"zh": [
+"(人)有空的；(物)可取得的"
+],
+"seen_example": "Let's schedule an interview. When are you available?"
+},
+{
+"wid": 140,
+"w": "negative",
+"pos": [
+"adj."
+],
+"zh": [
+"負面的；消極的"
+],
+"seen_example": "The company received negative feedback from its customers."
+},
+{
+"wid": 141,
+"w": "temporary",
+"pos": [
+"adj."
+],
+"zh": [
+"暫時的；臨時的"
+],
+"seen_example": "I am currently working in a temporary position."
+},
+{
+"wid": 142,
+"w": "primary",
+"pos": [
+"adj."
+],
+"zh": [
+"主要的；最初的"
+],
+"seen_example": "English is the primary language in many countries."
+},
+{
+"wid": 143,
+"w": "typical",
+"pos": [
+"adj."
+],
+"zh": [
+"典型的"
+],
+"seen_example": "Typical symptoms include headaches, vomiting, and dizziness."
+},
+{
+"wid": 144,
+"w": "limited",
+"pos": [
+"adj."
+],
+"zh": [
+"有限的；限定的"
+],
+"seen_example": "The company has limited resources to invest in new projects."
+},
+{
+"wid": 145,
+"w": "physical",
+"pos": [
+"adj."
+],
+"zh": [
+"身體的；生理的"
+],
+"seen_example": "Regular exercise is important for maintaining physical health."
+},
+{
+"wid": 146,
+"w": "annual",
+"pos": [
+"adj."
+],
+"zh": [
+"一年一次的；每年的"
+],
+"seen_example": "Our company is having the annual end-of-year party today."
+},
+{
+"wid": 147,
+"w": "frequent",
+"pos": [
+"adj."
+],
+"zh": [
+"頻繁的"
+],
+"seen_example": "He travels to New York on frequent business trips."
+},
+{
+"wid": 148,
+"w": "various",
+"pos": [
+"adj."
+],
+"zh": [
+"各式各樣的；多種多樣的"
+],
+"seen_example": "The hat is available in various colors."
+},
+{
+"wid": 149,
+"w": "suitable",
+"pos": [
+"adj."
+],
+"zh": [
+"合適的"
+],
+"seen_example": "This movie is not suitable for children."
+},
+{
+"wid": 150,
+"w": "practical",
+"pos": [
+"adj."
+],
+"zh": [
+"實際的；實用的"
+],
+"seen_example": "Practical experience is important for learning a new skill."
+},
+{
+"wid": 151,
+"w": "due",
+"pos": [
+"adj."
+],
+"zh": [
+"到期的；應支付的"
+],
+"seen_example": "The assignment is due tomorrow."
+},
+{
+"wid": 152,
+"w": "legal",
+"pos": [
+"adj."
+],
+"zh": [
+"合法的；法律的"
+],
+"seen_example": "Marijuana is legal in some states in the US, but not all."
+},
+{
+"wid": 153,
+"w": "traditional",
+"pos": [
+"adj."
+],
+"zh": [
+"傳統的"
+],
+"seen_example": "The dancers were wearing traditional Hungarian costumes."
+},
+{
+"wid": 154,
+"w": "portable",
+"pos": [
+"adj."
+],
+"zh": [
+"便於攜帶的"
+],
+"seen_example": "The laptop is lightweight and highly portable."
+},
+{
+"wid": 155,
+"w": "harmful",
+"pos": [
+"adj."
+],
+"zh": [
+"有害的"
+],
+"seen_example": "Smoking is harmful to your health."
+},
+{
+"wid": 156,
+"w": "entire",
+"pos": [
+"adj."
+],
+"zh": [
+"全部的；整個的"
+],
+"seen_example": "He read the entire book in just one day."
+},
+{
+"wid": 157,
+"w": "stable",
+"pos": [
+"adj."
+],
+"zh": [
+"穩定的；穩固的"
+],
+"seen_example": "She has a stable job with a steady income."
+},
+{
+"wid": 158,
+"w": "optimistic",
+"pos": [
+"adj."
+],
+"zh": [
+"樂觀的"
+],
+"seen_example": "Despite the challenges, she remains optimistic about the future."
+},
+{
+"wid": 159,
+"w": "capable",
+"pos": [
+"adj."
+],
+"zh": [
+"有能力的；能幹的"
+],
+"seen_example": "He is a capable leader who can handle challenges well."
+},
+{
+"wid": 160,
+"w": "unlikely",
+"pos": [
+"adj."
+],
+"zh": [
+"不太可能的"
+],
+"seen_example": "Let's face it. The team is most unlikely to win."
+},
+{
+"wid": 161,
+"w": "detailed",
+"pos": [
+"adj."
+],
+"zh": [
+"詳細的"
+],
+"seen_example": "Detailed instructions will be provided upon arrival."
+},
+{
+"wid": 162,
+"w": "obvious",
+"pos": [
+"adj."
+],
+"zh": [
+"明顯的；顯然的"
+],
+"seen_example": "It's obvious that she's not happy with the decision."
+},
+{
+"wid": 163,
+"w": "aware",
+"pos": [
+"adj."
+],
+"zh": [
+"察覺的；知道的"
+],
+"seen_example": "I am aware of the awkward vibes in the office."
+},
+{
+"wid": 164,
+"w": "local",
+"pos": [
+"adj.",
+"n."
+],
+"zh": [
+"當地的",
+"當地人"
+],
+"seen_example": "My article was published in the local newspaper."
+},
+{
+"wid": 165,
+"w": "original",
+"pos": [
+"adj.",
+"n."
+],
+"zh": [
+"最初的；原作的；獨創的",
+"原稿；原作"
+],
+"seen_example": "The original plan for the project has been modified."
+},
+{
+"wid": 166,
+"w": "spare",
+"pos": [
+"adj.",
+"n."
+],
+"zh": [
+"多餘的；剩下的",
+"備用品；備件"
+],
+"seen_example": "I have a spare pen you can borrow if you need it."
+},
+{
+"wid": 167,
+"w": "present",
+"pos": [
+"adj.",
+"v."
+],
+"zh": [
+"現在的；在場的",
+"授予；提交"
+],
+"seen_example": "This is the present situation we're facing."
+},
+{
+"wid": 168,
+"w": "secure",
+"pos": [
+"adj.",
+"v."
+],
+"zh": [
+"安全的；牢固的",
+"使安全；設法得到"
+],
+"seen_example": "Please make sure to keep your personal information secure."
+},
+{
+"wid": 169,
+"w": "initial",
+"pos": [
+"adj.",
+"v."
+],
+"zh": [
+"最初的",
+"簽全名的首字母"
+],
+"seen_example": "The project is still in its initial stages of development."
+},
+{
+"wid": 170,
+"w": "immediately",
+"pos": [
+"adv."
+],
+"zh": [
+"立刻"
+],
+"seen_example": "The new rules will be implemented immediately."
+},
+{
+"wid": 171,
+"w": "nearly",
+"pos": [
+"adv."
+],
+"zh": [
+"幾乎；差不多"
+],
+"seen_example": "We are nearly finished with the project."
+},
+{
+"wid": 172,
+"w": "save",
+"pos": [
+"v."
+],
+"zh": [
+"儲存；省下；挽救"
+],
+"seen_example": "She managed to save enough money to buy a car."
+},
+{
+"wid": 173,
+"w": "invite",
+"pos": [
+"v."
+],
+"zh": [
+"邀請"
+],
+"seen_example": "Let's invite them over for dinner."
+},
+{
+"wid": 174,
+"w": "download",
+"pos": [
+"v."
+],
+"zh": [
+"下載"
+],
+"seen_example": "Please download the latest version of the software."
+},
+{
+"wid": 175,
+"w": "attend",
+"pos": [
+"v."
+],
+"zh": [
+"參加；出席"
+],
+"seen_example": "He did not attend the meeting yesterday due to a headache."
+},
+{
+"wid": 176,
+"w": "cancel",
+"pos": [
+"v."
+],
+"zh": [
+"取消"
+],
+"seen_example": "Your membership was canceled due to late payments."
+},
+{
+"wid": 177,
+"w": "remind",
+"pos": [
+"v."
+],
+"zh": [
+"提醒"
+],
+"seen_example": "Don't forget to remind me about the meeting tomorrow."
+},
+{
+"wid": 178,
+"w": "compare",
+"pos": [
+"v."
+],
+"zh": [
+"比較；對照"
+],
+"seen_example": "We should compare the options before making the decision."
+},
+{
+"wid": 179,
+"w": "deliver",
+"pos": [
+"v."
+],
+"zh": [
+"遞送；發表演說"
+],
+"seen_example": "The courier will deliver the package tomorrow."
+},
+{
+"wid": 180,
+"w": "apologize",
+"pos": [
+"v."
+],
+"zh": [
+"道歉"
+],
+"seen_example": "I apologize for the late response."
+},
+{
+"wid": 181,
+"w": "remove",
+"pos": [
+"v."
+],
+"zh": [
+"去除；免職"
+],
+"seen_example": "Please remove your belongings from the meeting room."
+},
+{
+"wid": 182,
+"w": "organize",
+"pos": [
+"v."
+],
+"zh": [
+"安排；籌辦"
+],
+"seen_example": "Let's organize a meeting to discuss the project details."
+},
+{
+"wid": 183,
+"w": "create",
+"pos": [
+"v."
+],
+"zh": [
+"創造；創作；創立"
+],
+"seen_example": "The artist used different colors to create a vibrant painting."
+},
+{
+"wid": 184,
+"w": "recognize",
+"pos": [
+"v."
+],
+"zh": [
+"認出；認可；表揚"
+],
+"seen_example": "He looked so different I could barely recognize him."
+},
+{
+"wid": 185,
+"w": "book",
+"pos": [
+"v."
+],
+"zh": [
+"預訂"
+],
+"seen_example": "I would like to book a table for four at 7 P.M. tomorrow."
+},
+{
+"wid": 186,
+"w": "respond",
+"pos": [
+"v."
+],
+"zh": [
+"回答；回應"
+],
+"seen_example": "I will respond to your email as soon as possible."
+},
+{
+"wid": 187,
+"w": "mention",
+"pos": [
+"v."
+],
+"zh": [
+"提及"
+],
+"seen_example": "I'll mention your ideas to the manager."
+},
+{
+"wid": 188,
+"w": "calculate",
+"pos": [
+"v."
+],
+"zh": [
+"計算"
+],
+"seen_example": "I need to calculate how much time the assignment will take."
+},
+{
+"wid": 189,
+"w": "install",
+"pos": [
+"v."
+],
+"zh": [
+"安裝"
+],
+"seen_example": "We need to install new software on all the computers."
+},
+{
+"wid": 190,
+"w": "contain",
+"pos": [
+"v."
+],
+"zh": [
+"包含"
+],
+"seen_example": "The bottle contains 500 milliliters of water."
+},
+{
+"wid": 191,
+"w": "match",
+"pos": [
+"v."
+],
+"zh": [
+"相符；相配"
+],
+"seen_example": "The socks don't match my outfit."
+},
+{
+"wid": 192,
+"w": "afford",
+"pos": [
+"v."
+],
+"zh": [
+"負擔得起"
+],
+"seen_example": "I cannot afford this luxurious lifestyle with my current salary."
+},
+{
+"wid": 193,
+"w": "assist",
+"pos": [
+"v."
+],
+"zh": [
+"協助"
+],
+"seen_example": "Please reach out if there's anything we can assist you with."
+},
+{
+"wid": 194,
+"w": "attract",
+"pos": [
+"v."
+],
+"zh": [
+"吸引"
+],
+"seen_example": "The colorful decorations will attract customers."
+},
+{
+"wid": 195,
+"w": "develop",
+"pos": [
+"v."
+],
+"zh": [
+"發展；開發"
+],
+"seen_example": "The company is planning to develop new products next year."
+},
+{
+"wid": 196,
+"w": "confirm",
+"pos": [
+"v."
+],
+"zh": [
+"確認"
+],
+"seen_example": "Please confirm your personal information on the form."
+},
+{
+"wid": 197,
+"w": "apply",
+"pos": [
+"v."
+],
+"zh": [
+"申請；適用"
+],
+"seen_example": "He applied for the manager position."
+},
+{
+"wid": 198,
+"w": "reduce",
+"pos": [
+"v."
+],
+"zh": [
+"減少；降低"
+],
+"seen_example": "We need to reduce our expenses to save money."
+},
+{
+"wid": 199,
+"w": "reject",
+"pos": [
+"v."
+],
+"zh": [
+"拒絕；不錄用"
+],
+"seen_example": "They rejected his job application due to lack of experience."
+},
+{
+"wid": 200,
+"w": "upload",
+"pos": [
+"v."
+],
+"zh": [
+"上傳"
+],
+"seen_example": "The marketing team will upload the presentation tomorrow."
+},
+{
+"wid": 201,
+"w": "remain",
+"pos": [
+"v."
+],
+"zh": [
+"保持；仍然是"
+],
+"seen_example": "He remained silent throughout the whole interrogation."
+},
+{
+"wid": 202,
+"w": "hire",
+"pos": [
+"v."
+],
+"zh": [
+"雇用；租用"
+],
+"seen_example": "Let's hire someone professional to do our taxes this year."
+},
+{
+"wid": 203,
+"w": "expect",
+"pos": [
+"v."
+],
+"zh": [
+"預料；期望"
+],
+"seen_example": "If you can get this client, you can expect a promotion."
+},
+{
+"wid": 204,
+"w": "advertise",
+"pos": [
+"v."
+],
+"zh": [
+"打廣告；宣傳"
+],
+"seen_example": "They plan to advertise their new product on television."
+},
+{
+"wid": 205,
+"w": "arrange",
+"pos": [
+"v."
+],
+"zh": [
+"安排；排列"
+],
+"seen_example": "We will arrange an interview with you within two days."
+},
+{
+"wid": 206,
+"w": "represent",
+"pos": [
+"v."
+],
+"zh": [
+"代表"
+],
+"seen_example": "The lawyer will represent the company in the legal proceedings."
+},
+{
+"wid": 207,
+"w": "intend",
+"pos": [
+"v."
+],
+"zh": [
+"打算；計劃"
+],
+"seen_example": "They intend to expand their business operations overseas."
+},
+{
+"wid": 208,
+"w": "recommend",
+"pos": [
+"v."
+],
+"zh": [
+"推薦；介紹"
+],
+"seen_example": "I highly recommend this restaurant for its delicious food."
+},
+{
+"wid": 209,
+"w": "participate",
+"pos": [
+"v."
+],
+"zh": [
+"參加；參與"
+],
+"seen_example": "We encourage everyone to participate in the event."
+},
+{
+"wid": 210,
+"w": "require",
+"pos": [
+"v."
+],
+"zh": [
+"要求；需要"
+],
+"seen_example": "They require that you bring only one guest to the dinner."
+},
+{
+"wid": 211,
+"w": "subscribe",
+"pos": [
+"v."
+],
+"zh": [
+"訂閱"
+],
+"seen_example": "If you like the video, please share and subscribe."
+},
+{
+"wid": 212,
+"w": "replace",
+"pos": [
+"v."
+],
+"zh": [
+"取代；代替"
+],
+"seen_example": "It's time to replace the old furniture."
+},
+{
+"wid": 213,
+"w": "perform",
+"pos": [
+"v."
+],
+"zh": [
+"進行；表演"
+],
+"seen_example": "We ask interviewees to perform a few tasks on the computer."
+},
+{
+"wid": 214,
+"w": "introduce",
+"pos": [
+"v."
+],
+"zh": [
+"引進；介紹"
+],
+"seen_example": "New measures are introduced to ease traffic congestion."
+},
+{
+"wid": 215,
+"w": "prevent",
+"pos": [
+"v."
+],
+"zh": [
+"預防；阻止"
+],
+"seen_example": "Regular exercise can help prevent certain diseases."
+},
+{
+"wid": 216,
+"w": "reach",
+"pos": [
+"v."
+],
+"zh": [
+"聯絡到；到達"
+],
+"seen_example": "You can reach me at this number if you have any questions."
+},
+{
+"wid": 217,
+"w": "consider",
+"pos": [
+"v."
+],
+"zh": [
+"考慮；認為"
+],
+"seen_example": "We need to consider all the factors before making a decision."
+},
+{
+"wid": 218,
+"w": "retire",
+"pos": [
+"v."
+],
+"zh": [
+"退休"
+],
+"seen_example": "After working for 40 years, he decided to retire."
+},
+{
+"wid": 219,
+"w": "attach",
+"pos": [
+"v."
+],
+"zh": [
+"附上；連接"
+],
+"seen_example": "Don't forget to attach your résumé to the application."
+},
+{
+"wid": 220,
+"w": "interrupt",
+"pos": [
+"v."
+],
+"zh": [
+"打斷；中斷"
+],
+"seen_example": "Please do not interrupt the speaker while they are talking."
+},
+{
+"wid": 221,
+"w": "seek",
+"pos": [
+"v."
+],
+"zh": [
+"尋求"
+],
+"seen_example": "We seek to improve the quality of our products."
+},
+{
+"wid": 222,
+"w": "depart",
+"pos": [
+"v."
+],
+"zh": [
+"啟程；出發"
+],
+"seen_example": "The train will depart from platform six at 2 P.M."
+},
+{
+"wid": 223,
+"w": "disturb",
+"pos": [
+"v."
+],
+"zh": [
+"打斷；擾亂"
+],
+"seen_example": "Please do not disturb me while I'm working."
+},
+{
+"wid": 224,
+"w": "propose",
+"pos": [
+"v."
+],
+"zh": [
+"提議"
+],
+"seen_example": "I propose that we organize a team-building activity next month."
+},
+{
+"wid": 225,
+"w": "identify",
+"pos": [
+"v."
+],
+"zh": [
+"確認；辨識"
+],
+"seen_example": "It can be difficult to identify the exact cause of the issue."
+},
+{
+"wid": 226,
+"w": "offer",
+"pos": [
+"v.",
+"n."
+],
+"zh": [
+"提供；主動提議",
+"提供；主動提議"
+],
+"seen_example": "They offered me a promotion and a higher salary."
+},
+{
+"wid": 227,
+"w": "rise",
+"pos": [
+"v.",
+"n."
+],
+"zh": [
+"上升",
+"上升"
+],
+"seen_example": "The price of cigarettes has risen again."
+},
+{
+"wid": 228,
+"w": "rent",
+"pos": [
+"v.",
+"n."
+],
+"zh": [
+"租",
+"租金"
+],
+"seen_example": "We rented a car for the trip."
+},
+{
+"wid": 229,
+"w": "increase",
+"pos": [
+"v.",
+"n."
+],
+"zh": [
+"增加",
+"增加"
+],
+"seen_example": "The company plans to increase its production capacity."
+},
+{
+"wid": 230,
+"w": "contact",
+"pos": [
+"v.",
+"n."
+],
+"zh": [
+"聯絡",
+"聯絡；人脈"
+],
+"seen_example": "Please feel free to contact us if you have any questions."
+},
+{
+"wid": 231,
+"w": "interview",
+"pos": [
+"v.",
+"n."
+],
+"zh": [
+"面試；採訪",
+"面試；採訪"
+],
+"seen_example": "Candidates were invited for an interview early next month."
+},
+{
+"wid": 232,
+"w": "repair",
+"pos": [
+"v.",
+"n."
+],
+"zh": [
+"修理；修復",
+"修理；修復"
+],
+"seen_example": "The technician will repair the faulty equipment."
+},
+{
+"wid": 233,
+"w": "update",
+"pos": [
+"v.",
+"n."
+],
+"zh": [
+"更新",
+"更新；最新資訊"
+],
+"seen_example": "Please update your contact information in the system."
+},
+{
+"wid": 234,
+"w": "reserve",
+"pos": [
+"v.",
+"n."
+],
+"zh": [
+"預訂；保留",
+"保護區"
+],
+"seen_example": "Please reserve a seat for me on the next flight."
+},
+{
+"wid": 235,
+"w": "support",
+"pos": [
+"v.",
+"n."
+],
+"zh": [
+"支持；資助",
+"支持"
+],
+"seen_example": "The majority of people in the town support the plan."
+},
+{
+"wid": 236,
+"w": "permit",
+"pos": [
+"v.",
+"n."
+],
+"zh": [
+"允許；同意",
+"許可證"
+],
+"seen_example": "Smoking is not permitted in this building."
+},
+{
+"wid": 237,
+"w": "benefit",
+"pos": [
+"v.",
+"n."
+],
+"zh": [
+"對…有益",
+"利益；好處"
+],
+"seen_example": "I benefited a lot from the training sessions."
+},
+{
+"wid": 238,
+"w": "supply",
+"pos": [
+"v.",
+"n."
+],
+"zh": [
+"供應",
+"供應量；供給量"
+],
+"seen_example": "They supply us with the latest equipment."
+},
+{
+"wid": 239,
+"w": "cause",
+"pos": [
+"v.",
+"n."
+],
+"zh": [
+"導致",
+"起因"
+],
+"seen_example": "The flood was caused by the sudden heavy rain."
+},
+{
+"wid": 240,
+"w": "praise",
+"pos": [
+"v.",
+"n."
+],
+"zh": [
+"讚揚；讚美",
+"讚揚；讚美"
+],
+"seen_example": "The teacher praised the students for their excellent performance."
+},
+{
+"wid": 241,
+"w": "ban",
+"pos": [
+"v.",
+"n."
+],
+"zh": [
+"禁止",
+"禁令"
+],
+"seen_example": "Smoking is banned in this area."
+},
+{
+"wid": 242,
+"w": "damage",
+"pos": [
+"v.",
+"n."
+],
+"zh": [
+"損害",
+"損害；損失"
+],
+"seen_example": "The storm damaged the roof of the house."
+},
+{
+"wid": 243,
+"w": "transfer",
+"pos": [
+"v.",
+"n."
+],
+"zh": [
+"轉移；調部門；轉乘",
+"轉移；調部門；轉乘"
+],
+"seen_example": "We were transferred from one bus to another."
+},
+{
+"wid": 244,
+"w": "launch",
+"pos": [
+"v.",
+"n."
+],
+"zh": [
+"開始；推出",
+"發表會"
+],
+"seen_example": "We're going to launch a recruitment drive next month."
+},
+{
+"wid": 245,
+"w": "command",
+"pos": [
+"v.",
+"n."
+],
+"zh": [
+"命令；控制",
+"控制權"
+],
+"seen_example": "She commanded him to move out after their last fight."
+},
+{
+"wid": 246,
+"w": "advance",
+"pos": [
+"v.",
+"n.",
+"adj."
+],
+"zh": [
+"進步；進展",
+"進步；進展",
+"預先的"
+],
+"seen_example": "They were under orders to advance the next day."
+},
+{
+"wid": 247,
+"w": "fit",
+"pos": [
+"v.",
+"adj."
+],
+"zh": [
+"合適；合身",
+"合適的；健壯的"
+],
+"seen_example": "This dress doesn't fit me well."
+},
+{
+"wid": 248,
+"w": "select",
+"pos": [
+"v.",
+"adj."
+],
+"zh": [
+"挑選",
+"精選的；最優秀的"
+],
+"seen_example": "Please select the items you want to purchase."
+},
+{
+"wid": 249,
+"w": "separate",
+"pos": [
+"v.",
+"adj."
+],
+"zh": [
+"使分開；使分離",
+"分開的；單獨的"
+],
+"seen_example": "Police came to separate the people fighting on the street."
+}
+]

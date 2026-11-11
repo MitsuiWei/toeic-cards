@@ -1,0 +1,1405 @@
+[
+{
+"wid": 750,
+"w": "entrepreneur",
+"pos": [
+"n."
+],
+"zh": [
+"企業家；創業家"
+],
+"seen_example": "The successful entrepreneur launched three companies last year."
+},
+{
+"wid": 751,
+"w": "implication",
+"pos": [
+"n."
+],
+"zh": [
+"可能的影響；暗示；含義"
+],
+"seen_example": "The decision to close the factory has far-reaching implications."
+},
+{
+"wid": 752,
+"w": "benchmark",
+"pos": [
+"n."
+],
+"zh": [
+"基準"
+],
+"seen_example": "This company is the benchmark for quality in the industry."
+},
+{
+"wid": 753,
+"w": "payroll",
+"pos": [
+"n."
+],
+"zh": [
+"薪資名單；薪資支出"
+],
+"seen_example": "The company's payroll shows 500 employees."
+},
+{
+"wid": 754,
+"w": "workflow",
+"pos": [
+"n."
+],
+"zh": [
+"工作流程；作業流程"
+],
+"seen_example": "The new software improved our company's workflow significantly."
+},
+{
+"wid": 755,
+"w": "inflation",
+"pos": [
+"n."
+],
+"zh": [
+"通貨膨脹"
+],
+"seen_example": "Rising oil prices led to inflation in the transportation sector."
+},
+{
+"wid": 756,
+"w": "deduction",
+"pos": [
+"n."
+],
+"zh": [
+"扣減；推論"
+],
+"seen_example": "The accountant made several deductions from her paycheck."
+},
+{
+"wid": 757,
+"w": "workstation",
+"pos": [
+"n."
+],
+"zh": [
+"工作站"
+],
+"seen_example": "The manager organized files at her new workstation."
+},
+{
+"wid": 758,
+"w": "premises",
+"pos": [
+"n."
+],
+"zh": [
+"場所；場地"
+],
+"seen_example": "The company is relocating to new premises next month."
+},
+{
+"wid": 759,
+"w": "chairperson",
+"pos": [
+"n."
+],
+"zh": [
+"主席；董事長"
+],
+"seen_example": "The chairperson opened the meeting with a brief introduction."
+},
+{
+"wid": 760,
+"w": "emission",
+"pos": [
+"n."
+],
+"zh": [
+"排放"
+],
+"seen_example": "We should work to reduce the emission of greenhouse gases."
+},
+{
+"wid": 761,
+"w": "merger",
+"pos": [
+"n."
+],
+"zh": [
+"合併"
+],
+"seen_example": "The merger of the two schools took place last year."
+},
+{
+"wid": 762,
+"w": "attire",
+"pos": [
+"n."
+],
+"zh": [
+"服裝"
+],
+"seen_example": "The employees should dress in formal attire."
+},
+{
+"wid": 763,
+"w": "recognition",
+"pos": [
+"n."
+],
+"zh": [
+"認可"
+],
+"seen_example": "She received recognition for her outstanding performance."
+},
+{
+"wid": 764,
+"w": "enterprise",
+"pos": [
+"n."
+],
+"zh": [
+"企業"
+],
+"seen_example": "Chung-Hua Post is a government-owned enterprise."
+},
+{
+"wid": 765,
+"w": "correspondence",
+"pos": [
+"n."
+],
+"zh": [
+"通信；相對應"
+],
+"seen_example": "The manager reviewed all correspondence from overseas clients."
+},
+{
+"wid": 766,
+"w": "contractor",
+"pos": [
+"n."
+],
+"zh": [
+"承包商；合約工"
+],
+"seen_example": "The contractor submitted his bid for the project."
+},
+{
+"wid": 767,
+"w": "conjunction",
+"pos": [
+"n."
+],
+"zh": [
+"結合；連接詞；交會處"
+],
+"seen_example": "The meeting was postponed in conjunction with the budget review."
+},
+{
+"wid": 768,
+"w": "commodity",
+"pos": [
+"n."
+],
+"zh": [
+"商品"
+],
+"seen_example": "Crude oil has been the world's most important commodity."
+},
+{
+"wid": 769,
+"w": "deficit",
+"pos": [
+"n."
+],
+"zh": [
+"虧損，赤字"
+],
+"seen_example": "The trade balance has been in deficit for five years."
+},
+{
+"wid": 770,
+"w": "compliance",
+"pos": [
+"n."
+],
+"zh": [
+"遵守"
+],
+"seen_example": "The company ensured compliance with safety regulations."
+},
+{
+"wid": 771,
+"w": "connectivity",
+"pos": [
+"n."
+],
+"zh": [
+"連線；連接"
+],
+"seen_example": "Poor connectivity disrupted the international video conference call."
+},
+{
+"wid": 772,
+"w": "blueprint",
+"pos": [
+"n."
+],
+"zh": [
+"藍圖"
+],
+"seen_example": "The architect submitted the final blueprint for approval."
+},
+{
+"wid": 773,
+"w": "profitability",
+"pos": [
+"n."
+],
+"zh": [
+"獲利能力"
+],
+"seen_example": "The company's profitability increased by twenty percent annually."
+},
+{
+"wid": 774,
+"w": "inquiry",
+"pos": [
+"n."
+],
+"zh": [
+"疑問；詢問"
+],
+"seen_example": "She sent an inquiry to the customer service department."
+},
+{
+"wid": 775,
+"w": "credentials",
+"pos": [
+"n."
+],
+"zh": [
+"資歷；資格證明"
+],
+"seen_example": "The applicant's impressive credentials made her the ideal candidate."
+},
+{
+"wid": 776,
+"w": "cofounder",
+"pos": [
+"n."
+],
+"zh": [
+"共同創辦人"
+],
+"seen_example": "The cofounder resigned from his position last month."
+},
+{
+"wid": 777,
+"w": "code",
+"pos": [
+"n."
+],
+"zh": [
+"規範；代碼"
+],
+"seen_example": "The dress code for the event is formal attire."
+},
+{
+"wid": 778,
+"w": "consensus",
+"pos": [
+"n."
+],
+"zh": [
+"共識"
+],
+"seen_example": "We did not reach a consensus during the negotiation."
+},
+{
+"wid": 779,
+"w": "boardroom",
+"pos": [
+"n."
+],
+"zh": [
+"董事會會議室"
+],
+"seen_example": "Please prepare the boardroom for the upcoming meeting."
+},
+{
+"wid": 780,
+"w": "stakeholder",
+"pos": [
+"n."
+],
+"zh": [
+"利害關係人"
+],
+"seen_example": "The stakeholders met to discuss the merger proposal."
+},
+{
+"wid": 781,
+"w": "capital",
+"pos": [
+"n."
+],
+"zh": [
+"資本；首都；中心"
+],
+"seen_example": "They invested a large amount of capital in the project."
+},
+{
+"wid": 782,
+"w": "initiative",
+"pos": [
+"n."
+],
+"zh": [
+"倡議；新措施；主動"
+],
+"seen_example": "The government launched an initiative to reduce pollution."
+},
+{
+"wid": 783,
+"w": "minutes",
+"pos": [
+"n."
+],
+"zh": [
+"會議紀錄"
+],
+"seen_example": "The secretary took minutes of the meeting."
+},
+{
+"wid": 784,
+"w": "rollout",
+"pos": [
+"n."
+],
+"zh": [
+"推出；舖展"
+],
+"seen_example": "The company is planning a nationwide rollout of its services."
+},
+{
+"wid": 785,
+"w": "portfolio",
+"pos": [
+"n."
+],
+"zh": [
+"投資組合；作品集"
+],
+"seen_example": "The investment manager reviewed his client's stock portfolio."
+},
+{
+"wid": 786,
+"w": "quota",
+"pos": [
+"n."
+],
+"zh": [
+"配額；限額"
+],
+"seen_example": "The sales team exceeded their monthly quota again."
+},
+{
+"wid": 787,
+"w": "justification",
+"pos": [
+"n."
+],
+"zh": [
+"正當理由"
+],
+"seen_example": "He provided justification for his actions."
+},
+{
+"wid": 788,
+"w": "hierarchy",
+"pos": [
+"n."
+],
+"zh": [
+"階層制度"
+],
+"seen_example": "The company's management hierarchy consists of three levels."
+},
+{
+"wid": 789,
+"w": "integrity",
+"pos": [
+"n."
+],
+"zh": [
+"誠信"
+],
+"seen_example": "The company values integrity in all business dealings."
+},
+{
+"wid": 790,
+"w": "misconception",
+"pos": [
+"n."
+],
+"zh": [
+"誤解；錯誤觀念"
+],
+"seen_example": "It's a common misconception that remote work reduces productivity."
+},
+{
+"wid": 791,
+"w": "ecosystem",
+"pos": [
+"n."
+],
+"zh": [
+"生態系統"
+],
+"seen_example": "The company's digital ecosystem supports various business applications."
+},
+{
+"wid": 792,
+"w": "affiliation",
+"pos": [
+"n."
+],
+"zh": [
+"隸屬；從屬關係；聯繫"
+],
+"seen_example": "The company's affiliation with Microsoft boosted its credibility."
+},
+{
+"wid": 793,
+"w": "surplus",
+"pos": [
+"n."
+],
+"zh": [
+"盈餘；過剩"
+],
+"seen_example": "The company's bank account is currently in surplus."
+},
+{
+"wid": 794,
+"w": "vision",
+"pos": [
+"n."
+],
+"zh": [
+"遠見；願景；視覺"
+],
+"seen_example": "He didn't have the vision required for a senior politician."
+},
+{
+"wid": 795,
+"w": "credibility",
+"pos": [
+"n."
+],
+"zh": [
+"可信度；信譽"
+],
+"seen_example": "The company's credibility suffered after the accounting scandal."
+},
+{
+"wid": 796,
+"w": "constraint",
+"pos": [
+"n."
+],
+"zh": [
+"限制；約束"
+],
+"seen_example": "Due to budget constraints, the project was temporarily suspended."
+},
+{
+"wid": 797,
+"w": "logistics",
+"pos": [
+"n."
+],
+"zh": [
+"物流；後勤"
+],
+"seen_example": "The logistics department coordinates all delivery operations."
+},
+{
+"wid": 798,
+"w": "analytics",
+"pos": [
+"n."
+],
+"zh": [
+"分析；分析方法"
+],
+"seen_example": "The marketing team relies heavily on customer analytics data."
+},
+{
+"wid": 799,
+"w": "discretion",
+"pos": [
+"n."
+],
+"zh": [
+"決定權；慎重"
+],
+"seen_example": "The manager used her discretion in approving overtime."
+},
+{
+"wid": 800,
+"w": "incentive",
+"pos": [
+"n."
+],
+"zh": [
+"誘因；激勵措施"
+],
+"seen_example": "The promise of a bonus serves as an incentive to work harder."
+},
+{
+"wid": 801,
+"w": "allegation",
+"pos": [
+"n."
+],
+"zh": [
+"指控；指稱"
+],
+"seen_example": "They denied all allegations of financial misconduct."
+},
+{
+"wid": 802,
+"w": "accumulation",
+"pos": [
+"n."
+],
+"zh": [
+"累積；積聚"
+],
+"seen_example": "With the accumulation of evidence, he was finally convicted."
+},
+{
+"wid": 803,
+"w": "retention",
+"pos": [
+"n."
+],
+"zh": [
+"留任；保持；保留"
+],
+"seen_example": "The company improved employee retention through competitive benefits packages."
+},
+{
+"wid": 804,
+"w": "backlog",
+"pos": [
+"n."
+],
+"zh": [
+"積壓；待處理項目"
+],
+"seen_example": "The accounting department faces a backlog of invoices."
+},
+{
+"wid": 805,
+"w": "subsidiary",
+"pos": [
+"n."
+],
+"zh": [
+"子公司"
+],
+"seen_example": "The company established a subsidiary in Europe."
+},
+{
+"wid": 806,
+"w": "clientele",
+"pos": [
+"n."
+],
+"zh": [
+"顧客群"
+],
+"seen_example": "The restaurant's clientele consists mainly of business professionals."
+},
+{
+"wid": 807,
+"w": "acquisition",
+"pos": [
+"n."
+],
+"zh": [
+"收購；獲得"
+],
+"seen_example": "The company announced its acquisition of a software company."
+},
+{
+"wid": 808,
+"w": "dividend",
+"pos": [
+"n."
+],
+"zh": [
+"股息；紅利；被除數"
+],
+"seen_example": "The company will pay shareholders a quarterly dividend."
+},
+{
+"wid": 809,
+"w": "specification",
+"pos": [
+"n."
+],
+"zh": [
+"規格；詳細說明；規範"
+],
+"seen_example": "The cars have been built to a high specification."
+},
+{
+"wid": 810,
+"w": "discrepancy",
+"pos": [
+"n."
+],
+"zh": [
+"差異；不一致"
+],
+"seen_example": "There was a discrepancy in the quarterly financial reports."
+},
+{
+"wid": 811,
+"w": "equity",
+"pos": [
+"n."
+],
+"zh": [
+"股權；資產淨值；公正"
+],
+"seen_example": "This investment will increase our equity in the joint venture."
+},
+{
+"wid": 812,
+"w": "appraisal",
+"pos": [
+"n."
+],
+"zh": [
+"考核；估價"
+],
+"seen_example": "The annual employee appraisal will occur next month."
+},
+{
+"wid": 813,
+"w": "proceeds",
+"pos": [
+"n."
+],
+"zh": [
+"(特定活動的)收益"
+],
+"seen_example": "The proceeds from the charity event will go to a good cause."
+},
+{
+"wid": 814,
+"w": "onboarding",
+"pos": [
+"n."
+],
+"zh": [
+"入職培訓"
+],
+"seen_example": "The company's onboarding process takes three full days."
+},
+{
+"wid": 815,
+"w": "recession",
+"pos": [
+"n."
+],
+"zh": [
+"經濟衰退期"
+],
+"seen_example": "The country experienced a severe recession in the past decade."
+},
+{
+"wid": 816,
+"w": "provision",
+"pos": [
+"n."
+],
+"zh": [
+"條款；提供"
+],
+"seen_example": "Provisions were added to the treaty to protect workers."
+},
+{
+"wid": 817,
+"w": "expertise",
+"pos": [
+"n."
+],
+"zh": [
+"專門知識；專門技能"
+],
+"seen_example": "She brings expertise in financial and technical matters."
+},
+{
+"wid": 818,
+"w": "audit",
+"pos": [
+"n."
+],
+"zh": [
+"審計；查帳；旁聽"
+],
+"seen_example": "The company conducts an annual audit of its finances."
+},
+{
+"wid": 819,
+"w": "functionality",
+"pos": [
+"n."
+],
+"zh": [
+"功能；實用性"
+],
+"seen_example": "The new software greatly improved the company's operational functionality."
+},
+{
+"wid": 820,
+"w": "severance",
+"pos": [
+"n."
+],
+"zh": [
+"資遣費；(關係)切斷"
+],
+"seen_example": "The company offered three months' severance to laid-off employees."
+},
+{
+"wid": 821,
+"w": "expenditure",
+"pos": [
+"n."
+],
+"zh": [
+"支出；花費"
+],
+"seen_example": "The company reduced its expenditure on office supplies."
+},
+{
+"wid": 822,
+"w": "globalization",
+"pos": [
+"n."
+],
+"zh": [
+"全球化"
+],
+"seen_example": "Globalization has transformed how companies conduct international business operations."
+},
+{
+"wid": 823,
+"w": "infrastructure",
+"pos": [
+"n."
+],
+"zh": [
+"基礎設施；基礎建設"
+],
+"seen_example": "The city needs to upgrade its aging infrastructure."
+},
+{
+"wid": 824,
+"w": "procurement",
+"pos": [
+"n."
+],
+"zh": [
+"採購；取得"
+],
+"seen_example": "The procurement department negotiated better prices with suppliers."
+},
+{
+"wid": 825,
+"w": "legislation",
+"pos": [
+"n."
+],
+"zh": [
+"立法"
+],
+"seen_example": "The legislation aims to protect the rights of workers."
+},
+{
+"wid": 826,
+"w": "conglomerate",
+"pos": [
+"n."
+],
+"zh": [
+"企業集團；聯合大型企業"
+],
+"seen_example": "The conglomerate acquired three smaller manufacturing companies."
+},
+{
+"wid": 827,
+"w": "prototype",
+"pos": [
+"n."
+],
+"zh": [
+"原型"
+],
+"seen_example": "The engineers developed a prototype for the new device."
+},
+{
+"wid": 828,
+"w": "turnover",
+"pos": [
+"n."
+],
+"zh": [
+"員工流動率；營業額"
+],
+"seen_example": "The company experienced high employee turnover last quarter."
+},
+{
+"wid": 829,
+"w": "sustainability",
+"pos": [
+"n."
+],
+"zh": [
+"永續性"
+],
+"seen_example": "The company prioritizes sustainability in its manufacturing processes."
+},
+{
+"wid": 830,
+"w": "oversight",
+"pos": [
+"n."
+],
+"zh": [
+"疏忽；監督"
+],
+"seen_example": "Due to an oversight, the contract wasn't properly signed."
+},
+{
+"wid": 831,
+"w": "entitlement",
+"pos": [
+"n."
+],
+"zh": [
+"應得權利"
+],
+"seen_example": "Employees have an entitlement to paid leave."
+},
+{
+"wid": 832,
+"w": "consignment",
+"pos": [
+"n."
+],
+"zh": [
+"托運的貨物；寄售"
+],
+"seen_example": "This last consignment of fabric is quite up to standard."
+},
+{
+"wid": 833,
+"w": "cybersecurity",
+"pos": [
+"n."
+],
+"zh": [
+"資訊安全"
+],
+"seen_example": "The company invested in cybersecurity to protect customer data."
+},
+{
+"wid": 834,
+"w": "shareholder",
+"pos": [
+"n."
+],
+"zh": [
+"股東"
+],
+"seen_example": "The shareholders voted to approve the company merger."
+},
+{
+"wid": 835,
+"w": "liability",
+"pos": [
+"n."
+],
+"zh": [
+"法律責任；負債"
+],
+"seen_example": "The company has liability for any product safety issues."
+},
+{
+"wid": 836,
+"w": "ledger",
+"pos": [
+"n."
+],
+"zh": [
+"總帳"
+],
+"seen_example": "The accountant updated the company's financial ledger daily."
+},
+{
+"wid": 837,
+"w": "auditor",
+"pos": [
+"n."
+],
+"zh": [
+"審計員；稽核員"
+],
+"seen_example": "The external auditor reviewed our company's financial statements."
+},
+{
+"wid": 838,
+"w": "reimbursement",
+"pos": [
+"n."
+],
+"zh": [
+"報帳；核銷"
+],
+"seen_example": "You can get reimbursements for work-related expenses."
+},
+{
+"wid": 839,
+"w": "jurisdiction",
+"pos": [
+"n."
+],
+"zh": [
+"管轄權"
+],
+"seen_example": "The court lacks jurisdiction over international business matters."
+},
+{
+"wid": 840,
+"w": "insight",
+"pos": [
+"n."
+],
+"zh": [
+"洞見；深刻見解"
+],
+"seen_example": "His insight into the market trends is impressive."
+},
+{
+"wid": 841,
+"w": "synergy",
+"pos": [
+"n."
+],
+"zh": [
+"協同效應"
+],
+"seen_example": "The merger created powerful synergy between the companies."
+},
+{
+"wid": 842,
+"w": "proficiency",
+"pos": [
+"n."
+],
+"zh": [
+"精通；熟練程度"
+],
+"seen_example": "High proficiency in English is required for this position."
+},
+{
+"wid": 843,
+"w": "executive",
+"pos": [
+"n.",
+"adj."
+],
+"zh": [
+"高階主管",
+"決策的；管理的"
+],
+"seen_example": "The executive team discussed the company's strategy."
+},
+{
+"wid": 844,
+"w": "metric",
+"pos": [
+"n.",
+"adj."
+],
+"zh": [
+"度量標準",
+"公制的"
+],
+"seen_example": "The company's key metric for success is customer satisfaction."
+},
+{
+"wid": 845,
+"w": "demographic",
+"pos": [
+"n.",
+"adj."
+],
+"zh": [
+"群體；人口統計學",
+"人口統計的"
+],
+"seen_example": "The company's products target the young professional demographic."
+},
+{
+"wid": 846,
+"w": "collateral",
+"pos": [
+"n.",
+"adj."
+],
+"zh": [
+"抵押品；擔保品",
+"附帶的"
+],
+"seen_example": "The bank required collateral before approving the loan."
+},
+{
+"wid": 847,
+"w": "subordinate",
+"pos": [
+"n.",
+"adj."
+],
+"zh": [
+"下屬；下級",
+"次要的；附屬的"
+],
+"seen_example": "The manager asked his subordinate to prepare reports."
+},
+{
+"wid": 848,
+"w": "outreach",
+"pos": [
+"n.",
+"adj.",
+"v."
+],
+"zh": [
+"外展服務",
+"外展服務的",
+"拓展"
+],
+"seen_example": "The company's outreach program helped attract potential new clients."
+},
+{
+"wid": 849,
+"w": "board",
+"pos": [
+"n.",
+"v."
+],
+"zh": [
+"董事會；委員會",
+"上（船、飛機、車）"
+],
+"seen_example": "The board made the decision to downsize."
+},
+{
+"wid": 850,
+"w": "crash",
+"pos": [
+"n.",
+"v."
+],
+"zh": [
+"崩盤；碰撞；當機",
+"崩盤；碰撞；當機"
+],
+"seen_example": "There could be another stock market crash next year."
+},
+{
+"wid": 851,
+"w": "cease",
+"pos": [
+"n.",
+"v."
+],
+"zh": [
+"停止；終止",
+"停止；終止"
+],
+"seen_example": "The company will cease operations next month."
+},
+{
+"wid": 852,
+"w": "patent",
+"pos": [
+"n.",
+"v."
+],
+"zh": [
+"專利",
+"取得專利"
+],
+"seen_example": "The device was protected by a patent."
+},
+{
+"wid": 853,
+"w": "respect",
+"pos": [
+"n.",
+"v."
+],
+"zh": [
+"方面",
+"尊重"
+],
+"seen_example": "He is knowledgeable in many respects."
+},
+{
+"wid": 854,
+"w": "breach",
+"pos": [
+"n.",
+"v."
+],
+"zh": [
+"違反（協議、法律）",
+"違反（協議、法律）"
+],
+"seen_example": "The employee's breach of contract resulted in termination."
+},
+{
+"wid": 855,
+"w": "syndicate",
+"pos": [
+"n.",
+"v."
+],
+"zh": [
+"聯合組織；企業聯合體",
+"使聯合"
+],
+"seen_example": "The media syndicate distributed content to various news outlets."
+},
+{
+"wid": 856,
+"w": "accountable",
+"pos": [
+"adj."
+],
+"zh": [
+"應負責的；應說明的"
+],
+"seen_example": "You are accountable only to the managing director."
+},
+{
+"wid": 857,
+"w": "influential",
+"pos": [
+"adj."
+],
+"zh": [
+"有影響力的"
+],
+"seen_example": "The CEO's influential speech motivated us to work harder."
+},
+{
+"wid": 858,
+"w": "feasible",
+"pos": [
+"adj."
+],
+"zh": [
+"可行的；行得通的"
+],
+"seen_example": "The proposed budget cuts appear feasible for implementation."
+},
+{
+"wid": 859,
+"w": "plausible",
+"pos": [
+"adj."
+],
+"zh": [
+"看似合理的"
+],
+"seen_example": "He tried to come up with a plausible excuse."
+},
+{
+"wid": 860,
+"w": "prompt",
+"pos": [
+"adj."
+],
+"zh": [
+"迅速的；即時的"
+],
+"seen_example": "Her prompt response to the email impressed her colleagues."
+},
+{
+"wid": 861,
+"w": "considerable",
+"pos": [
+"adj."
+],
+"zh": [
+"可觀的；相當大的"
+],
+"seen_example": "There's considerable uncertainty about the company's future."
+},
+{
+"wid": 862,
+"w": "white-collar",
+"pos": [
+"adj."
+],
+"zh": [
+"白領的"
+],
+"seen_example": "The white-collar employees gathered for their annual meeting."
+},
+{
+"wid": 863,
+"w": "preliminary",
+"pos": [
+"adj."
+],
+"zh": [
+"初步的；預備的"
+],
+"seen_example": "The team conducted a preliminary analysis of the data."
+},
+{
+"wid": 864,
+"w": "conducive",
+"pos": [
+"adj."
+],
+"zh": [
+"有助於；有利於"
+],
+"seen_example": "The office environment was conducive to increased productivity."
+},
+{
+"wid": 865,
+"w": "inevitable",
+"pos": [
+"adj."
+],
+"zh": [
+"不可避免的"
+],
+"seen_example": "It is inevitable that technology will continue to advance."
+},
+{
+"wid": 866,
+"w": "viable",
+"pos": [
+"adj."
+],
+"zh": [
+"可行的"
+],
+"seen_example": "The new business plan appears to be viable."
+},
+{
+"wid": 867,
+"w": "foreseeable",
+"pos": [
+"adj."
+],
+"zh": [
+"可預見的"
+],
+"seen_example": "The company's profits will increase in the foreseeable future."
+},
+{
+"wid": 868,
+"w": "respective",
+"pos": [
+"adj."
+],
+"zh": [
+"各自的；分別的"
+],
+"seen_example": "The managers returned to their respective departments."
+},
+{
+"wid": 869,
+"w": "renowned",
+"pos": [
+"adj."
+],
+"zh": [
+"有名的"
+],
+"seen_example": "He is a renowned expert in the field of astrophysics."
+},
+{
+"wid": 870,
+"w": "substantial",
+"pos": [
+"adj."
+],
+"zh": [
+"大量的；可觀的"
+],
+"seen_example": "The piece of steak is very substantial."
+},
+{
+"wid": 871,
+"w": "drastic",
+"pos": [
+"adj."
+],
+"zh": [
+"大幅度的；激烈的"
+],
+"seen_example": "The company implemented drastic cost-cutting measures."
+},
+{
+"wid": 872,
+"w": "accessibility",
+"pos": [
+"n."
+],
+"zh": [
+"(交通)可達性；可取得性；無障礙性"
+],
+"seen_example": "The hotel's accessibility makes it popular among business travelers."
+},
+{
+"wid": 873,
+"w": "complementary",
+"pos": [
+"adj."
+],
+"zh": [
+"互補的"
+],
+"seen_example": "The two departments serve complementary roles in our organization."
+},
+{
+"wid": 874,
+"w": "prevalent",
+"pos": [
+"adj."
+],
+"zh": [
+"盛行的；普遍的"
+],
+"seen_example": "Remote work is prevalent in modern tech companies."
+}
+]

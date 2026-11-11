@@ -1,0 +1,8702 @@
+[
+{
+"f": "reserved",
+"l": "reserve"
+},
+{
+"f": "residents",
+"l": "resident",
+"d": [
+[
+"n.",
+"居民；住戶"
+]
+]
+},
+{
+"f": "resignation",
+"l": "resignation",
+"d": [
+[
+"n.",
+"辭職；辭呈"
+]
+]
+},
+{
+"f": "resigned",
+"l": "resign"
+},
+{
+"f": "resolved",
+"l": "resolve"
+},
+{
+"f": "resolves",
+"l": "resolve"
+},
+{
+"f": "resolving",
+"l": "resolve"
+},
+{
+"f": "resort",
+"l": "resort",
+"d": [
+[
+"n.",
+"度假勝地"
+],
+[
+"v.",
+"訴諸"
+]
+]
+},
+{
+"f": "resources",
+"l": "resource"
+},
+{
+"f": "respectable",
+"l": "respectable",
+"d": [
+[
+"adj.",
+"值得尊敬的；體面的"
+]
+]
+},
+{
+"f": "respectful",
+"l": "respectful",
+"d": [
+[
+"adj.",
+"恭敬的；有禮貌的"
+]
+]
+},
+{
+"f": "respectfully",
+"l": "respectful"
+},
+{
+"f": "responded",
+"l": "respond"
+},
+{
+"f": "responses",
+"l": "response"
+},
+{
+"f": "responsibilities",
+"l": "responsibility"
+},
+{
+"f": "responsible",
+"l": "responsible",
+"d": [
+[
+"adj.",
+"負責的；應負責任的"
+]
+]
+},
+{
+"f": "responsibly",
+"l": "responsible"
+},
+{
+"f": "responsive",
+"l": "responsive",
+"d": [
+[
+"adj.",
+"反應迅速的；回應積極的"
+]
+]
+},
+{
+"f": "responsively",
+"l": "responsive"
+},
+{
+"f": "rest",
+"l": "rest",
+"d": [
+[
+"n.",
+"休息；其餘"
+],
+[
+"v.",
+"休息"
+]
+]
+},
+{
+"f": "restarting",
+"l": "restart",
+"d": [
+[
+"v.",
+"重新啟動；重新開始"
+]
+]
+},
+{
+"f": "restaurant",
+"l": "restaurant",
+"d": [
+[
+"n.",
+"餐廳"
+]
+]
+},
+{
+"f": "restaurants",
+"l": "restaurant"
+},
+{
+"f": "restored",
+"l": "restore"
+},
+{
+"f": "restoring",
+"l": "restore"
+},
+{
+"f": "restricted",
+"l": "restrict"
+},
+{
+"f": "restriction",
+"l": "restriction",
+"d": [
+[
+"n.",
+"限制；限制規定"
+]
+]
+},
+{
+"f": "restrictive",
+"l": "restrictive",
+"d": [
+[
+"adj.",
+"限制性的；嚴格的"
+]
+]
+},
+{
+"f": "restructured",
+"l": "restructure"
+},
+{
+"f": "restructuring",
+"l": "restructure"
+},
+{
+"f": "rests",
+"l": "rest"
+},
+{
+"f": "resulting",
+"l": "result"
+},
+{
+"f": "results",
+"l": "result"
+},
+{
+"f": "resurfaces",
+"l": "resurface",
+"d": [
+[
+"v.",
+"重新出現；重鋪路面"
+]
+]
+},
+{
+"f": "retailer",
+"l": "retailer",
+"d": [
+[
+"n.",
+"零售商"
+]
+]
+},
+{
+"f": "retailers",
+"l": "retailer"
+},
+{
+"f": "retained",
+"l": "retain"
+},
+{
+"f": "retake",
+"l": "retake",
+"d": [
+[
+"v.",
+"重考；重拍"
+],
+[
+"n.",
+"重考"
+]
+]
+},
+{
+"f": "retentive",
+"l": "retentive",
+"d": [
+[
+"adj.",
+"記憶力強的；保持力強的"
+]
+]
+},
+{
+"f": "rethink",
+"l": "rethink",
+"d": [
+[
+"v.",
+"重新思考"
+]
+]
+},
+{
+"f": "retired",
+"l": "retire"
+},
+{
+"f": "retirement",
+"l": "retirement",
+"d": [
+[
+"n.",
+"退休"
+]
+]
+},
+{
+"f": "retires",
+"l": "retire"
+},
+{
+"f": "retiring",
+"l": "retire"
+},
+{
+"f": "retreat",
+"l": "retreat",
+"d": [
+[
+"n.",
+"靜修活動；撤退"
+],
+[
+"v.",
+"撤退"
+]
+]
+},
+{
+"f": "retrieved",
+"l": "retrieve"
+},
+{
+"f": "return",
+"l": "return",
+"d": [
+[
+"v.",
+"返回；歸還"
+],
+[
+"n.",
+"返回；退貨"
+]
+]
+},
+{
+"f": "returned",
+"l": "return"
+},
+{
+"f": "returning",
+"l": "return"
+},
+{
+"f": "returns",
+"l": "return"
+},
+{
+"f": "revealed",
+"l": "reveal"
+},
+{
+"f": "reviewed",
+"l": "review"
+},
+{
+"f": "reviewer",
+"l": "reviewer",
+"d": [
+[
+"n.",
+"評論者；審查人"
+]
+]
+},
+{
+"f": "reviewing",
+"l": "review"
+},
+{
+"f": "reviews",
+"l": "review"
+},
+{
+"f": "revised",
+"l": "revise"
+},
+{
+"f": "revises",
+"l": "revise"
+},
+{
+"f": "revisions",
+"l": "revision"
+},
+{
+"f": "revive",
+"l": "revive",
+"d": [
+[
+"v.",
+"使復甦；重振"
+]
+]
+},
+{
+"f": "rewarded",
+"l": "reward"
+},
+{
+"f": "rewards",
+"l": "reward"
+},
+{
+"f": "reyes",
+"name": 1
+},
+{
+"f": "rhine",
+"name": 1
+},
+{
+"f": "rice",
+"l": "rice",
+"d": [
+[
+"n.",
+"米飯；稻米"
+]
+]
+},
+{
+"f": "rich",
+"l": "rich",
+"d": [
+[
+"adj.",
+"富有的；豐富的"
+]
+]
+},
+{
+"f": "richard",
+"name": 1
+},
+{
+"f": "ride",
+"l": "ride",
+"d": [
+[
+"v.",
+"搭乘；騎"
+],
+[
+"n.",
+"搭乘"
+]
+]
+},
+{
+"f": "ridgeway",
+"name": 1
+},
+{
+"f": "right",
+"l": "right",
+"d": [
+[
+"adj.",
+"正確的；右邊的"
+],
+[
+"n.",
+"權利"
+],
+[
+"adv.",
+"正好"
+]
+]
+},
+{
+"f": "rigid",
+"l": "rigid",
+"d": [
+[
+"adj.",
+"僵硬的；嚴格的"
+]
+]
+},
+{
+"f": "risen",
+"l": "rise"
+},
+{
+"f": "rising",
+"l": "rise"
+},
+{
+"f": "risk",
+"l": "risk",
+"d": [
+[
+"n.",
+"風險"
+],
+[
+"v.",
+"冒險"
+]
+]
+},
+{
+"f": "risks",
+"l": "risk"
+},
+{
+"f": "rita",
+"name": 1
+},
+{
+"f": "rival",
+"l": "rival",
+"d": [
+[
+"n.",
+"對手；競爭者"
+],
+[
+"adj.",
+"競爭的"
+]
+]
+},
+{
+"f": "river",
+"l": "river",
+"d": [
+[
+"n.",
+"河流"
+]
+]
+},
+{
+"f": "rivera",
+"name": 1
+},
+{
+"f": "riverside",
+"l": "riverside",
+"d": [
+[
+"n.",
+"河岸；河畔"
+]
+]
+},
+{
+"f": "riverton",
+"name": 1
+},
+{
+"f": "road",
+"l": "road",
+"d": [
+[
+"n.",
+"道路"
+]
+]
+},
+{
+"f": "roads",
+"l": "road"
+},
+{
+"f": "roast",
+"l": "roast",
+"d": [
+[
+"v.",
+"烘焙；烤"
+],
+[
+"n.",
+"烤肉"
+]
+]
+},
+{
+"f": "roaster",
+"l": "roaster",
+"d": [
+[
+"n.",
+"烘焙機；烘焙業者"
+]
+]
+},
+{
+"f": "roasters",
+"l": "roaster"
+},
+{
+"f": "roasting",
+"l": "roast"
+},
+{
+"f": "robert",
+"name": 1
+},
+{
+"f": "role",
+"l": "role",
+"d": [
+[
+"n.",
+"角色；作用"
+]
+]
+},
+{
+"f": "rolls",
+"l": "roll",
+"d": [
+[
+"n.",
+"捲；麵包捲"
+],
+[
+"v.",
+"滾動"
+]
+]
+},
+{
+"f": "roof",
+"l": "roof",
+"d": [
+[
+"n.",
+"屋頂"
+]
+]
+},
+{
+"f": "rooftop",
+"l": "rooftop",
+"d": [
+[
+"n.",
+"屋頂；頂樓"
+]
+]
+},
+{
+"f": "room",
+"l": "room",
+"d": [
+[
+"n.",
+"房間；空間"
+]
+]
+},
+{
+"f": "rooms",
+"l": "room"
+},
+{
+"f": "rosa",
+"name": 1
+},
+{
+"f": "rose",
+"l": "rose",
+"d": [
+[
+"v.",
+"上升"
+],
+[
+"n.",
+"玫瑰"
+]
+]
+},
+{
+"f": "ross",
+"name": 1
+},
+{
+"f": "rossi",
+"name": 1
+},
+{
+"f": "roughly",
+"l": "roughly",
+"d": [
+[
+"adv.",
+"大約；粗略地"
+]
+]
+},
+{
+"f": "round",
+"l": "round",
+"d": [
+[
+"adj.",
+"圓的"
+],
+[
+"n.",
+"回合；一輪"
+],
+[
+"prep.",
+"環繞"
+]
+]
+},
+{
+"f": "rounds",
+"l": "round"
+},
+{
+"f": "router",
+"l": "router",
+"d": [
+[
+"n.",
+"路由器"
+]
+]
+},
+{
+"f": "routers",
+"l": "router"
+},
+{
+"f": "routes",
+"l": "route"
+},
+{
+"f": "routine",
+"l": "routine",
+"d": [
+[
+"n.",
+"例行公事"
+],
+[
+"adj.",
+"例行的"
+]
+]
+},
+{
+"f": "row",
+"l": "row",
+"d": [
+[
+"n.",
+"排；列"
+]
+]
+},
+{
+"f": "rule",
+"l": "rule",
+"d": [
+[
+"n.",
+"規則；規定"
+],
+[
+"v.",
+"統治"
+]
+]
+},
+{
+"f": "rules",
+"l": "rule"
+},
+{
+"f": "run",
+"l": "run",
+"d": [
+[
+"v.",
+"跑；經營；運行"
+],
+[
+"n.",
+"跑步"
+]
+]
+},
+{
+"f": "runner",
+"l": "runner",
+"d": [
+[
+"n.",
+"跑者；跑步選手"
+]
+]
+},
+{
+"f": "runners",
+"l": "runner"
+},
+{
+"f": "running",
+"l": "run"
+},
+{
+"f": "runs",
+"l": "run"
+},
+{
+"f": "runway",
+"l": "runway",
+"d": [
+[
+"n.",
+"跑道；伸展台"
+]
+]
+},
+{
+"f": "rural",
+"l": "rural",
+"d": [
+[
+"adj.",
+"鄉村的；農村的"
+]
+]
+},
+{
+"f": "rush",
+"l": "rush",
+"d": [
+[
+"v.",
+"趕緊；衝"
+],
+[
+"n.",
+"匆忙；繁忙時段"
+]
+]
+},
+{
+"f": "russo",
+"name": 1
+},
+{
+"f": "ryan",
+"name": 1
+},
+{
+"f": "rye",
+"l": "rye",
+"d": [
+[
+"n.",
+"裸麥；黑麥"
+]
+]
+},
+{
+"f": "safe",
+"l": "safe",
+"d": [
+[
+"adj.",
+"安全的"
+],
+[
+"n.",
+"保險箱"
+]
+]
+},
+{
+"f": "safely",
+"l": "safe"
+},
+{
+"f": "safest",
+"l": "safe"
+},
+{
+"f": "safety",
+"l": "safety",
+"d": [
+[
+"n.",
+"安全"
+]
+]
+},
+{
+"f": "said",
+"l": "say",
+"d": [
+[
+"v.",
+"說；表示"
+]
+]
+},
+{
+"f": "sailboat",
+"l": "sailboat",
+"d": [
+[
+"n.",
+"帆船"
+]
+]
+},
+{
+"f": "sailed",
+"l": "sail",
+"d": [
+[
+"v.",
+"航行；啟航"
+],
+[
+"n.",
+"帆"
+]
+]
+},
+{
+"f": "sailors",
+"l": "sailor",
+"d": [
+[
+"n.",
+"水手；船員"
+]
+]
+},
+{
+"f": "sails",
+"l": "sail"
+},
+{
+"f": "salad",
+"l": "salad",
+"d": [
+[
+"n.",
+"沙拉"
+]
+]
+},
+{
+"f": "salaries",
+"l": "salary",
+"d": [
+[
+"n.",
+"薪水；薪資"
+]
+]
+},
+{
+"f": "salary",
+"l": "salary"
+},
+{
+"f": "sale",
+"l": "sale",
+"d": [
+[
+"n.",
+"銷售；特賣；拍賣"
+]
+]
+},
+{
+"f": "sales",
+"l": "sales",
+"d": [
+[
+"n.",
+"銷售；銷售額"
+],
+[
+"adj.",
+"銷售的"
+]
+]
+},
+{
+"f": "salespeople",
+"l": "salesperson",
+"d": [
+[
+"n.",
+"銷售員；業務員"
+]
+]
+},
+{
+"f": "salesperson",
+"l": "salesperson"
+},
+{
+"f": "salty",
+"l": "salty",
+"d": [
+[
+"adj.",
+"鹹的"
+]
+]
+},
+{
+"f": "sam",
+"name": 1
+},
+{
+"f": "same",
+"l": "same",
+"d": [
+[
+"adj.",
+"相同的；同樣的"
+],
+[
+"pron.",
+"同樣的事物"
+]
+]
+},
+{
+"f": "samples",
+"l": "sample"
+},
+{
+"f": "samuel",
+"name": 1
+},
+{
+"f": "sandra",
+"name": 1
+},
+{
+"f": "sandwich",
+"l": "sandwich",
+"d": [
+[
+"n.",
+"三明治"
+]
+]
+},
+{
+"f": "sandwiches",
+"l": "sandwich"
+},
+{
+"f": "santos",
+"name": 1
+},
+{
+"f": "sara",
+"name": 1
+},
+{
+"f": "sat",
+"l": "sit",
+"d": [
+[
+"v.",
+"坐；位於"
+]
+]
+},
+{
+"f": "satisfaction",
+"l": "satisfaction",
+"d": [
+[
+"n.",
+"滿意；滿足"
+]
+]
+},
+{
+"f": "satisfied",
+"l": "satisfied",
+"d": [
+[
+"adj.",
+"滿意的；滿足的"
+]
+]
+},
+{
+"f": "sato",
+"name": 1
+},
+{
+"f": "saturday",
+"l": "saturday",
+"d": [
+[
+"n.",
+"星期六"
+]
+]
+},
+{
+"f": "saturdays",
+"l": "saturday"
+},
+{
+"f": "saucepans",
+"l": "saucepan",
+"d": [
+[
+"n.",
+"平底深鍋；醬汁鍋"
+]
+]
+},
+{
+"f": "saved",
+"l": "save"
+},
+{
+"f": "saves",
+"l": "save"
+},
+{
+"f": "saving",
+"l": "save"
+},
+{
+"f": "savings",
+"l": "savings",
+"d": [
+[
+"n.",
+"存款；節省的金額"
+]
+]
+},
+{
+"f": "saw",
+"l": "see",
+"d": [
+[
+"v.",
+"看見；明白；會見"
+]
+]
+},
+{
+"f": "say",
+"l": "say"
+},
+{
+"f": "says",
+"l": "say"
+},
+{
+"f": "scanners",
+"l": "scanner",
+"d": [
+[
+"n.",
+"掃描器；掃描機"
+]
+]
+},
+{
+"f": "scanning",
+"l": "scan"
+},
+{
+"f": "schedule",
+"l": "schedule",
+"d": [
+[
+"n.",
+"時間表；行程"
+],
+[
+"v.",
+"安排時間"
+]
+]
+},
+{
+"f": "scheduled",
+"l": "schedule"
+},
+{
+"f": "schedules",
+"l": "schedule"
+},
+{
+"f": "scheduling",
+"l": "schedule"
+},
+{
+"f": "scheme",
+"l": "scheme",
+"d": [
+[
+"n.",
+"計畫；方案；陰謀"
+]
+]
+},
+{
+"f": "scholarship",
+"l": "scholarship",
+"d": [
+[
+"n.",
+"獎學金"
+]
+]
+},
+{
+"f": "school",
+"l": "school",
+"d": [
+[
+"n.",
+"學校"
+]
+]
+},
+{
+"f": "schools",
+"l": "school"
+},
+{
+"f": "score",
+"l": "score",
+"d": [
+[
+"n.",
+"分數；得分"
+],
+[
+"v.",
+"得分"
+]
+]
+},
+{
+"f": "scores",
+"l": "score"
+},
+{
+"f": "scott",
+"name": 1
+},
+{
+"f": "scratched",
+"l": "scratch",
+"d": [
+[
+"v.",
+"刮傷；抓"
+],
+[
+"n.",
+"刮痕"
+]
+]
+},
+{
+"f": "scratches",
+"l": "scratch"
+},
+{
+"f": "screen",
+"l": "screen",
+"d": [
+[
+"n.",
+"螢幕；銀幕"
+],
+[
+"v.",
+"篩選"
+]
+]
+},
+{
+"f": "screens",
+"l": "screen"
+},
+{
+"f": "sea",
+"l": "sea",
+"d": [
+[
+"n.",
+"海"
+]
+]
+},
+{
+"f": "seafood",
+"l": "seafood",
+"d": [
+[
+"n.",
+"海鮮"
+]
+]
+},
+{
+"f": "search",
+"l": "search",
+"d": [
+[
+"v.",
+"搜尋"
+],
+[
+"n.",
+"搜尋；調查"
+]
+]
+},
+{
+"f": "seaside",
+"l": "seaside",
+"d": [
+[
+"n.",
+"海邊"
+],
+[
+"adj.",
+"海邊的"
+]
+]
+},
+{
+"f": "season",
+"l": "season",
+"d": [
+[
+"n.",
+"季節；旺季"
+]
+]
+},
+{
+"f": "seasonal",
+"l": "seasonal",
+"d": [
+[
+"adj.",
+"季節性的"
+]
+]
+},
+{
+"f": "seat",
+"l": "seat",
+"d": [
+[
+"n.",
+"座位"
+],
+[
+"v.",
+"使就座"
+]
+]
+},
+{
+"f": "seated",
+"l": "seat"
+},
+{
+"f": "seating",
+"l": "seating",
+"d": [
+[
+"n.",
+"座位；座位安排"
+]
+]
+},
+{
+"f": "seats",
+"l": "seat"
+},
+{
+"f": "seattle",
+"name": 1
+},
+{
+"f": "second",
+"l": "second",
+"d": [
+[
+"n.",
+"秒；片刻"
+],
+[
+"adj.",
+"第二的"
+],
+[
+"v.",
+"附議"
+]
+]
+},
+{
+"f": "second-quarter",
+"l": "second-quarter",
+"d": [
+[
+"adj.",
+"第二季的"
+]
+]
+},
+{
+"f": "seconds",
+"l": "second"
+},
+{
+"f": "secretary",
+"l": "secretary",
+"d": [
+[
+"n.",
+"秘書；部長"
+]
+]
+},
+{
+"f": "secured",
+"l": "secure"
+},
+{
+"f": "securely",
+"l": "secure"
+},
+{
+"f": "secures",
+"l": "secure"
+},
+{
+"f": "see",
+"l": "see"
+},
+{
+"f": "seeing",
+"l": "see"
+},
+{
+"f": "seeking",
+"l": "seek"
+},
+{
+"f": "seem",
+"l": "seem",
+"d": [
+[
+"v.",
+"似乎；看起來"
+]
+]
+},
+{
+"f": "seemed",
+"l": "seem"
+},
+{
+"f": "seems",
+"l": "seem"
+},
+{
+"f": "seen",
+"l": "see"
+},
+{
+"f": "selected",
+"l": "select"
+},
+{
+"f": "selective",
+"l": "selective",
+"d": [
+[
+"adj.",
+"有選擇性的；挑剔的"
+]
+]
+},
+{
+"f": "selectively",
+"l": "selective"
+},
+{
+"f": "self-evaluation",
+"l": "self-evaluation",
+"d": [
+[
+"n.",
+"自我評估"
+]
+]
+},
+{
+"f": "sell",
+"l": "sell",
+"d": [
+[
+"v.",
+"賣；銷售"
+]
+]
+},
+{
+"f": "selling",
+"l": "sell"
+},
+{
+"f": "sells",
+"l": "sell"
+},
+{
+"f": "seminars",
+"l": "seminar"
+},
+{
+"f": "send",
+"l": "send",
+"d": [
+[
+"v.",
+"寄；發送"
+]
+]
+},
+{
+"f": "sending",
+"l": "send"
+},
+{
+"f": "sends",
+"l": "send"
+},
+{
+"f": "senior",
+"l": "senior",
+"d": [
+[
+"adj.",
+"資深的；高階的"
+],
+[
+"n.",
+"長輩；高年級生"
+]
+]
+},
+{
+"f": "sense",
+"l": "sense",
+"d": [
+[
+"n.",
+"感覺；意義"
+],
+[
+"v.",
+"感覺到"
+]
+]
+},
+{
+"f": "sensors",
+"l": "sensor",
+"d": [
+[
+"n.",
+"感應器；感測器"
+]
+]
+},
+{
+"f": "sent",
+"l": "send"
+},
+{
+"f": "separated",
+"l": "separate"
+},
+{
+"f": "separately",
+"l": "separate"
+},
+{
+"f": "separates",
+"l": "separate"
+},
+{
+"f": "separation",
+"l": "separation",
+"d": [
+[
+"n.",
+"分離；分開"
+]
+]
+},
+{
+"f": "september",
+"l": "september",
+"d": [
+[
+"n.",
+"九月"
+]
+]
+},
+{
+"f": "sequences",
+"l": "sequence"
+},
+{
+"f": "series",
+"l": "series",
+"d": [
+[
+"n.",
+"系列；連續"
+]
+]
+},
+{
+"f": "serious",
+"l": "serious",
+"d": [
+[
+"adj.",
+"嚴重的；認真的"
+]
+]
+},
+{
+"f": "serve",
+"l": "serve",
+"d": [
+[
+"v.",
+"服務；供應；任職"
+]
+]
+},
+{
+"f": "served",
+"l": "serve"
+},
+{
+"f": "server",
+"l": "server",
+"d": [
+[
+"n.",
+"伺服器；服務生"
+]
+]
+},
+{
+"f": "servers",
+"l": "server"
+},
+{
+"f": "serves",
+"l": "serve"
+},
+{
+"f": "service",
+"l": "service",
+"d": [
+[
+"n.",
+"服務；維修"
+]
+]
+},
+{
+"f": "services",
+"l": "service"
+},
+{
+"f": "serving",
+"l": "serve"
+},
+{
+"f": "sessions",
+"l": "session"
+},
+{
+"f": "set",
+"l": "set",
+"d": [
+[
+"v.",
+"設定；放置"
+],
+[
+"n.",
+"一組；一套"
+],
+[
+"adj.",
+"固定的"
+]
+]
+},
+{
+"f": "sets",
+"l": "set"
+},
+{
+"f": "setting",
+"l": "setting",
+"d": [
+[
+"n.",
+"設定；環境"
+]
+]
+},
+{
+"f": "settled",
+"l": "settle"
+},
+{
+"f": "settling",
+"l": "settle"
+},
+{
+"f": "setup",
+"l": "setup",
+"d": [
+[
+"n.",
+"設定；安排；架構"
+]
+]
+},
+{
+"f": "seven",
+"l": "seven",
+"d": [
+[
+"num.",
+"七"
+]
+]
+},
+{
+"f": "seven-day",
+"l": "seven-day",
+"d": [
+[
+"adj.",
+"為期七天的"
+]
+]
+},
+{
+"f": "several",
+"l": "several",
+"d": [
+[
+"det.",
+"幾個；數個"
+]
+]
+},
+{
+"f": "shadow",
+"l": "shadow",
+"d": [
+[
+"n.",
+"影子；陰影"
+]
+]
+},
+{
+"f": "shall",
+"l": "shall",
+"d": [
+[
+"aux.",
+"將；應該；要不要"
+]
+]
+},
+{
+"f": "shape",
+"l": "shape",
+"d": [
+[
+"n.",
+"形狀；狀態"
+],
+[
+"v.",
+"塑造"
+]
+]
+},
+{
+"f": "shaped",
+"l": "shape"
+},
+{
+"f": "shapes",
+"l": "shape"
+},
+{
+"f": "share",
+"l": "share",
+"d": [
+[
+"v.",
+"分享；共用"
+],
+[
+"n.",
+"股份；份額"
+]
+]
+},
+{
+"f": "shared",
+"l": "share"
+},
+{
+"f": "shareholders",
+"l": "shareholder"
+},
+{
+"f": "shares",
+"l": "share"
+},
+{
+"f": "sharing",
+"l": "share"
+},
+{
+"f": "sharp",
+"l": "sharp",
+"d": [
+[
+"adj.",
+"鋒利的；急遽的；準時的"
+]
+]
+},
+{
+"f": "sharply",
+"l": "sharp"
+},
+{
+"f": "shaw",
+"name": 1
+},
+{
+"f": "she",
+"l": "she",
+"d": [
+[
+"pron.",
+"她"
+]
+]
+},
+{
+"f": "she'd",
+"l": "she'd",
+"d": [
+[
+"phr.",
+"她會；她已經"
+]
+]
+},
+{
+"f": "sheet",
+"l": "sheet",
+"d": [
+[
+"n.",
+"一張；表格；床單"
+]
+]
+},
+{
+"f": "shelf",
+"l": "shelf",
+"d": [
+[
+"n.",
+"架子；層架"
+]
+]
+},
+{
+"f": "shelves",
+"l": "shelf"
+},
+{
+"f": "shelving",
+"l": "shelving",
+"d": [
+[
+"n.",
+"架子；層架系統"
+]
+]
+},
+{
+"f": "shifts",
+"l": "shift"
+},
+{
+"f": "ship",
+"l": "ship",
+"d": [
+[
+"v.",
+"運送；寄送"
+],
+[
+"n.",
+"船"
+]
+]
+},
+{
+"f": "shipments",
+"l": "shipment"
+},
+{
+"f": "shipped",
+"l": "ship"
+},
+{
+"f": "shipper",
+"l": "shipper",
+"d": [
+[
+"n.",
+"托運人；貨主"
+]
+]
+},
+{
+"f": "shipping",
+"l": "shipping",
+"d": [
+[
+"n.",
+"運送；運費"
+]
+]
+},
+{
+"f": "shoe",
+"l": "shoe",
+"d": [
+[
+"n.",
+"鞋子"
+]
+]
+},
+{
+"f": "shoes",
+"l": "shoe"
+},
+{
+"f": "shop",
+"l": "shop",
+"d": [
+[
+"n.",
+"商店"
+],
+[
+"v.",
+"購物"
+]
+]
+},
+{
+"f": "shopper",
+"l": "shopper",
+"d": [
+[
+"n.",
+"購物者；顧客"
+]
+]
+},
+{
+"f": "shoppers",
+"l": "shopper"
+},
+{
+"f": "shopping",
+"l": "shopping",
+"d": [
+[
+"n.",
+"購物"
+]
+]
+},
+{
+"f": "shops",
+"l": "shop"
+},
+{
+"f": "short",
+"l": "short",
+"d": [
+[
+"adj.",
+"短的；不足的；矮的"
+]
+]
+},
+{
+"f": "shortage",
+"l": "shortage",
+"d": [
+[
+"n.",
+"短缺；不足"
+]
+]
+},
+{
+"f": "shortages",
+"l": "shortage"
+},
+{
+"f": "shorten",
+"l": "shorten",
+"d": [
+[
+"v.",
+"縮短"
+]
+]
+},
+{
+"f": "shortened",
+"l": "shorten"
+},
+{
+"f": "shorter",
+"l": "short"
+},
+{
+"f": "shortlisted",
+"l": "shortlist"
+},
+{
+"f": "should",
+"l": "should",
+"d": [
+[
+"aux.",
+"應該；應當"
+]
+]
+},
+{
+"f": "shouldn't",
+"l": "shouldn't",
+"d": [
+[
+"phr.",
+"不應該"
+]
+]
+},
+{
+"f": "show",
+"l": "show",
+"d": [
+[
+"v.",
+"展示；顯示"
+],
+[
+"n.",
+"展覽；節目"
+]
+]
+},
+{
+"f": "showing",
+"l": "show"
+},
+{
+"f": "shown",
+"l": "show"
+},
+{
+"f": "showroom",
+"l": "showroom",
+"d": [
+[
+"n.",
+"展示間；展示中心"
+]
+]
+},
+{
+"f": "shows",
+"l": "show"
+},
+{
+"f": "shut",
+"l": "shut",
+"d": [
+[
+"v.",
+"關閉；停業"
+]
+]
+},
+{
+"f": "shutting",
+"l": "shut"
+},
+{
+"f": "shuttle",
+"l": "shuttle",
+"d": [
+[
+"n.",
+"接駁車；接駁班車"
+]
+]
+},
+{
+"f": "sick",
+"l": "sick",
+"d": [
+[
+"adj.",
+"生病的；厭倦的"
+]
+]
+},
+{
+"f": "side",
+"l": "side",
+"d": [
+[
+"n.",
+"邊；側面；方面"
+]
+]
+},
+{
+"f": "sightseeing",
+"l": "sightseeing",
+"d": [
+[
+"n.",
+"觀光；遊覽"
+]
+]
+},
+{
+"f": "sign",
+"l": "sign",
+"d": [
+[
+"v.",
+"簽名"
+],
+[
+"n.",
+"標誌；告示；跡象"
+]
+]
+},
+{
+"f": "signature",
+"l": "signature",
+"d": [
+[
+"n.",
+"簽名；署名"
+]
+]
+},
+{
+"f": "signed",
+"l": "sign"
+},
+{
+"f": "significance",
+"l": "significance",
+"d": [
+[
+"n.",
+"重要性；意義"
+]
+]
+},
+{
+"f": "significantly",
+"l": "significant"
+},
+{
+"f": "signify",
+"l": "signify",
+"d": [
+[
+"v.",
+"表示；意味著"
+]
+]
+},
+{
+"f": "signing",
+"l": "sign"
+},
+{
+"f": "signs",
+"l": "sign"
+},
+{
+"f": "silva",
+"name": 1
+},
+{
+"f": "silver",
+"l": "silver",
+"d": [
+[
+"n.",
+"銀；銀器"
+],
+[
+"adj.",
+"銀色的"
+]
+]
+},
+{
+"f": "similar",
+"l": "similar",
+"d": [
+[
+"adj.",
+"相似的；類似的"
+]
+]
+},
+{
+"f": "similarly",
+"l": "similar"
+},
+{
+"f": "simple",
+"l": "simple",
+"d": [
+[
+"adj.",
+"簡單的；簡易的"
+]
+]
+},
+{
+"f": "simplicity",
+"l": "simplicity",
+"d": [
+[
+"n.",
+"簡單；簡易"
+]
+]
+},
+{
+"f": "simply",
+"l": "simply",
+"d": [
+[
+"adv.",
+"僅僅；簡單地；實在"
+]
+]
+},
+{
+"f": "since",
+"l": "since",
+"d": [
+[
+"prep.",
+"自從"
+],
+[
+"conj.",
+"自從；因為"
+],
+[
+"adv.",
+"此後"
+]
+]
+},
+{
+"f": "sincerely",
+"l": "sincerely",
+"d": [
+[
+"adv.",
+"誠摯地；謹啟"
+]
+]
+},
+{
+"f": "singapore",
+"name": 1
+},
+{
+"f": "single",
+"l": "single",
+"d": [
+[
+"adj.",
+"單一的；單身的"
+],
+[
+"n.",
+"單人房；單程票"
+]
+]
+},
+{
+"f": "sink",
+"l": "sink",
+"d": [
+[
+"n.",
+"水槽"
+],
+[
+"v.",
+"下沉"
+]
+]
+},
+{
+"f": "sinks",
+"l": "sink"
+},
+{
+"f": "sit",
+"l": "sit"
+},
+{
+"f": "sites",
+"l": "site"
+},
+{
+"f": "sitting",
+"l": "sit"
+},
+{
+"f": "situations",
+"l": "situation"
+},
+{
+"f": "six",
+"l": "six",
+"d": [
+[
+"num.",
+"六"
+]
+]
+},
+{
+"f": "six-month",
+"l": "six-month",
+"d": [
+[
+"adj.",
+"為期六個月的"
+]
+]
+},
+{
+"f": "sixty",
+"l": "sixty",
+"d": [
+[
+"num.",
+"六十"
+]
+]
+},
+{
+"f": "sixty-five",
+"l": "sixty-five",
+"d": [
+[
+"num.",
+"六十五"
+]
+]
+},
+{
+"f": "size",
+"l": "size",
+"d": [
+[
+"n.",
+"尺寸；大小；規模"
+]
+]
+},
+{
+"f": "skills",
+"l": "skill",
+"d": [
+[
+"n.",
+"技能；技巧"
+]
+]
+},
+{
+"f": "sky",
+"l": "sky",
+"d": [
+[
+"n.",
+"天空"
+]
+]
+},
+{
+"f": "skyway",
+"name": 1
+},
+{
+"f": "sleep",
+"l": "sleep",
+"d": [
+[
+"v.",
+"睡覺"
+],
+[
+"n.",
+"睡眠"
+]
+]
+},
+{
+"f": "slide",
+"l": "slide",
+"d": [
+[
+"n.",
+"投影片；滑動"
+],
+[
+"v.",
+"滑動"
+]
+]
+},
+{
+"f": "slides",
+"l": "slide"
+},
+{
+"f": "slightly",
+"l": "slightly",
+"d": [
+[
+"adv.",
+"稍微；輕微地"
+]
+]
+},
+{
+"f": "slim",
+"l": "slim",
+"d": [
+[
+"adj.",
+"纖細的；薄的；微小的"
+]
+]
+},
+{
+"f": "slow",
+"l": "slow",
+"d": [
+[
+"adj.",
+"慢的"
+],
+[
+"v.",
+"減慢"
+]
+]
+},
+{
+"f": "small",
+"l": "small",
+"d": [
+[
+"adj.",
+"小的"
+]
+]
+},
+{
+"f": "smaller",
+"l": "small"
+},
+{
+"f": "smart",
+"l": "smart",
+"d": [
+[
+"adj.",
+"聰明的；智慧型的"
+]
+]
+},
+{
+"f": "smell",
+"l": "smell",
+"d": [
+[
+"n.",
+"氣味"
+],
+[
+"v.",
+"聞；有氣味"
+]
+]
+},
+{
+"f": "smoke",
+"l": "smoke",
+"d": [
+[
+"n.",
+"煙"
+],
+[
+"v.",
+"抽菸"
+]
+]
+},
+{
+"f": "smooth",
+"l": "smooth",
+"d": [
+[
+"adj.",
+"平滑的；順利的"
+]
+]
+},
+{
+"f": "smoothly",
+"l": "smooth"
+},
+{
+"f": "snack",
+"l": "snack",
+"d": [
+[
+"n.",
+"點心；零食"
+]
+]
+},
+{
+"f": "snacks",
+"l": "snack"
+},
+{
+"f": "sneakers",
+"l": "sneaker",
+"d": [
+[
+"n.",
+"運動鞋"
+]
+]
+},
+{
+"f": "snow",
+"l": "snow",
+"d": [
+[
+"n.",
+"雪"
+],
+[
+"v.",
+"下雪"
+]
+]
+},
+{
+"f": "so",
+"l": "so",
+"d": [
+[
+"adv.",
+"如此；非常"
+],
+[
+"conj.",
+"所以；以便"
+]
+]
+},
+{
+"f": "soccer",
+"l": "soccer",
+"d": [
+[
+"n.",
+"足球"
+]
+]
+},
+{
+"f": "social",
+"l": "social",
+"d": [
+[
+"adj.",
+"社交的；社會的"
+]
+]
+},
+{
+"f": "sofa",
+"l": "sofa",
+"d": [
+[
+"n.",
+"沙發"
+]
+]
+},
+{
+"f": "sofia",
+"name": 1
+},
+{
+"f": "solar",
+"l": "solar",
+"d": [
+[
+"adj.",
+"太陽能的；太陽的"
+]
+]
+},
+{
+"f": "sold",
+"l": "sell"
+},
+{
+"f": "solicited",
+"l": "solicit"
+},
+{
+"f": "solid",
+"l": "solid",
+"d": [
+[
+"adj.",
+"堅固的；固體的；可靠的"
+]
+]
+},
+{
+"f": "solvane",
+"name": 1
+},
+{
+"f": "solve",
+"l": "solve",
+"d": [
+[
+"v.",
+"解決；解答"
+]
+]
+},
+{
+"f": "solved",
+"l": "solve"
+},
+{
+"f": "solving",
+"l": "solve"
+},
+{
+"f": "some",
+"l": "some",
+"d": [
+[
+"det.",
+"一些；某些"
+],
+[
+"pron.",
+"一些"
+]
+]
+},
+{
+"f": "someone",
+"l": "someone",
+"d": [
+[
+"pron.",
+"某人"
+]
+]
+},
+{
+"f": "something",
+"l": "something",
+"d": [
+[
+"pron.",
+"某事；某物"
+]
+]
+},
+{
+"f": "sometime",
+"l": "sometime",
+"d": [
+[
+"adv.",
+"某個時候"
+]
+]
+},
+{
+"f": "sometimes",
+"l": "sometimes",
+"d": [
+[
+"adv.",
+"有時"
+]
+]
+},
+{
+"f": "sons",
+"l": "son",
+"d": [
+[
+"n.",
+"兒子"
+]
+]
+},
+{
+"f": "soon",
+"l": "soon",
+"d": [
+[
+"adv.",
+"不久；很快"
+]
+]
+},
+{
+"f": "sorry",
+"l": "sorry",
+"d": [
+[
+"adj.",
+"抱歉的；難過的"
+]
+]
+},
+{
+"f": "soto",
+"name": 1
+},
+{
+"f": "sound",
+"l": "sound",
+"d": [
+[
+"n.",
+"聲音"
+],
+[
+"v.",
+"聽起來"
+],
+[
+"adj.",
+"健全的"
+]
+]
+},
+{
+"f": "sounded",
+"l": "sound"
+},
+{
+"f": "soundproofed",
+"l": "soundproof",
+"d": [
+[
+"v.",
+"隔音"
+],
+[
+"adj.",
+"隔音的"
+]
+]
+},
+{
+"f": "soup",
+"l": "soup",
+"d": [
+[
+"n.",
+"湯"
+]
+]
+},
+{
+"f": "southern",
+"l": "southern",
+"d": [
+[
+"adj.",
+"南方的；南部的"
+]
+]
+},
+{
+"f": "spa",
+"l": "spa",
+"d": [
+[
+"n.",
+"水療中心；溫泉"
+]
+]
+},
+{
+"f": "space",
+"l": "space",
+"d": [
+[
+"n.",
+"空間；太空；場地"
+]
+]
+},
+{
+"f": "spaces",
+"l": "space"
+},
+{
+"f": "spanned",
+"l": "span"
+},
+{
+"f": "speak",
+"l": "speak",
+"d": [
+[
+"v.",
+"說話；演講"
+]
+]
+},
+{
+"f": "speaker",
+"l": "speaker",
+"d": [
+[
+"n.",
+"演講者；喇叭；說話者"
+]
+]
+},
+{
+"f": "speakers",
+"l": "speaker"
+},
+{
+"f": "speaking",
+"l": "speak"
+},
+{
+"f": "special",
+"l": "special",
+"d": [
+[
+"adj.",
+"特別的；特殊的"
+],
+[
+"n.",
+"特價；特餐"
+]
+]
+},
+{
+"f": "specialist",
+"l": "specialist",
+"d": [
+[
+"n.",
+"專家；專科醫師"
+]
+]
+},
+{
+"f": "specialized",
+"l": "specialized",
+"d": [
+[
+"adj.",
+"專門的；專業化的"
+]
+]
+},
+{
+"f": "specializes",
+"l": "specialize"
+},
+{
+"f": "specialty",
+"l": "specialty",
+"d": [
+[
+"n.",
+"專長；特產；招牌菜"
+]
+]
+},
+{
+"f": "species",
+"l": "species",
+"d": [
+[
+"n.",
+"物種；種類"
+]
+]
+},
+{
+"f": "specifically",
+"l": "specific"
+},
+{
+"f": "specifications",
+"l": "specification"
+},
+{
+"f": "specifies",
+"l": "specify"
+},
+{
+"f": "speech",
+"l": "speech",
+"d": [
+[
+"n.",
+"演講；言語"
+]
+]
+},
+{
+"f": "spend",
+"l": "spend",
+"d": [
+[
+"v.",
+"花費；度過"
+]
+]
+},
+{
+"f": "spending",
+"l": "spending",
+"d": [
+[
+"n.",
+"支出；花費"
+]
+]
+},
+{
+"f": "spent",
+"l": "spend"
+},
+{
+"f": "spill",
+"l": "spill",
+"d": [
+[
+"v.",
+"灑出；溢出"
+],
+[
+"n.",
+"溢出"
+]
+]
+},
+{
+"f": "spite",
+"l": "spite",
+"d": [
+[
+"n.",
+"惡意；怨恨"
+]
+]
+},
+{
+"f": "split",
+"l": "split",
+"d": [
+[
+"v.",
+"分開；分攤"
+],
+[
+"n.",
+"分裂"
+]
+]
+},
+{
+"f": "spoke",
+"l": "speak"
+},
+{
+"f": "sponsored",
+"l": "sponsor"
+},
+{
+"f": "sports",
+"l": "sport",
+"d": [
+[
+"n.",
+"運動"
+]
+]
+},
+{
+"f": "spread",
+"l": "spread",
+"d": [
+[
+"v.",
+"散布；塗抹"
+],
+[
+"n.",
+"蔓延；擴散"
+]
+]
+},
+{
+"f": "spreadsheets",
+"l": "spreadsheet"
+},
+{
+"f": "spring",
+"l": "spring",
+"d": [
+[
+"n.",
+"春天；彈簧"
+],
+[
+"v.",
+"跳躍"
+]
+]
+},
+{
+"f": "stability",
+"l": "stability",
+"d": [
+[
+"n.",
+"穩定；穩定性"
+]
+]
+},
+{
+"f": "stabilize",
+"l": "stabilize",
+"d": [
+[
+"v.",
+"穩定；使穩固"
+]
+]
+},
+{
+"f": "stably",
+"l": "stable"
+},
+{
+"f": "stacked",
+"l": "stack",
+"d": [
+[
+"v.",
+"堆疊"
+],
+[
+"n.",
+"一疊；一堆"
+]
+]
+},
+{
+"f": "stadium",
+"l": "stadium",
+"d": [
+[
+"n.",
+"體育場；運動場"
+]
+]
+},
+{
+"f": "stage",
+"l": "stage",
+"d": [
+[
+"n.",
+"階段；舞台"
+]
+]
+},
+{
+"f": "stairs",
+"l": "stairs",
+"d": [
+[
+"n.",
+"樓梯"
+]
+]
+},
+{
+"f": "stairways",
+"l": "stairway",
+"d": [
+[
+"n.",
+"樓梯；階梯通道"
+]
+]
+},
+{
+"f": "stake",
+"l": "stake",
+"d": [
+[
+"n.",
+"利害關係；賭注；股份"
+]
+]
+},
+{
+"f": "stakeholders",
+"l": "stakeholder"
+},
+{
+"f": "stand",
+"l": "stand",
+"d": [
+[
+"v.",
+"站立；忍受"
+],
+[
+"n.",
+"攤位；立場"
+]
+]
+},
+{
+"f": "standards",
+"l": "standard"
+},
+{
+"f": "standing",
+"l": "standing",
+"d": [
+[
+"n.",
+"地位；站立"
+],
+[
+"adj.",
+"常設的"
+]
+]
+},
+{
+"f": "stars",
+"l": "star",
+"d": [
+[
+"n.",
+"星星；明星"
+]
+]
+},
+{
+"f": "start",
+"l": "start",
+"d": [
+[
+"v.",
+"開始；啟動"
+],
+[
+"n.",
+"開始"
+]
+]
+},
+{
+"f": "start-up",
+"l": "start-up",
+"d": [
+[
+"n.",
+"新創公司；啟動"
+]
+]
+},
+{
+"f": "started",
+"l": "start"
+},
+{
+"f": "starting",
+"l": "start"
+},
+{
+"f": "starts",
+"l": "start"
+},
+{
+"f": "startup",
+"l": "startup",
+"d": [
+[
+"n.",
+"新創公司"
+]
+]
+},
+{
+"f": "stated",
+"l": "state",
+"d": [
+[
+"v.",
+"陳述；聲明"
+],
+[
+"n.",
+"狀態；州"
+]
+]
+},
+{
+"f": "statements",
+"l": "statement"
+},
+{
+"f": "station",
+"l": "station",
+"d": [
+[
+"n.",
+"車站；站；電台"
+]
+]
+},
+{
+"f": "stations",
+"l": "station"
+},
+{
+"f": "statistical",
+"l": "statistical",
+"d": [
+[
+"adj.",
+"統計的；統計學的"
+]
+]
+},
+{
+"f": "statistically",
+"l": "statistical"
+},
+{
+"f": "statistician",
+"l": "statistician",
+"d": [
+[
+"n.",
+"統計學家"
+]
+]
+},
+{
+"f": "stay",
+"l": "stay",
+"d": [
+[
+"v.",
+"停留；住宿；保持"
+],
+[
+"n.",
+"停留；住宿"
+]
+]
+},
+{
+"f": "stayed",
+"l": "stay"
+},
+{
+"f": "staying",
+"l": "stay"
+},
+{
+"f": "stays",
+"l": "stay"
+},
+{
+"f": "steel",
+"l": "steel",
+"d": [
+[
+"n.",
+"鋼；鋼鐵"
+]
+]
+},
+{
+"f": "stein",
+"name": 1
+},
+{
+"f": "step",
+"l": "step",
+"d": [
+[
+"n.",
+"步驟；腳步"
+],
+[
+"v.",
+"踏出"
+]
+]
+},
+{
+"f": "stephen",
+"name": 1
+},
+{
+"f": "steps",
+"l": "step"
+},
+{
+"f": "sticker",
+"l": "sticker",
+"d": [
+[
+"n.",
+"貼紙"
+]
+]
+},
+{
+"f": "still",
+"l": "still",
+"d": [
+[
+"adv.",
+"仍然；還是"
+],
+[
+"adj.",
+"靜止的"
+]
+]
+},
+{
+"f": "stockroom",
+"l": "stockroom",
+"d": [
+[
+"n.",
+"儲藏室；倉庫"
+]
+]
+},
+{
+"f": "stolen",
+"l": "steal",
+"d": [
+[
+"v.",
+"偷；竊取"
+]
+]
+},
+{
+"f": "stone",
+"l": "stone",
+"d": [
+[
+"n.",
+"石頭；石材"
+]
+]
+},
+{
+"f": "stood",
+"l": "stand"
+},
+{
+"f": "stop",
+"l": "stop",
+"d": [
+[
+"v.",
+"停止；停下"
+],
+[
+"n.",
+"站牌；停止"
+]
+]
+},
+{
+"f": "stopped",
+"l": "stop"
+},
+{
+"f": "stopping",
+"l": "stop"
+},
+{
+"f": "stops",
+"l": "stop"
+},
+{
+"f": "storage",
+"l": "storage",
+"d": [
+[
+"n.",
+"儲存；儲藏空間"
+]
+]
+},
+{
+"f": "store",
+"l": "store",
+"d": [
+[
+"n.",
+"商店；倉庫"
+],
+[
+"v.",
+"儲存"
+]
+]
+},
+{
+"f": "stored",
+"l": "store"
+},
+{
+"f": "stores",
+"l": "store"
+},
+{
+"f": "stories",
+"l": "story",
+"d": [
+[
+"n.",
+"故事；報導；樓層"
+]
+]
+},
+{
+"f": "storm",
+"l": "storm",
+"d": [
+[
+"n.",
+"暴風雨"
+]
+]
+},
+{
+"f": "story",
+"l": "story"
+},
+{
+"f": "straight",
+"l": "straight",
+"d": [
+[
+"adv.",
+"直接地；筆直地"
+],
+[
+"adj.",
+"筆直的；連續的"
+]
+]
+},
+{
+"f": "strain",
+"l": "strain",
+"d": [
+[
+"n.",
+"壓力；負荷"
+],
+[
+"v.",
+"拉傷；使緊張"
+]
+]
+},
+{
+"f": "strategically",
+"l": "strategic"
+},
+{
+"f": "strategist",
+"l": "strategist",
+"d": [
+[
+"n.",
+"策略家；戰略家"
+]
+]
+},
+{
+"f": "strategize",
+"l": "strategize",
+"d": [
+[
+"v.",
+"擬定策略"
+]
+]
+},
+{
+"f": "stratus",
+"name": 1
+},
+{
+"f": "streamlined",
+"l": "streamline"
+},
+{
+"f": "street",
+"l": "street",
+"d": [
+[
+"n.",
+"街道"
+]
+]
+},
+{
+"f": "strength",
+"l": "strength",
+"d": [
+[
+"n.",
+"力量；優點；強度"
+]
+]
+},
+{
+"f": "strict",
+"l": "strict",
+"d": [
+[
+"adj.",
+"嚴格的；嚴厲的"
+]
+]
+},
+{
+"f": "strollers",
+"l": "stroller",
+"d": [
+[
+"n.",
+"嬰兒推車；散步者"
+]
+]
+},
+{
+"f": "strong",
+"l": "strong",
+"d": [
+[
+"adj.",
+"強壯的；強烈的；堅固的"
+]
+]
+},
+{
+"f": "stronger",
+"l": "strong"
+},
+{
+"f": "strongly",
+"l": "strong"
+},
+{
+"f": "structural",
+"l": "structural",
+"d": [
+[
+"adj.",
+"結構的；結構性的"
+]
+]
+},
+{
+"f": "structurally",
+"l": "structural"
+},
+{
+"f": "structured",
+"l": "structure"
+},
+{
+"f": "stuck",
+"l": "stuck",
+"d": [
+[
+"adj.",
+"卡住的；困住的"
+]
+]
+},
+{
+"f": "students",
+"l": "student",
+"d": [
+[
+"n.",
+"學生"
+]
+]
+},
+{
+"f": "studio",
+"l": "studio",
+"d": [
+[
+"n.",
+"工作室；攝影棚；套房"
+]
+]
+},
+{
+"f": "studios",
+"l": "studio"
+},
+{
+"f": "study",
+"l": "study",
+"d": [
+[
+"v.",
+"學習；研究"
+],
+[
+"n.",
+"研究；書房"
+]
+]
+},
+{
+"f": "studying",
+"l": "study"
+},
+{
+"f": "submitted",
+"l": "submit"
+},
+{
+"f": "subordinates",
+"l": "subordinate"
+},
+{
+"f": "subscribed",
+"l": "subscribe"
+},
+{
+"f": "subscriber",
+"l": "subscriber",
+"d": [
+[
+"n.",
+"訂戶；訂閱者"
+]
+]
+},
+{
+"f": "subscribers",
+"l": "subscriber"
+},
+{
+"f": "subscribes",
+"l": "subscribe"
+},
+{
+"f": "subscribing",
+"l": "subscribe"
+},
+{
+"f": "subsidization",
+"l": "subsidize"
+},
+{
+"f": "subsidized",
+"l": "subsidize"
+},
+{
+"f": "subsidy",
+"l": "subsidy",
+"d": [
+[
+"n.",
+"補助金；津貼"
+]
+]
+},
+{
+"f": "substance",
+"l": "substance",
+"d": [
+[
+"n.",
+"物質；實質內容"
+]
+]
+},
+{
+"f": "substantially",
+"l": "substantial"
+},
+{
+"f": "substantiate",
+"l": "substantiate",
+"d": [
+[
+"v.",
+"證實；證明"
+]
+]
+},
+{
+"f": "suburbs",
+"l": "suburb",
+"d": [
+[
+"n.",
+"郊區"
+]
+]
+},
+{
+"f": "subway",
+"l": "subway",
+"d": [
+[
+"n.",
+"地下鐵；捷運"
+]
+]
+},
+{
+"f": "succeeded",
+"l": "succeed"
+},
+{
+"f": "succeeds",
+"l": "succeed"
+},
+{
+"f": "success",
+"l": "success",
+"d": [
+[
+"n.",
+"成功"
+]
+]
+},
+{
+"f": "successful",
+"l": "successful",
+"d": [
+[
+"adj.",
+"成功的"
+]
+]
+},
+{
+"f": "successfully",
+"l": "successful"
+},
+{
+"f": "successor",
+"l": "successor",
+"d": [
+[
+"n.",
+"繼任者；後繼者"
+]
+]
+},
+{
+"f": "such",
+"l": "such",
+"d": [
+[
+"det.",
+"這樣的；如此的"
+],
+[
+"adv.",
+"如此"
+]
+]
+},
+{
+"f": "sudden",
+"l": "sudden",
+"d": [
+[
+"adj.",
+"突然的"
+]
+]
+},
+{
+"f": "suddenly",
+"l": "sudden"
+},
+{
+"f": "suffice",
+"l": "suffice",
+"d": [
+[
+"v.",
+"足夠；滿足需要"
+]
+]
+},
+{
+"f": "sufficiency",
+"l": "sufficiency",
+"d": [
+[
+"n.",
+"充足；足量"
+]
+]
+},
+{
+"f": "sufficiently",
+"l": "sufficient"
+},
+{
+"f": "sugar",
+"l": "sugar",
+"d": [
+[
+"n.",
+"糖"
+]
+]
+},
+{
+"f": "suggested",
+"l": "suggest"
+},
+{
+"f": "suggestions",
+"l": "suggestion",
+"d": [
+[
+"n.",
+"建議"
+]
+]
+},
+{
+"f": "suggests",
+"l": "suggest"
+},
+{
+"f": "suit",
+"l": "suit",
+"d": [
+[
+"n.",
+"西裝；訴訟"
+],
+[
+"v.",
+"適合"
+]
+]
+},
+{
+"f": "suitability",
+"l": "suitability",
+"d": [
+[
+"n.",
+"適合性；適當"
+]
+]
+},
+{
+"f": "suitably",
+"l": "suitable"
+},
+{
+"f": "suitcase",
+"l": "suitcase",
+"d": [
+[
+"n.",
+"手提箱；行李箱"
+]
+]
+},
+{
+"f": "suitcases",
+"l": "suitcase"
+},
+{
+"f": "suited",
+"l": "suit"
+},
+{
+"f": "suits",
+"l": "suit"
+},
+{
+"f": "summer",
+"l": "summer",
+"d": [
+[
+"n.",
+"夏天"
+]
+]
+},
+{
+"f": "summit",
+"l": "summit",
+"d": [
+[
+"n.",
+"高峰會；山頂；顛峰"
+]
+]
+},
+{
+"f": "sunday",
+"l": "sunday",
+"d": [
+[
+"n.",
+"星期日"
+]
+]
+},
+{
+"f": "sundays",
+"l": "sunday"
+},
+{
+"f": "sunny",
+"l": "sunny",
+"d": [
+[
+"adj.",
+"晴朗的；陽光充足的"
+]
+]
+},
+{
+"f": "sunrise",
+"l": "sunrise",
+"d": [
+[
+"n.",
+"日出"
+]
+]
+},
+{
+"f": "sunset",
+"l": "sunset",
+"d": [
+[
+"n.",
+"日落"
+]
+]
+},
+{
+"f": "supermarket",
+"l": "supermarket",
+"d": [
+[
+"n.",
+"超級市場"
+]
+]
+},
+{
+"f": "supermarkets",
+"l": "supermarket"
+},
+{
+"f": "supervised",
+"l": "supervise"
+},
+{
+"f": "supervises",
+"l": "supervise"
+},
+{
+"f": "supervision",
+"l": "supervision",
+"d": [
+[
+"n.",
+"監督；管理"
+]
+]
+},
+{
+"f": "supervisors",
+"l": "supervisor"
+},
+{
+"f": "supervisory",
+"l": "supervisory",
+"d": [
+[
+"adj.",
+"監督的；管理的"
+]
+]
+},
+{
+"f": "supplied",
+"l": "supply"
+},
+{
+"f": "suppliers",
+"l": "supplier"
+},
+{
+"f": "supplies",
+"l": "supply"
+},
+{
+"f": "supply-chain",
+"l": "supply-chain",
+"d": [
+[
+"n.",
+"供應鏈"
+]
+]
+},
+{
+"f": "supplying",
+"l": "supply"
+},
+{
+"f": "supported",
+"l": "support"
+},
+{
+"f": "supporting",
+"l": "support"
+},
+{
+"f": "supposed",
+"l": "suppose",
+"d": [
+[
+"v.",
+"假設；認為"
+]
+]
+},
+{
+"f": "sure",
+"l": "sure",
+"d": [
+[
+"adj.",
+"確定的；有把握的"
+],
+[
+"adv.",
+"當然"
+]
+]
+},
+{
+"f": "surface",
+"l": "surface",
+"d": [
+[
+"n.",
+"表面"
+],
+[
+"v.",
+"浮現"
+]
+]
+},
+{
+"f": "surpassed",
+"l": "surpass"
+},
+{
+"f": "surpassing",
+"l": "surpass"
+},
+{
+"f": "surprise",
+"l": "surprise",
+"d": [
+[
+"n.",
+"驚喜；驚訝"
+],
+[
+"v.",
+"使驚訝"
+]
+]
+},
+{
+"f": "surprises",
+"l": "surprise"
+},
+{
+"f": "surveys",
+"l": "survey"
+},
+{
+"f": "susan",
+"name": 1
+},
+{
+"f": "suspended",
+"l": "suspend"
+},
+{
+"f": "sustainable",
+"l": "sustainable",
+"d": [
+[
+"adj.",
+"可永續的；可持續的"
+]
+]
+},
+{
+"f": "sustainably",
+"l": "sustainable"
+},
+{
+"f": "sweater",
+"l": "sweater",
+"d": [
+[
+"n.",
+"毛衣"
+]
+]
+},
+{
+"f": "sweet",
+"l": "sweet",
+"d": [
+[
+"adj.",
+"甜的；親切的"
+],
+[
+"n.",
+"甜點"
+]
+]
+},
+{
+"f": "swift",
+"l": "swift",
+"d": [
+[
+"adj.",
+"迅速的；敏捷的"
+]
+]
+},
+{
+"f": "swimming",
+"l": "swimming",
+"d": [
+[
+"n.",
+"游泳"
+]
+]
+},
+{
+"f": "switch",
+"l": "switch",
+"d": [
+[
+"n.",
+"開關；轉換"
+],
+[
+"v.",
+"切換；轉換"
+]
+]
+},
+{
+"f": "switches",
+"l": "switch"
+},
+{
+"f": "switching",
+"l": "switch"
+},
+{
+"f": "sydney",
+"name": 1
+},
+{
+"f": "system",
+"l": "system",
+"d": [
+[
+"n.",
+"系統；制度"
+]
+]
+},
+{
+"f": "systems",
+"l": "system"
+},
+{
+"f": "t-shirts",
+"l": "t-shirt",
+"d": [
+[
+"n.",
+"T恤"
+]
+]
+},
+{
+"f": "table",
+"l": "table",
+"d": [
+[
+"n.",
+"桌子；表格"
+]
+]
+},
+{
+"f": "tables",
+"l": "table"
+},
+{
+"f": "tablets",
+"l": "tablet",
+"d": [
+[
+"n.",
+"平板電腦；藥片"
+]
+]
+},
+{
+"f": "taipei",
+"name": 1
+},
+{
+"f": "take",
+"l": "take",
+"d": [
+[
+"v.",
+"拿；花費；搭乘；接受"
+]
+]
+},
+{
+"f": "taken",
+"l": "take"
+},
+{
+"f": "takes",
+"l": "take"
+},
+{
+"f": "taking",
+"l": "take"
+},
+{
+"f": "talk",
+"l": "talk",
+"d": [
+[
+"v.",
+"談話；交談"
+],
+[
+"n.",
+"談話；演講"
+]
+]
+},
+{
+"f": "talking",
+"l": "talk"
+},
+{
+"f": "talks",
+"l": "talk"
+},
+{
+"f": "taller",
+"l": "tall",
+"d": [
+[
+"adj.",
+"高的"
+]
+]
+},
+{
+"f": "tallyview",
+"name": 1
+},
+{
+"f": "tan",
+"l": "tan",
+"d": [
+[
+"adj.",
+"棕褐色的"
+],
+[
+"n.",
+"棕褐色"
+]
+]
+},
+{
+"f": "tanaka",
+"name": 1
+},
+{
+"f": "tape",
+"l": "tape",
+"d": [
+[
+"n.",
+"膠帶；錄音帶"
+],
+[
+"v.",
+"用膠帶黏"
+]
+]
+},
+{
+"f": "targets",
+"l": "target"
+},
+{
+"f": "taskpilot",
+"name": 1
+},
+{
+"f": "tasks",
+"l": "task"
+},
+{
+"f": "taste",
+"l": "taste",
+"d": [
+[
+"n.",
+"味道；品味"
+],
+[
+"v.",
+"品嚐"
+]
+]
+},
+{
+"f": "taught",
+"l": "teach",
+"d": [
+[
+"v.",
+"教；教導"
+]
+]
+},
+{
+"f": "tavero",
+"name": 1
+},
+{
+"f": "taxable",
+"l": "taxable",
+"d": [
+[
+"adj.",
+"應課稅的"
+]
+]
+},
+{
+"f": "taxed",
+"l": "tax"
+},
+{
+"f": "taxes",
+"l": "tax"
+},
+{
+"f": "taxi",
+"l": "taxi",
+"d": [
+[
+"n.",
+"計程車"
+]
+]
+},
+{
+"f": "taxing",
+"l": "tax"
+},
+{
+"f": "tea",
+"l": "tea",
+"d": [
+[
+"n.",
+"茶"
+]
+]
+},
+{
+"f": "teach",
+"l": "teach"
+},
+{
+"f": "teacher",
+"l": "teacher",
+"d": [
+[
+"n.",
+"老師；教師"
+]
+]
+},
+{
+"f": "teaches",
+"l": "teach"
+},
+{
+"f": "teaching",
+"l": "teach"
+},
+{
+"f": "team",
+"l": "team",
+"d": [
+[
+"n.",
+"團隊；隊伍"
+]
+]
+},
+{
+"f": "teams",
+"l": "team"
+},
+{
+"f": "teamwork",
+"l": "teamwork",
+"d": [
+[
+"n.",
+"團隊合作"
+]
+]
+},
+{
+"f": "teas",
+"l": "tea"
+},
+{
+"f": "technically",
+"l": "technical"
+},
+{
+"f": "technicians",
+"l": "technician"
+},
+{
+"f": "technique",
+"l": "technique",
+"d": [
+[
+"n.",
+"技巧；技術"
+]
+]
+},
+{
+"f": "technology",
+"l": "technology",
+"d": [
+[
+"n.",
+"科技；技術"
+]
+]
+},
+{
+"f": "telephone",
+"l": "telephone",
+"d": [
+[
+"n.",
+"電話"
+],
+[
+"v.",
+"打電話"
+]
+]
+},
+{
+"f": "television",
+"l": "television",
+"d": [
+[
+"n.",
+"電視"
+]
+]
+},
+{
+"f": "tell",
+"l": "tell",
+"d": [
+[
+"v.",
+"告訴；講述"
+]
+]
+},
+{
+"f": "teller",
+"l": "teller",
+"d": [
+[
+"n.",
+"銀行櫃員"
+]
+]
+},
+{
+"f": "telling",
+"l": "tell"
+},
+{
+"f": "tells",
+"l": "tell"
+},
+{
+"f": "temperature",
+"l": "temperature",
+"d": [
+[
+"n.",
+"溫度；氣溫；體溫"
+]
+]
+},
+{
+"f": "temporarily",
+"l": "temporary"
+},
+{
+"f": "ten",
+"l": "ten",
+"d": [
+[
+"num.",
+"十"
+]
+]
+},
+{
+"f": "tenants",
+"l": "tenant"
+},
+{
+"f": "tend",
+"l": "tend",
+"d": [
+[
+"v.",
+"傾向；照料"
+]
+]
+},
+{
+"f": "tenth",
+"l": "tenth",
+"d": [
+[
+"num.",
+"第十"
+],
+[
+"adj.",
+"第十的"
+]
+]
+},
+{
+"f": "tenth-floor",
+"l": "tenth-floor",
+"d": [
+[
+"adj.",
+"十樓的"
+]
+]
+},
+{
+"f": "terminally",
+"l": "terminal"
+},
+{
+"f": "termination",
+"l": "termination",
+"d": [
+[
+"n.",
+"終止；解雇"
+]
+]
+},
+{
+"f": "terms",
+"l": "term"
+},
+{
+"f": "terrace",
+"l": "terrace",
+"d": [
+[
+"n.",
+"露台；陽台"
+]
+]
+},
+{
+"f": "test",
+"l": "test",
+"d": [
+[
+"n.",
+"測驗；測試"
+],
+[
+"v.",
+"測試"
+]
+]
+},
+{
+"f": "testing",
+"l": "test"
+},
+{
+"f": "text",
+"l": "text",
+"d": [
+[
+"n.",
+"文字；簡訊；課文"
+],
+[
+"v.",
+"傳簡訊"
+]
+]
+},
+{
+"f": "textile",
+"l": "textile",
+"d": [
+[
+"n.",
+"紡織品"
+]
+]
+},
+{
+"f": "than",
+"l": "than",
+"d": [
+[
+"conj.",
+"比"
+],
+[
+"prep.",
+"比"
+]
+]
+},
+{
+"f": "thank",
+"l": "thank",
+"d": [
+[
+"v.",
+"感謝"
+]
+]
+},
+{
+"f": "thank-you",
+"l": "thank-you",
+"d": [
+[
+"n.",
+"感謝；謝辭"
+],
+[
+"adj.",
+"感謝的"
+]
+]
+},
+{
+"f": "thanks",
+"l": "thanks",
+"d": [
+[
+"n.",
+"感謝"
+],
+[
+"int.",
+"謝謝"
+]
+]
+},
+{
+"f": "that",
+"l": "that",
+"d": [
+[
+"det.",
+"那個"
+],
+[
+"pron.",
+"那；那個"
+],
+[
+"conj.",
+"那"
+]
+]
+},
+{
+"f": "the",
+"l": "the",
+"d": [
+[
+"det.",
+"這；那（定冠詞）"
+]
+]
+},
+{
+"f": "theater",
+"l": "theater",
+"d": [
+[
+"n.",
+"劇院；戲院"
+]
+]
+},
+{
+"f": "their",
+"l": "their",
+"d": [
+[
+"det.",
+"他們的；她們的"
+]
+]
+},
+{
+"f": "them",
+"l": "them",
+"d": [
+[
+"pron.",
+"他們；她們；它們"
+]
+]
+},
+{
+"f": "themselves",
+"l": "themselves",
+"d": [
+[
+"pron.",
+"他們自己；她們自己"
+]
+]
+},
+{
+"f": "then",
+"l": "then",
+"d": [
+[
+"adv.",
+"然後；那時；那麼"
+]
+]
+},
+{
+"f": "there",
+"l": "there",
+"d": [
+[
+"adv.",
+"那裡；在那裡"
+],
+[
+"pron.",
+"有（存在）"
+]
+]
+},
+{
+"f": "therefore",
+"l": "therefore",
+"d": [
+[
+"adv.",
+"因此；所以"
+]
+]
+},
+{
+"f": "thermostat",
+"l": "thermostat",
+"d": [
+[
+"n.",
+"恆溫器"
+]
+]
+},
+{
+"f": "these",
+"l": "these",
+"d": [
+[
+"det.",
+"這些"
+],
+[
+"pron.",
+"這些"
+]
+]
+},
+{
+"f": "they",
+"l": "they",
+"d": [
+[
+"pron.",
+"他們；她們；它們"
+]
+]
+},
+{
+"f": "they're",
+"l": "they're",
+"d": [
+[
+"phr.",
+"他們是"
+]
+]
+},
+{
+"f": "they've",
+"l": "they've",
+"d": [
+[
+"phr.",
+"他們已經"
+]
+]
+},
+{
+"f": "things",
+"l": "thing",
+"d": [
+[
+"n.",
+"東西；事情"
+]
+]
+},
+{
+"f": "think",
+"l": "think",
+"d": [
+[
+"v.",
+"想；認為；思考"
+]
+]
+},
+{
+"f": "third",
+"l": "third",
+"d": [
+[
+"num.",
+"第三"
+],
+[
+"adj.",
+"第三的"
+],
+[
+"n.",
+"三分之一"
+]
+]
+},
+{
+"f": "thirty",
+"l": "thirty",
+"d": [
+[
+"num.",
+"三十"
+]
+]
+},
+{
+"f": "thirty-year",
+"l": "thirty-year",
+"d": [
+[
+"adj.",
+"三十年的"
+]
+]
+},
+{
+"f": "this",
+"l": "this",
+"d": [
+[
+"det.",
+"這個"
+],
+[
+"pron.",
+"這；這個"
+]
+]
+},
+{
+"f": "thomas",
+"name": 1
+},
+{
+"f": "thornbury",
+"name": 1
+},
+{
+"f": "thorough",
+"l": "thorough",
+"d": [
+[
+"adj.",
+"徹底的；完整的"
+]
+]
+},
+{
+"f": "those",
+"l": "those",
+"d": [
+[
+"det.",
+"那些"
+],
+[
+"pron.",
+"那些"
+]
+]
+},
+{
+"f": "though",
+"l": "though",
+"d": [
+[
+"conj.",
+"雖然；儘管"
+],
+[
+"adv.",
+"不過"
+]
+]
+},
+{
+"f": "thought",
+"l": "thought",
+"d": [
+[
+"n.",
+"想法；思考"
+],
+[
+"v.",
+"想"
+]
+]
+},
+{
+"f": "thousand",
+"l": "thousand",
+"d": [
+[
+"num.",
+"一千"
+],
+[
+"n.",
+"千"
+]
+]
+},
+{
+"f": "thousands",
+"l": "thousands",
+"d": [
+[
+"n.",
+"數千；成千上萬"
+]
+]
+},
+{
+"f": "three",
+"l": "three",
+"d": [
+[
+"num.",
+"三"
+]
+]
+},
+{
+"f": "three-day",
+"l": "three-day",
+"d": [
+[
+"adj.",
+"為期三天的"
+]
+]
+},
+{
+"f": "three-year",
+"l": "three-year",
+"d": [
+[
+"adj.",
+"為期三年的"
+]
+]
+},
+{
+"f": "through",
+"l": "through",
+"d": [
+[
+"prep.",
+"透過；經過；穿過"
+],
+[
+"adv.",
+"通過"
+]
+]
+},
+{
+"f": "throughout",
+"l": "throughout",
+"d": [
+[
+"prep.",
+"遍及；自始至終"
+],
+[
+"adv.",
+"到處"
+]
+]
+},
+{
+"f": "throw",
+"l": "throw",
+"d": [
+[
+"v.",
+"丟；投擲；舉辦"
+]
+]
+},
+{
+"f": "thursday",
+"l": "thursday",
+"d": [
+[
+"n.",
+"星期四"
+]
+]
+},
+{
+"f": "ticket",
+"l": "ticket",
+"d": [
+[
+"n.",
+"票；罰單"
+]
+]
+},
+{
+"f": "tickets",
+"l": "ticket"
+},
+{
+"f": "tight",
+"l": "tight",
+"d": [
+[
+"adj.",
+"緊的；緊湊的；吃緊的"
+]
+]
+},
+{
+"f": "tiles",
+"l": "tile",
+"d": [
+[
+"n.",
+"磁磚；瓦片"
+]
+]
+},
+{
+"f": "timber",
+"l": "timber",
+"d": [
+[
+"n.",
+"木材；木料"
+]
+]
+},
+{
+"f": "time",
+"l": "time",
+"d": [
+[
+"n.",
+"時間；次數"
+],
+[
+"v.",
+"計時"
+]
+]
+},
+{
+"f": "timed",
+"l": "time"
+},
+{
+"f": "times",
+"l": "time"
+},
+{
+"f": "timetable",
+"l": "timetable",
+"d": [
+[
+"n.",
+"時間表；時刻表"
+]
+]
+},
+{
+"f": "tina",
+"name": 1
+},
+{
+"f": "tire",
+"l": "tire",
+"d": [
+[
+"n.",
+"輪胎"
+],
+[
+"v.",
+"使疲倦"
+]
+]
+},
+{
+"f": "title",
+"l": "title",
+"d": [
+[
+"n.",
+"標題；頭銜；職稱"
+]
+]
+},
+{
+"f": "to",
+"l": "to",
+"d": [
+[
+"prep.",
+"到；向；對"
+],
+[
+"phr.",
+"要（不定詞）"
+]
+]
+},
+{
+"f": "to-do",
+"l": "to-do",
+"d": [
+[
+"n.",
+"待辦事項"
+],
+[
+"adj.",
+"待辦的"
+]
+]
+},
+{
+"f": "today",
+"l": "today",
+"d": [
+[
+"n.",
+"今天"
+],
+[
+"adv.",
+"今天；現今"
+]
+]
+},
+{
+"f": "together",
+"l": "together",
+"d": [
+[
+"adv.",
+"一起；共同"
+]
+]
+},
+{
+"f": "tokyo",
+"name": 1
+},
+{
+"f": "told",
+"l": "tell"
+},
+{
+"f": "tolland",
+"name": 1
+},
+{
+"f": "tom",
+"name": 1
+},
+{
+"f": "tomas",
+"name": 1
+},
+{
+"f": "tomatoes",
+"l": "tomato",
+"d": [
+[
+"n.",
+"番茄"
+]
+]
+},
+{
+"f": "tomorrow",
+"l": "tomorrow",
+"d": [
+[
+"n.",
+"明天"
+],
+[
+"adv.",
+"明天"
+]
+]
+},
+{
+"f": "tonight",
+"l": "tonight",
+"d": [
+[
+"n.",
+"今晚"
+],
+[
+"adv.",
+"今晚"
+]
+]
+},
+{
+"f": "tons",
+"l": "ton",
+"d": [
+[
+"n.",
+"噸；大量"
+]
+]
+},
+{
+"f": "too",
+"l": "too",
+"d": [
+[
+"adv.",
+"也；太；過於"
+]
+]
+},
+{
+"f": "took",
+"l": "take"
+},
+{
+"f": "tool",
+"l": "tool",
+"d": [
+[
+"n.",
+"工具"
+]
+]
+},
+{
+"f": "tools",
+"l": "tool"
+},
+{
+"f": "top",
+"l": "top",
+"d": [
+[
+"n.",
+"頂端；上衣"
+],
+[
+"adj.",
+"最高的；頂級的"
+]
+]
+},
+{
+"f": "topic",
+"l": "topic",
+"d": [
+[
+"n.",
+"主題；話題"
+]
+]
+},
+{
+"f": "topics",
+"l": "topic"
+},
+{
+"f": "total",
+"l": "total",
+"d": [
+[
+"n.",
+"總數；合計"
+],
+[
+"adj.",
+"總共的"
+]
+]
+},
+{
+"f": "totals",
+"l": "total"
+},
+{
+"f": "touch",
+"l": "touch",
+"d": [
+[
+"v.",
+"觸碰；接觸"
+],
+[
+"n.",
+"接觸；聯繫"
+]
+]
+},
+{
+"f": "toured",
+"l": "tour"
+},
+{
+"f": "touring",
+"l": "tour"
+},
+{
+"f": "tourism",
+"l": "tourism",
+"d": [
+[
+"n.",
+"觀光業；旅遊業"
+]
+]
+},
+{
+"f": "tourists",
+"l": "tourist",
+"d": [
+[
+"n.",
+"觀光客；遊客"
+]
+]
+},
+{
+"f": "toward",
+"l": "toward",
+"d": [
+[
+"prep.",
+"朝向；對於；接近"
+]
+]
+},
+{
+"f": "towed",
+"l": "tow",
+"d": [
+[
+"v.",
+"拖；拖吊"
+]
+]
+},
+{
+"f": "tower",
+"l": "tower",
+"d": [
+[
+"n.",
+"塔；大樓"
+]
+]
+},
+{
+"f": "town",
+"l": "town",
+"d": [
+[
+"n.",
+"城鎮；市鎮"
+]
+]
+},
+{
+"f": "towns",
+"l": "town"
+},
+{
+"f": "tr",
+"name": 1
+},
+{
+"f": "tracking",
+"l": "track"
+},
+{
+"f": "traded",
+"l": "trade"
+},
+{
+"f": "traffic",
+"l": "traffic",
+"d": [
+[
+"n.",
+"交通；車流量"
+]
+]
+},
+{
+"f": "train",
+"l": "train",
+"d": [
+[
+"n.",
+"火車"
+],
+[
+"v.",
+"訓練；培訓"
+]
+]
+},
+{
+"f": "trained",
+"l": "train"
+},
+{
+"f": "trainer",
+"l": "trainer",
+"d": [
+[
+"n.",
+"訓練員；教練；講師"
+]
+]
+},
+{
+"f": "training",
+"l": "train"
+},
+{
+"f": "trains",
+"l": "train"
+},
+{
+"f": "transactions",
+"l": "transaction"
+},
+{
+"f": "transferred",
+"l": "transfer"
+},
+{
+"f": "transferring",
+"l": "transfer"
+},
+{
+"f": "transfers",
+"l": "transfer"
+},
+{
+"f": "transformation",
+"l": "transformation",
+"d": [
+[
+"n.",
+"轉變；轉型"
+]
+]
+},
+{
+"f": "transformative",
+"l": "transformative",
+"d": [
+[
+"adj.",
+"帶來轉變的；變革性的"
+]
+]
+},
+{
+"f": "transformed",
+"l": "transform"
+},
+{
+"f": "transformer",
+"l": "transformer",
+"d": [
+[
+"n.",
+"變壓器；改造者"
+]
+]
+},
+{
+"f": "translation",
+"l": "translation",
+"d": [
+[
+"n.",
+"翻譯；譯文"
+]
+]
+},
+{
+"f": "transpacific",
+"name": 1
+},
+{
+"f": "transparent",
+"l": "transparent",
+"d": [
+[
+"adj.",
+"透明的；公開透明的"
+]
+]
+},
+{
+"f": "transport",
+"l": "transport",
+"d": [
+[
+"n.",
+"運輸；交通工具"
+],
+[
+"v.",
+"運送"
+]
+]
+},
+{
+"f": "travel",
+"l": "travel",
+"d": [
+[
+"v.",
+"旅行；移動"
+],
+[
+"n.",
+"旅行"
+]
+]
+},
+{
+"f": "traveled",
+"l": "travel"
+},
+{
+"f": "traveler",
+"l": "traveler",
+"d": [
+[
+"n.",
+"旅客；旅行者"
+]
+]
+},
+{
+"f": "travelers",
+"l": "traveler"
+},
+{
+"f": "traveling",
+"l": "travel"
+},
+{
+"f": "travels",
+"l": "travel"
+},
+{
+"f": "travers",
+"name": 1
+},
+{
+"f": "trays",
+"l": "tray",
+"d": [
+[
+"n.",
+"托盤；盤子"
+]
+]
+},
+{
+"f": "treat",
+"l": "treat",
+"d": [
+[
+"v.",
+"對待；治療；請客"
+],
+[
+"n.",
+"款待"
+]
+]
+},
+{
+"f": "tree",
+"l": "tree",
+"d": [
+[
+"n.",
+"樹"
+]
+]
+},
+{
+"f": "trekline",
+"name": 1
+},
+{
+"f": "trends",
+"l": "trend"
+},
+{
+"f": "tried",
+"l": "try",
+"d": [
+[
+"v.",
+"嘗試；試用；審判"
+]
+]
+},
+{
+"f": "trip",
+"l": "trip",
+"d": [
+[
+"n.",
+"旅行；行程"
+]
+]
+},
+{
+"f": "trips",
+"l": "trip"
+},
+{
+"f": "trouble",
+"l": "trouble",
+"d": [
+[
+"n.",
+"麻煩；困難；故障"
+]
+]
+},
+{
+"f": "troubleshooting",
+"l": "troubleshooting",
+"d": [
+[
+"n.",
+"疑難排解；故障排除"
+]
+]
+},
+{
+"f": "truck",
+"l": "truck",
+"d": [
+[
+"n.",
+"卡車；貨車"
+]
+]
+},
+{
+"f": "trucks",
+"l": "truck"
+},
+{
+"f": "trust",
+"l": "trust",
+"d": [
+[
+"n.",
+"信任；信託"
+],
+[
+"v.",
+"信任"
+]
+]
+},
+{
+"f": "try",
+"l": "try"
+},
+{
+"f": "trying",
+"l": "try"
+},
+{
+"f": "tuesday",
+"l": "tuesday",
+"d": [
+[
+"n.",
+"星期二"
+]
+]
+},
+{
+"f": "turn",
+"l": "turn",
+"d": [
+[
+"v.",
+"轉動；轉變；轉向"
+],
+[
+"n.",
+"輪流；轉彎"
+]
+]
+},
+{
+"f": "turned",
+"l": "turn"
+},
+{
+"f": "turning",
+"l": "turn"
+},
+{
+"f": "turns",
+"l": "turn"
+},
+{
+"f": "tutorial",
+"l": "tutorial",
+"d": [
+[
+"n.",
+"教學課程；教程"
+]
+]
+},
+{
+"f": "twelfth",
+"l": "twelfth",
+"d": [
+[
+"num.",
+"第十二"
+],
+[
+"adj.",
+"第十二的"
+]
+]
+},
+{
+"f": "twelve",
+"l": "twelve",
+"d": [
+[
+"num.",
+"十二"
+]
+]
+},
+{
+"f": "twelve-week",
+"l": "twelve-week",
+"d": [
+[
+"adj.",
+"為期十二週的"
+]
+]
+},
+{
+"f": "twenty",
+"l": "twenty",
+"d": [
+[
+"num.",
+"二十"
+]
+]
+},
+{
+"f": "twenty-fifth",
+"l": "twenty-fifth",
+"d": [
+[
+"adj.",
+"第二十五的"
+]
+]
+},
+{
+"f": "twenty-four",
+"l": "twenty-four",
+"d": [
+[
+"num.",
+"二十四"
+]
+]
+},
+{
+"f": "twenty-three",
+"l": "twenty-three",
+"d": [
+[
+"num.",
+"二十三"
+]
+]
+},
+{
+"f": "twenty-year",
+"l": "twenty-year",
+"d": [
+[
+"adj.",
+"為期二十年的"
+]
+]
+},
+{
+"f": "twice",
+"l": "twice",
+"d": [
+[
+"adv.",
+"兩次；兩倍"
+]
+]
+},
+{
+"f": "twice-yearly",
+"l": "twice-yearly",
+"d": [
+[
+"adj.",
+"一年兩次的"
+]
+]
+},
+{
+"f": "two",
+"l": "two",
+"d": [
+[
+"num.",
+"二；兩個"
+]
+]
+},
+{
+"f": "two-bedroom",
+"l": "two-bedroom",
+"d": [
+[
+"adj.",
+"兩房的"
+]
+]
+},
+{
+"f": "two-day",
+"l": "two-day",
+"d": [
+[
+"adj.",
+"為期兩天的"
+]
+]
+},
+{
+"f": "two-hour",
+"l": "two-hour",
+"d": [
+[
+"adj.",
+"兩小時的"
+]
+]
+},
+{
+"f": "two-week",
+"l": "two-week",
+"d": [
+[
+"adj.",
+"為期兩週的"
+]
+]
+},
+{
+"f": "two-year",
+"l": "two-year",
+"d": [
+[
+"adj.",
+"為期兩年的"
+]
+]
+},
+{
+"f": "type",
+"l": "type",
+"d": [
+[
+"n.",
+"類型；種類"
+],
+[
+"v.",
+"打字"
+]
+]
+},
+{
+"f": "typed",
+"l": "type"
+},
+{
+"f": "typically",
+"l": "typical"
+},
+{
+"f": "typing",
+"l": "type"
+},
+{
+"f": "umbrella",
+"l": "umbrella",
+"d": [
+[
+"n.",
+"雨傘；保護傘"
+]
+]
+},
+{
+"f": "unable",
+"l": "unable",
+"d": [
+[
+"adj.",
+"無法的；不能的"
+]
+]
+},
+{
+"f": "unavailable",
+"l": "unavailable",
+"d": [
+[
+"adj.",
+"無法取得的；沒空的"
+]
+]
+},
+{
+"f": "unavoidable",
+"l": "unavoidable",
+"d": [
+[
+"adj.",
+"不可避免的"
+]
+]
+},
+{
+"f": "unclaimed-funds",
+"l": "unclaimed-funds",
+"d": [
+[
+"n.",
+"無人認領的資金"
+]
+]
+},
+{
+"f": "unclear",
+"l": "unclear",
+"d": [
+[
+"adj.",
+"不清楚的；不明確的"
+]
+]
+},
+{
+"f": "uncollected",
+"l": "uncollected",
+"d": [
+[
+"adj.",
+"未領取的；未收取的"
+]
+]
+},
+{
+"f": "uncovered",
+"l": "uncover",
+"d": [
+[
+"v.",
+"揭露；發現"
+]
+]
+},
+{
+"f": "under",
+"l": "under",
+"d": [
+[
+"prep.",
+"在…之下；低於"
+],
+[
+"adv.",
+"在下面"
+]
+]
+},
+{
+"f": "undergo",
+"l": "undergo",
+"d": [
+[
+"v.",
+"經歷；接受"
+]
+]
+},
+{
+"f": "understand",
+"l": "understand",
+"d": [
+[
+"v.",
+"理解；明白"
+]
+]
+},
+{
+"f": "understanding",
+"l": "understanding",
+"d": [
+[
+"n.",
+"理解；諒解"
+],
+[
+"adj.",
+"體諒的"
+]
+]
+},
+{
+"f": "understands",
+"l": "understand"
+},
+{
+"f": "understood",
+"l": "understand"
+},
+{
+"f": "unexpectedly",
+"l": "unexpected",
+"d": [
+[
+"adj.",
+"意外的；出乎意料的"
+]
+]
+},
+{
+"f": "unfilled",
+"l": "unfilled",
+"d": [
+[
+"adj.",
+"未填滿的；空缺的"
+]
+]
+},
+{
+"f": "unfortunately",
+"l": "unfortunately",
+"d": [
+[
+"adv.",
+"不幸地；遺憾的是"
+]
+]
+},
+{
+"f": "unfriendly",
+"l": "unfriendly",
+"d": [
+[
+"adj.",
+"不友善的"
+]
+]
+},
+{
+"f": "uniform",
+"l": "uniform",
+"d": [
+[
+"n.",
+"制服"
+],
+[
+"adj.",
+"一致的"
+]
+]
+},
+{
+"f": "uniforms",
+"l": "uniform"
+},
+{
+"f": "unit",
+"l": "unit",
+"d": [
+[
+"n.",
+"單位；單元；部門"
+]
+]
+},
+{
+"f": "units",
+"l": "unit"
+},
+{
+"f": "universities",
+"l": "university",
+"d": [
+[
+"n.",
+"大學"
+]
+]
+},
+{
+"f": "university",
+"l": "university"
+},
+{
+"f": "unless",
+"l": "unless",
+"d": [
+[
+"conj.",
+"除非"
+]
+]
+},
+{
+"f": "unlike",
+"l": "unlike",
+"d": [
+[
+"prep.",
+"不像；與…不同"
+],
+[
+"adj.",
+"不同的"
+]
+]
+},
+{
+"f": "unmarked",
+"l": "unmarked",
+"d": [
+[
+"adj.",
+"無標記的；未標示的"
+]
+]
+},
+{
+"f": "unpaid",
+"l": "unpaid",
+"d": [
+[
+"adj.",
+"未付的；無薪的"
+]
+]
+},
+{
+"f": "unprepared",
+"l": "unprepared",
+"d": [
+[
+"adj.",
+"沒準備的"
+]
+]
+},
+{
+"f": "unprocessed",
+"l": "unprocessed",
+"d": [
+[
+"adj.",
+"未處理的；未加工的"
+]
+]
+},
+{
+"f": "unstable",
+"l": "unstable",
+"d": [
+[
+"adj.",
+"不穩定的"
+]
+]
+},
+{
+"f": "until",
+"l": "until",
+"d": [
+[
+"prep.",
+"直到"
+],
+[
+"conj.",
+"直到"
+]
+]
+},
+{
+"f": "unused",
+"l": "unused",
+"d": [
+[
+"adj.",
+"未使用的；閒置的"
+]
+]
+},
+{
+"f": "unusual",
+"l": "unusual",
+"d": [
+[
+"adj.",
+"不尋常的；特別的"
+]
+]
+},
+{
+"f": "unusually",
+"l": "unusual"
+},
+{
+"f": "up",
+"l": "up",
+"d": [
+[
+"adv.",
+"向上；起來"
+],
+[
+"prep.",
+"向上"
+],
+[
+"adj.",
+"向上的"
+]
+]
+},
+{
+"f": "upcoming",
+"l": "upcoming",
+"d": [
+[
+"adj.",
+"即將到來的"
+]
+]
+},
+{
+"f": "updated",
+"l": "update"
+},
+{
+"f": "updates",
+"l": "update"
+},
+{
+"f": "upgrade",
+"l": "upgrade",
+"d": [
+[
+"v.",
+"升級"
+],
+[
+"n.",
+"升級"
+]
+]
+},
+{
+"f": "upgraded",
+"l": "upgrade"
+},
+{
+"f": "upstairs",
+"l": "upstairs",
+"d": [
+[
+"adv.",
+"在樓上；往樓上"
+],
+[
+"n.",
+"樓上"
+]
+]
+},
+{
+"f": "urge",
+"l": "urge",
+"d": [
+[
+"v.",
+"敦促；極力主張"
+],
+[
+"n.",
+"衝動"
+]
+]
+},
+{
+"f": "urgent",
+"l": "urgent",
+"d": [
+[
+"adj.",
+"緊急的；急迫的"
+]
+]
+},
+{
+"f": "us",
+"l": "us",
+"d": [
+[
+"pron.",
+"我們"
+]
+]
+},
+{
+"f": "use",
+"l": "use",
+"d": [
+[
+"v.",
+"使用"
+],
+[
+"n.",
+"使用；用途"
+]
+]
+},
+{
+"f": "used",
+"l": "used",
+"d": [
+[
+"adj.",
+"二手的；習慣的"
+]
+]
+},
+{
+"f": "used-book",
+"l": "used-book",
+"d": [
+[
+"adj.",
+"二手書的"
+]
+]
+},
+{
+"f": "useful",
+"l": "useful",
+"d": [
+[
+"adj.",
+"有用的"
+]
+]
+},
+{
+"f": "user",
+"l": "user",
+"d": [
+[
+"n.",
+"使用者"
+]
+]
+},
+{
+"f": "users",
+"l": "user"
+},
+{
+"f": "uses",
+"l": "use"
+},
+{
+"f": "using",
+"l": "use"
+},
+{
+"f": "usual",
+"l": "usual",
+"d": [
+[
+"adj.",
+"平常的；慣常的"
+]
+]
+},
+{
+"f": "usually",
+"l": "usual"
+},
+{
+"f": "utilitarian",
+"l": "utilitarian",
+"d": [
+[
+"adj.",
+"實用的；功利的"
+]
+]
+},
+{
+"f": "utility",
+"l": "utility",
+"d": [
+[
+"n.",
+"公用事業；水電瓦斯；實用程式"
+]
+]
+},
+{
+"f": "utilization",
+"l": "utilization",
+"d": [
+[
+"n.",
+"利用；使用"
+]
+]
+},
+{
+"f": "vacation",
+"l": "vacation",
+"d": [
+[
+"n.",
+"假期；休假"
+]
+]
+},
+{
+"f": "validation",
+"l": "validation",
+"d": [
+[
+"n.",
+"驗證；確認"
+]
+]
+},
+{
+"f": "validity",
+"l": "validity",
+"d": [
+[
+"n.",
+"有效性；效力"
+]
+]
+},
+{
+"f": "valuable",
+"l": "valuable",
+"d": [
+[
+"adj.",
+"貴重的；有價值的"
+]
+]
+},
+{
+"f": "valuables",
+"l": "valuables",
+"d": [
+[
+"n.",
+"貴重物品"
+]
+]
+},
+{
+"f": "value",
+"l": "value",
+"d": [
+[
+"n.",
+"價值"
+],
+[
+"v.",
+"重視；估價"
+]
+]
+},
+{
+"f": "valued",
+"l": "value"
+},
+{
+"f": "vans",
+"l": "van",
+"d": [
+[
+"n.",
+"廂型車；貨車"
+]
+]
+},
+{
+"f": "vantor",
+"name": 1
+},
+{
+"f": "vargas",
+"name": 1
+},
+{
+"f": "varied",
+"l": "vary",
+"d": [
+[
+"v.",
+"改變；變化；不同"
+]
+]
+},
+{
+"f": "varies",
+"l": "vary"
+},
+{
+"f": "variously",
+"l": "variously",
+"d": [
+[
+"adv.",
+"各式各樣地；不同地"
+]
+]
+},
+{
+"f": "vary",
+"l": "vary"
+},
+{
+"f": "vast",
+"l": "vast",
+"d": [
+[
+"adj.",
+"巨大的；廣大的"
+]
+]
+},
+{
+"f": "vega",
+"name": 1
+},
+{
+"f": "vegetable",
+"l": "vegetable",
+"d": [
+[
+"n.",
+"蔬菜"
+]
+]
+},
+{
+"f": "vegetables",
+"l": "vegetable"
+},
+{
+"f": "vehicles",
+"l": "vehicle"
+},
+{
+"f": "vending",
+"l": "vending",
+"d": [
+[
+"n.",
+"販賣；自動販賣"
+]
+]
+},
+{
+"f": "vendors",
+"l": "vendor"
+},
+{
+"f": "verbally",
+"l": "verbal"
+},
+{
+"f": "verified",
+"l": "verify",
+"d": [
+[
+"v.",
+"驗證；核實"
+]
+]
+},
+{
+"f": "verlane",
+"name": 1
+},
+{
+"f": "version",
+"l": "version",
+"d": [
+[
+"n.",
+"版本；說法"
+]
+]
+},
+{
+"f": "very",
+"l": "very",
+"d": [
+[
+"adv.",
+"非常"
+],
+[
+"adj.",
+"正是的"
+]
+]
+},
+{
+"f": "vessel",
+"l": "vessel",
+"d": [
+[
+"n.",
+"船隻；容器；血管"
+]
+]
+},
+{
+"f": "vice",
+"l": "vice",
+"d": [
+[
+"adj.",
+"副的"
+],
+[
+"n.",
+"惡習"
+]
+]
+},
+{
+"f": "victor",
+"name": 1
+},
+{
+"f": "video",
+"l": "video",
+"d": [
+[
+"n.",
+"影片；錄影"
+]
+]
+},
+{
+"f": "videos",
+"l": "video"
+},
+{
+"f": "view",
+"l": "view",
+"d": [
+[
+"n.",
+"景色；看法"
+],
+[
+"v.",
+"觀看；查看"
+]
+]
+},
+{
+"f": "viewing",
+"l": "view"
+},
+{
+"f": "views",
+"l": "view"
+},
+{
+"f": "violation",
+"l": "violation",
+"d": [
+[
+"n.",
+"違反；違規"
+]
+]
+},
+{
+"f": "violations",
+"l": "violation"
+},
+{
+"f": "visit",
+"l": "visit",
+"d": [
+[
+"v.",
+"參觀；拜訪"
+],
+[
+"n.",
+"參觀；拜訪"
+]
+]
+},
+{
+"f": "visited",
+"l": "visit"
+},
+{
+"f": "visiting",
+"l": "visit"
+},
+{
+"f": "visitors",
+"l": "visitor",
+"d": [
+[
+"n.",
+"訪客；遊客"
+]
+]
+},
+{
+"f": "visits",
+"l": "visit"
+},
+{
+"f": "voice",
+"l": "voice",
+"d": [
+[
+"n.",
+"聲音；意見"
+],
+[
+"v.",
+"表達"
+]
+]
+},
+{
+"f": "volunteer",
+"l": "volunteer",
+"d": [
+[
+"n.",
+"志工"
+],
+[
+"v.",
+"自願；擔任志工"
+]
+]
+},
+{
+"f": "volunteered",
+"l": "volunteer"
+},
+{
+"f": "volunteers",
+"l": "volunteer"
+},
+{
+"f": "voss",
+"name": 1
+},
+{
+"f": "vote",
+"l": "vote",
+"d": [
+[
+"v.",
+"投票；表決"
+],
+[
+"n.",
+"投票；選票"
+]
+]
+},
+{
+"f": "voted",
+"l": "vote"
+},
+{
+"f": "votes",
+"l": "vote"
+},
+{
+"f": "voucher",
+"l": "voucher",
+"d": [
+[
+"n.",
+"優惠券；憑證；代金券"
+]
+]
+},
+{
+"f": "wages",
+"l": "wage"
+},
+{
+"f": "wait",
+"l": "wait",
+"d": [
+[
+"v.",
+"等待"
+],
+[
+"n.",
+"等待"
+]
+]
+},
+{
+"f": "waited",
+"l": "wait"
+},
+{
+"f": "waiter",
+"l": "waiter",
+"d": [
+[
+"n.",
+"服務生；男侍者"
+]
+]
+},
+{
+"f": "waiters",
+"l": "waiter"
+},
+{
+"f": "waiting",
+"l": "wait"
+},
+{
+"f": "waits",
+"l": "wait"
+},
+{
+"f": "walk",
+"l": "walk",
+"d": [
+[
+"v.",
+"走路；步行"
+],
+[
+"n.",
+"散步；步行"
+]
+]
+},
+{
+"f": "walker",
+"l": "walker",
+"d": [
+[
+"n.",
+"步行者；助行器"
+]
+]
+},
+{
+"f": "walking",
+"l": "walk"
+},
+{
+"f": "wall",
+"l": "wall",
+"d": [
+[
+"n.",
+"牆；牆壁"
+]
+]
+},
+{
+"f": "wang",
+"name": 1
+},
+{
+"f": "want",
+"l": "want",
+"d": [
+[
+"v.",
+"想要；需要"
+]
+]
+},
+{
+"f": "wanted",
+"l": "want"
+},
+{
+"f": "wants",
+"l": "want"
+},
+{
+"f": "warehouses",
+"l": "warehouse"
+},
+{
+"f": "warm",
+"l": "warm",
+"d": [
+[
+"adj.",
+"溫暖的；熱情的"
+],
+[
+"v.",
+"加溫"
+]
+]
+},
+{
+"f": "warn",
+"l": "warn",
+"d": [
+[
+"v.",
+"警告；提醒"
+]
+]
+},
+{
+"f": "warning",
+"l": "warning",
+"d": [
+[
+"n.",
+"警告；警示"
+]
+]
+},
+{
+"f": "warranties",
+"l": "warranty"
+},
+{
+"f": "was",
+"l": "be",
+"d": [
+[
+"v.",
+"是；在"
+],
+[
+"aux.",
+"被；正在"
+]
+]
+},
+{
+"f": "wash",
+"l": "wash",
+"d": [
+[
+"v.",
+"洗；清洗"
+],
+[
+"n.",
+"洗滌"
+]
+]
+},
+{
+"f": "wasn't",
+"l": "wasn't",
+"d": [
+[
+"phr.",
+"不是；沒有"
+]
+]
+},
+{
+"f": "waste",
+"l": "waste",
+"d": [
+[
+"n.",
+"浪費；廢棄物"
+],
+[
+"v.",
+"浪費"
+]
+]
+},
+{
+"f": "watanabe",
+"name": 1
+},
+{
+"f": "watch",
+"l": "watch",
+"d": [
+[
+"v.",
+"觀看；注意"
+],
+[
+"n.",
+"手錶"
+]
+]
+},
+{
+"f": "watched",
+"l": "watch"
+},
+{
+"f": "water",
+"l": "water",
+"d": [
+[
+"n.",
+"水"
+],
+[
+"v.",
+"澆水"
+]
+]
+},
+{
+"f": "wave",
+"l": "wave",
+"d": [
+[
+"n.",
+"波浪；揮手；熱潮"
+],
+[
+"v.",
+"揮手"
+]
+]
+},
+{
+"f": "way",
+"l": "way",
+"d": [
+[
+"n.",
+"方法；路；方式"
+]
+]
+},
+{
+"f": "ways",
+"l": "way"
+},
+{
+"f": "we",
+"l": "we",
+"d": [
+[
+"pron.",
+"我們"
+]
+]
+},
+{
+"f": "we'd",
+"l": "we'd",
+"d": [
+[
+"phr.",
+"我們會；我們已經"
+]
+]
+},
+{
+"f": "we'll",
+"l": "we'll",
+"d": [
+[
+"phr.",
+"我們將"
+]
+]
+},
+{
+"f": "we're",
+"l": "we're",
+"d": [
+[
+"phr.",
+"我們是"
+]
+]
+},
+{
+"f": "we've",
+"l": "we've",
+"d": [
+[
+"phr.",
+"我們已經"
+]
+]
+},
+{
+"f": "weak",
+"l": "weak",
+"d": [
+[
+"adj.",
+"虛弱的；弱的"
+]
+]
+},
+{
+"f": "weaknesses",
+"l": "weakness",
+"d": [
+[
+"n.",
+"弱點；缺點"
+]
+]
+},
+{
+"f": "wear",
+"l": "wear",
+"d": [
+[
+"v.",
+"穿；戴；磨損"
+],
+[
+"n.",
+"衣物；磨損"
+]
+]
+},
+{
+"f": "wearing",
+"l": "wear"
+},
+{
+"f": "weather",
+"l": "weather",
+"d": [
+[
+"n.",
+"天氣"
+]
+]
+},
+{
+"f": "web",
+"l": "web",
+"d": [
+[
+"n.",
+"網路；蜘蛛網"
+]
+]
+},
+{
+"f": "website",
+"l": "website",
+"d": [
+[
+"n.",
+"網站"
+]
+]
+},
+{
+"f": "websites",
+"l": "website"
+},
+{
+"f": "wednesday",
+"l": "wednesday",
+"d": [
+[
+"n.",
+"星期三"
+]
+]
+},
+{
+"f": "wednesdays",
+"l": "wednesday"
+},
+{
+"f": "week",
+"l": "week",
+"d": [
+[
+"n.",
+"週；星期"
+]
+]
+},
+{
+"f": "weekdays",
+"l": "weekday",
+"d": [
+[
+"n.",
+"平日；工作日"
+]
+]
+},
+{
+"f": "weekend",
+"l": "weekend",
+"d": [
+[
+"n.",
+"週末"
+]
+]
+},
+{
+"f": "weekends",
+"l": "weekend"
+},
+{
+"f": "weekly",
+"l": "weekly",
+"d": [
+[
+"adj.",
+"每週的"
+],
+[
+"adv.",
+"每週"
+],
+[
+"n.",
+"週刊"
+]
+]
+},
+{
+"f": "weeks",
+"l": "week"
+},
+{
+"f": "weigh",
+"l": "weigh",
+"d": [
+[
+"v.",
+"秤重；權衡"
+]
+]
+},
+{
+"f": "weighs",
+"l": "weigh"
+},
+{
+"f": "weight",
+"l": "weight",
+"d": [
+[
+"n.",
+"重量；體重"
+]
+]
+},
+{
+"f": "welcome",
+"l": "welcome",
+"d": [
+[
+"v.",
+"歡迎"
+],
+[
+"adj.",
+"受歡迎的"
+],
+[
+"int.",
+"歡迎"
+]
+]
+},
+{
+"f": "welcomed",
+"l": "welcome"
+},
+{
+"f": "welcoming",
+"l": "welcoming",
+"d": [
+[
+"adj.",
+"熱情友好的；歡迎的"
+]
+]
+},
+{
+"f": "well",
+"l": "well",
+"d": [
+[
+"adv.",
+"好；很好"
+],
+[
+"adj.",
+"健康的"
+],
+[
+"n.",
+"井"
+]
+]
+},
+{
+"f": "went",
+"l": "go",
+"d": [
+[
+"v.",
+"去；前往；進行"
+]
+]
+},
+{
+"f": "were",
+"l": "be"
+},
+{
+"f": "weren't",
+"l": "weren't",
+"d": [
+[
+"phr.",
+"不是；沒有"
+]
+]
+},
+{
+"f": "west",
+"l": "west",
+"d": [
+[
+"n.",
+"西方；西部"
+],
+[
+"adv.",
+"向西"
+]
+]
+},
+{
+"f": "westbrook",
+"name": 1
+},
+{
+"f": "westfield",
+"name": 1
+},
+{
+"f": "westgate",
+"name": 1
+},
+{
+"f": "wet",
+"l": "wet",
+"d": [
+[
+"adj.",
+"濕的；下雨的"
+]
+]
+},
+{
+"f": "what",
+"l": "what",
+"d": [
+[
+"pron.",
+"什麼"
+],
+[
+"det.",
+"什麼；多麼"
+]
+]
+},
+{
+"f": "wheat",
+"l": "wheat",
+"d": [
+[
+"n.",
+"小麥"
+]
+]
+},
+{
+"f": "wheels",
+"l": "wheel",
+"d": [
+[
+"n.",
+"輪子；方向盤"
+]
+]
+},
+{
+"f": "when",
+"l": "when",
+"d": [
+[
+"adv.",
+"何時"
+],
+[
+"conj.",
+"當…時"
+]
+]
+},
+{
+"f": "whenever",
+"l": "whenever",
+"d": [
+[
+"conj.",
+"每當；無論何時"
+]
+]
+},
+{
+"f": "where",
+"l": "where",
+"d": [
+[
+"adv.",
+"在哪裡"
+],
+[
+"conj.",
+"在…的地方"
+]
+]
+},
+{
+"f": "whereas",
+"l": "whereas",
+"d": [
+[
+"conj.",
+"然而；鑒於"
+]
+]
+},
+{
+"f": "whether",
+"l": "whether",
+"d": [
+[
+"conj.",
+"是否；無論"
+]
+]
+},
+{
+"f": "which",
+"l": "which",
+"d": [
+[
+"det.",
+"哪一個"
+],
+[
+"pron.",
+"哪一個；那個"
+]
+]
+},
+{
+"f": "whichever",
+"l": "whichever",
+"d": [
+[
+"det.",
+"無論哪一個"
+],
+[
+"pron.",
+"無論哪一個"
+]
+]
+},
+{
+"f": "while",
+"l": "while",
+"d": [
+[
+"conj.",
+"當…時；然而"
+],
+[
+"n.",
+"一會兒"
+]
+]
+},
+{
+"f": "whitfield",
+"name": 1
+},
+{
+"f": "whitman",
+"name": 1
+},
+{
+"f": "who",
+"l": "who",
+"d": [
+[
+"pron.",
+"誰；…的人"
+]
+]
+},
+{
+"f": "whole",
+"l": "whole",
+"d": [
+[
+"adj.",
+"整個的；全部的"
+],
+[
+"n.",
+"全部"
+]
+]
+},
+{
+"f": "whole-grain",
+"l": "whole-grain",
+"d": [
+[
+"adj.",
+"全穀的"
+]
+]
+},
+{
+"f": "wholly",
+"l": "wholly",
+"d": [
+[
+"adv.",
+"完全地；全然"
+]
+]
+},
+{
+"f": "whom",
+"l": "whom",
+"d": [
+[
+"pron.",
+"誰（受格）"
+]
+]
+},
+{
+"f": "whose",
+"l": "whose",
+"d": [
+[
+"pron.",
+"誰的；…的"
+]
+]
+},
+{
+"f": "why",
+"l": "why",
+"d": [
+[
+"adv.",
+"為什麼"
+]
+]
+},
+{
+"f": "wi-fi",
+"l": "wi-fi",
+"d": [
+[
+"n.",
+"無線網路"
+]
+]
+},
+{
+"f": "wide",
+"l": "wide",
+"d": [
+[
+"adj.",
+"寬的；廣泛的"
+]
+]
+},
+{
+"f": "wider",
+"l": "wide"
+},
+{
+"f": "widespread",
+"l": "widespread",
+"d": [
+[
+"adj.",
+"普遍的；廣泛的"
+]
+]
+},
+{
+"f": "will",
+"l": "will",
+"d": [
+[
+"aux.",
+"將；會"
+],
+[
+"n.",
+"意願；遺囑"
+]
+]
+},
+{
+"f": "willing",
+"l": "willing",
+"d": [
+[
+"adj.",
+"願意的；樂意的"
+]
+]
+},
+{
+"f": "win",
+"l": "win",
+"d": [
+[
+"v.",
+"贏；獲勝"
+],
+[
+"n.",
+"勝利"
+]
+]
+},
+{
+"f": "window",
+"l": "window",
+"d": [
+[
+"n.",
+"窗戶；視窗"
+]
+]
+},
+{
+"f": "windows",
+"l": "window"
+},
+{
+"f": "winds",
+"l": "wind",
+"d": [
+[
+"n.",
+"風"
+],
+[
+"v.",
+"彎曲；上發條"
+]
+]
+},
+{
+"f": "wing",
+"l": "wing",
+"d": [
+[
+"n.",
+"翅膀；側翼；廂房"
+]
+]
+},
+{
+"f": "winner",
+"l": "winner",
+"d": [
+[
+"n.",
+"贏家；獲勝者"
+]
+]
+},
+{
+"f": "winners",
+"l": "winner"
+},
+{
+"f": "winter",
+"l": "winter",
+"d": [
+[
+"n.",
+"冬天"
+]
+]
+},
+{
+"f": "wire",
+"l": "wire",
+"d": [
+[
+"n.",
+"電線；金屬線"
+],
+[
+"v.",
+"匯款"
+]
+]
+},
+{
+"f": "wireless",
+"l": "wireless",
+"d": [
+[
+"adj.",
+"無線的"
+]
+]
+},
+{
+"f": "wise",
+"l": "wise",
+"d": [
+[
+"adj.",
+"明智的；有智慧的"
+]
+]
+},
+{
+"f": "wish",
+"l": "wish",
+"d": [
+[
+"v.",
+"希望；祝願"
+],
+[
+"n.",
+"願望"
+]
+]
+},
+{
+"f": "with",
+"l": "with",
+"d": [
+[
+"prep.",
+"和；帶有；用"
+]
+]
+},
+{
+"f": "withdrawals",
+"l": "withdrawal"
+},
+{
+"f": "withdrawn",
+"l": "withdraw"
+},
+{
+"f": "withdrew",
+"l": "withdraw"
+},
+{
+"f": "withheld",
+"l": "withhold"
+},
+{
+"f": "withholding",
+"l": "withholding",
+"d": [
+[
+"n.",
+"代扣；扣繳"
+]
+]
+},
+{
+"f": "within",
+"l": "within",
+"d": [
+[
+"prep.",
+"在…之內"
+],
+[
+"adv.",
+"在內"
+]
+]
+},
+{
+"f": "without",
+"l": "without",
+"d": [
+[
+"prep.",
+"沒有；無"
+],
+[
+"adv.",
+"沒有"
+]
+]
+},
+{
+"f": "women",
+"l": "woman",
+"d": [
+[
+"n.",
+"女人；女性"
+]
+]
+},
+{
+"f": "won",
+"l": "win"
+},
+{
+"f": "won't",
+"l": "won't",
+"d": [
+[
+"phr.",
+"將不會"
+]
+]
+},
+{
+"f": "wonderful",
+"l": "wonderful",
+"d": [
+[
+"adj.",
+"很棒的；美妙的"
+]
+]
+},
+{
+"f": "wong",
+"name": 1
+},
+{
+"f": "wood",
+"l": "wood",
+"d": [
+[
+"n.",
+"木頭；木材"
+]
+]
+},
+{
+"f": "wooden",
+"l": "wooden",
+"d": [
+[
+"adj.",
+"木製的"
+]
+]
+},
+{
+"f": "wool",
+"l": "wool",
+"d": [
+[
+"n.",
+"羊毛"
+]
+]
+},
+{
+"f": "word",
+"l": "word",
+"d": [
+[
+"n.",
+"字；話語；消息"
+]
+]
+},
+{
+"f": "words",
+"l": "word"
+},
+{
+"f": "work",
+"l": "work",
+"d": [
+[
+"v.",
+"工作；運作"
+],
+[
+"n.",
+"工作；作品"
+]
+]
+},
+{
+"f": "workday",
+"l": "workday",
+"d": [
+[
+"n.",
+"工作日"
+]
+]
+},
+{
+"f": "worked",
+"l": "work"
+},
+{
+"f": "worker",
+"l": "worker",
+"d": [
+[
+"n.",
+"工人；員工"
+]
+]
+},
+{
+"f": "workers",
+"l": "worker"
+},
+{
+"f": "working",
+"l": "work"
+},
+{
+"f": "workplace",
+"l": "workplace",
+"d": [
+[
+"n.",
+"工作場所；職場"
+]
+]
+},
+{
+"f": "works",
+"l": "work"
+},
+{
+"f": "workshops",
+"l": "workshop"
+},
+{
+"f": "workstations",
+"l": "workstation"
+},
+{
+"f": "workweek",
+"l": "workweek",
+"d": [
+[
+"n.",
+"工作週"
+]
+]
+},
+{
+"f": "world",
+"l": "world",
+"d": [
+[
+"n.",
+"世界"
+]
+]
+},
+{
+"f": "worn",
+"l": "wear"
+},
+{
+"f": "worsening",
+"l": "worsen",
+"d": [
+[
+"v.",
+"惡化；變壞"
+]
+]
+},
+{
+"f": "worth",
+"l": "worth",
+"d": [
+[
+"adj.",
+"值得的；價值…的"
+],
+[
+"n.",
+"價值"
+]
+]
+},
+{
+"f": "would",
+"l": "would",
+"d": [
+[
+"aux.",
+"將會；願意；可能"
+]
+]
+},
+{
+"f": "wouldn't",
+"l": "wouldn't",
+"d": [
+[
+"phr.",
+"不會；不願意"
+]
+]
+},
+{
+"f": "wrap",
+"l": "wrap",
+"d": [
+[
+"v.",
+"包裝；包裹"
+],
+[
+"n.",
+"包裝紙"
+]
+]
+},
+{
+"f": "wrists",
+"l": "wrist",
+"d": [
+[
+"n.",
+"手腕"
+]
+]
+},
+{
+"f": "write",
+"l": "write",
+"d": [
+[
+"v.",
+"寫；撰寫"
+]
+]
+},
+{
+"f": "writer",
+"l": "writer",
+"d": [
+[
+"n.",
+"作家；作者"
+]
+]
+},
+{
+"f": "writers",
+"l": "writer"
+},
+{
+"f": "writes",
+"l": "write"
+},
+{
+"f": "writing",
+"l": "write"
+},
+{
+"f": "written",
+"l": "write"
+},
+{
+"f": "wrong",
+"l": "wrong",
+"d": [
+[
+"adj.",
+"錯誤的；不對的"
+],
+[
+"adv.",
+"錯誤地"
+]
+]
+},
+{
+"f": "wrote",
+"l": "write"
+},
+{
+"f": "wu",
+"name": 1
+},
+{
+"f": "yamada",
+"name": 1
+},
+{
+"f": "yang",
+"name": 1
+},
+{
+"f": "year",
+"l": "year",
+"d": [
+[
+"n.",
+"年；年度"
+]
+]
+},
+{
+"f": "year-end",
+"l": "year-end",
+"d": [
+[
+"n.",
+"年底；年終"
+],
+[
+"adj.",
+"年終的"
+]
+]
+},
+{
+"f": "year-long",
+"l": "year-long",
+"d": [
+[
+"adj.",
+"為期一年的"
+]
+]
+},
+{
+"f": "yearly",
+"l": "yearly",
+"d": [
+[
+"adj.",
+"每年的"
+],
+[
+"adv.",
+"每年"
+]
+]
+},
+{
+"f": "years",
+"l": "year"
+},
+{
+"f": "yes",
+"l": "yes",
+"d": [
+[
+"int.",
+"是；好"
+],
+[
+"n.",
+"同意"
+]
+]
+},
+{
+"f": "yesterday",
+"l": "yesterday",
+"d": [
+[
+"n.",
+"昨天"
+],
+[
+"adv.",
+"昨天"
+]
+]
+},
+{
+"f": "yet",
+"l": "yet",
+"d": [
+[
+"adv.",
+"還；尚未；然而"
+],
+[
+"conj.",
+"然而"
+]
+]
+},
+{
+"f": "yoon",
+"name": 1
+},
+{
+"f": "you",
+"l": "you",
+"d": [
+[
+"pron.",
+"你；你們"
+]
+]
+},
+{
+"f": "you'd",
+"l": "you'd",
+"d": [
+[
+"phr.",
+"你會；你已經"
+]
+]
+},
+{
+"f": "you'll",
+"l": "you'll",
+"d": [
+[
+"phr.",
+"你將"
+]
+]
+},
+{
+"f": "you're",
+"l": "you're",
+"d": [
+[
+"phr.",
+"你是"
+]
+]
+},
+{
+"f": "you've",
+"l": "you've",
+"d": [
+[
+"phr.",
+"你已經"
+]
+]
+},
+{
+"f": "young",
+"l": "young",
+"d": [
+[
+"adj.",
+"年輕的"
+]
+]
+},
+{
+"f": "younger",
+"l": "young"
+},
+{
+"f": "youngest",
+"l": "young"
+},
+{
+"f": "your",
+"l": "your",
+"d": [
+[
+"det.",
+"你的；你們的"
+]
+]
+},
+{
+"f": "yours",
+"l": "yours",
+"d": [
+[
+"pron.",
+"你的；你們的"
+]
+]
+},
+{
+"f": "yourself",
+"l": "yourself",
+"d": [
+[
+"pron.",
+"你自己"
+]
+]
+},
+{
+"f": "youth",
+"l": "youth",
+"d": [
+[
+"n.",
+"青年；青少年；年輕"
+]
+]
+},
+{
+"f": "zipper",
+"l": "zipper",
+"d": [
+[
+"n.",
+"拉鍊"
+]
+]
+},
+{
+"f": "zone",
+"l": "zone",
+"d": [
+[
+"n.",
+"區域；地區"
+]
+]
+}
+]

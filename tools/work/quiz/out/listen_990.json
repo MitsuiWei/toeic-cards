@@ -1,0 +1,1602 @@
+[
+ {
+  "type": "tag",
+  "q": "This workstation is designated for visiting staff, isn't it?",
+  "answer": "Yes, but feel free to use it until someone turns up.",
+  "distractors": [
+   "The designer sent three logo options.",
+   "We visited the factory last spring."
+  ],
+  "zh_q": "這個工作站是指定給來訪同仁用的，對吧？",
+  "zh_answer": "對，不過有人來之前你儘管用。",
+  "zh_distractors": [
+   "設計師寄了三款標誌方案過來。",
+   "我們去年春天參觀了工廠。"
+  ],
+  "ex": "附加問句想確認這個座位是否保留給來訪人員。「Yes, but feel free to use it until someone turns up.」先肯定，再補充有人來之前可以先用。「The designer sent three logo options.」的 designer 只是和 designated 發音相近；「We visited the factory last spring.」的 visited 只是和 visiting 相近，講的是參觀工廠。"
+ },
+ {
+  "type": "tag",
+  "q": "It would be more pragmatic to lease the equipment, wouldn't it?",
+  "answer": "Especially since we'll only need it for six months.",
+  "distractors": [
+   "At least a dozen people signed up.",
+   "The gym equipment is brand new."
+  ],
+  "zh_q": "設備用租的會比較實際，不是嗎？",
+  "zh_answer": "尤其我們只需要用六個月。",
+  "zh_distractors": [
+   "至少有十幾個人報名。",
+   "健身房的器材是全新的。"
+  ],
+  "ex": "附加問句想確認「租設備比較務實」。「Especially since we'll only need it for six months.」表示同意，並補充只需要用六個月這個理由。「At least a dozen people signed up.」的 least 只是和 lease 發音相近，講的是報名人數；「The gym equipment is brand new.」只是重複 equipment，沒有回應該不該用租的。"
+ },
+ {
+  "type": "choice",
+  "q": "Shall we deploy the update tonight or hold off until the weekend?",
+  "answer": "The site gets the fewest visitors on Sundays.",
+  "distractors": [
+   "The date on the form is wrong.",
+   "Hold on, I'll transfer your call."
+  ],
+  "zh_q": "更新要今晚就部署，還是延到週末？",
+  "zh_answer": "網站星期天的訪客最少。",
+  "zh_distractors": [
+   "表格上的日期寫錯了。",
+   "請稍等，我幫您轉接。"
+  ],
+  "ex": "二選一：今晚部署或延到週末。「The site gets the fewest visitors on Sundays.」指出星期天訪客最少，暗示週末再做比較好。「The date on the form is wrong.」的 date 只是和 update 發音相近；「Hold on, I'll transfer your call.」的 hold on（稍等）和 hold off（延後）不同，是講電話的用語。"
+ },
+ {
+  "type": "statement",
+  "q": "Our turnover among sales staff has been unusually high this year.",
+  "answer": "Maybe it's time we reviewed the incentive plan.",
+  "distractors": [
+   "Turn over the page and sign at the bottom.",
+   "The shelf is too high for me to reach."
+  ],
+  "zh_q": "今年我們業務人員的流動率高得不尋常。",
+  "zh_answer": "也許該檢討一下獎勵制度了。",
+  "zh_distractors": [
+   "請把這頁翻過來，在最下面簽名。",
+   "那個架子太高，我搆不到。"
+  ],
+  "ex": "這句話指出業務人員流動率偏高，合適的回應是提出對策或看法。「Maybe it's time we reviewed the incentive plan.」建議檢討獎勵制度來留住人才。「Turn over the page and sign at the bottom.」的 turn over 是「翻頁」，和 turnover（流動率）無關；「The shelf is too high for me to reach.」只是重複 high，講的是架子的高度。"
+ },
+ {
+  "type": "choice",
+  "q": "Should the proceeds go to the scholarship fund or the community center?",
+  "answer": "The donors asked us to split them evenly.",
+  "distractors": [
+   "Please proceed to the front desk.",
+   "The center is closed on public holidays."
+  ],
+  "zh_q": "這筆收益該撥給獎學金基金，還是社區中心？",
+  "zh_answer": "捐款人要求我們平均分配。",
+  "zh_distractors": [
+   "請前往櫃台。",
+   "中心在國定假日不開放。"
+  ],
+  "ex": "二選一：收益給獎學金基金或社區中心。「The donors asked us to split them evenly.」表示兩邊平分，是合理的回答。「Please proceed to the front desk.」的 proceed（前往）是動詞，只是和名詞 proceeds（收益）相近；「The center is closed on public holidays.」重複 center，講的卻是開放時間。"
+ },
+ {
+  "type": "wh",
+  "q": "How do you plan to offset the surge in shipping costs?",
+  "answer": "We're negotiating a bulk rate with another carrier.",
+  "distractors": [
+   "The ship departs from the harbor at dawn.",
+   "I set it off by accident, sorry."
+  ],
+  "zh_q": "運費暴漲，你打算怎麼抵銷這筆成本？",
+  "zh_answer": "我們正在和另一家貨運公司談大宗優惠費率。",
+  "zh_distractors": [
+   "船在黎明時從港口出發。",
+   "抱歉，我不小心觸動了它。"
+  ],
+  "ex": "How do you plan to 問做法。「We're negotiating a bulk rate with another carrier.」說出具體對策：和別家貨運公司談大宗費率來壓低成本。「The ship departs from the harbor at dawn.」的 ship 只是和 shipping 相近，講的是開船時間；「I set it off by accident, sorry.」的 set off（觸動）是把 offset（抵銷）前後對調的聲音陷阱。"
+ },
+ {
+  "type": "wh",
+  "q": "What accounts for the discrepancy between these two invoices?",
+  "answer": "One of them doesn't include the delivery charge.",
+  "distractors": [
+   "I opened both accounts at the same bank.",
+   "They're in the top drawer of my desk."
+  ],
+  "zh_q": "這兩張發票的金額為什麼對不起來？",
+  "zh_answer": "其中一張沒有把運費算進去。",
+  "zh_distractors": [
+   "我兩個帳戶都開在同一家銀行。",
+   "它們在我桌子最上層的抽屜裡。"
+  ],
+  "ex": "What accounts for … 是「造成…的原因是什麼」。「One of them doesn't include the delivery charge.」說明差異來自其中一張沒算運費。「I opened both accounts at the same bank.」把 accounts 當成「帳戶」，和問題無關；「They're in the top drawer of my desk.」回答的是東西放在哪裡。"
+ },
+ {
+  "type": "request",
+  "q": "Can you authorize this purchase order before you leave today?",
+  "answer": "Leave it on my desk and I'll look it over.",
+  "distractors": [
+   "The names are listed in alphabetical order.",
+   "The leaves are turning red already."
+  ],
+  "zh_q": "你今天下班前可以核准這張採購單嗎？",
+  "zh_answer": "放在我桌上，我會看一下。",
+  "zh_distractors": [
+   "名字是照字母順序排列的。",
+   "樹葉已經開始變紅了。"
+  ],
+  "ex": "這是請對方在下班前核准採購單。「Leave it on my desk and I'll look it over.」請對方把單子留在桌上，表示會處理。「The names are listed in alphabetical order.」的 order 是「順序」，和 purchase order（採購單）不同；「The leaves are turning red already.」的 leaves 是「樹葉」，和 leave（離開）無關。"
+ },
+ {
+  "type": "yesno",
+  "q": "Can the new software handle a sudden surge in orders?",
+  "answer": "It crashed twice during last week's test.",
+  "distractors": [
+   "I ordered the soup and a salad.",
+   "Please handle the boxes with care."
+  ],
+  "zh_q": "新軟體應付得了訂單突然暴增嗎？",
+  "zh_answer": "上星期測試的時候它當機了兩次。",
+  "zh_distractors": [
+   "我點了湯和沙拉。",
+   "請小心搬運這些箱子。"
+  ],
+  "ex": "問句問軟體能否應付訂單暴增。「It crashed twice during last week's test.」用「測試時當機兩次」暗示恐怕不行。「I ordered the soup and a salad.」把 order 當成「點餐」；「Please handle the boxes with care.」的 handle 是「搬運」，和問句中「應付、處理」的意思不同，也沒有回答問題。"
+ },
+ {
+  "type": "wh",
+  "q": "Why is there such a backlog of customer inquiries this week?",
+  "answer": "Half the support team is away at an offsite workshop.",
+  "distractors": [
+   "Please log back in and try again.",
+   "By the end of the week at the latest."
+  ],
+  "zh_q": "這星期怎麼會積了這麼多客戶詢問沒處理？",
+  "zh_answer": "客服團隊有一半的人到外面參加研習了。",
+  "zh_distractors": [
+   "請重新登入再試一次。",
+   "最晚這星期結束前。"
+  ],
+  "ex": "Why 問原因。「Half the support team is away at an offsite workshop.」說明人手少了一半，正是案件積壓的原因。「Please log back in and try again.」的 log back 只是和 backlog 聽起來像，講的是重新登入；「By the end of the week at the latest.」回答的是期限，不是原因。"
+ },
+ {
+  "type": "negative",
+  "q": "Isn't the audit supposed to commence next Monday?",
+  "answer": "The auditors asked to push it back a week.",
+  "distractors": [
+   "The auditorium seats five hundred people.",
+   "The comments were very helpful."
+  ],
+  "zh_q": "查帳不是應該下星期一開始嗎？",
+  "zh_answer": "稽核人員要求往後延一個星期。",
+  "zh_distractors": [
+   "禮堂可以坐五百人。",
+   "那些意見很有幫助。"
+  ],
+  "ex": "否定問句想確認查帳是否下星期一開始。「The auditors asked to push it back a week.」說明稽核人員要求延後一週，也就是時間改了。「The auditorium seats five hundred people.」的 auditorium（禮堂）只是和 audit 開頭相同；「The comments were very helpful.」的 comments 只是和 commence 發音相近。"
+ },
+ {
+  "type": "yesno",
+  "q": "Do we need to solicit bids from more than one supplier?",
+  "answer": "Company policy calls for at least three.",
+  "distractors": [
+   "The supplies are in the storage closet.",
+   "I bid on a painting at an auction once."
+  ],
+  "zh_q": "我們需要向不只一家供應商徵求報價嗎？",
+  "zh_answer": "公司規定至少要三家。",
+  "zh_distractors": [
+   "用品放在儲藏櫃裡。",
+   "我曾經在拍賣會上競標過一幅畫。"
+  ],
+  "ex": "問句問是否需要向多家供應商徵求投標報價。「Company policy calls for at least three.」說明公司規定至少要三家，等於回答「需要」。「The supplies are in the storage closet.」的 supplies（用品）只是和 supplier 相近，回答的是東西放哪裡；「I bid on a painting at an auction once.」的 bid 是拍賣出價，講的是個人經驗，與問題無關。"
+ },
+ {
+  "type": "tag",
+  "q": "Ms. Rivera will facilitate the strategy session again, won't she?",
+  "answer": "She's on leave, so Mr. Chen is filling in.",
+  "distractors": [
+   "The facilities include a pool and a gym.",
+   "The strategy worked better than expected."
+  ],
+  "zh_q": "策略會議這次還是由里維拉小姐主持吧？",
+  "zh_answer": "她請假了，所以由陳先生代理。",
+  "zh_distractors": [
+   "設施包括游泳池和健身房。",
+   "那個策略的效果比預期好。"
+  ],
+  "ex": "附加問句想確認是否仍由 Ms. Rivera 主持會議。「She's on leave, so Mr. Chen is filling in.」表示她請假，改由 Mr. Chen 代理，fill in 是「代班」。「The facilities include a pool and a gym.」的 facilities（設施）只是和 facilitate 相近；「The strategy worked better than expected.」只是重複 strategy，沒有回答由誰主持。"
+ },
+ {
+  "type": "request",
+  "q": "Could you gauge the team's interest in a flexible schedule?",
+  "answer": "I'll send out a short survey this afternoon.",
+  "distractors": [
+   "Your flight departs from gate nine.",
+   "The interest rate has gone up again."
+  ],
+  "zh_q": "可以請你了解一下團隊對彈性工時有多少興趣嗎？",
+  "zh_answer": "我今天下午會發一份簡短的問卷。",
+  "zh_distractors": [
+   "您的班機從九號登機門出發。",
+   "利率又調升了。"
+  ],
+  "ex": "這是請對方評估團隊對彈性工時的興趣。「I'll send out a short survey this afternoon.」表示會發問卷調查，等於答應並說明做法。「Your flight departs from gate nine.」的 gate 只是和 gauge 發音相近；「The interest rate has gone up again.」的 interest 是「利息」，和「興趣」意思不同。"
+ },
+ {
+  "type": "negative",
+  "q": "Didn't Ms. Novak oversee the regional subsidiary before she transferred here?",
+  "answer": "For about three years, I believe.",
+  "distractors": [
+   "I'd like to transfer money to my savings account.",
+   "She overslept and missed the bus."
+  ],
+  "zh_q": "諾瓦克小姐調來這裡之前，不是負責管理區域子公司嗎？",
+  "zh_answer": "我記得大概管了三年。",
+  "zh_distractors": [
+   "我想把錢轉到我的儲蓄帳戶。",
+   "她睡過頭，沒趕上公車。"
+  ],
+  "ex": "否定問句想確認 Ms. Novak 以前是否管理過子公司。「For about three years, I believe.」說明她做了大約三年，等於肯定。「I'd like to transfer money to my savings account.」的 transfer 是「轉帳」，和「調職」意思不同；「She overslept and missed the bus.」的 overslept 只是和 oversee 開頭相同。"
+ },
+ {
+  "type": "yesno",
+  "q": "Does the new attendance policy apply to contractors as well?",
+  "answer": "It's meant for full-time staff, as I understand it.",
+  "distractors": [
+   "The attendance was better than last year.",
+   "I applied for the position online."
+  ],
+  "zh_q": "新的出勤規定也適用於約聘人員嗎？",
+  "zh_answer": "就我的理解，那是針對正職員工訂的。",
+  "zh_distractors": [
+   "出席人數比去年多。",
+   "我是在網路上應徵那個職位的。"
+  ],
+  "ex": "問句問規定是否也適用於約聘人員。「It's meant for full-time staff, as I understand it.」說明規定是針對正職員工，暗示約聘人員不適用。「The attendance was better than last year.」把 attendance 當成「出席人數」，沒有回答適用對象；「I applied for the position online.」的 applied 是「應徵」，和 apply to（適用於）意思不同。"
+ },
+ {
+  "type": "choice",
+  "q": "Are you flying out tonight or staying for the closing reception?",
+  "answer": "My flight isn't until tomorrow afternoon.",
+  "distractors": [
+   "The receptionist is on her lunch break.",
+   "The shop is closing in ten minutes."
+  ],
+  "zh_q": "你今晚就搭機離開，還是會留下來參加閉幕酒會？",
+  "zh_answer": "我的班機是明天下午。",
+  "zh_distractors": [
+   "接待人員正在午休。",
+   "那家店再十分鐘就要打烊了。"
+  ],
+  "ex": "二選一：今晚離開或留下來參加閉幕酒會。「My flight isn't until tomorrow afternoon.」說明班機是明天下午，暗示今晚會留下來。「The receptionist is on her lunch break.」的 receptionist（接待人員）只是和 reception（酒會）相近；「The shop is closing in ten minutes.」的 closing 是「打烊」，沒有做出選擇。"
+ },
+ {
+  "type": "statement",
+  "q": "We've surpassed our quarterly sales quota by a substantial margin.",
+  "answer": "The team deserves some recognition for that.",
+  "distractors": [
+   "I'd like a price quote for this printer.",
+   "The margins on this page are too narrow."
+  ],
+  "zh_q": "我們這一季的業績大幅超過了目標額度。",
+  "zh_answer": "團隊這樣的表現應該受到表揚。",
+  "zh_distractors": [
+   "我想請你報一下這台印表機的價格。",
+   "這一頁的邊界太窄了。"
+  ],
+  "ex": "對方報告業績大幅超標的好消息，合適的回應是肯定或稱讚。「The team deserves some recognition for that.」表示團隊值得表揚。「I'd like a price quote for this printer.」的 quote（報價）只是和 quota（額度）發音相近；「The margins on this page are too narrow.」的 margins 是「頁面邊界」，和 by a substantial margin（大幅地）意思不同。"
+ },
+ {
+  "type": "statement",
+  "q": "Mr. Tanaka's credentials are impressive, but he lacks managerial experience.",
+  "answer": "We could pair him with a senior mentor at first.",
+  "distractors": [
+   "I left my credit card at home.",
+   "The manager's office is down the hall."
+  ],
+  "zh_q": "田中先生的資歷很亮眼，不過他缺乏管理經驗。",
+  "zh_answer": "一開始可以安排一位資深導師帶他。",
+  "zh_distractors": [
+   "我把信用卡忘在家裡了。",
+   "經理辦公室在走廊那頭。"
+  ],
+  "ex": "對方評論應徵者資歷好但缺管理經驗，合適的回應是提出解決辦法。「We could pair him with a senior mentor at first.」建議先安排資深導師帶他。「I left my credit card at home.」的 credit card 只是和 credentials 開頭相近；「The manager's office is down the hall.」的 manager 只是和 managerial 相近，講的是辦公室位置。"
+ },
+ {
+  "type": "choice",
+  "q": "Would you rather present the quarterly metrics yourself or have me do it?",
+  "answer": "You know the figures better than I do.",
+  "distractors": [
+   "I bought her a present yesterday.",
+   "The room is about ten meters long."
+  ],
+  "zh_q": "每季指標你想自己報告，還是讓我來？",
+  "zh_answer": "那些數字你比我熟。",
+  "zh_distractors": [
+   "我昨天買了一份禮物給她。",
+   "這個房間大約十公尺長。"
+  ],
+  "ex": "二選一：自己報告，還是由對方報告。「You know the figures better than I do.」表示對方比較熟悉數字，暗示「你來報告」。「I bought her a present yesterday.」把 present 當成名詞「禮物」；「The room is about ten meters long.」的 meters（公尺）只是和 metrics（指標）發音相近。"
+ },
+ {
+  "type": "statement",
+  "q": "Sales tend to fluctuate a lot around the holidays.",
+  "answer": "That's why we bring in seasonal staff.",
+  "distractors": [
+   "I'm spending the holidays with my family.",
+   "The sailboat tour leaves at noon."
+  ],
+  "zh_q": "假期前後的銷售量通常起伏很大。",
+  "zh_answer": "所以我們才會找季節性人手來幫忙。",
+  "zh_distractors": [
+   "我假期要和家人一起過。",
+   "帆船行程中午出發。"
+  ],
+  "ex": "對方指出假期前後銷售量波動大，合適的回應是說明對策。「That's why we bring in seasonal staff.」表示正因如此才會請季節性人員。「I'm spending the holidays with my family.」只是重複 holidays，講的是個人的假期安排；「The sailboat tour leaves at noon.」的 sail 和 sale 同音，內容無關。"
+ },
+ {
+  "type": "yesno",
+  "q": "Has the legal team finished assessing the liability issues?",
+  "answer": "They've asked for an extension until Thursday.",
+  "distractors": [
+   "He's quite a reliable colleague.",
+   "The legal department is on the ninth floor."
+  ],
+  "zh_q": "法務團隊評估完法律責任的問題了嗎？",
+  "zh_answer": "他們要求延到星期四。",
+  "zh_distractors": [
+   "他是相當可靠的同事。",
+   "法務部在九樓。"
+  ],
+  "ex": "問句問評估做完了沒。「They've asked for an extension until Thursday.」表示對方要求延期，也就是還沒完成。「He's quite a reliable colleague.」的 reliable（可靠的）只是和 liability（法律責任）發音相近；「The legal department is on the ninth floor.」重複 legal，回答的卻是地點。"
+ },
+ {
+  "type": "statement",
+  "q": "The executive team wants a definitive answer by noon tomorrow.",
+  "answer": "That doesn't leave us much time to run the numbers.",
+  "distractors": [
+   "I usually have lunch around noon.",
+   "The answering machine is full."
+  ],
+  "zh_q": "高階主管團隊要我們明天中午前給出明確的答覆。",
+  "zh_answer": "這樣我們沒多少時間可以把數字算過一遍。",
+  "zh_distractors": [
+   "我通常中午左右吃午餐。",
+   "答錄機的留言滿了。"
+  ],
+  "ex": "對方轉達主管要求的期限，合適的回應是對期限表示看法。「That doesn't leave us much time to run the numbers.」表示時間很趕，run the numbers 是「把數字算過一遍」。「I usually have lunch around noon.」只是重複 noon，講的是午餐時間；「The answering machine is full.」的 answering machine（答錄機）只是和 answer 相近。"
+ },
+ {
+  "type": "wh",
+  "q": "When will the new hires complete their onboarding?",
+  "answer": "It varies, but most are done within two weeks.",
+  "distractors": [
+   "We're boarding at gate twelve.",
+   "In the training room on the second floor."
+  ],
+  "zh_q": "新進員工什麼時候會完成到職訓練？",
+  "zh_answer": "每個人不太一樣，不過大多兩個星期內會完成。",
+  "zh_distractors": [
+   "我們在十二號登機門登機。",
+   "在二樓的訓練室。"
+  ],
+  "ex": "When 問時間。「It varies, but most are done within two weeks.」說明時間因人而異，但大多兩週內完成。「We're boarding at gate twelve.」的 boarding（登機）只是和 onboarding（到職訓練）相近，講的是登機門；「In the training room on the second floor.」回答的是地點，不是時間。"
+ },
+ {
+  "type": "tag",
+  "q": "You've already submitted your expense report, haven't you?",
+  "answer": "I'm still missing one hotel receipt.",
+  "distractors": [
+   "The weather report says rain.",
+   "I haven't been to that restaurant."
+  ],
+  "zh_q": "你的費用報告已經交了吧？",
+  "zh_answer": "我還缺一張飯店收據。",
+  "zh_distractors": [
+   "氣象預報說會下雨。",
+   "我沒去過那家餐廳。"
+  ],
+  "ex": "附加問句想確認對方是否已交費用報告。「I'm still missing one hotel receipt.」表示還缺收據，也就是還沒交，是間接的否定。「The weather report says rain.」的 report 是「氣象預報」；「I haven't been to that restaurant.」雖然用了 haven't，講的卻是沒去過餐廳，和交報告無關。"
+ },
+ {
+  "type": "negative",
+  "q": "Weren't the provisional sales figures due yesterday?",
+  "answer": "The regional offices were late sending their data.",
+  "distractors": [
+   "The sale ends this Sunday.",
+   "He's due to arrive at noon."
+  ],
+  "zh_q": "暫定的銷售數字不是昨天就該交了嗎？",
+  "zh_answer": "各區辦公室的資料交晚了。",
+  "zh_distractors": [
+   "特賣這個星期天結束。",
+   "他預計中午抵達。"
+  ],
+  "ex": "否定問句想確認暫定銷售數字是否昨天就該交。「The regional offices were late sending their data.」說明各區辦公室資料遲交，解釋了為什麼還沒出來。「The sale ends this Sunday.」的 sale 是「特賣」，講的是促銷期間；「He's due to arrive at noon.」雖然重複 due，講的卻是某人預計抵達的時間。"
+ },
+ {
+  "type": "negative",
+  "q": "Don't you think the new incentive scheme will improve staff retention?",
+  "answer": "It's a start, but salaries are the underlying issue.",
+  "distractors": [
+   "I'm paying close attention.",
+   "The staff room is on the left."
+  ],
+  "zh_q": "你不覺得新的獎勵方案能提高員工留任率嗎？",
+  "zh_answer": "是個開始，但薪水才是根本的問題。",
+  "zh_distractors": [
+   "我正在仔細聽。",
+   "員工休息室在左手邊。"
+  ],
+  "ex": "否定問句在徵求對方對獎勵方案的看法。「It's a start, but salaries are the underlying issue.」表示有點幫助，但根本問題在薪水，是完整的意見。「I'm paying close attention.」的 attention 只是和 retention 發音相近；「The staff room is on the left.」只是重複 staff，回答的是地點。"
+ },
+ {
+  "type": "statement",
+  "q": "I'm afraid the consignment from our overseas supplier is stuck in customs.",
+  "answer": "We'd better warn the retailers about a delay.",
+  "distractors": [
+   "The customer left a five-star review.",
+   "This sticker won't come off the box."
+  ],
+  "zh_q": "海外供應商那批貨恐怕卡在海關了。",
+  "zh_answer": "我們最好先通知零售商會延誤。",
+  "zh_distractors": [
+   "那位顧客留了五星好評。",
+   "這張貼紙從盒子上撕不下來。"
+  ],
+  "ex": "對方通報貨物卡在海關，合適的回應是提出因應做法。「We'd better warn the retailers about a delay.」建議先通知零售商會延誤。「The customer left a five-star review.」的 customer（顧客）只是和 customs（海關）發音相近；「This sticker won't come off the box.」的 sticker（貼紙）只是和 stuck 相近。"
+ },
+ {
+  "type": "wh",
+  "q": "What did the chairperson say about the proposed merger?",
+  "answer": "I had to leave before she got to that item.",
+  "distractors": [
+   "The chairs in the boardroom are quite comfortable.",
+   "It's a major road, so traffic is heavy."
+  ],
+  "zh_q": "主席對合併提案說了什麼？",
+  "zh_answer": "她還沒講到那一項，我就得先離開了。",
+  "zh_distractors": [
+   "董事會會議室的椅子滿舒服的。",
+   "那是主要幹道，所以車很多。"
+  ],
+  "ex": "What did … say 問主席說了什麼。「I had to leave before she got to that item.」表示自己提早離開、沒聽到，是合理的間接回答。「The chairs in the boardroom are quite comfortable.」的 chairs（椅子）只是和 chairperson 相近；「It's a major road, so traffic is heavy.」的 major 只是和 merger 發音相近，講的是路況。"
+ },
+ {
+  "type": "negative",
+  "q": "Hasn't the contractor finished installing the new workstations?",
+  "answer": "They're waiting for a few parts to arrive.",
+  "distractors": [
+   "The installment is due on the first.",
+   "The new workstations cost about nine hundred dollars each."
+  ],
+  "zh_q": "承包商還沒把新的工作站裝好嗎？",
+  "zh_answer": "他們在等幾個零件送來。",
+  "zh_distractors": [
+   "分期款一號到期。",
+   "新的工作站每台大約九百美元。"
+  ],
+  "ex": "否定問句想確認工作站裝好了沒。「They're waiting for a few parts to arrive.」表示還在等零件，也就是還沒裝完。「The installment is due on the first.」的 installment（分期付款）只是和 installing 相近；「The new workstations cost about nine hundred dollars each.」重複 workstations，回答的卻是價格。"
+ },
+ {
+  "type": "yesno",
+  "q": "Did the vendor comply with our revised delivery specifications?",
+  "answer": "The last three shipments arrived exactly as requested.",
+  "distractors": [
+   "The complaint form is on our website.",
+   "She specializes in tax law."
+  ],
+  "zh_q": "供應商有照我們修訂後的交貨規格做嗎？",
+  "zh_answer": "最近三批貨都完全照要求送到。",
+  "zh_distractors": [
+   "申訴表在我們的網站上。",
+   "她專攻稅法。"
+  ],
+  "ex": "問句問供應商有沒有遵守規格。「The last three shipments arrived exactly as requested.」用事實暗示「有」：最近三批貨都照要求送達。「The complaint form is on our website.」的 complaint（申訴）只是和 comply 發音相近；「She specializes in tax law.」的 specializes 只是和 specifications 開頭相同，內容無關。"
+ },
+ {
+  "type": "yesno",
+  "q": "Should we disclose the test results to the client now?",
+  "answer": "Let's wait until the data has been verified.",
+  "distractors": [
+   "The store closes at nine on weekdays.",
+   "The test was easier than I expected."
+  ],
+  "zh_q": "我們現在該把測試結果告訴客戶嗎？",
+  "zh_answer": "等資料驗證過再說吧。",
+  "zh_distractors": [
+   "那家店平日九點關門。",
+   "考試比我預期的簡單。"
+  ],
+  "ex": "問句問現在要不要公開測試結果。「Let's wait until the data has been verified.」建議等資料驗證後再說，也就是現在先不要。「The store closes at nine on weekdays.」的 closes 只是和 disclose 發音相近；「The test was easier than I expected.」把 test 當成「考試」，沒有回答要不要告訴客戶。"
+ },
+ {
+  "type": "statement",
+  "q": "The client says there's a discrepancy on the latest invoice.",
+  "answer": "I'll pull up the order and compare the totals.",
+  "distractors": [
+   "The latest train leaves at midnight.",
+   "Her voice is very clear."
+  ],
+  "zh_q": "客戶說最新那張發票上有金額不符的地方。",
+  "zh_answer": "我把訂單調出來，核對一下總金額。",
+  "zh_distractors": [
+   "最晚的一班火車午夜發車。",
+   "她的聲音很清楚。"
+  ],
+  "ex": "這句話在通報發票有差異，合適的回應是提出處理方式。「I'll pull up the order and compare the totals.」表示會調出訂單核對總額，正是在處理問題。「The latest train leaves at midnight.」只是重複 latest，講的是火車；「Her voice is very clear.」的 voice 只是和 invoice 發音相近。"
+ },
+ {
+  "type": "yesno",
+  "q": "Is Ms. Park going to succeed Mr. Ortiz as regional director?",
+  "answer": "The announcement won't be made until Friday.",
+  "distractors": [
+   "The event was a great success.",
+   "He gave me clear directions to the station."
+  ],
+  "zh_q": "朴小姐會接替奧提茲先生擔任區域總監嗎？",
+  "zh_answer": "要到星期五才會宣布。",
+  "zh_distractors": [
+   "那場活動非常成功。",
+   "他把去車站的路指得很清楚。"
+  ],
+  "ex": "這裡的 succeed 是「接替、繼任」。「The announcement won't be made until Friday.」表示人選要到星期五才公布，現在還不知道，是合理的間接回答。「The event was a great success.」把 succeed 聯想成 success（成功），與人事無關；「He gave me clear directions to the station.」的 directions（方向）只是和 director 發音相近。"
+ },
+ {
+  "type": "choice",
+  "q": "Is the discount exclusively for members or open to everyone?",
+  "answer": "You'll need to show a membership card at checkout.",
+  "distractors": [
+   "I can count on him every time.",
+   "We open at eight every morning."
+  ],
+  "zh_q": "這個折扣是會員專屬，還是所有人都能用？",
+  "zh_answer": "結帳時需要出示會員卡。",
+  "zh_distractors": [
+   "我每次都可以信賴他。",
+   "我們每天早上八點開門。"
+  ],
+  "ex": "二選一：會員專屬或人人可用。「You'll need to show a membership card at checkout.」說明要出示會員卡，暗示只有會員能用。「I can count on him every time.」的 count on（信賴）只是和 discount 發音相近；「We open at eight every morning.」的 open 是「開門營業」，和 open to everyone（開放給所有人）意思不同。"
+ },
+ {
+  "type": "tag",
+  "q": "The supplier didn't breach the contract, did they?",
+  "answer": "Our lawyers are reviewing the delivery terms now.",
+  "distractors": [
+   "The beach is only ten minutes away.",
+   "They supply paper to most local schools."
+  ],
+  "zh_q": "供應商沒有違約吧？",
+  "zh_answer": "我們的律師正在審閱交貨條款。",
+  "zh_distractors": [
+   "海灘只要十分鐘就到。",
+   "本地大部分的學校都是他們供應紙張。"
+  ],
+  "ex": "附加問句想確認供應商有沒有違約。「Our lawyers are reviewing the delivery terms now.」表示律師還在審閱條款，目前還不能確定，是合理的間接回答。「The beach is only ten minutes away.」的 beach 只是和 breach 發音相近；「They supply paper to most local schools.」的 supply 只是和 supplier 相近，沒有回答是否違約。"
+ },
+ {
+  "type": "wh",
+  "q": "Who authorized the reimbursement for Mr. Kim's travel expenses?",
+  "answer": "His department head signs off on those.",
+  "distractors": [
+   "He traveled by train both ways.",
+   "The author will sign copies after the talk."
+  ],
+  "zh_q": "金先生的差旅費報帳是誰核准的？",
+  "zh_answer": "那類申請都是他的部門主管簽核。",
+  "zh_distractors": [
+   "他來回都搭火車。",
+   "作者會在演講後簽書。"
+  ],
+  "ex": "Who 問核准的人。「His department head signs off on those.」點出負責簽核的是他的部門主管，sign off on 是「簽字核准」的意思。「He traveled by train both ways.」只是用了 travel，回答的是交通方式；「The author will sign copies after the talk.」的 author（作者）只是和 authorized 發音相近，講的是簽書。"
+ },
+ {
+  "type": "statement",
+  "q": "I can't seem to log in to the procurement system.",
+  "answer": "Your password may have expired.",
+  "distractors": [
+   "I logged ten hours of overtime last week.",
+   "The logo looks great on the box."
+  ],
+  "zh_q": "我好像一直登不進採購系統。",
+  "zh_answer": "你的密碼可能過期了。",
+  "zh_distractors": [
+   "我上星期記了十小時的加班。",
+   "那個標誌印在盒子上很好看。"
+  ],
+  "ex": "對方說登不進採購系統，合適的回應是提出可能原因或解決辦法。「Your password may have expired.」指出密碼可能過期。「I logged ten hours of overtime last week.」的 logged 是「記錄（工時）」，和 log in（登入）不同；「The logo looks great on the box.」的 logo 只是和 log in 發音相近。"
+ },
+ {
+  "type": "wh",
+  "q": "How much will it cost to expedite the consignment to our overseas branch?",
+  "answer": "Let me check the courier's rate sheet first.",
+  "distractors": [
+   "It should arrive within three business days.",
+   "My assignment was to call the branch manager."
+  ],
+  "zh_q": "把那批貨加急送到海外分公司要多少錢？",
+  "zh_answer": "我先查一下快遞公司的費率表。",
+  "zh_distractors": [
+   "應該三個工作天內會到。",
+   "我的任務是打電話給分公司經理。"
+  ],
+  "ex": "How much 問費用。「Let me check the courier's rate sheet first.」表示要先查費率表才知道，是合理的間接回答。「It should arrive within three business days.」回答的是多久會到，不是多少錢；「My assignment was to call the branch manager.」的 assignment（任務）只是和 consignment（託運的貨物）發音相近，並重複了 branch。"
+ },
+ {
+  "type": "choice",
+  "q": "Do you want to dispatch the samples by air or by sea?",
+  "answer": "Whichever gets them there before the trade fair.",
+  "distractors": [
+   "I can see the harbor from my window.",
+   "The air conditioner needs to be repaired."
+  ],
+  "zh_q": "樣品你想用空運還是海運寄出？",
+  "zh_answer": "只要能在商展前送到，哪一種都行。",
+  "zh_distractors": [
+   "我從窗戶看得到港口。",
+   "冷氣需要修理。"
+  ],
+  "ex": "二選一：空運或海運。「Whichever gets them there before the trade fair.」表示哪一種能在商展前送到就用哪一種，是合理的回答。「I can see the harbor from my window.」的 see 和 sea 同音，講的是窗外景色；「The air conditioner needs to be repaired.」只是重複 air，講的是冷氣。"
+ },
+ {
+  "type": "request",
+  "q": "Could you reiterate the main points for those who joined late?",
+  "answer": "Of course. First, the launch date has moved.",
+  "distractors": [
+   "It's impolite to point at people.",
+   "The late fee is ten dollars."
+  ],
+  "zh_q": "可以請你為晚加入的人再說一次重點嗎？",
+  "zh_answer": "當然。第一，上市日期改了。",
+  "zh_distractors": [
+   "用手指著別人不禮貌。",
+   "逾期費是十美元。"
+  ],
+  "ex": "這是請對方重述重點。「Of course. First, the launch date has moved.」答應後直接開始重述第一個重點。「It's impolite to point at people.」的 point 是「用手指」，和 main points（重點）不同；「The late fee is ten dollars.」只是重複 late，講的是逾期費。"
+ },
+ {
+  "type": "request",
+  "q": "Could you compile the survey responses into a single spreadsheet?",
+  "answer": "Sure, once the last few come in.",
+  "distractors": [
+   "I'd like a single room, please.",
+   "The pile of boxes fell over."
+  ],
+  "zh_q": "可以請你把問卷回覆彙整成一份試算表嗎？",
+  "zh_answer": "沒問題，等最後幾份回來我就做。",
+  "zh_distractors": [
+   "我要一間單人房，麻煩你。",
+   "那堆箱子倒了。"
+  ],
+  "ex": "這是請求對方彙整問卷。「Sure, once the last few come in.」答應了，並說明等最後幾份回覆收齊就做。「I'd like a single room, please.」只是重複 single，講的是訂房；「The pile of boxes fell over.」的 pile 只是和 compile 發音相近。"
+ },
+ {
+  "type": "tag",
+  "q": "You'll liaise with the Singapore office on the logistics, won't you?",
+  "answer": "I've already set up a weekly call with them.",
+  "distractors": [
+   "The post office closes at five.",
+   "It's a logical conclusion."
+  ],
+  "zh_q": "物流的部分會由你和新加坡辦公室聯繫協調，對吧？",
+  "zh_answer": "我已經和他們約好每週通一次電話了。",
+  "zh_distractors": [
+   "郵局五點關門。",
+   "那是合乎邏輯的結論。"
+  ],
+  "ex": "附加問句想確認對方會負責和新加坡辦公室聯繫。「I've already set up a weekly call with them.」表示已經安排好每週通話，等於肯定。「The post office closes at five.」只是重複 office，講的是郵局；「It's a logical conclusion.」的 logical 只是和 logistics 發音相近。"
+ },
+ {
+  "type": "tag",
+  "q": "We aren't exempt from the new safety inspection, are we?",
+  "answer": "Every building on the premises has to be checked.",
+  "distractors": [
+   "I made several attempts to call.",
+   "Keep your valuables in the hotel safe."
+  ],
+  "zh_q": "新的安全檢查我們沒有豁免吧？",
+  "zh_answer": "場區內每一棟建築都得檢查。",
+  "zh_distractors": [
+   "我試著打了好幾次電話。",
+   "貴重物品請放在飯店的保險箱。"
+  ],
+  "ex": "附加問句想確認我們是否不能免除安全檢查。「Every building on the premises has to be checked.」表示場區內每棟建築都要檢查，也就是沒有豁免。「I made several attempts to call.」的 attempts 只是和 exempt 發音相近；「Keep your valuables in the hotel safe.」的 safe 是名詞「保險箱」，和 safety inspection 無關。"
+ },
+ {
+  "type": "yesno",
+  "q": "Are employees entitled to reimbursement for parking fees?",
+  "answer": "Only when they're visiting a client.",
+  "distractors": [
+   "The title of the report is too long.",
+   "The park is lovely in spring."
+  ],
+  "zh_q": "員工的停車費可以報帳嗎？",
+  "zh_answer": "只有拜訪客戶的時候可以。",
+  "zh_distractors": [
+   "報告的標題太長了。",
+   "那座公園春天很漂亮。"
+  ],
+  "ex": "問句問員工有沒有權利申請停車費報帳。「Only when they're visiting a client.」是有條件的肯定：拜訪客戶時才可以。「The title of the report is too long.」的 title（標題）只是和 entitled 發音相近；「The park is lovely in spring.」的 park（公園）只是和 parking（停車）相近。"
+ },
+ {
+  "type": "negative",
+  "q": "Haven't the outstanding invoices been paid yet?",
+  "answer": "The client promised a transfer by Friday.",
+  "distractors": [
+   "Thank you, she did an outstanding job.",
+   "The pay raise takes effect in July."
+  ],
+  "zh_q": "那些未付的發票還沒付清嗎？",
+  "zh_answer": "客戶答應星期五前會匯款。",
+  "zh_distractors": [
+   "謝謝，她表現得非常出色。",
+   "加薪七月生效。"
+  ],
+  "ex": "這裡的 outstanding 是「未付清的」。否定問句想確認款項付了沒。「The client promised a transfer by Friday.」表示客戶答應星期五前匯款，也就是還沒付。「Thank you, she did an outstanding job.」的 outstanding 是「傑出的」，意思不同；「The pay raise takes effect in July.」的 pay 只是和 paid 相近，講的是加薪。"
+ },
+ {
+  "type": "statement",
+  "q": "The feedback from prospective buyers has been overwhelmingly positive.",
+  "answer": "That's a good sign for next month's launch.",
+  "distractors": [
+   "I'm positive I locked the door.",
+   "I'd like to buy two tickets, please."
+  ],
+  "zh_q": "潛在買家的回饋意見幾乎一面倒地好。",
+  "zh_answer": "對下個月的上市來說是個好兆頭。",
+  "zh_distractors": [
+   "我確定我鎖門了。",
+   "我想買兩張票，麻煩你。"
+  ],
+  "ex": "對方分享潛在買家反應很好的消息，合適的回應是表達看法。「That's a good sign for next month's launch.」表示這對下個月上市是好兆頭。「I'm positive I locked the door.」的 positive 是「確定」，和「正面的」意思不同；「I'd like to buy two tickets, please.」的 buy 只是和 buyers 相近，講的是買票。"
+ },
+ {
+  "type": "choice",
+  "q": "Should we convene the committee this week or wait for the audit results?",
+  "answer": "There's little point in meeting without the numbers.",
+  "distractors": [
+   "Yes, it's very convenient for me.",
+   "The committee has seven members."
+  ],
+  "zh_q": "我們該這星期就召開委員會，還是等查帳結果出來？",
+  "zh_answer": "沒有數字，開會也沒什麼意義。",
+  "zh_distractors": [
+   "對，這對我來說很方便。",
+   "委員會有七位成員。"
+  ],
+  "ex": "這是二選一的問句：現在開會，還是等查帳結果。「There's little point in meeting without the numbers.」表示沒有數字開會沒意義，也就是選擇「等結果」。「Yes, it's very convenient for me.」用 Yes 回答選擇問句不合，convenient 也只是和 convene 發音相近；「The committee has seven members.」重複 committee，卻沒有做出選擇。"
+ },
+ {
+  "type": "wh",
+  "q": "Why hasn't the prototype been sent to the client yet?",
+  "answer": "The engineers found a flaw in the latest test.",
+  "distractors": [
+   "Yes, I typed it up this morning.",
+   "They sent us a thank-you card last week."
+  ],
+  "zh_q": "原型怎麼還沒寄給客戶？",
+  "zh_answer": "工程師在最近一次測試中發現了瑕疵。",
+  "zh_distractors": [
+   "對，我今天早上打好字了。",
+   "他們上星期寄了感謝卡給我們。"
+  ],
+  "ex": "Why hasn't … 問還沒寄出的原因。「The engineers found a flaw in the latest test.」說明測試發現瑕疵，所以還不能寄。「Yes, I typed it up this morning.」用 Yes 回答 Why 問句不合，typed 也只是和 prototype 的音相近；「They sent us a thank-you card last week.」重複了 sent，講的卻是對方寄卡片來。"
+ },
+ {
+  "type": "request",
+  "q": "Could you help me troubleshoot the card reader at register three?",
+  "answer": "Have you tried restarting it?",
+  "distractors": [
+   "I read the card you sent me.",
+   "Registration closes at five o'clock."
+  ],
+  "zh_q": "可以幫我排除三號收銀機刷卡機的問題嗎？",
+  "zh_answer": "你試過重新開機了嗎？",
+  "zh_distractors": [
+   "我看了你寄給我的卡片。",
+   "報名五點截止。"
+  ],
+  "ex": "這是請對方幫忙排除刷卡機故障。「Have you tried restarting it?」先問有沒有試過重新啟動，表示已經開始幫忙找問題，是自然的回應。「I read the card you sent me.」的 read 和 card 只是和 card reader 相近，講的是卡片；「Registration closes at five o'clock.」的 registration（報名）只是和 register（收銀機）相近。"
+ },
+ {
+  "type": "negative",
+  "q": "Wouldn't it be more economical to consolidate these shipments?",
+  "answer": "It would, but the client wants them on separate dates.",
+  "distractors": [
+   "The economy class seats were full.",
+   "The ship docks at pier seven."
+  ],
+  "zh_q": "把這幾批貨併在一起出，不是比較省錢嗎？",
+  "zh_answer": "是沒錯，但客戶要求分不同日期到貨。",
+  "zh_distractors": [
+   "經濟艙的座位都滿了。",
+   "那艘船停靠在七號碼頭。"
+  ],
+  "ex": "否定問句是在建議合併出貨比較省。「It would, but the client wants them on separate dates.」先同意比較省，再說明客戶要求分開到貨，所以不能這麼做。「The economy class seats were full.」的 economy class（經濟艙）只是和 economical 相近；「The ship docks at pier seven.」的 ship 只是和 shipments 相近，講的是船停靠的位置。"
+ },
+ {
+  "type": "yesno",
+  "q": "Have you had a chance to reconcile last month's accounts?",
+  "answer": "I'm still waiting on a few receipts from sales.",
+  "distractors": [
+   "We recycle paper and plastic here.",
+   "There's a good chance of rain tomorrow."
+  ],
+  "zh_q": "你有空核對上個月的帳了嗎？",
+  "zh_answer": "我還在等業務部的幾張收據。",
+  "zh_distractors": [
+   "我們這裡會回收紙類和塑膠。",
+   "明天很可能會下雨。"
+  ],
+  "ex": "問句問「帳核對了沒」。「I'm still waiting on a few receipts from sales.」表示還缺收據，所以還沒核對完，是間接的否定。「We recycle paper and plastic here.」的 recycle（回收）只是和 reconcile（核對帳目）發音相近；「There's a good chance of rain tomorrow.」重複 chance，講的卻是下雨的機率。"
+ },
+ {
+  "type": "request",
+  "q": "Would you please withhold the announcement until the contract is signed?",
+  "answer": "Understood. I'll keep it to myself for now.",
+  "distractors": [
+   "Please hold the elevator for me.",
+   "The road sign was hard to read."
+  ],
+  "zh_q": "合約簽好之前，可以請你先不要對外宣布嗎？",
+  "zh_answer": "了解，我暫時不會說出去。",
+  "zh_distractors": [
+   "請幫我按住電梯。",
+   "那個路標很難看清楚。"
+  ],
+  "ex": "這是請對方暫時不要宣布消息。「Understood. I'll keep it to myself for now.」表示明白並會先保密。「Please hold the elevator for me.」的 hold 只是和 withhold 相近，講的是請人按住電梯；「The road sign was hard to read.」的 sign 是「路標」，和 signed（簽署）無關。"
+ },
+ {
+  "type": "wh",
+  "q": "Where can I find the minutes from yesterday's board meeting?",
+  "answer": "Ms. Lin is still typing them up.",
+  "distractors": [
+   "It lasted about ninety minutes.",
+   "I was so bored I nearly fell asleep."
+  ],
+  "zh_q": "昨天董事會的會議紀錄要去哪裡找？",
+  "zh_answer": "林小姐還在打字整理。",
+  "zh_distractors": [
+   "開了大約九十分鐘。",
+   "我無聊到差點睡著。"
+  ],
+  "ex": "Where 問會議紀錄在哪裡，這裡的 minutes 是「會議紀錄」。「Ms. Lin is still typing them up.」表示紀錄還沒整理好，所以現在還拿不到，是合理的間接回答。「It lasted about ninety minutes.」把 minutes 當成「分鐘」，回答的是會議開多久；「I was so bored I nearly fell asleep.」的 bored 和 board 同音，內容與問題無關。"
+ },
+ {
+  "type": "statement",
+  "q": "The shareholders weren't pleased with this year's dividend.",
+  "answer": "With profits down, a smaller payout was inevitable.",
+  "distractors": [
+   "Please share the document with everyone.",
+   "We divided the bill equally."
+  ],
+  "zh_q": "股東對今年的股利不太滿意。",
+  "zh_answer": "獲利下滑，股利變少也是免不了的。",
+  "zh_distractors": [
+   "請把文件分享給大家。",
+   "我們把帳單平分了。"
+  ],
+  "ex": "對方提到股東不滿意股利，合適的回應是解釋原因或表達看法。「With profits down, a smaller payout was inevitable.」說明獲利下滑，發得少在所難免。「Please share the document with everyone.」的 share（分享）只是和 shareholders 相近；「We divided the bill equally.」的 divided 只是和 dividend 發音相近，講的是分攤帳單。"
+ },
+ {
+  "type": "statement",
+  "q": "The air conditioner at my workstation keeps shutting off by itself.",
+  "answer": "You should report that to the facilities team.",
+  "distractors": [
+   "Please shut the door behind you.",
+   "The train station is two blocks away."
+  ],
+  "zh_q": "我座位那邊的冷氣老是自己關掉。",
+  "zh_answer": "你應該跟設施組報修。",
+  "zh_distractors": [
+   "請隨手關門。",
+   "火車站在兩個街區外。"
+  ],
+  "ex": "對方在反映冷氣故障，合適的回應是建議怎麼處理。「You should report that to the facilities team.」建議向設施組報修。「Please shut the door behind you.」只是用了 shut，講的是關門；「The train station is two blocks away.」的 station 只是和 workstation 相近，講的是車站位置。"
+ },
+ {
+  "type": "tag",
+  "q": "The specifications for the new model haven't changed, have they?",
+  "answer": "Only the battery capacity, as far as I know.",
+  "distractors": [
+   "I need change for the vending machine.",
+   "She used to be a fashion model."
+  ],
+  "zh_q": "新機型的規格沒有變吧？",
+  "zh_answer": "據我所知，只有電池容量有變。",
+  "zh_distractors": [
+   "我需要零錢投販賣機。",
+   "她以前是時裝模特兒。"
+  ],
+  "ex": "附加問句想確認規格有沒有變。「Only the battery capacity, as far as I know.」表示只有電池容量改了，直接回應了問題。「I need change for the vending machine.」的 change 是「零錢」；「She used to be a fashion model.」的 model 是「模特兒」，和產品機型無關。"
+ },
+ {
+  "type": "wh",
+  "q": "Who's going to oversee the rollout of the new payroll system?",
+  "answer": "That hasn't been decided yet, as far as I know.",
+  "distractors": [
+   "It rolls out at the start of next quarter.",
+   "I overlooked the last paragraph, sorry."
+  ],
+  "zh_q": "新的薪資系統上線，會由誰來監督？",
+  "zh_answer": "據我所知，這件事還沒決定。",
+  "zh_distractors": [
+   "它會在下一季初上線。",
+   "抱歉，我漏看了最後一段。"
+  ],
+  "ex": "Who 問的是「由誰負責監督」。「That hasn't been decided yet, as far as I know.」沒有說出人名，但表示人選還沒定，是合理的間接回答。「It rolls out at the start of next quarter.」重複了 roll out，回答的卻是時間，不是人；「I overlooked the last paragraph, sorry.」的 overlooked（漏看）只是和 oversee（監督）聽起來像，內容與問題無關。"
+ },
+ {
+  "type": "yesno",
+  "q": "Is the conference venue within walking distance of the hotel?",
+  "answer": "There's a free shuttle every fifteen minutes.",
+  "distractors": [
+   "The conference call went well.",
+   "I've been working there for a decade."
+  ],
+  "zh_q": "會議場地離飯店走路走得到嗎？",
+  "zh_answer": "每十五分鐘有一班免費接駁車。",
+  "zh_distractors": [
+   "電話會議進行得很順利。",
+   "我在那裡工作十年了。"
+  ],
+  "ex": "問句問場地是否在步行距離內。「There's a free shuttle every fifteen minutes.」沒有說 Yes 或 No，而是告訴對方有接駁車可搭，暗示不必走路，是合理的間接回答。「The conference call went well.」只是重複 conference，講的是電話會議；「I've been working there for a decade.」的 working 只是和 walking 發音相近，內容無關。"
+ },
+ {
+  "type": "wh",
+  "q": "How did the stakeholders react to the preliminary budget figures?",
+  "answer": "They want a more detailed breakdown before they commit.",
+  "distractors": [
+   "I figured it out by myself, thanks.",
+   "The preliminary round starts at nine."
+  ],
+  "zh_q": "利害關係人對初步的預算數字有什麼反應？",
+  "zh_answer": "他們想先看到更詳細的明細，才願意表態。",
+  "zh_distractors": [
+   "謝謝，我自己想出來了。",
+   "預賽九點開始。"
+  ],
+  "ex": "How did … react 問對方的反應。「They want a more detailed breakdown before they commit.」說明他們還有保留，要看到更細的明細才肯承諾，正是在描述反應。「I figured it out by myself, thanks.」的 figured out（想通）只是和 figures（數字）用了同一個字；「The preliminary round starts at nine.」重複了 preliminary，講的卻是預賽時間。"
+ },
+ {
+  "type": "statement",
+  "q": "The new expense software isn't as intuitive as I'd hoped.",
+  "answer": "There's a tutorial video on the staff portal.",
+  "distractors": [
+   "That restaurant is far too expensive.",
+   "I hope the weather improves by Friday."
+  ],
+  "zh_q": "新的費用申報軟體沒有我原本期待的那麼好上手。",
+  "zh_answer": "員工入口網站上有教學影片。",
+  "zh_distractors": [
+   "那家餐廳貴得離譜。",
+   "希望星期五前天氣會好轉。"
+  ],
+  "ex": "對方抱怨新軟體不夠直覺好用，合適的回應是提供協助。「There's a tutorial video on the staff portal.」告訴對方有教學影片可以看。「That restaurant is far too expensive.」的 expensive 只是和 expense 相近；「I hope the weather improves by Friday.」只是重複 hope，講的是天氣。"
+ },
+ {
+  "type": "negative",
+  "q": "Didn't the board unanimously approve the expansion plan?",
+  "answer": "Two members voted against it, actually.",
+  "distractors": [
+   "The expansion will add two new floors.",
+   "The cutting board is in the kitchen."
+  ],
+  "zh_q": "董事會不是一致通過擴張計畫了嗎？",
+  "zh_answer": "其實有兩位董事投了反對票。",
+  "zh_distractors": [
+   "擴建後會多出兩層樓。",
+   "砧板在廚房裡。"
+  ],
+  "ex": "否定問句想確認「董事會是否全體一致通過」。「Two members voted against it, actually.」指出有兩位投反對票，也就是並非一致通過，糾正了對方的認知。「The expansion will add two new floors.」重複 expansion，講的是擴建內容，沒有回答表決結果；「The cutting board is in the kitchen.」的 board 是「砧板」，和董事會無關。"
+ },
+ {
+  "type": "statement",
+  "q": "Management has decided to curtail all nonessential travel this quarter.",
+  "answer": "Then I'll switch my client visit to a video call.",
+  "distractors": [
+   "The curtains in the lobby look new.",
+   "A quarter past three would suit me."
+  ],
+  "zh_q": "管理階層決定這一季要削減所有非必要的出差。",
+  "zh_answer": "那我把拜訪客戶改成視訊通話。",
+  "zh_distractors": [
+   "大廳的窗簾看起來是新的。",
+   "三點十五分我可以。"
+  ],
+  "ex": "對方告知公司要削減非必要出差，合適的回應是說明自己如何配合。「Then I'll switch my client visit to a video call.」表示會把拜訪改成視訊。「The curtains in the lobby look new.」的 curtains（窗簾）只是和 curtail（削減）發音相近；「A quarter past three would suit me.」的 quarter 是「十五分鐘」，和「季度」意思不同。"
+ },
+ {
+  "type": "choice",
+  "q": "Is the appraisal meeting in the boardroom or in your office?",
+  "answer": "Neither, we've moved it online.",
+  "distractors": [
+   "I got approval from my supervisor.",
+   "Yes, the office is open on Saturdays."
+  ],
+  "zh_q": "考核面談是在董事會會議室還是在你的辦公室？",
+  "zh_answer": "都不是，我們改成線上進行了。",
+  "zh_distractors": [
+   "我得到主管的批准了。",
+   "對，辦公室星期六有開。"
+  ],
+  "ex": "二選一問地點。「Neither, we've moved it online.」表示兩個地方都不是，已改成線上，是選擇問句常見的回答方式。「I got approval from my supervisor.」的 approval（批准）只是和 appraisal（考核）發音相近；「Yes, the office is open on Saturdays.」用 Yes 回答選擇問句不合，也只是重複 office。"
+ },
+ {
+  "type": "request",
+  "q": "Can you expedite my order? I need it for a presentation on Thursday.",
+  "answer": "Express delivery will get it to you by Wednesday.",
+  "distractors": [
+   "The expedition lasted three weeks.",
+   "The presentation went very well, thank you."
+  ],
+  "zh_q": "我的訂單可以加急處理嗎？星期四簡報要用。",
+  "zh_answer": "用快遞的話，星期三前可以送到您手上。",
+  "zh_distractors": [
+   "那趟探險持續了三個星期。",
+   "簡報進行得很順利，謝謝。"
+  ],
+  "ex": "顧客請對方加快處理訂單。「Express delivery will get it to you by Wednesday.」說明用快遞星期三前可到，趕得上星期四，等於答應了請求。「The expedition lasted three weeks.」的 expedition（探險）只是和 expedite 發音相近；「The presentation went very well, thank you.」重複 presentation，但用過去式講簡報已經結束，和「星期四才要用」不合，也沒有回應請求。"
+ },
+ {
+  "type": "yesno",
+  "q": "Do you think the proposed timeline is viable?",
+  "answer": "Not unless we get two more developers.",
+  "distractors": [
+   "The time zone difference is eight hours.",
+   "The line at the bank was very long."
+  ],
+  "zh_q": "你覺得提出的時程可行嗎？",
+  "zh_answer": "除非再多兩位開發人員，否則不行。",
+  "zh_distractors": [
+   "時差是八小時。",
+   "銀行排隊的人很多。"
+  ],
+  "ex": "問句問時程可不可行。「Not unless we get two more developers.」表示除非加人，否則不可行，是有條件的否定。「The time zone difference is eight hours.」的 time zone 只是和 timeline 相近；「The line at the bank was very long.」的 line（隊伍）也只是取 timeline 的後半，內容無關。"
+ },
+ {
+  "type": "choice",
+  "q": "Will the workshop be held onsite or at an offsite location?",
+  "answer": "The training room here is being renovated.",
+  "distractors": [
+   "I couldn't find the website.",
+   "The workshop lasted about three hours."
+  ],
+  "zh_q": "研習會在公司內辦，還是在外面的場地辦？",
+  "zh_answer": "我們這裡的訓練室正在整修。",
+  "zh_distractors": [
+   "我找不到那個網站。",
+   "研習會進行了大約三小時。"
+  ],
+  "ex": "二選一：在公司內或公司外舉辦。「The training room here is being renovated.」說明公司的訓練室在整修，暗示只能在外面辦。「I couldn't find the website.」的 website 只是和 onsite、offsite 發音相近；「The workshop lasted about three hours.」重複 workshop，回答的卻是時間長度，而且用的是過去式。"
+ },
+ {
+  "type": "statement",
+  "q": "It's imperative that we meet the compliance deadline this Friday.",
+  "answer": "Then I'll clear my schedule to finish the paperwork.",
+  "distractors": [
+   "Nice to meet you, too.",
+   "The appliance store is having a sale."
+  ],
+  "zh_q": "這星期五的法規遵循期限，我們非趕上不可。",
+  "zh_answer": "那我把行程排開，把文件弄完。",
+  "zh_distractors": [
+   "我也很高興認識你。",
+   "那家電器行正在特價。"
+  ],
+  "ex": "對方強調一定要趕上期限，合適的回應是表示會配合。「Then I'll clear my schedule to finish the paperwork.」表示會空出時間把文件完成。「Nice to meet you, too.」的 meet 是「認識」，和 meet the deadline（趕上期限）不同；「The appliance store is having a sale.」的 appliance（電器）只是和 compliance 發音相近。"
+ },
+ {
+  "type": "yesno",
+  "q": "Does the bank require collateral for a loan of this size?",
+  "answer": "Not for established customers like us.",
+  "distractors": [
+   "I'm all alone in the office today.",
+   "We sat on the river bank for hours."
+  ],
+  "zh_q": "這種額度的貸款，銀行會要求提供擔保品嗎？",
+  "zh_answer": "像我們這種往來多年的老客戶就不用。",
+  "zh_distractors": [
+   "今天辦公室只有我一個人。",
+   "我們在河岸邊坐了好幾個小時。"
+  ],
+  "ex": "問句問銀行是否要求擔保品。「Not for established customers like us.」回答：對我們這種往來已久、信譽良好的客戶不需要。「I'm all alone in the office today.」的 alone 只是和 a loan 發音相近；「We sat on the river bank for hours.」的 bank 是「河岸」，和銀行無關。"
+ },
+ {
+  "type": "choice",
+  "q": "Do you want the comprehensive report or just a brief summary?",
+  "answer": "I only have five minutes before my next call.",
+  "distractors": [
+   "The summer schedule starts in June.",
+   "Yes, the reporter interviewed him."
+  ],
+  "zh_q": "你要完整的報告，還是只要簡短的摘要？",
+  "zh_answer": "離下一通電話我只剩五分鐘。",
+  "zh_distractors": [
+   "夏季時刻表六月開始實施。",
+   "對，那位記者訪問了他。"
+  ],
+  "ex": "二選一：完整報告或簡短摘要。「I only have five minutes before my next call.」表示時間很少，暗示只要摘要。「The summer schedule starts in June.」的 summer 只是和 summary 發音相近；「Yes, the reporter interviewed him.」用 Yes 回答選擇問句不合，reporter（記者）也只是和 report 相近。"
+ },
+ {
+  "type": "yesno",
+  "q": "Is it feasible to consolidate the two warehouses before the fiscal year ends?",
+  "answer": "Only if we hire extra movers.",
+  "distractors": [
+   "The fees are listed on the last page.",
+   "The warehouse is on Harbor Street."
+  ],
+  "zh_q": "在這個會計年度結束前把兩間倉庫合併，可行嗎？",
+  "zh_answer": "除非我們多請一些搬運人員。",
+  "zh_distractors": [
+   "費用列在最後一頁。",
+   "倉庫在海港街。"
+  ],
+  "ex": "問句問「可不可行」。「Only if we hire extra movers.」是有條件的肯定：多請搬運人員才辦得到。「The fees are listed on the last page.」的 fees（費用）只是和 feasible 開頭的音相近；「The warehouse is on Harbor Street.」重複 warehouse，回答的卻是地點。"
+ },
+ {
+  "type": "request",
+  "q": "Could you forward me the blueprints for the new showroom?",
+  "answer": "The architect hasn't released the final version.",
+  "distractors": [
+   "The show starts at eight tonight.",
+   "Go forward two blocks and turn left."
+  ],
+  "zh_q": "可以把新展示間的藍圖轉寄給我嗎？",
+  "zh_answer": "建築師還沒釋出最終版本。",
+  "zh_distractors": [
+   "表演今晚八點開始。",
+   "往前走兩個街區再左轉。"
+  ],
+  "ex": "這是請對方轉寄藍圖。「The architect hasn't released the final version.」說明最終版還沒出來，暗示現在還沒辦法寄，是合理的間接回答。「The show starts at eight tonight.」的 show 只是和 showroom 相近；「Go forward two blocks and turn left.」的 forward 是「往前」，和「轉寄」意思不同。"
+ },
+ {
+  "type": "wh",
+  "q": "Where are we going to hold the debrief after the trade show?",
+  "answer": "It's all in the calendar invitation I sent.",
+  "distractors": [
+   "I'd like a brief summary, please.",
+   "We traded shifts last weekend."
+  ],
+  "zh_q": "商展結束後的檢討會要在哪裡開？",
+  "zh_answer": "我寄的行事曆邀請裡都寫了。",
+  "zh_distractors": [
+   "麻煩給我一份簡短的摘要。",
+   "我們上週末換了班。"
+  ],
+  "ex": "Where 問地點。「It's all in the calendar invitation I sent.」沒有直接說地點，而是請對方看行事曆邀請，是合理的間接回答。「I'd like a brief summary, please.」的 brief（簡短的）只是和 debrief（檢討會）相近；「We traded shifts last weekend.」的 traded（交換）只是和 trade show 用了同一個字。"
+ },
+ {
+  "type": "statement",
+  "q": "The caterer just called to say the delivery truck broke down.",
+  "answer": "Did they say how late the food will be?",
+  "distractors": [
+   "I'll take my break at two o'clock.",
+   "The call lasted almost an hour."
+  ],
+  "zh_q": "外燴業者剛打來說送貨車拋錨了。",
+  "zh_answer": "他們有說餐點會晚多久到嗎？",
+  "zh_distractors": [
+   "我兩點休息。",
+   "那通電話講了快一個小時。"
+  ],
+  "ex": "對方通報外燴的送貨車拋錨，合適的回應是追問影響。「Did they say how late the food will be?」追問餐點會延誤多久，切合情境。「I'll take my break at two o'clock.」的 break（休息）只是和 broke down 相近；「The call lasted almost an hour.」只是重複 call，講的是通話時間。"
+ },
+ {
+  "type": "tag",
+  "q": "The patent application was filed before the deadline, wasn't it?",
+  "answer": "Our attorney submitted it with a day to spare.",
+  "distractors": [
+   "Please be patient, it won't take long.",
+   "The files are in the top cabinet."
+  ],
+  "zh_q": "專利申請有在期限前送件吧？",
+  "zh_answer": "我們的律師提前一天就送出去了。",
+  "zh_distractors": [
+   "請耐心等一下，不會太久。",
+   "檔案放在最上層的櫃子裡。"
+  ],
+  "ex": "附加問句想確認專利申請是否及時送件。「Our attorney submitted it with a day to spare.」表示律師提早一天送出，with a day to spare 是「還有一天的餘裕」，等於肯定。「Please be patient, it won't take long.」的 patient（有耐心的）只是和 patent 發音相近；「The files are in the top cabinet.」的 files 是「檔案」，和 filed（提出申請）不同，回答的是東西放哪裡。"
+ },
+ {
+  "type": "wh",
+  "q": "When do you expect the auditors to finish reviewing the ledger?",
+  "answer": "It depends on how quickly we send the missing receipts.",
+  "distractors": [
+   "In the accounting office on the third floor.",
+   "Yes, the audio was much clearer this time."
+  ],
+  "zh_q": "你估計稽核人員什麼時候會審完總帳？",
+  "zh_answer": "要看我們多快把缺的收據送過去。",
+  "zh_distractors": [
+   "在三樓的會計室。",
+   "對，這次的音訊清楚多了。"
+  ],
+  "ex": "When 問時間。「It depends on how quickly we send the missing receipts.」沒給確切日期，但說明完成時間取決於補交收據的速度，是合理的間接回答。「In the accounting office on the third floor.」回答的是地點；「Yes, the audio was much clearer this time.」用 Yes 回答 When 問句不合，audio（音訊）也只是和 auditors 發音相近。"
+ },
+ {
+  "type": "negative",
+  "q": "Aren't you going to attend the shareholders' meeting this afternoon?",
+  "answer": "I'm sending my deputy in my place.",
+  "distractors": [
+   "I intend to buy a new laptop.",
+   "Good afternoon, may I take your order?"
+  ],
+  "zh_q": "你今天下午不去參加股東會嗎？",
+  "zh_answer": "我會派我的副手代替我去。",
+  "zh_distractors": [
+   "我打算買一台新筆電。",
+   "午安，可以幫您點餐了嗎？"
+  ],
+  "ex": "否定問句想確認對方是否出席股東會。「I'm sending my deputy in my place.」表示會派副手代替，也就是自己不去。「I intend to buy a new laptop.」的 intend 只是和 attend 發音相近；「Good afternoon, may I take your order?」只是重複 afternoon，是服務生的招呼語。"
+ },
+ {
+  "type": "request",
+  "q": "Why don't we designate one person to coordinate the booth setup?",
+  "answer": "Ms. Ito has offered to take that on.",
+  "distractors": [
+   "Because the boots were too tight.",
+   "I set up my new phone last night."
+  ],
+  "zh_q": "我們何不指定一個人來統籌攤位佈置？",
+  "zh_answer": "伊藤小姐已經主動說要接下這件事了。",
+  "zh_distractors": [
+   "因為那雙靴子太緊了。",
+   "我昨晚把新手機設定好了。"
+  ],
+  "ex": "Why don't we … 是提出建議。「Ms. Ito has offered to take that on.」表示已經有人自願負責，take on 是「承擔」，是合理的回應。「Because the boots were too tight.」把它當成問原因來回答，boots 也只是和 booth 發音相近；「I set up my new phone last night.」的 set up 是「設定手機」，沒有回應建議。"
+ },
+ {
+  "type": "negative",
+  "q": "Couldn't we mitigate the delay by adding a second shift?",
+  "answer": "That would entail hiring a lot more staff.",
+  "distractors": [
+   "The relay race starts at ten.",
+   "Please shift the table to the left."
+  ],
+  "zh_q": "我們不能加開第二班來減輕延誤嗎？",
+  "zh_answer": "那樣勢必得多請很多人。",
+  "zh_distractors": [
+   "接力賽十點開始。",
+   "請把桌子往左移。"
+  ],
+  "ex": "否定問句是在提議加開一班來減少延誤。「That would entail hiring a lot more staff.」指出這樣勢必要多請很多人，對提議表示保留。「The relay race starts at ten.」的 relay 只是和 delay 發音相近；「Please shift the table to the left.」的 shift 是「移動」，和「班次」意思不同。"
+ },
+ {
+  "type": "negative",
+  "q": "Don't we need the director's approval to exceed the budget?",
+  "answer": "Only for expenditures over five thousand dollars.",
+  "distractors": [
+   "The direction signs are confusing.",
+   "He succeeded on his first try."
+  ],
+  "zh_q": "超出預算不是需要總監核准嗎？",
+  "zh_answer": "超過五千美元的支出才需要。",
+  "zh_distractors": [
+   "那些方向指標讓人看不懂。",
+   "他第一次嘗試就成功了。"
+  ],
+  "ex": "否定問句想確認超出預算是否要總監核准。「Only for expenditures over five thousand dollars.」說明只有超過五千美元的支出才需要，是有條件的肯定。「The direction signs are confusing.」的 direction 只是和 director 相近；「He succeeded on his first try.」的 succeeded 只是和 exceed 發音相近。"
+ },
+ {
+  "type": "request",
+  "q": "Please make sure the visitors sign in before entering the premises.",
+  "answer": "I'll have the log sheet ready at the front desk.",
+  "distractors": [
+   "The sign on the door says closed.",
+   "The entry fee is five dollars."
+  ],
+  "zh_q": "請務必讓訪客在進入場區前先簽到。",
+  "zh_answer": "我會把登記表準備好放在櫃台。",
+  "zh_distractors": [
+   "門上的牌子寫著休息中。",
+   "入場費是五美元。"
+  ],
+  "ex": "這是交代對方要讓訪客先簽到。「I'll have the log sheet ready at the front desk.」表示會在櫃台備好登記表，等於答應照辦。「The sign on the door says closed.」的 sign 是「牌子」，和 sign in（簽到）不同；「The entry fee is five dollars.」的 entry 只是和 entering 相近，講的是入場費。"
+ },
+ {
+  "type": "statement",
+  "q": "I noticed the fire exit on the second floor is blocked by boxes.",
+  "answer": "That's against the safety code. I'll have them moved.",
+  "distractors": [
+   "The exit interview is scheduled for Monday.",
+   "The notice was posted yesterday."
+  ],
+  "zh_q": "我發現二樓的逃生出口被箱子堵住了。",
+  "zh_answer": "那違反安全規範，我會請人搬走。",
+  "zh_distractors": [
+   "離職面談排在星期一。",
+   "公告是昨天貼的。"
+  ],
+  "ex": "對方指出逃生出口被堵住，合適的回應是表示會處理。「That's against the safety code. I'll have them moved.」說明這違反安全規範，並會請人搬走。「The exit interview is scheduled for Monday.」的 exit interview 是「離職面談」，和逃生出口無關；「The notice was posted yesterday.」的 notice（公告）只是和 noticed 相近。"
+ },
+ {
+  "type": "request",
+  "q": "Why don't we outsource the payroll processing to an outside firm?",
+  "answer": "I'm not sure that would be cheaper in the long run.",
+  "distractors": [
+   "Because the outside door was locked.",
+   "Please press the button firmly."
+  ],
+  "zh_q": "我們何不把薪資作業外包給外面的公司？",
+  "zh_answer": "長期來看，我不確定那樣會比較省錢。",
+  "zh_distractors": [
+   "因為外面的門鎖住了。",
+   "請用力按下按鈕。"
+  ],
+  "ex": "Why don't we … 是提出建議，不是問原因。「I'm not sure that would be cheaper in the long run.」對建議表示保留，是合理的回應。「Because the outside door was locked.」把它當成問原因的 Why 來回答，也只是重複 outside；「Please press the button firmly.」的 firmly（用力地）只是和 firm（公司）相近。"
+ },
+ {
+  "type": "request",
+  "q": "Would you mind if I worked offsite on Friday?",
+  "answer": "As long as you can still join the team call.",
+  "distractors": [
+   "The sightseeing bus leaves at nine.",
+   "It works much better now."
+  ],
+  "zh_q": "我星期五不進公司、在外面工作，你介意嗎？",
+  "zh_answer": "只要你還是能參加團隊的電話會議就行。",
+  "zh_distractors": [
+   "觀光巴士九點出發。",
+   "它現在運作得順多了。"
+  ],
+  "ex": "Would you mind if … 是在徵求許可。「As long as you can still join the team call.」是有條件的同意：只要還能參加團隊會議就可以。「The sightseeing bus leaves at nine.」的 sightseeing 只是和 offsite 發音相近；「It works much better now.」的 works 是「運作」，和 worked（工作）意思不同，也沒有回應請求。"
+ },
+ {
+  "type": "tag",
+  "q": "The payroll deductions look higher this month, don't they?",
+  "answer": "The new insurance premium took effect on the first.",
+  "distractors": [
+   "Payday is the twenty-fifth of each month.",
+   "He's much taller than his brother."
+  ],
+  "zh_q": "這個月薪水的扣款看起來比較多，對吧？",
+  "zh_answer": "新的保險費一號開始生效了。",
+  "zh_distractors": [
+   "發薪日是每個月二十五號。",
+   "他比他弟弟高很多。"
+  ],
+  "ex": "附加問句想確認「這個月扣款變多了」。「The new insurance premium took effect on the first.」說明保費調整已生效，等於同意並解釋原因。「Payday is the twenty-fifth of each month.」講的是發薪日，沒有回應扣款變多；「He's much taller than his brother.」的 taller 只是和 higher 意思相近，講的是身高。"
+ },
+ {
+  "type": "choice",
+  "q": "Would you prefer the ergonomic chair or the standing desk?",
+  "answer": "Actually, I was hoping to get both.",
+  "distractors": [
+   "I can't stand waiting in long lines.",
+   "The chairperson will speak first."
+  ],
+  "zh_q": "你比較想要人體工學椅，還是站立式辦公桌？",
+  "zh_answer": "其實我本來希望兩樣都有。",
+  "zh_distractors": [
+   "我受不了排長隊。",
+   "主席會先發言。"
+  ],
+  "ex": "二選一：人體工學椅或站立式辦公桌。「Actually, I was hoping to get both.」表示兩個都想要，是選擇問句常見的回答。「I can't stand waiting in long lines.」的 can't stand 是「受不了」，只是用了 stand；「The chairperson will speak first.」的 chairperson（主席）只是含有 chair，內容無關。"
+ },
+ {
+  "type": "statement",
+  "q": "I heard the merger won't be finalized until next fiscal year.",
+  "answer": "Really? I thought the board had already signed off.",
+  "distractors": [
+   "The finalists will be announced tomorrow.",
+   "It's physically demanding work."
+  ],
+  "zh_q": "我聽說合併案要到下個會計年度才會定案。",
+  "zh_answer": "真的嗎？我以為董事會已經核准了。",
+  "zh_distractors": [
+   "決賽入圍名單明天公布。",
+   "那是很耗體力的工作。"
+  ],
+  "ex": "對方轉述合併案延後定案的消息，合適的回應是表示意外或追問。「Really? I thought the board had already signed off.」表達驚訝，並說出自己原本的認知。「The finalists will be announced tomorrow.」的 finalists（決賽入圍者）只是和 finalized 相近；「It's physically demanding work.」的 physically 只是和 fiscal 發音相近。"
+ },
+ {
+  "type": "yesno",
+  "q": "Will the board endorse the plan to outsource customer support?",
+  "answer": "Several members have serious reservations.",
+  "distractors": [
+   "Support staff are available around the clock.",
+   "We boarded the plane an hour late."
+  ],
+  "zh_q": "董事會會支持把客服外包的計畫嗎？",
+  "zh_answer": "有好幾位董事相當有疑慮。",
+  "zh_distractors": [
+   "客服人員全天候都在。",
+   "我們晚了一小時才登機。"
+  ],
+  "ex": "問句問董事會會不會支持。「Several members have serious reservations.」的 reservations 是「疑慮、保留意見」，暗示不一定會通過。「Support staff are available around the clock.」只是重複 support，沒有回答董事會的態度；「We boarded the plane an hour late.」把 board 當成「登機」，與問題無關。"
+ },
+ {
+  "type": "tag",
+  "q": "The dress code for the awards dinner is formal attire, right?",
+  "answer": "That's what it says on the invitation.",
+  "distractors": [
+   "The code for the door is four two one.",
+   "I need to replace a flat tire."
+  ],
+  "zh_q": "頒獎晚宴的服裝規定是正式服裝，對吧？",
+  "zh_answer": "邀請函上是這麼寫的。",
+  "zh_distractors": [
+   "門的密碼是四二一。",
+   "我得換掉一個沒氣的輪胎。"
+  ],
+  "ex": "句尾的 right 想確認晚宴要穿正式服裝。「That's what it says on the invitation.」表示邀請函上就是這樣寫，等於肯定。「The code for the door is four two one.」的 code 是「密碼」，和 dress code（服裝規定）不同；「I need to replace a flat tire.」的 a tire 和 attire 發音幾乎一樣，講的卻是輪胎。"
+ },
+ {
+  "type": "wh",
+  "q": "Which contractor did the facilities team shortlist for the lobby renovation?",
+  "answer": "They haven't narrowed it down yet.",
+  "distractors": [
+   "The contract is short, only two pages.",
+   "In the lobby, next to the reception desk."
+  ],
+  "zh_q": "大廳整修工程，設施組把哪一家承包商列入候選名單？",
+  "zh_answer": "他們還沒篩選出來。",
+  "zh_distractors": [
+   "合約很短，只有兩頁。",
+   "在大廳，接待櫃台旁邊。"
+  ],
+  "ex": "Which contractor 問是哪一家承包商入圍。「They haven't narrowed it down yet.」表示還沒篩選出名單，是合理的間接回答。「The contract is short, only two pages.」的 contract（合約）和 short 只是和 contractor、shortlist 聽起來像；「In the lobby, next to the reception desk.」回答的是地點。"
+ },
+ {
+  "type": "negative",
+  "q": "Wasn't the software rollout scheduled for the first of the month?",
+  "answer": "Testing uncovered a few bugs, so it's been delayed.",
+  "distractors": [
+   "The rolls are fresh from the oven.",
+   "It's the first door on your left."
+  ],
+  "zh_q": "軟體不是預定一號上線嗎？",
+  "zh_answer": "測試時發現了幾個錯誤，所以延後了。",
+  "zh_distractors": [
+   "麵包捲剛出爐。",
+   "是你左手邊第一扇門。"
+  ],
+  "ex": "否定問句想確認軟體是否原定一號上線。「Testing uncovered a few bugs, so it's been delayed.」說明測試發現錯誤，所以延後了。「The rolls are fresh from the oven.」的 rolls（麵包捲）只是和 rollout 相近；「It's the first door on your left.」只是重複 first，回答的是位置。"
+ },
+ {
+  "type": "tag",
+  "q": "You're accountable for the inventory figures, aren't you?",
+  "answer": "Only for the east warehouse.",
+  "distractors": [
+   "The accountant retired last year.",
+   "The inventor won a national award."
+  ],
+  "zh_q": "庫存數字是由你負責的，對吧？",
+  "zh_answer": "我只負責東倉的部分。",
+  "zh_distractors": [
+   "那位會計師去年退休了。",
+   "那位發明家得了全國性的獎項。"
+  ],
+  "ex": "附加問句想確認對方是否要對庫存數字負責。「Only for the east warehouse.」表示只負責東倉的部分，是部分肯定。「The accountant retired last year.」的 accountant（會計師）只是和 accountable 相近；「The inventor won a national award.」的 inventor（發明家）只是和 inventory（庫存）發音相近。"
+ },
+ {
+  "type": "request",
+  "q": "Would you be able to mediate between the two department heads?",
+  "answer": "I'd rather someone neutral from human resources did it.",
+  "distractors": [
+   "The medium size should fit you.",
+   "The apartment is on the top floor."
+  ],
+  "zh_q": "你可以居中調解這兩位部門主管嗎？",
+  "zh_answer": "我寧可讓人資部立場中立的人來做。",
+  "zh_distractors": [
+   "中號應該適合你。",
+   "那間公寓在頂樓。"
+  ],
+  "ex": "這是請對方出面調解兩位部門主管。「I'd rather someone neutral from human resources did it.」婉拒，並建議由人資部立場中立的人來做，是合理的回應。「The medium size should fit you.」的 medium 只是和 mediate 發音相近；「The apartment is on the top floor.」的 apartment 只是和 department 發音相近。"
+ },
+ {
+  "type": "choice",
+  "q": "Should I reallocate the funds to marketing or leave them in research?",
+  "answer": "That's at the finance director's discretion.",
+  "distractors": [
+   "He left the office about an hour ago.",
+   "The market is open until six."
+  ],
+  "zh_q": "這筆經費我該改撥給行銷部，還是留在研發部？",
+  "zh_answer": "那要由財務總監決定。",
+  "zh_distractors": [
+   "他大約一小時前離開辦公室了。",
+   "市場開到六點。"
+  ],
+  "ex": "二選一：經費改撥行銷或留在研發。「That's at the finance director's discretion.」的 at someone's discretion 是「由某人決定」，表示這不是我們能定的，是合理的間接回答。「He left the office about an hour ago.」的 left 是「離開」，和問句的 leave（留著）意思不同；「The market is open until six.」的 market（市場）只是和 marketing 相近。"
+ },
+ {
+  "type": "negative",
+  "q": "Isn't it mandatory to back up client files to the offsite server?",
+  "answer": "Yes, and the system does it automatically every night.",
+  "distractors": [
+   "I'll be back in ten minutes.",
+   "The server brought us the wrong dishes."
+  ],
+  "zh_q": "客戶檔案不是規定要備份到異地伺服器嗎？",
+  "zh_answer": "對，而且系統每天晚上都會自動備份。",
+  "zh_distractors": [
+   "我十分鐘後回來。",
+   "服務生幫我們上錯菜了。"
+  ],
+  "ex": "否定問句想確認是否強制要備份到異地伺服器。「Yes, and the system does it automatically every night.」肯定，並補充系統每晚自動備份。「I'll be back in ten minutes.」的 back 是「回來」，和 back up（備份）不同；「The server brought us the wrong dishes.」的 server 是「服務生」，和伺服器無關。"
+ },
+ {
+  "type": "choice",
+  "q": "Shall I book a private room, or is the main dining area fine?",
+  "answer": "We'll be discussing some confidential figures.",
+  "distractors": [
+   "I've read that book twice.",
+   "The main course comes with a salad."
+  ],
+  "zh_q": "要我訂包廂嗎？還是坐一般用餐區就可以？",
+  "zh_answer": "我們會討論一些機密數字。",
+  "zh_distractors": [
+   "那本書我讀過兩遍。",
+   "主菜有附沙拉。"
+  ],
+  "ex": "二選一：訂包廂或坐一般用餐區。「We'll be discussing some confidential figures.」表示要談機密內容，暗示需要包廂。「I've read that book twice.」把 book 當成名詞「書」，和「預訂」無關；「The main course comes with a salad.」只是重複 main，講的是餐點，沒有做出選擇。"
+ },
+ {
+  "type": "choice",
+  "q": "Are we going to renew the lease or look for new premises?",
+  "answer": "We've already started viewing other buildings.",
+  "distractors": [
+   "He made a promise to call back.",
+   "Yes, the news was on this morning."
+  ],
+  "zh_q": "我們要續租，還是另外找新的辦公場所？",
+  "zh_answer": "我們已經開始看其他大樓了。",
+  "zh_distractors": [
+   "他答應會回電。",
+   "對，今天早上有播那則新聞。"
+  ],
+  "ex": "二選一：續約或找新場所。「We've already started viewing other buildings.」表示已經在看別的大樓，暗示選擇搬遷。「He made a promise to call back.」的 promise 只是和 premises（場所）發音相近；「Yes, the news was on this morning.」用 Yes 回答選擇問句不合，news 也只是和 new、renew 相近。"
+ },
+ {
+  "type": "negative",
+  "q": "Shouldn't we assess the risks before we initiate the project?",
+  "answer": "The consultants are already working on that.",
+  "distractors": [
+   "The access road is closed today.",
+   "The rice was a little dry."
+  ],
+  "zh_q": "啟動專案之前，我們不是應該先評估風險嗎？",
+  "zh_answer": "顧問已經在做這件事了。",
+  "zh_distractors": [
+   "今天聯絡道路封閉。",
+   "飯有點乾。"
+  ],
+  "ex": "否定問句是在建議先評估風險。「The consultants are already working on that.」表示顧問已經在評估了，等於同意並說明現況。「The access road is closed today.」的 access 只是和 assess 發音相近；「The rice was a little dry.」的 rice 只是和 risks 發音相近，內容無關。"
+ },
+ {
+  "type": "wh",
+  "q": "What's causing the intermittent connectivity problems on the fourth floor?",
+  "answer": "A technician is coming to look into it this afternoon.",
+  "distractors": [
+   "My connecting flight leaves in forty minutes.",
+   "Yes, it's on the fourth floor."
+  ],
+  "zh_q": "四樓連線時斷時續，是什麼原因造成的？",
+  "zh_answer": "今天下午會有技術人員來查。",
+  "zh_distractors": [
+   "我的轉機班機四十分鐘後起飛。",
+   "對，是在四樓。"
+  ],
+  "ex": "What's causing 問原因。「A technician is coming to look into it this afternoon.」表示原因還不清楚、要等技術人員來查，是合理的間接回答。「My connecting flight leaves in forty minutes.」的 connecting（轉機）只是和 connectivity（連線）相近，講的是班機；「Yes, it's on the fourth floor.」用 Yes 回答 What 問句不合，也只是重複 fourth floor。"
+ },
+ {
+  "type": "tag",
+  "q": "Attendance at the outreach event was lower than expected, wasn't it?",
+  "answer": "The heavy rain kept a lot of people home.",
+  "distractors": [
+   "The attendant will show you to your seat.",
+   "I couldn't reach him by phone."
+  ],
+  "zh_q": "這次推廣活動的出席人數比預期少，對吧？",
+  "zh_answer": "雨太大，很多人都沒出門。",
+  "zh_distractors": [
+   "服務人員會帶您到座位。",
+   "我打電話聯絡不上他。"
+  ],
+  "ex": "附加問句想確認出席人數偏低。「The heavy rain kept a lot of people home.」說明大雨讓很多人沒來，等於同意並解釋原因。「The attendant will show you to your seat.」的 attendant（服務人員）只是和 attendance 相近；「I couldn't reach him by phone.」的 reach 只是和 outreach 相近，講的是聯絡不上人。"
+ }
+]

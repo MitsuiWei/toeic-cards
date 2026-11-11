@@ -1,0 +1,1627 @@
+[
+ {
+  "wid": 250,
+  "type": "form",
+  "q": "Please call our customer service team if you have any questions ------- your order.",
+  "answer": "regarding",
+  "distractors": [
+   "regard",
+   "regarded",
+   "regardless"
+  ],
+  "zh": "如果您對訂單有任何問題，請致電我們的客服團隊。",
+  "ex": "空格後面是名詞 your order，前面需要介系詞，questions regarding… 是「關於…的問題」。regard 是動詞或名詞、regarded 是過去式／過去分詞、regardless 是副詞，要說 regardless of 才能接名詞。"
+ },
+ {
+  "wid": 251,
+  "type": "form",
+  "q": "Traffic on Main Street will be slow during the ------- of the new bridge.",
+  "answer": "construction",
+  "distractors": [
+   "construct",
+   "constructive",
+   "constructively"
+  ],
+  "zh": "新橋興建期間，主街的車流會比較緩慢。",
+  "ex": "the 和 of 中間要放名詞，the construction of… 是「…的興建」。construct 是動詞、constructive 是形容詞（有建設性的）、constructively 是副詞。"
+ },
+ {
+  "wid": 252,
+  "type": "vocab",
+  "q": "The store sells kitchen ------- such as refrigerators, ovens, and dishwashers at low prices.",
+  "answer": "appliances",
+  "distractors": [
+   "ingredients",
+   "certificates",
+   "briefcases"
+  ],
+  "zh": "這家店以低價販售冰箱、烤箱、洗碗機等廚房電器。",
+  "ex": "refrigerators、ovens、dishwashers 都是廚房裡用的電器，所以是 kitchen appliances「廚房電器」。ingredients 是食材、certificates 是證書、briefcases 是公事包。"
+ },
+ {
+  "wid": 253,
+  "type": "form",
+  "q": "Your ------- to our travel magazine will end on June 30 unless you renew it.",
+  "answer": "subscription",
+  "distractors": [
+   "subscribe",
+   "subscribed",
+   "subscriber"
+  ],
+  "zh": "除非您續訂，否則您的旅遊雜誌訂閱將於 6 月 30 日到期。",
+  "ex": "所有格 Your 後面要接名詞，而且會「到期」的是訂閱，所以用 subscription。subscribe 是動詞、subscribed 是過去式／過去分詞、subscriber 是「訂閱者」（人），放進去意思不通。"
+ },
+ {
+  "wid": 254,
+  "type": "vocab",
+  "q": "The chef buys fresh ------- such as tomatoes, eggs, and cheese at the market every morning.",
+  "answer": "ingredients",
+  "distractors": [
+   "appliances",
+   "beverages",
+   "receipts"
+  ],
+  "zh": "主廚每天早上到市場採買番茄、雞蛋、起司等新鮮食材。",
+  "ex": "tomatoes、eggs、cheese 是做菜用的材料，fresh ingredients 是「新鮮食材」。appliances 是電器、beverages 是飲料、receipts 是收據。"
+ },
+ {
+  "wid": 255,
+  "type": "form",
+  "q": "Our biggest ------- opened a new store across the street last month.",
+  "answer": "competitor",
+  "distractors": [
+   "compete",
+   "competitive",
+   "competitively"
+  ],
+  "zh": "我們最大的競爭對手上個月在對街開了一家新店。",
+  "ex": "形容詞最高級 biggest 後面要接名詞，會「開店」的是 competitor「競爭對手」。compete 是動詞、competitive 是形容詞、competitively 是副詞。"
+ },
+ {
+  "wid": 256,
+  "type": "vocab",
+  "q": "Mr. Park hung his teaching ------- on the office wall after passing the final exam.",
+  "answer": "certificate",
+  "distractors": [
+   "occupation",
+   "attendance",
+   "method"
+  ],
+  "zh": "朴先生通過期末考之後，把他的教師證書掛在辦公室牆上。",
+  "ex": "通過考試後拿到、可以掛在牆上的是 certificate「證書」，teaching certificate 是「教師證書」。occupation 是職業、attendance 是出席、method 是方法。"
+ },
+ {
+  "wid": 257,
+  "type": "vocab",
+  "q": "The ------- toward working from home has continued, and many offices are now half empty.",
+  "answer": "trend",
+  "distractors": [
+   "outcome",
+   "category",
+   "venue"
+  ],
+  "zh": "在家工作的趨勢持續發展，許多辦公室現在有一半是空的。",
+  "ex": "the trend toward… 是「朝向…的趨勢」，這裡指在家工作越來越普遍。outcome 是結果、category 是類別、venue 是會場。"
+ },
+ {
+  "wid": 258,
+  "type": "vocab",
+  "q": "After paying the electricity bill, Ms. Lin had a ------- of only $40 in her bank account.",
+  "answer": "balance",
+  "distractors": [
+   "duration",
+   "conclusion",
+   "receipt"
+  ],
+  "zh": "繳完電費之後，林女士的銀行帳戶餘額只剩 40 美元。",
+  "ex": "帳戶裡剩下的金額是 balance「餘額」，a balance of $40 是「餘額 40 美元」。duration 是持續時間、conclusion 是結論、receipt 是收據。"
+ },
+ {
+  "wid": 259,
+  "type": "vocab",
+  "q": "The report is fifty pages long, so Mr. Diaz wrote a one-page ------- of its main points.",
+  "answer": "summary",
+  "distractors": [
+   "category",
+   "extension",
+   "fare"
+  ],
+  "zh": "這份報告長達五十頁，所以迪亞茲先生寫了一頁的重點摘要。",
+  "ex": "把很長的報告濃縮成一頁重點，就是 summary「摘要」，a summary of the main points 是「重點摘要」。category 是類別、extension 是延期／分機、fare 是車資。"
+ },
+ {
+  "wid": 260,
+  "type": "vocab",
+  "q": "Ms. Wu worked late every night this week to meet the ------- for the client's report.",
+  "answer": "deadline",
+  "distractors": [
+   "agenda",
+   "layout",
+   "pension"
+  ],
+  "zh": "吳女士這個星期每天晚上都加班，好趕上客戶報告的截止日。",
+  "ex": "meet the deadline 是「趕上截止期限」，是多益常見搭配。agenda 是議程、layout 是版面配置、pension 是退休金。"
+ },
+ {
+  "wid": 261,
+  "type": "vocab",
+  "q": "The company hired an ------- to check its financial records and prepare the yearly tax report.",
+  "answer": "accountant",
+  "distractors": [
+   "instructor",
+   "editor",
+   "applicant"
+  ],
+  "zh": "公司聘請了一位會計師來查核財務紀錄並準備年度稅務報告。",
+  "ex": "查核財務紀錄、準備稅務報告是 accountant「會計師」的工作。instructor 是講師／教練、editor 是編輯、applicant 是申請人。"
+ },
+ {
+  "wid": 262,
+  "type": "vocab",
+  "q": "Speakers from twelve countries will give talks at the three-day marketing ------- in Singapore.",
+  "answer": "conference",
+  "distractors": [
+   "budget",
+   "survey",
+   "brand"
+  ],
+  "zh": "來自十二個國家的講者將在新加坡為期三天的行銷研討會上發表演說。",
+  "ex": "有多國講者發表演說、為期三天的活動是 conference「研討會、大會」。budget 是預算、survey 是調查、brand 是品牌。"
+ },
+ {
+  "wid": 263,
+  "type": "form",
+  "q": "At Harbor Hotel, each employee's job ------- is reviewed twice a year by a manager.",
+  "answer": "performance",
+  "distractors": [
+   "perform",
+   "performed",
+   "performer"
+  ],
+  "zh": "在港灣飯店，每位員工的工作表現每年會由主管考核兩次。",
+  "ex": "job 後面要再接一個名詞當主詞，job performance 是「工作表現」。perform 是動詞、performed 是過去式／過去分詞、performer 是「表演者」（人），放進去意思不通。"
+ },
+ {
+  "wid": 264,
+  "type": "vocab",
+  "q": "Mr. Hall's first ------- as a new reporter was to write a story about the city marathon.",
+  "answer": "assignment",
+  "distractors": [
+   "subscription",
+   "reception",
+   "discount"
+  ],
+  "zh": "霍爾先生當上新進記者後的第一項任務，是寫一篇關於城市馬拉松的報導。",
+  "ex": "被指派去做的工作是 assignment「任務」，first assignment 是「第一項任務」。subscription 是訂閱、reception 是接待處／歡迎會、discount 是折扣。"
+ },
+ {
+  "wid": 265,
+  "type": "vocab",
+  "q": "Mr. Kim left his ------- on the train, and all his meeting papers and his laptop were inside.",
+  "answer": "briefcase",
+  "distractors": [
+   "certificate",
+   "itinerary",
+   "deposit"
+  ],
+  "zh": "金先生把公事包忘在火車上，他所有的會議文件和筆電都在裡面。",
+  "ex": "裡面可以裝文件和筆電、上班會帶著的是 briefcase「公事包」。certificate 是證書、itinerary 是行程表、deposit 是押金／訂金。"
+ },
+ {
+  "wid": 266,
+  "type": "form",
+  "q": "Car making is the largest ------- in the region and gives jobs to thousands of local people.",
+  "answer": "industry",
+  "distractors": [
+   "industrial",
+   "industrially",
+   "industrialize"
+  ],
+  "zh": "汽車製造是這個地區最大的產業，為數千名當地居民提供工作。",
+  "ex": "最高級 the largest 後面要接名詞，industry 是「產業」。industrial 是形容詞、industrially 是副詞、industrialize 是動詞。"
+ },
+ {
+  "wid": 267,
+  "type": "form",
+  "q": "The swimming ------- at the hotel pool has taught children for more than ten years.",
+  "answer": "instructor",
+  "distractors": [
+   "instruct",
+   "instructed",
+   "instructive"
+  ],
+  "zh": "飯店游泳池的游泳教練教小朋友已經超過十年了。",
+  "ex": "The swimming 後面要接名詞當主詞，而且是「教」小朋友的人，所以用 instructor「教練」。instruct 是動詞、instructed 是過去式／過去分詞、instructive 是形容詞（有教育意義的）。"
+ },
+ {
+  "wid": 268,
+  "type": "form",
+  "q": "Mr. Wu made a generous ------- of $500 to the city library.",
+  "answer": "donation",
+  "distractors": [
+   "donate",
+   "donated",
+   "donor"
+  ],
+  "zh": "吳先生慷慨捐了 500 美元給市立圖書館。",
+  "ex": "a generous 後面要接名詞，make a donation 是「捐款」。donate 是動詞、donated 是過去式／過去分詞、donor 是「捐贈者」（人），不能說 make a donor。"
+ },
+ {
+  "wid": 269,
+  "type": "form",
+  "q": "Guests must show a form of ------- with a photo when they check in at the hotel.",
+  "answer": "identification",
+  "distractors": [
+   "identify",
+   "identified",
+   "identifiable"
+  ],
+  "zh": "房客在飯店辦理入住時，必須出示一種附照片的身分證明文件。",
+  "ex": "介系詞 of 後面要接名詞，a form of identification 是「一種身分證明文件」。identify 是動詞、identified 是過去式／過去分詞、identifiable 是形容詞。"
+ },
+ {
+  "wid": 270,
+  "type": "form",
+  "q": "Thank you for your ------- in the sales assistant job at our downtown store.",
+  "answer": "interest",
+  "distractors": [
+   "interested",
+   "interesting",
+   "interestingly"
+  ],
+  "zh": "感謝您對我們市中心門市的銷售助理職缺感興趣。",
+  "ex": "所有格 your 後面要接名詞，your interest in… 是「您對…的興趣」。interested 和 interesting 是形容詞、interestingly 是副詞。"
+ },
+ {
+  "wid": 271,
+  "type": "vocab",
+  "q": "The new library is open to everyone in the local -------, from young children to older residents.",
+  "answer": "community",
+  "distractors": [
+   "industry",
+   "committee",
+   "economy"
+  ],
+  "zh": "新圖書館開放給當地社區的每一個人使用，從小朋友到年長的居民都可以。",
+  "ex": "住在當地的所有居民就是 local community「當地社區」。industry 是產業、committee 是委員會、economy 是經濟。"
+ },
+ {
+  "wid": 272,
+  "type": "form",
+  "q": "After studying the sales numbers, the team reached the ------- that the store needs longer opening hours.",
+  "answer": "conclusion",
+  "distractors": [
+   "conclude",
+   "conclusive",
+   "conclusively"
+  ],
+  "zh": "研究過銷售數字之後，團隊得出的結論是這家店需要延長營業時間。",
+  "ex": "the 後面要接名詞，reach the conclusion that… 是「得出…的結論」。conclude 是動詞、conclusive 是形容詞、conclusively 是副詞。"
+ },
+ {
+  "wid": 273,
+  "type": "vocab",
+  "q": "Ms. Lopez will receive the Employee of the Year prize at the awards ------- on Friday night.",
+  "answer": "ceremony",
+  "distractors": [
+   "proposal",
+   "expense",
+   "district"
+  ],
+  "zh": "羅培茲女士將在星期五晚上的頒獎典禮上領取年度最佳員工獎。",
+  "ex": "awards ceremony 是「頒獎典禮」，也就是領獎的場合。proposal 是提案、expense 是開銷、district 是區域。"
+ },
+ {
+  "wid": 274,
+  "type": "form",
+  "q": "On our website, laptops and tablets are listed in the same ------- as desktop computers.",
+  "answer": "category",
+  "distractors": [
+   "categorize",
+   "categorized",
+   "categorical"
+  ],
+  "zh": "在我們的網站上，筆電和平板與桌上型電腦列在同一個類別。",
+  "ex": "the same 後面要接名詞，in the same category 是「在同一個類別」。categorize 是動詞、categorized 是過去式／過去分詞、categorical 是形容詞。"
+ },
+ {
+  "wid": 275,
+  "type": "vocab",
+  "q": "The manager said the late delivery was nobody's ------- because the storm had closed every road.",
+  "answer": "fault",
+  "distractors": [
+   "balance",
+   "deposit",
+   "trend"
+  ],
+  "zh": "經理說延遲送達不是任何人的錯，因為暴風雨封閉了所有道路。",
+  "ex": "nobody's fault 是「不是任何人的錯」，fault 指過錯、責任。balance 是餘額、deposit 是押金／訂金、trend 是趨勢。"
+ },
+ {
+  "wid": 276,
+  "type": "form",
+  "q": "Please complete the job ------- and email it to our HR office by Monday.",
+  "answer": "application",
+  "distractors": [
+   "apply",
+   "applied",
+   "applicable"
+  ],
+  "zh": "請填妥求職申請表，並在星期一前用電子郵件寄到我們的人資部門。",
+  "ex": "the job 後面要接名詞當 complete 的受詞，job application 是「求職申請（表）」。apply 是動詞、applied 是過去式／過去分詞、applicable 是形容詞（適用的）。"
+ },
+ {
+  "wid": 277,
+  "type": "vocab",
+  "q": "The ------- on the third floor is broken, so please make your copies of the report downstairs.",
+  "answer": "photocopier",
+  "distractors": [
+   "briefcase",
+   "dashboard",
+   "spreadsheet"
+  ],
+  "zh": "三樓的影印機壞了，所以請到樓下影印報告。",
+  "ex": "用來 make copies「影印」的機器是 photocopier「影印機」。briefcase 是公事包、dashboard 是儀表板、spreadsheet 是試算表。"
+ },
+ {
+  "wid": 278,
+  "type": "form",
+  "q": "To receive a free lunch ticket, finish your ------- for the workshop by Friday.",
+  "answer": "registration",
+  "distractors": [
+   "register",
+   "registered",
+   "registers"
+  ],
+  "zh": "想領取免費午餐券的話，請在星期五前完成工作坊的報名。",
+  "ex": "所有格 your 後面要接名詞，finish your registration 是「完成報名」。register 是動詞原形（當名詞是收銀機，意思不通）、registered 是過去式／過去分詞、registers 是動詞第三人稱單數。"
+ },
+ {
+  "wid": 279,
+  "type": "vocab",
+  "q": "The hotel provides free ------- to the airport, with a bus leaving every thirty minutes.",
+  "answer": "transportation",
+  "distractors": [
+   "accommodation",
+   "insurance",
+   "maintenance"
+  ],
+  "zh": "飯店提供前往機場的免費交通接送，每三十分鐘有一班巴士。",
+  "ex": "有巴士載客人去機場，所以是 free transportation「免費交通接送」。accommodation 是住宿、insurance 是保險、maintenance 是維護保養。"
+ },
+ {
+  "wid": 280,
+  "type": "form",
+  "q": "The supermarket is running a special ------- on fruit this week, with prices cut by half.",
+  "answer": "promotion",
+  "distractors": [
+   "promote",
+   "promotional",
+   "promoted"
+  ],
+  "zh": "這家超市本週推出水果特別促銷，價格打對折。",
+  "ex": "a special 後面要接名詞，run a promotion 是「舉辦促銷活動」。promote 是動詞、promotional 是形容詞、promoted 是過去式／過去分詞。"
+ },
+ {
+  "wid": 281,
+  "type": "vocab",
+  "q": "Mr. Brown plans to live on his company ------- after he stops working at age sixty-five.",
+  "answer": "pension",
+  "distractors": [
+   "deposit",
+   "assignment",
+   "label"
+  ],
+  "zh": "布朗先生打算在六十五歲停止工作後，靠公司的退休金生活。",
+  "ex": "停止工作（退休）之後領來生活的錢是 pension「退休金」。deposit 是押金／訂金、assignment 是任務、label 是標籤。"
+ },
+ {
+  "wid": 282,
+  "type": "vocab",
+  "q": "In the survey, the vast ------- of shoppers, about 90 percent, said they would visit the mall again.",
+  "answer": "majority",
+  "distractors": [
+   "duration",
+   "priority",
+   "structure"
+  ],
+  "zh": "在這次調查中，絕大多數的購物者（約九成）表示會再來這家購物中心。",
+  "ex": "the vast majority of… 是「絕大多數的…」，後面的 90 percent 也說明是大多數。duration 是持續時間、priority 是優先事項、structure 是結構。"
+ },
+ {
+  "wid": 283,
+  "type": "form",
+  "q": "Because the report was not ready, Mr. Lee asked for a two-day ------- of the deadline.",
+  "answer": "extension",
+  "distractors": [
+   "extend",
+   "extensive",
+   "extensively"
+  ],
+  "zh": "因為報告還沒準備好，李先生要求把截止日延後兩天。",
+  "ex": "a two-day 後面要接名詞，ask for an extension 是「要求延期」。extend 是動詞、extensive 是形容詞（廣泛的）、extensively 是副詞。"
+ },
+ {
+  "wid": 284,
+  "type": "form",
+  "q": "The bookshelf requires some -------, but all the tools you need are included in the box.",
+  "answer": "assembly",
+  "distractors": [
+   "assemble",
+   "assembled",
+   "assembles"
+  ],
+  "zh": "這個書架需要自行組裝，不過需要的工具都附在箱子裡。",
+  "ex": "some 後面要接名詞當 requires 的受詞，assembly 是「組裝」。assemble 是動詞原形、assembled 是過去式／過去分詞、assembles 是動詞第三人稱單數。"
+ },
+ {
+  "wid": 285,
+  "type": "vocab",
+  "q": "Ms. Wang earned a master's ------- in business from a university in Canada.",
+  "answer": "degree",
+  "distractors": [
+   "lecture",
+   "committee",
+   "session"
+  ],
+  "zh": "王女士在加拿大的一所大學取得商學碩士學位。",
+  "ex": "master's degree 是「碩士學位」，earn a degree 是「取得學位」。lecture 是講座、committee 是委員會、session 是（上課或活動的）時段。"
+ },
+ {
+  "wid": 286,
+  "type": "form",
+  "q": "For most small shops, rent is the largest monthly -------, followed by staff pay.",
+  "answer": "expense",
+  "distractors": [
+   "expensive",
+   "expensively",
+   "expend"
+  ],
+  "zh": "對大多數小商店來說，租金是每個月最大的一筆開銷，其次是員工薪資。",
+  "ex": "the largest monthly 後面要接名詞，expense 是「開銷、費用」。expensive 是形容詞、expensively 是副詞、expend 是動詞（花費）。"
+ },
+ {
+  "wid": 287,
+  "type": "vocab",
+  "q": "The company's online sales ------- has forty employees and is led by Ms. Tanaka.",
+  "answer": "division",
+  "distractors": [
+   "trend",
+   "proportion",
+   "figure"
+  ],
+  "zh": "公司的線上銷售部門有四十名員工，由田中女士帶領。",
+  "ex": "有員工、有主管帶領的是公司裡的 division「部門」。trend 是趨勢、proportion 是比例、figure 是數字。"
+ },
+ {
+  "wid": 288,
+  "type": "vocab",
+  "q": "Under the store's return -------, customers can bring back any item within thirty days.",
+  "answer": "policy",
+  "distractors": [
+   "layout",
+   "outcome",
+   "majority"
+  ],
+  "zh": "依照這家店的退貨政策，顧客可以在三十天內退回任何商品。",
+  "ex": "return policy 是「退貨政策」，under the policy 是「依照規定」。layout 是空間配置、outcome 是結果、majority 是大多數。"
+ },
+ {
+  "wid": 289,
+  "type": "form",
+  "q": "After twenty years of ------- at the bank, Mr. Gray decided to open his own bookstore.",
+  "answer": "employment",
+  "distractors": [
+   "employ",
+   "employed",
+   "employable"
+  ],
+  "zh": "在銀行任職二十年之後，葛雷先生決定自己開一家書店。",
+  "ex": "介系詞 of 後面要接名詞，twenty years of employment 是「受雇（任職）二十年」。employ 是動詞、employed 是過去式／過去分詞、employable 是形容詞。"
+ },
+ {
+  "wid": 290,
+  "type": "form",
+  "q": "Buying new delivery trucks was a good ------- because the company now saves money on repairs.",
+  "answer": "investment",
+  "distractors": [
+   "invest",
+   "invested",
+   "investor"
+  ],
+  "zh": "購買新的送貨卡車是一項很好的投資，因為公司現在省下了修理費。",
+  "ex": "a good 後面要接名詞，而且「買卡車」是一項投資，所以用 investment。invest 是動詞、invested 是過去式／過去分詞、investor 是「投資人」（人），放進去意思不通。"
+ },
+ {
+  "wid": 291,
+  "type": "vocab",
+  "q": "Mr. Ortiz added his new job title and work history to his ------- before applying to the airline.",
+  "answer": "résumé",
+  "distractors": [
+   "itinerary",
+   "agenda",
+   "receipt"
+  ],
+  "zh": "歐提茲先生在應徵那家航空公司之前，把新的職稱和工作經歷加進了履歷。",
+  "ex": "寫上職稱和工作經歷、應徵工作時用的文件是 résumé「履歷」。itinerary 是行程表、agenda 是議程、receipt 是收據。"
+ },
+ {
+  "wid": 292,
+  "type": "form",
+  "q": "The city swimming pool will be closed next week for its yearly -------.",
+  "answer": "maintenance",
+  "distractors": [
+   "maintain",
+   "maintained",
+   "maintains"
+  ],
+  "zh": "市立游泳池下週將因年度保養而關閉。",
+  "ex": "所有格 its 和形容詞 yearly 後面要接名詞，maintenance 是「維護、保養」。maintain 是動詞原形、maintained 是過去式／過去分詞、maintains 是動詞第三人稱單數。"
+ },
+ {
+  "wid": 293,
+  "type": "vocab",
+  "q": "We will not know the ------- of the job interview until the company calls next week.",
+  "answer": "outcome",
+  "distractors": [
+   "shipment",
+   "fuel",
+   "brand"
+  ],
+  "zh": "要等公司下週來電，我們才會知道工作面試的結果。",
+  "ex": "outcome 是「結果」，the outcome of the interview 就是面試的結果。shipment 是貨物、fuel 是燃料、brand 是品牌。"
+ },
+ {
+  "wid": 294,
+  "type": "form",
+  "q": "The managers accepted Ms. Chen's ------- to open a second store near the train station.",
+  "answer": "proposal",
+  "distractors": [
+   "propose",
+   "proposed",
+   "proposes"
+  ],
+  "zh": "主管們接受了陳女士在火車站附近開第二家店的提案。",
+  "ex": "所有格 Ms. Chen's 後面要接名詞，proposal 是「提案」。propose 是動詞原形、proposed 是過去式／過去分詞、proposes 是動詞第三人稱單數。"
+ },
+ {
+  "wid": 295,
+  "type": "vocab",
+  "q": "The repair bill shows $60 for parts and $90 for two hours of -------.",
+  "answer": "labor",
+  "distractors": [
+   "interest",
+   "literacy",
+   "evidence"
+  ],
+  "zh": "修理帳單上列出零件費 60 美元，以及兩小時的工資 90 美元。",
+  "ex": "修理費通常分成 parts「零件」和 labor「人工」，two hours of labor 是兩小時的工錢。interest 是利息／興趣、literacy 是讀寫能力、evidence 是證據。"
+ },
+ {
+  "wid": 296,
+  "type": "vocab",
+  "q": "The technology ------- created thousands of new jobs last year, mostly for software engineers.",
+  "answer": "sector",
+  "distractors": [
+   "ceremony",
+   "excursion",
+   "memo"
+  ],
+  "zh": "科技業去年創造了數千個新工作機會，主要是軟體工程師的職缺。",
+  "ex": "the technology sector 是「科技業」，sector 指經濟或產業中的某個領域。ceremony 是典禮、excursion 是短程旅行、memo 是備忘錄。"
+ },
+ {
+  "wid": 297,
+  "type": "vocab",
+  "q": "Please read the ------- of the rental agreement carefully before you sign it.",
+  "answer": "terms",
+  "distractors": [
+   "trends",
+   "quarters",
+   "outlets"
+  ],
+  "zh": "簽名之前，請仔細閱讀租賃合約的條款。",
+  "ex": "the terms of an agreement 是「合約的條款」，簽約前要看清楚。trends 是趨勢、quarters 是季度、outlets 是銷售據點。"
+ },
+ {
+  "wid": 298,
+  "type": "vocab",
+  "q": "A ------- of six managers meets every month to choose the best new product ideas.",
+  "answer": "committee",
+  "distractors": [
+   "summary",
+   "layout",
+   "wage"
+  ],
+  "zh": "由六位經理組成的委員會每個月開會，選出最好的新產品點子。",
+  "ex": "由幾個人組成、定期開會做決定的小組是 committee「委員會」。summary 是摘要、layout 是空間配置、wage 是工資。"
+ },
+ {
+  "wid": 299,
+  "type": "vocab",
+  "q": "About 300 workers make car parts at the company's ------- outside the city.",
+  "answer": "plant",
+  "distractors": [
+   "reception",
+   "brand",
+   "lecture"
+  ],
+  "zh": "大約 300 名工人在公司位於市郊的工廠生產汽車零件。",
+  "ex": "工人生產零件的地方是 plant「工廠」。reception 是接待處／歡迎會、brand 是品牌、lecture 是講座。"
+ },
+ {
+  "wid": 300,
+  "type": "vocab",
+  "q": "The coffee chain plans to open twenty new ------- in airports and train stations next year.",
+  "answer": "outlets",
+  "distractors": [
+   "layovers",
+   "memos",
+   "wages"
+  ],
+  "zh": "這家連鎖咖啡店計畫明年在機場和火車站新開二十個銷售據點。",
+  "ex": "連鎖店開新的門市是 open new outlets，outlet 是「銷售據點」。layovers 是轉機停留、memos 是備忘錄、wages 是工資。"
+ },
+ {
+  "wid": 301,
+  "type": "vocab",
+  "q": "Because of strong winds, passengers must keep their seat belts on for the whole ------- of the flight.",
+  "answer": "duration",
+  "distractors": [
+   "outcome",
+   "category",
+   "selection"
+  ],
+  "zh": "由於風勢強勁，乘客在整段飛行期間都必須繫好安全帶。",
+  "ex": "for the duration of the flight 是「在整段飛行期間」，duration 指持續的時間。outcome 是結果、category 是類別、selection 是選擇。"
+ },
+ {
+  "wid": 302,
+  "type": "vocab",
+  "q": "Staff can search the online ------- to find any customer's name, address, and order history in seconds.",
+  "answer": "database",
+  "distractors": [
+   "ceremony",
+   "anniversary",
+   "milestone"
+  ],
+  "zh": "員工可以搜尋線上資料庫，幾秒內就能找到任何顧客的姓名、地址和訂購紀錄。",
+  "ex": "存放大量顧客資料、可以搜尋的系統是 database「資料庫」。ceremony 是典禮、anniversary 是周年紀念日、milestone 是里程碑。"
+ },
+ {
+  "wid": 303,
+  "type": "form",
+  "q": "The free evening class teaches reading and writing to adults who want to improve their -------.",
+  "answer": "literacy",
+  "distractors": [
+   "literate",
+   "literary",
+   "literally"
+  ],
+  "zh": "這個免費的夜間課程教想提升讀寫能力的成年人閱讀和寫作。",
+  "ex": "所有格 their 後面要接名詞，literacy 是「讀寫能力」。literate 是形容詞（能讀寫的）、literary 是形容詞（文學的）、literally 是副詞（照字面地）。"
+ },
+ {
+  "wid": 304,
+  "type": "form",
+  "q": "Engineers checked the ------- of the old parking garage and found that it was still safe.",
+  "answer": "structure",
+  "distractors": [
+   "structural",
+   "structurally",
+   "structured"
+  ],
+  "zh": "工程師檢查了舊停車場的結構，發現它仍然安全。",
+  "ex": "the 和 of 中間要放名詞，the structure of… 是「…的結構」。structural 是形容詞、structurally 是副詞、structured 是過去分詞（有條理的）。"
+ },
+ {
+  "wid": 305,
+  "type": "vocab",
+  "q": "The design ------- that built our website has twenty employees and an office downtown.",
+  "answer": "firm",
+  "distractors": [
+   "trend",
+   "layout",
+   "fee"
+  ],
+  "zh": "替我們架設網站的那家設計公司有二十名員工，辦公室在市中心。",
+  "ex": "有員工、有辦公室，又能承接案子的是 firm「公司、事務所」，design firm 是設計公司。trend 是趨勢、layout 是版面設計、fee 是費用。"
+ },
+ {
+  "wid": 306,
+  "type": "vocab",
+  "q": "Employees who want to take a day off must first get permission from their direct -------.",
+  "answer": "superior",
+  "distractors": [
+   "tenant",
+   "competitor",
+   "courier"
+  ],
+  "zh": "想請一天假的員工，必須先取得直屬上司的許可。",
+  "ex": "請假要得到許可的對象是 superior「上司」，direct superior 是「直屬上司」。tenant 是房客、competitor 是競爭對手、courier 是快遞員。"
+ },
+ {
+  "wid": 307,
+  "type": "form",
+  "q": "The store has a legal ------- to give customers their money back if a product is broken.",
+  "answer": "obligation",
+  "distractors": [
+   "oblige",
+   "obligated",
+   "obligatory"
+  ],
+  "zh": "如果產品有損壞，商店在法律上有義務把錢退還給顧客。",
+  "ex": "a legal 後面要接名詞，have an obligation to… 是「有義務做…」。oblige 是動詞、obligated 是過去分詞（有義務的）、obligatory 是形容詞（義務性的）。"
+ },
+ {
+  "wid": 308,
+  "type": "vocab",
+  "q": "Two large factories closed last year, so ------- in the town rose to ten percent.",
+  "answer": "unemployment",
+  "distractors": [
+   "literacy",
+   "maintenance",
+   "merchandise"
+  ],
+  "zh": "去年有兩家大工廠關閉，所以鎮上的失業率上升到百分之十。",
+  "ex": "工廠關閉後很多人沒有工作，上升的是 unemployment「失業（率）」。literacy 是讀寫能力、maintenance 是維護保養、merchandise 是商品。"
+ },
+ {
+  "wid": 309,
+  "type": "form",
+  "q": "There is no ------- that the new advertisement has helped to increase sales.",
+  "answer": "evidence",
+  "distractors": [
+   "evident",
+   "evidently",
+   "evidenced"
+  ],
+  "zh": "沒有證據顯示新廣告有助於提升銷售額。",
+  "ex": "There is no 後面要接名詞，evidence that… 是「…的證據」。evident 是形容詞（明顯的）、evidently 是副詞、evidenced 是過去分詞。"
+ },
+ {
+  "wid": 310,
+  "type": "vocab",
+  "q": "A warning light on the car's ------- tells the driver when the fuel is low.",
+  "answer": "dashboard",
+  "distractors": [
+   "briefcase",
+   "transcript",
+   "receipt"
+  ],
+  "zh": "汽車儀表板上的警示燈會在燃料不足時提醒駕駛。",
+  "ex": "車上有警示燈、顯示油量的地方是 dashboard「儀表板」。briefcase 是公事包、transcript 是成績單／逐字稿、receipt 是收據。"
+ },
+ {
+  "wid": 311,
+  "type": "vocab",
+  "q": "The course teaches the basic ------- of good customer service, such as listening carefully and being polite.",
+  "answer": "principles",
+  "distractors": [
+   "shipments",
+   "receipts",
+   "vehicles"
+  ],
+  "zh": "這門課教導良好顧客服務的基本原則，例如仔細聆聽和保持禮貌。",
+  "ex": "basic principles 是「基本原則」，仔細聆聽、有禮貌就是服務的原則。shipments 是貨物、receipts 是收據、vehicles 是車輛。"
+ },
+ {
+  "wid": 312,
+  "type": "vocab",
+  "q": "The newspaper's ------- decides which stories to print each day and corrects them before printing.",
+  "answer": "editor",
+  "distractors": [
+   "tenant",
+   "commuter",
+   "courier"
+  ],
+  "zh": "報社的編輯每天決定要刊登哪些報導，並在印刷前加以修改。",
+  "ex": "決定刊登內容、修改文章的人是 editor「編輯」。tenant 是房客、commuter 是通勤者、courier 是快遞員。"
+ },
+ {
+  "wid": 313,
+  "type": "vocab",
+  "q": "Prices of ------- goods such as food and clothing rose by two percent last year.",
+  "answer": "consumer",
+  "distractors": [
+   "commuter",
+   "tenant",
+   "competitor"
+  ],
+  "zh": "食品、服飾等消費品的價格去年上漲了百分之二。",
+  "ex": "consumer goods 是「消費品」，指一般消費者會買的食品、衣服等商品。commuter 是通勤者、tenant 是房客、competitor 是競爭對手。"
+ },
+ {
+  "wid": 314,
+  "type": "vocab",
+  "q": "Small companies often do not have the -------, such as money and staff, to open stores overseas.",
+  "answer": "resources",
+  "distractors": [
+   "appliances",
+   "statistics",
+   "fares"
+  ],
+  "zh": "小公司往往沒有足夠的資源（例如資金和人力）到海外開店。",
+  "ex": "money「資金」和 staff「人力」都屬於 resources「資源」。appliances 是電器、statistics 是統計數據、fares 是車資。"
+ },
+ {
+  "wid": 315,
+  "type": "vocab",
+  "q": "Ms. Ali was chosen from thirty ------- for the manager's job because she had the most experience.",
+  "answer": "candidates",
+  "distractors": [
+   "tenants",
+   "commuters",
+   "consumers"
+  ],
+  "zh": "阿里女士因為經驗最豐富，從三十位應徵者當中被選為經理。",
+  "ex": "candidates for a job 是「某個職位的應徵者、人選」。tenants 是房客、commuters 是通勤者、consumers 是消費者。"
+ },
+ {
+  "wid": 316,
+  "type": "vocab",
+  "q": "A ------- of 200 office chairs left the factory by truck this morning and will arrive on Thursday.",
+  "answer": "shipment",
+  "distractors": [
+   "ceremony",
+   "summary",
+   "fee"
+  ],
+  "zh": "一批 200 張辦公椅的貨今天早上用卡車從工廠出貨，星期四會送達。",
+  "ex": "用卡車運送的一批貨物是 shipment，a shipment of chairs 是「一批椅子」。ceremony 是典禮、summary 是摘要、fee 是費用。"
+ },
+ {
+  "wid": 317,
+  "type": "vocab",
+  "q": "Each ------- for the driver job must have a clean driving record and two years of experience.",
+  "answer": "applicant",
+  "distractors": [
+   "tenant",
+   "superior",
+   "consumer"
+  ],
+  "zh": "每位應徵司機工作的申請人，都必須有良好的駕駛紀錄和兩年經驗。",
+  "ex": "applicant for a job 是「應徵某份工作的申請人」。tenant 是房客、superior 是上司、consumer 是消費者。"
+ },
+ {
+  "wid": 318,
+  "type": "form",
+  "q": "Ms. Reyes has ten years of experience in office ------- and now manages a team of five.",
+  "answer": "administration",
+  "distractors": [
+   "administer",
+   "administrative",
+   "administratively"
+  ],
+  "zh": "雷耶斯女士有十年的辦公室行政經驗，現在管理一個五人團隊。",
+  "ex": "介系詞 in 後面的 office 還要再接一個名詞，office administration 是「辦公室行政工作」。administer 是動詞、administrative 是形容詞、administratively 是副詞。"
+ },
+ {
+  "wid": 319,
+  "type": "form",
+  "q": "Please ask your ------- to sign this form before you send it to the HR office.",
+  "answer": "supervisor",
+  "distractors": [
+   "supervise",
+   "supervised",
+   "supervisory"
+  ],
+  "zh": "把這份表格送到人資部門之前，請先請你的主管簽名。",
+  "ex": "所有格 your 後面要接名詞，而且是能「簽名」的人，所以用 supervisor「主管」。supervise 是動詞、supervised 是過去式／過去分詞、supervisory 是形容詞。"
+ },
+ {
+  "wid": 320,
+  "type": "vocab",
+  "q": "The afternoon question-and-answer ------- will give guests a chance to talk with the speakers.",
+  "answer": "session",
+  "distractors": [
+   "shipment",
+   "refund",
+   "trend"
+  ],
+  "zh": "下午的問答時段將讓來賓有機會和講者交流。",
+  "ex": "question-and-answer session 是「問答時段」，session 指一段活動時間。shipment 是貨物、refund 是退款、trend 是趨勢。"
+ },
+ {
+  "wid": 321,
+  "type": "form",
+  "q": "Customers have noticed a clear ------- in service since the restaurant hired more waiters.",
+  "answer": "improvement",
+  "distractors": [
+   "improve",
+   "improved",
+   "improving"
+  ],
+  "zh": "自從餐廳多請了幾位服務生，顧客都注意到服務有明顯的改善。",
+  "ex": "a clear 後面要接名詞，an improvement in… 是「在…方面的改善」。improve 是動詞原形、improved 是過去式／過去分詞、improving 是現在分詞。"
+ },
+ {
+  "wid": 322,
+  "type": "form",
+  "q": "Mr. Evans practiced his sales ------- three times before showing it to the client.",
+  "answer": "presentation",
+  "distractors": [
+   "presented",
+   "presentable",
+   "presently"
+  ],
+  "zh": "艾文斯先生在向客戶報告之前，把他的業務簡報練習了三次。",
+  "ex": "his sales 後面要接名詞當 practiced 的受詞，sales presentation 是「業務簡報」。presented 是過去式／過去分詞、presentable 是形容詞（體面的）、presently 是副詞（目前）。"
+ },
+ {
+  "wid": 323,
+  "type": "vocab",
+  "q": "The IT team will replace old computer -------, including keyboards, screens, and printers, next month.",
+  "answer": "hardware",
+  "distractors": [
+   "software",
+   "literacy",
+   "maintenance"
+  ],
+  "zh": "資訊團隊下個月將更換老舊的電腦硬體，包括鍵盤、螢幕和印表機。",
+  "ex": "鍵盤、螢幕、印表機都是看得到、摸得到的 hardware「硬體」。software 是軟體、literacy 是讀寫能力、maintenance 是維護保養。"
+ },
+ {
+  "wid": 324,
+  "type": "vocab",
+  "q": "The tour includes a one-day ------- by boat to a small island near the coast.",
+  "answer": "excursion",
+  "distractors": [
+   "layover",
+   "ceremony",
+   "lecture"
+  ],
+  "zh": "這個行程包含搭船前往海岸附近一座小島的一日短程旅遊。",
+  "ex": "搭船去小島玩一天是 excursion「短程旅行」。layover 是轉機停留、ceremony 是典禮、lecture 是講座。"
+ },
+ {
+  "wid": 325,
+  "type": "vocab",
+  "q": "Visitors should leave their bags at the ------- desk on the first floor and collect a guest pass.",
+  "answer": "reception",
+  "distractors": [
+   "duration",
+   "trend",
+   "agenda"
+  ],
+  "zh": "訪客應該把包包寄放在一樓的接待櫃台，並領取訪客證。",
+  "ex": "reception desk 是「接待櫃台」，訪客報到的地方。duration 是持續時間、trend 是趨勢、agenda 是議程。"
+ },
+ {
+  "wid": 326,
+  "type": "form",
+  "q": "For our delivery drivers, safety on the road is always the top -------.",
+  "answer": "priority",
+  "distractors": [
+   "prior",
+   "prioritize",
+   "prioritized"
+  ],
+  "zh": "對我們的送貨司機來說，行車安全永遠是第一優先。",
+  "ex": "the top 後面要接名詞，top priority 是「最優先的事項」。prior 是形容詞（先前的）、prioritize 是動詞、prioritized 是過去式／過去分詞。"
+ },
+ {
+  "wid": 327,
+  "type": "vocab",
+  "q": "New members can use the gym for a free seven-day ------- before they decide to pay.",
+  "answer": "trial",
+  "distractors": [
+   "deadline",
+   "fare",
+   "memo"
+  ],
+  "zh": "新會員在決定付費之前，可以免費試用健身房七天。",
+  "ex": "a free trial 是「免費試用」，先試用再決定要不要付費。deadline 是截止日、fare 是車資、memo 是備忘錄。"
+ },
+ {
+  "wid": 328,
+  "type": "form",
+  "q": "Tourists spend millions of dollars each summer, which helps the island's -------.",
+  "answer": "economy",
+  "distractors": [
+   "economic",
+   "economical",
+   "economically"
+  ],
+  "zh": "觀光客每年夏天花費數百萬美元，這對島上的經濟很有幫助。",
+  "ex": "所有格 the island's 後面要接名詞，economy 是「經濟」。economic 是形容詞（經濟上的）、economical 是形容詞（省錢的）、economically 是副詞。"
+ },
+ {
+  "wid": 329,
+  "type": "vocab",
+  "q": "Mr. Chen took an evening course in ------- to learn how to keep financial records for his shop.",
+  "answer": "accounting",
+  "distractors": [
+   "transportation",
+   "construction",
+   "maintenance"
+  ],
+  "zh": "陳先生上了一門夜間會計課，學習如何替自己的店記帳。",
+  "ex": "學習記錄財務帳目的科目是 accounting「會計」。transportation 是運輸、construction 是建造、maintenance 是維護保養。"
+ },
+ {
+  "wid": 330,
+  "type": "form",
+  "q": "To show our ------- for your support, we are giving every customer a free gift this week.",
+  "answer": "appreciation",
+  "distractors": [
+   "appreciate",
+   "appreciative",
+   "appreciated"
+  ],
+  "zh": "為了表達我們對您支持的感謝，本週我們將送每位顧客一份免費禮物。",
+  "ex": "所有格 our 後面要接名詞，show our appreciation for… 是「表達對…的感謝」。appreciate 是動詞、appreciative 是形容詞、appreciated 是過去式／過去分詞。"
+ },
+ {
+  "wid": 331,
+  "type": "vocab",
+  "q": "All ------- in the store, from shoes to handbags, is 20 percent off this weekend.",
+  "answer": "merchandise",
+  "distractors": [
+   "hardware",
+   "evidence",
+   "labor"
+  ],
+  "zh": "本週末店內所有商品，從鞋子到手提包，一律八折。",
+  "ex": "店裡賣的鞋子、包包都是 merchandise「商品」。hardware 是硬體／五金、evidence 是證據、labor 是勞力。"
+ },
+ {
+  "wid": 332,
+  "type": "form",
+  "q": "A yearly bonus can be a strong source of ------- for sales staff.",
+  "answer": "motivation",
+  "distractors": [
+   "motivate",
+   "motivated",
+   "motivational"
+  ],
+  "zh": "年度獎金對業務人員來說，可以是很強的動力來源。",
+  "ex": "介系詞 of 後面要接名詞，a source of motivation 是「動力的來源」。motivate 是動詞、motivated 是過去分詞（有動力的）、motivational 是形容詞。"
+ },
+ {
+  "wid": 333,
+  "type": "vocab",
+  "q": "The internet company will send a ------- to set up the new network in our meeting room.",
+  "answer": "technician",
+  "distractors": [
+   "courier",
+   "tenant",
+   "candidate"
+  ],
+  "zh": "網路公司會派一位技術人員來我們的會議室架設新網路。",
+  "ex": "負責安裝、設定設備的人是 technician「技術人員」。courier 是快遞員、tenant 是房客、candidate 是應徵者。"
+ },
+ {
+  "wid": 334,
+  "type": "vocab",
+  "q": "According to yesterday's ------- from the HR office, the building will close early on Friday.",
+  "answer": "memo",
+  "distractors": [
+   "shipment",
+   "pension",
+   "fare"
+  ],
+  "zh": "根據人資部門昨天發出的備忘錄，大樓星期五將提早關閉。",
+  "ex": "公司內部發給員工的簡短通知是 memo「備忘錄」。shipment 是貨物、pension 是退休金、fare 是車資。"
+ },
+ {
+  "wid": 335,
+  "type": "vocab",
+  "q": "Three of the glass bottles were broken in ------- between the factory and the store.",
+  "answer": "transit",
+  "distractors": [
+   "consent",
+   "literacy",
+   "duration"
+  ],
+  "zh": "其中三個玻璃瓶在從工廠運往商店的途中破掉了。",
+  "ex": "in transit 是「在運送途中」，指貨物從工廠到商店的路上。consent 是同意、literacy 是讀寫能力、duration 是持續時間。"
+ },
+ {
+  "wid": 336,
+  "type": "vocab",
+  "q": "The new office ------- puts all the desks in one large open room with meeting rooms along the wall.",
+  "answer": "layout",
+  "distractors": [
+   "deadline",
+   "transcript",
+   "fuel"
+  ],
+  "zh": "新的辦公室配置把所有辦公桌放在一個大型開放空間，會議室則沿著牆邊排列。",
+  "ex": "桌子、會議室怎麼擺放，是空間的 layout「配置、佈局」。deadline 是截止日、transcript 是成績單／逐字稿、fuel 是燃料。"
+ },
+ {
+  "wid": 337,
+  "type": "vocab",
+  "q": "Your monthly credit card ------- lists every purchase you made and the total amount you must pay.",
+  "answer": "statement",
+  "distractors": [
+   "balance",
+   "agenda",
+   "itinerary"
+  ],
+  "zh": "您每個月的信用卡對帳單會列出每一筆消費，以及您必須繳納的總金額。",
+  "ex": "列出每筆消費和應繳金額的文件是 statement「對帳單」。balance 是餘額、agenda 是議程、itinerary 是行程表。"
+ },
+ {
+  "wid": 338,
+  "type": "vocab",
+  "q": "Ms. Garcia applied for the ------- of assistant manager at the hotel and got an interview.",
+  "answer": "position",
+  "distractors": [
+   "duration",
+   "proportion",
+   "reputation"
+  ],
+  "zh": "賈西亞女士應徵了這家飯店的副理職位，並獲得面試機會。",
+  "ex": "apply for the position of… 是「應徵…的職位」。duration 是持續時間、proportion 是比例、reputation 是名聲。"
+ },
+ {
+  "wid": 339,
+  "type": "vocab",
+  "q": "The building owner asked each ------- to pay next month's rent before the first of the month.",
+  "answer": "tenant",
+  "distractors": [
+   "commuter",
+   "candidate",
+   "courier"
+  ],
+  "zh": "大樓屋主要求每位房客在一號之前繳交下個月的房租。",
+  "ex": "向屋主租房子、要付房租的人是 tenant「房客」。commuter 是通勤者、candidate 是應徵者、courier 是快遞員。"
+ },
+ {
+  "wid": 340,
+  "type": "vocab",
+  "q": "After the workshop, please fill out this short form to give us your ------- on the speakers.",
+  "answer": "feedback",
+  "distractors": [
+   "labor",
+   "merchandise",
+   "literacy"
+  ],
+  "zh": "工作坊結束後，請填寫這份簡短的表單，告訴我們您對講者的意見回饋。",
+  "ex": "give feedback on… 是「對…提供意見回饋」。labor 是勞力、merchandise 是商品、literacy 是讀寫能力。"
+ },
+ {
+  "wid": 341,
+  "type": "vocab",
+  "q": "A ------- on a motorbike picked up the signed contract and delivered it across town in an hour.",
+  "answer": "courier",
+  "distractors": [
+   "tenant",
+   "candidate",
+   "consumer"
+  ],
+  "zh": "一位騎機車的快遞員取走了簽好的合約，並在一小時內送到城市的另一頭。",
+  "ex": "負責取件並快速送達文件的人是 courier「快遞員」。tenant 是房客、candidate 是應徵者、consumer 是消費者。"
+ },
+ {
+  "wid": 342,
+  "type": "form",
+  "q": "Locking the office door at night is the ------- of the last person to leave.",
+  "answer": "responsibility",
+  "distractors": [
+   "responsible",
+   "responsibly",
+   "responsive"
+  ],
+  "zh": "晚上鎖辦公室的門，是最後一個離開的人的責任。",
+  "ex": "the 和 of 中間要放名詞，the responsibility of… 是「…的責任」。responsible 是形容詞（有責任的）、responsibly 是副詞、responsive 是形容詞（反應快的）。"
+ },
+ {
+  "wid": 343,
+  "type": "vocab",
+  "q": "Rail ------- can buy a monthly pass to save money on their daily trip to work.",
+  "answer": "commuters",
+  "distractors": [
+   "tenants",
+   "candidates",
+   "competitors"
+  ],
+  "zh": "搭火車通勤的人可以購買月票，節省每天上班的交通費。",
+  "ex": "每天搭車上班的人是 commuters「通勤者」，rail commuters 是「鐵路通勤族」。tenants 是房客、candidates 是應徵者、competitors 是競爭對手。"
+ },
+ {
+  "wid": 344,
+  "type": "vocab",
+  "q": "The company's sales rose in the third ------- of the year, from July to September.",
+  "answer": "quarter",
+  "distractors": [
+   "category",
+   "shipment",
+   "majority"
+  ],
+  "zh": "公司在今年第三季（七月到九月）的銷售額上升了。",
+  "ex": "一年分成四個 quarter「季度」，七月到九月是第三季 the third quarter。category 是類別、shipment 是貨物、majority 是大多數。"
+ },
+ {
+  "wid": 345,
+  "type": "vocab",
+  "q": "The blue jackets are out of -------, but more will arrive at the store next week.",
+  "answer": "stock",
+  "distractors": [
+   "evidence",
+   "labor",
+   "transit"
+  ],
+  "zh": "藍色夾克目前缺貨，不過下週會有更多到店。",
+  "ex": "out of stock 是「缺貨、沒有庫存」。evidence 是證據、labor 是勞力、transit 是運輸。"
+ },
+ {
+  "wid": 346,
+  "type": "vocab",
+  "q": "Mr. Shaw pays about $120 a month for ------- such as water, electricity, and gas at his apartment.",
+  "answer": "utilities",
+  "distractors": [
+   "appliances",
+   "ingredients",
+   "statistics"
+  ],
+  "zh": "蕭先生的公寓每個月要付大約 120 美元的水、電、瓦斯等費用。",
+  "ex": "water、electricity、gas 這些水電瓦斯費用統稱 utilities「公共事業費用」。appliances 是電器、ingredients 是食材／成分、statistics 是統計數據。"
+ },
+ {
+  "wid": 347,
+  "type": "vocab",
+  "q": "Our flight to Sydney has a four-hour ------- in Bangkok before the second plane leaves.",
+  "answer": "layover",
+  "distractors": [
+   "deadline",
+   "ceremony",
+   "memo"
+  ],
+  "zh": "我們飛往雪梨的班機會在曼谷轉機停留四小時，之後才搭第二班飛機。",
+  "ex": "兩段航班之間在中途停留等待，叫 layover「轉機停留」。deadline 是截止日、ceremony 是典禮、memo 是備忘錄。"
+ },
+ {
+  "wid": 348,
+  "type": "vocab",
+  "q": "The first item on today's meeting ------- is the budget for next year.",
+  "answer": "agenda",
+  "distractors": [
+   "reputation",
+   "excursion",
+   "wage"
+  ],
+  "zh": "今天會議議程的第一項是明年的預算。",
+  "ex": "會議要討論的項目清單是 agenda「議程」，the first item on the agenda 是「議程的第一項」。reputation 是名聲、excursion 是短程旅行、wage 是工資。"
+ },
+ {
+  "wid": 349,
+  "type": "vocab",
+  "q": "The university will mail an official ------- of your grades to the company you are applying to.",
+  "answer": "transcript",
+  "distractors": [
+   "venue",
+   "vehicle",
+   "refund"
+  ],
+  "zh": "大學會把你的正式成績單寄給你應徵的公司。",
+  "ex": "學校發的 official transcript 是「正式成績單」，上面列出各科成績。venue 是會場、vehicle 是車輛、refund 是退款。"
+ },
+ {
+  "wid": 350,
+  "type": "form",
+  "q": "A large ------- of our customers now prefer to shop online instead of visiting the store.",
+  "answer": "proportion",
+  "distractors": [
+   "proportional",
+   "proportionally",
+   "proportionate"
+  ],
+  "zh": "我們有很大一部分的顧客現在比較喜歡在網路上購物，而不是到店裡。",
+  "ex": "A large 後面要接名詞，a large proportion of… 是「很大比例的…」。proportional 和 proportionate 是形容詞（成比例的）、proportionally 是副詞。"
+ },
+ {
+  "wid": 351,
+  "type": "form",
+  "q": "The restaurant has built a good ------- for fresh food and friendly service.",
+  "answer": "reputation",
+  "distractors": [
+   "reputable",
+   "reputed",
+   "reputedly"
+  ],
+  "zh": "這家餐廳以新鮮的食物和親切的服務建立了良好的名聲。",
+  "ex": "a good 後面要接名詞，a good reputation for… 是「因為…而有好名聲」。reputable 是形容詞（聲譽好的）、reputed 是形容詞（據說的）、reputedly 是副詞（據說）。"
+ },
+ {
+  "wid": 352,
+  "type": "vocab",
+  "q": "The travel agent emailed us a day-by-day ------- showing our flights, hotels, and tour times.",
+  "answer": "itinerary",
+  "distractors": [
+   "layover",
+   "reception",
+   "milestone"
+  ],
+  "zh": "旅行社專員用電子郵件寄給我們一份每日行程表，上面列出班機、飯店和導覽時間。",
+  "ex": "列出每天班機、住宿和活動時間的是 itinerary「行程表」。layover 是轉機停留、reception 是接待處／歡迎會、milestone 是里程碑。"
+ },
+ {
+  "wid": 353,
+  "type": "vocab",
+  "q": "The company cannot use photos of customers in its advertisements without their written -------.",
+  "answer": "consent",
+  "distractors": [
+   "literacy",
+   "duration",
+   "pension"
+  ],
+  "zh": "未經顧客的書面同意，公司不得在廣告中使用他們的照片。",
+  "ex": "written consent 是「書面同意」，without consent 是「未經同意」。literacy 是讀寫能力、duration 是持續時間、pension 是退休金。"
+ },
+ {
+  "wid": 354,
+  "type": "vocab",
+  "q": "Selling its one-millionth phone was an important ------- in the company's twenty-year history.",
+  "answer": "milestone",
+  "distractors": [
+   "deadline",
+   "category",
+   "memo"
+  ],
+  "zh": "賣出第一百萬支手機，是這家公司二十年歷史中的重要里程碑。",
+  "ex": "發展過程中具有代表性的重要成就是 milestone「里程碑」。deadline 是截止日、category 是類別、memo 是備忘錄。"
+ },
+ {
+  "wid": 355,
+  "type": "vocab",
+  "q": "The app's new ------- has bigger buttons and clearer menus, so it is much easier to use.",
+  "answer": "interface",
+  "distractors": [
+   "database",
+   "excursion",
+   "wage"
+  ],
+  "zh": "這個應用程式的新介面按鈕更大、選單更清楚，所以好用多了。",
+  "ex": "使用者看到並操作的按鈕、選單畫面是 interface「介面」。database 是資料庫、excursion 是短程旅行、wage 是工資。"
+ },
+ {
+  "wid": 356,
+  "type": "form",
+  "q": "Kitchen staff must show proof of their food safety ------- before they start work.",
+  "answer": "certification",
+  "distractors": [
+   "certify",
+   "certified",
+   "certifiable"
+  ],
+  "zh": "廚房人員在開始工作前，必須出示食品安全認證的證明。",
+  "ex": "their food safety 後面要接名詞，certification 是「認證」。certify 是動詞、certified 是過去分詞（有認證的）、certifiable 是形容詞（可認證的）。"
+ },
+ {
+  "wid": 357,
+  "type": "form",
+  "q": "According to recent -------, most shoppers in the city prefer to pay by card.",
+  "answer": "statistics",
+  "distractors": [
+   "statistical",
+   "statistically",
+   "statistician"
+  ],
+  "zh": "根據最近的統計數據，這座城市大多數的購物者偏好刷卡付款。",
+  "ex": "形容詞 recent 後面要接名詞，according to statistics 是「根據統計數據」。statistical 是形容詞、statistically 是副詞、statistician 是「統計學家」（人），放進去意思不通。"
+ },
+ {
+  "wid": 358,
+  "type": "form",
+  "q": "Group lessons are cheaper, but ------- lessons with a private teacher help students learn faster.",
+  "answer": "individual",
+  "distractors": [
+   "individually",
+   "individuality",
+   "individualize"
+  ],
+  "zh": "團體課比較便宜，但是跟私人老師上的個別課程能幫助學生學得更快。",
+  "ex": "名詞 lessons 前面要放形容詞，individual lessons 是「個別（一對一）課程」。individually 是副詞、individuality 是名詞（個性）、individualize 是動詞。"
+ },
+ {
+  "wid": 359,
+  "type": "vocab",
+  "q": "The company ------- its best salespeople with an extra week of vacation every year.",
+  "answer": "rewards",
+  "distractors": [
+   "predicts",
+   "postpones",
+   "assembles"
+  ],
+  "zh": "公司每年多給最優秀的業務員一週假期作為獎勵。",
+  "ex": "reward someone with… 是「用…來獎勵某人」。predicts 是預測、postpones 是延後、assembles 是組裝／集合。"
+ },
+ {
+  "wid": 360,
+  "type": "vocab",
+  "q": "The local radio station will ------- the concert live at 8 p.m. tonight.",
+  "answer": "broadcast",
+  "distractors": [
+   "enroll",
+   "commute",
+   "invest"
+  ],
+  "zh": "當地的廣播電台今晚八點將現場直播這場音樂會。",
+  "ex": "電台「播出」節目是 broadcast，broadcast live 是「現場直播」。enroll 是註冊、commute 是通勤、invest 是投資。"
+ },
+ {
+  "wid": 361,
+  "type": "form",
+  "q": "Online reviews have a strong ------- on which restaurants people choose.",
+  "answer": "influence",
+  "distractors": [
+   "influential",
+   "influenced",
+   "influencing"
+  ],
+  "zh": "網路評論對人們選擇哪家餐廳有很大的影響。",
+  "ex": "a strong 後面要接名詞，have an influence on… 是「對…有影響」。influential 是形容詞（有影響力的）、influenced 是過去式／過去分詞、influencing 是現在分詞。"
+ },
+ {
+  "wid": 362,
+  "type": "vocab",
+  "q": "Professor Lin will give a ------- on modern art at the city library on Friday evening.",
+  "answer": "lecture",
+  "distractors": [
+   "shipment",
+   "refund",
+   "quarter"
+  ],
+  "zh": "林教授星期五晚上將在市立圖書館舉行一場關於現代藝術的講座。",
+  "ex": "give a lecture on… 是「發表關於…的演講、講座」。shipment 是貨物、refund 是退款、quarter 是季度。"
+ },
+ {
+  "wid": 363,
+  "type": "vocab",
+  "q": "The Riverside Hotel will ------- this year's sales conference in its largest meeting hall.",
+  "answer": "host",
+  "distractors": [
+   "enroll",
+   "commute",
+   "donate"
+  ],
+  "zh": "河濱飯店將在它最大的會議廳主辦今年的業務大會。",
+  "ex": "飯店提供場地「主辦」會議是 host a conference。enroll 是註冊、commute 是通勤、donate 是捐贈。"
+ },
+ {
+  "wid": 364,
+  "type": "vocab",
+  "q": "Ms. Wong has ten years of ------- experience, mostly selling clothes and shoes in department stores.",
+  "answer": "retail",
+  "distractors": [
+   "construction",
+   "accounting",
+   "transportation"
+  ],
+  "zh": "黃女士有十年的零售經驗，主要是在百貨公司銷售服飾和鞋子。",
+  "ex": "在店裡直接把商品賣給顧客是 retail「零售」，retail experience 是「零售經驗」。construction 是營建、accounting 是會計、transportation 是運輸。"
+ },
+ {
+  "wid": 365,
+  "type": "vocab",
+  "q": "Flights were canceled because airport workers stopped working during a two-day ------- for higher pay.",
+  "answer": "strike",
+  "distractors": [
+   "excursion",
+   "milestone",
+   "receipt"
+  ],
+  "zh": "機場員工為了爭取加薪罷工兩天、停止工作，因此航班被取消。",
+  "ex": "員工為了爭取加薪而集體停止工作，是 strike「罷工」。excursion 是短程旅行、milestone 是里程碑、receipt 是收據。"
+ },
+ {
+  "wid": 366,
+  "type": "vocab",
+  "q": "The furniture store lets customers buy on ------- and pay over twelve months.",
+  "answer": "credit",
+  "distractors": [
+   "balance",
+   "profit",
+   "stock"
+  ],
+  "zh": "這家家具店讓顧客可以賒帳購買，分十二個月付款。",
+  "ex": "buy on credit 是「賒帳、先買後付」，credit 指信用。balance 是餘額、profit 是利潤、stock 是存貨／股票。"
+ },
+ {
+  "wid": 367,
+  "type": "vocab",
+  "q": "Our ------- with the cleaning company ends in March, so we need to sign a new one soon.",
+  "answer": "contract",
+  "distractors": [
+   "deadline",
+   "session",
+   "reputation"
+  ],
+  "zh": "我們和清潔公司的合約三月到期，所以需要盡快簽一份新的。",
+  "ex": "和廠商簽訂、有到期日的是 contract「合約」，sign a contract 是「簽合約」。deadline 是截止日、session 是（活動的）時段、reputation 是名聲。"
+ },
+ {
+  "wid": 368,
+  "type": "vocab",
+  "q": "The hotel offers a special ------- of $80 per night for guests who stay a full week.",
+  "answer": "rate",
+  "distractors": [
+   "trend",
+   "shift",
+   "quarter"
+  ],
+  "zh": "這家飯店為住滿一週的房客提供每晚 80 美元的優惠價。",
+  "ex": "每晚多少錢的「費率、價格」是 rate，a special rate 是「優惠價」。trend 是趨勢、shift 是輪班、quarter 是季度。"
+ },
+ {
+  "wid": 369,
+  "type": "vocab",
+  "q": "Mr. Silva works the evening ------- at the restaurant, from 4 p.m. until midnight.",
+  "answer": "shift",
+  "distractors": [
+   "quarter",
+   "trend",
+   "degree"
+  ],
+  "zh": "席爾瓦先生在餐廳上晚班，從下午四點到午夜。",
+  "ex": "固定時段的「輪班」是 shift，the evening shift 是「晚班」。quarter 是季度、trend 是趨勢、degree 是學位／程度。"
+ },
+ {
+  "wid": 370,
+  "type": "form",
+  "q": "The bakery made a ------- of $5,000 last month after paying rent and staff costs.",
+  "answer": "profit",
+  "distractors": [
+   "profitable",
+   "profitably",
+   "profited"
+  ],
+  "zh": "這家麵包店上個月扣掉房租和人事成本後，獲利 5,000 美元。",
+  "ex": "冠詞 a 後面要接名詞，make a profit of… 是「獲利…」。profitable 是形容詞、profitably 是副詞、profited 是動詞過去式／過去分詞。"
+ },
+ {
+  "wid": 371,
+  "type": "form",
+  "q": "Members of the sports club have free ------- to the gym and swimming pool every day.",
+  "answer": "access",
+  "distractors": [
+   "accessible",
+   "accessibly",
+   "accessed"
+  ],
+  "zh": "運動俱樂部的會員每天都可以免費使用健身房和游泳池。",
+  "ex": "have free 後面要接名詞，have access to… 是「可以使用、進入…」。accessible 是形容詞、accessibly 是副詞、accessed 是動詞過去式／過去分詞。"
+ },
+ {
+  "wid": 372,
+  "type": "vocab",
+  "q": "Mr. Novak cannot attend Friday's meeting because of a scheduling ------- with a client visit.",
+  "answer": "conflict",
+  "distractors": [
+   "outcome",
+   "agenda",
+   "summary"
+  ],
+  "zh": "諾瓦克先生因為和拜訪客戶的行程撞期，無法參加星期五的會議。",
+  "ex": "scheduling conflict 是「行程衝突、撞期」。outcome 是結果、agenda 是議程、summary 是摘要。"
+ },
+ {
+  "wid": 373,
+  "type": "vocab",
+  "q": "A ------- of one month's rent is required before you move in and will be returned when you leave.",
+  "answer": "deposit",
+  "distractors": [
+   "pension",
+   "profit",
+   "donation"
+  ],
+  "zh": "入住前必須先付相當於一個月租金的押金，退租時會退還。",
+  "ex": "入住前先付、搬走時退還的錢是 deposit「押金」。pension 是退休金、profit 是利潤、donation 是捐款。"
+ },
+ {
+  "wid": 374,
+  "type": "vocab",
+  "q": "After a long ------- about where to hold the company picnic, the team finally chose the city park.",
+  "answer": "debate",
+  "distractors": [
+   "shipment",
+   "refund",
+   "wage"
+  ],
+  "zh": "大家為了公司野餐要在哪裡舉辦辯論了很久，最後團隊選了市立公園。",
+  "ex": "a debate about… 是「針對…的辯論、爭論」，大家意見不同才會討論很久。shipment 是貨物、refund 是退款、wage 是工資。"
+ }
+]

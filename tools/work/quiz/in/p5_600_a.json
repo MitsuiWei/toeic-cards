@@ -1,0 +1,1411 @@
+[
+{
+"wid": 250,
+"w": "regarding",
+"pos": [
+"prep."
+],
+"zh": [
+"關於"
+],
+"seen_example": "I'll discuss with my manager regarding this problem."
+},
+{
+"wid": 251,
+"w": "construction",
+"pos": [
+"n."
+],
+"zh": [
+"建造；建設"
+],
+"seen_example": "The construction of the new building will start next month."
+},
+{
+"wid": 252,
+"w": "appliance",
+"pos": [
+"n."
+],
+"zh": [
+"家用電器"
+],
+"seen_example": "You can use all the kitchen appliances in the office."
+},
+{
+"wid": 253,
+"w": "subscription",
+"pos": [
+"n."
+],
+"zh": [
+"訂閱"
+],
+"seen_example": "She just signed up for a one-year magazine subscription."
+},
+{
+"wid": 254,
+"w": "ingredient",
+"pos": [
+"n."
+],
+"zh": [
+"成分；要素"
+],
+"seen_example": "Salt is a key ingredient in this recipe."
+},
+{
+"wid": 255,
+"w": "competitor",
+"pos": [
+"n."
+],
+"zh": [
+"競爭者；對手"
+],
+"seen_example": "They lost the business to a competitor."
+},
+{
+"wid": 256,
+"w": "certificate",
+"pos": [
+"n."
+],
+"zh": [
+"證書；證明"
+],
+"seen_example": "She received a certificate for completing the training program."
+},
+{
+"wid": 257,
+"w": "trend",
+"pos": [
+"n."
+],
+"zh": [
+"趨勢；傾向"
+],
+"seen_example": "There's been an upward trend in sales in the last few years."
+},
+{
+"wid": 258,
+"w": "balance",
+"pos": [
+"n."
+],
+"zh": [
+"餘額；平衡"
+],
+"seen_example": "You can check the balance of your account from the app."
+},
+{
+"wid": 259,
+"w": "summary",
+"pos": [
+"n."
+],
+"zh": [
+"摘要"
+],
+"seen_example": "Please provide a short summary of the meeting."
+},
+{
+"wid": 260,
+"w": "deadline",
+"pos": [
+"n."
+],
+"zh": [
+"截止日"
+],
+"seen_example": "Management has agreed to extend the deadline."
+},
+{
+"wid": 261,
+"w": "accountant",
+"pos": [
+"n."
+],
+"zh": [
+"會計師"
+],
+"seen_example": "My sister is an accountant at a multinational company."
+},
+{
+"wid": 262,
+"w": "conference",
+"pos": [
+"n."
+],
+"zh": [
+"研討會；大會"
+],
+"seen_example": "We attended the conference to fulfill our PD requirement."
+},
+{
+"wid": 263,
+"w": "performance",
+"pos": [
+"n."
+],
+"zh": [
+"表現；表演"
+],
+"seen_example": "Her performance in the play was outstanding."
+},
+{
+"wid": 264,
+"w": "assignment",
+"pos": [
+"n."
+],
+"zh": [
+"任務；工作"
+],
+"seen_example": "My boss gave me a tough assignment today."
+},
+{
+"wid": 265,
+"w": "briefcase",
+"pos": [
+"n."
+],
+"zh": [
+"公事包"
+],
+"seen_example": "He brings a leather briefcase to work every day."
+},
+{
+"wid": 266,
+"w": "industry",
+"pos": [
+"n."
+],
+"zh": [
+"產業；工業"
+],
+"seen_example": "The automotive industry plays a crucial role in the economy."
+},
+{
+"wid": 267,
+"w": "instructor",
+"pos": [
+"n."
+],
+"zh": [
+"教練；大學講師"
+],
+"seen_example": "The dance instructor taught the students new moves."
+},
+{
+"wid": 268,
+"w": "donation",
+"pos": [
+"n."
+],
+"zh": [
+"捐獻；捐贈"
+],
+"seen_example": "The donation will be used to support education programs."
+},
+{
+"wid": 269,
+"w": "identification",
+"pos": [
+"n."
+],
+"zh": [
+"身分證明；識別"
+],
+"seen_example": "Please provide identification when entering the building."
+},
+{
+"wid": 270,
+"w": "interest",
+"pos": [
+"n."
+],
+"zh": [
+"利息；興趣"
+],
+"seen_example": "The bank offers competitive interest rates."
+},
+{
+"wid": 271,
+"w": "community",
+"pos": [
+"n."
+],
+"zh": [
+"社群；團體；社區"
+],
+"seen_example": "There is a large LGBTQ community in San Francisco."
+},
+{
+"wid": 272,
+"w": "conclusion",
+"pos": [
+"n."
+],
+"zh": [
+"結論"
+],
+"seen_example": "In conclusion, the project was a success."
+},
+{
+"wid": 273,
+"w": "ceremony",
+"pos": [
+"n."
+],
+"zh": [
+"典禮"
+],
+"seen_example": "The wedding ceremony will take place tomorrow at 10 A.M."
+},
+{
+"wid": 274,
+"w": "category",
+"pos": [
+"n."
+],
+"zh": [
+"類別；種類"
+],
+"seen_example": "This book belongs to the sci-fi category."
+},
+{
+"wid": 275,
+"w": "fault",
+"pos": [
+"n."
+],
+"zh": [
+"過錯；責任"
+],
+"seen_example": "It was his fault that the project was delayed."
+},
+{
+"wid": 276,
+"w": "application",
+"pos": [
+"n."
+],
+"zh": [
+"申請；應用軟體"
+],
+"seen_example": "The deadline for the application is this Friday."
+},
+{
+"wid": 277,
+"w": "photocopier",
+"pos": [
+"n."
+],
+"zh": [
+"影印機"
+],
+"seen_example": "The photocopier in the office needs more paper."
+},
+{
+"wid": 278,
+"w": "registration",
+"pos": [
+"n."
+],
+"zh": [
+"登記；報到；註冊"
+],
+"seen_example": "Registration for the event is now open."
+},
+{
+"wid": 279,
+"w": "transportation",
+"pos": [
+"n."
+],
+"zh": [
+"運輸；交通工具"
+],
+"seen_example": "Public transportation is a cost-effective way to travel."
+},
+{
+"wid": 280,
+"w": "promotion",
+"pos": [
+"n."
+],
+"zh": [
+"升遷；促銷"
+],
+"seen_example": "The manager received a promotion to regional director."
+},
+{
+"wid": 281,
+"w": "pension",
+"pos": [
+"n."
+],
+"zh": [
+"退休金"
+],
+"seen_example": "After retiring, she receives a monthly pension."
+},
+{
+"wid": 282,
+"w": "majority",
+"pos": [
+"n."
+],
+"zh": [
+"大多數"
+],
+"seen_example": "The majority of our employees have master's degrees."
+},
+{
+"wid": 283,
+"w": "extension",
+"pos": [
+"n."
+],
+"zh": [
+"分機；展延；擴建部分"
+],
+"seen_example": "The extension number for the reception is 101."
+},
+{
+"wid": 284,
+"w": "assembly",
+"pos": [
+"n."
+],
+"zh": [
+"集會；組裝"
+],
+"seen_example": "The students gathered in the gym for the assembly."
+},
+{
+"wid": 285,
+"w": "degree",
+"pos": [
+"n."
+],
+"zh": [
+"程度；學位"
+],
+"seen_example": "She has a high degree of expertise in her field."
+},
+{
+"wid": 286,
+"w": "expense",
+"pos": [
+"n."
+],
+"zh": [
+"開銷；費用"
+],
+"seen_example": "Traveling can be quite an expense, but it's worth it."
+},
+{
+"wid": 287,
+"w": "division",
+"pos": [
+"n."
+],
+"zh": [
+"部門"
+],
+"seen_example": "The company has a division dedicated to customer service."
+},
+{
+"wid": 288,
+"w": "policy",
+"pos": [
+"n."
+],
+"zh": [
+"政策；保險單"
+],
+"seen_example": "The new policy aims to promote environmental sustainability."
+},
+{
+"wid": 289,
+"w": "employment",
+"pos": [
+"n."
+],
+"zh": [
+"就業；受雇"
+],
+"seen_example": "She found employment at a local company."
+},
+{
+"wid": 290,
+"w": "investment",
+"pos": [
+"n."
+],
+"zh": [
+"投資"
+],
+"seen_example": "He made a wise investment that yielded high returns."
+},
+{
+"wid": 291,
+"w": "résumé",
+"pos": [
+"n."
+],
+"zh": [
+"履歷"
+],
+"seen_example": "Your résumé should highlight your skills and achievements."
+},
+{
+"wid": 292,
+"w": "maintenance",
+"pos": [
+"n."
+],
+"zh": [
+"維護；保養"
+],
+"seen_example": "Regular maintenance keeps the equipment in good condition."
+},
+{
+"wid": 293,
+"w": "outcome",
+"pos": [
+"n."
+],
+"zh": [
+"結果；效果"
+],
+"seen_example": "The outcome of the negotiations was a win-win situation."
+},
+{
+"wid": 294,
+"w": "proposal",
+"pos": [
+"n."
+],
+"zh": [
+"提案"
+],
+"seen_example": "Did he approve my proposal?"
+},
+{
+"wid": 295,
+"w": "labor",
+"pos": [
+"n."
+],
+"zh": [
+"勞工；勞動"
+],
+"seen_example": "Try to avoid buying from companies that use cheap labor."
+},
+{
+"wid": 296,
+"w": "sector",
+"pos": [
+"n."
+],
+"zh": [
+"部門；領域"
+],
+"seen_example": "She works in the financial sector."
+},
+{
+"wid": 297,
+"w": "term",
+"pos": [
+"n."
+],
+"zh": [
+"條款；期；術語"
+],
+"seen_example": "The contract contains specific terms and conditions."
+},
+{
+"wid": 298,
+"w": "committee",
+"pos": [
+"n."
+],
+"zh": [
+"委員會"
+],
+"seen_example": "The committee met to discuss the proposed changes."
+},
+{
+"wid": 299,
+"w": "plant",
+"pos": [
+"n."
+],
+"zh": [
+"工廠；植物"
+],
+"seen_example": "The company built a new plant for manufacturing."
+},
+{
+"wid": 300,
+"w": "outlet",
+"pos": [
+"n."
+],
+"zh": [
+"銷售據點"
+],
+"seen_example": "The new California Pizza Kitchen outlet opened last week."
+},
+{
+"wid": 301,
+"w": "duration",
+"pos": [
+"n."
+],
+"zh": [
+"期間；持續時間"
+],
+"seen_example": "The next contract will be of a shorter duration."
+},
+{
+"wid": 302,
+"w": "database",
+"pos": [
+"n."
+],
+"zh": [
+"數據庫；資料庫"
+],
+"seen_example": "The company maintains a database of customer records."
+},
+{
+"wid": 303,
+"w": "literacy",
+"pos": [
+"n."
+],
+"zh": [
+"讀寫能力；識字"
+],
+"seen_example": "A high standard of literacy will be required for the job."
+},
+{
+"wid": 304,
+"w": "structure",
+"pos": [
+"n."
+],
+"zh": [
+"結構；構造；建築物"
+],
+"seen_example": "The building's structure is designed to withstand earthquakes."
+},
+{
+"wid": 305,
+"w": "firm",
+"pos": [
+"n."
+],
+"zh": [
+"事務所；公司"
+],
+"seen_example": "She works for a big law firm."
+},
+{
+"wid": 306,
+"w": "superior",
+"pos": [
+"n."
+],
+"zh": [
+"上司"
+],
+"seen_example": "She is my superior at work and gives me guidance."
+},
+{
+"wid": 307,
+"w": "obligation",
+"pos": [
+"n."
+],
+"zh": [
+"義務；責任"
+],
+"seen_example": "It is my obligation to complete the assigned tasks."
+},
+{
+"wid": 308,
+"w": "unemployment",
+"pos": [
+"n."
+],
+"zh": [
+"失業狀態；失業人數"
+],
+"seen_example": "The economic downturn led to a high unemployment rate."
+},
+{
+"wid": 309,
+"w": "evidence",
+"pos": [
+"n."
+],
+"zh": [
+"證據；證明"
+],
+"seen_example": "The new piece of evidence weakens the case against her."
+},
+{
+"wid": 310,
+"w": "dashboard",
+"pos": [
+"n."
+],
+"zh": [
+"儀表板"
+],
+"seen_example": "The sales dashboard displays real-time data for executives."
+},
+{
+"wid": 311,
+"w": "principle",
+"pos": [
+"n."
+],
+"zh": [
+"原則；準則"
+],
+"seen_example": "Honesty is an important principle in business ethics."
+},
+{
+"wid": 312,
+"w": "editor",
+"pos": [
+"n."
+],
+"zh": [
+"編輯"
+],
+"seen_example": "She's the editor of a popular magazine."
+},
+{
+"wid": 313,
+"w": "consumer",
+"pos": [
+"n."
+],
+"zh": [
+"消費者"
+],
+"seen_example": "Knowing our consumers will allow us to improve our products."
+},
+{
+"wid": 314,
+"w": "resource",
+"pos": [
+"n."
+],
+"zh": [
+"資源"
+],
+"seen_example": "Natural resources such as oil and minerals are valuable."
+},
+{
+"wid": 315,
+"w": "candidate",
+"pos": [
+"n."
+],
+"zh": [
+"求職者；申請人；候選人"
+],
+"seen_example": "There were two candidates for the last round of the interview."
+},
+{
+"wid": 316,
+"w": "shipment",
+"pos": [
+"n."
+],
+"zh": [
+"運送的貨物；運輸"
+],
+"seen_example": "The shipment of goods arrived on time."
+},
+{
+"wid": 317,
+"w": "applicant",
+"pos": [
+"n."
+],
+"zh": [
+"申請人"
+],
+"seen_example": "All applicants will receive a confirmation email."
+},
+{
+"wid": 318,
+"w": "administration",
+"pos": [
+"n."
+],
+"zh": [
+"行政工作；管理部門"
+],
+"seen_example": "The new policy requires efficient administration."
+},
+{
+"wid": 319,
+"w": "supervisor",
+"pos": [
+"n."
+],
+"zh": [
+"上司；監督者"
+],
+"seen_example": "I'm meeting with my supervisor tomorrow to ask for a raise."
+},
+{
+"wid": 320,
+"w": "session",
+"pos": [
+"n."
+],
+"zh": [
+"活動期間；授課期間"
+],
+"seen_example": "The runner twisted his ankle in a training session today."
+},
+{
+"wid": 321,
+"w": "improvement",
+"pos": [
+"n."
+],
+"zh": [
+"改善；增進"
+],
+"seen_example": "The company made significant improvements in its processes."
+},
+{
+"wid": 322,
+"w": "presentation",
+"pos": [
+"n."
+],
+"zh": [
+"（口頭）報告"
+],
+"seen_example": "He gave an interesting presentation on human evolution."
+},
+{
+"wid": 323,
+"w": "hardware",
+"pos": [
+"n."
+],
+"zh": [
+"硬體設備；五金製品"
+],
+"seen_example": "The company ordered new hardware for its computers."
+},
+{
+"wid": 324,
+"w": "excursion",
+"pos": [
+"n."
+],
+"zh": [
+"短程旅行"
+],
+"seen_example": "We went on an excursion to the nearby waterfall."
+},
+{
+"wid": 325,
+"w": "reception",
+"pos": [
+"n."
+],
+"zh": [
+"歡迎會；接待處"
+],
+"seen_example": "The president gave a reception for the visiting guests."
+},
+{
+"wid": 326,
+"w": "priority",
+"pos": [
+"n."
+],
+"zh": [
+"優先事項"
+],
+"seen_example": "Our main priority is to provide excellent customer service."
+},
+{
+"wid": 327,
+"w": "trial",
+"pos": [
+"n."
+],
+"zh": [
+"試用；試驗"
+],
+"seen_example": "The position comes with a three-month trial period."
+},
+{
+"wid": 328,
+"w": "economy",
+"pos": [
+"n."
+],
+"zh": [
+"經濟；節省"
+],
+"seen_example": "The country's economy has been growing steadily."
+},
+{
+"wid": 329,
+"w": "accounting",
+"pos": [
+"n."
+],
+"zh": [
+"會計"
+],
+"seen_example": "There is a position open in the accounting department."
+},
+{
+"wid": 330,
+"w": "appreciation",
+"pos": [
+"n."
+],
+"zh": [
+"感激；增值"
+],
+"seen_example": "In appreciation of your hard work, you'll receive a bonus."
+},
+{
+"wid": 331,
+"w": "merchandise",
+"pos": [
+"n."
+],
+"zh": [
+"商品；貨物"
+],
+"seen_example": "The store offers a wide range of merchandise for sale."
+},
+{
+"wid": 332,
+"w": "motivation",
+"pos": [
+"n."
+],
+"zh": [
+"動機；動力"
+],
+"seen_example": "Jax is an intelligent student but lacks motivation."
+},
+{
+"wid": 333,
+"w": "technician",
+"pos": [
+"n."
+],
+"zh": [
+"技術人員；技師"
+],
+"seen_example": "The technician repaired the faulty equipment."
+},
+{
+"wid": 334,
+"w": "memo",
+"pos": [
+"n."
+],
+"zh": [
+"備忘錄；便條"
+],
+"seen_example": "The manager sent a memo about the policy change."
+},
+{
+"wid": 335,
+"w": "transit",
+"pos": [
+"n."
+],
+"zh": [
+"運輸；輸送"
+],
+"seen_example": "The transit system in the city is efficient and reliable."
+},
+{
+"wid": 336,
+"w": "layout",
+"pos": [
+"n."
+],
+"zh": [
+"空間的佈局；版面設計"
+],
+"seen_example": "I like the layout of the house."
+},
+{
+"wid": 337,
+"w": "statement",
+"pos": [
+"n."
+],
+"zh": [
+"對帳單"
+],
+"seen_example": "Please review your bank statement for any discrepancies."
+},
+{
+"wid": 338,
+"w": "position",
+"pos": [
+"n."
+],
+"zh": [
+"職位；工作"
+],
+"seen_example": "There is a position open in the language department."
+},
+{
+"wid": 339,
+"w": "tenant",
+"pos": [
+"n."
+],
+"zh": [
+"房客；承租人"
+],
+"seen_example": "The landlord found a new tenant for the apartment."
+},
+{
+"wid": 340,
+"w": "feedback",
+"pos": [
+"n."
+],
+"zh": [
+"意見回饋"
+],
+"seen_example": "The feedback is used to modify the course for next year."
+},
+{
+"wid": 341,
+"w": "courier",
+"pos": [
+"n."
+],
+"zh": [
+"快遞員"
+],
+"seen_example": "You can use any courier company to send the document."
+},
+{
+"wid": 342,
+"w": "responsibility",
+"pos": [
+"n."
+],
+"zh": [
+"職責；責任"
+],
+"seen_example": "Taking care of the environment is everyone's responsibility."
+},
+{
+"wid": 343,
+"w": "commuter",
+"pos": [
+"n."
+],
+"zh": [
+"通勤者"
+],
+"seen_example": "The MRT is always packed with commuters during rush hours."
+},
+{
+"wid": 344,
+"w": "quarter",
+"pos": [
+"n."
+],
+"zh": [
+"季度"
+],
+"seen_example": "The financial report shows an increase in sales this quarter."
+},
+{
+"wid": 345,
+"w": "stock",
+"pos": [
+"n."
+],
+"zh": [
+"存貨；股票"
+],
+"seen_example": "The store has a wide variety of products in stock."
+},
+{
+"wid": 346,
+"w": "utilities",
+"pos": [
+"n."
+],
+"zh": [
+"公共事業費用（如水電費）；公共事業"
+],
+"seen_example": "The rent is $1500, not including utilities."
+},
+{
+"wid": 347,
+"w": "layover",
+"pos": [
+"n."
+],
+"zh": [
+"轉機停留；短暫停留"
+],
+"seen_example": "During his layover in Dubai, he checked business emails."
+},
+{
+"wid": 348,
+"w": "agenda",
+"pos": [
+"n."
+],
+"zh": [
+"議程；會議待討論的事項"
+],
+"seen_example": "The agenda for the meeting includes several important topics."
+},
+{
+"wid": 349,
+"w": "transcript",
+"pos": [
+"n."
+],
+"zh": [
+"成績單；逐字稿"
+],
+"seen_example": "The interview transcript will be available by tomorrow."
+},
+{
+"wid": 350,
+"w": "proportion",
+"pos": [
+"n."
+],
+"zh": [
+"比例；部分"
+],
+"seen_example": "The proportion of male to female participants is balanced."
+},
+{
+"wid": 351,
+"w": "reputation",
+"pos": [
+"n."
+],
+"zh": [
+"名譽；名聲"
+],
+"seen_example": "The company's reputation for quality products is well-known."
+},
+{
+"wid": 352,
+"w": "itinerary",
+"pos": [
+"n."
+],
+"zh": [
+"預定行程；行程安排"
+],
+"seen_example": "The travel agency provided us with a detailed itinerary."
+},
+{
+"wid": 353,
+"w": "consent",
+"pos": [
+"n."
+],
+"zh": [
+"許可；同意"
+],
+"seen_example": "Verbal consent is important. Silence does not mean consent."
+},
+{
+"wid": 354,
+"w": "milestone",
+"pos": [
+"n."
+],
+"zh": [
+"里程碑"
+],
+"seen_example": "The merger represents a major milestone for our company."
+},
+{
+"wid": 355,
+"w": "interface",
+"pos": [
+"n."
+],
+"zh": [
+"介面"
+],
+"seen_example": "The new software interface streamlines our customer service operations."
+},
+{
+"wid": 356,
+"w": "certification",
+"pos": [
+"n."
+],
+"zh": [
+"認證；證書"
+],
+"seen_example": "The company requires certification for all safety inspectors."
+},
+{
+"wid": 357,
+"w": "statistics",
+"pos": [
+"n."
+],
+"zh": [
+"統計數據"
+],
+"seen_example": "Statistics suggest that women live longer than men."
+},
+{
+"wid": 358,
+"w": "individual",
+"pos": [
+"n.",
+"adj."
+],
+"zh": [
+"個人；個體",
+"個別的；個人的"
+],
+"seen_example": "Every individual has rights that must never be taken away."
+},
+{
+"wid": 359,
+"w": "reward",
+"pos": [
+"n.",
+"v."
+],
+"zh": [
+"報酬",
+"報答"
+],
+"seen_example": "They receive a bonus as a reward for their hard work."
+},
+{
+"wid": 360,
+"w": "broadcast",
+"pos": [
+"n.",
+"v."
+],
+"zh": [
+"廣播；廣播節目",
+"廣播"
+],
+"seen_example": "I heard the news on the radio broadcast."
+},
+{
+"wid": 361,
+"w": "influence",
+"pos": [
+"n.",
+"v."
+],
+"zh": [
+"影響",
+"影響"
+],
+"seen_example": "Her speech had a great influence on the audience."
+},
+{
+"wid": 362,
+"w": "lecture",
+"pos": [
+"n.",
+"v."
+],
+"zh": [
+"講座；講課",
+"講授"
+],
+"seen_example": "I attended a fascinating lecture on astronomy."
+},
+{
+"wid": 363,
+"w": "host",
+"pos": [
+"n.",
+"v."
+],
+"zh": [
+"主辦方；主持人；主人",
+"主辦；主持"
+],
+"seen_example": "Who is the host of tonight's concert?"
+},
+{
+"wid": 364,
+"w": "retail",
+"pos": [
+"n.",
+"v."
+],
+"zh": [
+"零售",
+"零售"
+],
+"seen_example": "She buys wholesale and sells retail."
+},
+{
+"wid": 365,
+"w": "strike",
+"pos": [
+"n.",
+"v."
+],
+"zh": [
+"罷工",
+"罷工"
+],
+"seen_example": "Doctors at the hospital have gone on strike for two weeks."
+},
+{
+"wid": 366,
+"w": "credit",
+"pos": [
+"n.",
+"v."
+],
+"zh": [
+"信用",
+"歸功於"
+],
+"seen_example": "He has a good credit score and can get a loan easily."
+},
+{
+"wid": 367,
+"w": "contract",
+"pos": [
+"n.",
+"v."
+],
+"zh": [
+"合約",
+"訂合約"
+],
+"seen_example": "We signed a contract with the supplier."
+},
+{
+"wid": 368,
+"w": "rate",
+"pos": [
+"n.",
+"v."
+],
+"zh": [
+"費率；費用",
+"評價"
+],
+"seen_example": "What's the standard rate for this type of work?"
+},
+{
+"wid": 369,
+"w": "shift",
+"pos": [
+"n.",
+"v."
+],
+"zh": [
+"輪班；轉移",
+"轉移"
+],
+"seen_example": "She will switch to the night shift starting next week."
+},
+{
+"wid": 370,
+"w": "profit",
+"pos": [
+"n.",
+"v."
+],
+"zh": [
+"利潤",
+"獲利"
+],
+"seen_example": "The company reported a significant increase in profits."
+},
+{
+"wid": 371,
+"w": "access",
+"pos": [
+"n.",
+"v."
+],
+"zh": [
+"有權使用；進入",
+"有權使用；進入"
+],
+"seen_example": "The ID card will give you access to the building."
+},
+{
+"wid": 372,
+"w": "conflict",
+"pos": [
+"n.",
+"v."
+],
+"zh": [
+"衝突",
+"衝突"
+],
+"seen_example": "He is in constant conflict with his manager."
+},
+{
+"wid": 373,
+"w": "deposit",
+"pos": [
+"n.",
+"v."
+],
+"zh": [
+"訂金；押金",
+"支付預繳費用"
+],
+"seen_example": "He put a deposit on the house."
+},
+{
+"wid": 374,
+"w": "debate",
+"pos": [
+"n.",
+"v."
+],
+"zh": [
+"辯論",
+"辯論"
+],
+"seen_example": "The candidates engaged in a heated debate on the issue."
+}
+]

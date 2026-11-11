@@ -1,0 +1,1459 @@
+[
+ {
+  "part": 7,
+  "kind": "email",
+  "title": "Delay in your office chair order",
+  "text": "To: Karen Wu\nFrom: Daniel Ortiz, Brightline Office Supply\nSubject: Delay in your office chair order\n\nDear Ms. Wu,\n\nThank you for your recent order of 40 office chairs (invoice #5821). I am writing to notify you that the shipment will not arrive on March 4 as scheduled. During a routine inspection at our warehouse, we detected a defect in the wheels of several chairs. To ensure that every chair you receive is reliable, we have asked the manufacturer to replace the entire batch.\n\nOur current estimate is that the chairs will be delivered on March 18. To compensate you for the inconvenience, we will deduct 10 percent from your invoice, and you will not be charged for delivery.\n\nIf the new date does not suit you, an alternative model is in stock and can be shipped within two days. Please let me know by Friday how you would like to proceed.\n\nSincerely,\nDaniel Ortiz\nCustomer Representative",
+  "zh": "收件人：Karen Wu\n寄件人：Daniel Ortiz，Brightline Office Supply\n主旨：您的辦公椅訂單延遲\n\n吳小姐您好：\n\n感謝您最近訂購 40 張辦公椅（發票號碼 5821）。來信是要通知您，這批貨無法如期在 3 月 4 日送達。我們在倉庫進行例行檢查時，發現其中幾張椅子的輪子有瑕疵。為了確保您收到的每一張椅子都可靠耐用，我們已請製造商更換整批貨。\n\n我們目前估計椅子會在 3 月 18 日送達。為了補償造成您的不便，我們會從您的發票金額中扣除 10%，而且不收運費。\n\n如果新的日期對您不方便，我們另有一款替代型號有現貨，可以在兩天內出貨。請在星期五之前告訴我您希望如何處理。\n\n敬上\nDaniel Ortiz\n客戶服務代表",
+  "words": [
+   "notify",
+   "inspection",
+   "detect",
+   "defect",
+   "ensure",
+   "compensate",
+   "inconvenience",
+   "deduct"
+  ],
+  "qs": [
+   {
+    "q": "What is the main purpose of the e-mail?",
+    "answer": "To explain why a delivery will be late",
+    "distractors": [
+     "To confirm that an order has arrived",
+     "To request payment of an overdue invoice",
+     "To advertise a new chair model"
+    ],
+    "ex": "信中說 the shipment will not arrive on March 4 as scheduled，接著說明原因是 detected a defect in the wheels，所以目的是解釋交貨為什麼會延遲。訂單還沒送到，信中也沒有催繳款項；替代型號只是延遲時的另一個選擇，不是這封信的主要目的。"
+   },
+   {
+    "q": "What was found during the inspection?",
+    "answer": "A problem with some chair wheels",
+    "distractors": [
+     "An error in the invoice total",
+     "A shortage of warehouse staff",
+     "Damage to the delivery truck"
+    ],
+    "ex": "關鍵句是 we detected a defect in the wheels of several chairs，defect 是「瑕疵」，也就是部分椅子的輪子有問題。發票金額錯誤、倉庫人手不足、貨車受損，文中都沒有提到。"
+   },
+   {
+    "q": "What is NOT offered to Ms. Wu?",
+    "answer": "A full refund",
+    "distractors": [
+     "A lower price on her order",
+     "Free delivery",
+     "A different chair model"
+    ],
+    "ex": "deduct 10 percent from your invoice 是降價，you will not be charged for delivery 是免運費，an alternative model is in stock 是可以改訂另一款型號，這三項都有提供。只有全額退款在信中完全沒有出現。"
+   }
+  ]
+ },
+ {
+  "part": 7,
+  "kind": "notice",
+  "title": "Elevator inspection on Thursday",
+  "text": "NOTICE TO ALL TENANTS\nElevator Inspection: Thursday, June 12\n\nThe annual safety inspection of the elevators in Parkview Tower is mandatory under city regulations. It will be conducted this Thursday from 9:00 A.M. to 1:00 P.M.\n\nOnly one passenger elevator will be taken out of operation at a time, so the other two will remain available. However, waiting times may be longer than usual. As a precaution, use of the freight elevator will be restricted to building personnel during the inspection. Tenants who are expecting large deliveries should reschedule them for the afternoon.\n\nAnyone who needs assistance while the elevators are being checked may ask at the security desk in the lobby.\n\nWe apologize for any inconvenience. For further information, please contact the management office at extension 204.\n\nParkview Tower Management",
+  "zh": "致全體承租戶公告\n電梯檢查：6 月 12 日星期四\n\n依照市政法規，Parkview Tower 的電梯每年都必須進行安全檢查。這次檢查將於本週四上午 9 點至下午 1 點進行。\n\n每次只會停用一部客用電梯，其他兩部仍可正常使用，不過等候時間可能會比平常久。為了預防萬一，檢查期間貨梯僅限大樓工作人員使用。預計有大型貨物送達的承租戶，請將送貨時間改到下午。\n\n電梯檢查期間如需協助，可洽大廳的保全櫃檯。\n\n造成不便，敬請見諒。如需進一步資訊，請撥分機 204 與管理室聯絡。\n\nParkview Tower 管理處",
+  "words": [
+   "inspection",
+   "mandatory",
+   "conduct",
+   "operation",
+   "precaution",
+   "restrict",
+   "personnel",
+   "inconvenience"
+  ],
+  "qs": [
+   {
+    "q": "Why is the inspection being carried out?",
+    "answer": "It is required by city rules",
+    "distractors": [
+     "An elevator broke down last week",
+     "Tenants complained about long waits",
+     "New elevators are being installed"
+    ],
+    "ex": "文中說 The annual safety inspection ... is mandatory under city regulations，mandatory 是「強制的、依規定必須做的」，所以這是市政法規要求的年度檢查。電梯故障、承租戶抱怨、安裝新電梯都沒有提到。"
+   },
+   {
+    "q": "What are tenants expecting large deliveries advised to do?",
+    "answer": "Move them to the afternoon",
+    "distractors": [
+     "Cancel them until next week",
+     "Have them left in the lobby",
+     "Pay a fee to use the freight elevator"
+    ],
+    "ex": "Tenants who are expecting large deliveries should reschedule them for the afternoon，reschedule 是「改時間」。檢查到下午 1 點結束，所以建議把送貨改到下午。取消、放在大廳、付費使用貨梯都不是文中的建議。"
+   },
+   {
+    "q": "The word \"restricted\" in the notice is closest in meaning to",
+    "answer": "limited",
+    "distractors": [
+     "extended",
+     "repaired",
+     "offered"
+    ],
+    "ex": "use of the freight elevator will be restricted to building personnel 意思是貨梯「只限」大樓人員使用，restricted 就是 limited（受限制的）。extended 是延長、repaired 是修理、offered 是提供，意思都不一樣。"
+   }
+  ]
+ },
+ {
+  "part": 7,
+  "kind": "memo",
+  "title": "New procedure for travel expenses",
+  "text": "MEMO\nTo: All sales personnel\nFrom: Linda Park, Finance Department\nDate: September 2\nSubject: New procedure for travel expenses\n\nBeginning October 1, the company will implement a new procedure for travel expense claims. The objective is to streamline the process and reduce the time employees wait for payment.\n\nInstead of filling out paper forms, you will upload a photo of each receipt or invoice to the online expense system. Your supervisor will then validate the claim, and the amount will be transferred to your bank account. Claims that follow the guidelines should be paid within five working days, rather than the current three weeks.\n\nPlease note that claims submitted more than 30 days after a trip will be declined.\n\nA 20-minute webinar outlining the new system will be held on September 15 and again on September 17. Attendance at one of these sessions is compulsory.",
+  "zh": "備忘錄\n收件人：全體業務人員\n寄件人：Linda Park，財務部\n日期：9 月 2 日\n主旨：差旅費申請新流程\n\n自 10 月 1 日起，公司將實施新的差旅費申請流程，目的是簡化作業，縮短員工等待款項的時間。\n\n以後不必再填寫紙本表單，只要把每張收據或發票拍照，上傳到線上費用系統即可。接著由您的主管審核確認，款項就會匯入您的銀行帳戶。符合規範的申請應可在五個工作天內付款，不必像現在要等三個星期。\n\n請注意，出差結束超過 30 天才提出的申請將不予受理。\n\n說明新系統的 20 分鐘網路研討會將於 9 月 15 日舉行，9 月 17 日再辦一場。兩場之中必須參加一場。",
+  "words": [
+   "procedure",
+   "implement",
+   "objective",
+   "streamline",
+   "validate",
+   "guideline",
+   "decline",
+   "compulsory"
+  ],
+  "qs": [
+   {
+    "q": "What is the memo mainly about?",
+    "answer": "A change in how expenses are claimed",
+    "distractors": [
+     "A reduction in the travel budget",
+     "A new schedule for paychecks",
+     "A training course for supervisors"
+    ],
+    "ex": "第一句 the company will implement a new procedure for travel expense claims 點出主題：申請差旅費的方式要改了。文中沒有說要刪減差旅預算或更改發薪日；網路研討會是全體業務人員都要參加，不是專為主管開的課。"
+   },
+   {
+    "q": "How quickly should claims be paid under the new procedure?",
+    "answer": "Within five working days",
+    "distractors": [
+     "Within three weeks",
+     "Within 30 days of the trip",
+     "On the same day"
+    ],
+    "ex": "Claims that follow the guidelines should be paid within five working days, rather than the current three weeks。新制是五個工作天內付款；three weeks 是目前的情況，30 days 是出差後提出申請的期限，不是付款時間。"
+   },
+   {
+    "q": "What is indicated about the webinar?",
+    "answer": "Attending one session is required",
+    "distractors": [
+     "It lasts for one hour",
+     "It will be held once, on October 1",
+     "It is only for supervisors"
+    ],
+    "ex": "Attendance at one of these sessions is compulsory，compulsory 是「強制的、必須的」，所以兩場之中一定要參加一場。研討會長度是 20 分鐘，日期是 9 月 15 日和 17 日，對象是全體業務人員。"
+   }
+  ]
+ },
+ {
+  "part": 7,
+  "kind": "advertisement",
+  "title": "Harbor Crest Hotel: Made for Business Travelers",
+  "text": "Harbor Crest Hotel: Made for Business Travelers\n\nLocated five minutes from Lakeside Convention Center, the newly renovated Harbor Crest Hotel offers everything a business traveler needs. Every room has a large desk, reliable high-speed Internet, and a coffee machine. Our amenities include a 24-hour fitness center, an indoor pool, and a business lounge with free printing.\n\nPlanning an event? Our three meeting rooms can accommodate groups of 10 to 120 people, and our onsite catering team will prepare a menu to suit your budget.\n\nExclusive corporate offer: Companies that book ten or more nights before November 30 qualify for a 15 percent discount and a free shuttle service to the airport.\n\nTo obtain an estimate for your group, call our sales representative at 555-0142.",
+  "zh": "Harbor Crest Hotel：專為商務旅客打造\n\n全新整修的 Harbor Crest Hotel 距離 Lakeside 會議中心只要五分鐘，商務旅客需要的一切這裡都有。每間客房都有大書桌、穩定的高速網路和咖啡機。飯店設施包括 24 小時健身中心、室內游泳池，以及可免費列印的商務交誼廳。\n\n要辦活動嗎？我們的三間會議室可容納 10 到 120 人的團體，飯店內的外燴團隊也會依照您的預算設計菜單。\n\n企業專屬優惠：凡在 11 月 30 日前預訂十晚以上的公司，即可享有八五折優惠及免費機場接駁服務。\n\n如需為您的團體索取報價，請撥 555-0142 與我們的業務代表聯絡。",
+  "words": [
+   "renovate",
+   "reliable",
+   "amenities",
+   "accommodate",
+   "catering",
+   "exclusive",
+   "corporate",
+   "qualify"
+  ],
+  "qs": [
+   {
+    "q": "Who is the advertisement mainly intended for?",
+    "answer": "People traveling for work",
+    "distractors": [
+     "Families on vacation",
+     "Students looking for cheap rooms",
+     "Hotel employees seeking jobs"
+    ],
+    "ex": "標題 Made for Business Travelers 和內文 offers everything a business traveler needs 都指出對象是出差的商務旅客，後面還有給公司的 corporate offer。文中沒有提到家庭度假、學生或徵才。"
+   },
+   {
+    "q": "How can a company get the 15 percent discount?",
+    "answer": "By booking ten or more nights",
+    "distractors": [
+     "By holding an event for 120 people",
+     "By joining the fitness center",
+     "By paying for the airport shuttle"
+    ],
+    "ex": "Companies that book ten or more nights before November 30 qualify for a 15 percent discount，qualify for 是「符合…的資格」，條件是在 11 月 30 日前訂十晚以上。辦活動、使用健身中心都不是條件；機場接駁是免費贈送的，不用付費。"
+   },
+   {
+    "q": "What is NOT mentioned as a feature of the hotel?",
+    "answer": "A rooftop restaurant",
+    "distractors": [
+     "An indoor pool",
+     "Meeting rooms",
+     "A fitness center"
+    ],
+    "ex": "文中提到 a 24-hour fitness center、an indoor pool 和 three meeting rooms，這三項都有。屋頂餐廳完全沒有出現，所以是沒有提到的設施。"
+   }
+  ]
+ },
+ {
+  "part": 7,
+  "kind": "message",
+  "title": "Lunch order for Thursday's seminar",
+  "text": "Mei Tanaka (10:12 A.M.): Hi Robert. I just received the final headcount for Thursday's seminar. It's 64, not 50.\nRobert Diaz (10:14 A.M.): That's a significant increase. Our catering order only covers 50 lunches.\nMei Tanaka (10:15 A.M.): Can the vendor handle 14 more?\nRobert Diaz (10:21 A.M.): I just called them. They can, but they have run out of the chicken dish. They suggested vegetable pasta as a substitute for the additional meals.\nMei Tanaka (10:22 A.M.): That's fine. What about the cost?\nRobert Diaz (10:24 A.M.): The revised estimate is $896, which is still within our budget of $950.\nMei Tanaka (10:25 A.M.): Great. Please go ahead and confirm it. I'll notify the venue that we need more tables.\nRobert Diaz (10:26 A.M.): Will do. I'll forward you the new invoice this afternoon.",
+  "zh": "Mei Tanaka（上午 10:12）：嗨，Robert。我剛收到星期四研討會的最終人數，是 64 人，不是 50 人。\nRobert Diaz（上午 10:14）：增加得不少。我們訂的外燴只有 50 份午餐。\nMei Tanaka（上午 10:15）：廠商有辦法多做 14 份嗎？\nRobert Diaz（上午 10:21）：我剛打電話問過了。可以，但雞肉餐點已經沒有了。他們建議多出來的餐點改用蔬菜義大利麵代替。\nMei Tanaka（上午 10:22）：沒問題。費用呢？\nRobert Diaz（上午 10:24）：修改後的報價是 896 美元，還在我們 950 美元的預算內。\nMei Tanaka（上午 10:25）：太好了，請直接跟他們確認。我會通知場地我們需要更多桌子。\nRobert Diaz（上午 10:26）：好的。我下午把新的發票轉寄給你。",
+  "words": [
+   "headcount",
+   "seminar",
+   "catering",
+   "vendor",
+   "substitute",
+   "estimate",
+   "notify",
+   "invoice"
+  ],
+  "qs": [
+   {
+    "q": "Why did Ms. Tanaka contact Mr. Diaz?",
+    "answer": "To report a new number of attendees",
+    "distractors": [
+     "To cancel a catering order",
+     "To complain about a vendor's poor service",
+     "To ask for a larger budget"
+    ],
+    "ex": "她一開始就說 I just received the final headcount ... It's 64, not 50，headcount 是「人數」，也就是出席人數從 50 變成 64。她沒有取消訂單、沒有抱怨廠商；費用還在預算內，也不需要增加預算。"
+   },
+   {
+    "q": "What will the vendor provide for the additional meals?",
+    "answer": "Vegetable pasta",
+    "distractors": [
+     "A chicken dish",
+     "A beef sandwich",
+     "A fruit dessert"
+    ],
+    "ex": "They suggested vegetable pasta as a substitute for the additional meals，substitute 是「替代品」。雞肉餐點已經 run out（沒有了），牛肉三明治和水果甜點文中沒有提到。"
+   },
+   {
+    "q": "What will Ms. Tanaka most likely do next?",
+    "answer": "Contact the seminar venue",
+    "distractors": [
+     "Call the catering vendor",
+     "Send an invoice to Mr. Diaz",
+     "Reduce the number of attendees"
+    ],
+    "ex": "她說 I'll notify the venue that we need more tables，notify 是「通知」，所以她接下來會聯絡研討會的場地。向廠商確認訂單和轉寄發票都是 Mr. Diaz 要做的事，文中也沒有要減少人數。"
+   }
+  ]
+ },
+ {
+  "part": 7,
+  "kind": "article",
+  "title": "Maple & Rye to Open Three New Branches",
+  "text": "Maple & Rye to Open Three New Branches\n\nRIVERTON — Maple & Rye, the bakery chain founded in Riverton twelve years ago, announced an ambitious expansion plan on Monday. The company will open three new branches in the neighboring cities of Dalton and Westfield by the end of next year.\n\nFounder Helen Brooks said that revenue has grown for five consecutive years, primarily because of strong demand for the company's whole-grain bread. \"Our customers have been very loyal,\" she remarked. \"This is the right moment to broaden our reach.\"\n\nTo support the new stores, Maple & Rye intends to recruit about 60 employees and relocate its headquarters to a larger building on Canal Street. The current headquarters will be transformed into a training center for new bakers.\n\nThe first of the new branches, in Dalton, is scheduled to open in March.",
+  "zh": "Maple & Rye 將新開三家分店\n\nRIVERTON 訊 — 十二年前在 Riverton 創立的連鎖麵包店 Maple & Rye，星期一宣布了一項企圖心十足的擴張計畫。該公司將在明年年底前，於鄰近的 Dalton 和 Westfield 兩個城市新開三家分店。\n\n創辦人 Helen Brooks 表示，公司營收已連續五年成長，主要是因為全穀麵包的需求強勁。她說：「我們的顧客一直非常忠實，現在正是擴大版圖的好時機。」\n\n為了支援新門市，Maple & Rye 打算招募約 60 名員工，並把總部遷到 Canal Street 上一棟更大的建築。現在的總部將改造成新進麵包師傅的訓練中心。\n\n第一家新分店位於 Dalton，預定三月開幕。",
+  "words": [
+   "ambitious",
+   "expansion",
+   "revenue",
+   "consecutive",
+   "recruit",
+   "relocate",
+   "headquarters",
+   "transform"
+  ],
+  "qs": [
+   {
+    "q": "What is the article mainly about?",
+    "answer": "A company's plan to grow",
+    "distractors": [
+     "A new type of bread",
+     "The retirement of a company founder",
+     "A bakery that is closing"
+    ],
+    "ex": "標題 to Open Three New Branches 和第一段 announced an ambitious expansion plan 說明主題是這家公司的擴張計畫，expansion 是「擴張」。全穀麵包只是營收成長的原因，文中沒有提到創辦人退休或關店。"
+   },
+   {
+    "q": "What will happen to the current headquarters?",
+    "answer": "It will become a training center",
+    "distractors": [
+     "It will be sold to another company",
+     "It will be turned into a new branch",
+     "It will be closed in March"
+    ],
+    "ex": "The current headquarters will be transformed into a training center for new bakers，transform 是「改造、轉變」，所以現在的總部會變成訓練中心。文中沒有說要賣掉或改成分店，March 是 Dalton 新分店開幕的時間。"
+   },
+   {
+    "q": "What is suggested about Maple & Rye?",
+    "answer": "It has operated for over ten years",
+    "distractors": [
+     "Its revenue fell last year",
+     "It plans to reduce its staff",
+     "It will stop selling whole-grain bread"
+    ],
+    "ex": "founded in Riverton twelve years ago 表示公司是十二年前創立的，所以已經營業超過十年。營收是 grown for five consecutive years（連續五年成長），公司要 recruit about 60 employees（招募約 60 人），全穀麵包的需求也很強，其他三項都和文意相反。"
+   }
+  ]
+ },
+ {
+  "part": 7,
+  "kind": "letter",
+  "title": "Your mortgage application",
+  "text": "Northgate Bank\n18 Fulton Street\n\nApril 9\n\nMr. Samuel Reyes\n52 Orchard Lane\n\nDear Mr. Reyes,\n\nWe are pleased to inform you that your mortgage application has been approved. Based on our analysis of your financial records, Northgate Bank can offer you a loan of $240,000 over a span of 20 years.\n\nBefore we can proceed, we need two further documents: a copy of your most recent tax statement and a signed copy of the enclosed agreement. Please read clause 7 carefully, as it specifies the fee for late payments. Monthly installments will be taken automatically from your Northgate checking account on the fifth day of each month.\n\nThis offer is valid until May 9. To clarify any details, please visit your local branch or call our mortgage representative, Ms. Julia Novak, at 555-0178.\n\nSincerely,\nPeter Lang\nLoan Department",
+  "zh": "Northgate Bank\nFulton Street 18 號\n\n4 月 9 日\n\nSamuel Reyes 先生\nOrchard Lane 52 號\n\nReyes 先生您好：\n\n很高興通知您，您的房屋貸款申請已經核准。根據我們對您財務紀錄的分析，Northgate Bank 可以提供您 24 萬美元的貸款，還款期間為 20 年。\n\n在進行下一步之前，我們還需要兩份文件：您最近一期的報稅單影本，以及隨信附上的合約簽名本。請仔細閱讀第 7 條，其中載明了逾期付款的費用。每月的分期款項將於每月 5 日自動從您的 Northgate 支票存款帳戶扣款。\n\n本貸款方案的有效期限至 5 月 9 日。如需釐清任何細節，請親臨您附近的分行，或撥 555-0178 與我們的房貸專員 Julia Novak 小姐聯絡。\n\n敬上\nPeter Lang\n貸款部",
+  "words": [
+   "mortgage",
+   "analysis",
+   "financial",
+   "span",
+   "proceed",
+   "clause",
+   "specify",
+   "installment"
+  ],
+  "qs": [
+   {
+    "q": "Why was the letter sent?",
+    "answer": "To announce that a loan was approved",
+    "distractors": [
+     "To report a late payment",
+     "To close a checking account",
+     "To advertise a new branch"
+    ],
+    "ex": "第一句 your mortgage application has been approved 就是重點，mortgage 是「房屋貸款」，approved 是「核准」。late payments 只是合約第 7 條規定的內容，並不是 Mr. Reyes 遲繳；文中也沒有要關閉帳戶或宣傳新分行。"
+   },
+   {
+    "q": "What must Mr. Reyes provide before the bank can proceed?",
+    "answer": "A tax statement and a signed agreement",
+    "distractors": [
+     "A copy of his passport and a recent photo",
+     "A list of his monthly expenses",
+     "A letter from his employer"
+    ],
+    "ex": "we need two further documents: a copy of your most recent tax statement and a signed copy of the enclosed agreement。銀行要的是最近的報稅單和簽好名的合約；護照、每月支出清單、雇主信函都沒有提到。"
+   },
+   {
+    "q": "The word \"span\" in the letter is closest in meaning to",
+    "answer": "period",
+    "distractors": [
+     "distance",
+     "amount",
+     "rate"
+    ],
+    "ex": "a loan of $240,000 over a span of 20 years 是指「在 20 年的期間內」還款，這裡的 span 就是 period（一段時間）。distance 是距離、amount 是金額、rate 是利率或比率，在這裡都不通。"
+   }
+  ]
+ },
+ {
+  "part": 7,
+  "kind": "announcement",
+  "title": "Leadership Workshop for New Supervisors",
+  "text": "Leadership Workshop for New Supervisors\n\nThe Personnel Department is pleased to announce a two-day workshop, \"Leading Your Team,\" on May 21 and 22 in Training Room 2 at headquarters.\n\nThe workshop is designed for employees who have been promoted to a supervisory position within the past twelve months. For this group, attendance is compulsory. Other staff members who wish to pursue a management career are also eligible, provided that their manager gives written approval.\n\nTopics include how to delegate tasks, evaluate performance fairly, and resolve disputes between team members. The sessions will be conducted by Angela Moreno, an external consultant who specializes in workplace communication.\n\nBecause the room has a capacity of 24, the remaining places will be allocated in the order that requests are received. To register, e-mail the Personnel Department by May 9.",
+  "zh": "新任主管領導力工作坊\n\n人事部很高興宣布，將於 5 月 21 日和 22 日在總部第 2 訓練室舉辦為期兩天的工作坊「帶領你的團隊」。\n\n本工作坊是為過去十二個月內升任主管職的員工所設計，這些人員一律必須參加。其他有志往管理職發展的同仁，只要取得主管的書面同意，也有資格報名。\n\n課程主題包括如何分派工作、公平地評估績效，以及化解團隊成員之間的爭執。課程將由專攻職場溝通的外部顧問 Angela Moreno 主講。\n\n由於教室只能容納 24 人，剩餘名額將依照收到申請的先後順序分配。報名請在 5 月 9 日前寄電子郵件給人事部。",
+  "words": [
+   "workshop",
+   "compulsory",
+   "eligible",
+   "delegate",
+   "evaluate",
+   "resolve",
+   "dispute",
+   "allocate"
+  ],
+  "qs": [
+   {
+    "q": "What is the purpose of the announcement?",
+    "answer": "To give details of a training event",
+    "distractors": [
+     "To introduce a new department head",
+     "To report the results of a staff survey",
+     "To advertise a job opening for a supervisor"
+    ],
+    "ex": "開頭 is pleased to announce a two-day workshop，後面說明對象、主題、講師和報名方式，所以目的是公布一場訓練活動的細節。文中沒有介紹新主管、問卷結果或職缺。"
+   },
+   {
+    "q": "What do staff members who are not new supervisors need in order to attend?",
+    "answer": "Written approval from their manager",
+    "distractors": [
+     "Twelve months of experience",
+     "An invitation from Ms. Moreno",
+     "A certificate in communication"
+    ],
+    "ex": "Other staff members ... are also eligible, provided that their manager gives written approval，provided that 是「只要、前提是」，所以需要主管的書面同意。twelve months 是指新主管升職的時間；Ms. Moreno 是講師，並不負責邀請；文中沒有提到證書。"
+   },
+   {
+    "q": "What is NOT listed as a workshop topic?",
+    "answer": "Preparing a department budget",
+    "distractors": [
+     "Assigning work to others",
+     "Judging employees' performance",
+     "Settling disagreements"
+    ],
+    "ex": "主題是 delegate tasks（分派工作）、evaluate performance fairly（公平評估績效）和 resolve disputes（化解爭執），這三項都有列出。編列部門預算文中沒有提到。"
+   }
+  ]
+ },
+ {
+  "part": 7,
+  "kind": "review",
+  "title": "A durable bag with one weak point",
+  "text": "Product: Trekline Pro 15 Laptop Backpack\nReviewer: Marcus Hall\nRating: 4 out of 5 stars\n\nA durable bag with one weak point\n\nI travel by train every day, so I need a bag that can bear a heavy load. After six months of daily use, my Trekline Pro still looks almost new. The fabric is very strong, and the padded pocket has protected my laptop on numerous crowded journeys. The bag is also compatible with most suitcase handles, which is a tremendous help at airports.\n\nMy only complaint concerns the zipper on the front pocket, which broke after about three months. Because the bag comes with a two-year warranty, I contacted the company. A representative acknowledged the defect immediately and sent me a new bag within a week at no charge.\n\nAt $89, it is not the most economical choice, but the quality and the service justify the price.",
+  "zh": "產品：Trekline Pro 15 筆電後背包\n評論者：Marcus Hall\n評分：5 顆星中的 4 顆星\n\n耐用的包包，但有一個弱點\n\n我每天都搭火車，所以需要一個能承受重物的包包。每天使用了六個月之後，我的 Trekline Pro 看起來還是幾乎全新。布料非常堅固，有襯墊的夾層在無數次擁擠的路程中保護了我的筆電。這個包包還能套在大多數行李箱的拉桿上，在機場時幫了大忙。\n\n我唯一不滿意的地方是前袋的拉鍊，用了大約三個月就壞了。因為包包有兩年保固，我就聯絡了公司。客服代表馬上承認這是瑕疵，並在一週內免費寄了一個新包包給我。\n\n售價 89 美元，不算是最划算的選擇，但以它的品質和服務來說，這個價錢很合理。",
+  "words": [
+   "durable",
+   "bear",
+   "load",
+   "compatible",
+   "warranty",
+   "acknowledge",
+   "economical",
+   "justify"
+  ],
+  "qs": [
+   {
+    "q": "What is the reviewer's overall opinion of the backpack?",
+    "answer": "It is worth the price despite a flaw",
+    "distractors": [
+     "It is too heavy to carry on a train every day",
+     "It is the cheapest bag available",
+     "It does not protect a laptop well"
+    ],
+    "ex": "最後一句 the quality and the service justify the price 表示品質和服務讓這個價錢很值得；前面說唯一的缺點（My only complaint）是拉鍊壞掉。他每天搭火車都在用，並沒有嫌它太重；他說這不是 the most economical choice，所以不是最便宜的；包包也 has protected my laptop，有好好保護筆電。"
+   },
+   {
+    "q": "What happened after the reviewer reported the broken zipper?",
+    "answer": "He received a new bag for free",
+    "distractors": [
+     "He was given a refund of $89",
+     "He paid to have the zipper repaired",
+     "He was told the warranty had ended"
+    ],
+    "ex": "A representative acknowledged the defect immediately and sent me a new bag within a week at no charge。at no charge 是「免費」，公司在一週內免費寄了新包包給他。不是退款，也不用自費修理，而且包包還在兩年保固期內。"
+   },
+   {
+    "q": "The word \"bear\" in the review is closest in meaning to",
+    "answer": "support",
+    "distractors": [
+     "avoid",
+     "reduce",
+     "measure"
+    ],
+    "ex": "a bag that can bear a heavy load 是「能承受很重的東西的包包」，bear 在這裡是「承受、支撐」，意思最接近 support。avoid 是避免、reduce 是減少、measure 是測量。"
+   }
+  ]
+ },
+ {
+  "part": 7,
+  "kind": "form",
+  "title": "Order confirmation CK-30977",
+  "text": "Corwin Kitchen Supply\nORDER CONFIRMATION\n\nOrder number: CK-30977\nOrder date: August 14\nCustomer: Sunrise Café (wholesale account)\nContact: Ms. Priya Nair\n\nItems:\n1 commercial dishwasher, model D-400: $2,150\n2 steel work tables at $190 each: $380\nInstallation service: $120\nTotal: $2,650\n\nPayment: An invoice will be sent after delivery and is due within 30 days.\nEstimated delivery: August 21, between 8:00 A.M. and noon\n\nNotes:\nThe dishwasher is covered by a three-year warranty on all components. Installation will be carried out on the day of delivery by one of our technicians and takes about two hours. Please ensure that a staff member is onsite to sign for the goods. To modify this order, notify us at least 48 hours prior to delivery.",
+  "zh": "Corwin Kitchen Supply\n訂單確認單\n\n訂單編號：CK-30977\n訂購日期：8 月 14 日\n客戶：Sunrise Café（批發帳戶）\n聯絡人：Priya Nair 小姐\n\n品項：\n商用洗碗機 D-400 型 1 台：2,150 美元\n鋼製工作桌 2 張，每張 190 美元：380 美元\n安裝服務：120 美元\n合計：2,650 美元\n\n付款方式：發票將於送貨後寄出，請於 30 天內付款。\n預計送貨時間：8 月 21 日上午 8 點至中午 12 點之間\n\n備註：\n洗碗機的所有零件享有三年保固。安裝將於送貨當天由本公司技師進行，大約需要兩小時。請確保現場有員工可以簽收貨品。如需修改訂單，請在送貨前至少 48 小時通知我們。",
+  "words": [
+   "wholesale",
+   "installation",
+   "invoice",
+   "warranty",
+   "component",
+   "ensure",
+   "modify",
+   "prior"
+  ],
+  "qs": [
+   {
+    "q": "What is the purpose of this document?",
+    "answer": "To confirm the details of a purchase",
+    "distractors": [
+     "To request the repair of a dishwasher",
+     "To advertise kitchen equipment",
+     "To cancel a delivery"
+    ],
+    "ex": "標題是 ORDER CONFIRMATION（訂單確認），內容列出訂購品項、金額、付款方式和送貨時間，所以是確認一筆訂購的細節。文中沒有要求維修、打廣告或取消送貨。"
+   },
+   {
+    "q": "What should Sunrise Café make sure of on August 21?",
+    "answer": "That an employee is there to sign",
+    "distractors": [
+     "That the invoice has already been paid",
+     "That it has hired its own technician",
+     "That the café is closed all day"
+    ],
+    "ex": "8 月 21 日是預定送貨日，文中說 Please ensure that a staff member is onsite to sign for the goods，也就是要有員工在現場簽收。發票是送貨後才寄出、30 天內付款；安裝由 Corwin 的技師負責，不用自己找人；也沒有要求整天停止營業。"
+   },
+   {
+    "q": "What is indicated about the installation?",
+    "answer": "It will take place on the delivery day",
+    "distractors": [
+     "It is free of charge",
+     "It must be done by café staff",
+     "It takes about 48 hours"
+    ],
+    "ex": "Installation will be carried out on the day of delivery by one of our technicians and takes about two hours，所以安裝在送貨當天進行。安裝服務要 120 美元，不是免費；由技師安裝，不是咖啡廳員工；時間大約兩小時，48 hours 是修改訂單要提前通知的時間。"
+   }
+  ]
+ },
+ {
+  "part": 7,
+  "kind": "email",
+  "title": "Interview for Operations Analyst position",
+  "text": "To: Jason Kim\nFrom: Olivia Grant, Personnel Department, Vantor Logistics\nSubject: Interview for Operations Analyst position\n\nDear Mr. Kim,\n\nThank you for applying for the position of Operations Analyst. After reviewing more than 80 applications, we have determined that your background meets our criteria, and we would like to invite you to an interview at our headquarters on Tuesday, July 8, at 10:00 A.M.\n\nThe interview will last about one hour. You will meet Mr. Alan Ford, who supervises the distribution team, and you will be asked to analyze a short set of delivery data. No prior preparation is needed for this task.\n\nPlease bring a photo ID and the contact details of two references. If the date is not convenient, let me know by Friday and I will arrange an alternative time.\n\nWe look forward to meeting you.\n\nBest regards,\nOlivia Grant",
+  "zh": "收件人：Jason Kim\n寄件人：Olivia Grant，Vantor Logistics 人事部\n主旨：營運分析師職位面試\n\nKim 先生您好：\n\n感謝您應徵營運分析師一職。在審閱超過 80 份申請之後，我們認定您的背景符合我們的標準，因此想邀請您於 7 月 8 日星期二上午 10 點到本公司總部面試。\n\n面試時間大約一小時。您將與負責管理配送團隊的 Alan Ford 先生見面，並且需要分析一小組配送資料。這項作業不需要事先準備。\n\n請攜帶附照片的身分證件，以及兩位推薦人的聯絡資料。如果這個日期不方便，請在星期五之前告訴我，我會另外安排時間。\n\n期待與您見面。\n\n謹致問候\nOlivia Grant",
+  "words": [
+   "determine",
+   "criteria",
+   "headquarters",
+   "supervise",
+   "distribution",
+   "analyze",
+   "prior",
+   "reference"
+  ],
+  "qs": [
+   {
+    "q": "Why did Ms. Grant write to Mr. Kim?",
+    "answer": "To invite him to a job interview",
+    "distractors": [
+     "To offer him a position",
+     "To ask him to review applications",
+     "To tell him his application was rejected"
+    ],
+    "ex": "we would like to invite you to an interview at our headquarters 說明這封信是邀請他來面試。目前只是面試，還沒有錄取；審閱申請書的是公司，不是他；他的背景 meets our criteria（符合標準），並沒有被拒絕。"
+   },
+   {
+    "q": "What will Mr. Kim be asked to do during the interview?",
+    "answer": "Examine some delivery data",
+    "distractors": [
+     "Give a presentation about his background",
+     "Tour the distribution center",
+     "Take a written language test"
+    ],
+    "ex": "you will be asked to analyze a short set of delivery data，analyze 是「分析」，也就是要看一些配送資料並加以分析。做簡報、參觀配送中心、語言筆試文中都沒有提到。"
+   },
+   {
+    "q": "What is suggested about the Operations Analyst position?",
+    "answer": "Many people applied for it",
+    "distractors": [
+     "It is based overseas",
+     "It requires frequent travel",
+     "It is a temporary job"
+    ],
+    "ex": "After reviewing more than 80 applications 表示公司收到超過 80 份申請，可見應徵的人很多。海外工作、經常出差、臨時職位在信中都沒有任何線索。"
+   }
+  ]
+ },
+ {
+  "part": 7,
+  "kind": "notice",
+  "title": "Scheduled System Maintenance",
+  "text": "IT NOTICE: Scheduled System Maintenance\n\nTo enhance network security, the IT Department will install a major software update this weekend. The work will begin at 10:00 P.M. on Saturday, March 14, and is expected to finish by 6:00 A.M. on Sunday.\n\nDuring this period, e-mail, the shared file server, and the customer database will not be available. Remote login to the company network will also be suspended. The telephone system will not be affected.\n\nPlease save your work and log out before you leave the office on Friday. It may not be possible to retrieve files that are left open during the update.\n\nWe chose these hours to keep downtime to a minimum and to avoid disrupting normal operations. If you detect any problems on Monday morning, notify the help desk at extension 310.",
+  "zh": "資訊部公告：系統定期維護\n\n為了加強網路安全，資訊部將於本週末安裝一項重大的軟體更新。作業將於 3 月 14 日星期六晚上 10 點開始，預計在星期日早上 6 點前完成。\n\n在這段期間，電子郵件、共用檔案伺服器和客戶資料庫都無法使用，遠端登入公司網路的功能也會暫停。電話系統不受影響。\n\n星期五離開辦公室之前，請先儲存您的工作並登出。更新期間仍開啟的檔案可能無法救回。\n\n我們選擇這個時段，是為了盡量縮短停機時間，避免打亂正常營運。如果您在星期一早上發現任何問題，請撥分機 310 通知服務台。",
+  "words": [
+   "enhance",
+   "security",
+   "suspend",
+   "retrieve",
+   "downtime",
+   "disrupt",
+   "detect",
+   "notify"
+  ],
+  "qs": [
+   {
+    "q": "What is the main purpose of the notice?",
+    "answer": "To warn staff of a planned system outage",
+    "distractors": [
+     "To introduce a new e-mail program",
+     "To report a recent security problem",
+     "To announce new office hours for the IT Department"
+    ],
+    "ex": "標題 Scheduled System Maintenance 和內文 e-mail, the shared file server, and the customer database will not be available 說明這是通知員工系統將按計畫暫停服務。文中沒有介紹新的電子郵件程式，也沒有說發生了資安問題或要更改上班時間。"
+   },
+   {
+    "q": "Which service will continue to work during the maintenance?",
+    "answer": "The telephone system",
+    "distractors": [
+     "E-mail",
+     "The shared file server",
+     "Remote login"
+    ],
+    "ex": "The telephone system will not be affected，not be affected 是「不受影響」，所以電話系統照常運作。e-mail 和 shared file server 是 will not be available（無法使用），remote login 是 will be suspended（暫停）。"
+   },
+   {
+    "q": "Why did the IT Department choose these hours for the work?",
+    "answer": "To limit the effect on daily business",
+    "distractors": [
+     "To reduce the cost of the software",
+     "To allow staff to attend training",
+     "To meet a customer's request"
+    ],
+    "ex": "We chose these hours to keep downtime to a minimum and to avoid disrupting normal operations。downtime 是「停機時間」，disrupt 是「打亂」，選在週末深夜是為了盡量不影響日常營運。軟體費用、員工訓練、客戶要求文中都沒有提到。"
+   }
+  ]
+ },
+ {
+  "part": 7,
+  "kind": "memo",
+  "title": "Fourth-floor renovation",
+  "text": "MEMO\nTo: All fourth-floor staff\nFrom: George Whitman, Facilities Manager\nDate: January 6\nSubject: Fourth-floor renovation\n\nAs announced last month, the renovation of the fourth floor will be carried out in two phases.\n\nPhase 1 (January 20 to February 14): The east side will be closed. The marketing team will relocate temporarily to the conference rooms on the second floor.\n\nPhase 2 (February 17 to March 13): The west side will be closed, and the accounting team will move into the finished east side.\n\nThe old cubicles will be replaced with open desks, and two small meeting rooms will be added. Storage space will be limited during the transition, so please discard any documents you no longer need. Confidential papers must be placed in the locked bins beside the photocopier, not in the regular recycling.\n\nMoving boxes will be distributed on January 15. A detailed timeline is attached.",
+  "zh": "備忘錄\n收件人：四樓全體同仁\n寄件人：George Whitman，總務經理\n日期：1 月 6 日\n主旨：四樓整修\n\n如上個月所公告，四樓的整修工程將分兩個階段進行。\n\n第一階段（1 月 20 日至 2 月 14 日）：東側將關閉。行銷團隊將暫時搬到二樓的會議室。\n\n第二階段（2 月 17 日至 3 月 13 日）：西側將關閉，會計團隊將搬進已完工的東側。\n\n舊的辦公隔間將改為開放式辦公桌，並增設兩間小型會議室。過渡期間收納空間有限，請把不再需要的文件丟掉。機密文件必須放進影印機旁上鎖的回收箱，不可丟進一般的資源回收桶。\n\n搬家用的紙箱將於 1 月 15 日發放。詳細時程表如附件。",
+  "words": [
+   "renovation",
+   "phase",
+   "relocate",
+   "cubicle",
+   "transition",
+   "discard",
+   "confidential",
+   "timeline"
+  ],
+  "qs": [
+   {
+    "q": "What is the memo mainly about?",
+    "answer": "A plan for remodeling part of an office",
+    "distractors": [
+     "A change in company ownership",
+     "New rules for booking conference rooms",
+     "The hiring of a facilities manager"
+    ],
+    "ex": "主旨 Fourth-floor renovation 和第一句 the renovation of the fourth floor will be carried out in two phases 說明主題是四樓辦公室分兩階段整修的計畫，renovation 是「整修」。公司易主、會議室預約規定、招募經理都沒有提到。"
+   },
+   {
+    "q": "Where will the marketing team work during Phase 1?",
+    "answer": "On the second floor",
+    "distractors": [
+     "On the east side of the fourth floor",
+     "On the west side of the fourth floor",
+     "In a building across the street"
+    ],
+    "ex": "Phase 1 寫到 The marketing team will relocate temporarily to the conference rooms on the second floor，relocate 是「搬遷」，所以行銷團隊會暫時搬到二樓的會議室。東側在第一階段會關閉，文中也沒有說他們搬到西側或別棟大樓。"
+   },
+   {
+    "q": "The word \"discard\" in the memo is closest in meaning to",
+    "answer": "throw away",
+    "distractors": [
+     "print out",
+     "put in order",
+     "sign"
+    ],
+    "ex": "Storage space will be limited ... so please discard any documents you no longer need，因為收納空間有限，不需要的文件請「丟掉」，discard 就是 throw away。print out 是列印出來、put in order 是整理好、sign 是簽名。"
+   }
+  ]
+ },
+ {
+  "part": 7,
+  "kind": "advertisement",
+  "title": "Now Hiring: Sales Associate",
+  "text": "NOW HIRING: Sales Associate\nDelmar Home Furnishings\n\nDelmar Home Furnishings, a family-owned corporation with 14 stores, is recruiting a full-time Sales Associate for its Kingsport branch.\n\nResponsibilities:\n- Help customers choose furniture that fits their needs and budget\n- Process transactions and arrange deliveries\n- Check showroom inventory every week\n\nRequirements:\n- An enthusiastic and reliable personality\n- Availability to work two Saturdays per month\n- Prior retail experience is beneficial but not essential. All new staff receive a one-week orientation.\n\nWe offer a competitive salary plus commission on every sale, as well as paid vacation and a staff discount. Associates become eligible for health insurance coverage after three months.\n\nTo apply, send your résumé and the names of two references to our Personnel Department by October 31.",
+  "zh": "徵才：銷售人員\nDelmar Home Furnishings\n\nDelmar Home Furnishings 是一家擁有 14 家門市的家族企業，現正為 Kingsport 分店招募一名全職銷售人員。\n\n工作內容：\n- 協助顧客挑選符合需求和預算的家具\n- 處理交易並安排送貨\n- 每週清點展示間的庫存\n\n應徵條件：\n- 個性熱忱、可靠\n- 每個月可配合兩個星期六上班\n- 有零售業經驗者佳，但並非必要。所有新進員工都會接受為期一週的新進人員訓練。\n\n我們提供具競爭力的薪資，每筆銷售另有佣金，並享有有薪假和員工折扣。到職滿三個月後即可享有健康保險。\n\n意者請於 10 月 31 日前，將履歷及兩位推薦人的姓名寄至本公司人事部。",
+  "words": [
+   "associate",
+   "recruit",
+   "transaction",
+   "enthusiastic",
+   "beneficial",
+   "orientation",
+   "commission",
+   "eligible"
+  ],
+  "qs": [
+   {
+    "q": "What position is being advertised?",
+    "answer": "A salesperson at a furniture store",
+    "distractors": [
+     "A delivery driver",
+     "A store manager",
+     "A furniture designer"
+    ],
+    "ex": "標題 Sales Associate 是「銷售人員」，工作內容第一項是 Help customers choose furniture，所以是家具店的銷售人員。arrange deliveries 只是安排送貨，不是當司機；文中也不是徵店長或設計師。"
+   },
+   {
+    "q": "What is stated about previous retail experience?",
+    "answer": "It is helpful but not required",
+    "distractors": [
+     "It is required for all applicants",
+     "It must be at least one year long",
+     "It replaces the orientation"
+    ],
+    "ex": "Prior retail experience is beneficial but not essential，beneficial 是「有幫助的」，not essential 是「不是必要的」，所以有經驗更好，但沒有也可以應徵。文中沒有規定年資，而且 All new staff 都要參加一週的 orientation（新進人員訓練）。"
+   },
+   {
+    "q": "What is NOT mentioned as a benefit of the job?",
+    "answer": "A company car",
+    "distractors": [
+     "Commission on sales",
+     "Paid vacation",
+     "A discount for staff"
+    ],
+    "ex": "文中提到 commission on every sale（銷售佣金）、paid vacation（有薪假）和 a staff discount（員工折扣），這三項都有。公司配車沒有提到。"
+   }
+  ]
+ },
+ {
+  "part": 7,
+  "kind": "message",
+  "title": "Flight delay and the Ellis meeting",
+  "text": "Nina Petrov (2:05 P.M.): Bad news, Tom. My flight to Denver has been delayed three hours because of a safety inspection. I won't reach the client's office before 6:00.\nTom Becker (2:08 P.M.): That's a problem. The contract review with Ellis Corporation is at 4:30.\nNina Petrov (2:09 P.M.): Could you conduct the meeting without me? You know the proposal as well as I do.\nTom Becker (2:12 P.M.): I can outline the pricing, but they will want you to clarify the warranty clause. What if I ask them to move the meeting to tomorrow morning?\nNina Petrov (2:13 P.M.): Good idea. I'm free until 11:00.\nTom Becker (2:25 P.M.): Done. Their representative agreed to 9:00 A.M. tomorrow. She says that time actually suits them better.\nNina Petrov (2:26 P.M.): I'm so relieved. Thanks for resolving that so quickly.",
+  "zh": "Nina Petrov（下午 2:05）：Tom，壞消息。我飛往丹佛的班機因為安全檢查延誤了三個小時，6 點以前到不了客戶的辦公室。\nTom Becker（下午 2:08）：這下麻煩了。和 Ellis Corporation 的合約審閱會議是 4 點半。\nNina Petrov（下午 2:09）：你可以自己主持會議嗎？這份提案你跟我一樣熟。\nTom Becker（下午 2:12）：價格的部分我可以大致說明，但他們會希望由你來把保固條款講清楚。我請他們把會議改到明天早上怎麼樣？\nNina Petrov（下午 2:13）：好主意。我 11 點以前都有空。\nTom Becker（下午 2:25）：搞定了。對方的代表同意改到明天早上 9 點。她說那個時間其實對他們更方便。\nNina Petrov（下午 2:26）：我鬆了一口氣。謝謝你這麼快就解決了。",
+  "words": [
+   "review",
+   "conduct",
+   "outline",
+   "clarify",
+   "warranty",
+   "clause",
+   "relieve",
+   "resolve"
+  ],
+  "qs": [
+   {
+    "q": "What problem does Ms. Petrov report?",
+    "answer": "Her flight is behind schedule",
+    "distractors": [
+     "She lost a contract",
+     "Her hotel reservation was canceled",
+     "A client rejected a proposal"
+    ],
+    "ex": "My flight to Denver has been delayed three hours，delayed 是「延誤」，也就是她的班機比原定時間晚了三個小時。合約還要開會審閱，並沒有丟掉；飯店訂房和客戶拒絕提案都沒有提到。"
+   },
+   {
+    "q": "When will the meeting with Ellis Corporation now take place?",
+    "answer": "At 9:00 A.M. tomorrow",
+    "distractors": [
+     "At 4:30 P.M. today",
+     "At 6:00 P.M. today",
+     "At 11:00 A.M. tomorrow"
+    ],
+    "ex": "Their representative agreed to 9:00 A.M. tomorrow，對方代表同意改到明天早上 9 點。4:30 是原本的開會時間，6:00 是她最快能到的時間，11:00 是她明天有空到幾點。"
+   },
+   {
+    "q": "Why does Mr. Becker suggest changing the meeting time?",
+    "answer": "The client will want Ms. Petrov to explain a clause",
+    "distractors": [
+     "He has not had enough time to read the whole proposal",
+     "He has another meeting at 4:30",
+     "He is unable to describe the pricing"
+    ],
+    "ex": "他說 they will want you to clarify the warranty clause，clarify 是「說明清楚」，clause 是「條款」，客戶會希望由 Ms. Petrov 親自說明保固條款，所以他提議改時間。Ms. Petrov 說 You know the proposal as well as I do，他自己也說 I can outline the pricing，所以其他說法都不對。"
+   }
+  ]
+ },
+ {
+  "part": 7,
+  "kind": "article",
+  "title": "Factory Cuts Electricity Use by a Fifth",
+  "text": "Factory Cuts Electricity Use by a Fifth\n\nGREENFIELD — Halden Plastics, which manufactures food containers, has reduced its electricity consumption by 20 percent in one year, the company revealed on Tuesday.\n\nThe savings came from three measures. First, the firm replaced its old lighting with LED lamps. Second, it installed sensors that monitor each machine and switch it off automatically when it is not in use. Finally, solar panels on the roof now generate about a tenth of the plant's power.\n\nOperations manager Rita Collins acknowledged that the initial investment of $400,000 was significant. \"It was hard to justify at first,\" she said, \"but the project will pay for itself in four years.\"\n\nHalden intends to implement the same strategy at its second plant next spring. Ms. Collins added that greater efficiency has also enhanced the company's reputation among its customers.",
+  "zh": "工廠用電量減少五分之一\n\nGREENFIELD 訊 — 生產食品容器的 Halden Plastics 星期二透露，該公司在一年內把用電量減少了 20%。\n\n節省下來的電力來自三項措施。第一，公司把舊的照明設備換成 LED 燈。第二，安裝感應器監控每一台機器，機器沒有使用時會自動關閉。最後，屋頂上的太陽能板現在可以產生工廠大約十分之一的電力。\n\n營運經理 Rita Collins 坦承，40 萬美元的初期投資金額相當可觀。她說：「一開始很難說明這筆錢為什麼值得花，但這項計畫四年就能回本。」\n\nHalden 打算明年春天在第二座工廠實施同樣的策略。Collins 女士還說，效率提升也提高了公司在顧客心中的聲譽。",
+  "words": [
+   "manufacture",
+   "consumption",
+   "reveal",
+   "measure",
+   "monitor",
+   "generate",
+   "justify",
+   "implement"
+  ],
+  "qs": [
+   {
+    "q": "What is the article mainly about?",
+    "answer": "A company's cut in electricity use",
+    "distractors": [
+     "A rise in the price of plastic containers",
+     "The opening of a new factory",
+     "A shortage of solar panels"
+    ],
+    "ex": "標題 Factory Cuts Electricity Use by a Fifth 和第一段 has reduced its electricity consumption by 20 percent 說明主題是這家公司成功減少用電，consumption 是「消耗量」。塑膠漲價和太陽能板短缺都沒提到；公司只是要在現有的第二座工廠採用同樣做法，並不是新開工廠。"
+   },
+   {
+    "q": "How much of the plant's power comes from the solar panels?",
+    "answer": "About one-tenth",
+    "distractors": [
+     "About one-fifth",
+     "About one-half",
+     "Nearly all of it"
+    ],
+    "ex": "solar panels on the roof now generate about a tenth of the plant's power，a tenth 是「十分之一」。a fifth（五分之一，也就是 20%）是整體用電量減少的幅度，不是太陽能板的發電比例。"
+   },
+   {
+    "q": "What is NOT one of the measures the company took?",
+    "answer": "Buying new production machines",
+    "distractors": [
+     "Changing the lighting",
+     "Installing sensors on machines",
+     "Adding solar panels"
+    ],
+    "ex": "三項措施是 replaced its old lighting with LED lamps（更換燈具）、installed sensors that monitor each machine（安裝感應器）和 solar panels on the roof（屋頂太陽能板）。文中沒有說公司購買新的生產機器。"
+   }
+  ]
+ },
+ {
+  "part": 7,
+  "kind": "letter",
+  "title": "Replacement for your AirPure 200",
+  "text": "Solvane Appliances\nCustomer Care Department\n\nNovember 3\n\nMs. Grace Huang\n77 Cedar Avenue\n\nDear Ms. Huang,\n\nThank you for returning your Solvane AirPure 200 air purifier to us. Our technicians have completed their inspection and determined that the fan motor was defective when it left the factory. We sincerely apologize.\n\nAs your purchase is still under warranty, you will not bear any cost. Unfortunately, the AirPure 200 is no longer manufactured, so we cannot send you an identical unit. As a substitute, we will ship you the AirPure 300, a newer model of equivalent size with a quieter motor. It should reach you within five business days.\n\nTo compensate you for the inconvenience, we have enclosed a voucher for two free filters, which can be redeemed at any Solvane store.\n\nSincerely,\nVictor Almeida\nCustomer Care Manager",
+  "zh": "Solvane Appliances\n客戶服務部\n\n11 月 3 日\n\nGrace Huang 小姐\nCedar Avenue 77 號\n\n黃小姐您好：\n\n感謝您將 Solvane AirPure 200 空氣清淨機寄回給我們。我們的技術人員已完成檢查，確定風扇馬達在出廠時就有瑕疵。我們誠摯地向您致歉。\n\n由於您購買的產品仍在保固期內，您不需要負擔任何費用。可惜 AirPure 200 已經停產，我們無法寄給您一模一樣的機型。作為替代，我們會寄給您 AirPure 300，這是比較新的機型，大小相同，馬達更安靜。應該會在五個工作天內送達。\n\n為了補償造成您的不便，我們隨信附上一張可兌換兩個免費濾網的兌換券，在任何一家 Solvane 門市都可以兌換。\n\n敬上\nVictor Almeida\n客戶服務部經理",
+  "words": [
+   "determine",
+   "defective",
+   "warranty",
+   "bear",
+   "substitute",
+   "equivalent",
+   "compensate",
+   "redeem"
+  ],
+  "qs": [
+   {
+    "q": "What is the purpose of the letter?",
+    "answer": "To explain how a problem will be fixed",
+    "distractors": [
+     "To ask a customer to send back a broken item",
+     "To promote a new line of filters",
+     "To refuse a warranty claim"
+    ],
+    "ex": "信中先說明檢查結果 the fan motor was defective（風扇馬達有瑕疵），再說 we will ship you the AirPure 300，所以目的是說明公司會怎麼處理這個產品問題。顧客已經把商品寄回了；濾網兌換券只是補償；產品 still under warranty，保固並沒有被拒絕。"
+   },
+   {
+    "q": "Why will Ms. Huang receive a different model?",
+    "answer": "The original model is no longer made",
+    "distractors": [
+     "She asked for a quieter machine",
+     "Her warranty has expired",
+     "The newer model costs less"
+    ],
+    "ex": "the AirPure 200 is no longer manufactured, so we cannot send you an identical unit，manufacture 是「製造」，原本的型號已經停產，所以改寄 AirPure 300。信中沒有說她要求換機型，保固也還有效（still under warranty），文中更沒有比較價格。"
+   },
+   {
+    "q": "What is suggested about the AirPure 300?",
+    "answer": "It is quieter than the AirPure 200",
+    "distractors": [
+     "It is much larger than the AirPure 200",
+     "Ms. Huang must pay extra for it",
+     "It will arrive the next day"
+    ],
+    "ex": "a newer model of equivalent size with a quieter motor，quieter 是「比較安靜」，所以新機型的噪音比較小。equivalent size 表示大小相同；you will not bear any cost 表示不用付任何費用；送達時間是 within five business days，不是隔天。"
+   }
+  ]
+ },
+ {
+  "part": 7,
+  "kind": "announcement",
+  "title": "Lakeshore Small Business Expo: Call for Vendors",
+  "text": "Lakeshore Small Business Expo: Call for Vendors\n\nThe Lakeshore Business Association will hold its tenth annual Small Business Expo on Saturday, September 19, at Pier Hall. Last year's event attracted more than 3,000 visitors, and we expect an even larger crowd this year thanks to a publicity campaign on local radio.\n\nLocal vendors are invited to reserve a booth to display their products and distribute samples. A booth costs $150, which includes a table, two chairs, electricity, and a listing in the printed event directory. Because space is limited to 80 booths, applications will be accepted in the order they arrive.\n\nNew this year: three free seminars on topics such as online marketing and financial planning.\n\nTo apply, submit the form on our website with your payment by August 15. No refunds will be granted after September 1.",
+  "zh": "Lakeshore 小型企業博覽會：攤商招募\n\nLakeshore 商業協會將於 9 月 19 日星期六在 Pier Hall 舉辦第十屆年度小型企業博覽會。去年的活動吸引了超過 3,000 名訪客，今年由於在地方電台進行宣傳活動，我們預期人潮會更多。\n\n歡迎在地商家預訂攤位，展示產品並發送試用品。每個攤位 150 美元，包含一張桌子、兩張椅子、電力，以及在活動紙本名錄上刊登資訊。由於場地僅能容納 80 個攤位，將依照申請送達的先後順序受理。\n\n今年新增：三場免費研討會，主題包括網路行銷和財務規劃等。\n\n報名請於 8 月 15 日前，在我們的網站上提交表單並完成付款。9 月 1 日之後恕不退費。",
+  "words": [
+   "vendor",
+   "publicity",
+   "campaign",
+   "distribute",
+   "directory",
+   "seminar",
+   "financial",
+   "grant"
+  ],
+  "qs": [
+   {
+    "q": "What is the purpose of the announcement?",
+    "answer": "To invite businesses to join an event",
+    "distractors": [
+     "To thank visitors who came last year",
+     "To find speakers for seminars",
+     "To report a change of venue"
+    ],
+    "ex": "標題 Call for Vendors 是「徵求攤商」，內文說 Local vendors are invited to reserve a booth，目的是邀請商家報名參加博覽會。文中沒有感謝去年的訪客、徵求講師或更換場地。"
+   },
+   {
+    "q": "What is included in the booth fee?",
+    "answer": "A listing in the event directory",
+    "distractors": [
+     "Advertising on local radio",
+     "A parking space",
+     "Lunch for two people at the booth"
+    ],
+    "ex": "A booth costs $150, which includes a table, two chairs, electricity, and a listing in the printed event directory。directory 是「名錄」，攤位費包含在活動名錄上刊登資訊。電台宣傳是主辦單位為整個活動做的，停車位和午餐都沒有提到。"
+   },
+   {
+    "q": "What is suggested about booth applications?",
+    "answer": "Early applicants are more likely to get a booth",
+    "distractors": [
+     "They are accepted until the day of the expo, September 19",
+     "They must include product samples",
+     "They cost nothing before August 15"
+    ],
+    "ex": "Because space is limited to 80 booths, applications will be accepted in the order they arrive。攤位只有 80 個，而且按照送達的先後順序受理，所以越早申請越有機會。申請期限是 August 15；samples 是在攤位上發給訪客的，不是申請時要附的；攤位費一律是 150 美元。"
+   }
+  ]
+ },
+ {
+  "part": 7,
+  "kind": "review",
+  "title": "Venue Review: Elmwood Conference Center",
+  "text": "Venue Review: Elmwood Conference Center\nPosted by: Sandra Kowalski, Event Coordinator\nRating: 3 out of 5\n\nWe held our annual sales seminar at Elmwood last month for 150 employees. The main hall was spacious and well equipped, and the onsite technician resolved a projector problem within minutes. The catering was excellent too. The lunch buffet offered numerous choices, and nothing ran out.\n\nHowever, there were two significant problems. Parking was insufficient. The lot has only 60 spaces, so many of our staff had to park several blocks away. In addition, the air conditioning in the smaller workshop rooms was not adequate for a hot afternoon, and several participants complained.\n\nThe manager apologized and deducted 10 percent from our invoice, which I appreciated. I would consider Elmwood again for a smaller group, but it is not suitable for an event of our scale.",
+  "zh": "場地評論：Elmwood Conference Center\n發文者：Sandra Kowalski，活動統籌\n評分：5 分中的 3 分\n\n上個月我們在 Elmwood 為 150 名員工舉辦了年度業務研討會。主廳寬敞、設備齊全，駐場的技術人員幾分鐘內就解決了投影機的問題。外燴也很出色，午餐自助餐的選擇很多，而且沒有任何一道菜不夠。\n\n不過，有兩個重大的問題。停車位不足，停車場只有 60 個車位，所以我們很多同仁必須把車停在好幾個街區之外。此外，較小的幾間研習教室冷氣不夠強，應付不了炎熱的下午，有好幾位參加者抱怨。\n\n經理向我們道歉，並從發票金額中扣除了 10%，這一點我很感謝。如果是人數比較少的團體，我會考慮再選 Elmwood，但它並不適合我們這種規模的活動。",
+  "words": [
+   "onsite",
+   "resolve",
+   "catering",
+   "numerous",
+   "insufficient",
+   "adequate",
+   "deduct",
+   "scale"
+  ],
+  "qs": [
+   {
+    "q": "What does the reviewer conclude about the venue?",
+    "answer": "It is better suited to smaller events",
+    "distractors": [
+     "It is ideal for large companies",
+     "It should change its catering company",
+     "It charges too much for parking"
+    ],
+    "ex": "最後一句 I would consider Elmwood again for a smaller group, but it is not suitable for an event of our scale，scale 是「規模」，她認為這個場地比較適合小型活動。外燴她很滿意（excellent）；停車的問題是車位不夠，不是收費太貴。"
+   },
+   {
+    "q": "What problem did the group have with parking?",
+    "answer": "There were too few spaces",
+    "distractors": [
+     "The fee was too high",
+     "The lot was closed for repairs",
+     "The entrance was hard to find"
+    ],
+    "ex": "Parking was insufficient. The lot has only 60 spaces，insufficient 是「不足的」，150 人參加卻只有 60 個車位，所以是車位太少。收費、整修、入口難找文中都沒有提到。"
+   },
+   {
+    "q": "What does the reviewer NOT praise?",
+    "answer": "The air conditioning",
+    "distractors": [
+     "The main hall",
+     "The food",
+     "The technical support"
+    ],
+    "ex": "她稱讚了 main hall（spacious and well equipped）、catering（excellent）和 onsite technician（幾分鐘內解決投影機問題）。冷氣則是 not adequate for a hot afternoon，adequate 是「足夠的」，這是她抱怨的地方。"
+   }
+  ]
+ },
+ {
+  "part": 7,
+  "kind": "form",
+  "title": "Staff Development Day: Schedule",
+  "text": "Northfield Retail Group\nStaff Development Day: Schedule\nFriday, October 9, Head Office, Room 3\n\n8:30 Registration and coffee\n9:00 Overview of this year's results (Diane Foster, Operations Director)\n9:30 Workshop: Resolving customer disputes (Paul Jensen)\n11:00 Break\n11:15 Seminar: Our online sales strategy (Maria Santos)\n12:30 Lunch (catering provided)\n1:30 Workshop: Keeping accurate inventory records (Paul Jensen)\n3:00 Closing remarks (Diane Foster)\n\nNotes:\nAttendance is mandatory for all branch managers. Assistant managers are welcome to attend if their branch has adequate staff coverage on that day. If you have special meal requirements, please notify Ms. Foster's office by October 2. Handouts will be distributed at registration. Parking is available behind the building, but spaces are limited, so please share a car if possible.",
+  "zh": "Northfield Retail Group\n員工進修日：議程表\n10 月 9 日星期五，總公司 3 號會議室\n\n8:30 報到及咖啡時間\n9:00 本年度業績概述（營運總監 Diane Foster）\n9:30 工作坊：化解顧客糾紛（Paul Jensen）\n11:00 休息\n11:15 研討會：我們的線上銷售策略（Maria Santos）\n12:30 午餐（提供外燴）\n1:30 工作坊：維持正確的庫存紀錄（Paul Jensen）\n3:00 結語（Diane Foster）\n\n備註：\n所有分店經理都必須出席。副理若所屬分店當天人手充足，也歡迎參加。如有特殊餐點需求，請於 10 月 2 日前通知 Foster 女士的辦公室。講義將在報到時發放。大樓後方可以停車，但車位有限，請盡量共乘。",
+  "words": [
+   "overview",
+   "dispute",
+   "strategy",
+   "accurate",
+   "inventory",
+   "mandatory",
+   "adequate",
+   "coverage"
+  ],
+  "qs": [
+   {
+    "q": "What kind of document is this?",
+    "answer": "A program for a training day",
+    "distractors": [
+     "A menu for a company lunch",
+     "A list of job openings",
+     "A report on sales results"
+    ],
+    "ex": "標題 Staff Development Day: Schedule 加上各時段的 Workshop、Seminar，可以知道這是員工訓練日的議程表。午餐只是其中一個時段，不是菜單；文中沒有職缺，也不是業績報告。"
+   },
+   {
+    "q": "Who will lead the session on inventory records?",
+    "answer": "Paul Jensen",
+    "distractors": [
+     "Diane Foster",
+     "Maria Santos",
+     "A branch manager"
+    ],
+    "ex": "1:30 那一行是 Workshop: Keeping accurate inventory records (Paul Jensen)，inventory 是「庫存」，所以由 Paul Jensen 主講。Diane Foster 負責開場的概述和結語，Maria Santos 講的是線上銷售策略。"
+   },
+   {
+    "q": "What is suggested about assistant managers?",
+    "answer": "They can come if their store has enough staff",
+    "distractors": [
+     "They are required to attend both workshops and the seminar",
+     "They will lead a workshop",
+     "They must bring their own lunch"
+    ],
+    "ex": "Assistant managers are welcome to attend if their branch has adequate staff coverage on that day，adequate 是「足夠的」，coverage 在這裡指「有人顧店」，也就是分店當天人手夠才可以來。必須參加（mandatory）的是 branch managers；工作坊由 Paul Jensen 主講；午餐有提供外燴。"
+   }
+  ]
+ },
+ {
+  "part": 6,
+  "kind": "email",
+  "title": "Your subscription ends soon",
+  "text": "To: Henry Clark\nFrom: Member Services, Business Insight Weekly\nSubject: Your subscription ends soon\n\nDear Mr. Clark,\n\nYour subscription to Business Insight Weekly will end on June 30. To continue receiving the publication without interruption, please [1] ------- your subscription before that date.\n\nAs a loyal reader, you are [2] ------- for an exclusive rate of $79 per year, a saving of 20 percent on the regular price. You will also keep full access to our online library, which contains more than ten years of articles and market analysis.\n\nThe process is simple. Visit our website, enter the customer number shown above, and choose a payment method. [3] -------, you may call a customer representative at 555-0199 on weekdays between 9:00 A.M. and 5:00 P.M.\n\nThank you for your continued support.\n\nMember Services",
+  "zh": "收件人：Henry Clark\n寄件人：Business Insight Weekly 會員服務部\n主旨：您的訂閱即將到期\n\nClark 先生您好：\n\n您訂閱的 Business Insight Weekly 將於 6 月 30 日到期。為了讓您不間斷地收到本刊，請在該日期之前續訂。\n\n身為忠實讀者，您有資格享有每年 79 美元的專屬優惠價，比原價省下 20%。您也可以繼續完整使用我們的線上資料庫，裡面收錄了十多年來的文章和市場分析。\n\n手續很簡單：請上我們的網站，輸入上方所示的客戶編號，再選擇付款方式即可。或者，您也可以在週一至週五上午 9 點至下午 5 點之間，撥 555-0199 與客服代表聯絡。\n\n感謝您長期的支持。\n\n會員服務部",
+  "words": [
+   "publication",
+   "renew",
+   "eligible",
+   "exclusive",
+   "analysis",
+   "representative"
+  ],
+  "qs": [
+   {
+    "q": "[1]",
+    "answer": "renew",
+    "distractors": [
+     "suspend",
+     "decline",
+     "duplicate"
+    ],
+    "ex": "訂閱 6 月 30 日到期，想要繼續收到刊物（To continue receiving the publication）就要「續訂」，renew a subscription 是固定搭配。suspend 是暫停、decline 是拒絕、duplicate 是複製，都和「繼續收到」的意思不合。"
+   },
+   {
+    "q": "[2]",
+    "answer": "eligible",
+    "distractors": [
+     "capable",
+     "available",
+     "mandatory"
+    ],
+    "ex": "be eligible for 是「有資格享有…」，忠實讀者有資格享有專屬優惠價。capable 是「有能力的」，後面要接 of；available 是「可取得的、有空的」，不能用來說人有資格享受優惠；mandatory 是「強制的」，意思不通。"
+   },
+   {
+    "q": "[3]",
+    "answer": "Alternatively",
+    "distractors": [
+     "Therefore",
+     "For example",
+     "Nevertheless"
+    ],
+    "ex": "前一句說可以上網站辦理，這一句說也可以打電話，是兩種方式二選一，所以用 Alternatively（或者、另一個方法是）。Therefore 是因此、For example 是舉例來說、Nevertheless 是儘管如此，都接不上前後文。"
+   }
+  ]
+ },
+ {
+  "part": 6,
+  "kind": "notice",
+  "title": "Parking Lot B closed August 3 to 7",
+  "text": "NOTICE: Parking Lot B Closed August 3 to 7\nPosted July 27\n\nParking Lot B, behind the main building, [1] ------- from Monday, August 3, to Friday, August 7, while the surface is repaired and new lines are painted. For safety reasons, entry to the area will be restricted to the construction personnel.\n\nDuring this period, employees who normally use Lot B should park in Lot D on Franklin Street. A free shuttle bus will run between Lot D and the main entrance every fifteen minutes from 7:00 A.M. to 7:00 P.M. [2] -------\n\nPlease ensure that your vehicle is moved by 8:00 P.M. on Sunday, August 2. Any vehicles remaining after that time will be removed at the owner's expense.\n\nWe apologize for the [3] ------- and thank you for your cooperation. For further information, call extension 250.\n\nFacilities Department",
+  "zh": "公告：B 停車場 8 月 3 日至 7 日關閉\n公告日期：7 月 27 日\n\n主大樓後方的 B 停車場將於 8 月 3 日星期一至 8 月 7 日星期五關閉，以便修補路面並重新劃線。基於安全考量，該區域僅限施工人員進入。\n\n在這段期間，平常使用 B 停車場的員工請改停 Franklin Street 上的 D 停車場。免費接駁車將於上午 7 點至晚上 7 點之間，每十五分鐘一班，往返 D 停車場和大門口。或者，從 D 停車場走路過來大約十分鐘。\n\n請確保在 8 月 2 日星期日晚上 8 點前把車移走。逾時仍未移走的車輛將予以拖吊，費用由車主負擔。\n\n造成不便，敬請見諒，並感謝您的配合。如需進一步資訊，請撥分機 250。\n\n總務部",
+  "words": [
+   "restrict",
+   "personnel",
+   "ensure",
+   "inconvenience",
+   "further"
+  ],
+  "qs": [
+   {
+    "q": "[1]",
+    "answer": "will be closed",
+    "distractors": [
+     "has been closed",
+     "was closing",
+     "closing"
+    ],
+    "ex": "公告日期是 July 27，停車場關閉是 8 月 3 日到 7 日，是未來的事，而且停車場是「被關閉」，所以用未來式被動 will be closed。has been closed 是現在完成式，表示已經關閉；was closing 是過去進行式；closing 不能單獨當句子的動詞。"
+   },
+   {
+    "q": "[2]",
+    "answer": "Alternatively, the walk from Lot D takes about ten minutes.",
+    "distractors": [
+     "As a result, Lot D will also be closed that week.",
+     "Therefore, employees must pay the bus fare in cash.",
+     "Thank you for attending the opening ceremony."
+    ],
+    "ex": "前一句介紹了免費接駁車，接著補充另一個選擇「或者，從 Lot D 走路過來大約十分鐘」最通順。Lot D 是這一週的替代停車場，不可能也關閉；接駁車是 free（免費），不用付車資；文中沒有任何開幕典禮。"
+   },
+   {
+    "q": "[3]",
+    "answer": "inconvenience",
+    "distractors": [
+     "precaution",
+     "compensation",
+     "circumstance"
+    ],
+    "ex": "We apologize for the inconvenience 是公告和信件裡常見的句子，意思是「造成不便，敬請見諒」。precaution 是預防措施、compensation 是補償、circumstance 是情況，都不是需要道歉的事。"
+   }
+  ]
+ },
+ {
+  "part": 6,
+  "kind": "memo",
+  "title": "Annual performance reviews",
+  "text": "MEMO\nTo: All department managers\nFrom: Susan Miller, Personnel Director\nSubject: Annual performance reviews\n\nThis year's performance reviews will be [1] ------- between November 2 and November 20. Each manager is expected to meet individually with every member of his or her team for about 45 minutes.\n\nBefore the meeting, ask each employee to complete the self-evaluation form, which is available on the company intranet. During the meeting, discuss the past year's results and agree on three [2] ------- objectives for next year, such as a sales figure or a completion date. Goals that are too general are difficult to measure.\n\nAll completed forms must reach my office by November 27. [3] ------- salary increases are based on these reviews, late forms may delay the changes to your team's pay.\n\nThank you for your cooperation.",
+  "zh": "備忘錄\n收件人：各部門經理\n寄件人：Susan Miller，人事總監\n主旨：年度績效考核\n\n今年的績效考核將於 11 月 2 日至 11 月 20 日之間進行。每位經理都應該和團隊的每一位成員個別面談，每次大約 45 分鐘。\n\n面談之前，請每位員工先填寫自我評量表，表單可在公司內部網路取得。面談時，請討論過去一年的成果，並共同訂出明年的三個具體目標，例如業績數字或完成日期。太籠統的目標很難衡量。\n\n所有填妥的表單必須在 11 月 27 日前送達我的辦公室。由於調薪是以這些考核為依據，表單遲交可能會延誤貴團隊的薪資調整。\n\n感謝您的配合。",
+  "words": [
+   "personnel",
+   "review",
+   "conduct",
+   "concrete",
+   "objective",
+   "measure"
+  ],
+  "qs": [
+   {
+    "q": "[1]",
+    "answer": "conducted",
+    "distractors": [
+     "consumed",
+     "conveyed",
+     "consulted"
+    ],
+    "ex": "conduct a review 是「進行考核」，被動就是 reviews will be conducted。consumed 是消耗、conveyed 是傳達、consulted 是請教或查閱，都不能和「績效考核」搭配表示「舉行」。"
+   },
+   {
+    "q": "[2]",
+    "answer": "concrete",
+    "distractors": [
+     "artificial",
+     "defective",
+     "overdue"
+    ],
+    "ex": "後面舉的例子是 a sales figure or a completion date（業績數字或完成日期），而且說 too general（太籠統）的目標很難衡量，所以要訂「具體的」目標，concrete objectives。artificial 是人造的、defective 是有瑕疵的、overdue 是逾期的。"
+   },
+   {
+    "q": "[3]",
+    "answer": "Because",
+    "distractors": [
+     "Although",
+     "Unless",
+     "Whether"
+    ],
+    "ex": "前半句「調薪是根據這些考核」是原因，後半句「表單遲交可能延誤調薪」是結果，所以用表示原因的 Because。Although 是雖然、Unless 是除非、Whether 是是否，邏輯都不對。"
+   }
+  ]
+ },
+ {
+  "part": 6,
+  "kind": "letter",
+  "title": "Grant for the Riverside Youth Music Program",
+  "text": "Clearwater Community Foundation\n45 Bridge Street\n\nFebruary 10\n\nMs. Elena Vargas\nDirector, Riverside Youth Music Program\n\nDear Ms. Vargas,\n\nOn behalf of the Clearwater Community Foundation, I am delighted to inform you that your program [1] ------- a grant of $15,000 for the coming year.\n\nOur committee received 62 applications and evaluated each one against strict criteria. Your proposal stood out because of its clear budget and its strong [2] ------- to offering free lessons to local children.\n\nThe funds will be transferred in two installments, in March and September. [3] ------- the second payment, we ask that you submit a short report by August 15 describing how the first half of the grant was used.\n\nCongratulations. We look forward to hearing about your progress.\n\nSincerely,\nThomas Reed\nChair, Grants Committee",
+  "zh": "Clearwater Community Foundation\nBridge Street 45 號\n\n2 月 10 日\n\nElena Vargas 女士\nRiverside Youth Music Program 主任\n\nVargas 女士您好：\n\n謹代表 Clearwater Community Foundation 很高興地通知您，貴計畫已獲得下一年度 15,000 美元的補助金。\n\n本會委員會共收到 62 份申請，並依照嚴格的標準逐一評估。您的提案之所以脫穎而出，是因為預算清楚，而且對於為在地兒童提供免費課程有很深的投入。\n\n補助款將分兩期撥付，分別在三月和九月。在撥付第二期款項之前，請您於 8 月 15 日前提交一份簡短的報告，說明前半筆補助金的使用情形。\n\n恭喜您。期待聽到您的進展。\n\n敬上\nThomas Reed\n補助委員會主席",
+  "words": [
+   "foundation",
+   "grant",
+   "evaluate",
+   "criteria",
+   "commitment",
+   "installment",
+   "prior"
+  ],
+  "qs": [
+   {
+    "q": "[1]",
+    "answer": "has been awarded",
+    "distractors": [
+     "has awarded",
+     "will award",
+     "awarding"
+    ],
+    "ex": "主詞 your program 是「獲得」補助金的一方，所以要用被動語態 has been awarded a grant（獲頒補助金）。has awarded 和 will award 是主動，意思會變成貴計畫頒發補助金給別人；awarding 不能單獨當句子的動詞。"
+   },
+   {
+    "q": "[2]",
+    "answer": "commitment",
+    "distractors": [
+     "commit",
+     "committed",
+     "commits"
+    ],
+    "ex": "空格前面有所有格 its 和形容詞 strong，所以要放名詞；commitment to + V-ing 是「對…的投入、承諾」。commit 和 commits 是動詞，committed 是過去分詞或形容詞，都不能放在形容詞 strong 後面當名詞用。"
+   },
+   {
+    "q": "[3]",
+    "answer": "Prior to",
+    "distractors": [
+     "In spite of",
+     "According to",
+     "As a result of"
+    ],
+    "ex": "第二期款項在九月撥付，報告要在 8 月 15 日前交，也就是在第二次付款「之前」，所以用 Prior to（在…之前）。In spite of 是儘管、According to 是根據、As a result of 是由於，意思都不通。"
+   }
+  ]
+ },
+ {
+  "part": 6,
+  "kind": "advertisement",
+  "title": "Bennett & Shaw Accounting",
+  "text": "Bennett & Shaw Accounting: Let Us Handle the Numbers\n\nRunning a small business leaves little time for paperwork. If you are looking for a reliable partner, Bennett & Shaw can help. Our firm [1] ------- in accounting services for companies with fewer than 50 employees, from restaurants to design studios.\n\nOur team will prepare your invoices, process your payroll, and produce clear financial reports every month. Every client is assigned a [2] ------- accountant, so you will always speak with someone who knows your business well.\n\nOur fees are fixed and agreed in advance. [3] ------- That means no surprises when our invoice arrives.\n\nCall 555-0164 today to arrange a free one-hour meeting, or visit one of our three branches downtown.",
+  "zh": "Bennett & Shaw Accounting：數字的事交給我們\n\n經營小公司，實在沒有多少時間處理文書作業。如果您正在找一個可靠的夥伴，Bennett & Shaw 可以幫上忙。本事務所專門為員工少於 50 人的公司提供會計服務，客戶從餐廳到設計工作室都有。\n\n我們的團隊會為您開立發票、處理薪資，並且每個月製作清楚的財務報表。每位客戶都有一位專屬的會計師，所以您每次聯絡的都是熟悉貴公司業務的人。\n\n我們的收費固定，並且事先談定。絕不會另外收取超時費用。這表示您收到我們的帳單時不會有任何意外。\n\n今天就撥 555-0164 預約一小時的免費會談，或親臨我們在市中心的三家分所。",
+  "words": [
+   "reliable",
+   "specialize",
+   "invoice",
+   "financial",
+   "dedicated",
+   "branch"
+  ],
+  "qs": [
+   {
+    "q": "[1]",
+    "answer": "specializes",
+    "distractors": [
+     "provides",
+     "supervises",
+     "generates"
+    ],
+    "ex": "specialize in 是「專門從事、專精於」，空格後面有 in，只有 specializes 能接。provides（提供）、supervises（監督）、generates（產生）都是直接接受詞，後面不會加 in。"
+   },
+   {
+    "q": "[2]",
+    "answer": "dedicated",
+    "distractors": [
+     "temporary",
+     "consecutive",
+     "compulsory"
+    ],
+    "ex": "a dedicated accountant 是「專屬的會計師」，所以客戶每次都能和了解自己公司的同一個人聯絡。temporary 是臨時的，和後面的 always 矛盾；consecutive 是連續的、compulsory 是強制的，都不能用來形容會計師。"
+   },
+   {
+    "q": "[3]",
+    "answer": "You will never be charged for extra hours.",
+    "distractors": [
+     "Prices may change at any time without notice.",
+     "Our office is closed on public holidays.",
+     "We are currently recruiting two junior accountants."
+    ],
+    "ex": "前一句說費用固定並且事先談好，後一句說收到帳單不會有意外，中間放「絕不會另外收取超時費用」最連貫。價格隨時變動和 fixed 互相矛盾；假日休息和徵人都和收費無關，接不上 That means no surprises。"
+   }
+  ]
+ },
+ {
+  "part": 6,
+  "kind": "announcement",
+  "title": "Orbis Freight Appoints New Managing Director",
+  "text": "Orbis Freight Appoints New Managing Director\n\nOrbis Freight announced today that Laura Jennings will [1] ------- the role of managing director on January 1. She replaces Richard Dunn, who is retiring after 22 years with the corporation.\n\nMs. Jennings joined Orbis eight years ago as a regional sales manager and [2] ------- the company's European operations since 2021. Under her leadership, revenue in that region has risen by 35 percent.\n\n\"Laura understands both our customers and our personnel,\" said Mr. Dunn. \"I am confident that the company will continue to thrive.\"\n\nIn her new role, Ms. Jennings intends to place greater [3] ------- on digital tracking services, which allow clients to follow their shipments at every stage of the journey.\n\nMs. Jennings will address employees at the headquarters on January 4.",
+  "zh": "Orbis Freight 任命新任總經理\n\nOrbis Freight 今天宣布，Laura Jennings 將於 1 月 1 日接任總經理一職。她接替的是 Richard Dunn，他在公司服務 22 年後即將退休。\n\nJennings 女士八年前加入 Orbis，擔任區域業務經理，並自 2021 年起掌管公司的歐洲業務。在她的帶領下，該地區的營收成長了 35%。\n\nDunn 先生表示：「Laura 既了解我們的客戶，也了解我們的員工。我有信心公司會繼續蓬勃發展。」\n\n上任後，Jennings 女士打算更加重視數位追蹤服務，這項服務讓客戶能掌握貨物在運送過程中每個階段的狀況。\n\nJennings 女士將於 1 月 4 日在總部對員工發表談話。",
+  "words": [
+   "assume",
+   "corporation",
+   "supervise",
+   "operation",
+   "revenue",
+   "thrive",
+   "emphasis",
+   "address"
+  ],
+  "qs": [
+   {
+    "q": "[1]",
+    "answer": "assume",
+    "distractors": [
+     "dismiss",
+     "convey",
+     "deduct"
+    ],
+    "ex": "assume the role of 是「接任…的職務」，assume 在這裡是「承擔、就任」的意思。dismiss 是解雇或駁回、convey 是傳達、deduct 是扣除，都不能和 role 搭配表示「上任」。"
+   },
+   {
+    "q": "[2]",
+    "answer": "has supervised",
+    "distractors": [
+     "supervises",
+     "will supervise",
+     "was supervised"
+    ],
+    "ex": "句尾有 since 2021（從 2021 年到現在），要用現在完成式 has supervised。supervises 是現在簡單式，不能和 since 連用；will supervise 是未來式；was supervised 是過去被動，意思會變成她被監督。"
+   },
+   {
+    "q": "[3]",
+    "answer": "emphasis",
+    "distractors": [
+     "exposure",
+     "efficiency",
+     "capacity"
+    ],
+    "ex": "place emphasis on 是固定搭配，意思是「把重點放在…、重視…」。exposure 是曝光或接觸、efficiency 是效率、capacity 是容量或產能，都不能和 place ... on 這樣搭配。"
+   }
+  ]
+ },
+ {
+  "part": 6,
+  "kind": "email",
+  "title": "Inventory count this Sunday",
+  "text": "To: All store staff\nFrom: Kevin Brandt, Store Manager\nSubject: Inventory count this Sunday\n\nHello everyone,\n\nOur twice-yearly inventory count will take place this Sunday, April 26, after the store closes at 6:00 P.M. Attendance is mandatory for everyone scheduled to work that evening. Please [1] ------- to the stockroom at 6:15 for instructions.\n\nCount carefully. Last time, the totals in several categories did not match our computer records, and it took three days to find the errors. [2] ------- figures help us order the right quantities and avoid running out of popular items.\n\nAny damaged or defective products that you find should be placed in the red bins near the back door. They [3] ------- on Monday morning after I have recorded them.\n\nDinner will be provided, and everyone will be paid at the overtime rate.\n\nThanks,\nKevin",
+  "zh": "收件人：全體門市同仁\n寄件人：Kevin Brandt，店長\n主旨：本週日庫存盤點\n\n大家好：\n\n我們半年一次的庫存盤點將在本週日 4 月 26 日晚上 6 點打烊後進行。當晚排班的同仁一律必須參加。請在 6 點 15 分前往倉庫聽取說明。\n\n請仔細清點。上一次有好幾個類別的總數和電腦紀錄對不上，花了三天才找出錯誤。正確的數字能幫助我們訂購適當的數量，避免熱門商品缺貨。\n\n如果發現任何損壞或有瑕疵的商品，請放進後門附近的紅色箱子裡。等我登記之後，這些商品會在星期一早上丟棄。\n\n當天會提供晚餐，所有人都會以加班費率計薪。\n\n謝謝\nKevin",
+  "words": [
+   "inventory",
+   "mandatory",
+   "proceed",
+   "accurate",
+   "defective",
+   "discard"
+  ],
+  "qs": [
+   {
+    "q": "[1]",
+    "answer": "proceed",
+    "distractors": [
+     "notify",
+     "obtain",
+     "determine"
+    ],
+    "ex": "proceed to + 地點 是「前往…」，請大家 6:15 前往倉庫聽取說明。notify（通知）、obtain（取得）、determine（決定）都是及物動詞，後面不能直接接 to the stockroom。"
+   },
+   {
+    "q": "[2]",
+    "answer": "Accurate",
+    "distractors": [
+     "Confidential",
+     "Controversial",
+     "Apprehensive"
+    ],
+    "ex": "前面說上次的數字和電腦紀錄對不上，花了三天找錯誤，所以這裡強調「正確的」數字才能訂對數量，Accurate figures。Confidential 是機密的、Controversial 是有爭議的、Apprehensive 是憂慮的，都和訂貨數量無關。"
+   },
+   {
+    "q": "[3]",
+    "answer": "will be discarded",
+    "distractors": [
+     "will discard",
+     "have discarded",
+     "were discarded"
+    ],
+    "ex": "They 指的是損壞或有瑕疵的商品，商品是「被丟棄」，時間是 on Monday morning（未來），所以用未來式被動 will be discarded。will discard 和 have discarded 是主動，而且後面沒有受詞；were discarded 是過去式，時間不對。"
+   }
+  ]
+ },
+ {
+  "part": 6,
+  "kind": "article",
+  "title": "Tavero Releases Lightweight Travel Monitor",
+  "text": "Tavero Releases Lightweight Travel Monitor\n\nElectronics maker Tavero Systems has released a portable computer monitor designed for business travelers. The Tavero Slim 14 weighs just 600 grams and is [1] ------- with most laptops and tablets through a single cable.\n\nAccording to product manager Irene Costa, the idea came from a customer [2] ------- conducted last year. More than half of the people who answered said that working on one small screen in a hotel room reduced their efficiency.\n\nThe Slim 14 costs $249 and comes with a protective cover and a two-year warranty. Tavero expects the product to boost its revenue in the portable device segment, where sales [3] ------- for the past two quarters.\n\nThe monitor is available now on the company's website and at major electronics stores.",
+  "zh": "Tavero 推出輕量型旅用螢幕\n\n電子產品製造商 Tavero Systems 推出了一款專為商務旅客設計的可攜式電腦螢幕。Tavero Slim 14 只有 600 公克重，用一條線就能與大多數筆電和平板電腦相容。\n\n產品經理 Irene Costa 表示，這個構想來自去年進行的一項顧客意見調查。超過半數的受訪者說，在飯店房間裡只用一個小螢幕工作會降低他們的效率。\n\nSlim 14 售價 249 美元，附保護套及兩年保固。可攜式裝置這個類別的銷售量在過去兩季持續下滑，Tavero 期望這款產品能提升該類別的營收。\n\n這款螢幕現在已經可以在該公司網站和各大電子產品賣場買到。",
+  "words": [
+   "release",
+   "compatible",
+   "poll",
+   "efficiency",
+   "boost",
+   "revenue",
+   "segment",
+   "decline"
+  ],
+  "qs": [
+   {
+    "q": "[1]",
+    "answer": "compatible",
+    "distractors": [
+     "eligible",
+     "durable",
+     "exclusive"
+    ],
+    "ex": "be compatible with 是「與…相容」，螢幕用一條線就能接上大多數筆電和平板。eligible 是有資格的（後面接 for）、durable 是耐用的、exclusive 是專屬的，都不會接 with most laptops。"
+   },
+   {
+    "q": "[2]",
+    "answer": "poll",
+    "distractors": [
+     "clause",
+     "warranty",
+     "hazard"
+    ],
+    "ex": "後一句 More than half of the people who answered said... 說明這是一項有人回答的調查，a customer poll 是「顧客意見調查」。clause 是條款、warranty 是保固、hazard 是危險，都不是可以 conducted（進行）並且有人回答的東西。"
+   },
+   {
+    "q": "[3]",
+    "answer": "have declined",
+    "distractors": [
+     "will decline",
+     "are declined",
+     "declining"
+    ],
+    "ex": "for the past two quarters（過去兩季以來）表示從過去持續到現在，要用現在完成式 have declined。will decline 是未來式，和 past 矛盾；decline 當「下降」時是不及物動詞，不用被動的 are declined；declining 不能單獨當動詞。"
+   }
+  ]
+ },
+ {
+  "part": 6,
+  "kind": "notice",
+  "title": "Safety Notice: Storage of Cleaning Products",
+  "text": "SAFETY NOTICE: Storage of Cleaning Products\n\nFollowing last week's safety inspection, all staff are reminded that cleaning products containing strong chemicals can be a serious [1] ------- if they are stored incorrectly.\n\nFrom now on, these products must be kept in the locked cabinet in the supply room, not under sinks or on open shelves. Each container must [2] ------- with its contents and the date it was opened. Never pour a product into an unmarked bottle.\n\nAs a further precaution, gloves and safety glasses are now available in the supply room. They must be worn [3] ------- you handle these products.\n\nIf a spill occurs, open the windows and notify the facilities supervisor immediately at extension 118. These measures will be enforced starting Monday, and supervisors will monitor each area regularly.",
+  "zh": "安全公告：清潔用品的存放\n\n上週安全檢查之後，在此提醒全體同仁：含有強烈化學物質的清潔用品如果存放不當，可能造成嚴重的危險。\n\n即日起，這類用品必須放在備品室上鎖的櫃子裡，不可放在水槽下方或開放式的架子上。每個容器都必須標示內容物和開封日期。絕對不要把清潔用品倒進沒有標示的瓶子裡。\n\n為了進一步預防意外，備品室現在備有手套和護目鏡。每次使用這些清潔用品時都必須配戴。\n\n萬一打翻，請打開窗戶，並立刻撥分機 118 通知總務主管。這些措施將自星期一起嚴格執行，各主管也會定期檢查各區域。",
+  "words": [
+   "inspection",
+   "chemical",
+   "hazard",
+   "precaution",
+   "notify",
+   "measure",
+   "enforce",
+   "monitor"
+  ],
+  "qs": [
+   {
+    "q": "[1]",
+    "answer": "hazard",
+    "distractors": [
+     "merit",
+     "asset",
+     "prospect"
+    ],
+    "ex": "a serious hazard 是「嚴重的危險」，含有強烈化學物質的清潔用品如果存放不當會造成危險。merit 是優點、asset 是資產、prospect 是前景，都是正面的字，和 stored incorrectly 的情況不合。"
+   },
+   {
+    "q": "[2]",
+    "answer": "be labeled",
+    "distractors": [
+     "label",
+     "labeling",
+     "have labeled"
+    ],
+    "ex": "助動詞 must 後面接原形動詞，而容器是「被貼上標籤」，所以用被動的 be labeled。label 和 have labeled 是主動，容器不會自己貼標籤；must 後面也不能接 labeling。"
+   },
+   {
+    "q": "[3]",
+    "answer": "whenever",
+    "distractors": [
+     "although",
+     "unless",
+     "whereas"
+    ],
+    "ex": "手套和護目鏡是「每次」處理這些清潔用品時都要戴，所以用 whenever（每當）。although 是雖然、unless 是除非、whereas 是然而，放進去意思都不合理。"
+   }
+  ]
+ },
+ {
+  "part": 6,
+  "kind": "message",
+  "title": "Reminder about the travel guidelines",
+  "text": "From: Rachel Owens, Travel Coordinator\nTo: Sales team group chat\n\nHi everyone. Here is a quick reminder about the travel guidelines that we implemented on May 1.\n\n1. All flights and hotels must be booked through Skyway Travel, our official agency. It offers corporate rates that are not available on public websites.\n2. You need to [1] ------- written approval from your manager prior to booking any trip that costs more than $1,000.\n3. Keep every receipt. Any expense that is not supported by a receipt [2] ------- from your claim.\n\nThe agency's help line is open 24 hours a day, so you can get assistance even if a flight is canceled at night. The number is 555-0131.\n\n[3] ------- you have any questions about these rules, please message me directly. Have a safe trip!",
+  "zh": "寄件人：Rachel Owens，差旅統籌\n收件人：業務團隊群組\n\n大家好。在此簡單提醒各位我們 5 月 1 日開始實施的差旅規範。\n\n1. 所有機票和飯店都必須透過我們的指定旅行社 Skyway Travel 預訂。該旅行社提供一般網站上沒有的企業優惠價。\n2. 任何費用超過 1,000 美元的出差，訂票之前都必須先取得主管的書面核准。\n3. 請保留每一張收據。沒有收據佐證的費用，將從您的申請金額中扣除。\n\n旅行社的服務專線 24 小時開放，所以即使班機在半夜取消，您也能得到協助。電話是 555-0131。\n\n如果對這些規定有任何問題，請直接傳訊息給我。祝各位一路平安！",
+  "words": [
+   "guideline",
+   "implement",
+   "agency",
+   "corporate",
+   "obtain",
+   "prior",
+   "deduct"
+  ],
+  "qs": [
+   {
+    "q": "[1]",
+    "answer": "obtain",
+    "distractors": [
+     "restrict",
+     "notify",
+     "qualify"
+    ],
+    "ex": "obtain approval from 是「取得…的核准」，出差費用超過 1,000 美元要先取得主管的書面同意。restrict 是限制、notify 是通知（後面接人）、qualify 是使有資格，都不能接 written approval from your manager。"
+   },
+   {
+    "q": "[2]",
+    "answer": "will be deducted",
+    "distractors": [
+     "will deduct",
+     "has deducted",
+     "deducting"
+    ],
+    "ex": "主詞 Any expense 是「被扣除」的對象，所以用被動語態 will be deducted from your claim（會從你的申請金額中扣除）。will deduct 和 has deducted 是主動，後面又沒有受詞；deducting 不能單獨當句子的動詞。"
+   },
+   {
+    "q": "[3]",
+    "answer": "Should",
+    "distractors": [
+     "Would",
+     "Could",
+     "Might"
+    ],
+    "ex": "Should you have any questions 是 If you should have any questions 的倒裝，意思是「如果您有任何問題」，是商業書信的常見句型。Would、Could、Might 放在句首都不能這樣表示「如果」。"
+   }
+  ]
+ }
+]

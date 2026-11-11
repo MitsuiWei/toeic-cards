@@ -1,0 +1,1413 @@
+[
+{
+"wid": 625,
+"w": "consecutive",
+"pos": [
+"adj."
+],
+"zh": [
+"連續的；接連的"
+],
+"seen_example": "The company reported five consecutive quarters of profit growth."
+},
+{
+"wid": 626,
+"w": "blue-collar",
+"pos": [
+"adj."
+],
+"zh": [
+"藍領的"
+],
+"seen_example": "The factory's blue-collar workers went on strike today."
+},
+{
+"wid": 627,
+"w": "intense",
+"pos": [
+"adj."
+],
+"zh": [
+"強烈的；熱切的"
+],
+"seen_example": "She suddenly felt an intense pain in her back."
+},
+{
+"wid": 628,
+"w": "controversial",
+"pos": [
+"adj."
+],
+"zh": [
+"有爭議的"
+],
+"seen_example": "Abortion has been a highly controversial issue lately."
+},
+{
+"wid": 629,
+"w": "economical",
+"pos": [
+"adj."
+],
+"zh": [
+"節約的；經濟實惠的"
+],
+"seen_example": "This is an economical choice for budget-conscious users."
+},
+{
+"wid": 630,
+"w": "exclusive",
+"pos": [
+"adj."
+],
+"zh": [
+"專屬的；獨家的"
+],
+"seen_example": "The VIP lounge is exclusive to members."
+},
+{
+"wid": 631,
+"w": "corporate",
+"pos": [
+"adj."
+],
+"zh": [
+"企業的"
+],
+"seen_example": "The company has a corporate social responsibility program."
+},
+{
+"wid": 632,
+"w": "enthusiastic",
+"pos": [
+"adj."
+],
+"zh": [
+"熱衷的；熱情的"
+],
+"seen_example": "All the staff is enthusiastic about the project."
+},
+{
+"wid": 633,
+"w": "beneficial",
+"pos": [
+"adj."
+],
+"zh": [
+"有益的；有利的"
+],
+"seen_example": "It is beneficial to attend the training sessions."
+},
+{
+"wid": 634,
+"w": "significant",
+"pos": [
+"adj."
+],
+"zh": [
+"顯著的；重要的"
+],
+"seen_example": "That was a very significant moment in my life."
+},
+{
+"wid": 635,
+"w": "dedicated",
+"pos": [
+"adj."
+],
+"zh": [
+"盡心盡力的；專用的"
+],
+"seen_example": "The team members are dedicated and hardworking."
+},
+{
+"wid": 636,
+"w": "insufficient",
+"pos": [
+"adj."
+],
+"zh": [
+"不足的"
+],
+"seen_example": "There was insufficient evidence to support the claim."
+},
+{
+"wid": 637,
+"w": "understaffed",
+"pos": [
+"adj."
+],
+"zh": [
+"人力不足的"
+],
+"seen_example": "The hospital was severely understaffed during flu season."
+},
+{
+"wid": 638,
+"w": "consistent",
+"pos": [
+"adj."
+],
+"zh": [
+"一致的；一貫的"
+],
+"seen_example": "We need to see consistent results throughout the year."
+},
+{
+"wid": 639,
+"w": "mandatory",
+"pos": [
+"adj."
+],
+"zh": [
+"強制的；法定的"
+],
+"seen_example": "Wearing a helmet is mandatory for all cyclists."
+},
+{
+"wid": 640,
+"w": "precise",
+"pos": [
+"adj."
+],
+"zh": [
+"精確的；嚴謹的"
+],
+"seen_example": "Please provide me with precise measurements for the project."
+},
+{
+"wid": 641,
+"w": "authentic",
+"pos": [
+"adj."
+],
+"zh": [
+"正宗的；真正的"
+],
+"seen_example": "The artwork is an authentic piece from the Renaissance period."
+},
+{
+"wid": 642,
+"w": "accurate",
+"pos": [
+"adj."
+],
+"zh": [
+"準確的；精確的"
+],
+"seen_example": "The accountants made sure the figures were accurate."
+},
+{
+"wid": 643,
+"w": "confidential",
+"pos": [
+"adj."
+],
+"zh": [
+"機密的"
+],
+"seen_example": "The financial report contains highly confidential company information."
+},
+{
+"wid": 644,
+"w": "financial",
+"pos": [
+"adj."
+],
+"zh": [
+"財務的"
+],
+"seen_example": "The company's financial performance has improved this year."
+},
+{
+"wid": 645,
+"w": "concrete",
+"pos": [
+"adj."
+],
+"zh": [
+"具體的；確實的"
+],
+"seen_example": "Give me a concrete proposal of the idea, and we'll talk then."
+},
+{
+"wid": 646,
+"w": "durable",
+"pos": [
+"adj."
+],
+"zh": [
+"耐用的；經久的"
+],
+"seen_example": "The furniture is made of durable materials that last for years."
+},
+{
+"wid": 647,
+"w": "competitive",
+"pos": [
+"adj."
+],
+"zh": [
+"競爭的；具競爭力的"
+],
+"seen_example": "The company operates in a highly competitive industry."
+},
+{
+"wid": 648,
+"w": "diligent",
+"pos": [
+"adj."
+],
+"zh": [
+"勤奮的"
+],
+"seen_example": "The diligent employee completed all tasks before the deadline."
+},
+{
+"wid": 649,
+"w": "tremendous",
+"pos": [
+"adj."
+],
+"zh": [
+"巨大的；大量的"
+],
+"seen_example": "She's been a tremendous help over the last few months."
+},
+{
+"wid": 650,
+"w": "apprehensive",
+"pos": [
+"adj."
+],
+"zh": [
+"憂慮的；不安的"
+],
+"seen_example": "The manager was apprehensive about the merger proposal."
+},
+{
+"wid": 651,
+"w": "equivalent",
+"pos": [
+"adj.",
+"n."
+],
+"zh": [
+"相等的；等同的",
+"相等；等同"
+],
+"seen_example": "One kilogram is equivalent to 2.2 pounds."
+},
+{
+"wid": 652,
+"w": "wholesale",
+"pos": [
+"adj.",
+"adv."
+],
+"zh": [
+"批發的",
+"批發地"
+],
+"seen_example": "Clothes at the store are sold at wholesale prices."
+},
+{
+"wid": 653,
+"w": "further",
+"pos": [
+"adj.",
+"adv."
+],
+"zh": [
+"進一步的；更多的",
+"進一步地；更多地"
+],
+"seen_example": "Please contact our agent in Boston for further information."
+},
+{
+"wid": 654,
+"w": "primarily",
+"pos": [
+"adv."
+],
+"zh": [
+"主要地"
+],
+"seen_example": "I moved primarily because I wanted to be closer to family."
+},
+{
+"wid": 655,
+"w": "onsite",
+"pos": [
+"adv.",
+"adj."
+],
+"zh": [
+"在現場；就地",
+"現場的；就地的"
+],
+"seen_example": "The training program will be conducted onsite tomorrow."
+},
+{
+"wid": 656,
+"w": "duplicate",
+"pos": [
+"v."
+],
+"zh": [
+"複製"
+],
+"seen_example": "She duplicated the video to share with her friends."
+},
+{
+"wid": 657,
+"w": "acquire",
+"pos": [
+"v."
+],
+"zh": [
+"獲得；收購；習得"
+],
+"seen_example": "He acquired a house after the death of his father."
+},
+{
+"wid": 658,
+"w": "explore",
+"pos": [
+"v."
+],
+"zh": [
+"探討；探索"
+],
+"seen_example": "They decided to explore new markets to expand their business."
+},
+{
+"wid": 659,
+"w": "qualify",
+"pos": [
+"v."
+],
+"zh": [
+"使有資格；使合格"
+],
+"seen_example": "She studied hard to qualify for the scholarship."
+},
+{
+"wid": 660,
+"w": "emerge",
+"pos": [
+"v."
+],
+"zh": [
+"出現；浮現"
+],
+"seen_example": "A new star emerged in the music industry with her debut album."
+},
+{
+"wid": 661,
+"w": "specialize",
+"pos": [
+"v."
+],
+"zh": [
+"專攻"
+],
+"seen_example": "Many students decided to specialize in engineering."
+},
+{
+"wid": 662,
+"w": "establish",
+"pos": [
+"v."
+],
+"zh": [
+"建立；設立"
+],
+"seen_example": "The company plans to establish a new branch in the city center."
+},
+{
+"wid": 663,
+"w": "convey",
+"pos": [
+"v."
+],
+"zh": [
+"傳達；運送"
+],
+"seen_example": "She used gestures to convey her message."
+},
+{
+"wid": 664,
+"w": "recruit",
+"pos": [
+"v."
+],
+"zh": [
+"招聘"
+],
+"seen_example": "The company plans to recruit new employees next month."
+},
+{
+"wid": 665,
+"w": "retain",
+"pos": [
+"v."
+],
+"zh": [
+"保持；保留"
+],
+"seen_example": "They were able to retain most of their existing customers."
+},
+{
+"wid": 666,
+"w": "reinforce",
+"pos": [
+"v."
+],
+"zh": [
+"強化；加深"
+],
+"seen_example": "Some jokes tend to reinforce stereotypes."
+},
+{
+"wid": 667,
+"w": "consume",
+"pos": [
+"v."
+],
+"zh": [
+"消耗"
+],
+"seen_example": "We consume a lot of energy in our daily lives."
+},
+{
+"wid": 668,
+"w": "generate",
+"pos": [
+"v."
+],
+"zh": [
+"產生；造成"
+],
+"seen_example": "The wind turbines generate electricity from renewable sources."
+},
+{
+"wid": 669,
+"w": "supervise",
+"pos": [
+"v."
+],
+"zh": [
+"監督；指導"
+],
+"seen_example": "The dean supervised the class while the teacher was absent."
+},
+{
+"wid": 670,
+"w": "restrict",
+"pos": [
+"v."
+],
+"zh": [
+"限制；約束"
+],
+"seen_example": "The company restricts access to sensitive information."
+},
+{
+"wid": 671,
+"w": "clarify",
+"pos": [
+"v."
+],
+"zh": [
+"闡明"
+],
+"seen_example": "Let me clarify the instructions for you."
+},
+{
+"wid": 672,
+"w": "proceed",
+"pos": [
+"v."
+],
+"zh": [
+"繼續進行；前進"
+],
+"seen_example": "The project will proceed as planned."
+},
+{
+"wid": 673,
+"w": "resign",
+"pos": [
+"v."
+],
+"zh": [
+"辭職"
+],
+"seen_example": "He decided to resign from his position and pursue a new career."
+},
+{
+"wid": 674,
+"w": "compensate",
+"pos": [
+"v."
+],
+"zh": [
+"補償"
+],
+"seen_example": "The company will compensate you for your traveling costs."
+},
+{
+"wid": 675,
+"w": "fulfill",
+"pos": [
+"v."
+],
+"zh": [
+"履行；實現；使滿足"
+],
+"seen_example": "She worked hard to fulfill her dream of becoming a doctor."
+},
+{
+"wid": 676,
+"w": "implement",
+"pos": [
+"v."
+],
+"zh": [
+"實施；執行"
+],
+"seen_example": "The new rules will be implemented immediately."
+},
+{
+"wid": 677,
+"w": "dismiss",
+"pos": [
+"v."
+],
+"zh": [
+"解雇；解散"
+],
+"seen_example": "They dismissed the employee for poor performance."
+},
+{
+"wid": 678,
+"w": "resolve",
+"pos": [
+"v."
+],
+"zh": [
+"解決"
+],
+"seen_example": "We need to resolve the issue before it escalates further."
+},
+{
+"wid": 679,
+"w": "evaluate",
+"pos": [
+"v."
+],
+"zh": [
+"評估；估值"
+],
+"seen_example": "The manager will evaluate the performance of the employees."
+},
+{
+"wid": 680,
+"w": "specify",
+"pos": [
+"v."
+],
+"zh": [
+"明確指出"
+],
+"seen_example": "Please specify the color you want for your new car."
+},
+{
+"wid": 681,
+"w": "collaborate",
+"pos": [
+"v."
+],
+"zh": [
+"合作"
+],
+"seen_example": "We collaborate with our partners to develop new products."
+},
+{
+"wid": 682,
+"w": "analyze",
+"pos": [
+"v."
+],
+"zh": [
+"分析"
+],
+"seen_example": "We'll take the problem apart and analyze it in great detail."
+},
+{
+"wid": 683,
+"w": "suspend",
+"pos": [
+"v."
+],
+"zh": [
+"中止；暫停"
+],
+"seen_example": "The ferry service was suspended due to bad weather."
+},
+{
+"wid": 684,
+"w": "justify",
+"pos": [
+"v."
+],
+"zh": [
+"證明……正當"
+],
+"seen_example": "He provided evidence to justify his actions."
+},
+{
+"wid": 685,
+"w": "detect",
+"pos": [
+"v."
+],
+"zh": [
+"察覺；偵測出"
+],
+"seen_example": "The security system can detect any unauthorized access."
+},
+{
+"wid": 686,
+"w": "renovate",
+"pos": [
+"v."
+],
+"zh": [
+"裝修；翻新"
+],
+"seen_example": "We are planning to renovate our office space."
+},
+{
+"wid": 687,
+"w": "reveal",
+"pos": [
+"v."
+],
+"zh": [
+"揭露；透露；顯露出"
+],
+"seen_example": "The investigation revealed new information about the case."
+},
+{
+"wid": 688,
+"w": "restore",
+"pos": [
+"v."
+],
+"zh": [
+"修復；使恢復"
+],
+"seen_example": "The government promised to restore the economy."
+},
+{
+"wid": 689,
+"w": "overlook",
+"pos": [
+"v."
+],
+"zh": [
+"忽視;俯瞰"
+],
+"seen_example": "Don't overlook the small details; they can be important."
+},
+{
+"wid": 690,
+"w": "transform",
+"pos": [
+"v."
+],
+"zh": [
+"徹底改變"
+],
+"seen_example": "The company aims to transform its business model for growth."
+},
+{
+"wid": 691,
+"w": "deduct",
+"pos": [
+"v."
+],
+"zh": [
+"扣除；減除"
+],
+"seen_example": "The tax will be deducted from your paycheck."
+},
+{
+"wid": 692,
+"w": "reflect",
+"pos": [
+"v."
+],
+"zh": [
+"反映"
+],
+"seen_example": "The mirror reflects your image accurately."
+},
+{
+"wid": 693,
+"w": "redeem",
+"pos": [
+"v."
+],
+"zh": [
+"兌換；贖回"
+],
+"seen_example": "Customers can redeem their points for store merchandise."
+},
+{
+"wid": 694,
+"w": "validate",
+"pos": [
+"v."
+],
+"zh": [
+"驗證；使……生效"
+],
+"seen_example": "The manager validated the expense report before approval."
+},
+{
+"wid": 695,
+"w": "bear",
+"pos": [
+"v."
+],
+"zh": [
+"承受；忍受"
+],
+"seen_example": "I can't bear listening to his whining anymore."
+},
+{
+"wid": 696,
+"w": "expose",
+"pos": [
+"v."
+],
+"zh": [
+"使暴露；揭露"
+],
+"seen_example": "The journalist's investigation exposed a corruption scandal."
+},
+{
+"wid": 697,
+"w": "determine",
+"pos": [
+"v."
+],
+"zh": [
+"決定；確定"
+],
+"seen_example": "Your work performance will determine your end-of-year bonus."
+},
+{
+"wid": 698,
+"w": "found",
+"pos": [
+"v."
+],
+"zh": [
+"創立"
+],
+"seen_example": "He founded his first company at the age of 27."
+},
+{
+"wid": 699,
+"w": "enforce",
+"pos": [
+"v."
+],
+"zh": [
+"執行；實施"
+],
+"seen_example": "The company strictly enforces its dress code policy."
+},
+{
+"wid": 700,
+"w": "undertake",
+"pos": [
+"v."
+],
+"zh": [
+"著手做；進行"
+],
+"seen_example": "The company will undertake a new project next month."
+},
+{
+"wid": 701,
+"w": "discard",
+"pos": [
+"v."
+],
+"zh": [
+"丟棄"
+],
+"seen_example": "Please discard any expired or damaged products."
+},
+{
+"wid": 702,
+"w": "ensure",
+"pos": [
+"v."
+],
+"zh": [
+"確保"
+],
+"seen_example": "They whispered to ensure no one else could hear them."
+},
+{
+"wid": 703,
+"w": "acknowledge",
+"pos": [
+"v."
+],
+"zh": [
+"承認；認可"
+],
+"seen_example": "Sign here to acknowledge receipt of this letter."
+},
+{
+"wid": 704,
+"w": "adopt",
+"pos": [
+"v."
+],
+"zh": [
+"採用"
+],
+"seen_example": "The management has decided to adopt our suggestions."
+},
+{
+"wid": 705,
+"w": "consult",
+"pos": [
+"v."
+],
+"zh": [
+"諮詢；查閱"
+],
+"seen_example": "Let me consult the manager about this matter."
+},
+{
+"wid": 706,
+"w": "enable",
+"pos": [
+"v."
+],
+"zh": [
+"使能夠；使可能"
+],
+"seen_example": "The money will enable us to upgrade the facilities."
+},
+{
+"wid": 707,
+"w": "emphasize",
+"pos": [
+"v."
+],
+"zh": [
+"強調"
+],
+"seen_example": "He spoke louder to emphasize his next point in the speech."
+},
+{
+"wid": 708,
+"w": "enhance",
+"pos": [
+"v."
+],
+"zh": [
+"增強；提高"
+],
+"seen_example": "What can we do to enhance the reputation of the company?"
+},
+{
+"wid": 709,
+"w": "obtain",
+"pos": [
+"v."
+],
+"zh": [
+"獲得；得到"
+],
+"seen_example": "He obtained his driver's license after passing the test."
+},
+{
+"wid": 710,
+"w": "conduct",
+"pos": [
+"v."
+],
+"zh": [
+"進行；處理"
+],
+"seen_example": "I conducted experiments with new teaching methods."
+},
+{
+"wid": 711,
+"w": "accommodate",
+"pos": [
+"v."
+],
+"zh": [
+"容納；提供住宿"
+],
+"seen_example": "The venue can accommodate up to 2000 people."
+},
+{
+"wid": 712,
+"w": "dedicate",
+"pos": [
+"v."
+],
+"zh": [
+"奉獻；獻給"
+],
+"seen_example": "She dedicated her life to helping others."
+},
+{
+"wid": 713,
+"w": "accompany",
+"pos": [
+"v."
+],
+"zh": [
+"伴隨；陪同"
+],
+"seen_example": "You'll be asked to accompany the manager to client visits."
+},
+{
+"wid": 714,
+"w": "imply",
+"pos": [
+"v."
+],
+"zh": [
+"暗指"
+],
+"seen_example": "His words imply that he is not satisfied with the situation."
+},
+{
+"wid": 715,
+"w": "prioritize",
+"pos": [
+"v."
+],
+"zh": [
+"排定優先順序"
+],
+"seen_example": "The manager must prioritize tasks for the team."
+},
+{
+"wid": 716,
+"w": "evolve",
+"pos": [
+"v."
+],
+"zh": [
+"逐步發展"
+],
+"seen_example": "Technology continues to evolve at a rapid pace."
+},
+{
+"wid": 717,
+"w": "relocate",
+"pos": [
+"v."
+],
+"zh": [
+"搬遷"
+],
+"seen_example": "The firm was forced to relocate from New York to Boston."
+},
+{
+"wid": 718,
+"w": "investigate",
+"pos": [
+"v."
+],
+"zh": [
+"調查"
+],
+"seen_example": "The police will investigate the crime thoroughly."
+},
+{
+"wid": 719,
+"w": "pursue",
+"pos": [
+"v."
+],
+"zh": [
+"追求；從事"
+],
+"seen_example": "He decided to pursue a career in music."
+},
+{
+"wid": 720,
+"w": "distribute",
+"pos": [
+"v."
+],
+"zh": [
+"分發；分配；經銷"
+],
+"seen_example": "The company plans to distribute the new product globally."
+},
+{
+"wid": 721,
+"w": "engage",
+"pos": [
+"v."
+],
+"zh": [
+"參與；投入"
+],
+"seen_example": "The students actively engaged in classroom discussions."
+},
+{
+"wid": 722,
+"w": "relieve",
+"pos": [
+"v."
+],
+"zh": [
+"緩解；減輕"
+],
+"seen_example": "The drugs can help to relieve the pain."
+},
+{
+"wid": 723,
+"w": "modify",
+"pos": [
+"v."
+],
+"zh": [
+"修改"
+],
+"seen_example": "The manager will modify the sales strategy tomorrow."
+},
+{
+"wid": 724,
+"w": "renew",
+"pos": [
+"v."
+],
+"zh": [
+"延長…期限；續約"
+],
+"seen_example": "They decided to renew their contract for another year."
+},
+{
+"wid": 725,
+"w": "notify",
+"pos": [
+"v."
+],
+"zh": [
+"通知；告知"
+],
+"seen_example": "Please notify me if there are any changes to the schedule."
+},
+{
+"wid": 726,
+"w": "compose",
+"pos": [
+"v."
+],
+"zh": [
+"作曲；撰寫；組成"
+],
+"seen_example": "She can compose beautiful melodies on the piano."
+},
+{
+"wid": 727,
+"w": "prescribe",
+"pos": [
+"v."
+],
+"zh": [
+"開處方；開藥方"
+],
+"seen_example": "The doctor will prescribe medication to treat the infection."
+},
+{
+"wid": 728,
+"w": "disrupt",
+"pos": [
+"v."
+],
+"zh": [
+"中斷；干擾"
+],
+"seen_example": "The meeting was disrupted by the fire drill."
+},
+{
+"wid": 729,
+"w": "allocate",
+"pos": [
+"v."
+],
+"zh": [
+"分配；分派"
+],
+"seen_example": "The manager allocated duties to the assistants."
+},
+{
+"wid": 730,
+"w": "thrive",
+"pos": [
+"v."
+],
+"zh": [
+"興旺；繁榮"
+],
+"seen_example": "Despite the challenges, the company continues to thrive."
+},
+{
+"wid": 731,
+"w": "assume",
+"pos": [
+"v."
+],
+"zh": [
+"假設；預設"
+],
+"seen_example": "Is it reasonable to assume the economy will improve?"
+},
+{
+"wid": 732,
+"w": "streamline",
+"pos": [
+"v."
+],
+"zh": [
+"簡化；精簡流程"
+],
+"seen_example": "We need to streamline the process to improve efficiency."
+},
+{
+"wid": 733,
+"w": "broaden",
+"pos": [
+"v."
+],
+"zh": [
+"擴大；擴展"
+],
+"seen_example": "I'd like to broaden my experience in international affairs."
+},
+{
+"wid": 734,
+"w": "underperform",
+"pos": [
+"v."
+],
+"zh": [
+"表現不佳；表現差於預期"
+],
+"seen_example": "The new product line continues to underperform expectations."
+},
+{
+"wid": 735,
+"w": "retrieve",
+"pos": [
+"v."
+],
+"zh": [
+"檢索；取回"
+],
+"seen_example": "I need to retrieve the file from the computer's backup system."
+},
+{
+"wid": 736,
+"w": "monitor",
+"pos": [
+"n.",
+"v."
+],
+"zh": [
+"監視器",
+"監控；監測"
+],
+"seen_example": "Please monitor the temperature in the room."
+},
+{
+"wid": 737,
+"w": "grant",
+"pos": [
+"n.",
+"v."
+],
+"zh": [
+"補助金",
+"授予；准予"
+],
+"seen_example": "She was granted a scholarship to study abroad."
+},
+{
+"wid": 738,
+"w": "review",
+"pos": [
+"n.",
+"v."
+],
+"zh": [
+"審核；評價",
+"審核；評價"
+],
+"seen_example": "I will review the report before submitting it to the manager."
+},
+{
+"wid": 739,
+"w": "manufacture",
+"pos": [
+"n.",
+"v."
+],
+"zh": [
+"製造",
+"製造"
+],
+"seen_example": "The company plans to manufacture the product overseas."
+},
+{
+"wid": 740,
+"w": "estimate",
+"pos": [
+"v.",
+"n."
+],
+"zh": [
+"預估；估價",
+"預估；估價"
+],
+"seen_example": "They estimate the project will be completed within a month."
+},
+{
+"wid": 741,
+"w": "bid",
+"pos": [
+"v.",
+"n."
+],
+"zh": [
+"出價；投標",
+"出價；投標"
+],
+"seen_example": "He decided to bid on the antique painting."
+},
+{
+"wid": 742,
+"w": "remark",
+"pos": [
+"v.",
+"n."
+],
+"zh": [
+"評論；談論",
+"評論；談論"
+],
+"seen_example": "He remarked on the excellent presentation."
+},
+{
+"wid": 743,
+"w": "substitute",
+"pos": [
+"v.",
+"n."
+],
+"zh": [
+"代替",
+"替代品"
+],
+"seen_example": "You can substitute margarine for butter in this recipe."
+},
+{
+"wid": 744,
+"w": "address",
+"pos": [
+"v.",
+"n."
+],
+"zh": [
+"處理；演說",
+"地址；演說"
+],
+"seen_example": "The government failed to address the problem."
+},
+{
+"wid": 745,
+"w": "highlight",
+"pos": [
+"v.",
+"n."
+],
+"zh": [
+"強調",
+"最精彩的部分"
+],
+"seen_example": "The speaker highlighted the importance of teamwork."
+},
+{
+"wid": 746,
+"w": "decline",
+"pos": [
+"v.",
+"n."
+],
+"zh": [
+"減少；衰退；拒絕",
+"減少；衰退"
+],
+"seen_example": "Sales declined significantly last quarter."
+},
+{
+"wid": 747,
+"w": "boost",
+"pos": [
+"v.",
+"n."
+],
+"zh": [
+"增強；促進",
+"增強；促進"
+],
+"seen_example": "The company downsized to cut costs and boost profits."
+},
+{
+"wid": 748,
+"w": "release",
+"pos": [
+"v.",
+"n."
+],
+"zh": [
+"發表；發行；釋放",
+"發表；發行；釋放"
+],
+"seen_example": "The mayor released a statement explaining the situation."
+},
+{
+"wid": 749,
+"w": "delegate",
+"pos": [
+"v.",
+"n."
+],
+"zh": [
+"委派；委任",
+"代表人"
+],
+"seen_example": "The manager will delegate the task to his assistant."
+}
+]

@@ -1,0 +1,1602 @@
+[
+ {
+  "type": "wh",
+  "q": "Which outlet has this item in stock?",
+  "answer": "Let me look it up on the computer.",
+  "distractors": [
+   "It comes in three colors.",
+   "Yes, I bought it online."
+  ],
+  "zh_q": "哪一家門市有這件商品的現貨？",
+  "zh_answer": "我用電腦查一下。",
+  "zh_distractors": [
+   "它有三種顏色。",
+   "對，我是在網路上買的。"
+  ],
+  "ex": "Which outlet 問哪一家門市（outlet 是「銷售據點」，in stock 是「有現貨」）。Let me look it up on the computer 表示要先查詢才能回答，是合理的間接回答。It comes in three colors 講的是商品顏色；Yes, I bought it online 用 Yes 回答 Which 問句不合。"
+ },
+ {
+  "type": "wh",
+  "q": "Who is going to host the year-end party?",
+  "answer": "Kevin from the sales division.",
+  "distractors": [
+   "At a restaurant near the office.",
+   "In late December."
+  ],
+  "zh_q": "誰要主持尾牙？",
+  "zh_answer": "業務部的 Kevin。",
+  "zh_distractors": [
+   "在辦公室附近的餐廳。",
+   "十二月底。"
+  ],
+  "ex": "Who 問人，Kevin from the sales division 說出主持人是誰（host 是「主持」，division 是「部門」）。At a restaurant near the office 回答的是地點；In late December 回答的是時間。"
+ },
+ {
+  "type": "yesno",
+  "q": "Have you received the itinerary for the business trip?",
+  "answer": "Ms. Lin said she'd send it today.",
+  "distractors": [
+   "By express train.",
+   "Yes, the receipt is here."
+  ],
+  "zh_q": "你收到出差的行程表了嗎？",
+  "zh_answer": "Lin 女士說她今天會寄。",
+  "zh_distractors": [
+   "搭特快車。",
+   "有，收據在這裡。"
+  ],
+  "ex": "問句問收到行程表了沒有（itinerary 是「行程表」）。Ms. Lin said she'd send it today 表示今天才會寄來，也就是還沒收到，是合理的間接回答。By express train 回答的是交通方式；Yes, the receipt is here 的 receipt（收據）只是和 received 相近，講的不是行程表。"
+ },
+ {
+  "type": "negative",
+  "q": "Aren't you going to claim your travel expenses?",
+  "answer": "Yes, I'll hand in the form today.",
+  "distractors": [
+   "At the baggage claim area.",
+   "It was a pleasant trip."
+  ],
+  "zh_q": "你不申請出差費用嗎？",
+  "zh_answer": "要啊，我今天會把表格交出去。",
+  "zh_distractors": [
+   "在行李提領區。",
+   "那是一趟愉快的旅行。"
+  ],
+  "ex": "否定問句問對方是不是要申請差旅費（claim 在這裡是「申請、請領」），Yes, I'll hand in the form today 表示會申請。At the baggage claim area 是把 claim 用在「行李提領」來混淆，回答的是地點；It was a pleasant trip 只是和 travel 有關聯，講的是旅行的感想。"
+ },
+ {
+  "type": "statement",
+  "q": "Our profits were higher than expected this year.",
+  "answer": "That's great news for the whole team.",
+  "distractors": [
+   "Yes, I expect him at noon.",
+   "Put it on a higher shelf."
+  ],
+  "zh_q": "我們今年的利潤比預期的還高。",
+  "zh_answer": "這對整個團隊來說是好消息。",
+  "zh_distractors": [
+   "對，我預計他中午會到。",
+   "把它放在高一點的架子上。"
+  ],
+  "ex": "這句話是在分享利潤比預期高的好消息（profit 是「利潤」），That's great news for the whole team 是自然的回應。Yes, I expect him at noon 只是用 expect 和 expected 混淆；Put it on a higher shelf 只是重複 higher，講的是放東西的位置。"
+ },
+ {
+  "type": "wh",
+  "q": "What time does the reception start tonight?",
+  "answer": "It starts at seven.",
+  "distractors": [
+   "At the front desk.",
+   "About two hundred guests."
+  ],
+  "zh_q": "今晚的歡迎會幾點開始？",
+  "zh_answer": "七點開始。",
+  "zh_distractors": [
+   "在櫃檯。",
+   "大約兩百位賓客。"
+  ],
+  "ex": "What time 問時間，It starts at seven 直接回答。At the front desk 回答的是地點，是利用 reception 也有「接待處」的意思來混淆；About two hundred guests 回答的是人數。"
+ },
+ {
+  "type": "statement",
+  "q": "The forecast says it will rain during the company picnic.",
+  "answer": "Then we should move it indoors.",
+  "distractors": [
+   "I'll have a sandwich, please.",
+   "No, I prefer the train."
+  ],
+  "zh_q": "氣象預報說公司野餐的時候會下雨。",
+  "zh_answer": "那我們應該改到室內舉行。",
+  "zh_distractors": [
+   "我要一個三明治，謝謝。",
+   "不，我比較喜歡搭火車。"
+  ],
+  "ex": "這句話是說野餐時會下雨（forecast 是「預報」），Then we should move it indoors 提出改到室內，是合理的回應。I'll have a sandwich, please 是點餐時說的話，只是和 picnic 有關聯；No, I prefer the train 的 train 只是和 rain 發音相近，與下雨無關。"
+ },
+ {
+  "type": "request",
+  "q": "Would you mind extending the deadline by two days?",
+  "answer": "Not at all, Friday will be fine.",
+  "distractors": [
+   "Yes, the line is very long.",
+   "It's extension two oh five."
+  ],
+  "zh_q": "你介意把截止日延後兩天嗎？",
+  "zh_answer": "完全不介意，星期五交就可以。",
+  "zh_distractors": [
+   "對，隊伍排得很長。",
+   "分機是 205。"
+  ],
+  "ex": "Would you mind 是客氣的請求，Not at all 表示不介意，也就是答應延期。Yes, the line is very long 的 line 只是和 deadline 相近；It's extension two oh five 是把 extension 當成「分機」來混淆，沒有回應請求。"
+ },
+ {
+  "type": "wh",
+  "q": "What is the rate for a single room?",
+  "answer": "Ninety dollars a night.",
+  "distractors": [
+   "On the fifth floor.",
+   "For three nights."
+  ],
+  "zh_q": "單人房的房價是多少？",
+  "zh_answer": "一晚九十元。",
+  "zh_distractors": [
+   "在五樓。",
+   "住三個晚上。"
+  ],
+  "ex": "What is the rate 問費用（rate 是「費率、價格」），Ninety dollars a night 回答每晚的價錢。On the fifth floor 回答的是位置；For three nights 回答的是住幾晚，不是價錢。"
+ },
+ {
+  "type": "wh",
+  "q": "Who should I talk to regarding my order?",
+  "answer": "Try the customer service desk.",
+  "distractors": [
+   "It was ordered on Monday.",
+   "Within three business days."
+  ],
+  "zh_q": "關於我的訂單，我應該找誰談？",
+  "zh_answer": "你可以問問客服櫃檯。",
+  "zh_distractors": [
+   "那是星期一訂的。",
+   "三個工作天內。"
+  ],
+  "ex": "Who 問該找誰（regarding 是「關於」），Try the customer service desk 告訴對方去找客服櫃檯。It was ordered on Monday 回答的是下訂的時間，只是重複 order；Within three business days 回答的是期限。"
+ },
+ {
+  "type": "choice",
+  "q": "Are you looking for a domestic flight or an international one?",
+  "answer": "A domestic one, please.",
+  "distractors": [
+   "At the airport gate.",
+   "No, I haven't found it."
+  ],
+  "zh_q": "您要找國內線還是國際線的班機？",
+  "zh_answer": "國內線，謝謝。",
+  "zh_distractors": [
+   "在機場的登機門。",
+   "還沒，我還沒找到。"
+  ],
+  "ex": "這是二選一的問句（domestic 是「國內的」），A domestic one, please 選了國內線。At the airport gate 回答的是地點；No, I haven't found it 把 looking for 當成在找東西，而且用 No 回答選擇問句不合。"
+ },
+ {
+  "type": "wh",
+  "q": "What kind of identification do I need to bring?",
+  "answer": "A passport or a driver's license.",
+  "distractors": [
+   "To the front gate.",
+   "Yes, I brought it."
+  ],
+  "zh_q": "我需要帶哪一種身分證明文件？",
+  "zh_answer": "護照或駕照。",
+  "zh_distractors": [
+   "帶到大門口。",
+   "對，我帶來了。"
+  ],
+  "ex": "What kind of identification 問證件的種類，A passport or a driver's license 直接回答。To the front gate 回答的是地點；Yes, I brought it 用 Yes 回答 What 問句不合，只是用了 bring 的過去式 brought。"
+ },
+ {
+  "type": "yesno",
+  "q": "Do I need to register in advance for the lecture?",
+  "answer": "No, you can sign up at the door.",
+  "distractors": [
+   "It was very interesting.",
+   "The cash register is broken."
+  ],
+  "zh_q": "這場講座需要事先報名嗎？",
+  "zh_answer": "不用，可以現場報名。",
+  "zh_distractors": [
+   "那很有趣。",
+   "收銀機壞了。"
+  ],
+  "ex": "問句問要不要事先報名，No, you can sign up at the door 回答不用，現場報名就可以。It was very interesting 是對已經結束的活動的感想；The cash register is broken 是把 register 當成「收銀機」來混淆，這裡的 register 是「報名」。"
+ },
+ {
+  "type": "request",
+  "q": "Could you tell the tenants about the elevator maintenance?",
+  "answer": "I'll put up a notice today.",
+  "distractors": [
+   "Ten of them, I think.",
+   "Take the stairs to the fifth floor."
+  ],
+  "zh_q": "可以請你通知房客電梯要保養的事嗎？",
+  "zh_answer": "我今天會貼公告。",
+  "zh_distractors": [
+   "我想是十個。",
+   "走樓梯到五樓。"
+  ],
+  "ex": "Could you 是請求（tenant 是「房客」，maintenance 是「保養」）。I'll put up a notice today 表示會用貼公告的方式通知，也就是答應了。Ten of them, I think 回答的是數量，ten 只是和 tenants 發音相近；Take the stairs to the fifth floor 只是和 elevator 有關聯，沒有回應請求。"
+ },
+ {
+  "type": "statement",
+  "q": "The trains are delayed because of a strike.",
+  "answer": "Then I'd better take a taxi.",
+  "distractors": [
+   "The training starts at nine.",
+   "I left it on the train."
+  ],
+  "zh_q": "火車因為罷工而誤點了。",
+  "zh_answer": "那我最好搭計程車。",
+  "zh_distractors": [
+   "訓練九點開始。",
+   "我把它忘在火車上了。"
+  ],
+  "ex": "這句話是說火車因罷工誤點（strike 是「罷工」），Then I'd better take a taxi 提出改搭計程車，是合理的回應。The training starts at nine 的 training 只是和 trains 發音相近；I left it on the train 只是重複 train，講的是東西忘在車上。"
+ },
+ {
+  "type": "yesno",
+  "q": "Is there public transportation near the hotel?",
+  "answer": "Yes, there's a bus stop right outside.",
+  "distractors": [
+   "I'd like to check in, please.",
+   "It takes credit cards."
+  ],
+  "zh_q": "飯店附近有大眾運輸工具嗎？",
+  "zh_answer": "有，門口就有公車站。",
+  "zh_distractors": [
+   "我要辦理入住，謝謝。",
+   "那裡可以刷卡。"
+  ],
+  "ex": "問句問飯店附近有沒有大眾運輸（transportation 是「交通工具」），Yes, there's a bus stop right outside 回答有。I'd like to check in, please 是辦理入住時說的話；It takes credit cards 講的是付款方式。"
+ },
+ {
+  "type": "wh",
+  "q": "How do I activate my new bank card?",
+  "answer": "Just call the number on the back.",
+  "distractors": [
+   "It arrived two weeks ago.",
+   "Yes, I opened an account."
+  ],
+  "zh_q": "我要怎麼啟用新的金融卡？",
+  "zh_answer": "打背面的電話號碼就可以了。",
+  "zh_distractors": [
+   "它兩個星期前寄到的。",
+   "對，我開了一個帳戶。"
+  ],
+  "ex": "How 問方法，Just call the number on the back 說明啟用卡片的方式（activate 是「啟動、啟用」）。It arrived two weeks ago 回答的是時間；Yes, I opened an account 用 Yes 回答 How 問句不合。"
+ },
+ {
+  "type": "yesno",
+  "q": "Does your firm have an office overseas?",
+  "answer": "Yes, we have one in Singapore.",
+  "distractors": [
+   "I'm going on vacation.",
+   "The office closes at six."
+  ],
+  "zh_q": "貴公司在海外有辦公室嗎？",
+  "zh_answer": "有，我們在新加坡有一間。",
+  "zh_distractors": [
+   "我要去度假。",
+   "辦公室六點關門。"
+  ],
+  "ex": "問句問公司在海外有沒有辦公室（firm 是「公司」，overseas 是「在海外」），Yes, we have one in Singapore 回答有，並說出地點。I'm going on vacation 講的是度假；The office closes at six 只是重複 office，講的是關門時間。"
+ },
+ {
+  "type": "wh",
+  "q": "Where can I find the photocopier on this floor?",
+  "answer": "It's next to the elevator.",
+  "distractors": [
+   "About twenty copies, please.",
+   "Yes, it works very well."
+  ],
+  "zh_q": "這層樓的影印機在哪裡？",
+  "zh_answer": "就在電梯旁邊。",
+  "zh_distractors": [
+   "請印大約二十份。",
+   "對，它運作得很好。"
+  ],
+  "ex": "Where 問地點，It's next to the elevator 說明影印機的位置。About twenty copies, please 講的是份數，只是用 copies 和 photocopier 混淆；Yes, it works very well 用 Yes 回答 Where 問句不合。"
+ },
+ {
+  "type": "wh",
+  "q": "How much is the monthly subscription?",
+  "answer": "It depends on the plan you choose.",
+  "distractors": [
+   "Every month, I think.",
+   "By credit card."
+  ],
+  "zh_q": "每個月的訂閱費是多少？",
+  "zh_answer": "要看你選哪一種方案。",
+  "zh_distractors": [
+   "我想是每個月。",
+   "用信用卡。"
+  ],
+  "ex": "How much 問價錢。It depends on the plan you choose 表示價錢依方案而定，是合理的間接回答。Every month, I think 回答的是頻率，只是重複 month；By credit card 回答的是付款方式，不是金額。"
+ },
+ {
+  "type": "request",
+  "q": "Could you scan these documents for me?",
+  "answer": "Sure, I'll do it right now.",
+  "distractors": [
+   "Yes, I saw them yesterday.",
+   "They're on the top shelf."
+  ],
+  "zh_q": "可以請你幫我掃描這些文件嗎？",
+  "zh_answer": "沒問題，我現在就做。",
+  "zh_distractors": [
+   "對，我昨天看到了。",
+   "它們在最上層的架子上。"
+  ],
+  "ex": "Could you 是請求對方幫忙，Sure, I'll do it right now 表示答應。Yes, I saw them yesterday 講的是看到文件，沒有回應請求；They're on the top shelf 回答的是位置。"
+ },
+ {
+  "type": "tag",
+  "q": "That restaurant has a good reputation, doesn't it?",
+  "answer": "Yes, everyone says the food is excellent.",
+  "distractors": [
+   "A table by the window.",
+   "No, I didn't repeat it."
+  ],
+  "zh_q": "那家餐廳的評價很好，對吧？",
+  "zh_answer": "對，大家都說那裡的菜很好吃。",
+  "zh_distractors": [
+   "靠窗的桌子。",
+   "沒有，我沒有重複。"
+  ],
+  "ex": "附加問句是在確認餐廳的名聲好不好（reputation 是「名聲」），Yes, everyone says the food is excellent 表示同意。A table by the window 是訂位時說的話；No, I didn't repeat it 的 repeat 只是和 reputation 發音相近。"
+ },
+ {
+  "type": "request",
+  "q": "Why don't we hire a professional to design the website?",
+  "answer": "Good idea, I know a good designer.",
+  "distractors": [
+   "Because the bus was late.",
+   "On the home page."
+  ],
+  "zh_q": "我們何不請專業人士來設計網站呢？",
+  "zh_answer": "好主意，我認識一位不錯的設計師。",
+  "zh_distractors": [
+   "因為公車誤點了。",
+   "在首頁上。"
+  ],
+  "ex": "Why don't we 是提出建議，不是真的在問原因。Good idea, I know a good designer 表示贊成。Because the bus was late 把它當成問原因的 Why 問句，而且內容無關；On the home page 回答的是位置。"
+ },
+ {
+  "type": "wh",
+  "q": "Why did you reschedule your flight?",
+  "answer": "My client moved our meeting to Friday.",
+  "distractors": [
+   "A window seat, please.",
+   "At gate twelve."
+  ],
+  "zh_q": "你為什麼把班機改期？",
+  "zh_answer": "我的客戶把會議改到星期五了。",
+  "zh_distractors": [
+   "請給我靠窗的座位。",
+   "在十二號登機門。"
+  ],
+  "ex": "Why 問原因。My client moved our meeting to Friday 雖然沒有 Because，但說明了改期的理由。A window seat, please 是選座位時說的話；At gate twelve 回答的是地點。"
+ },
+ {
+  "type": "request",
+  "q": "Can you assure me the order will arrive on time?",
+  "answer": "Yes, we guarantee delivery by Friday.",
+  "distractors": [
+   "I'm sure it was expensive.",
+   "At the wrong address."
+  ],
+  "zh_q": "你能向我保證訂單會準時送達嗎？",
+  "zh_answer": "可以，我們保證星期五前送到。",
+  "zh_distractors": [
+   "我確定那很貴。",
+   "在錯誤的地址。"
+  ],
+  "ex": "問句請對方保證準時到貨（assure 是「向…保證」），Yes, we guarantee delivery by Friday 給了明確的保證。I'm sure it was expensive 的 sure 只是和 assure 相近；At the wrong address 回答的是地點。"
+ },
+ {
+  "type": "tag",
+  "q": "Mr. Tanaka is always punctual, isn't he?",
+  "answer": "Yes, he's never been late.",
+  "distractors": [
+   "The meeting is at two o'clock.",
+   "By the three o'clock train."
+  ],
+  "zh_q": "Tanaka 先生總是很準時，對吧？",
+  "zh_answer": "對，他從來沒遲到過。",
+  "zh_distractors": [
+   "會議在兩點。",
+   "搭三點的火車。"
+  ],
+  "ex": "附加問句是在確認 Tanaka 先生是不是很準時（punctual 是「準時的」），Yes, he's never been late 表示同意。The meeting is at two o'clock 回答的是會議時間；By the three o'clock train 回答的是交通方式，都沒有回應他準不準時。"
+ },
+ {
+  "type": "wh",
+  "q": "How can I check my account balance?",
+  "answer": "You can check it on our website.",
+  "distractors": [
+   "A savings account, please.",
+   "It's on Bank Street."
+  ],
+  "zh_q": "我要怎麼查帳戶餘額？",
+  "zh_answer": "可以在我們的網站上查。",
+  "zh_distractors": [
+   "儲蓄帳戶，謝謝。",
+   "在銀行街上。"
+  ],
+  "ex": "How 問方法，You can check it on our website 說明查詢餘額的方式（balance 是「餘額」）。A savings account, please 回答的是帳戶種類，只是重複 account；It's on Bank Street 回答的是地點。"
+ },
+ {
+  "type": "yesno",
+  "q": "Can I adjust the height of this desk?",
+  "answer": "Yes, just press the button on the side.",
+  "distractors": [
+   "It's two meters long.",
+   "In the furniture section."
+  ],
+  "zh_q": "這張桌子的高度可以調整嗎？",
+  "zh_answer": "可以，按側邊的按鈕就行了。",
+  "zh_distractors": [
+   "它有兩公尺長。",
+   "在家具區。"
+  ],
+  "ex": "問句問桌子高度能不能調整（adjust 是「調整」），Yes, just press the button on the side 回答可以，並說明方法。It's two meters long 講的是長度；In the furniture section 回答的是地點。"
+ },
+ {
+  "type": "request",
+  "q": "Could you quote me a price for fifty office chairs?",
+  "answer": "Sure, I'll email it to you today.",
+  "distractors": [
+   "Please have a seat.",
+   "That's a famous quote."
+  ],
+  "zh_q": "可以請你報五十張辦公椅的價格給我嗎？",
+  "zh_answer": "沒問題，我今天用電子郵件寄給你。",
+  "zh_distractors": [
+   "請坐。",
+   "那是一句名言。"
+  ],
+  "ex": "Could you quote me a price 是請對方報價（quote 是「報價」），Sure, I'll email it to you today 表示答應。Please have a seat 只是和 chairs 有關聯；That's a famous quote 是把 quote 當成「引用的話」來混淆。"
+ },
+ {
+  "type": "yesno",
+  "q": "Do you have a valid passport?",
+  "answer": "Yes, it's good for another five years.",
+  "distractors": [
+   "At the airport.",
+   "I passed the test."
+  ],
+  "zh_q": "你有有效的護照嗎？",
+  "zh_answer": "有，還有五年的效期。",
+  "zh_distractors": [
+   "在機場。",
+   "我通過考試了。"
+  ],
+  "ex": "問句問護照是否有效（valid 是「有效的」），Yes, it's good for another five years 回答有，而且還能用五年。At the airport 回答的是地點；I passed the test 的 passed 只是和 passport 發音相近。"
+ },
+ {
+  "type": "choice",
+  "q": "Should I file these receipts or throw them away?",
+  "answer": "The accountant will need them later.",
+  "distractors": [
+   "Yes, I received them.",
+   "It's far away from here."
+  ],
+  "zh_q": "這些收據我應該歸檔還是丟掉？",
+  "zh_answer": "會計師之後會需要用到。",
+  "zh_distractors": [
+   "對，我收到了。",
+   "那裡離這裡很遠。"
+  ],
+  "ex": "這是二選一的問句（file 是「歸檔」）。The accountant will need them later 表示之後還用得到，也就是要留下來歸檔，是合理的間接回答。Yes, I received them 的 received 只是和 receipts 相近；It's far away from here 只是重複 away，講的是距離。"
+ },
+ {
+  "type": "choice",
+  "q": "Do you prefer a window seat or an aisle seat?",
+  "answer": "Either is fine with me.",
+  "distractors": [
+   "Yes, please have a seat.",
+   "The window is open."
+  ],
+  "zh_q": "你比較喜歡靠窗還是靠走道的座位？",
+  "zh_answer": "我都可以。",
+  "zh_distractors": [
+   "好的，請坐。",
+   "窗戶開著。"
+  ],
+  "ex": "這是二選一的問句，Either is fine with me 表示兩個都可以，是合理的回答。Yes, please have a seat 用 Yes 回答選擇問句不合，只是重複 seat；The window is open 只是重複 window。"
+ },
+ {
+  "type": "wh",
+  "q": "How many people does your plant employ?",
+  "answer": "Approximately five hundred.",
+  "distractors": [
+   "They need water every day.",
+   "It opened in June."
+  ],
+  "zh_q": "你們工廠雇用了多少人？",
+  "zh_answer": "大約五百人。",
+  "zh_distractors": [
+   "它們每天都需要澆水。",
+   "它是六月啟用的。"
+  ],
+  "ex": "How many 問人數，Approximately five hundred 回答大約的數字。They need water every day 是把 plant 當成「植物」來混淆，這裡的 plant 是「工廠」；It opened in June 回答的是時間。"
+ },
+ {
+  "type": "wh",
+  "q": "How do most of your employees commute to work?",
+  "answer": "The majority take the subway.",
+  "distractors": [
+   "About forty minutes.",
+   "They start at nine o'clock."
+  ],
+  "zh_q": "你們大部分的員工是怎麼通勤上班的？",
+  "zh_answer": "大多數人搭地鐵。",
+  "zh_distractors": [
+   "大約四十分鐘。",
+   "他們九點開始上班。"
+  ],
+  "ex": "How 在這裡問通勤的方式，The majority take the subway 回答交通工具（majority 是「大多數」）。About forty minutes 回答的是花多久時間，是 How long 的答案；They start at nine o'clock 回答的是上班時間。"
+ },
+ {
+  "type": "choice",
+  "q": "Should I send my résumé by email or by mail?",
+  "answer": "Email would be better.",
+  "distractors": [
+   "To the hiring manager.",
+   "Yes, the mail has arrived."
+  ],
+  "zh_q": "我的履歷應該用電子郵件寄還是用郵寄的？",
+  "zh_answer": "用電子郵件比較好。",
+  "zh_distractors": [
+   "寄給負責徵才的經理。",
+   "對，信件已經送到了。"
+  ],
+  "ex": "這是二選一的問句（résumé 是「履歷」），Email would be better 選了電子郵件。To the hiring manager 回答的是寄給誰，沒有說用哪一種方式；Yes, the mail has arrived 用 Yes 回答選擇問句不合，只是重複 mail。"
+ },
+ {
+  "type": "wh",
+  "q": "When will the committee announce its decision?",
+  "answer": "They're still discussing it.",
+  "distractors": [
+   "There are six members.",
+   "Yes, I announced it."
+  ],
+  "zh_q": "委員會什麼時候會宣布決定？",
+  "zh_answer": "他們還在討論。",
+  "zh_distractors": [
+   "有六位委員。",
+   "對，我宣布了。"
+  ],
+  "ex": "When 問時間。They're still discussing it 表示還在討論、時間未定，是合理的間接回答。There are six members 回答的是人數；Yes, I announced it 用 Yes 回答 When 問句不合，只是重複 announce。"
+ },
+ {
+  "type": "tag",
+  "q": "You've already filled out the application form, haven't you?",
+  "answer": "Yes, I handed it in this morning.",
+  "distractors": [
+   "The glass is full.",
+   "In the supply room."
+  ],
+  "zh_q": "你已經填好申請表了，對吧？",
+  "zh_answer": "對，我今天早上交出去了。",
+  "zh_distractors": [
+   "杯子是滿的。",
+   "在用品室。"
+  ],
+  "ex": "附加問句是在確認申請表填了沒有（application form 是「申請表」），Yes, I handed it in this morning 回答已經填好並交出去了。The glass is full 的 full 只是和 filled 相近；In the supply room 回答的是地點。"
+ },
+ {
+  "type": "request",
+  "q": "Let's go over the statistics after lunch.",
+  "answer": "Sure, I'm free at two.",
+  "distractors": [
+   "I'll have the chicken salad.",
+   "It's over there, on the left."
+  ],
+  "zh_q": "我們午餐後一起看一下統計數據吧。",
+  "zh_answer": "好啊，我兩點有空。",
+  "zh_distractors": [
+   "我要點雞肉沙拉。",
+   "就在那邊，在左手邊。"
+  ],
+  "ex": "Let's 是提議一起做某件事（go over 是「仔細看過」，statistics 是「統計數據」），Sure, I'm free at two 表示同意並提出時間。I'll have the chicken salad 是點餐時說的話，只是和 lunch 有關聯；It's over there, on the left 回答的是位置，只是重複 over。"
+ },
+ {
+  "type": "request",
+  "q": "Would you mind forwarding me Mr. Lee's email?",
+  "answer": "Not at all, I'll send it right away.",
+  "distractors": [
+   "I look forward to it.",
+   "He moved to a new address."
+  ],
+  "zh_q": "你介意把 Lee 先生的電子郵件轉寄給我嗎？",
+  "zh_answer": "不介意，我馬上寄。",
+  "zh_distractors": [
+   "我很期待。",
+   "他搬到新地址了。"
+  ],
+  "ex": "Would you mind 是客氣的請求，Not at all, I'll send it right away 表示願意幫忙。I look forward to it 是用 look forward to（期待）和 forward（轉寄）混淆；He moved to a new address 講的是搬家，沒有回應請求。"
+ },
+ {
+  "type": "wh",
+  "q": "Which candidate did you choose for the position?",
+  "answer": "We haven't made a decision yet.",
+  "distractors": [
+   "Yes, I applied last week.",
+   "In the human resources office."
+  ],
+  "zh_q": "這個職位你們選了哪一位應徵者？",
+  "zh_answer": "我們還沒做決定。",
+  "zh_distractors": [
+   "對，我上星期應徵了。",
+   "在人力資源辦公室。"
+  ],
+  "ex": "Which candidate 問選了哪一位。We haven't made a decision yet 表示還沒選出來，是合理的間接回答。Yes, I applied last week 用 Yes 回答 Which 問句不合；In the human resources office 回答的是地點。"
+ },
+ {
+  "type": "request",
+  "q": "Could you show me how to use the new interface?",
+  "answer": "Sure, it only takes a few minutes.",
+  "distractors": [
+   "The interview is at three.",
+   "Yes, the show was great."
+  ],
+  "zh_q": "可以請你教我怎麼使用新的介面嗎？",
+  "zh_answer": "好啊，只要幾分鐘就夠了。",
+  "zh_distractors": [
+   "面試在三點。",
+   "對，那場表演很棒。"
+  ],
+  "ex": "Could you show me 是請對方示範（interface 是「介面」），Sure, it only takes a few minutes 表示答應。The interview is at three 的 interview 只是和 interface 發音相近；Yes, the show was great 是把 show 當成「表演」來混淆。"
+ },
+ {
+  "type": "wh",
+  "q": "Why is the parking lot closed this week?",
+  "answer": "There's construction work going on.",
+  "distractors": [
+   "It's five dollars an hour.",
+   "Behind the main building."
+  ],
+  "zh_q": "停車場這星期為什麼關閉？",
+  "zh_answer": "那裡正在施工。",
+  "zh_distractors": [
+   "每小時五元。",
+   "在主要大樓後面。"
+  ],
+  "ex": "Why 問原因，There's construction work going on 說明關閉的理由（construction 是「施工、建設」）。It's five dollars an hour 回答的是停車費；Behind the main building 回答的是位置。"
+ },
+ {
+  "type": "wh",
+  "q": "What are the main ingredients in this soup?",
+  "answer": "Tomatoes, onions, and chicken.",
+  "distractors": [
+   "It's ten dollars a bowl.",
+   "Yes, it's the main dish."
+  ],
+  "zh_q": "這道湯的主要食材是什麼？",
+  "zh_answer": "番茄、洋蔥和雞肉。",
+  "zh_distractors": [
+   "一碗十元。",
+   "對，這是主菜。"
+  ],
+  "ex": "What 問的是食材（ingredient 是「成分、材料」），Tomatoes, onions, and chicken 列出材料。It's ten dollars a bowl 回答的是價錢；Yes, it's the main dish 用 Yes 回答 What 問句不合，只是重複 main。"
+ },
+ {
+  "type": "request",
+  "q": "Could you add one more item to the agenda?",
+  "answer": "Sure, what would you like to discuss?",
+  "distractors": [
+   "Yes, I added the numbers.",
+   "It's on sale today."
+  ],
+  "zh_q": "可以請你在議程上再加一個項目嗎？",
+  "zh_answer": "可以，你想討論什麼？",
+  "zh_distractors": [
+   "對，我把數字加起來了。",
+   "它今天特價。"
+  ],
+  "ex": "Could you 是請求（agenda 是「議程」），Sure, what would you like to discuss 表示答應，並反問要加什麼議題。Yes, I added the numbers 的 added 是「相加」的意思；It's on sale today 是把 item 當成「商品」來混淆，都沒有回應請求。"
+ },
+ {
+  "type": "wh",
+  "q": "What caused the printer to malfunction?",
+  "answer": "A piece of paper got stuck inside.",
+  "distractors": [
+   "Twenty color copies, please.",
+   "It's on the second floor."
+  ],
+  "zh_q": "印表機故障的原因是什麼？",
+  "zh_answer": "有一張紙卡在裡面。",
+  "zh_distractors": [
+   "請印二十份彩色的。",
+   "在二樓。"
+  ],
+  "ex": "What caused 問原因，A piece of paper got stuck inside 說明故障的原因（malfunction 是「故障」）。Twenty color copies, please 是要求列印的份數；It's on the second floor 回答的是位置。"
+ },
+ {
+  "type": "yesno",
+  "q": "Do you have anything to declare?",
+  "answer": "No, I only have clothes and books.",
+  "distractors": [
+   "The flight was two hours late.",
+   "Yes, the sky is clear today."
+  ],
+  "zh_q": "您有任何東西要申報嗎？",
+  "zh_answer": "沒有，我只有衣服和書。",
+  "zh_distractors": [
+   "班機晚了兩個小時。",
+   "對，今天天空很晴朗。"
+  ],
+  "ex": "這是海關人員問有沒有東西要申報（declare 是「申報」），No, I only have clothes and books 回答沒有。The flight was two hours late 講的是班機誤點；Yes, the sky is clear today 的 clear 只是和 declare 發音相近，講的是天氣。"
+ },
+ {
+  "type": "wh",
+  "q": "Where should I submit my expense report?",
+  "answer": "Everything is done online now.",
+  "distractors": [
+   "By the end of the month.",
+   "It was quite expensive."
+  ],
+  "zh_q": "我的費用報告應該交到哪裡？",
+  "zh_answer": "現在全部都在線上處理了。",
+  "zh_distractors": [
+   "月底以前。",
+   "那相當貴。"
+  ],
+  "ex": "Where 問要交到哪裡。Everything is done online now 表示不用交到某個地方，在線上提交就可以，是合理的間接回答。By the end of the month 回答的是期限；It was quite expensive 只是用 expensive 和 expense 混淆。"
+ },
+ {
+  "type": "wh",
+  "q": "When does your lease end?",
+  "answer": "At the end of March.",
+  "distractors": [
+   "A two-bedroom apartment.",
+   "The tenant upstairs."
+  ],
+  "zh_q": "你的租約什麼時候到期？",
+  "zh_answer": "三月底。",
+  "zh_distractors": [
+   "一間兩房的公寓。",
+   "樓上的房客。"
+  ],
+  "ex": "When 問時間，At the end of March 回答租約到期的時間（lease 是「租約」）。A two-bedroom apartment 講的是房型；The tenant upstairs 講的是人，都沒有回答什麼時候。"
+ },
+ {
+  "type": "choice",
+  "q": "Is the training session in the morning or the afternoon?",
+  "answer": "It starts at ten in the morning.",
+  "distractors": [
+   "Good afternoon, everyone.",
+   "In the training room."
+  ],
+  "zh_q": "訓練課程是在上午還是下午？",
+  "zh_answer": "上午十點開始。",
+  "zh_distractors": [
+   "大家午安。",
+   "在訓練教室。"
+  ],
+  "ex": "這是二選一的問句（session 是「一堂課、一場活動」），It starts at ten in the morning 說明是上午。Good afternoon, everyone 是打招呼，只是重複 afternoon；In the training room 回答的是地點。"
+ },
+ {
+  "type": "negative",
+  "q": "Shouldn't we concentrate on the main project first?",
+  "answer": "You're right, the others can wait.",
+  "distractors": [
+   "It's in the center of town.",
+   "On the first floor."
+  ],
+  "zh_q": "我們不是應該先專心做主要的專案嗎？",
+  "zh_answer": "你說得對，其他的可以晚一點再做。",
+  "zh_distractors": [
+   "在市中心。",
+   "在一樓。"
+  ],
+  "ex": "否定問句其實是在建議先專心做主要專案（concentrate 是「專心」），You're right, the others can wait 表示同意。It's in the center of town 回答的是地點；On the first floor 只是重複 first，回答的也是位置。"
+ },
+ {
+  "type": "request",
+  "q": "Can you help me assemble this bookshelf?",
+  "answer": "Sure, let me get my tools.",
+  "distractors": [
+   "I read that book last year.",
+   "The assembly is at ten."
+  ],
+  "zh_q": "你可以幫我組裝這個書架嗎？",
+  "zh_answer": "好啊，我去拿工具。",
+  "zh_distractors": [
+   "那本書我去年讀過了。",
+   "集會在十點。"
+  ],
+  "ex": "Can you help me 是請求幫忙（assemble 是「組裝」），Sure, let me get my tools 表示答應。I read that book last year 只是用 book 和 bookshelf 混淆；The assembly is at ten 的 assembly 在這裡是「集會」，沒有回應請求。"
+ },
+ {
+  "type": "statement",
+  "q": "Please don't hesitate to call me if you have any questions.",
+  "answer": "Thank you, I will.",
+  "distractors": [
+   "No, he didn't call me.",
+   "The answer is on page ten."
+  ],
+  "zh_q": "如果有任何問題，請儘管打電話給我，不要猶豫。",
+  "zh_answer": "謝謝，我會的。",
+  "zh_distractors": [
+   "沒有，他沒有打給我。",
+   "答案在第十頁。"
+  ],
+  "ex": "這句話是請對方有問題就打電話（hesitate 是「猶豫」），Thank you, I will 表示感謝並會這麼做，是自然的回應。No, he didn't call me 只是重複 call，講的是另一個人；The answer is on page ten 只是和 questions 有關聯。"
+ },
+ {
+  "type": "wh",
+  "q": "How was your performance review with the manager?",
+  "answer": "It went well, and I got good feedback.",
+  "distractors": [
+   "In her office at two.",
+   "The show starts at eight."
+  ],
+  "zh_q": "你和經理的績效面談進行得如何？",
+  "zh_answer": "很順利，我得到不錯的回饋。",
+  "zh_distractors": [
+   "兩點在她的辦公室。",
+   "表演八點開始。"
+  ],
+  "ex": "How was 問的是情況如何，It went well, and I got good feedback 說明面談的結果。In her office at two 回答的是地點和時間；The show starts at eight 是把 performance 當成「表演」來混淆，這裡的 performance 是「工作表現」。"
+ },
+ {
+  "type": "yesno",
+  "q": "Is breakfast included in the room rate?",
+  "answer": "Yes, it's complimentary for all guests.",
+  "distractors": [
+   "A table for two, please.",
+   "On the tenth floor."
+  ],
+  "zh_q": "房價有包含早餐嗎？",
+  "zh_answer": "有的，所有房客都免費享用。",
+  "zh_distractors": [
+   "兩位，謝謝。",
+   "在十樓。"
+  ],
+  "ex": "問句問房價是否含早餐，Yes, it's complimentary for all guests 回答有，而且是免費的（complimentary 是「免費贈送的」）。A table for two, please 是在餐廳訂位時說的話；On the tenth floor 回答的是位置。"
+ },
+ {
+  "type": "request",
+  "q": "Why don't we invest in some new equipment?",
+  "answer": "We don't have the budget right now.",
+  "distractors": [
+   "It's in the storage room.",
+   "He works at a bank."
+  ],
+  "zh_q": "我們何不投資買一些新設備呢？",
+  "zh_answer": "我們目前沒有這筆預算。",
+  "zh_distractors": [
+   "它在儲藏室裡。",
+   "他在銀行上班。"
+  ],
+  "ex": "Why don't we 是提出建議（invest 是「投資」）。We don't have the budget right now 說明現在沒有預算，是委婉地不贊成。It's in the storage room 回答的是位置；He works at a bank 只是和 invest 有關聯，沒有回應建議。"
+ },
+ {
+  "type": "wh",
+  "q": "How long is the guarantee on this appliance?",
+  "answer": "Two years from the date of purchase.",
+  "distractors": [
+   "In the kitchen section.",
+   "It's two hundred dollars."
+  ],
+  "zh_q": "這台家電的保固期是多久？",
+  "zh_answer": "從購買日起算兩年。",
+  "zh_distractors": [
+   "在廚房用品區。",
+   "它是兩百元。"
+  ],
+  "ex": "How long 問期間長度，Two years from the date of purchase 回答保固多久（guarantee 是「保固」，appliance 是「家電」）。In the kitchen section 回答的是地點；It's two hundred dollars 回答的是價錢。"
+ },
+ {
+  "type": "statement",
+  "q": "I'd like to withdraw two hundred dollars from my account.",
+  "answer": "Certainly, may I see your bank card?",
+  "distractors": [
+   "It's two hundred meters away.",
+   "I'll count the chairs."
+  ],
+  "zh_q": "我想從我的帳戶提領兩百元。",
+  "zh_answer": "好的，可以看一下您的金融卡嗎？",
+  "zh_distractors": [
+   "距離這裡兩百公尺。",
+   "我來數椅子。"
+  ],
+  "ex": "這句話是在銀行說要提款（withdraw 是「提領」），Certainly, may I see your bank card 是行員接著辦理的自然回應。It's two hundred meters away 只是重複 two hundred，講的是距離；I'll count the chairs 的 count 只是和 account 發音相近。"
+ },
+ {
+  "type": "yesno",
+  "q": "Have you sent the contract to the client yet?",
+  "answer": "I'm still waiting for the manager's signature.",
+  "distractors": [
+   "For two years, I think.",
+   "He's a new client."
+  ],
+  "zh_q": "你把合約寄給客戶了嗎？",
+  "zh_answer": "我還在等經理簽名。",
+  "zh_distractors": [
+   "我想是兩年。",
+   "他是新客戶。"
+  ],
+  "ex": "問句問合約寄出去了沒有。I'm still waiting for the manager's signature 表示還在等簽名，所以還沒寄，是合理的間接回答。For two years, I think 講的是期間；He's a new client 只是重複 client，都沒有回答寄了沒有。"
+ },
+ {
+  "type": "wh",
+  "q": "What is the main feature of this software?",
+  "answer": "It can track your daily expenses.",
+  "distractors": [
+   "About thirty dollars.",
+   "On my office computer."
+  ],
+  "zh_q": "這套軟體的主要功能是什麼？",
+  "zh_answer": "它可以記錄你每天的開銷。",
+  "zh_distractors": [
+   "大約三十元。",
+   "在我辦公室的電腦上。"
+  ],
+  "ex": "What 問的是軟體的主要功能（feature 是「功能、特色」），It can track your daily expenses 說明它能做什麼。About thirty dollars 回答的是價錢；On my office computer 回答的是位置。"
+ },
+ {
+  "type": "wh",
+  "q": "How long is your layover in Tokyo?",
+  "answer": "About three hours.",
+  "distractors": [
+   "By plane, of course.",
+   "Twice a year."
+  ],
+  "zh_q": "你在東京轉機要停留多久？",
+  "zh_answer": "大約三個小時。",
+  "zh_distractors": [
+   "當然是搭飛機。",
+   "一年兩次。"
+  ],
+  "ex": "How long 問時間長度，About three hours 回答轉機停留多久（layover 是「轉機停留」）。By plane, of course 回答的是交通方式；Twice a year 回答的是頻率，是 How often 的答案。"
+ },
+ {
+  "type": "choice",
+  "q": "Would you like to pay by cash or by credit card?",
+  "answer": "By credit card, please.",
+  "distractors": [
+   "Yes, I would.",
+   "It's thirty dollars."
+  ],
+  "zh_q": "您要付現還是刷卡？",
+  "zh_answer": "刷卡，謝謝。",
+  "zh_distractors": [
+   "是的，我要。",
+   "三十元。"
+  ],
+  "ex": "這是二選一的問句，By credit card, please 選了其中一個。Yes, I would 用 Yes 回答選擇問句，沒有說選哪一個；It's thirty dollars 回答的是金額。"
+ },
+ {
+  "type": "wh",
+  "q": "Why are you taking an accounting course?",
+  "answer": "To get a professional certificate.",
+  "distractors": [
+   "Every Tuesday night.",
+   "At the community college."
+  ],
+  "zh_q": "你為什麼要上會計課程？",
+  "zh_answer": "為了取得專業證書。",
+  "zh_distractors": [
+   "每個星期二晚上。",
+   "在社區大學。"
+  ],
+  "ex": "Why 問原因或目的，To get a professional certificate 用 To 加動詞說明目的。Every Tuesday night 回答的是時間；At the community college 回答的是地點。"
+ },
+ {
+  "type": "wh",
+  "q": "Why was the staff meeting postponed?",
+  "answer": "Because the manager is away on business.",
+  "distractors": [
+   "Until next Thursday.",
+   "In the large conference room."
+  ],
+  "zh_q": "員工會議為什麼延期了？",
+  "zh_answer": "因為經理出差了。",
+  "zh_distractors": [
+   "延到下星期四。",
+   "在大會議室。"
+  ],
+  "ex": "Why 問原因，Because the manager is away on business 說明延期的理由。Until next Thursday 回答的是延到什麼時候，不是原因；In the large conference room 回答的是地點。"
+ },
+ {
+  "type": "yesno",
+  "q": "Does the rent include utilities?",
+  "answer": "Yes, water and electricity are both included.",
+  "distractors": [
+   "It's a two-bedroom apartment.",
+   "I'd like to rent a car."
+  ],
+  "zh_q": "租金有包含水電費嗎？",
+  "zh_answer": "有，水費和電費都包含在內。",
+  "zh_distractors": [
+   "那是兩房的公寓。",
+   "我想租一輛車。"
+  ],
+  "ex": "問句問租金是否含水電費（utilities 是「水電等公共事業費用」），Yes, water and electricity are both included 回答有。It's a two-bedroom apartment 講的是房型；I'd like to rent a car 只是重複 rent，講的是租車。"
+ },
+ {
+  "type": "wh",
+  "q": "Where will the award ceremony take place?",
+  "answer": "The location is on the invitation.",
+  "distractors": [
+   "On Saturday evening.",
+   "The best new employee."
+  ],
+  "zh_q": "頒獎典禮會在哪裡舉行？",
+  "zh_answer": "地點寫在邀請函上。",
+  "zh_distractors": [
+   "星期六晚上。",
+   "最佳新進員工。"
+  ],
+  "ex": "Where 問地點。The location is on the invitation 告訴對方看邀請函就知道地點，是合理的間接回答。On Saturday evening 回答的是時間；The best new employee 講的是獎項，只是和 award 有關聯。"
+ },
+ {
+  "type": "request",
+  "q": "Could you revise the report before the meeting?",
+  "answer": "I'm leaving for the airport in ten minutes.",
+  "distractors": [
+   "I visited them last week.",
+   "In the room at the end of the hall."
+  ],
+  "zh_q": "可以請你在開會前修改這份報告嗎？",
+  "zh_answer": "我十分鐘後就要去機場了。",
+  "zh_distractors": [
+   "我上星期去拜訪過他們。",
+   "在走廊盡頭的那間房間。"
+  ],
+  "ex": "Could you 是請求（revise 是「修改」）。I'm leaving for the airport in ten minutes 表示馬上要離開、沒辦法幫忙，是委婉的拒絕。I visited them last week 的 visited 只是和 revise 發音相近；In the room at the end of the hall 回答的是地點。"
+ },
+ {
+  "type": "yesno",
+  "q": "Is the employee survey anonymous?",
+  "answer": "Yes, you don't need to write your name.",
+  "distractors": [
+   "Most employees were satisfied.",
+   "By the end of the week."
+  ],
+  "zh_q": "員工問卷調查是匿名的嗎？",
+  "zh_answer": "是的，不需要寫名字。",
+  "zh_distractors": [
+   "大部分員工都很滿意。",
+   "這個星期結束前。"
+  ],
+  "ex": "問句問問卷是不是匿名的（anonymous 是「匿名的」），Yes, you don't need to write your name 回答是，不用寫名字。Most employees were satisfied 講的是調查結果；By the end of the week 回答的是期限。"
+ },
+ {
+  "type": "tag",
+  "q": "The exhibit opens next week, doesn't it?",
+  "answer": "Yes, on Monday morning.",
+  "distractors": [
+   "Near the exit.",
+   "I opened it already."
+  ],
+  "zh_q": "展覽下星期開幕，對吧？",
+  "zh_answer": "對，星期一早上。",
+  "zh_distractors": [
+   "在出口附近。",
+   "我已經打開了。"
+  ],
+  "ex": "附加問句是在確認展覽是不是下星期開幕（exhibit 是「展覽」），Yes, on Monday morning 表示沒錯，並說出確切時間。Near the exit 的 exit 只是和 exhibit 發音相近，回答的是地點；I opened it already 只是用 opened 和 opens 混淆。"
+ },
+ {
+  "type": "yesno",
+  "q": "Did we exceed our sales target last quarter?",
+  "answer": "Yes, by almost ten percent.",
+  "distractors": [
+   "A quarter past three.",
+   "The sale ends on Sunday."
+  ],
+  "zh_q": "我們上一季有超過業績目標嗎？",
+  "zh_answer": "有，超過將近百分之十。",
+  "zh_distractors": [
+   "三點十五分。",
+   "特賣到星期日結束。"
+  ],
+  "ex": "問句問上一季有沒有超過業績目標（exceed 是「超過」，quarter 是「季度」），Yes, by almost ten percent 回答有，並說出超過多少。A quarter past three 是把 quarter 當成「十五分鐘」來混淆；The sale ends on Sunday 只是重複 sale，講的是特賣。"
+ },
+ {
+  "type": "wh",
+  "q": "Where is the registration desk for the trade show?",
+  "answer": "In the lobby, near the main entrance.",
+  "distractors": [
+   "It costs fifty dollars.",
+   "From nine to eleven."
+  ],
+  "zh_q": "商展的報到櫃檯在哪裡？",
+  "zh_answer": "在大廳，靠近正門。",
+  "zh_distractors": [
+   "費用是五十元。",
+   "九點到十一點。"
+  ],
+  "ex": "Where 問地點，In the lobby, near the main entrance 說明報到櫃檯的位置。It costs fifty dollars 回答的是費用；From nine to eleven 回答的是時間。"
+ },
+ {
+  "type": "request",
+  "q": "Would you like me to book a table for the client dinner?",
+  "answer": "Yes, please, for six people at seven.",
+  "distractors": [
+   "I've already read that book.",
+   "The table is too heavy to move."
+  ],
+  "zh_q": "要不要我幫客戶晚宴訂位？",
+  "zh_answer": "好，麻煩你，七點、六個人。",
+  "zh_distractors": [
+   "那本書我已經讀過了。",
+   "那張桌子太重了，搬不動。"
+  ],
+  "ex": "Would you like me to 是主動提議幫忙，Yes, please 表示接受，並補充人數和時間。I've already read that book 是把 book 當成「書」來混淆，這裡的 book 是「預訂」；The table is too heavy to move 只是重複 table，講的是搬桌子。"
+ },
+ {
+  "type": "statement",
+  "q": "I have a schedule conflict on Thursday afternoon.",
+  "answer": "Then let's meet on Friday instead.",
+  "distractors": [
+   "The train is on schedule.",
+   "Yes, it was a great afternoon."
+  ],
+  "zh_q": "我星期四下午的行程有衝突。",
+  "zh_answer": "那我們改成星期五見面吧。",
+  "zh_distractors": [
+   "火車準點行駛。",
+   "對，那是個很棒的下午。"
+  ],
+  "ex": "這句話是說星期四下午時間衝突（conflict 是「衝突」），Then let's meet on Friday instead 提出改時間，是合理的回應。The train is on schedule 只是重複 schedule，講的是火車準點；Yes, it was a great afternoon 只是重複 afternoon，講的是過去的事。"
+ },
+ {
+  "type": "tag",
+  "q": "The prices here are quite reasonable, aren't they?",
+  "answer": "Yes, much cheaper than the other store.",
+  "distractors": [
+   "The first prize is a trip.",
+   "For a good reason."
+  ],
+  "zh_q": "這裡的價格相當合理，不是嗎？",
+  "zh_answer": "對，比另一家店便宜很多。",
+  "zh_distractors": [
+   "頭獎是一趟旅行。",
+   "有很好的理由。"
+  ],
+  "ex": "附加問句是在確認價格合不合理（reasonable 是「合理的」），Yes, much cheaper than the other store 表示同意。The first prize is a trip 的 prize（獎品）只是和 prices 發音相近；For a good reason 只是用 reason 和 reasonable 混淆。"
+ },
+ {
+  "type": "wh",
+  "q": "What is our top priority this week?",
+  "answer": "Finishing the client's order on time.",
+  "distractors": [
+   "On the top shelf.",
+   "Yes, every week."
+  ],
+  "zh_q": "我們這星期最優先的事項是什麼？",
+  "zh_answer": "準時完成客戶的訂單。",
+  "zh_distractors": [
+   "在最上層的架子上。",
+   "對，每個星期。"
+  ],
+  "ex": "What 問的是最優先要做的事（priority 是「優先事項」），Finishing the client's order on time 說出具體的工作。On the top shelf 回答的是位置，只是重複 top；Yes, every week 用 Yes 回答 What 問句不合。"
+ },
+ {
+  "type": "wh",
+  "q": "Who approved the purchase of the new hardware?",
+  "answer": "You'd have to ask Ms. Chen.",
+  "distractors": [
+   "Last Tuesday afternoon.",
+   "It's on sale this week."
+  ],
+  "zh_q": "是誰批准採購新硬體設備的？",
+  "zh_answer": "這你得問 Chen 女士。",
+  "zh_distractors": [
+   "上星期二下午。",
+   "這星期在特價。"
+  ],
+  "ex": "Who 問是誰批准的。You'd have to ask Ms. Chen 表示自己不清楚，要問 Chen 女士才知道，是合理的間接回答。Last Tuesday afternoon 回答的是時間；It's on sale this week 只是和 purchase 有關聯，沒有回答是誰。"
+ },
+ {
+  "type": "yesno",
+  "q": "Did you enroll in the computer course?",
+  "answer": "Yes, the classes start next week.",
+  "distractors": [
+   "My computer is very slow.",
+   "In room two oh five."
+  ],
+  "zh_q": "你報名電腦課程了嗎？",
+  "zh_answer": "報了，下星期開始上課。",
+  "zh_distractors": [
+   "我的電腦很慢。",
+   "在 205 室。"
+  ],
+  "ex": "問句問是否報名了課程（enroll 是「註冊、報名」），Yes, the classes start next week 回答已經報名，並補充開課時間。My computer is very slow 只是重複 computer；In room two oh five 回答的是地點。"
+ },
+ {
+  "type": "choice",
+  "q": "Is this a permanent position or a temporary one?",
+  "answer": "It's a six-month contract.",
+  "distractors": [
+   "The temperature is fine.",
+   "He's in a good position."
+  ],
+  "zh_q": "這是正式的職位還是臨時的？",
+  "zh_answer": "這是六個月的合約。",
+  "zh_distractors": [
+   "溫度剛好。",
+   "他的處境很有利。"
+  ],
+  "ex": "這是二選一的問句（permanent 是「長期的」）。It's a six-month contract 表示只有六個月，也就是臨時的，是合理的間接回答。The temperature is fine 的 temperature 只是和 temporary 發音相近；He's in a good position 只是重複 position，沒有回答是哪一種職位。"
+ },
+ {
+  "type": "wh",
+  "q": "When is the deadline for the budget proposal?",
+  "answer": "This Friday at five o'clock.",
+  "distractors": [
+   "In the meeting room upstairs.",
+   "Yes, I proposed it."
+  ],
+  "zh_q": "預算提案的截止日是什麼時候？",
+  "zh_answer": "這個星期五五點。",
+  "zh_distractors": [
+   "在樓上的會議室。",
+   "對，是我提議的。"
+  ],
+  "ex": "When 問時間，This Friday at five o'clock 直接回答截止時間（deadline 是「截止日」）。In the meeting room upstairs 回答的是地點；Yes, I proposed it 用 Yes 回答 When 問句不合，只是用 proposed 和 proposal 混淆。"
+ },
+ {
+  "type": "wh",
+  "q": "How can I get access to the customer database?",
+  "answer": "Ask your supervisor for a password.",
+  "distractors": [
+   "It was updated last week.",
+   "Yes, the customers were happy."
+  ],
+  "zh_q": "我要怎麼取得客戶資料庫的使用權限？",
+  "zh_answer": "向你的主管要密碼。",
+  "zh_distractors": [
+   "它上星期更新過了。",
+   "對，顧客都很滿意。"
+  ],
+  "ex": "How 問方法，Ask your supervisor for a password 說明取得權限的方式。It was updated last week 講的是更新時間；Yes, the customers were happy 用 Yes 回答 How 問句不合，只是重複 customer。"
+ },
+ {
+  "type": "yesno",
+  "q": "Did Ms. Park get the promotion?",
+  "answer": "The decision will be announced tomorrow.",
+  "distractors": [
+   "It's twenty percent off.",
+   "He's in a meeting now."
+  ],
+  "zh_q": "Park 女士升職了嗎？",
+  "zh_answer": "結果明天才會公布。",
+  "zh_distractors": [
+   "打八折。",
+   "他現在在開會。"
+  ],
+  "ex": "問句問 Park 女士有沒有升職。The decision will be announced tomorrow 表示結果還不知道，是合理的間接回答。It's twenty percent off 是把 promotion 當成「促銷」來混淆，這裡的 promotion 是「升遷」；He's in a meeting now 講的是另一個人在開會，沒有回答問題。"
+ },
+ {
+  "type": "wh",
+  "q": "When will the shipment from the supplier arrive?",
+  "answer": "Let me check the tracking number.",
+  "distractors": [
+   "By truck, I believe.",
+   "Ten boxes of paper."
+  ],
+  "zh_q": "供應商的那批貨什麼時候會到？",
+  "zh_answer": "我查一下貨運追蹤號碼。",
+  "zh_distractors": [
+   "我想是用卡車運送。",
+   "十箱紙。"
+  ],
+  "ex": "When 問到貨時間。Let me check the tracking number 表示要先查一下才知道，是合理的間接回答。By truck, I believe 回答的是運送方式；Ten boxes of paper 回答的是貨物的內容和數量。"
+ },
+ {
+  "type": "wh",
+  "q": "Whose briefcase is this on the chair?",
+  "answer": "I think Mr. Kim was sitting there.",
+  "distractors": [
+   "It's made of leather.",
+   "Yes, please have a seat."
+  ],
+  "zh_q": "椅子上這個公事包是誰的？",
+  "zh_answer": "我想剛才是 Kim 先生坐在那裡。",
+  "zh_distractors": [
+   "它是皮製的。",
+   "好的，請坐。"
+  ],
+  "ex": "Whose 問是誰的。I think Mr. Kim was sitting there 暗示公事包應該是 Kim 先生的，是合理的間接回答。It's made of leather 講的是材質；Yes, please have a seat 用 Yes 回答 Whose 問句不合，只是和 chair 有關聯。"
+ },
+ {
+  "type": "negative",
+  "q": "Isn't there a more affordable option?",
+  "answer": "Yes, this model is fifty dollars cheaper.",
+  "distractors": [
+   "It opens at ten.",
+   "I'd like a receipt, please."
+  ],
+  "zh_q": "沒有比較平價的選擇嗎？",
+  "zh_answer": "有，這個型號便宜五十元。",
+  "zh_distractors": [
+   "十點開門。",
+   "請給我收據。"
+  ],
+  "ex": "否定問句問有沒有更便宜的選擇（affordable 是「負擔得起的」），Yes, this model is fifty dollars cheaper 表示有，並介紹較便宜的型號。It opens at ten 回答的是營業時間；I'd like a receipt, please 是結帳時說的話，都沒有回答問題。"
+ },
+ {
+  "type": "yesno",
+  "q": "Is there a charge for delivery?",
+  "answer": "No, shipping is free on all orders.",
+  "distractors": [
+   "Mr. Wu is in charge.",
+   "It arrived yesterday."
+  ],
+  "zh_q": "運送要收費嗎？",
+  "zh_answer": "不用，所有訂單都免運費。",
+  "zh_distractors": [
+   "由 Wu 先生負責。",
+   "它昨天送到了。"
+  ],
+  "ex": "問句問送貨要不要收費，No, shipping is free on all orders 回答不用。Mr. Wu is in charge 是用 in charge（負責）和 charge（收費）混淆；It arrived yesterday 回答的是送達時間。"
+ },
+ {
+  "type": "wh",
+  "q": "Who will give the presentation at the sales conference?",
+  "answer": "Ms. Chen from the marketing team.",
+  "distractors": [
+   "At nine thirty tomorrow morning.",
+   "It was a very nice present."
+  ],
+  "zh_q": "誰會在業務大會上做簡報？",
+  "zh_answer": "行銷團隊的 Chen 女士。",
+  "zh_distractors": [
+   "明天早上九點半。",
+   "那是一份很棒的禮物。"
+  ],
+  "ex": "Who 問的是人，Ms. Chen from the marketing team 說出做簡報的人。At nine thirty tomorrow morning 回答的是時間；It was a very nice present 的 present（禮物）只是和 presentation 發音相近，與問題無關。"
+ },
+ {
+  "type": "choice",
+  "q": "Is your office located downtown or near the airport?",
+  "answer": "It's downtown, across from the central station.",
+  "distractors": [
+   "The flight leaves at noon.",
+   "Yes, it's a large office."
+  ],
+  "zh_q": "你們的辦公室位於市中心還是機場附近？",
+  "zh_answer": "在市中心，中央車站對面。",
+  "zh_distractors": [
+   "班機中午起飛。",
+   "對，那是一間很大的辦公室。"
+  ],
+  "ex": "這是二選一的問句（be located 是「位於」），It's downtown 選了市中心，並補充位置。The flight leaves at noon 只是和 airport 有關聯；Yes, it's a large office 用 Yes 回答選擇問句不合，只是重複 office。"
+ },
+ {
+  "type": "request",
+  "q": "Could you donate something to our charity sale?",
+  "answer": "Sure, I have some books to give.",
+  "distractors": [
+   "Thanks, but I already ate.",
+   "Yes, she's a kind person."
+  ],
+  "zh_q": "你可以捐點東西給我們的慈善義賣嗎？",
+  "zh_answer": "沒問題，我有一些書可以捐。",
+  "zh_distractors": [
+   "謝謝，不過我已經吃過了。",
+   "對，她是個善良的人。"
+  ],
+  "ex": "Could you donate 是請對方捐東西（donate 是「捐贈」），Sure, I have some books to give 表示願意。Thanks, but I already ate 是別人請你吃東西時的回答；Yes, she's a kind person 講的是別人的個性，沒有回應請求。"
+ },
+ {
+  "type": "wh",
+  "q": "When will the courier pick up the package?",
+  "answer": "He usually comes before noon.",
+  "distractors": [
+   "It weighs two kilograms.",
+   "To the head office."
+  ],
+  "zh_q": "快遞員什麼時候會來收包裹？",
+  "zh_answer": "他通常中午以前會來。",
+  "zh_distractors": [
+   "它重兩公斤。",
+   "寄到總公司。"
+  ],
+  "ex": "When 問時間，He usually comes before noon 說明快遞員通常來收件的時間（courier 是「快遞員」）。It weighs two kilograms 講的是重量；To the head office 回答的是寄送的地點。"
+ },
+ {
+  "type": "wh",
+  "q": "Who is the supervisor of the night shift?",
+  "answer": "Mr. Lopez is in charge of it.",
+  "distractors": [
+   "It starts at ten at night.",
+   "No, I work during the day."
+  ],
+  "zh_q": "夜班的主管是誰？",
+  "zh_answer": "是 Lopez 先生負責的。",
+  "zh_distractors": [
+   "晚上十點開始。",
+   "不，我上白天班。"
+  ],
+  "ex": "Who 問人，Mr. Lopez is in charge of it 說出負責夜班的人。It starts at ten at night 回答的是時間；No, I work during the day 用 No 回答 Who 問句不合。"
+ },
+ {
+  "type": "yesno",
+  "q": "Are the working hours flexible?",
+  "answer": "Yes, you can start anytime between eight and ten.",
+  "distractors": [
+   "It took three hours.",
+   "It works very well."
+  ],
+  "zh_q": "上班時間有彈性嗎？",
+  "zh_answer": "有，八點到十點之間都可以開始上班。",
+  "zh_distractors": [
+   "花了三個小時。",
+   "它運作得很好。"
+  ],
+  "ex": "問句問上班時間是否有彈性（flexible 是「有彈性的」），Yes, you can start anytime between eight and ten 回答有，並說明可以彈性上班的時段。It took three hours 講的是花了多久，只是重複 hours；It works very well 的 works 是「運作」的意思，和問題無關。"
+ },
+ {
+  "type": "negative",
+  "q": "Haven't you met the new instructor yet?",
+  "answer": "No, I missed the first class.",
+  "distractors": [
+   "The instructions are in the box.",
+   "Yes, it's brand new."
+  ],
+  "zh_q": "你還沒見過新的講師嗎？",
+  "zh_answer": "還沒，第一堂課我沒去上。",
+  "zh_distractors": [
+   "說明書在盒子裡。",
+   "對，它是全新的。"
+  ],
+  "ex": "否定問句問見過新講師了沒有（instructor 是「講師」），No, I missed the first class 表示還沒見過，並說明原因。The instructions are in the box 的 instructions 只是和 instructor 相近；Yes, it's brand new 只是重複 new，講的是東西而不是人。"
+ },
+ {
+  "type": "yesno",
+  "q": "Is Mr. Brown still in the accounting division?",
+  "answer": "He transferred to sales last year.",
+  "distractors": [
+   "Yes, I counted them twice.",
+   "It's on the fourth floor."
+  ],
+  "zh_q": "Brown 先生還在會計部嗎？",
+  "zh_answer": "他去年調到業務部了。",
+  "zh_distractors": [
+   "對，我數了兩次。",
+   "在四樓。"
+  ],
+  "ex": "問句問 Brown 先生是否還在會計部。He transferred to sales last year 表示他已經調走了，是合理的間接回答。Yes, I counted them twice 的 counted 只是和 accounting 發音相近；It's on the fourth floor 回答的是位置。"
+ },
+ {
+  "type": "yesno",
+  "q": "Have you read the memo about the office move?",
+  "answer": "Not yet, but I'll look at it tonight.",
+  "distractors": [
+   "We moved in last year.",
+   "In the top drawer."
+  ],
+  "zh_q": "你看過關於辦公室搬遷的備忘錄了嗎？",
+  "zh_answer": "還沒，不過我今晚會看。",
+  "zh_distractors": [
+   "我們是去年搬進來的。",
+   "在最上層的抽屜裡。"
+  ],
+  "ex": "問句問看過備忘錄了沒有（memo 是「備忘錄」），Not yet, but I'll look at it tonight 回答還沒看。We moved in last year 只是用 moved 和 move 混淆；In the top drawer 回答的是位置。"
+ },
+ {
+  "type": "wh",
+  "q": "What is your return policy?",
+  "answer": "You can return items within thirty days.",
+  "distractors": [
+   "I'll be back at three.",
+   "Yes, I returned it."
+  ],
+  "zh_q": "你們的退貨規定是什麼？",
+  "zh_answer": "三十天內可以退貨。",
+  "zh_distractors": [
+   "我三點回來。",
+   "對，我退回去了。"
+  ],
+  "ex": "What 問退貨規定的內容（policy 是「政策、規定」），You can return items within thirty days 說明規定。I'll be back at three 講的是幾點回來，和 return 的另一個意思有關，但沒有回答問題；Yes, I returned it 用 Yes 回答 What 問句不合。"
+ },
+ {
+  "type": "choice",
+  "q": "Should we ship the merchandise by air or by sea?",
+  "answer": "By air, since the customer needs it quickly.",
+  "distractors": [
+   "Yes, I can see it.",
+   "The air conditioner is on."
+  ],
+  "zh_q": "這批商品我們應該用空運還是海運？",
+  "zh_answer": "空運，因為客戶急著要。",
+  "zh_distractors": [
+   "對，我看得到。",
+   "冷氣開著。"
+  ],
+  "ex": "這是二選一的問句（merchandise 是「商品」），By air 選了空運，並說明理由。Yes, I can see it 的 see 和 sea 同音，而且用 Yes 回答選擇問句不合；The air conditioner is on 只是重複 air，講的是冷氣。"
+ },
+ {
+  "type": "wh",
+  "q": "What do you think of the new office layout?",
+  "answer": "It feels much more spacious.",
+  "distractors": [
+   "On the third floor.",
+   "No, I didn't think of it."
+  ],
+  "zh_q": "你覺得新的辦公室格局怎麼樣？",
+  "zh_answer": "感覺寬敞多了。",
+  "zh_distractors": [
+   "在三樓。",
+   "不，我沒有想到。"
+  ],
+  "ex": "What do you think of 問的是意見，It feels much more spacious 說出對新格局的看法。On the third floor 回答的是地點；No, I didn't think of it 用 No 回答 What 問句不合，只是重複 think of。"
+ },
+ {
+  "type": "yesno",
+  "q": "Is my package still in transit?",
+  "answer": "Yes, it should arrive tomorrow.",
+  "distractors": [
+   "I packed it myself.",
+   "The train was crowded."
+  ],
+  "zh_q": "我的包裹還在運送途中嗎？",
+  "zh_answer": "是的，應該明天會到。",
+  "zh_distractors": [
+   "是我自己打包的。",
+   "火車上很擠。"
+  ],
+  "ex": "問句問包裹是否還在運送中（in transit 是「運送途中」），Yes, it should arrive tomorrow 回答是，並說明預計到貨時間。I packed it myself 的 packed 只是和 package 相近；The train was crowded 講的是搭車的情況，只是把 transit 和交通工具聯想在一起。"
+ },
+ {
+  "type": "choice",
+  "q": "Do you want the basic plan or the one with additional features?",
+  "answer": "The basic plan is enough for me.",
+  "distractors": [
+   "Yes, I'm planning a trip.",
+   "It's in addition to my salary."
+  ],
+  "zh_q": "你要基本方案，還是有附加功能的方案？",
+  "zh_answer": "基本方案對我來說就夠了。",
+  "zh_distractors": [
+   "對，我正在計劃旅行。",
+   "那是薪水以外的收入。"
+  ],
+  "ex": "這是二選一的問句（additional 是「額外的」），The basic plan is enough for me 選了基本方案。Yes, I'm planning a trip 用 Yes 回答選擇問句不合，只是用 planning 和 plan 混淆；It's in addition to my salary 只是用 addition 和 additional 混淆。"
+ },
+ {
+  "type": "yesno",
+  "q": "Will the technician be here before noon?",
+  "answer": "He just called from the parking lot.",
+  "distractors": [
+   "It's a technical problem.",
+   "Yes, I had lunch already."
+  ],
+  "zh_q": "技術人員中午以前會到嗎？",
+  "zh_answer": "他剛剛從停車場打電話來。",
+  "zh_distractors": [
+   "那是技術上的問題。",
+   "對，我已經吃過午餐了。"
+  ],
+  "ex": "問句問技術人員中午前會不會到。He just called from the parking lot 表示他已經到停車場、馬上就到，是合理的間接回答。It's a technical problem 只是用 technical 和 technician 混淆；Yes, I had lunch already 講的是午餐，和問題無關。"
+ },
+ {
+  "type": "wh",
+  "q": "How much is the deposit for the apartment?",
+  "answer": "Two months of rent.",
+  "distractors": [
+   "On the first of each month.",
+   "It has two bedrooms."
+  ],
+  "zh_q": "這間公寓的押金是多少？",
+  "zh_answer": "兩個月的租金。",
+  "zh_distractors": [
+   "每個月一號。",
+   "它有兩間臥室。"
+  ],
+  "ex": "How much 問金額，Two months of rent 說明押金是多少（deposit 是「押金」）。On the first of each month 回答的是日期；It has two bedrooms 講的是公寓的房間數。"
+ }
+]

@@ -1,0 +1,1627 @@
+[
+ {
+  "wid": 0,
+  "type": "vocab",
+  "q": "Ms. Wu started her own ------- last year and now has ten workers.",
+  "answer": "company",
+  "distractors": [
+   "passenger",
+   "anniversary",
+   "destination"
+  ],
+  "zh": "吳小姐去年創立了自己的公司，現在有十名員工。",
+  "ex": "start one's own company 是「自己開公司」，後面說有十名員工也符合。passenger 是乘客、anniversary 是週年紀念日、destination 是目的地。"
+ },
+ {
+  "wid": 1,
+  "type": "vocab",
+  "q": "Some ------- had to stand during the trip because the bus was full.",
+  "answer": "passengers",
+  "distractors": [
+   "beverages",
+   "spreadsheets",
+   "warehouses"
+  ],
+  "zh": "因為公車客滿，有些乘客一路上只能站著。",
+  "ex": "公車客滿時必須站著的是 passengers「乘客」。beverages 是飲料、spreadsheets 是試算表、warehouses 是倉庫。"
+ },
+ {
+  "wid": 2,
+  "type": "vocab",
+  "q": "The ------- of Mr. Kim's talk was how to save time at work.",
+  "answer": "subject",
+  "distractors": [
+   "insurance",
+   "warehouse",
+   "label"
+  ],
+  "zh": "金先生演講的主題是如何在工作上節省時間。",
+  "ex": "the subject of a talk 是「演講的主題」。insurance 是保險、warehouse 是倉庫、label 是標籤。"
+ },
+ {
+  "wid": 3,
+  "type": "vocab",
+  "q": "There is no parking ------- near the store, so most customers come by bus.",
+  "answer": "area",
+  "distractors": [
+   "spreadsheet",
+   "reminder",
+   "supplier"
+  ],
+  "zh": "這家店附近沒有停車區，所以大部分顧客都搭公車來。",
+  "ex": "parking area 是「停車區」。spreadsheet 是試算表、reminder 是提醒、supplier 是供應商。"
+ },
+ {
+  "wid": 4,
+  "type": "vocab",
+  "q": "After I paid, the ------- gave me my change and put the food in a bag.",
+  "answer": "cashier",
+  "distractors": [
+   "author",
+   "warehouse",
+   "spreadsheet"
+  ],
+  "zh": "我付錢之後，收銀員把零錢找給我，並把食物裝進袋子裡。",
+  "ex": "找零錢、幫忙裝袋的人是 cashier「收銀員」。author 是作者、warehouse 是倉庫、spreadsheet 是試算表。"
+ },
+ {
+  "wid": 5,
+  "type": "vocab",
+  "q": "We spent a large ------- of time on the report last week.",
+  "answer": "amount",
+  "distractors": [
+   "device",
+   "venue",
+   "supplier"
+  ],
+  "zh": "我們上星期花了大量時間在這份報告上。",
+  "ex": "a large amount of time 是「大量的時間」，amount of 後面接不可數名詞。device 是裝置、venue 是會場、supplier 是供應商。"
+ },
+ {
+  "wid": 6,
+  "type": "vocab",
+  "q": "Ms. Tan left work early to see a doctor at the ------- next door.",
+  "answer": "clinic",
+  "distractors": [
+   "warehouse",
+   "terminal",
+   "lobby"
+  ],
+  "zh": "譚小姐提早下班，到隔壁的診所看醫生。",
+  "ex": "看醫生的地方是 clinic「診所」。warehouse 是倉庫、terminal 是航廈、lobby 是大廳，都不是看醫生的地方。"
+ },
+ {
+  "wid": 7,
+  "type": "vocab",
+  "q": "At the airport, the parking ------- is ten dollars a day.",
+  "answer": "fee",
+  "distractors": [
+   "audience",
+   "sequence",
+   "reminder"
+  ],
+  "zh": "機場的停車費是一天十美元。",
+  "ex": "parking fee 是「停車費」，後面的 ten dollars a day 說明是一筆費用。audience 是觀眾、sequence 是順序、reminder 是提醒。"
+ },
+ {
+  "wid": 8,
+  "type": "form",
+  "q": "Please call the office to make an ------- with Dr. Lee.",
+  "answer": "appointment",
+  "distractors": [
+   "appoint",
+   "appointed",
+   "appointing"
+  ],
+  "zh": "請打電話到辦公室，和李醫師預約時間。",
+  "ex": "冠詞 an 後面要接名詞，make an appointment 是「預約」。appoint 是動詞、appointed 是過去式或過去分詞、appointing 是現在分詞。"
+ },
+ {
+  "wid": 9,
+  "type": "vocab",
+  "q": "Mr. Park changed his hotel ------- from two nights to three nights.",
+  "answer": "reservation",
+  "distractors": [
+   "supplier",
+   "emergency",
+   "description"
+  ],
+  "zh": "朴先生把他的飯店訂房從兩晚改成三晚。",
+  "ex": "hotel reservation 是「飯店訂房」，可以從兩晚改成三晚。supplier 是供應商、emergency 是緊急情況、description 是描述。"
+ },
+ {
+  "wid": 10,
+  "type": "form",
+  "q": "Every new ------- gets a company ID card on the first day.",
+  "answer": "employee",
+  "distractors": [
+   "employ",
+   "employment",
+   "employed"
+  ],
+  "zh": "每位新進員工在第一天都會拿到公司的識別證。",
+  "ex": "every new 後面要接單數可數名詞，而且是會「拿到」識別證的人，所以是 employee「員工」。employ 是動詞、employment 是「雇用、就業」（不可數名詞）、employed 是過去分詞。"
+ },
+ {
+  "wid": 11,
+  "type": "vocab",
+  "q": "Ms. Ito finished every ------- on her to-do list before lunch.",
+  "answer": "task",
+  "distractors": [
+   "fare",
+   "region",
+   "colleague"
+  ],
+  "zh": "伊藤小姐在午餐前完成了待辦清單上的每一項工作。",
+  "ex": "finish a task 是「完成一項工作」，to-do list 上列的就是 tasks。fare 是車資、region 是地區、colleague 是同事。"
+ },
+ {
+  "wid": 12,
+  "type": "vocab",
+  "q": "Read the ------- on the bottle to see how to use the cleaner.",
+  "answer": "label",
+  "distractors": [
+   "warehouse",
+   "loan",
+   "refund"
+  ],
+  "zh": "請看瓶子上的標籤，了解這個清潔劑怎麼使用。",
+  "ex": "貼在瓶子上、可以閱讀的是 label「標籤」。warehouse 是倉庫、loan 是貸款、refund 是退款。"
+ },
+ {
+  "wid": 13,
+  "type": "vocab",
+  "q": "Please wait in the ------- on the first floor until I come down.",
+  "answer": "lobby",
+  "distractors": [
+   "budget",
+   "sequence",
+   "currency"
+  ],
+  "zh": "請在一樓的大廳等候，等我下樓。",
+  "ex": "wait in the lobby 是「在大廳等候」，一樓可以等人的地方是 lobby。budget 是預算、sequence 是順序、currency 是貨幣。"
+ },
+ {
+  "wid": 14,
+  "type": "form",
+  "q": "The cheapest ------- is to take the bus to the airport.",
+  "answer": "option",
+  "distractors": [
+   "optional",
+   "optionally",
+   "opt"
+  ],
+  "zh": "最便宜的選擇是搭公車去機場。",
+  "ex": "the cheapest 後面要接名詞當主詞，option 是「選擇、選項」。optional 是形容詞、optionally 是副詞、opt 是動詞。"
+ },
+ {
+  "wid": 15,
+  "type": "form",
+  "q": "You need to show your ------- if you want to return the shoes.",
+  "answer": "receipt",
+  "distractors": [
+   "receive",
+   "received",
+   "receiving"
+  ],
+  "zh": "如果你想退這雙鞋，需要出示收據。",
+  "ex": "your 後面要接名詞，退貨時要出示的是 receipt「收據」。receive 是動詞、received 是過去式或過去分詞、receiving 是現在分詞。"
+ },
+ {
+  "wid": 16,
+  "type": "vocab",
+  "q": "Mr. Soto used the office ------- to make ten paper copies of the report.",
+  "answer": "printer",
+  "distractors": [
+   "district",
+   "anniversary",
+   "route"
+  ],
+  "zh": "索托先生用辦公室的印表機印了十份紙本報告。",
+  "ex": "用來印出紙本的機器是 printer「印表機」。district 是區域、anniversary 是週年紀念日、route 是路線。"
+ },
+ {
+  "wid": 17,
+  "type": "vocab",
+  "q": "The ------- on Main Street sells medicine and is open all night.",
+  "answer": "pharmacy",
+  "distractors": [
+   "terminal",
+   "spreadsheet",
+   "refund"
+  ],
+  "zh": "主街上的那家藥局有賣藥，而且整晚營業。",
+  "ex": "賣藥的店是 pharmacy「藥局」。terminal 是航廈、spreadsheet 是試算表、refund 是退款。"
+ },
+ {
+  "wid": 18,
+  "type": "vocab",
+  "q": "The train will arrive at its final ------- at 9:30 tonight.",
+  "answer": "destination",
+  "distractors": [
+   "occupation",
+   "complaint",
+   "discount"
+  ],
+  "zh": "這班火車將在今晚九點半抵達終點站。",
+  "ex": "final destination 是「最後的目的地、終點」，火車 arrive at 的是地點。occupation 是職業、complaint 是客訴、discount 是折扣。"
+ },
+ {
+  "wid": 19,
+  "type": "vocab",
+  "q": "Our sales ------- for this year is to sell 5,000 phones.",
+  "answer": "goal",
+  "distractors": [
+   "terminal",
+   "anniversary",
+   "beverage"
+  ],
+  "zh": "我們今年的業績目標是賣出五千支手機。",
+  "ex": "sales goal 是「業績目標」，後面的 is to sell… 說明目標內容。terminal 是航廈、anniversary 是週年紀念日、beverage 是飲料。"
+ },
+ {
+  "wid": 20,
+  "type": "vocab",
+  "q": "The ------- of this book will sign copies at the store on Saturday.",
+  "answer": "author",
+  "distractors": [
+   "passenger",
+   "cashier",
+   "receptionist"
+  ],
+  "zh": "這本書的作者星期六會在書店簽書。",
+  "ex": "the author of this book 是「這本書的作者」，簽書的人就是作者。passenger 是乘客、cashier 是收銀員、receptionist 是接待人員。"
+ },
+ {
+  "wid": 21,
+  "type": "form",
+  "q": "Please write a clear ------- of the lost bag on this paper.",
+  "answer": "description",
+  "distractors": [
+   "describe",
+   "descriptive",
+   "described"
+  ],
+  "zh": "請在這張紙上清楚寫下遺失包包的描述。",
+  "ex": "a clear 後面、of 前面要接名詞，a description of 是「對…的描述」。describe 是動詞、descriptive 是形容詞、described 是過去式或過去分詞。"
+ },
+ {
+  "wid": 22,
+  "type": "form",
+  "q": "So that no one forgets, Ms. Diaz sent a ------- about today's meeting.",
+  "answer": "reminder",
+  "distractors": [
+   "remind",
+   "reminded",
+   "reminding"
+  ],
+  "zh": "為了不讓任何人忘記，迪亞茲小姐寄出了今天會議的提醒通知。",
+  "ex": "冠詞 a 後面要接名詞，send a reminder 是「寄出提醒通知」。remind 是動詞、reminded 是過去式或過去分詞、reminding 是現在分詞。"
+ },
+ {
+  "wid": 23,
+  "type": "vocab",
+  "q": "All ------- in this store are 20 percent off this week.",
+  "answer": "goods",
+  "distractors": [
+   "destinations",
+   "colleagues",
+   "flights"
+  ],
+  "zh": "本週店內所有商品都打八折。",
+  "ex": "商店裡打折的是 goods「商品」。destinations 是目的地、colleagues 是同事、flights 是班機。"
+ },
+ {
+  "wid": 24,
+  "type": "form",
+  "q": "Her ------- to Tokyo leaves at 8:00 a.m. from Gate 12.",
+  "answer": "flight",
+  "distractors": [
+   "flew",
+   "flown",
+   "flying"
+  ],
+  "zh": "她飛往東京的班機早上八點從 12 號登機門起飛。",
+  "ex": "所有格 her 後面要接名詞當主詞，從登機門出發、飛往東京的是 flight「班機」。flew 是動詞 fly 的過去式、flown 是過去分詞、flying 是現在分詞。"
+ },
+ {
+  "wid": 25,
+  "type": "vocab",
+  "q": "Many shoppers buy this ------- of coffee because they know its name well.",
+  "answer": "brand",
+  "distractors": [
+   "venue",
+   "career",
+   "route"
+  ],
+  "zh": "很多購物的人會買這個牌子的咖啡，因為他們對它的名字很熟悉。",
+  "ex": "this brand of coffee 是「這個牌子的咖啡」，後面說大家熟悉它的名字，指的就是品牌。venue 是會場、career 是職業生涯、route 是路線。"
+ },
+ {
+  "wid": 26,
+  "type": "vocab",
+  "q": "Cars, trucks, and other ------- cannot park in front of the building.",
+  "answer": "vehicles",
+  "distractors": [
+   "beverages",
+   "reminders",
+   "announcements"
+  ],
+  "zh": "汽車、卡車和其他車輛不可以停在大樓前面。",
+  "ex": "cars、trucks 都屬於 vehicles「車輛」，而且後面的動詞是 park「停車」。beverages 是飲料、reminders 是提醒、announcements 是公告。"
+ },
+ {
+  "wid": 27,
+  "type": "vocab",
+  "q": "The company chose a ------- near the river for its new factory.",
+  "answer": "site",
+  "distractors": [
+   "reminder",
+   "sequence",
+   "complaint"
+  ],
+  "zh": "公司選了河邊的一個地點來蓋新工廠。",
+  "ex": "a site for a new factory 是「新工廠的用地、地點」，near the river 也說明這是一個地方。reminder 是提醒、sequence 是順序、complaint 是客訴。"
+ },
+ {
+  "wid": 28,
+  "type": "form",
+  "q": "Please write your name, address, and ------- on the first page.",
+  "answer": "occupation",
+  "distractors": [
+   "occupy",
+   "occupied",
+   "occupational"
+  ],
+  "zh": "請在第一頁寫上您的姓名、地址和職業。",
+  "ex": "空格和 name、address 並列，都是 your 後面的名詞，所以用 occupation「職業」。occupy 是動詞、occupied 是過去分詞或形容詞、occupational 是形容詞。"
+ },
+ {
+  "wid": 29,
+  "type": "form",
+  "q": "You can make a ------- by credit card or in cash.",
+  "answer": "payment",
+  "distractors": [
+   "paid",
+   "payable",
+   "pays"
+  ],
+  "zh": "您可以用信用卡或現金付款。",
+  "ex": "冠詞 a 後面要接名詞，make a payment 是「付款」。paid 是過去式或過去分詞、payable 是形容詞、pays 是動詞第三人稱單數。"
+ },
+ {
+  "wid": 30,
+  "type": "vocab",
+  "q": "Ms. Yoon checks her bank ------- online to see how much money she has.",
+  "answer": "account",
+  "distractors": [
+   "supplier",
+   "vehicle",
+   "emergency"
+  ],
+  "zh": "尹小姐會上網查看她的銀行帳戶，看看自己有多少錢。",
+  "ex": "bank account 是「銀行帳戶」，可以上網查裡面有多少錢。supplier 是供應商、vehicle 是車輛、emergency 是緊急情況。"
+ },
+ {
+  "wid": 31,
+  "type": "vocab",
+  "q": "It rains a lot in the northern ------- of the country in summer.",
+  "answer": "region",
+  "distractors": [
+   "manual",
+   "receipt",
+   "discount"
+  ],
+  "zh": "這個國家的北部地區夏天經常下雨。",
+  "ex": "the northern region of the country 是「國家的北部地區」。manual 是手冊、receipt 是收據、discount 是折扣。"
+ },
+ {
+  "wid": 32,
+  "type": "vocab",
+  "q": "When you arrive, give your name to the ------- at the front desk.",
+  "answer": "receptionist",
+  "distractors": [
+   "spreadsheet",
+   "refund",
+   "currency"
+  ],
+  "zh": "抵達時，請把您的姓名告訴櫃台的接待人員。",
+  "ex": "坐在櫃台（front desk）接待訪客的人是 receptionist「接待人員」。spreadsheet 是試算表、refund 是退款、currency 是貨幣。"
+ },
+ {
+  "wid": 33,
+  "type": "vocab",
+  "q": "I cannot hear you because the ------- on this phone is too low.",
+  "answer": "volume",
+  "distractors": [
+   "venue",
+   "colleague",
+   "charity"
+  ],
+  "zh": "這支電話的音量太小了，所以我聽不到你說話。",
+  "ex": "too low 而且聽不到，說的是 volume「音量」。venue 是會場、colleague 是同事、charity 是慈善。"
+ },
+ {
+  "wid": 34,
+  "type": "vocab",
+  "q": "This store has more than 2,000 ------- for sale, from pens to desks.",
+  "answer": "items",
+  "distractors": [
+   "careers",
+   "regions",
+   "complaints"
+  ],
+  "zh": "這家店有兩千多種品項在販售，從筆到書桌都有。",
+  "ex": "items for sale 是「販售的品項」，pens、desks 都是店裡的 items。careers 是職業生涯、regions 是地區、complaints 是客訴。"
+ },
+ {
+  "wid": 35,
+  "type": "vocab",
+  "q": "Next month, the sales ------- will move to the third floor.",
+  "answer": "department",
+  "distractors": [
+   "emergency",
+   "beverage",
+   "pollution"
+  ],
+  "zh": "業務部門下個月會搬到三樓。",
+  "ex": "sales department 是「業務部門」，部門可以搬到別的樓層。emergency 是緊急情況、beverage 是飲料、pollution 是污染。"
+ },
+ {
+  "wid": 36,
+  "type": "vocab",
+  "q": "We are in a difficult ------- because two workers are sick this week.",
+  "answer": "situation",
+  "distractors": [
+   "destination",
+   "spreadsheet",
+   "manual"
+  ],
+  "zh": "因為這星期有兩名員工生病，我們的處境很困難。",
+  "ex": "be in a difficult situation 是「處境困難」。destination 是目的地、spreadsheet 是試算表、manual 是手冊。"
+ },
+ {
+  "wid": 37,
+  "type": "vocab",
+  "q": "More than 300 people were in the ------- at last night's concert.",
+  "answer": "audience",
+  "distractors": [
+   "budget",
+   "sequence",
+   "refund"
+  ],
+  "zh": "昨晚的音樂會有三百多位觀眾。",
+  "ex": "in the audience 是「在觀眾席中」，音樂會上的三百多人就是觀眾。budget 是預算、sequence 是順序、refund 是退款。"
+ },
+ {
+  "wid": 38,
+  "type": "vocab",
+  "q": "Our biggest ------- buys over one thousand boxes from us every month.",
+  "answer": "client",
+  "distractors": [
+   "warehouse",
+   "anniversary",
+   "route"
+  ],
+  "zh": "我們最大的客戶每個月向我們買超過一千箱。",
+  "ex": "向我們買東西的是 client「客戶」。warehouse 是倉庫、anniversary 是週年紀念日、route 是路線。"
+ },
+ {
+  "wid": 39,
+  "type": "vocab",
+  "q": "The bus ------- from the airport to the city is three dollars.",
+  "answer": "fare",
+  "distractors": [
+   "device",
+   "emergency",
+   "pharmacy"
+  ],
+  "zh": "從機場到市區的公車票價是三美元。",
+  "ex": "bus fare 是「公車票價、車資」，後面的 three dollars 是金額。device 是裝置、emergency 是緊急情況、pharmacy 是藥局。"
+ },
+ {
+  "wid": 40,
+  "type": "vocab",
+  "q": "The hotel has a friendly ------- of more than fifty people.",
+  "answer": "staff",
+  "distractors": [
+   "manual",
+   "sequence",
+   "discount"
+  ],
+  "zh": "這家飯店有五十多位親切的員工。",
+  "ex": "a staff of fifty people 是「五十人的員工團隊」，staff 指全體員工。manual 是手冊、sequence 是順序、discount 是折扣。"
+ },
+ {
+  "wid": 41,
+  "type": "form",
+  "q": "Visitors cannot take photos here without ------- from the manager.",
+  "answer": "permission",
+  "distractors": [
+   "permitted",
+   "permissive",
+   "permitting"
+  ],
+  "zh": "未經經理許可，訪客不可以在這裡拍照。",
+  "ex": "介系詞 without 後面要接名詞，without permission 是「未經許可」。permitted 是過去分詞、permissive 是形容詞、permitting 是現在分詞。"
+ },
+ {
+  "wid": 42,
+  "type": "vocab",
+  "q": "Mr. Hall took a second job to add to his monthly -------.",
+  "answer": "income",
+  "distractors": [
+   "venue",
+   "sequence",
+   "district"
+  ],
+  "zh": "霍爾先生做了第二份工作來增加每個月的收入。",
+  "ex": "monthly income 是「每月收入」，做第二份工作是為了增加收入。venue 是會場、sequence 是順序、district 是區域。"
+ },
+ {
+  "wid": 43,
+  "type": "vocab",
+  "q": "In July, the store will be closed for a ------- of two weeks.",
+  "answer": "period",
+  "distractors": [
+   "client",
+   "spreadsheet",
+   "device"
+  ],
+  "zh": "這家店七月會休息兩個星期。",
+  "ex": "for a period of two weeks 是「為期兩週」，period 表示一段時間。client 是客戶、spreadsheet 是試算表、device 是裝置。"
+ },
+ {
+  "wid": 44,
+  "type": "form",
+  "q": "The gym bought new ------- for its members last month.",
+  "answer": "equipment",
+  "distractors": [
+   "equip",
+   "equipped",
+   "equipping"
+  ],
+  "zh": "這家健身房上個月為會員買了新設備。",
+  "ex": "bought new 後面要接名詞當受詞，equipment 是「設備」。equip 是動詞、equipped 是過去分詞、equipping 是現在分詞。"
+ },
+ {
+  "wid": 45,
+  "type": "form",
+  "q": "Thanks to the good weather, ------- at the event was higher than last year.",
+  "answer": "attendance",
+  "distractors": [
+   "attend",
+   "attended",
+   "attentive"
+  ],
+  "zh": "多虧天氣好，這次活動的出席人數比去年多。",
+  "ex": "空格是動詞 was 的主詞，要用名詞 attendance「出席人數」。attend 是動詞、attended 是過去式或過去分詞、attentive 是形容詞。"
+ },
+ {
+  "wid": 46,
+  "type": "vocab",
+  "q": "Mr. Lee put new ------- on his computer to make videos.",
+  "answer": "software",
+  "distractors": [
+   "fuel",
+   "pollution",
+   "accommodation"
+  ],
+  "zh": "李先生在電腦上安裝了新軟體來製作影片。",
+  "ex": "裝在電腦上、用來做影片的是 software「軟體」。fuel 是燃料、pollution 是污染、accommodation 是住宿。"
+ },
+ {
+  "wid": 47,
+  "type": "vocab",
+  "q": "This bag is made from a strong ------- that does not get wet.",
+  "answer": "material",
+  "distractors": [
+   "budget",
+   "emergency",
+   "announcement"
+  ],
+  "zh": "這個包包是用一種不會濕的堅固材料做的。",
+  "ex": "be made from a material 是「用某種材料製成」。budget 是預算、emergency 是緊急情況、announcement 是公告。"
+ },
+ {
+  "wid": 48,
+  "type": "vocab",
+  "q": "Because the main road was closed, the driver took a different -------.",
+  "answer": "route",
+  "distractors": [
+   "reminder",
+   "audience",
+   "spreadsheet"
+  ],
+  "zh": "因為主要道路封閉，司機走了另一條路線。",
+  "ex": "take a different route 是「走另一條路線」，原因是主要道路封閉。reminder 是提醒、audience 是觀眾、spreadsheet 是試算表。"
+ },
+ {
+  "wid": 49,
+  "type": "form",
+  "q": "Thank you for your quick ------- to my email.",
+  "answer": "response",
+  "distractors": [
+   "respond",
+   "responsive",
+   "responded"
+  ],
+  "zh": "謝謝您這麼快回覆我的電子郵件。",
+  "ex": "your quick 後面要接名詞，a response to 是「對…的回覆」。respond 是動詞、responsive 是形容詞、responded 是過去式或過去分詞。"
+ },
+ {
+  "wid": 50,
+  "type": "vocab",
+  "q": "Mr. Ford paid a large ------- of money for the old painting.",
+  "answer": "sum",
+  "distractors": [
+   "region",
+   "device",
+   "audience"
+  ],
+  "zh": "福特先生花了一大筆錢買下那幅舊畫。",
+  "ex": "a large sum of money 是「一大筆錢」，固定搭配。region 是地區、device 是裝置、audience 是觀眾。"
+ },
+ {
+  "wid": 51,
+  "type": "vocab",
+  "q": "The factory pays its workers a ------- of fifteen dollars an hour.",
+  "answer": "wage",
+  "distractors": [
+   "venue",
+   "article",
+   "label"
+  ],
+  "zh": "這家工廠付給工人每小時十五美元的工資。",
+  "ex": "工廠付給工人、按小時算的錢是 wage「工資」。venue 是會場、article 是文章、label 是標籤。"
+ },
+ {
+  "wid": 52,
+  "type": "vocab",
+  "q": "Because the truck was low on -------, the driver stopped at a gas station.",
+  "answer": "fuel",
+  "distractors": [
+   "software",
+   "attendance",
+   "charity"
+  ],
+  "zh": "因為卡車的燃料快沒了，司機把車停在加油站。",
+  "ex": "be low on fuel 是「燃料不足」，所以要去加油站。software 是軟體、attendance 是出席人數、charity 是慈善。"
+ },
+ {
+  "wid": 53,
+  "type": "form",
+  "q": "Tomorrow, the manager will make a final ------- about the new office.",
+  "answer": "decision",
+  "distractors": [
+   "decide",
+   "decisive",
+   "decisively"
+  ],
+  "zh": "經理明天會針對新辦公室做出最後決定。",
+  "ex": "a final 後面要接名詞，make a decision 是「做決定」。decide 是動詞、decisive 是形容詞、decisively 是副詞。"
+ },
+ {
+  "wid": 54,
+  "type": "form",
+  "q": "Turning off the lights at night helps the office use less -------.",
+  "answer": "energy",
+  "distractors": [
+   "energetic",
+   "energetically",
+   "energize"
+  ],
+  "zh": "晚上關燈可以讓辦公室少用一些能源。",
+  "ex": "use less 後面要接名詞當受詞，energy 是「能源」，use less energy 是「少用能源」。energetic 是形容詞、energetically 是副詞、energize 是動詞。"
+ },
+ {
+  "wid": 55,
+  "type": "vocab",
+  "q": "You can find running shoes in the sports ------- on the second floor.",
+  "answer": "section",
+  "distractors": [
+   "loan",
+   "complaint",
+   "passenger"
+  ],
+  "zh": "您可以在二樓的運動用品區找到跑鞋。",
+  "ex": "the sports section 是商店裡的「運動用品區」，section 指其中一個區域。loan 是貸款、complaint 是客訴、passenger 是乘客。"
+ },
+ {
+  "wid": 56,
+  "type": "vocab",
+  "q": "What is the ------- of your visit to our city, work or vacation?",
+  "answer": "purpose",
+  "distractors": [
+   "warehouse",
+   "beverage",
+   "supplier"
+  ],
+  "zh": "您來我們城市的目的是什麼？工作還是度假？",
+  "ex": "the purpose of your visit 是「來訪的目的」，後面的 work or vacation 就是在問目的。warehouse 是倉庫、beverage 是飲料、supplier 是供應商。"
+ },
+ {
+  "wid": 57,
+  "type": "form",
+  "q": "The store on King Street has a wide ------- of winter coats.",
+  "answer": "selection",
+  "distractors": [
+   "select",
+   "selective",
+   "selectively"
+  ],
+  "zh": "國王街上的那家店有很多款冬季外套可以選。",
+  "ex": "a wide 後面、of 前面要接名詞，a wide selection of 是「種類很多的…」。select 是動詞、selective 是形容詞、selectively 是副詞。"
+ },
+ {
+  "wid": 58,
+  "type": "vocab",
+  "q": "The job fair is a good ------- to meet people from many companies.",
+  "answer": "opportunity",
+  "distractors": [
+   "description",
+   "pharmacy",
+   "currency"
+  ],
+  "zh": "這場就業博覽會是認識許多公司的人的好機會。",
+  "ex": "a good opportunity to + 動詞 是「做…的好機會」。description 是描述、pharmacy 是藥局、currency 是貨幣。"
+ },
+ {
+  "wid": 59,
+  "type": "vocab",
+  "q": "Try a free ------- of our new juice at the front of the store.",
+  "answer": "sample",
+  "distractors": [
+   "region",
+   "career",
+   "complaint"
+  ],
+  "zh": "歡迎到店門口免費試喝我們的新果汁。",
+  "ex": "a free sample 是「免費試用品、試喝品」，可以先 try 看看。region 是地區、career 是職業生涯、complaint 是客訴。"
+ },
+ {
+  "wid": 60,
+  "type": "vocab",
+  "q": "We buy paper in large ------- because it is cheaper that way.",
+  "answer": "quantities",
+  "distractors": [
+   "authors",
+   "emergencies",
+   "anniversaries"
+  ],
+  "zh": "我們都大量購買紙張，因為這樣比較便宜。",
+  "ex": "in large quantities 是「大量地」，一次買很多比較便宜。authors 是作者、emergencies 是緊急情況、anniversaries 是週年紀念日。"
+ },
+ {
+  "wid": 61,
+  "type": "vocab",
+  "q": "Which ------- of payment would you like to use, cash or credit card?",
+  "answer": "method",
+  "distractors": [
+   "colleague",
+   "region",
+   "district"
+  ],
+  "zh": "您想用哪一種付款方式？現金還是信用卡？",
+  "ex": "method of payment 是「付款方式」，現金和信用卡都是付款的方法。colleague 是同事、region 是地區、district 是區域。"
+ },
+ {
+  "wid": 62,
+  "type": "vocab",
+  "q": "Ms. Ono saved all the customer ------- on her computer, such as names and phone numbers.",
+  "answer": "data",
+  "distractors": [
+   "fuel",
+   "accommodation",
+   "charity"
+  ],
+  "zh": "小野小姐把所有顧客資料存在電腦裡，例如姓名和電話號碼。",
+  "ex": "customer data 是「顧客資料」，姓名和電話號碼都是資料，可以存在電腦裡。fuel 是燃料、accommodation 是住宿、charity 是慈善。"
+ },
+ {
+  "wid": 63,
+  "type": "form",
+  "q": "To cut air -------, the city wants fewer cars on the roads.",
+  "answer": "pollution",
+  "distractors": [
+   "pollute",
+   "polluted",
+   "polluting"
+  ],
+  "zh": "市政府希望路上的車少一點，以減少空氣污染。",
+  "ex": "air 後面要接名詞，一起當動詞 cut 的受詞，air pollution 是「空氣污染」。pollute 是動詞、polluted 是過去分詞或形容詞、polluting 是現在分詞。"
+ },
+ {
+  "wid": 64,
+  "type": "vocab",
+  "q": "I read an interesting ------- about electric cars in today's newspaper.",
+  "answer": "article",
+  "distractors": [
+   "terminal",
+   "wage",
+   "beverage"
+  ],
+  "zh": "我在今天的報紙上讀到一篇關於電動車的有趣文章。",
+  "ex": "在報紙上讀到的是 article「文章、報導」。terminal 是航廈、wage 是工資、beverage 是飲料。"
+ },
+ {
+  "wid": 65,
+  "type": "vocab",
+  "q": "Each room in the hotel has a different -------, such as the sea or the forest.",
+  "answer": "theme",
+  "distractors": [
+   "cashier",
+   "refund",
+   "loan"
+  ],
+  "zh": "這家飯店的每個房間都有不同的主題，例如海洋或森林。",
+  "ex": "海洋、森林是房間的 theme「主題」。cashier 是收銀員、refund 是退款、loan 是貸款。"
+ },
+ {
+  "wid": 66,
+  "type": "form",
+  "q": "All of our used bikes are checked and sold in excellent -------.",
+  "answer": "condition",
+  "distractors": [
+   "conditional",
+   "conditionally",
+   "conditioned"
+  ],
+  "zh": "我們所有的二手腳踏車都經過檢查，並以極佳的狀態出售。",
+  "ex": "介系詞 in 加形容詞 excellent 後面要接名詞，in excellent condition 是「狀態極佳」。conditional 是形容詞、conditionally 是副詞、conditioned 是過去分詞。"
+ },
+ {
+  "wid": 67,
+  "type": "form",
+  "q": "Our ------- from the hotel is at seven tomorrow morning, so please be ready.",
+  "answer": "departure",
+  "distractors": [
+   "depart",
+   "departed",
+   "departs"
+  ],
+  "zh": "我們明天早上七點從飯店出發，請準備好。",
+  "ex": "所有格 our 後面要接名詞當主詞，departure 是「出發」。depart 是動詞、departed 是過去式或過去分詞、departs 是動詞第三人稱單數。"
+ },
+ {
+  "wid": 68,
+  "type": "vocab",
+  "q": "Please call this number only in an -------, such as a fire.",
+  "answer": "emergency",
+  "distractors": [
+   "anniversary",
+   "appointment",
+   "article"
+  ],
+  "zh": "只有在緊急情況（例如火災）時才撥打這個號碼。",
+  "ex": "in an emergency 是「在緊急情況下」，火災就是一種緊急情況。anniversary 是週年紀念日、appointment 是預約、article 是文章。"
+ },
+ {
+  "wid": 69,
+  "type": "vocab",
+  "q": "The sales ------- for June were higher than those for May.",
+  "answer": "figures",
+  "distractors": [
+   "pharmacies",
+   "routes",
+   "passengers"
+  ],
+  "zh": "六月的銷售數字比五月高。",
+  "ex": "sales figures 是「銷售數字」，數字才能說 higher「比較高」。pharmacies 是藥局、routes 是路線、passengers 是乘客。"
+ },
+ {
+  "wid": 70,
+  "type": "form",
+  "q": "Taking the train is a good ------- to the city's parking problem.",
+  "answer": "solution",
+  "distractors": [
+   "solve",
+   "solved",
+   "solving"
+  ],
+  "zh": "搭火車是解決市區停車問題的好辦法。",
+  "ex": "a good 後面要接名詞，a solution to a problem 是「問題的解決辦法」。solve 是動詞、solved 是過去式或過去分詞、solving 是現在分詞。"
+ },
+ {
+  "wid": 71,
+  "type": "vocab",
+  "q": "This small ------- lets you listen to music while you run.",
+  "answer": "device",
+  "distractors": [
+   "wage",
+   "district",
+   "reminder"
+  ],
+  "zh": "這個小裝置讓你可以邊跑步邊聽音樂。",
+  "ex": "小小的、可以用來聽音樂的是 device「裝置」。wage 是工資、district 是區域、reminder 是提醒。"
+ },
+ {
+  "wid": 72,
+  "type": "form",
+  "q": "After many hours of practice, Ms. Lin spoke with ------- at the meeting.",
+  "answer": "confidence",
+  "distractors": [
+   "confident",
+   "confidently",
+   "confide"
+  ],
+  "zh": "經過好幾個小時的練習後，林小姐在會議上很有自信地發言。",
+  "ex": "介系詞 with 後面要接名詞，speak with confidence 是「有自信地說話」。confident 是形容詞、confidently 是副詞、confide 是動詞。"
+ },
+ {
+  "wid": 73,
+  "type": "vocab",
+  "q": "Many banks have their offices in the city's main business -------.",
+  "answer": "district",
+  "distractors": [
+   "receipt",
+   "reminder",
+   "manual"
+  ],
+  "zh": "很多銀行的辦公室都設在這個城市主要的商業區。",
+  "ex": "business district 是「商業區」，是城市裡的一個區域。receipt 是收據、reminder 是提醒、manual 是手冊。"
+ },
+ {
+  "wid": 74,
+  "type": "vocab",
+  "q": "You can check the ------- of your order on our website at any time.",
+  "answer": "status",
+  "distractors": [
+   "clinic",
+   "audience",
+   "fuel"
+  ],
+  "zh": "您可以隨時在我們的網站上查看訂單的狀態。",
+  "ex": "check the status of your order 是「查看訂單狀態」。clinic 是診所、audience 是觀眾、fuel 是燃料。"
+ },
+ {
+  "wid": 75,
+  "type": "vocab",
+  "q": "The river is the city's only ------- of drinking water.",
+  "answer": "source",
+  "distractors": [
+   "manual",
+   "cashier",
+   "anniversary"
+  ],
+  "zh": "這條河是這座城市唯一的飲用水來源。",
+  "ex": "a source of drinking water 是「飲用水的來源」。manual 是手冊、cashier 是收銀員、anniversary 是週年紀念日。"
+ },
+ {
+  "wid": 76,
+  "type": "vocab",
+  "q": "Ms. Vega began her ------- as a teacher before moving into sales.",
+  "answer": "career",
+  "distractors": [
+   "venue",
+   "beverage",
+   "fare"
+  ],
+  "zh": "維加小姐的職業生涯是從當老師開始的，後來才轉到業務工作。",
+  "ex": "begin one's career as… 是「以…開始職業生涯」。venue 是會場、beverage 是飲料、fare 是車資。"
+ },
+ {
+  "wid": 77,
+  "type": "vocab",
+  "q": "Follow the ------- on the screen to set up your new phone.",
+  "answer": "instructions",
+  "distractors": [
+   "colleagues",
+   "wages",
+   "pharmacies"
+  ],
+  "zh": "請依照螢幕上的指示設定你的新手機。",
+  "ex": "follow the instructions 是「依照指示」，螢幕上會顯示一步一步的指示。colleagues 是同事、wages 是工資、pharmacies 是藥局。"
+ },
+ {
+  "wid": 78,
+  "type": "form",
+  "q": "Do you have travel ------- for your trip to Canada next month?",
+  "answer": "insurance",
+  "distractors": [
+   "insure",
+   "insured",
+   "insuring"
+  ],
+  "zh": "你下個月去加拿大的旅行有保旅遊保險嗎？",
+  "ex": "動詞 have 後面要接名詞當受詞，travel insurance 是「旅遊保險」。insure 是動詞、insured 是過去分詞或形容詞、insuring 是現在分詞。"
+ },
+ {
+  "wid": 79,
+  "type": "form",
+  "q": "The ------- of the city has brought many new shops and restaurants.",
+  "answer": "growth",
+  "distractors": [
+   "grow",
+   "grew",
+   "grown"
+  ],
+  "zh": "這座城市的成長帶來了許多新的商店和餐廳。",
+  "ex": "the 後面、of 前面要接名詞，the growth of the city 是「城市的成長」。grow 是動詞原形、grew 是過去式、grown 是過去分詞。"
+ },
+ {
+  "wid": 80,
+  "type": "vocab",
+  "q": "All money from the concert will go to a ------- that helps children.",
+  "answer": "charity",
+  "distractors": [
+   "receipt",
+   "sequence",
+   "discount"
+  ],
+  "zh": "音樂會的所有收入都會捐給一個幫助兒童的慈善機構。",
+  "ex": "把錢捐給「幫助兒童」的單位，就是 charity「慈善機構」。receipt 是收據、sequence 是順序、discount 是折扣。"
+ },
+ {
+  "wid": 81,
+  "type": "vocab",
+  "q": "Mr. Stone owns a lot of ------- in the city, such as houses and shops.",
+  "answer": "property",
+  "distractors": [
+   "software",
+   "pollution",
+   "attendance"
+  ],
+  "zh": "史東先生在市區擁有很多房地產，例如房子和店面。",
+  "ex": "houses 和 shops 都是 property「房地產」，own property 是「擁有房地產」。software 是軟體、pollution 是污染、attendance 是出席人數。"
+ },
+ {
+  "wid": 82,
+  "type": "form",
+  "q": "The cafe near the station sells a ------- of cakes and sandwiches.",
+  "answer": "variety",
+  "distractors": [
+   "various",
+   "vary",
+   "varied"
+  ],
+  "zh": "車站附近的那家咖啡店賣各式各樣的蛋糕和三明治。",
+  "ex": "冠詞 a 後面、of 前面要接名詞，a variety of 是「各式各樣的…」。various 是形容詞、vary 是動詞、varied 是過去分詞或形容詞。"
+ },
+ {
+  "wid": 83,
+  "type": "form",
+  "q": "The price of the tour includes hotel ------- and all meals.",
+  "answer": "accommodation",
+  "distractors": [
+   "accommodate",
+   "accommodated",
+   "accommodating"
+  ],
+  "zh": "這個行程的價格包含飯店住宿和所有餐點。",
+  "ex": "空格和 all meals 並列，都是 includes 的受詞，要用名詞，hotel accommodation 是「飯店住宿」。accommodate 是動詞、accommodated 是過去分詞、accommodating 是現在分詞或形容詞。"
+ },
+ {
+  "wid": 84,
+  "type": "form",
+  "q": "This ticket gives you ------- to the museum and the garden.",
+  "answer": "admission",
+  "distractors": [
+   "admit",
+   "admitted",
+   "admitting"
+  ],
+  "zh": "這張票可以讓你進入博物館和花園。",
+  "ex": "gives you 後面要接名詞當受詞，admission to 是「進入…的許可」。admit 是動詞、admitted 是過去式或過去分詞、admitting 是現在分詞。"
+ },
+ {
+  "wid": 85,
+  "type": "vocab",
+  "q": "Passengers arriving from other countries must show their bags to an officer at -------.",
+  "answer": "customs",
+  "distractors": [
+   "insurance",
+   "attendance",
+   "software"
+  ],
+  "zh": "從其他國家入境的旅客必須在海關讓官員檢查行李。",
+  "ex": "從國外入境時檢查行李的地方是 customs「海關」。insurance 是保險、attendance 是出席人數、software 是軟體。"
+ },
+ {
+  "wid": 86,
+  "type": "vocab",
+  "q": "Coffee, tea, and other ------- are free for hotel guests.",
+  "answer": "beverages",
+  "distractors": [
+   "vehicles",
+   "authors",
+   "districts"
+  ],
+  "zh": "咖啡、茶和其他飲料都免費提供給飯店房客。",
+  "ex": "coffee、tea 都屬於 beverages「飲料」。vehicles 是車輛、authors 是作者、districts 是區域。"
+ },
+ {
+  "wid": 87,
+  "type": "vocab",
+  "q": "The restaurant opened ten years ago today, so tonight is its tenth -------.",
+  "answer": "anniversary",
+  "distractors": [
+   "emergency",
+   "destination",
+   "material"
+  ],
+  "zh": "這家餐廳是十年前的今天開幕的，所以今晚是它的十週年紀念日。",
+  "ex": "十年前的今天開幕，今天就是 tenth anniversary「十週年紀念日」。emergency 是緊急情況、destination 是目的地、material 是材料。"
+ },
+ {
+  "wid": 88,
+  "type": "vocab",
+  "q": "Ms. Reed is an ------- on computers, so ask her to fix the problem.",
+  "answer": "expert",
+  "distractors": [
+   "audience",
+   "income",
+   "option"
+  ],
+  "zh": "里德小姐是電腦專家，所以請她來解決這個問題。",
+  "ex": "an expert on computers 是「電腦專家」，所以可以請她解決問題。audience 是觀眾、income 是收入、option 是選項。"
+ },
+ {
+  "wid": 89,
+  "type": "vocab",
+  "q": "Please press the three buttons in the right -------: red, green, then blue.",
+  "answer": "sequence",
+  "distractors": [
+   "budget",
+   "career",
+   "supplier"
+  ],
+  "zh": "請依正確的順序按下三個按鈕：紅色、綠色，然後藍色。",
+  "ex": "in the right sequence 是「按照正確的順序」，後面的紅、綠、藍就是順序。budget 是預算、career 是職業生涯、supplier 是供應商。"
+ },
+ {
+  "wid": 90,
+  "type": "vocab",
+  "q": "Ms. Abe and I work in the same office, so she is my -------.",
+  "answer": "colleague",
+  "distractors": [
+   "passenger",
+   "author",
+   "cashier"
+  ],
+  "zh": "阿部小姐和我在同一間辦公室工作，所以她是我的同事。",
+  "ex": "在同一間辦公室工作的人是 colleague「同事」。passenger 是乘客、author 是作者、cashier 是收銀員。"
+ },
+ {
+  "wid": 91,
+  "type": "vocab",
+  "q": "Ms. Kato typed the monthly sales numbers into a ------- on her computer.",
+  "answer": "spreadsheet",
+  "distractors": [
+   "warehouse",
+   "pharmacy",
+   "beverage"
+  ],
+  "zh": "加藤小姐把每個月的銷售數字輸入電腦裡的試算表。",
+  "ex": "在電腦上輸入數字的檔案是 spreadsheet「試算表」。warehouse 是倉庫、pharmacy 是藥局、beverage 是飲料。"
+ },
+ {
+  "wid": 92,
+  "type": "form",
+  "q": "One ------- of working from home is that you save travel time.",
+  "answer": "advantage",
+  "distractors": [
+   "advantageous",
+   "advantageously",
+   "advantaged"
+  ],
+  "zh": "在家工作的一個好處是可以省下通勤時間。",
+  "ex": "one 後面、of 前面要接單數名詞，one advantage of 是「…的一個好處」。advantageous 是形容詞、advantageously 是副詞、advantaged 是形容詞。"
+ },
+ {
+  "wid": 93,
+  "type": "vocab",
+  "q": "Shops in this country take only the local -------, not dollars or euros.",
+  "answer": "currency",
+  "distractors": [
+   "district",
+   "vehicle",
+   "author"
+  ],
+  "zh": "這個國家的商店只收當地貨幣，不收美元或歐元。",
+  "ex": "dollars、euros 都是 currency「貨幣」，local currency 是「當地貨幣」。district 是區域、vehicle 是車輛、author 是作者。"
+ },
+ {
+  "wid": 94,
+  "type": "vocab",
+  "q": "The hotel's ------- include a pool, a gym, and two restaurants.",
+  "answer": "facilities",
+  "distractors": [
+   "passengers",
+   "wages",
+   "sequences"
+  ],
+  "zh": "這家飯店的設施包括游泳池、健身房和兩間餐廳。",
+  "ex": "游泳池、健身房、餐廳都是飯店的 facilities「設施」。passengers 是乘客、wages 是工資、sequences 是順序。"
+ },
+ {
+  "wid": 95,
+  "type": "form",
+  "q": "Last week, the store received a ------- about its slow service.",
+  "answer": "complaint",
+  "distractors": [
+   "complain",
+   "complained",
+   "complaining"
+  ],
+  "zh": "這家店上星期收到一則關於服務太慢的客訴。",
+  "ex": "冠詞 a 後面要接名詞，receive a complaint 是「收到客訴」。complain 是動詞、complained 是過去式或過去分詞、complaining 是現在分詞。"
+ },
+ {
+  "wid": 96,
+  "type": "vocab",
+  "q": "We need a bigger ------- for the concert because 500 people are coming.",
+  "answer": "venue",
+  "distractors": [
+   "cashier",
+   "article",
+   "currency"
+  ],
+  "zh": "因為有五百人要來，我們需要一個更大的音樂會場地。",
+  "ex": "有五百人要來，所以需要更大的 venue「會場、場地」。cashier 是收銀員、article 是文章、currency 是貨幣。"
+ },
+ {
+  "wid": 97,
+  "type": "form",
+  "q": "The restaurant buys its fish from a ------- near the sea.",
+  "answer": "supplier",
+  "distractors": [
+   "supplied",
+   "supplying",
+   "supplies"
+  ],
+  "zh": "這家餐廳向一家靠海的供應商買魚。",
+  "ex": "冠詞 a 後面要接單數名詞，buy from a supplier 是「向供應商購買」。supplied 是過去式或過去分詞、supplying 是現在分詞、supplies 是動詞第三人稱單數或複數名詞。"
+ },
+ {
+  "wid": 98,
+  "type": "form",
+  "q": "This morning, the manager made an ------- about the new holiday plan.",
+  "answer": "announcement",
+  "distractors": [
+   "announce",
+   "announced",
+   "announcing"
+  ],
+  "zh": "經理今天早上宣布了新的休假方案。",
+  "ex": "冠詞 an 後面要接名詞，make an announcement 是「宣布、發布公告」。announce 是動詞、announced 是過去式或過去分詞、announcing 是現在分詞。"
+ },
+ {
+  "wid": 99,
+  "type": "vocab",
+  "q": "Flights to Japan leave from the new ------- at the north end of the airport.",
+  "answer": "terminal",
+  "distractors": [
+   "budget",
+   "wage",
+   "complaint"
+  ],
+  "zh": "飛往日本的班機從機場北側的新航廈出發。",
+  "ex": "機場裡班機出發的建築是 terminal「航廈」。budget 是預算、wage 是工資、complaint 是客訴。"
+ },
+ {
+  "wid": 100,
+  "type": "vocab",
+  "q": "All of the boxes stay in our ------- until trucks take them to stores.",
+  "answer": "warehouse",
+  "distractors": [
+   "income",
+   "discount",
+   "passenger"
+  ],
+  "zh": "所有箱子都放在我們的倉庫裡，直到卡車把它們送到各家商店。",
+  "ex": "出貨前存放箱子的地方是 warehouse「倉庫」。income 是收入、discount 是折扣、passenger 是乘客。"
+ },
+ {
+  "wid": 101,
+  "type": "vocab",
+  "q": "Every product must meet our safety ------- before we sell it.",
+  "answer": "standards",
+  "distractors": [
+   "fares",
+   "regions",
+   "beverages"
+  ],
+  "zh": "每一項產品在販售前都必須符合我們的安全標準。",
+  "ex": "meet safety standards 是「符合安全標準」，固定搭配。fares 是車資、regions 是地區、beverages 是飲料。"
+ },
+ {
+  "wid": 102,
+  "type": "form",
+  "q": "You must spend a ------- of twenty dollars to get free shipping.",
+  "answer": "minimum",
+  "distractors": [
+   "minimal",
+   "minimize",
+   "minimally"
+  ],
+  "zh": "您至少要消費二十美元才能享有免運費。",
+  "ex": "冠詞 a 後面、of 前面要接名詞，a minimum of 是「最少、至少」。minimal 是形容詞、minimize 是動詞、minimally 是副詞。"
+ },
+ {
+  "wid": 103,
+  "type": "vocab",
+  "q": "For the year-end party, the team has a ------- of 500 dollars.",
+  "answer": "budget",
+  "distractors": [
+   "colleague",
+   "route",
+   "terminal"
+  ],
+  "zh": "這個團隊有五百美元的預算可以辦尾牙。",
+  "ex": "a budget of 500 dollars 是「五百美元的預算」，指可以用在派對上的錢。colleague 是同事、route 是路線、terminal 是航廈。"
+ },
+ {
+  "wid": 104,
+  "type": "vocab",
+  "q": "Read the user ------- to learn how to set up the machine.",
+  "answer": "manual",
+  "distractors": [
+   "region",
+   "vehicle",
+   "charity"
+  ],
+  "zh": "請閱讀使用手冊，了解如何設定這台機器。",
+  "ex": "user manual 是「使用手冊」，可以閱讀並學會怎麼設定機器。region 是地區、vehicle 是車輛、charity 是慈善。"
+ },
+ {
+  "wid": 105,
+  "type": "vocab",
+  "q": "Mr. Chan was happy with the ------- of his English test.",
+  "answer": "results",
+  "distractors": [
+   "warehouses",
+   "fares",
+   "suppliers"
+  ],
+  "zh": "陳先生對他的英文考試結果很滿意。",
+  "ex": "the results of a test 是「考試的結果、成績」。warehouses 是倉庫、fares 是車資、suppliers 是供應商。"
+ },
+ {
+  "wid": 106,
+  "type": "vocab",
+  "q": "No ------- is needed for this job because we teach you everything.",
+  "answer": "experience",
+  "distractors": [
+   "pollution",
+   "fuel",
+   "charity"
+  ],
+  "zh": "這份工作不需要經驗，因為我們會教你所有的事。",
+  "ex": "no experience is needed 是「不需經驗」，因為公司會從頭教起。pollution 是污染、fuel 是燃料、charity 是慈善。"
+ },
+ {
+  "wid": 107,
+  "type": "form",
+  "q": "Please fill out this ------- with your name and phone number.",
+  "answer": "form",
+  "distractors": [
+   "formal",
+   "formally",
+   "formed"
+  ],
+  "zh": "請在這張表格上填寫您的姓名和電話號碼。",
+  "ex": "this 後面要接名詞，fill out a form 是「填寫表格」。formal 是形容詞、formally 是副詞、formed 是過去式或過去分詞。"
+ },
+ {
+  "wid": 108,
+  "type": "form",
+  "q": "We took a two-hour bus ------- of the old city on our first day.",
+  "answer": "tour",
+  "distractors": [
+   "tourism",
+   "toured",
+   "touring"
+  ],
+  "zh": "我們第一天參加了兩小時的舊城區巴士遊覽。",
+  "ex": "a two-hour bus 後面要接單數可數名詞，a bus tour of 是「…的巴士遊覽」。tourism 是不可數名詞「觀光業」、toured 是過去式或過去分詞、touring 是現在分詞。"
+ },
+ {
+  "wid": 109,
+  "type": "vocab",
+  "q": "Ms. Green won an ------- for being the best salesperson of the year.",
+  "answer": "award",
+  "distractors": [
+   "emergency",
+   "occupation",
+   "article"
+  ],
+  "zh": "葛林小姐獲得了年度最佳業務員獎。",
+  "ex": "win an award 是「得獎」，因為表現最好而得到的是獎。emergency 是緊急情況、occupation 是職業、article 是文章。"
+ },
+ {
+  "wid": 110,
+  "type": "form",
+  "q": "Customers must pay a ------- of five percent on all food and drinks.",
+  "answer": "tax",
+  "distractors": [
+   "taxable",
+   "taxed",
+   "taxing"
+  ],
+  "zh": "顧客購買所有食物和飲料都必須付百分之五的稅。",
+  "ex": "冠詞 a 後面、of 前面要接名詞，pay a tax 是「付稅」。taxable 是形容詞、taxed 是過去式或過去分詞、taxing 是現在分詞或形容詞。"
+ },
+ {
+  "wid": 111,
+  "type": "vocab",
+  "q": "Students can get a ten percent ------- on all tickets with a school ID.",
+  "answer": "discount",
+  "distractors": [
+   "route",
+   "article",
+   "colleague"
+  ],
+  "zh": "學生出示學生證，所有票券都可以打九折。",
+  "ex": "a ten percent discount 是「打九折」，get a discount on 是「買…有折扣」。route 是路線、article 是文章、colleague 是同事。"
+ },
+ {
+  "wid": 112,
+  "type": "vocab",
+  "q": "We reached our sales ------- of one million dollars two months early.",
+  "answer": "target",
+  "distractors": [
+   "pharmacy",
+   "cashier",
+   "manual"
+  ],
+  "zh": "我們提早兩個月達成了一百萬美元的業績目標。",
+  "ex": "reach a sales target 是「達成業績目標」。pharmacy 是藥局、cashier 是收銀員、manual 是手冊。"
+ },
+ {
+  "wid": 113,
+  "type": "vocab",
+  "q": "A guest in Room 305 sent the front desk a ------- for an extra bed.",
+  "answer": "request",
+  "distractors": [
+   "district",
+   "vehicle",
+   "spreadsheet"
+  ],
+  "zh": "305 號房的客人向櫃台提出加床的要求。",
+  "ex": "a request for an extra bed 是「加床的要求」，request for 表示要求某樣東西。district 是區域、vehicle 是車輛、spreadsheet 是試算表。"
+ },
+ {
+  "wid": 114,
+  "type": "form",
+  "q": "The main ------- of this class is to help you speak English at work.",
+  "answer": "aim",
+  "distractors": [
+   "aimless",
+   "aimlessly",
+   "aimed"
+  ],
+  "zh": "這堂課的主要目標是幫助你在工作上說英文。",
+  "ex": "the main 後面、of 前面要接名詞，the aim of 是「…的目標」。aimless 是形容詞、aimlessly 是副詞、aimed 是過去式或過去分詞。"
+ },
+ {
+  "wid": 115,
+  "type": "vocab",
+  "q": "The two countries sell many products to each other, so ------- between them is growing.",
+  "answer": "trade",
+  "distractors": [
+   "insurance",
+   "software",
+   "attendance"
+  ],
+  "zh": "這兩個國家互相賣很多產品給對方，所以兩國之間的貿易正在成長。",
+  "ex": "兩國之間的買賣就是 trade「貿易」。insurance 是保險、software 是軟體、attendance 是出席人數。"
+ },
+ {
+  "wid": 116,
+  "type": "vocab",
+  "q": "Every month, the store ------- its new shoes in the front window.",
+  "answer": "displays",
+  "distractors": [
+   "invites",
+   "retires",
+   "apologizes"
+  ],
+  "zh": "這家店每個月都會把新鞋陳列在前面的櫥窗裡。",
+  "ex": "把商品放在櫥窗裡給人看是 display「陳列」。invites 是邀請、retires 是退休、apologizes 是道歉。"
+ },
+ {
+  "wid": 117,
+  "type": "form",
+  "q": "During last night's storm, the building lost ------- for two hours.",
+  "answer": "power",
+  "distractors": [
+   "powerful",
+   "powerfully",
+   "powered"
+  ],
+  "zh": "昨晚暴風雨期間，這棟大樓停電了兩個小時。",
+  "ex": "動詞 lost 後面要接名詞當受詞，lose power 是「停電」。powerful 是形容詞、powerfully 是副詞、powered 是過去式或過去分詞。"
+ },
+ {
+  "wid": 118,
+  "type": "vocab",
+  "q": "With the ------- of a map, we found the hotel easily.",
+  "answer": "aid",
+  "distractors": [
+   "region",
+   "career",
+   "complaint"
+  ],
+  "zh": "靠著地圖的幫助，我們很輕鬆就找到了飯店。",
+  "ex": "with the aid of 是「藉著…的幫助」，固定用法。region 是地區、career 是職業生涯、complaint 是客訴。"
+ },
+ {
+  "wid": 119,
+  "type": "form",
+  "q": "The concert was canceled, so everyone who bought a ticket got a -------.",
+  "answer": "refund",
+  "distractors": [
+   "refundable",
+   "refunded",
+   "refunding"
+  ],
+  "zh": "音樂會取消了，所以每個買票的人都拿到了退款。",
+  "ex": "冠詞 a 後面要接名詞，get a refund 是「拿到退款」。refundable 是形容詞、refunded 是過去式或過去分詞、refunding 是現在分詞。"
+ },
+ {
+  "wid": 120,
+  "type": "vocab",
+  "q": "Because of a ------- of parking spaces, many workers come by bus.",
+  "answer": "lack",
+  "distractors": [
+   "device",
+   "clinic",
+   "receipt"
+  ],
+  "zh": "因為停車位不足，很多員工都搭公車來。",
+  "ex": "a lack of 是「缺乏、不足」，停車位不夠所以大家搭公車。device 是裝置、clinic 是診所、receipt 是收據。"
+ },
+ {
+  "wid": 121,
+  "type": "form",
+  "q": "We will ------- your order as soon as we receive your payment.",
+  "answer": "process",
+  "distractors": [
+   "processing",
+   "processed",
+   "processor"
+  ],
+  "zh": "我們一收到您的款項，就會處理您的訂單。",
+  "ex": "助動詞 will 後面要接原形動詞，process an order 是「處理訂單」。processing 是現在分詞、processed 是過去式或過去分詞、processor 是名詞「處理器」。"
+ },
+ {
+  "wid": 122,
+  "type": "vocab",
+  "q": "Mr. Baker got a ------- from the bank to buy a new house.",
+  "answer": "loan",
+  "distractors": [
+   "region",
+   "flight",
+   "sequence"
+  ],
+  "zh": "貝克先生向銀行貸款買新房子。",
+  "ex": "get a loan from the bank 是「向銀行貸款」，用來買房子。region 是地區、flight 是班機、sequence 是順序。"
+ },
+ {
+  "wid": 123,
+  "type": "vocab",
+  "q": "The ------- for electric cars is growing, so the factory will make more.",
+  "answer": "demand",
+  "distractors": [
+   "cashier",
+   "anniversary",
+   "pharmacy"
+  ],
+  "zh": "電動車的需求正在成長，所以工廠會生產更多。",
+  "ex": "the demand for 是「對…的需求」，需求增加所以要多生產。cashier 是收銀員、anniversary 是週年紀念日、pharmacy 是藥局。"
+ },
+ {
+  "wid": 124,
+  "type": "form",
+  "q": "After one month, the manager is happy with the new workers' -------.",
+  "answer": "progress",
+  "distractors": [
+   "progressive",
+   "progressively",
+   "progressed"
+  ],
+  "zh": "經理對新進員工一個月後的進步感到滿意。",
+  "ex": "所有格 workers' 後面要接名詞，progress 是「進步」。progressive 是形容詞、progressively 是副詞、progressed 是過去式或過去分詞。"
+ }
+]

@@ -1,0 +1,1405 @@
+[
+{
+"wid": 500,
+"w": "commitment",
+"pos": [
+"n."
+],
+"zh": [
+"承諾；奉獻；必須做的事"
+],
+"seen_example": "The team members showed great commitment to their work."
+},
+{
+"wid": 501,
+"w": "exposure",
+"pos": [
+"n."
+],
+"zh": [
+"接觸；揭露；曝光"
+],
+"seen_example": "Long-term exposure to the sun can cause skin damage."
+},
+{
+"wid": 502,
+"w": "segment",
+"pos": [
+"n."
+],
+"zh": [
+"區段；部分"
+],
+"seen_example": "The video will be divided into segments for easier viewing."
+},
+{
+"wid": 503,
+"w": "factor",
+"pos": [
+"n."
+],
+"zh": [
+"因素；要素"
+],
+"seen_example": "Stress is often a factor in many mental illnesses."
+},
+{
+"wid": 504,
+"w": "distribution",
+"pos": [
+"n."
+],
+"zh": [
+"分發；分配"
+],
+"seen_example": "The distribution of flyers was done efficiently by the team."
+},
+{
+"wid": 505,
+"w": "criteria",
+"pos": [
+"n."
+],
+"zh": [
+"評判標準"
+],
+"seen_example": "Meeting all the criteria is essential for success."
+},
+{
+"wid": 506,
+"w": "component",
+"pos": [
+"n."
+],
+"zh": [
+"零件；組成部分"
+],
+"seen_example": "The technician replaced a faulty component in the machine."
+},
+{
+"wid": 507,
+"w": "transaction",
+"pos": [
+"n."
+],
+"zh": [
+"交易"
+],
+"seen_example": "There was no financial transaction between us."
+},
+{
+"wid": 508,
+"w": "foundation",
+"pos": [
+"n."
+],
+"zh": [
+"基金會；創建"
+],
+"seen_example": "He made a donation to the Environmental Research Foundation."
+},
+{
+"wid": 509,
+"w": "perspective",
+"pos": [
+"n."
+],
+"zh": [
+"觀點"
+],
+"seen_example": "From a historical perspective, this event is significant."
+},
+{
+"wid": 510,
+"w": "welfare",
+"pos": [
+"n."
+],
+"zh": [
+"社會福利"
+],
+"seen_example": "The government tries to promote the general welfare."
+},
+{
+"wid": 511,
+"w": "representative",
+"pos": [
+"n."
+],
+"zh": [
+"代表；代表的人"
+],
+"seen_example": "The representative will attend the meeting on our behalf."
+},
+{
+"wid": 512,
+"w": "publicity",
+"pos": [
+"n."
+],
+"zh": [
+"宣傳；關注"
+],
+"seen_example": "Her novel was published last year in a blaze of publicity."
+},
+{
+"wid": 513,
+"w": "freelancer",
+"pos": [
+"n."
+],
+"zh": [
+"自由工作者"
+],
+"seen_example": "The freelancer submitted her invoice to the company."
+},
+{
+"wid": 514,
+"w": "defect",
+"pos": [
+"n."
+],
+"zh": [
+"缺陷；瑕疵"
+],
+"seen_example": "The product has a defect that needs to be fixed."
+},
+{
+"wid": 515,
+"w": "coverage",
+"pos": [
+"n."
+],
+"zh": [
+"新聞報導；保險範圍"
+],
+"seen_example": "The news coverage of the event was extensive."
+},
+{
+"wid": 516,
+"w": "orientation",
+"pos": [
+"n."
+],
+"zh": [
+"新人訓練；方向"
+],
+"seen_example": "New employees must attend orientation on Monday morning."
+},
+{
+"wid": 517,
+"w": "resolution",
+"pos": [
+"n."
+],
+"zh": [
+"決議；決心"
+],
+"seen_example": "The board reached a resolution to implement the new policy."
+},
+{
+"wid": 518,
+"w": "compensation",
+"pos": [
+"n."
+],
+"zh": [
+"薪資報酬；補償"
+],
+"seen_example": "This company offers better compensation than my previous one."
+},
+{
+"wid": 519,
+"w": "mortgage",
+"pos": [
+"n."
+],
+"zh": [
+"房貸"
+],
+"seen_example": "The mortgage is payable in monthly installments."
+},
+{
+"wid": 520,
+"w": "merit",
+"pos": [
+"n."
+],
+"zh": [
+"優點；功績"
+],
+"seen_example": "Hard work and dedication are merits that should be recognized."
+},
+{
+"wid": 521,
+"w": "prospect",
+"pos": [
+"n."
+],
+"zh": [
+"前景；可能性"
+],
+"seen_example": "Prospects of employment remain bleak in the country."
+},
+{
+"wid": 522,
+"w": "warranty",
+"pos": [
+"n."
+],
+"zh": [
+"保固"
+],
+"seen_example": "The product comes with a one-year warranty for any defects."
+},
+{
+"wid": 523,
+"w": "controversy",
+"pos": [
+"n."
+],
+"zh": [
+"爭議"
+],
+"seen_example": "There was a controversy over the use of drugs in athletics."
+},
+{
+"wid": 524,
+"w": "workshop",
+"pos": [
+"n."
+],
+"zh": [
+"研討會"
+],
+"seen_example": "The organization runs a stress-management workshop."
+},
+{
+"wid": 525,
+"w": "reference",
+"pos": [
+"n."
+],
+"zh": [
+"介紹信；提及"
+],
+"seen_example": "My previous manager wrote me a glowing reference."
+},
+{
+"wid": 526,
+"w": "layoff",
+"pos": [
+"n."
+],
+"zh": [
+"裁員"
+],
+"seen_example": "Some workers were re-employed after the layoff."
+},
+{
+"wid": 527,
+"w": "scale",
+"pos": [
+"n."
+],
+"zh": [
+"規模"
+],
+"seen_example": "We underestimated the scale of the problem."
+},
+{
+"wid": 528,
+"w": "personnel",
+"pos": [
+"n."
+],
+"zh": [
+"全體職員；人事部門"
+],
+"seen_example": "All personnel are to receive security badges."
+},
+{
+"wid": 529,
+"w": "emphasis",
+"pos": [
+"n."
+],
+"zh": [
+"強調；重視"
+],
+"seen_example": "Our company puts an emphasis on quality."
+},
+{
+"wid": 530,
+"w": "commission",
+"pos": [
+"n."
+],
+"zh": [
+"委員會；佣金"
+],
+"seen_example": "The EU commission overrides British policy."
+},
+{
+"wid": 531,
+"w": "inspection",
+"pos": [
+"n."
+],
+"zh": [
+"檢查"
+],
+"seen_example": "The inspection of the building revealed several safety concerns."
+},
+{
+"wid": 532,
+"w": "precaution",
+"pos": [
+"n."
+],
+"zh": [
+"預防措施"
+],
+"seen_example": "Taking precautions can help prevent accidents."
+},
+{
+"wid": 533,
+"w": "operation",
+"pos": [
+"n."
+],
+"zh": [
+"運作；營運；手術"
+],
+"seen_example": "We expect the new system to come into operation next month."
+},
+{
+"wid": 534,
+"w": "strategy",
+"pos": [
+"n."
+],
+"zh": [
+"策略；戰略"
+],
+"seen_example": "Our team needs to come up with a strategy to increase sales."
+},
+{
+"wid": 535,
+"w": "consumption",
+"pos": [
+"n."
+],
+"zh": [
+"消費量；消耗量"
+],
+"seen_example": "The consumption of fossil fuels is a major concern."
+},
+{
+"wid": 536,
+"w": "efficiency",
+"pos": [
+"n."
+],
+"zh": [
+"效率；效能"
+],
+"seen_example": "The efficiency of the production process has been improved."
+},
+{
+"wid": 537,
+"w": "capacity",
+"pos": [
+"n."
+],
+"zh": [
+"容納量；能力"
+],
+"seen_example": "The stadium has a seating capacity of 10,000 people."
+},
+{
+"wid": 538,
+"w": "seminar",
+"pos": [
+"n."
+],
+"zh": [
+"研討會"
+],
+"seen_example": "I attended a seminar on marketing strategies."
+},
+{
+"wid": 539,
+"w": "amenities",
+"pos": [
+"n."
+],
+"zh": [
+"便利設施"
+],
+"seen_example": "You'll have access to all the amenities in the building."
+},
+{
+"wid": 540,
+"w": "vendor",
+"pos": [
+"n."
+],
+"zh": [
+"供應商；小販"
+],
+"seen_example": "The vendor supplied fresh fruits and vegetables to the market."
+},
+{
+"wid": 541,
+"w": "objective",
+"pos": [
+"n."
+],
+"zh": [
+"目標"
+],
+"seen_example": "The objective of this meeting is to inform you of our plans."
+},
+{
+"wid": 542,
+"w": "installment",
+"pos": [
+"n."
+],
+"zh": [
+"分期付款"
+],
+"seen_example": "Can I pay in installments?"
+},
+{
+"wid": 543,
+"w": "analysis",
+"pos": [
+"n."
+],
+"zh": [
+"分析"
+],
+"seen_example": "The analysis of the data revealed interesting trends."
+},
+{
+"wid": 544,
+"w": "guideline",
+"pos": [
+"n."
+],
+"zh": [
+"準則；指南"
+],
+"seen_example": "The company's safety guidelines must be followed strictly."
+},
+{
+"wid": 545,
+"w": "workload",
+"pos": [
+"n."
+],
+"zh": [
+"工作量"
+],
+"seen_example": "The manager distributed the workload among team members."
+},
+{
+"wid": 546,
+"w": "asset",
+"pos": [
+"n."
+],
+"zh": [
+"資產；優勢"
+],
+"seen_example": "The new software system is a valuable asset."
+},
+{
+"wid": 547,
+"w": "innovation",
+"pos": [
+"n."
+],
+"zh": [
+"創新"
+],
+"seen_example": "The company's latest innovation increased productivity by 50%."
+},
+{
+"wid": 548,
+"w": "transition",
+"pos": [
+"n."
+],
+"zh": [
+"轉變；過渡期"
+],
+"seen_example": "The company is going through a transition phase."
+},
+{
+"wid": 549,
+"w": "phase",
+"pos": [
+"n."
+],
+"zh": [
+"階段"
+],
+"seen_example": "We are in the final phase of the construction project."
+},
+{
+"wid": 550,
+"w": "withdrawal",
+"pos": [
+"n."
+],
+"zh": [
+"提款；收回"
+],
+"seen_example": "Are you making a deposit or withdrawal today?"
+},
+{
+"wid": 551,
+"w": "circumstance",
+"pos": [
+"n."
+],
+"zh": [
+"情況；條件"
+],
+"seen_example": "Despite the circumstances, she remained calm and composed."
+},
+{
+"wid": 552,
+"w": "distinction",
+"pos": [
+"n."
+],
+"zh": [
+"區別；優秀"
+],
+"seen_example": "There is a clear distinction between right and wrong."
+},
+{
+"wid": 553,
+"w": "revision",
+"pos": [
+"n."
+],
+"zh": [
+"修改；修訂"
+],
+"seen_example": "The book underwent a revision to correct errors."
+},
+{
+"wid": 554,
+"w": "hazard",
+"pos": [
+"n."
+],
+"zh": [
+"危害"
+],
+"seen_example": "Driving under the influence of alcohol is a hazard to others."
+},
+{
+"wid": 555,
+"w": "webinar",
+"pos": [
+"n."
+],
+"zh": [
+"線上研討會"
+],
+"seen_example": "The marketing team hosted a webinar about new product features."
+},
+{
+"wid": 556,
+"w": "intake",
+"pos": [
+"n."
+],
+"zh": [
+"攝取量；招生人數"
+],
+"seen_example": "Please monitor your daily intake of sugar and sodium."
+},
+{
+"wid": 557,
+"w": "founder",
+"pos": [
+"n."
+],
+"zh": [
+"創辦人"
+],
+"seen_example": "The company founder stepped down as chief executive."
+},
+{
+"wid": 558,
+"w": "authority",
+"pos": [
+"n."
+],
+"zh": [
+"當局；權力；權威"
+],
+"seen_example": "The local authority is responsible for maintaining roads."
+},
+{
+"wid": 559,
+"w": "associate",
+"pos": [
+"n.",
+"v."
+],
+"zh": [
+"夥伴；同事",
+"連結"
+],
+"seen_example": "The law firm has positions open for junior associates."
+},
+{
+"wid": 560,
+"w": "expansion",
+"pos": [
+"n."
+],
+"zh": [
+"擴展"
+],
+"seen_example": "The company plans for expansion into new markets next year."
+},
+{
+"wid": 561,
+"w": "corporation",
+"pos": [
+"n."
+],
+"zh": [
+"大公司；集團公司"
+],
+"seen_example": "They've decided to liquidate the corporation by next month."
+},
+{
+"wid": 562,
+"w": "investigation",
+"pos": [
+"n."
+],
+"zh": [
+"調查；偵查"
+],
+"seen_example": "The investigation revealed new evidence in the case."
+},
+{
+"wid": 563,
+"w": "renovation",
+"pos": [
+"n."
+],
+"zh": [
+"裝修；翻新"
+],
+"seen_example": "The office renovation is scheduled to start next week."
+},
+{
+"wid": 564,
+"w": "procedure",
+"pos": [
+"n."
+],
+"zh": [
+"程序"
+],
+"seen_example": "Please follow the procedure outlined in the manual."
+},
+{
+"wid": 565,
+"w": "publication",
+"pos": [
+"n."
+],
+"zh": [
+"出版；出版品"
+],
+"seen_example": "The book is scheduled for publication in the spring."
+},
+{
+"wid": 566,
+"w": "headquarters",
+"pos": [
+"n."
+],
+"zh": [
+"總部"
+],
+"seen_example": "The corporation's headquarters is in Amsterdam."
+},
+{
+"wid": 567,
+"w": "overview",
+"pos": [
+"n."
+],
+"zh": [
+"概述"
+],
+"seen_example": "The professor gave an overview of the research findings."
+},
+{
+"wid": 568,
+"w": "cubicle",
+"pos": [
+"n."
+],
+"zh": [
+"隔間"
+],
+"seen_example": "The employee organized files at her office cubicle."
+},
+{
+"wid": 569,
+"w": "headcount",
+"pos": [
+"n."
+],
+"zh": [
+"人數；編制員額"
+],
+"seen_example": "The company reduced its headcount to cut operating costs."
+},
+{
+"wid": 570,
+"w": "consequence",
+"pos": [
+"n."
+],
+"zh": [
+"後果；結果"
+],
+"seen_example": "The accident was the inevitable consequence of carelessness."
+},
+{
+"wid": 571,
+"w": "load",
+"pos": [
+"n."
+],
+"zh": [
+"工作量；負荷"
+],
+"seen_example": "I have a heavy load of assignments this week."
+},
+{
+"wid": 572,
+"w": "agency",
+"pos": [
+"n."
+],
+"zh": [
+"代理機構"
+],
+"seen_example": "They asked a travel agency to arrange the itinerary."
+},
+{
+"wid": 573,
+"w": "invoice",
+"pos": [
+"n."
+],
+"zh": [
+"付款清單；發票"
+],
+"seen_example": "We will send you an invoice for the total course fees."
+},
+{
+"wid": 574,
+"w": "contribution",
+"pos": [
+"n."
+],
+"zh": [
+"貢獻"
+],
+"seen_example": "His contribution to the project was significant."
+},
+{
+"wid": 575,
+"w": "security",
+"pos": [
+"n."
+],
+"zh": [
+"保全；安全"
+],
+"seen_example": "They called security to have the drunk man removed."
+},
+{
+"wid": 576,
+"w": "catering",
+"pos": [
+"n."
+],
+"zh": [
+"外燴；餐飲業"
+],
+"seen_example": "The hotel offers catering services for special events."
+},
+{
+"wid": 577,
+"w": "campaign",
+"pos": [
+"n."
+],
+"zh": [
+"造勢活動；宣傳活動"
+],
+"seen_example": "The political campaign aims to gain public support."
+},
+{
+"wid": 578,
+"w": "installation",
+"pos": [
+"n."
+],
+"zh": [
+"安裝"
+],
+"seen_example": "The installation of the software was quick and easy."
+},
+{
+"wid": 579,
+"w": "chemical",
+"pos": [
+"n.",
+"adj."
+],
+"zh": [
+"化學製品",
+"化學的"
+],
+"seen_example": "The laboratory is used for conducting chemical experiments."
+},
+{
+"wid": 580,
+"w": "inconvenience",
+"pos": [
+"n."
+],
+"zh": [
+"不便；麻煩"
+],
+"seen_example": "We apologize for any inconvenience caused by the repairs."
+},
+{
+"wid": 581,
+"w": "ratio",
+"pos": [
+"n."
+],
+"zh": [
+"比例；比率"
+],
+"seen_example": "The ratio of students to teachers is 12 to 1 at the school."
+},
+{
+"wid": 582,
+"w": "branch",
+"pos": [
+"n."
+],
+"zh": [
+"分支機構"
+],
+"seen_example": "The company opened a new branch in the city center."
+},
+{
+"wid": 583,
+"w": "timeline",
+"pos": [
+"n."
+],
+"zh": [
+"時程表；時間軸"
+],
+"seen_example": "The project manager adjusted the timeline for completion."
+},
+{
+"wid": 584,
+"w": "directory",
+"pos": [
+"n."
+],
+"zh": [
+"指南；通訊錄"
+],
+"seen_example": "You can find her contact number in the phone directory."
+},
+{
+"wid": 585,
+"w": "downtime",
+"pos": [
+"n."
+],
+"zh": [
+"停機時間；休息時間"
+],
+"seen_example": "The factory's downtime resulted in decreased production levels."
+},
+{
+"wid": 586,
+"w": "clause",
+"pos": [
+"n."
+],
+"zh": [
+"條款；子句"
+],
+"seen_example": "The contract's liability clause protects both business parties."
+},
+{
+"wid": 587,
+"w": "inventory",
+"pos": [
+"n."
+],
+"zh": [
+"存貨；盤點"
+],
+"seen_example": "The warehouse manager conducted an inventory check."
+},
+{
+"wid": 588,
+"w": "stance",
+"pos": [
+"n."
+],
+"zh": [
+"立場"
+],
+"seen_example": "His stance on the issue is clear and unwavering."
+},
+{
+"wid": 589,
+"w": "amendment",
+"pos": [
+"n."
+],
+"zh": [
+"修訂；修正案"
+],
+"seen_example": "A major amendment was introduced to the legislation."
+},
+{
+"wid": 590,
+"w": "revenue",
+"pos": [
+"n."
+],
+"zh": [
+"公司收益；政府稅收"
+],
+"seen_example": "The company's revenue increased significantly this quarter."
+},
+{
+"wid": 591,
+"w": "alternative",
+"pos": [
+"n.",
+"adj."
+],
+"zh": [
+"替代方案；替代品",
+"替代的"
+],
+"seen_example": "Taking the bus is a cheaper alternative to driving."
+},
+{
+"wid": 592,
+"w": "characteristic",
+"pos": [
+"n.",
+"adj."
+],
+"zh": [
+"特色；特徵",
+"特有的；獨特的"
+],
+"seen_example": "Honesty is one of his key characteristics."
+},
+{
+"wid": 593,
+"w": "hurdle",
+"pos": [
+"n.",
+"v."
+],
+"zh": [
+"障礙",
+"跨過"
+],
+"seen_example": "The project faced several hurdles before final approval."
+},
+{
+"wid": 594,
+"w": "poll",
+"pos": [
+"n.",
+"v."
+],
+"zh": [
+"民調",
+"進行民調"
+],
+"seen_example": "The poll showed that many young people supported the party."
+},
+{
+"wid": 595,
+"w": "broker",
+"pos": [
+"n.",
+"v."
+],
+"zh": [
+"經紀人；仲介",
+"安排；斡旋"
+],
+"seen_example": "The broker negotiated the sale of company stocks."
+},
+{
+"wid": 596,
+"w": "compromise",
+"pos": [
+"n.",
+"v."
+],
+"zh": [
+"妥協",
+"妥協"
+],
+"seen_example": "We hope to reach a compromise during the meeting today."
+},
+{
+"wid": 597,
+"w": "approach",
+"pos": [
+"n.",
+"v."
+],
+"zh": [
+"方法；靠近",
+"處理；接近"
+],
+"seen_example": "Our team is developing a new approach to solve the problem."
+},
+{
+"wid": 598,
+"w": "dispute",
+"pos": [
+"n.",
+"v."
+],
+"zh": [
+"爭端；糾紛",
+"不贊同"
+],
+"seen_example": "They are in a dispute over the ownership of the land."
+},
+{
+"wid": 599,
+"w": "measure",
+"pos": [
+"n.",
+"v."
+],
+"zh": [
+"措施",
+"估量"
+],
+"seen_example": "The government implemented measures to reduce pollution."
+},
+{
+"wid": 600,
+"w": "object",
+"pos": [
+"n.",
+"v."
+],
+"zh": [
+"目標；物體",
+"反對"
+],
+"seen_example": "Our main object is to increase sales this quarter."
+},
+{
+"wid": 601,
+"w": "span",
+"pos": [
+"n.",
+"v."
+],
+"zh": [
+"一段時間；全長",
+"持續；橫跨"
+],
+"seen_example": "Over a span of ten years, the company has made great progress."
+},
+{
+"wid": 602,
+"w": "outline",
+"pos": [
+"n.",
+"v."
+],
+"zh": [
+"大綱",
+"概述"
+],
+"seen_example": "This is a brief outline of the meeting."
+},
+{
+"wid": 603,
+"w": "remarkable",
+"pos": [
+"adj."
+],
+"zh": [
+"非凡的；卓越的"
+],
+"seen_example": "She made a remarkable achievement in her field of research."
+},
+{
+"wid": 604,
+"w": "external",
+"pos": [
+"adj."
+],
+"zh": [
+"外部的"
+],
+"seen_example": "The external auditor reviewed the company's financial records."
+},
+{
+"wid": 605,
+"w": "mutual",
+"pos": [
+"adj."
+],
+"zh": [
+"相互的；共同的"
+],
+"seen_example": "They have a mutual understanding and respect for each other."
+},
+{
+"wid": 606,
+"w": "crucial",
+"pos": [
+"adj."
+],
+"zh": [
+"至關重要的"
+],
+"seen_example": "Time management is crucial in a fast-paced environment."
+},
+{
+"wid": 607,
+"w": "critical",
+"pos": [
+"adj."
+],
+"zh": [
+"關鍵的；評論的；批判的"
+],
+"seen_example": "The last piece of evidence was critical in convicting him."
+},
+{
+"wid": 608,
+"w": "eligible",
+"pos": [
+"adj."
+],
+"zh": [
+"有資格的"
+],
+"seen_example": "All staffs are eligible for paid sick days."
+},
+{
+"wid": 609,
+"w": "efficient",
+"pos": [
+"adj."
+],
+"zh": [
+"有效率的"
+],
+"seen_example": "The new machine is more efficient and requires less energy."
+},
+{
+"wid": 610,
+"w": "compulsory",
+"pos": [
+"adj."
+],
+"zh": [
+"強制的；義務的"
+],
+"seen_example": "Attendance at these gatherings is not compulsory."
+},
+{
+"wid": 611,
+"w": "artificial",
+"pos": [
+"adj."
+],
+"zh": [
+"人工的；人造的"
+],
+"seen_example": "We don't use any artificial sweeteners in our products."
+},
+{
+"wid": 612,
+"w": "numerous",
+"pos": [
+"adj."
+],
+"zh": [
+"大量的"
+],
+"seen_example": "There were numerous applicants for the job position."
+},
+{
+"wid": 613,
+"w": "adequate",
+"pos": [
+"adj."
+],
+"zh": [
+"合乎需要的；足夠的"
+],
+"seen_example": "Do we have adequate snacks for twenty guests for the event?"
+},
+{
+"wid": 614,
+"w": "overdue",
+"pos": [
+"adj."
+],
+"zh": [
+"逾期未付的"
+],
+"seen_example": "The rent is now a week overdue."
+},
+{
+"wid": 615,
+"w": "bankrupt",
+"pos": [
+"adj."
+],
+"zh": [
+"破產的"
+],
+"seen_example": "The company went bankrupt due to financial mismanagement."
+},
+{
+"wid": 616,
+"w": "defective",
+"pos": [
+"adj."
+],
+"zh": [
+"有缺陷的"
+],
+"seen_example": "The product was found to be defective and had to be recalled."
+},
+{
+"wid": 617,
+"w": "reliable",
+"pos": [
+"adj."
+],
+"zh": [
+"可靠的；可信賴的"
+],
+"seen_example": "He is a reliable source of information for industry trends."
+},
+{
+"wid": 618,
+"w": "vital",
+"pos": [
+"adj."
+],
+"zh": [
+"不可或缺的"
+],
+"seen_example": "Good nutrition is vital for maintaining a healthy lifestyle."
+},
+{
+"wid": 619,
+"w": "intensive",
+"pos": [
+"adj."
+],
+"zh": [
+"密集的；集中的"
+],
+"seen_example": "The intensive training program helped improve their skills."
+},
+{
+"wid": 620,
+"w": "compatible",
+"pos": [
+"adj."
+],
+"zh": [
+"相容的；可共存的"
+],
+"seen_example": "The software may not be compatible with older devices."
+},
+{
+"wid": 621,
+"w": "apparent",
+"pos": [
+"adj."
+],
+"zh": [
+"明顯的；表面上的"
+],
+"seen_example": "The cause of the problem is apparent from the data."
+},
+{
+"wid": 622,
+"w": "sufficient",
+"pos": [
+"adj."
+],
+"zh": [
+"足夠的；充足的"
+],
+"seen_example": "We have sufficient time to complete the task."
+},
+{
+"wid": 623,
+"w": "ambitious",
+"pos": [
+"adj."
+],
+"zh": [
+"有野心的"
+],
+"seen_example": "She has ambitious goals for her career."
+},
+{
+"wid": 624,
+"w": "prior",
+"pos": [
+"adj."
+],
+"zh": [
+"事先的"
+],
+"seen_example": "Please arrive prior to the scheduled meeting time."
+}
+]

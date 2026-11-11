@@ -1,0 +1,1423 @@
+[
+{
+"wid": 375,
+"w": "impact",
+"pos": [
+"n.",
+"v."
+],
+"zh": [
+"衝擊；影響",
+"影響"
+],
+"seen_example": "The new policy had a significant impact on the economy."
+},
+{
+"wid": 376,
+"w": "forecast",
+"pos": [
+"n.",
+"v."
+],
+"zh": [
+"預測；預報",
+"預測；預報"
+],
+"seen_example": "The sales team forecast strong growth for next quarter."
+},
+{
+"wid": 377,
+"w": "punctual",
+"pos": [
+"adj."
+],
+"zh": [
+"準時的"
+],
+"seen_example": "The manager praised John for being consistently punctual."
+},
+{
+"wid": 378,
+"w": "current",
+"pos": [
+"adj."
+],
+"zh": [
+"當前的；現有的"
+],
+"seen_example": "What is your current location?"
+},
+{
+"wid": 379,
+"w": "specific",
+"pos": [
+"adj."
+],
+"zh": [
+"明確的；特定的"
+],
+"seen_example": "The instructions we received were very specific."
+},
+{
+"wid": 380,
+"w": "incredible",
+"pos": [
+"adj."
+],
+"zh": [
+"極好的；難以置信的"
+],
+"seen_example": "The team achieved an incredible victory against all odds."
+},
+{
+"wid": 381,
+"w": "affordable",
+"pos": [
+"adj."
+],
+"zh": [
+"負擔得起的"
+],
+"seen_example": "The new housing development is an affordable option."
+},
+{
+"wid": 382,
+"w": "flexible",
+"pos": [
+"adj."
+],
+"zh": [
+"有彈性的；可變通的"
+],
+"seen_example": "Yoga exercises can make your body more flexible."
+},
+{
+"wid": 383,
+"w": "unique",
+"pos": [
+"adj."
+],
+"zh": [
+"獨特的"
+],
+"seen_example": "Our app offers a unique solution to language learning."
+},
+{
+"wid": 384,
+"w": "effective",
+"pos": [
+"adj."
+],
+"zh": [
+"生效的；有效的"
+],
+"seen_example": "You are suspended for two weeks, effective immediately."
+},
+{
+"wid": 385,
+"w": "diverse",
+"pos": [
+"adj."
+],
+"zh": [
+"多元的；迥異的"
+],
+"seen_example": "New York is a very culturally diverse city."
+},
+{
+"wid": 386,
+"w": "constant",
+"pos": [
+"adj."
+],
+"zh": [
+"持續的"
+],
+"seen_example": "His constant complaints are really getting on my nerves."
+},
+{
+"wid": 387,
+"w": "gross",
+"pos": [
+"adj."
+],
+"zh": [
+"總額的"
+],
+"seen_example": "Our company's gross profit increased by 20% compared to last year."
+},
+{
+"wid": 388,
+"w": "inexperienced",
+"pos": [
+"adj."
+],
+"zh": [
+"無經驗的"
+],
+"seen_example": "The company hired inexperienced interns for the summer."
+},
+{
+"wid": 389,
+"w": "adjacent",
+"pos": [
+"adj."
+],
+"zh": [
+"鄰近的"
+],
+"seen_example": "The new office is adjacent to the shopping mall."
+},
+{
+"wid": 390,
+"w": "economic",
+"pos": [
+"adj."
+],
+"zh": [
+"經濟上的；有經濟效益的"
+],
+"seen_example": "The company is wrestling with difficult economic problems."
+},
+{
+"wid": 391,
+"w": "relevant",
+"pos": [
+"adj."
+],
+"zh": [
+"密切相關的；有意義的"
+],
+"seen_example": "Her presentation included relevant data and case studies."
+},
+{
+"wid": 392,
+"w": "domestic",
+"pos": [
+"adj."
+],
+"zh": [
+"國內的；家庭的"
+],
+"seen_example": "The company focuses on domestic markets for its products."
+},
+{
+"wid": 393,
+"w": "complimentary",
+"pos": [
+"adj."
+],
+"zh": [
+"免費贈送的"
+],
+"seen_example": "The hotel provides complimentary breakfast."
+},
+{
+"wid": 394,
+"w": "ongoing",
+"pos": [
+"adj."
+],
+"zh": [
+"進行中的；持續存在的"
+],
+"seen_example": "The ongoing project is scheduled to be completed next month."
+},
+{
+"wid": 395,
+"w": "principal",
+"pos": [
+"adj."
+],
+"zh": [
+"最重要的"
+],
+"seen_example": "This is the principal road between the two cities."
+},
+{
+"wid": 396,
+"w": "verbal",
+"pos": [
+"adj."
+],
+"zh": [
+"口頭的；言詞上的"
+],
+"seen_example": "Verbal agreements are not legally binding."
+},
+{
+"wid": 397,
+"w": "spacious",
+"pos": [
+"adj."
+],
+"zh": [
+"寬敞的"
+],
+"seen_example": "The office has a spacious conference room for meetings."
+},
+{
+"wid": 398,
+"w": "cautious",
+"pos": [
+"adj."
+],
+"zh": [
+"謹慎的；斟酌過的"
+],
+"seen_example": "It's important to be cautious when crossing the street."
+},
+{
+"wid": 399,
+"w": "internal",
+"pos": [
+"adj."
+],
+"zh": [
+"內部的；國內的"
+],
+"seen_example": "Internal communication is essential for effective teamwork."
+},
+{
+"wid": 400,
+"w": "overall",
+"pos": [
+"adj."
+],
+"zh": [
+"整體的；全部的"
+],
+"seen_example": "The overall satisfaction of our customers is our priority."
+},
+{
+"wid": 401,
+"w": "valid",
+"pos": [
+"adj."
+],
+"zh": [
+"有效力的；有根據的"
+],
+"seen_example": "Make sure your passport is valid before traveling."
+},
+{
+"wid": 402,
+"w": "fundamental",
+"pos": [
+"adj."
+],
+"zh": [
+"基礎的；根本的"
+],
+"seen_example": "Communication skills are fundamental in the workplace."
+},
+{
+"wid": 403,
+"w": "medical",
+"pos": [
+"adj."
+],
+"zh": [
+"醫療的；醫學的"
+],
+"seen_example": "The patient received medical treatment for his condition."
+},
+{
+"wid": 404,
+"w": "accessible",
+"pos": [
+"adj."
+],
+"zh": [
+"可接近的；可得到的"
+],
+"seen_example": "The museum is accessible for people with disabilities."
+},
+{
+"wid": 405,
+"w": "additional",
+"pos": [
+"adj."
+],
+"zh": [
+"附加的；額外的"
+],
+"seen_example": "I need some additional information for my report."
+},
+{
+"wid": 406,
+"w": "reasonable",
+"pos": [
+"adj."
+],
+"zh": [
+"合理的"
+],
+"seen_example": "The rent here is reasonable, and the location is perfect."
+},
+{
+"wid": 407,
+"w": "appropriate",
+"pos": [
+"adj."
+],
+"zh": [
+"適當的；恰當的"
+],
+"seen_example": "Please wear appropriate attire for the formal event."
+},
+{
+"wid": 408,
+"w": "permanent",
+"pos": [
+"adj."
+],
+"zh": [
+"長久的；永遠的"
+],
+"seen_example": "She accepted a permanent position at the company."
+},
+{
+"wid": 409,
+"w": "abundant",
+"pos": [
+"adj."
+],
+"zh": [
+"豐富的；大量的"
+],
+"seen_example": "The garden is abundant with colorful flowers."
+},
+{
+"wid": 410,
+"w": "anonymous",
+"pos": [
+"adj."
+],
+"zh": [
+"匿名的；不具名的"
+],
+"seen_example": "The anonymous donor contributed generously to our company."
+},
+{
+"wid": 411,
+"w": "extensive",
+"pos": [
+"adj."
+],
+"zh": [
+"廣泛的"
+],
+"seen_example": "He conducted an extensive research study on the topic."
+},
+{
+"wid": 412,
+"w": "potential",
+"pos": [
+"adj.",
+"n."
+],
+"zh": [
+"潛在的；可能的",
+"潛力"
+],
+"seen_example": "The company was considered a potential partner."
+},
+{
+"wid": 413,
+"w": "technical",
+"pos": [
+"adj."
+],
+"zh": [
+"技術性的；專業的"
+],
+"seen_example": "He has excellent technical skills in computer programming."
+},
+{
+"wid": 414,
+"w": "essential",
+"pos": [
+"adj.",
+"n."
+],
+"zh": [
+"必要的",
+"必需品"
+],
+"seen_example": "Good time management is essential for productivity at work."
+},
+{
+"wid": 415,
+"w": "professional",
+"pos": [
+"adj.",
+"n."
+],
+"zh": [
+"專業的",
+"專家"
+],
+"seen_example": "He is a professional accountant with years of experience."
+},
+{
+"wid": 416,
+"w": "commercial",
+"pos": [
+"adj.",
+"n."
+],
+"zh": [
+"商業的；商務的",
+"商業廣告"
+],
+"seen_example": "Companies fight to protect their own commercial interests."
+},
+{
+"wid": 417,
+"w": "overseas",
+"pos": [
+"adj.",
+"adv."
+],
+"zh": [
+"海外的；國外的",
+"在海外；到海外"
+],
+"seen_example": "She went on an overseas trip last month."
+},
+{
+"wid": 418,
+"w": "moderate",
+"pos": [
+"adj.",
+"v."
+],
+"zh": [
+"適度的；中等的",
+"主持"
+],
+"seen_example": "She adopted a moderate approach to resolving the conflict."
+},
+{
+"wid": 419,
+"w": "particularly",
+"pos": [
+"adv."
+],
+"zh": [
+"尤其；特別"
+],
+"seen_example": "She is particularly interested in art history."
+},
+{
+"wid": 420,
+"w": "approximately",
+"pos": [
+"adv."
+],
+"zh": [
+"大約；大概"
+],
+"seen_example": "The journey will take approximately three hours by car."
+},
+{
+"wid": 421,
+"w": "concentrate",
+"pos": [
+"v."
+],
+"zh": [
+"專心；集中；濃縮"
+],
+"seen_example": "Try to concentrate on one thing at a time."
+},
+{
+"wid": 422,
+"w": "scan",
+"pos": [
+"v."
+],
+"zh": [
+"掃描；快速瀏覽"
+],
+"seen_example": "First, scan the text into the computer, then edit it."
+},
+{
+"wid": 423,
+"w": "postpone",
+"pos": [
+"v."
+],
+"zh": [
+"延後；延期"
+],
+"seen_example": "The meeting has been postponed to next week."
+},
+{
+"wid": 424,
+"w": "reschedule",
+"pos": [
+"v."
+],
+"zh": [
+"改期"
+],
+"seen_example": "We had to reschedule the meeting due to a conflict."
+},
+{
+"wid": 425,
+"w": "affect",
+"pos": [
+"v."
+],
+"zh": [
+"影響"
+],
+"seen_example": "A negative work environment can affect productivity."
+},
+{
+"wid": 426,
+"w": "predict",
+"pos": [
+"v."
+],
+"zh": [
+"預測"
+],
+"seen_example": "Experts predict that the economy will improve next year."
+},
+{
+"wid": 427,
+"w": "enroll",
+"pos": [
+"v."
+],
+"zh": [
+"註冊"
+],
+"seen_example": "Students need to enroll in the course before the deadline."
+},
+{
+"wid": 428,
+"w": "commute",
+"pos": [
+"v."
+],
+"zh": [
+"通勤"
+],
+"seen_example": "I commute 30 minutes to work every day."
+},
+{
+"wid": 429,
+"w": "involve",
+"pos": [
+"v."
+],
+"zh": [
+"涉及；包含"
+],
+"seen_example": "The project will involve multiple departments and stakeholders."
+},
+{
+"wid": 430,
+"w": "hesitate",
+"pos": [
+"v."
+],
+"zh": [
+"猶豫"
+],
+"seen_example": "Don't hesitate to ask if you have any questions."
+},
+{
+"wid": 431,
+"w": "donate",
+"pos": [
+"v."
+],
+"zh": [
+"捐獻；捐贈"
+],
+"seen_example": "They donate large sums of money to the Red Cross every year."
+},
+{
+"wid": 432,
+"w": "forward",
+"pos": [
+"v."
+],
+"zh": [
+"轉寄"
+],
+"seen_example": "I'll forward all your mail to your new address."
+},
+{
+"wid": 433,
+"w": "achieve",
+"pos": [
+"v."
+],
+"zh": [
+"達成；實現"
+],
+"seen_example": "She worked hard to achieve her career goals."
+},
+{
+"wid": 434,
+"w": "contribute",
+"pos": [
+"v."
+],
+"zh": [
+"貢獻；出力"
+],
+"seen_example": "We expect everyone to contribute to the discussion."
+},
+{
+"wid": 435,
+"w": "extend",
+"pos": [
+"v."
+],
+"zh": [
+"延長；擴展"
+],
+"seen_example": "Management has agreed to extend the deadline."
+},
+{
+"wid": 436,
+"w": "consist",
+"pos": [
+"v."
+],
+"zh": [
+"組成；構成"
+],
+"seen_example": "The winning team consisted of 4 Europeans and 2 Americans."
+},
+{
+"wid": 437,
+"w": "interact",
+"pos": [
+"v."
+],
+"zh": [
+"互動；交流；相互作用"
+],
+"seen_example": "Kids learn social skills through interacting with others."
+},
+{
+"wid": 438,
+"w": "indicate",
+"pos": [
+"v."
+],
+"zh": [
+"指出；顯示"
+],
+"seen_example": "Expenses do not necessarily indicate worth."
+},
+{
+"wid": 439,
+"w": "occur",
+"pos": [
+"v."
+],
+"zh": [
+"發生；存在"
+],
+"seen_example": "Accidents can occur if safety measures are not followed."
+},
+{
+"wid": 440,
+"w": "assure",
+"pos": [
+"v."
+],
+"zh": [
+"向…保證；確保"
+],
+"seen_example": "We assure you that we will get to the bottom of this."
+},
+{
+"wid": 441,
+"w": "persuade",
+"pos": [
+"v."
+],
+"zh": [
+"說服"
+],
+"seen_example": "She managed to persuade her colleagues to support the idea."
+},
+{
+"wid": 442,
+"w": "convince",
+"pos": [
+"v."
+],
+"zh": [
+"使信服；說服"
+],
+"seen_example": "He managed to convince the team to change their approach."
+},
+{
+"wid": 443,
+"w": "operate",
+"pos": [
+"v."
+],
+"zh": [
+"運作；運行"
+],
+"seen_example": "The factory operates 24 hours a day."
+},
+{
+"wid": 444,
+"w": "declare",
+"pos": [
+"v."
+],
+"zh": [
+"宣布；申報"
+],
+"seen_example": "The company declared bankruptcy last year."
+},
+{
+"wid": 445,
+"w": "alter",
+"pos": [
+"v."
+],
+"zh": [
+"修改；改變"
+],
+"seen_example": "We had to alter some of our plans."
+},
+{
+"wid": 446,
+"w": "maintain",
+"pos": [
+"v."
+],
+"zh": [
+"維持；保養"
+],
+"seen_example": "It is important to maintain good relationships with customers."
+},
+{
+"wid": 447,
+"w": "employ",
+"pos": [
+"v."
+],
+"zh": [
+"雇用"
+],
+"seen_example": "We need to employ someone to oversee the project."
+},
+{
+"wid": 448,
+"w": "assemble",
+"pos": [
+"v."
+],
+"zh": [
+"組裝；集合；收集"
+],
+"seen_example": "It only took me an hour to assemble this bookcase."
+},
+{
+"wid": 449,
+"w": "assign",
+"pos": [
+"v."
+],
+"zh": [
+"指派；分配"
+],
+"seen_example": "The manager will assign tasks to the employees."
+},
+{
+"wid": 450,
+"w": "approve",
+"pos": [
+"v."
+],
+"zh": [
+"批准；同意"
+],
+"seen_example": "The committee approved the proposed budget unanimously."
+},
+{
+"wid": 451,
+"w": "suggest",
+"pos": [
+"v."
+],
+"zh": [
+"指出；建議"
+],
+"seen_example": "Are you suggesting that I look fat in these pants?"
+},
+{
+"wid": 452,
+"w": "conclude",
+"pos": [
+"v."
+],
+"zh": [
+"下結論"
+],
+"seen_example": "Based on the data, we can conclude that sales have increased."
+},
+{
+"wid": 453,
+"w": "motivate",
+"pos": [
+"v."
+],
+"zh": [
+"激勵；使產生動機"
+],
+"seen_example": "Exams do not motivate a student to seek more knowledge."
+},
+{
+"wid": 454,
+"w": "shrink",
+"pos": [
+"v."
+],
+"zh": [
+"縮小；縮水"
+],
+"seen_example": "The company's profits have shrunk significantly this year."
+},
+{
+"wid": 455,
+"w": "submit",
+"pos": [
+"v."
+],
+"zh": [
+"提交"
+],
+"seen_example": "Please submit your application before the deadline."
+},
+{
+"wid": 456,
+"w": "draw",
+"pos": [
+"v."
+],
+"zh": [
+"吸引"
+],
+"seen_example": "The stunning view draws tourists from all over."
+},
+{
+"wid": 457,
+"w": "activate",
+"pos": [
+"v."
+],
+"zh": [
+"啟動"
+],
+"seen_example": "Don't forget to activate the alarm system when you leave."
+},
+{
+"wid": 458,
+"w": "claim",
+"pos": [
+"v."
+],
+"zh": [
+"聲稱；認領"
+],
+"seen_example": "The company claims to have the best customer service."
+},
+{
+"wid": 459,
+"w": "adjust",
+"pos": [
+"v."
+],
+"zh": [
+"調整；適應"
+],
+"seen_example": "I have been forced to adjust my schedule twice already."
+},
+{
+"wid": 460,
+"w": "promote",
+"pos": [
+"v."
+],
+"zh": [
+"促銷；推廣；升遷"
+],
+"seen_example": "Companies are always thinking of ways to promote products."
+},
+{
+"wid": 461,
+"w": "adapt",
+"pos": [
+"v."
+],
+"zh": [
+"適應；調整"
+],
+"seen_example": "It took him two months to adapt to the new environment."
+},
+{
+"wid": 462,
+"w": "settle",
+"pos": [
+"v."
+],
+"zh": [
+"解決；安頓"
+],
+"seen_example": "They reached an agreement to settle the dispute."
+},
+{
+"wid": 463,
+"w": "revise",
+"pos": [
+"v."
+],
+"zh": [
+"修改；修訂"
+],
+"seen_example": "In light of these changes, we must revise our plan."
+},
+{
+"wid": 464,
+"w": "invest",
+"pos": [
+"v."
+],
+"zh": [
+"投資"
+],
+"seen_example": "They decided to invest in real estate properties."
+},
+{
+"wid": 465,
+"w": "locate",
+"pos": [
+"v."
+],
+"zh": [
+"定位；位於"
+],
+"seen_example": "The company is trying to locate a suitable office space."
+},
+{
+"wid": 466,
+"w": "demonstrate",
+"pos": [
+"v."
+],
+"zh": [
+"示範；顯示"
+],
+"seen_example": "The scientist will demonstrate the experiment to the students."
+},
+{
+"wid": 467,
+"w": "quote",
+"pos": [
+"v."
+],
+"zh": [
+"報價"
+],
+"seen_example": "The designer quoted $10,000 to redesign our living room."
+},
+{
+"wid": 468,
+"w": "demote",
+"pos": [
+"v."
+],
+"zh": [
+"降職；降級"
+],
+"seen_example": "The company decided to demote him to assistant manager."
+},
+{
+"wid": 469,
+"w": "withdraw",
+"pos": [
+"v."
+],
+"zh": [
+"提取；撤離"
+],
+"seen_example": "She went to the ATM to withdraw some cash."
+},
+{
+"wid": 470,
+"w": "dominate",
+"pos": [
+"v."
+],
+"zh": [
+"支配；占優勢"
+],
+"seen_example": "The dispute is likely to dominate the news."
+},
+{
+"wid": 471,
+"w": "elaborate",
+"pos": [
+"v."
+],
+"zh": [
+"詳盡說明"
+],
+"seen_example": "She went on to elaborate on her argument."
+},
+{
+"wid": 472,
+"w": "eliminate",
+"pos": [
+"v."
+],
+"zh": [
+"淘汰；消除"
+],
+"seen_example": "The team was eliminated during the semi-final."
+},
+{
+"wid": 473,
+"w": "anticipate",
+"pos": [
+"v."
+],
+"zh": [
+"預期；預料"
+],
+"seen_example": "I anticipate a positive outcome from the negotiations."
+},
+{
+"wid": 474,
+"w": "exceed",
+"pos": [
+"v."
+],
+"zh": [
+"超過；勝過"
+],
+"seen_example": "The number of participants exceeded our expectations."
+},
+{
+"wid": 475,
+"w": "appoint",
+"pos": [
+"v."
+],
+"zh": [
+"任命；安排時間"
+],
+"seen_example": "The president can appoint judges to the Supreme Court."
+},
+{
+"wid": 476,
+"w": "customize",
+"pos": [
+"v."
+],
+"zh": [
+"客製化"
+],
+"seen_example": "Our team can customize the software to meet your company's specific needs."
+},
+{
+"wid": 477,
+"w": "appeal",
+"pos": [
+"v."
+],
+"zh": [
+"吸引；呼籲"
+],
+"seen_example": "The location of the office was what appealed to him."
+},
+{
+"wid": 478,
+"w": "commit",
+"pos": [
+"v."
+],
+"zh": [
+"致力於"
+],
+"seen_example": "He is committed to achieving his goals."
+},
+{
+"wid": 479,
+"w": "sustain",
+"pos": [
+"v."
+],
+"zh": [
+"持續；維持"
+],
+"seen_example": "We need to sustain our efforts to achieve long-term success."
+},
+{
+"wid": 480,
+"w": "occupy",
+"pos": [
+"v."
+],
+"zh": [
+"占用"
+],
+"seen_example": "The construction workers will occupy the site next week."
+},
+{
+"wid": 481,
+"w": "nominate",
+"pos": [
+"v."
+],
+"zh": [
+"提名；任命"
+],
+"seen_example": "They will nominate her for the position of team leader."
+},
+{
+"wid": 482,
+"w": "distinguish",
+"pos": [
+"v."
+],
+"zh": [
+"區分；分辨"
+],
+"seen_example": "Can you distinguish between the two identical twins?"
+},
+{
+"wid": 483,
+"w": "convert",
+"pos": [
+"v."
+],
+"zh": [
+"轉換；換外幣"
+],
+"seen_example": "We converted the small bedroom into a second bathroom."
+},
+{
+"wid": 484,
+"w": "merge",
+"pos": [
+"v."
+],
+"zh": [
+"合併"
+],
+"seen_example": "Two companies decided to merge and form a new entity."
+},
+{
+"wid": 485,
+"w": "track",
+"pos": [
+"v.",
+"n."
+],
+"zh": [
+"追蹤；記錄進展",
+"蹤跡"
+],
+"seen_example": "You can track your package using the tracking number."
+},
+{
+"wid": 486,
+"w": "charge",
+"pos": [
+"v.",
+"n."
+],
+"zh": [
+"索價",
+"收費；負責"
+],
+"seen_example": "We charge a cancelation fee if you cancel last minute."
+},
+{
+"wid": 487,
+"w": "attempt",
+"pos": [
+"v.",
+"n."
+],
+"zh": [
+"試圖",
+"嘗試"
+],
+"seen_example": "He attempted to negotiate his salary with HR."
+},
+{
+"wid": 488,
+"w": "exhibit",
+"pos": [
+"v.",
+"n."
+],
+"zh": [
+"展示",
+"展示品；展覽會"
+],
+"seen_example": "The exhibition will allow new artists to exhibit their work."
+},
+{
+"wid": 489,
+"w": "file",
+"pos": [
+"v.",
+"n."
+],
+"zh": [
+"歸檔",
+"檔案"
+],
+"seen_example": "Please make sure to file all the documents in the cabinet."
+},
+{
+"wid": 490,
+"w": "concern",
+"pos": [
+"v.",
+"n."
+],
+"zh": [
+"使擔心；涉及",
+"擔心的事"
+],
+"seen_example": "The safety of our employees concerns us greatly."
+},
+{
+"wid": 491,
+"w": "function",
+"pos": [
+"v.",
+"n."
+],
+"zh": [
+"運作；起作用",
+"功能；職能"
+],
+"seen_example": "The old copy machine has stopped functioning."
+},
+{
+"wid": 492,
+"w": "purchase",
+"pos": [
+"v.",
+"n."
+],
+"zh": [
+"採購；購買",
+"採購；購買"
+],
+"seen_example": "I need to purchase new office furniture."
+},
+{
+"wid": 493,
+"w": "guarantee",
+"pos": [
+"v.",
+"n."
+],
+"zh": [
+"保證；保固",
+"保證；保固"
+],
+"seen_example": "The company guarantees the quality of their products."
+},
+{
+"wid": 494,
+"w": "register",
+"pos": [
+"v.",
+"n."
+],
+"zh": [
+"登記；報名；註冊",
+"收銀機"
+],
+"seen_example": "Please go to the front desk to register for the workshop."
+},
+{
+"wid": 495,
+"w": "lease",
+"pos": [
+"v.",
+"n."
+],
+"zh": [
+"租用；租借",
+"租約"
+],
+"seen_example": "I decided to lease the car instead of purchasing it."
+},
+{
+"wid": 496,
+"w": "feature",
+"pos": [
+"v.",
+"n."
+],
+"zh": [
+"以…為特色",
+"功能；特色；專題文章（或節目）"
+],
+"seen_example": "Our classes feature hands-on and interactive activities."
+},
+{
+"wid": 497,
+"w": "default",
+"pos": [
+"v.",
+"n."
+],
+"zh": [
+"違約；拖欠",
+"預設值；違約；拖欠"
+],
+"seen_example": "The settings will return to default after the update."
+},
+{
+"wid": 498,
+"w": "sponsor",
+"pos": [
+"v.",
+"n."
+],
+"zh": [
+"贊助；資助",
+"贊助；資助"
+],
+"seen_example": "The company will sponsor the upcoming event."
+},
+{
+"wid": 499,
+"w": "malfunction",
+"pos": [
+"v.",
+"n."
+],
+"zh": [
+"故障；失靈",
+"故障；失靈"
+],
+"seen_example": "The printer began to malfunction during the meeting."
+}
+]

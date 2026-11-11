@@ -1,0 +1,1627 @@
+[
+ {
+  "wid": 750,
+  "type": "form",
+  "q": "As a young ------- with limited funds, Ms. Alvarez ran her first online store from a spare room in her apartment.",
+  "answer": "entrepreneur",
+  "distractors": [
+   "entrepreneurial",
+   "entrepreneurship",
+   "entrepreneurially"
+  ],
+  "zh": "身為一名資金有限的年輕創業家，Alvarez 女士最初是在自家公寓的空房間裡經營她的第一家網路商店。",
+  "ex": "冠詞 a 和形容詞 young 後面要接可數名詞，而且指的是人，所以用 entrepreneur「創業家」。entrepreneurial 是形容詞、entrepreneurially 是副詞；entrepreneurship 是「創業精神」，是不可數的抽象名詞，不能指人。"
+ },
+ {
+  "wid": 751,
+  "type": "form",
+  "q": "One ------- of the new overtime policy is that part-time staff may end up working fewer hours each week.",
+  "answer": "implication",
+  "distractors": [
+   "imply",
+   "implicit",
+   "implicitly"
+  ],
+  "zh": "新加班政策可能帶來的影響之一，是兼職人員每週的工時可能會變少。",
+  "ex": "One 和 of 之間要放單數名詞當主詞，implication 在這裡是「可能的影響」。imply 是動詞、implicit 是形容詞、implicitly 是副詞。"
+ },
+ {
+  "wid": 752,
+  "type": "vocab",
+  "q": "For many years, the firm's delivery times have served as the ------- against which other shipping companies measure their own performance.",
+  "answer": "benchmark",
+  "distractors": [
+   "backlog",
+   "consignment",
+   "patent"
+  ],
+  "zh": "多年來，這家公司的送貨時效一直是其他貨運公司衡量自身表現的基準。",
+  "ex": "the benchmark against which … measure 是「用來衡量…的基準」，別家公司拿它來比較自己的表現。backlog 是積壓的工作、consignment 是託運的貨物、patent 是專利，都不能當衡量的標準。"
+ },
+ {
+  "wid": 753,
+  "type": "vocab",
+  "q": "Because the new hire's bank details arrived late, she could not be added to the ------- in time for this month's salary payment.",
+  "answer": "payroll",
+  "distractors": [
+   "portfolio",
+   "blueprint",
+   "consignment"
+  ],
+  "zh": "由於這位新進員工的銀行帳戶資料太晚送到，來不及把她加入薪資名單，趕不上這個月的發薪。",
+  "ex": "be added to the payroll 是「被加入薪資名單」，在名單上公司才會發薪水。portfolio 是投資組合或作品集、blueprint 是藍圖、consignment 是託運的貨物，都和發薪無關。"
+ },
+ {
+  "wid": 754,
+  "type": "vocab",
+  "q": "By automating invoice approvals, the finance team removed several manual steps from its ------- and now processes payments in half the time.",
+  "answer": "workflow",
+  "distractors": [
+   "hierarchy",
+   "clientele",
+   "surplus"
+  ],
+  "zh": "財務團隊把發票核准自動化之後，從工作流程中省去了好幾個人工步驟，現在處理付款只需要原來一半的時間。",
+  "ex": "steps「步驟」是 workflow「工作流程」的一部分，remove steps from its workflow 是「從流程中省去步驟」。hierarchy 是階層制度、clientele 是顧客群、surplus 是盈餘。"
+ },
+ {
+  "wid": 755,
+  "type": "form",
+  "q": "With the rate of ------- at its highest level in a decade, many retailers have had to raise their prices twice this year.",
+  "answer": "inflation",
+  "distractors": [
+   "inflate",
+   "inflated",
+   "inflationary"
+  ],
+  "zh": "由於通貨膨脹率來到十年來的最高點，許多零售商今年已經不得不兩度調漲價格。",
+  "ex": "介系詞 of 後面要接名詞，the rate of inflation 是「通貨膨脹率」。inflate 是動詞、inflated 是過去分詞或形容詞、inflationary 是形容詞。"
+ },
+ {
+  "wid": 756,
+  "type": "form",
+  "q": "Small business owners may claim a ------- for the cost of equipment purchased during the tax year.",
+  "answer": "deduction",
+  "distractors": [
+   "deduct",
+   "deducted",
+   "deductive"
+  ],
+  "zh": "小型企業主可以就該課稅年度內購買設備的費用申報扣除額。",
+  "ex": "冠詞 a 後面要接名詞，claim a deduction 是「申報（稅額）扣除」。deduct 是動詞、deducted 是過去分詞、deductive 是形容詞（推論的）。"
+ },
+ {
+  "wid": 757,
+  "type": "vocab",
+  "q": "Each ------- in the open-plan office is equipped with an adjustable desk, two monitors, and a lockable drawer.",
+  "answer": "workstation",
+  "distractors": [
+   "subsidiary",
+   "blueprint",
+   "syndicate"
+  ],
+  "zh": "這間開放式辦公室裡的每個工作站都配有可調式辦公桌、兩台螢幕和一個可上鎖的抽屜。",
+  "ex": "配有辦公桌、螢幕和抽屜的是員工個人的 workstation「工作站」。subsidiary 是子公司、blueprint 是藍圖、syndicate 是聯合組織，都不會配備桌子和螢幕。"
+ },
+ {
+  "wid": 758,
+  "type": "vocab",
+  "q": "Food and beverages purchased elsewhere may not be consumed on the restaurant's -------, according to a notice posted at the entrance.",
+  "answer": "premises",
+  "distractors": [
+   "proceeds",
+   "credentials",
+   "minutes"
+  ],
+  "zh": "根據張貼在入口的公告，在別處購買的食物和飲料不得在餐廳場所內食用。",
+  "ex": "on the premises 是固定用法，意思是「在（店家或公司的）場所內」。proceeds 是收益、credentials 是資格證明、minutes 是會議紀錄。"
+ },
+ {
+  "wid": 759,
+  "type": "vocab",
+  "q": "As ------- of the planning committee, Ms. Okafor is responsible for setting the agenda and keeping each meeting on schedule.",
+  "answer": "chairperson",
+  "distractors": [
+   "contractor",
+   "shareholder",
+   "subordinate"
+  ],
+  "zh": "身為規劃委員會的主席，Okafor 女士負責擬定議程，並讓每場會議按時進行。",
+  "ex": "負責擬定議程、掌控會議進度的人是 chairperson「主席」。contractor 是承包商、shareholder 是股東、subordinate 是下屬，都不是主持委員會的人。"
+ },
+ {
+  "wid": 760,
+  "type": "vocab",
+  "q": "To cut its carbon -------, the delivery company plans to replace its diesel vans with electric vehicles over the next five years.",
+  "answer": "emissions",
+  "distractors": [
+   "provisions",
+   "allegations",
+   "acquisitions"
+  ],
+  "zh": "為了減少碳排放，這家貨運公司計畫在未來五年內把柴油貨車換成電動車。",
+  "ex": "carbon emissions 是「碳排放」，把柴油車換成電動車就是為了減少排放。provisions 是條款、allegations 是指控、acquisitions 是收購。"
+ },
+ {
+  "wid": 761,
+  "type": "vocab",
+  "q": "Shareholders of both airlines approved the -------, which will combine the two carriers into a single company by the end of the year.",
+  "answer": "merger",
+  "distractors": [
+   "audit",
+   "patent",
+   "deficit"
+  ],
+  "zh": "兩家航空公司的股東都通過了這項合併案，兩家業者將在年底前合併成一家公司。",
+  "ex": "後面說「把兩家業者合成一家公司」，所以是 merger「合併」。audit 是審計、patent 是專利、deficit 是赤字，都不會讓兩家公司變成一家。"
+ },
+ {
+  "wid": 762,
+  "type": "vocab",
+  "q": "Guests attending the awards banquet are reminded that business ------- is required and that jeans and sneakers are not permitted.",
+  "answer": "attire",
+  "distractors": [
+   "correspondence",
+   "expertise",
+   "collateral"
+  ],
+  "zh": "提醒參加頒獎晚宴的賓客：必須穿著商務服裝，不得穿牛仔褲和運動鞋。",
+  "ex": "後面提到不能穿牛仔褲和運動鞋，所以是 business attire「商務服裝」。correspondence 是通信、expertise 是專門知識、collateral 是抵押品。"
+ },
+ {
+  "wid": 763,
+  "type": "form",
+  "q": "In ------- of her twenty years of service, Ms. Tanaka was presented with a plaque at the company's anniversary dinner.",
+  "answer": "recognition",
+  "distractors": [
+   "recognize",
+   "recognizable",
+   "recognizably"
+  ],
+  "zh": "為了表彰 Tanaka 女士二十年來的服務，公司在週年晚宴上頒給她一面獎牌。",
+  "ex": "介系詞 In 和 of 之間要放名詞，in recognition of 是「為了表彰／肯定…」。recognize 是動詞、recognizable 是形容詞、recognizably 是副詞。"
+ },
+ {
+  "wid": 764,
+  "type": "vocab",
+  "q": "Low-interest loans are available to small and medium-sized ------- that export at least half of their products.",
+  "answer": "enterprises",
+  "distractors": [
+   "commodities",
+   "incentives",
+   "deficits"
+  ],
+  "zh": "產品有一半以上外銷的中小企業可以申請低利貸款。",
+  "ex": "small and medium-sized enterprises 是固定說法「中小企業」，而且能出口產品的是企業。commodities 是商品、incentives 是激勵措施、deficits 是赤字。"
+ },
+ {
+  "wid": 765,
+  "type": "form",
+  "q": "All written ------- with the supplier, including e-mails and letters, should be saved in the shared project folder.",
+  "answer": "correspondence",
+  "distractors": [
+   "correspond",
+   "corresponding",
+   "correspondingly"
+  ],
+  "zh": "與供應商之間所有的書面往來，包括電子郵件和信件，都應該存放在共用的專案資料夾裡。",
+  "ex": "形容詞 written 後面要接名詞當主詞，written correspondence 是「書面通信」。correspond 是動詞、corresponding 是形容詞（相對應的）、correspondingly 是副詞。"
+ },
+ {
+  "wid": 766,
+  "type": "form",
+  "q": "A licensed ------- was hired to replace the hotel's roof before the rainy season began.",
+  "answer": "contractor",
+  "distractors": [
+   "contractual",
+   "contractually",
+   "contracted"
+  ],
+  "zh": "飯店在雨季開始前請了一家有執照的承包商來更換屋頂。",
+  "ex": "冠詞 A 和形容詞 licensed 後面要接名詞當主詞，contractor 是「承包商」。contractual 是形容詞、contractually 是副詞、contracted 是動詞的過去式或過去分詞。"
+ },
+ {
+  "wid": 767,
+  "type": "vocab",
+  "q": "The software training will be offered in ------- with the regional sales conference so that attendees need to travel only once.",
+  "answer": "conjunction",
+  "distractors": [
+   "jurisdiction",
+   "retention",
+   "accumulation"
+  ],
+  "zh": "這場軟體訓練將配合區域業務大會一起舉辦，讓與會者只需要跑一趟。",
+  "ex": "in conjunction with 是固定片語，意思是「與…一起、配合…」。jurisdiction 是管轄權、retention 是保留或留任、accumulation 是累積，都不能放進 in … with 這個片語。"
+ },
+ {
+  "wid": 768,
+  "type": "vocab",
+  "q": "Prices of basic ------- such as wheat, coffee, and copper rose sharply after the port strike disrupted global shipping.",
+  "answer": "commodities",
+  "distractors": [
+   "prototypes",
+   "incentives",
+   "credentials"
+  ],
+  "zh": "港口罷工打亂全球航運之後，小麥、咖啡和銅等基本商品的價格大幅上漲。",
+  "ex": "小麥、咖啡、銅都是在市場上大量買賣的原物料，也就是 commodities「（大宗）商品」。prototypes 是原型、incentives 是激勵措施、credentials 是資格證明。"
+ },
+ {
+  "wid": 769,
+  "type": "vocab",
+  "q": "Spending exceeded income by nearly two million dollars last year, so the museum must now find ways to close its budget -------.",
+  "answer": "deficit",
+  "distractors": [
+   "surplus",
+   "inflation",
+   "collateral"
+  ],
+  "zh": "去年的支出比收入多了將近兩百萬美元，因此博物館現在必須設法補上預算赤字。",
+  "ex": "支出超過收入就是 deficit「赤字」，close the budget deficit 是「補上預算赤字」。surplus 是盈餘，意思剛好相反；inflation 是通貨膨脹、collateral 是抵押品。"
+ },
+ {
+  "wid": 770,
+  "type": "form",
+  "q": "Before the app can be released, the legal team must confirm that it is in full ------- with the new data privacy rules.",
+  "answer": "compliance",
+  "distractors": [
+   "comply",
+   "compliant",
+   "complied"
+  ],
+  "zh": "在這款應用程式上架之前，法務團隊必須確認它完全符合新的資料隱私規定。",
+  "ex": "形容詞 full 後面要接名詞，in full compliance with 是「完全遵守／符合…」。comply 是動詞、complied 是動詞過去式、compliant 是形容詞。"
+ },
+ {
+  "wid": 771,
+  "type": "form",
+  "q": "Thanks to the new routers, wireless ------- is now much faster throughout the building, even in the basement meeting rooms.",
+  "answer": "connectivity",
+  "distractors": [
+   "connect",
+   "connected",
+   "connective"
+  ],
+  "zh": "多虧了新的路由器，現在整棟大樓的無線連線都快了許多，連地下室的會議室也一樣。",
+  "ex": "空格是句子的主詞，後面接動詞 is，所以要用名詞，wireless connectivity 是「無線連線」。connect 是動詞、connected 是過去分詞或形容詞、connective 是形容詞。"
+ },
+ {
+  "wid": 772,
+  "type": "vocab",
+  "q": "According to the ------- for the new warehouse, the loading dock will be located on the north side of the building.",
+  "answer": "blueprint",
+  "distractors": [
+   "ledger",
+   "payroll",
+   "merger"
+  ],
+  "zh": "根據新倉庫的藍圖，裝卸貨平台將設在建築物的北側。",
+  "ex": "標示建築物各部分位置的設計圖是 blueprint「藍圖」。ledger 是總帳、payroll 是薪資名單、merger 是合併，都不會顯示建築的配置。"
+ },
+ {
+  "wid": 773,
+  "type": "form",
+  "q": "Serious doubts have been raised about the long-term ------- of the company's overseas stores, three of which lost money last year.",
+  "answer": "profitability",
+  "distractors": [
+   "profitable",
+   "profitably",
+   "profited"
+  ],
+  "zh": "這家公司海外門市的長期獲利能力受到嚴重質疑，其中三家去年還出現虧損。",
+  "ex": "形容詞 long-term 和 of 之間要放名詞，profitability 是「獲利能力」。profitable 是形容詞、profitably 是副詞、profited 是動詞過去式。"
+ },
+ {
+  "wid": 774,
+  "type": "form",
+  "q": "In response to your ------- about group discounts, I have attached our price list for parties of twenty or more.",
+  "answer": "inquiry",
+  "distractors": [
+   "inquire",
+   "inquired",
+   "inquisitive"
+  ],
+  "zh": "茲回覆您關於團體折扣的詢問，隨信附上二十人以上團體的價目表。",
+  "ex": "所有格 your 後面要接名詞，in response to your inquiry 是「回覆您的詢問」。inquire 是動詞、inquired 是動詞過去式、inquisitive 是形容詞（好問的）。"
+ },
+ {
+  "wid": 775,
+  "type": "vocab",
+  "q": "Each candidate's academic ------- were verified by contacting the universities listed on the application form.",
+  "answer": "credentials",
+  "distractors": [
+   "proceeds",
+   "emissions",
+   "logistics"
+  ],
+  "zh": "每位應徵者的學歷證明，都已經透過聯絡申請表上所列的大學加以查證。",
+  "ex": "academic credentials 是「學歷／學術資格證明」，向大學查證的就是這個。proceeds 是收益、emissions 是排放、logistics 是物流或後勤。"
+ },
+ {
+  "wid": 776,
+  "type": "vocab",
+  "q": "Having started the company together in 2010, Mr. Sato and Ms. Reyes are listed as its ------- on every official document.",
+  "answer": "cofounders",
+  "distractors": [
+   "contractors",
+   "subordinates",
+   "auditors"
+  ],
+  "zh": "Sato 先生和 Reyes 女士在 2010 年一起創立了這家公司，因此每一份正式文件上都把兩人列為共同創辦人。",
+  "ex": "兩個人「一起創立公司」，所以是 cofounders「共同創辦人」。contractors 是承包商、subordinates 是下屬、auditors 是稽核員。"
+ },
+ {
+  "wid": 777,
+  "type": "vocab",
+  "q": "All staff members are expected to follow the company's ------- of conduct, which explains how to handle gifts from suppliers.",
+  "answer": "code",
+  "distractors": [
+   "ledger",
+   "patent",
+   "surplus"
+  ],
+  "zh": "所有員工都應遵守公司的行為規範，其中說明了該如何處理供應商送的禮物。",
+  "ex": "code of conduct 是固定說法「行為規範／行為準則」。ledger 是總帳、patent 是專利、surplus 是盈餘，都不能接 of conduct。"
+ },
+ {
+  "wid": 778,
+  "type": "vocab",
+  "q": "After three rounds of discussion, the department heads were still unable to arrive at a ------- on how the training budget should be divided.",
+  "answer": "consensus",
+  "distractors": [
+   "discrepancy",
+   "backlog",
+   "prototype"
+  ],
+  "zh": "經過三輪討論，各部門主管仍然無法就訓練預算該如何分配達成共識。",
+  "ex": "arrive at a consensus on 是「就…達成共識」，討論的目的就是取得一致的意見。discrepancy 是不一致、backlog 是積壓的工作、prototype 是原型。"
+ },
+ {
+  "wid": 779,
+  "type": "vocab",
+  "q": "The directors' quarterly meeting will take place in the tenth-floor -------, which seats twenty people around a single long table.",
+  "answer": "boardroom",
+  "distractors": [
+   "workstation",
+   "subsidiary",
+   "infrastructure"
+  ],
+  "zh": "董事們的季度會議將在十樓的董事會會議室舉行，那裡的一張長桌可以坐二十個人。",
+  "ex": "董事開會、能讓二十人圍著長桌坐的地方是 boardroom「董事會會議室」。workstation 是個人的工作站、subsidiary 是子公司、infrastructure 是基礎設施。"
+ },
+ {
+  "wid": 780,
+  "type": "vocab",
+  "q": "Before changing the bus routes, the city invited residents, drivers, shop owners, and other ------- to share their views at a public meeting.",
+  "answer": "stakeholders",
+  "distractors": [
+   "shareholders",
+   "auditors",
+   "contractors"
+  ],
+  "zh": "在調整公車路線之前，市府邀請居民、司機、店家和其他利害關係人在公開會議上表達意見。",
+  "ex": "居民、司機、店家都是會受路線調整影響的人，也就是 stakeholders「利害關係人」。shareholders 是持有公司股票的股東，拼法很像但意思不同；auditors 是稽核員、contractors 是承包商。"
+ },
+ {
+  "wid": 781,
+  "type": "vocab",
+  "q": "By selling a minority stake to private investors, the start-up raised enough ------- to build its first factory.",
+  "answer": "capital",
+  "distractors": [
+   "inflation",
+   "liability",
+   "severance"
+  ],
+  "zh": "這家新創公司把少數股權賣給私人投資者，籌到了足夠的資本來興建第一座工廠。",
+  "ex": "raise capital 是「籌措資本」，賣股權給投資人就是為了籌錢。inflation 是通貨膨脹、liability 是負債或法律責任、severance 是資遣費。"
+ },
+ {
+  "wid": 782,
+  "type": "form",
+  "q": "When the printer supplier failed to respond, Ms. Duarte took the ------- to contact a second vendor herself.",
+  "answer": "initiative",
+  "distractors": [
+   "initiate",
+   "initiated",
+   "initially"
+  ],
+  "zh": "印表機供應商遲遲沒有回覆，Duarte 女士便主動自行聯絡了第二家廠商。",
+  "ex": "冠詞 the 後面要接名詞，take the initiative to 是「主動去做…」。initiate 是動詞、initiated 是動詞過去式、initially 是副詞。"
+ },
+ {
+  "wid": 783,
+  "type": "vocab",
+  "q": "Anyone who missed Tuesday's budget meeting can read the -------, which will be e-mailed to all department heads by Friday.",
+  "answer": "minutes",
+  "distractors": [
+   "proceeds",
+   "premises",
+   "emissions"
+  ],
+  "zh": "沒參加週二預算會議的人可以閱讀會議紀錄，會議紀錄會在週五前以電子郵件寄給所有部門主管。",
+  "ex": "沒參加會議的人要看的是 minutes「會議紀錄」。proceeds 是收益、premises 是場所、emissions 是排放，都不是會後可以閱讀的文件。"
+ },
+ {
+  "wid": 784,
+  "type": "vocab",
+  "q": "After testing the new ordering system in five restaurants, the chain will begin a gradual ------- to its remaining 200 locations in June.",
+  "answer": "rollout",
+  "distractors": [
+   "backlog",
+   "merger",
+   "surplus"
+  ],
+  "zh": "這家連鎖餐廳在五家分店測試新的點餐系統之後，將於六月開始逐步推廣到其餘 200 家分店。",
+  "ex": "先小規模測試、再逐步擴大到其他分店，這個過程叫 rollout「推出、鋪展」。backlog 是積壓的工作、merger 是合併、surplus 是盈餘。"
+ },
+ {
+  "wid": 785,
+  "type": "vocab",
+  "q": "Applicants for the graphic designer position must submit a ------- containing at least ten samples of their recent work.",
+  "answer": "portfolio",
+  "distractors": [
+   "prototype",
+   "ledger",
+   "patent"
+  ],
+  "zh": "應徵平面設計師一職的人必須繳交一份作品集，裡面至少要有十件近期的作品。",
+  "ex": "收錄多件作品樣本、應徵設計工作時要交的是 portfolio「作品集」。prototype 是產品原型、ledger 是總帳、patent 是專利。"
+ },
+ {
+  "wid": 786,
+  "type": "vocab",
+  "q": "Importers may bring in only 5,000 tons of sugar this year, and any shipment exceeding that ------- will be turned back at the port.",
+  "answer": "quota",
+  "distractors": [
+   "deficit",
+   "backlog",
+   "patent"
+  ],
+  "zh": "今年進口商最多只能進口 5,000 公噸的糖，超過這個配額的貨物都會在港口被退回。",
+  "ex": "「最多只能進口 5,000 公噸」這種數量上限就是 quota「配額」。deficit 是赤字、backlog 是積壓的工作、patent 是專利。"
+ },
+ {
+  "wid": 787,
+  "type": "form",
+  "q": "Unable to find any ------- for the sudden increase in travel spending, the finance director asked each department for a full explanation.",
+  "answer": "justification",
+  "distractors": [
+   "justify",
+   "justifiable",
+   "justifiably"
+  ],
+  "zh": "財務長找不到差旅支出突然增加的正當理由，於是要求各部門提出完整的說明。",
+  "ex": "any 後面要接名詞當 find 的受詞，justification for 是「…的正當理由」。justify 是動詞、justifiable 是形容詞、justifiably 是副詞。"
+ },
+ {
+  "wid": 788,
+  "type": "vocab",
+  "q": "Unlike traditional firms with a rigid corporate -------, the start-up encourages junior staff to present ideas directly to the chief executive.",
+  "answer": "hierarchy",
+  "distractors": [
+   "payroll",
+   "portfolio",
+   "surplus"
+  ],
+  "zh": "不同於企業階層制度嚴明的傳統公司，這家新創公司鼓勵基層員工直接向執行長提出想法。",
+  "ex": "傳統公司層級分明，基層不能直接找高層，這種制度是 hierarchy「階層制度」。payroll 是薪資名單、portfolio 是投資組合、surplus 是盈餘。"
+ },
+ {
+  "wid": 789,
+  "type": "vocab",
+  "q": "The accounting firm's reputation rests on the ------- of its staff, who are trained never to alter figures to please a client.",
+  "answer": "integrity",
+  "distractors": [
+   "turnover",
+   "severance",
+   "attire"
+  ],
+  "zh": "這家會計師事務所的聲譽建立在員工的誠信上，他們受過訓練，絕不為了討好客戶而更改數字。",
+  "ex": "「絕不為了討好客戶而改數字」說的就是 integrity「誠信」。turnover 是員工流動率、severance 是資遣費、attire 是服裝。"
+ },
+ {
+  "wid": 790,
+  "type": "vocab",
+  "q": "The workshop aims to correct the widespread ------- that a larger advertising budget always leads to higher sales.",
+  "answer": "misconception",
+  "distractors": [
+   "provision",
+   "discrepancy",
+   "constraint"
+  ],
+  "zh": "這場工作坊的目的，是要導正「廣告預算越多、銷售額就一定越高」這個普遍的錯誤觀念。",
+  "ex": "correct a misconception 是「導正錯誤觀念」，後面的 that 子句說明這個觀念的內容。provision 是條款、discrepancy 是不一致、constraint 是限制。"
+ },
+ {
+  "wid": 791,
+  "type": "vocab",
+  "q": "The resort limits the number of daily visitors to protect the island's fragile -------, which is home to several rare bird species.",
+  "answer": "ecosystem",
+  "distractors": [
+   "infrastructure",
+   "hierarchy",
+   "jurisdiction"
+  ],
+  "zh": "這座度假村限制每日遊客人數，以保護島上脆弱的生態系統，那裡是好幾種稀有鳥類的棲息地。",
+  "ex": "稀有鳥類棲息、需要保護的是 ecosystem「生態系統」。infrastructure 是基礎設施、hierarchy 是階層制度、jurisdiction 是管轄權。"
+ },
+ {
+  "wid": 792,
+  "type": "vocab",
+  "q": "Although the two schools share a name, the language institute has no formal ------- with the university and issues its own certificates.",
+  "answer": "affiliation",
+  "distractors": [
+   "jurisdiction",
+   "liability",
+   "proficiency"
+  ],
+  "zh": "雖然兩所學校名稱相同，但這家語言中心和那所大學並沒有正式的隸屬關係，證書也是自行核發。",
+  "ex": "have no affiliation with 是「與…沒有隸屬關係」。jurisdiction 是管轄權、liability 是法律責任、proficiency 是熟練程度，都不能接 with 表示兩個機構之間的關係。"
+ },
+ {
+  "wid": 793,
+  "type": "vocab",
+  "q": "After unexpectedly strong ticket sales, the festival ended the year with a ------- of $80,000, which will fund next summer's program.",
+  "answer": "surplus",
+  "distractors": [
+   "deficit",
+   "backlog",
+   "consensus"
+  ],
+  "zh": "由於門票賣得出乎意料地好，這個藝術節年終有 8 萬美元的盈餘，這筆錢將用於明年夏天的活動。",
+  "ex": "票賣得好、還有錢可以用在明年，所以是 surplus「盈餘」。deficit 是赤字，意思剛好相反；backlog 是積壓的工作、consensus 是共識。"
+ },
+ {
+  "wid": 794,
+  "type": "vocab",
+  "q": "In her first speech as chief executive, Ms. Navarro outlined her ------- of a company that leads the industry in customer service within ten years.",
+  "answer": "vision",
+  "distractors": [
+   "discretion",
+   "proficiency",
+   "turnover"
+  ],
+  "zh": "Navarro 女士在就任執行長後的第一場演說中，描繪了她的願景：公司要在十年內成為業界顧客服務的領導者。",
+  "ex": "對公司未來樣貌的構想是 vision「願景」，outline her vision of 是「描繪她對…的願景」。discretion 是決定權、proficiency 是熟練程度、turnover 是營業額或員工流動率。"
+ },
+ {
+  "wid": 795,
+  "type": "vocab",
+  "q": "When readers learned that several hotel reviews on the travel website had been written by the hotels themselves, the site lost much of its -------.",
+  "answer": "credibility",
+  "distractors": [
+   "functionality",
+   "connectivity",
+   "accessibility"
+  ],
+  "zh": "讀者得知這個旅遊網站上有好幾篇飯店評論其實是飯店自己寫的之後，網站的可信度大打折扣。",
+  "ex": "評論造假被發現，失去的是 credibility「可信度」。functionality 是功能、connectivity 是連線、accessibility 是可取得性或無障礙性，都不會因為讀者發現假評論而失去。"
+ },
+ {
+  "wid": 796,
+  "type": "form",
+  "q": "Time is the main ------- on the project, since the store must open before the holiday shopping season.",
+  "answer": "constraint",
+  "distractors": [
+   "constrain",
+   "constrained",
+   "constraining"
+  ],
+  "zh": "時間是這項專案最主要的限制，因為店面必須趕在年節購物季之前開幕。",
+  "ex": "冠詞 the 和形容詞 main 後面要接名詞，constraint on 是「對…的限制」。constrain 是動詞、constrained 是過去分詞或形容詞、constraining 是現在分詞。"
+ },
+ {
+  "wid": 797,
+  "type": "vocab",
+  "q": "Ms. Petrov handled the ------- of the three-day conference, arranging airport transfers, hotel rooms, and meals for 400 delegates.",
+  "answer": "logistics",
+  "distractors": [
+   "analytics",
+   "proceeds",
+   "credentials"
+  ],
+  "zh": "Petrov 女士負責這場三天研討會的後勤事宜，為 400 位與會代表安排機場接送、飯店房間和餐點。",
+  "ex": "安排接送、住宿、餐點這類事務就是 logistics「後勤」。analytics 是數據分析、proceeds 是收益、credentials 是資格證明。"
+ },
+ {
+  "wid": 798,
+  "type": "form",
+  "q": "By studying its web -------, the online store learned which pages customers visit before they decide to make a purchase.",
+  "answer": "analytics",
+  "distractors": [
+   "analytical",
+   "analytically",
+   "analyze"
+  ],
+  "zh": "這家網路商店研究了自己的網站分析資料，了解顧客在決定購買之前會瀏覽哪些頁面。",
+  "ex": "所有格 its 後面要接名詞當 studying 的受詞，web analytics 是「網站（流量）分析」。analytical 是形容詞、analytically 是副詞、analyze 是動詞。"
+ },
+ {
+  "wid": 799,
+  "type": "form",
+  "q": "Refunds for items purchased more than thirty days ago are granted only at the ------- of the store manager.",
+  "answer": "discretion",
+  "distractors": [
+   "discreet",
+   "discreetly",
+   "discretionary"
+  ],
+  "zh": "購買超過三十天的商品能不能退款，完全由店經理裁量決定。",
+  "ex": "冠詞 the 和 of 之間要放名詞，at the discretion of 是「由…裁量決定」。discreet 是形容詞（謹慎的）、discreetly 是副詞、discretionary 是形容詞（可自行決定的）。"
+ },
+ {
+  "wid": 800,
+  "type": "vocab",
+  "q": "To give customers an added ------- to pay early, the supplier takes two percent off any invoice settled within ten days.",
+  "answer": "incentive",
+  "distractors": [
+   "constraint",
+   "liability",
+   "allegation"
+  ],
+  "zh": "為了讓客戶更有誘因提早付款，凡是十天內結清的發票，供應商一律折讓百分之二。",
+  "ex": "用折扣鼓勵人提早付款，這種鼓勵就是 incentive「誘因」，an incentive to do 是「做某事的誘因」。constraint 是限制、liability 是負債或法律責任、allegation 是指控。"
+ },
+ {
+  "wid": 801,
+  "type": "form",
+  "q": "Speaking to reporters, the restaurant owner strongly denied the ------- that his kitchen had failed two health inspections last year.",
+  "answer": "allegation",
+  "distractors": [
+   "allege",
+   "alleged",
+   "allegedly"
+  ],
+  "zh": "這位餐廳老闆對記者強烈否認他的廚房去年兩度未通過衛生檢查的指控。",
+  "ex": "冠詞 the 後面要接名詞當 denied 的受詞，the allegation that… 是「…的指控」。allege 是動詞、alleged 是形容詞或過去分詞、allegedly 是副詞。"
+ },
+ {
+  "wid": 802,
+  "type": "form",
+  "q": "The technician explained that the gradual ------- of dust inside the projector had caused it to overheat.",
+  "answer": "accumulation",
+  "distractors": [
+   "accumulate",
+   "accumulated",
+   "accumulative"
+  ],
+  "zh": "技術人員解釋，投影機內部的灰塵逐漸累積，才導致機器過熱。",
+  "ex": "形容詞 gradual 和 of 之間要放名詞，the accumulation of dust 是「灰塵的累積」。accumulate 是動詞、accumulated 是過去分詞、accumulative 是形容詞。"
+ },
+ {
+  "wid": 803,
+  "type": "form",
+  "q": "The ------- of customer records beyond seven years is prohibited under the bank's data policy.",
+  "answer": "retention",
+  "distractors": [
+   "retain",
+   "retained",
+   "retentive"
+  ],
+  "zh": "依照銀行的資料政策，客戶紀錄不得保留超過七年。",
+  "ex": "冠詞 The 和 of 之間要放名詞當主詞，the retention of records 是「紀錄的保留」。retain 是動詞、retained 是過去分詞、retentive 是形容詞。"
+ },
+ {
+  "wid": 804,
+  "type": "vocab",
+  "q": "Extra staff were brought in over the weekend to clear the ------- of unprocessed orders that had built up during the system outage.",
+  "answer": "backlog",
+  "distractors": [
+   "quota",
+   "hierarchy",
+   "recession"
+  ],
+  "zh": "公司週末加派人手，消化系統當機期間累積下來、還沒處理的訂單。",
+  "ex": "clear the backlog of orders 是「消化積壓的訂單」，that had built up 也說明這些是堆積起來的工作。quota 是配額、hierarchy 是階層制度、recession 是經濟衰退。"
+ },
+ {
+  "wid": 805,
+  "type": "vocab",
+  "q": "Although it operates under a different name, the delivery service is a wholly owned ------- of the country's largest supermarket chain.",
+  "answer": "subsidiary",
+  "distractors": [
+   "shareholder",
+   "conglomerate",
+   "cofounder"
+  ],
+  "zh": "這家宅配公司雖然用的是另一個名稱，其實是全國最大連鎖超市百分之百持股的子公司。",
+  "ex": "a wholly owned subsidiary 是固定說法「全資子公司」，也就是完全由母公司持有的公司。shareholder 是股東、conglomerate 是企業集團、cofounder 是共同創辦人。"
+ },
+ {
+  "wid": 806,
+  "type": "vocab",
+  "q": "Located next to the university, the coffee shop has built a loyal ------- of students and professors who stop by between classes.",
+  "answer": "clientele",
+  "distractors": [
+   "portfolio",
+   "payroll",
+   "jurisdiction"
+  ],
+  "zh": "這家咖啡店就在大學旁邊，已經累積了一群忠實的顧客，都是趁課堂之間過來的學生和教授。",
+  "ex": "a loyal clientele 是「忠實的顧客群」，學生和教授就是店裡的常客。portfolio 是投資組合或作品集、payroll 是薪資名單、jurisdiction 是管轄權。"
+ },
+ {
+  "wid": 807,
+  "type": "form",
+  "q": "Through its ------- of a smaller rival last spring, the furniture retailer gained forty additional stores in the southern region.",
+  "answer": "acquisition",
+  "distractors": [
+   "acquire",
+   "acquired",
+   "acquisitive"
+  ],
+  "zh": "這家家具零售商去年春天收購了一家規模較小的競爭對手，因而在南部地區多了四十家門市。",
+  "ex": "所有格 its 和 of 之間要放名詞，acquisition 是「收購」。acquire 是動詞、acquired 是過去分詞、acquisitive 是形容詞。"
+ },
+ {
+  "wid": 808,
+  "type": "vocab",
+  "q": "Profits were so strong this year that the board has decided to raise the annual ------- paid on each share from 40 to 55 cents.",
+  "answer": "dividend",
+  "distractors": [
+   "deficit",
+   "collateral",
+   "severance"
+  ],
+  "zh": "今年獲利非常亮眼，董事會因此決定把每股的年度股息從 40 美分提高到 55 美分。",
+  "ex": "公司按每一股發給股東的錢是 dividend「股息」。deficit 是赤字、collateral 是抵押品、severance 是資遣費，都不是按股份發放的。"
+ },
+ {
+  "wid": 809,
+  "type": "form",
+  "q": "Any change to the original ------- must be approved in writing by both the client and the lead engineer.",
+  "answer": "specification",
+  "distractors": [
+   "specify",
+   "specific",
+   "specifically"
+  ],
+  "zh": "原始規格如果有任何變更，都必須經過客戶和主任工程師雙方的書面同意。",
+  "ex": "形容詞 original 後面要接名詞，specification 是「規格」。specify 是動詞、specific 是形容詞、specifically 是副詞。"
+ },
+ {
+  "wid": 810,
+  "type": "vocab",
+  "q": "While checking the delivery, the warehouse supervisor noticed a ------- between the number of boxes listed on the invoice and the number actually received.",
+  "answer": "discrepancy",
+  "distractors": [
+   "consensus",
+   "merger",
+   "synergy"
+  ],
+  "zh": "倉庫主管在清點貨物時發現，發票上列的箱數和實際收到的箱數不一致。",
+  "ex": "兩個數字對不起來就是 discrepancy「差異、不一致」，用法是 a discrepancy between A and B。consensus 是共識、merger 是合併、synergy 是協同效應，雖然也能接 between，但不能用來說兩個數字。"
+ },
+ {
+  "wid": 811,
+  "type": "vocab",
+  "q": "In exchange for their early investment, the three partners each received a ten percent ------- stake in the restaurant group.",
+  "answer": "equity",
+  "distractors": [
+   "dividend",
+   "liability",
+   "surplus"
+  ],
+  "zh": "三位合夥人因為早期投入資金，各自取得這家餐飲集團百分之十的股權。",
+  "ex": "equity stake 是固定搭配「持股、股權」，投資換來的是公司的股權。dividend 是股息、liability 是負債、surplus 是盈餘，都不能和 stake 搭配。"
+ },
+ {
+  "wid": 812,
+  "type": "vocab",
+  "q": "Before approving the mortgage, the bank arranged an independent ------- of the house to confirm that it was worth the asking price.",
+  "answer": "appraisal",
+  "distractors": [
+   "acquisition",
+   "deduction",
+   "provision"
+  ],
+  "zh": "銀行在核准房貸之前，安排了一次獨立的房屋估價，以確認房子確實值開價的金額。",
+  "ex": "確認房子值多少錢要做 appraisal「估價」。acquisition 是收購、deduction 是扣除、provision 是條款或提供。"
+ },
+ {
+  "wid": 813,
+  "type": "vocab",
+  "q": "All ------- from Saturday's used-book sale will be used to buy new computers for the community library.",
+  "answer": "proceeds",
+  "distractors": [
+   "dividends",
+   "credentials",
+   "premises"
+  ],
+  "zh": "週六二手書拍賣的所有收益，都將用來為社區圖書館添購新電腦。",
+  "ex": "proceeds from a sale 是「（某次活動或銷售的）收益」。dividends 是公司發給股東的股息、credentials 是資格證明、premises 是場所。"
+ },
+ {
+  "wid": 814,
+  "type": "vocab",
+  "q": "During their first week, new hires complete an ------- program that covers company policies, software accounts, and workplace safety.",
+  "answer": "onboarding",
+  "distractors": [
+   "outreach",
+   "incentive",
+   "audit"
+  ],
+  "zh": "新進員工在第一週要完成入職培訓課程，內容包括公司政策、軟體帳號和職場安全。",
+  "ex": "新人第一週學習公司政策和系統帳號的課程是 onboarding program「入職培訓」。outreach 是對外推廣的服務、incentive 是激勵措施、audit 是審計。"
+ },
+ {
+  "wid": 815,
+  "type": "vocab",
+  "q": "Sales of luxury goods fell sharply during the -------, when many households cut back on all but essential spending.",
+  "answer": "recession",
+  "distractors": [
+   "merger",
+   "audit",
+   "rollout"
+  ],
+  "zh": "在經濟衰退期間，許多家庭把非必要的開銷都省了下來，精品的銷售因此大幅下滑。",
+  "ex": "家家戶戶縮減開銷、精品賣不動的時期是 recession「經濟衰退期」。merger 是合併、audit 是審計、rollout 是新產品或服務的推出。"
+ },
+ {
+  "wid": 816,
+  "type": "form",
+  "q": "The lease includes a ------- that allows the tenant to end the agreement early by giving ninety days' notice.",
+  "answer": "provision",
+  "distractors": [
+   "provide",
+   "provisional",
+   "provisionally"
+  ],
+  "zh": "租約中有一項條款，允許承租人只要提前九十天通知，就可以提早終止合約。",
+  "ex": "冠詞 a 後面要接名詞，a provision that… 是「一項…的條款」。provide 是動詞、provisional 是形容詞（暫時的）、provisionally 是副詞。"
+ },
+ {
+  "wid": 817,
+  "type": "vocab",
+  "q": "Since no one on staff had ------- in tax law, the company hired an outside specialist to review the contract.",
+  "answer": "expertise",
+  "distractors": [
+   "liability",
+   "collateral",
+   "turnover"
+  ],
+  "zh": "由於公司內部沒有人具備稅法方面的專業知識，公司便聘請外部專家來審閱合約。",
+  "ex": "have expertise in 是「具備…方面的專業知識」，沒有人懂才需要請專家。liability 是法律責任、collateral 是抵押品、turnover 是營業額或員工流動率。"
+ },
+ {
+  "wid": 818,
+  "type": "vocab",
+  "q": "Following complaints about missing equipment, head office ordered a surprise ------- of the branch's inventory records.",
+  "answer": "audit",
+  "distractors": [
+   "patent",
+   "merger",
+   "surplus"
+  ],
+  "zh": "接到設備遺失的投訴之後，總公司下令突擊稽核該分公司的庫存紀錄。",
+  "ex": "檢查帳目或紀錄是否正確叫 audit「稽核、查帳」，用法是 an audit of records。patent 是專利、merger 是合併、surplus 是盈餘。"
+ },
+ {
+  "wid": 819,
+  "type": "form",
+  "q": "With the latest update, the bank has added new ------- to its mobile app, including fingerprint login and instant balance alerts.",
+  "answer": "functionality",
+  "distractors": [
+   "functional",
+   "functionally",
+   "functioned"
+  ],
+  "zh": "這家銀行在最新一次更新中為行動應用程式增加了新功能，包括指紋登入和即時餘額通知。",
+  "ex": "has added 後面要有名詞當受詞，形容詞 new 修飾名詞 functionality「功能」。functional 是形容詞、functionally 是副詞、functioned 是動詞過去式。"
+ },
+ {
+  "wid": 820,
+  "type": "vocab",
+  "q": "Workers whose positions are eliminated in the restructuring will receive ------- pay equal to one month's salary for each year of service.",
+  "answer": "severance",
+  "distractors": [
+   "turnover",
+   "surplus",
+   "liability"
+  ],
+  "zh": "在組織重整中職位遭到裁撤的員工，將依年資領取資遣費，每服務滿一年可領一個月的薪資。",
+  "ex": "severance pay 是固定搭配「資遣費」，職位被裁撤的人才會領到。turnover 是員工流動率、surplus 是盈餘、liability 是負債，都不能接 pay 來表示這筆錢。"
+ },
+ {
+  "wid": 821,
+  "type": "form",
+  "q": "Since it began selling its products overseas, the company's annual ------- on advertising has doubled.",
+  "answer": "expenditure",
+  "distractors": [
+   "expend",
+   "expended",
+   "expendable"
+  ],
+  "zh": "自從開始在海外銷售產品以來，這家公司每年的廣告支出已經增加了一倍。",
+  "ex": "所有格和形容詞 annual 後面要接名詞當主詞，expenditure on 是「在…上的支出」。expend 是動詞、expended 是過去分詞、expendable 是形容詞（可消耗的）。"
+ },
+ {
+  "wid": 822,
+  "type": "form",
+  "q": "Because of the ------- of supply chains, a delay at a single port can now affect factories on three continents.",
+  "answer": "globalization",
+  "distractors": [
+   "global",
+   "globally",
+   "globalize"
+  ],
+  "zh": "由於供應鏈全球化，現在光是一座港口延誤，就可能影響到三大洲的工廠。",
+  "ex": "冠詞 the 和 of 之間要放名詞，globalization 是「全球化」。global 是形容詞、globally 是副詞、globalize 是動詞。"
+ },
+ {
+  "wid": 823,
+  "type": "vocab",
+  "q": "Exporters find it difficult to move goods to the port because of the region's poor transport -------, which includes narrow roads and a single outdated bridge.",
+  "answer": "infrastructure",
+  "distractors": [
+   "legislation",
+   "hierarchy",
+   "expenditure"
+  ],
+  "zh": "這個地區的交通基礎設施很差，道路狹窄，又只有一座老舊的橋，出口商很難把貨物運到港口。",
+  "ex": "道路、橋樑都屬於 infrastructure「基礎設施」。legislation 是立法、hierarchy 是階層制度、expenditure 是支出，都不包含道路和橋樑。"
+ },
+ {
+  "wid": 824,
+  "type": "vocab",
+  "q": "Mr. Ibarra oversees the ------- of raw materials, negotiating directly with overseas mills to secure steel at the lowest possible cost.",
+  "answer": "procurement",
+  "distractors": [
+   "legislation",
+   "emission",
+   "severance"
+  ],
+  "zh": "Ibarra 先生負責原物料的採購，直接和海外鋼廠議價，以最低的成本取得鋼材。",
+  "ex": "和供應商議價、取得原物料就是 procurement「採購」。legislation 是立法、emission 是排放、severance 是資遣費。"
+ },
+ {
+  "wid": 825,
+  "type": "form",
+  "q": "Several restaurant owners have asked for more time to prepare for the new ------- requiring calorie counts on all printed menus.",
+  "answer": "legislation",
+  "distractors": [
+   "legislate",
+   "legislative",
+   "legislatively"
+  ],
+  "zh": "新法規定所有紙本菜單都必須標示熱量，好幾位餐廳業者要求給予更多時間準備。",
+  "ex": "冠詞 the 和形容詞 new 後面要接名詞，legislation 是「法律、立法」。legislate 是動詞、legislative 是形容詞、legislatively 是副詞。"
+ },
+ {
+  "wid": 826,
+  "type": "vocab",
+  "q": "What began as a single textile mill has grown into a ------- with interests in shipping, insurance, hotels, and food processing.",
+  "answer": "conglomerate",
+  "distractors": [
+   "subsidiary",
+   "commodity",
+   "prototype"
+  ],
+  "zh": "這家公司起初只是一間紡織廠，如今已經成長為橫跨航運、保險、飯店和食品加工的企業集團。",
+  "ex": "旗下經營許多不同產業的大型企業是 conglomerate「企業集團」。subsidiary 是隸屬於母公司的子公司、commodity 是商品、prototype 是原型。"
+ },
+ {
+  "wid": 827,
+  "type": "vocab",
+  "q": "The design team will test a working ------- of the folding bicycle for six months before the final version goes into mass production.",
+  "answer": "prototype",
+  "distractors": [
+   "patent",
+   "benchmark",
+   "consignment"
+  ],
+  "zh": "設計團隊將花六個月測試這款摺疊腳踏車的可運作原型，之後最終版本才會進入量產。",
+  "ex": "量產之前先做出來測試的樣品是 prototype「原型」，a working prototype 是「可以實際運作的原型」。patent 是專利、benchmark 是基準、consignment 是託運的貨物。"
+ },
+ {
+  "wid": 828,
+  "type": "vocab",
+  "q": "The bakery chain's annual ------- passed ten million dollars for the first time, although rising flour costs kept its profits flat.",
+  "answer": "turnover",
+  "distractors": [
+   "inflation",
+   "severance",
+   "collateral"
+  ],
+  "zh": "這家連鎖麵包店的年營業額首度突破一千萬美元，不過麵粉成本上漲，獲利並沒有成長。",
+  "ex": "一年賣出的總金額是 turnover「營業額」；營業額增加但成本也漲，所以獲利持平。inflation 是通貨膨脹、severance 是資遣費、collateral 是抵押品。"
+ },
+ {
+  "wid": 829,
+  "type": "form",
+  "q": "As part of its commitment to environmental -------, the hotel has replaced all plastic bottles with refillable glass containers.",
+  "answer": "sustainability",
+  "distractors": [
+   "sustain",
+   "sustainable",
+   "sustainably"
+  ],
+  "zh": "為了落實對環境永續的承諾，這家飯店已經把所有塑膠瓶換成可重複填充的玻璃容器。",
+  "ex": "commitment to 的 to 是介系詞，形容詞 environmental 後面要接名詞 sustainability「永續性」。sustain 是動詞、sustainable 是形容詞、sustainably 是副詞。"
+ },
+ {
+  "wid": 830,
+  "type": "vocab",
+  "q": "To provide independent ------- of the pension fund, a new committee will review every major investment decision before it is carried out.",
+  "answer": "oversight",
+  "distractors": [
+   "collateral",
+   "severance",
+   "inflation"
+  ],
+  "zh": "為了對退休基金進行獨立監督，新成立的委員會將在每一項重大投資決策執行之前先行審查。",
+  "ex": "審查每一項決策就是在「監督」，provide oversight of 是「對…進行監督」。collateral 是抵押品、severance 是資遣費、inflation 是通貨膨脹。"
+ },
+ {
+  "wid": 831,
+  "type": "form",
+  "q": "Under the revised contract, each employee's annual leave ------- increases by one day for every two years of service.",
+  "answer": "entitlement",
+  "distractors": [
+   "entitle",
+   "entitled",
+   "entitling"
+  ],
+  "zh": "根據修訂後的合約，員工每服務滿兩年，年假的應得天數就增加一天。",
+  "ex": "空格是句子的主詞，後面接動詞 increases，所以要用名詞，leave entitlement 是「應得的休假天數」。entitle 是動詞、entitled 是過去分詞或形容詞、entitling 是現在分詞。"
+ },
+ {
+  "wid": 832,
+  "type": "vocab",
+  "q": "Customs officers held the ------- of ceramic tiles at the port for a week because the shipping documents were incomplete.",
+  "answer": "consignment",
+  "distractors": [
+   "procurement",
+   "jurisdiction",
+   "recession"
+  ],
+  "zh": "由於貨運文件不齊全，海關人員把這批瓷磚扣在港口一個星期。",
+  "ex": "a consignment of tiles 是「一批（託運的）瓷磚」，被扣在港口的是貨物。procurement 是「採購」這件事、jurisdiction 是管轄權、recession 是經濟衰退，都不是可以被扣留的貨物。"
+ },
+ {
+  "wid": 833,
+  "type": "vocab",
+  "q": "After hackers attempted to access customer accounts, the bank hired a ------- specialist to test its network for weaknesses.",
+  "answer": "cybersecurity",
+  "distractors": [
+   "logistics",
+   "procurement",
+   "payroll"
+  ],
+  "zh": "在駭客企圖入侵客戶帳戶之後，銀行聘請了一位資安專家來測試網路有沒有弱點。",
+  "ex": "防範駭客、測試網路弱點是 cybersecurity「資訊安全」專家的工作。logistics 是物流、procurement 是採購、payroll 是薪資，這些領域的專員都不負責防駭。"
+ },
+ {
+  "wid": 834,
+  "type": "vocab",
+  "q": "At the annual general meeting, each ------- is entitled to one vote for every share of company stock that he or she owns.",
+  "answer": "shareholder",
+  "distractors": [
+   "contractor",
+   "auditor",
+   "subordinate"
+  ],
+  "zh": "在年度股東大會上，每位股東持有的每一股公司股票都享有一票表決權。",
+  "ex": "持有公司股票、在股東大會上有表決權的人是 shareholder「股東」。contractor 是承包商、auditor 是稽核員、subordinate 是下屬。"
+ },
+ {
+  "wid": 835,
+  "type": "vocab",
+  "q": "As stated on the sign at the entrance, the parking garage accepts no ------- for items stolen from vehicles.",
+  "answer": "liability",
+  "distractors": [
+   "jurisdiction",
+   "collateral",
+   "entitlement"
+  ],
+  "zh": "如入口處的告示所寫，本停車場對車內物品遭竊不負任何賠償責任。",
+  "ex": "accept no liability for 是「對…不負（法律）責任」，是告示上常見的說法。jurisdiction 是管轄權、collateral 是抵押品、entitlement 是應得的權利。"
+ },
+ {
+  "wid": 836,
+  "type": "vocab",
+  "q": "Every payment the shop receives is recorded in the ------- on the same day so that the monthly accounts are always up to date.",
+  "answer": "ledger",
+  "distractors": [
+   "payroll",
+   "blueprint",
+   "hierarchy"
+  ],
+  "zh": "店裡收到的每一筆款項都會在當天記入總帳，這樣每個月的帳目隨時都是最新的。",
+  "ex": "記錄每一筆收支的帳本是 ledger「總帳」，be recorded in the ledger 是「記入總帳」。payroll 是薪資名單、blueprint 是藍圖、hierarchy 是階層制度。"
+ },
+ {
+  "wid": 837,
+  "type": "vocab",
+  "q": "As an independent -------, Mr. Feld is paid to examine clients' financial records and confirm that their accounts are accurate.",
+  "answer": "auditor",
+  "distractors": [
+   "entrepreneur",
+   "subordinate",
+   "shareholder"
+  ],
+  "zh": "身為獨立稽核員，Feld 先生的工作是受委託檢查客戶的財務紀錄，確認帳目正確無誤。",
+  "ex": "專門檢查財務紀錄、確認帳目正確的人是 auditor「稽核員、審計員」。entrepreneur 是創業家、subordinate 是下屬、shareholder 是股東。"
+ },
+ {
+  "wid": 838,
+  "type": "form",
+  "q": "Employees must submit original receipts within thirty days in order to receive ------- for travel expenses.",
+  "answer": "reimbursement",
+  "distractors": [
+   "reimburse",
+   "reimbursed",
+   "reimbursable"
+  ],
+  "zh": "員工必須在三十天內繳交收據正本，才能辦理差旅費的核銷。",
+  "ex": "動詞 receive 後面要接名詞當受詞，receive reimbursement for 是「獲得…的費用核銷」。reimburse 是動詞、reimbursed 是過去分詞、reimbursable 是形容詞。"
+ },
+ {
+  "wid": 839,
+  "type": "vocab",
+  "q": "Because the goods were damaged while still at sea, it is unclear which country's courts have ------- over the insurance claim.",
+  "answer": "jurisdiction",
+  "distractors": [
+   "liability",
+   "compliance",
+   "proficiency"
+  ],
+  "zh": "由於貨物是在海上運送途中受損的，目前還不清楚這件保險理賠案該由哪一國的法院管轄。",
+  "ex": "have jurisdiction over 是「對…有管轄權」，法院能不能審理要看有沒有管轄權。liability 是法律責任、compliance 是遵守、proficiency 是熟練程度，都不能接 over 表示法院的權限。"
+ },
+ {
+  "wid": 840,
+  "type": "vocab",
+  "q": "Results from the customer survey offered valuable ------- into why so many shoppers leave the website without completing a purchase.",
+  "answer": "insight",
+  "distractors": [
+   "recognition",
+   "discretion",
+   "compliance"
+  ],
+  "zh": "這份顧客調查的結果提供了寶貴的洞見，讓人了解為什麼有這麼多購物者沒有完成購買就離開網站。",
+  "ex": "insight into 是「對…的深入了解」，調查結果能提供的就是洞見。recognition 是認可、discretion 是決定權或慎重、compliance 是遵守，後面都不接 into。"
+ },
+ {
+  "wid": 841,
+  "type": "vocab",
+  "q": "Combining the design studio's creativity with the factory's production capacity produced a ------- that lifted both companies' sales.",
+  "answer": "synergy",
+  "distractors": [
+   "discrepancy",
+   "deficit",
+   "backlog"
+  ],
+  "zh": "設計工作室的創意加上工廠的產能，產生了協同效應，讓兩家公司的銷售額都跟著成長。",
+  "ex": "兩方結合後產生「一加一大於二」的效果就是 synergy「協同效應」。discrepancy 是不一致、deficit 是赤字、backlog 是積壓的工作，都不會帶動銷售成長。"
+ },
+ {
+  "wid": 842,
+  "type": "vocab",
+  "q": "Candidates will be asked to demonstrate their ------- in spreadsheet software by completing a short timed exercise.",
+  "answer": "proficiency",
+  "distractors": [
+   "integrity",
+   "discretion",
+   "affiliation"
+  ],
+  "zh": "應徵者必須完成一項限時的簡短測驗，以展現他們對試算表軟體的熟練程度。",
+  "ex": "proficiency in 是「對…的熟練程度」，用限時測驗來檢驗的就是熟不熟練。integrity 是誠信、discretion 是慎重或決定權、affiliation 是隸屬關係。"
+ },
+ {
+  "wid": 843,
+  "type": "vocab",
+  "q": "A senior ------- from head office will visit the plant next week to announce the company's five-year investment plan.",
+  "answer": "executive",
+  "distractors": [
+   "subordinate",
+   "entrepreneur",
+   "contractor"
+  ],
+  "zh": "總公司的一位高階主管下週將造訪工廠，宣布公司的五年投資計畫。",
+  "ex": "來自總公司、負責宣布公司投資計畫的是 senior executive「高階主管」。subordinate 是下屬、entrepreneur 是創業家、contractor 是外部的承包商。"
+ },
+ {
+  "wid": 844,
+  "type": "vocab",
+  "q": "Average delivery time is the most important ------- the logistics team uses to judge whether its service is improving.",
+  "answer": "metric",
+  "distractors": [
+   "incentive",
+   "provision",
+   "commodity"
+  ],
+  "zh": "平均送達時間是物流團隊用來判斷服務有沒有進步的最重要指標。",
+  "ex": "用來衡量表現好壞的數字是 metric「度量標準、指標」。incentive 是激勵措施、provision 是條款、commodity 是商品，都不是用來評量的數字。"
+ },
+ {
+  "wid": 845,
+  "type": "vocab",
+  "q": "Advertisers value the program because it reaches the 25-to-34 age -------, a group known for spending heavily on travel and dining.",
+  "answer": "demographic",
+  "distractors": [
+   "hierarchy",
+   "jurisdiction",
+   "commodity"
+  ],
+  "zh": "廣告主很看重這個節目，因為它能觸及 25 到 34 歲這個族群，這群人在旅遊和餐飲上的花費向來很高。",
+  "ex": "依年齡劃分出來的一群人是 demographic「（人口統計上的）群體」，後面的 a group 就是在說明它。hierarchy 是階層制度、jurisdiction 是管轄權、commodity 是商品。"
+ },
+ {
+  "wid": 846,
+  "type": "vocab",
+  "q": "Knowing they could lose it if the restaurant failed, the couple still offered their house as ------- for the business loan.",
+  "answer": "collateral",
+  "distractors": [
+   "severance",
+   "inflation",
+   "turnover"
+  ],
+  "zh": "這對夫妻明知餐廳萬一倒閉，房子可能就沒了，還是拿自己的房子作為這筆企業貸款的抵押品。",
+  "ex": "借錢時拿來擔保、還不出錢就會被收走的東西是 collateral「抵押品」。severance 是資遣費、inflation 是通貨膨脹、turnover 是營業額。"
+ },
+ {
+  "wid": 847,
+  "type": "vocab",
+  "q": "Rather than making every decision herself, the regional director delegates routine approvals to the ------- who report directly to her.",
+  "answer": "subordinates",
+  "distractors": [
+   "shareholders",
+   "entrepreneurs",
+   "cofounders"
+  ],
+  "zh": "這位區域總監不會事事親自決定，而是把例行的核准工作交給直接向她報告的下屬。",
+  "ex": "直接向主管報告、接受主管交辦工作的人是 subordinates「下屬」。shareholders 是股東、entrepreneurs 是創業家、cofounders 是共同創辦人。"
+ },
+ {
+  "wid": 848,
+  "type": "vocab",
+  "q": "Employees of the bank visit local schools as part of its community ------- program, teaching students the basics of saving and budgeting.",
+  "answer": "outreach",
+  "distractors": [
+   "severance",
+   "payroll",
+   "procurement"
+  ],
+  "zh": "這家銀行的員工會到當地學校參與社區外展計畫，教學生儲蓄和編列預算的基本觀念。",
+  "ex": "主動走進社區提供服務的活動叫 community outreach「社區外展服務」。severance 是資遣費、payroll 是薪資名單、procurement 是採購。"
+ },
+ {
+  "wid": 849,
+  "type": "vocab",
+  "q": "Any proposal to open an overseas branch must first be approved by the ------- of directors at one of its monthly meetings.",
+  "answer": "board",
+  "distractors": [
+   "quota",
+   "ledger",
+   "merger"
+  ],
+  "zh": "任何設立海外分公司的提案，都必須先在董事會的每月例會上獲得通過。",
+  "ex": "board of directors 是固定說法「董事會」。quota 是配額、ledger 是總帳、merger 是合併，都不能接 of directors。"
+ },
+ {
+  "wid": 850,
+  "type": "vocab",
+  "q": "During the busiest hour of the holiday weekend, the reservation system -------, leaving front-desk staff unable to check guests in.",
+  "answer": "crashed",
+  "distractors": [
+   "escalated",
+   "convened",
+   "complied"
+  ],
+  "zh": "訂房系統在連假週末最忙的時段當機，櫃檯人員因此無法為房客辦理入住。",
+  "ex": "系統突然停止運作叫 crash「當機」，這裡用過去式 crashed。escalated 是升高或惡化、convened 是召開會議、complied 是遵守，主詞是 system 時意思都不通。"
+ },
+ {
+  "wid": 851,
+  "type": "vocab",
+  "q": "The magazine will ------- publication of its print edition in December and continue as an online-only title.",
+  "answer": "cease",
+  "distractors": [
+   "commence",
+   "expedite",
+   "endorse"
+  ],
+  "zh": "這本雜誌將在十二月停止發行紙本版，之後只以網路版的形式繼續經營。",
+  "ex": "之後「只剩網路版」，表示紙本要停掉，cease publication 是「停止發行」。commence 是開始、expedite 是加速、endorse 是支持或背書，都和後半句矛盾。"
+ },
+ {
+  "wid": 852,
+  "type": "vocab",
+  "q": "To prevent competitors from legally copying the design, the inventor applied for a ------- on her foldable shipping container.",
+  "answer": "patent",
+  "distractors": [
+   "prototype",
+   "merger",
+   "ledger"
+  ],
+  "zh": "為了不讓競爭對手合法抄襲這項設計，這位發明人為她的可摺疊貨櫃申請了專利。",
+  "ex": "讓別人不能合法抄襲設計的是 patent「專利」，apply for a patent on 是「為…申請專利」。prototype 是原型、merger 是合併、ledger 是總帳。"
+ },
+ {
+  "wid": 853,
+  "type": "form",
+  "q": "The two job offers are similar in salary, but in every other ------- the position in Osaka is clearly more attractive.",
+  "answer": "respect",
+  "distractors": [
+   "respectful",
+   "respectfully",
+   "respectable"
+  ],
+  "zh": "這兩份工作的薪水差不多，但在其他每一個方面，大阪的職位顯然都更有吸引力。",
+  "ex": "every other 後面要接單數名詞，in every other respect 是「在其他每一方面」。respectful 是形容詞（恭敬的）、respectfully 是副詞、respectable 是形容詞（體面的）。"
+ },
+ {
+  "wid": 854,
+  "type": "vocab",
+  "q": "Delivering the equipment three weeks late was a clear ------- of the agreement, so the buyer was entitled to cancel the order.",
+  "answer": "breach",
+  "distractors": [
+   "provision",
+   "patent",
+   "surplus"
+  ],
+  "zh": "設備晚了三個星期才交貨，明顯違反了協議，因此買方有權取消訂單。",
+  "ex": "沒有照協議準時交貨就是 a breach of the agreement「違反協議」。provision 是協議裡的條款、patent 是專利、surplus 是盈餘。"
+ },
+ {
+  "wid": 855,
+  "type": "vocab",
+  "q": "No single bank was willing to finance the stadium alone, so a ------- of six lenders was formed to share the risk.",
+  "answer": "syndicate",
+  "distractors": [
+   "subsidiary",
+   "hierarchy",
+   "commodity"
+  ],
+  "zh": "沒有一家銀行願意單獨為這座體育場提供融資，因此由六家貸款機構組成聯合組織來共同分擔風險。",
+  "ex": "幾家機構為了共同出資、分擔風險而組成的團體是 syndicate「聯合組織」，銀行聯貸就是這樣。subsidiary 是子公司、hierarchy 是階層制度、commodity 是商品。"
+ },
+ {
+  "wid": 856,
+  "type": "form",
+  "q": "Under the new policy, team leaders will be held ------- for any safety violations that occur during their shifts.",
+  "answer": "accountable",
+  "distractors": [
+   "account",
+   "accountability",
+   "accountably"
+  ],
+  "zh": "依照新政策，小組長值班期間如果發生任何違反安全規定的情形，都要由他們負責。",
+  "ex": "be held 後面接形容詞當補語，be held accountable for 是「要為…負責」。account 是名詞或動詞、accountability 是名詞、accountably 是副詞。"
+ },
+ {
+  "wid": 857,
+  "type": "form",
+  "q": "Ms. Castellano is regarded as one of the most ------- figures in the hotel industry, and her opinions often shape company policies.",
+  "answer": "influential",
+  "distractors": [
+   "influence",
+   "influentially",
+   "influencer"
+  ],
+  "zh": "Castellano 女士被視為飯店業最有影響力的人物之一，她的意見常常左右各家公司的政策。",
+  "ex": "the most 和名詞 figures 之間要放形容詞，influential 是「有影響力的」。influence 是名詞或動詞、influentially 是副詞、influencer 是名詞（有影響力的人）。"
+ },
+ {
+  "wid": 858,
+  "type": "vocab",
+  "q": "Engineers concluded that it was not technically ------- to add a third floor because the existing foundation could not bear the extra weight.",
+  "answer": "feasible",
+  "distractors": [
+   "dormant",
+   "intermittent",
+   "prestigious"
+  ],
+  "zh": "工程師的結論是，加蓋第三層樓在技術上不可行，因為現有的地基承受不了額外的重量。",
+  "ex": "地基撐不住，所以加蓋「做不到」，technically feasible 是「技術上可行」。dormant 是休眠的、intermittent 是斷斷續續的、prestigious 是有聲望的。"
+ },
+ {
+  "wid": 859,
+  "type": "vocab",
+  "q": "Although the supplier's claim that the truck had broken down sounded -------, the manager still asked to see the repair invoice.",
+  "answer": "plausible",
+  "distractors": [
+   "prevalent",
+   "contractual",
+   "intermittent"
+  ],
+  "zh": "雖然供應商說卡車拋錨的說法聽起來合情合理，經理還是要求看維修發票。",
+  "ex": "說法「聽起來合理」但還是要查證，用 plausible「看似合理的」。prevalent 是普遍的、contractual 是合約的、intermittent 是斷斷續續的，都不能形容一個說法可不可信。"
+ },
+ {
+  "wid": 860,
+  "type": "form",
+  "q": "Customers have praised the airline for its ------- handling of refund requests after last month's cancellations.",
+  "answer": "prompt",
+  "distractors": [
+   "promptly",
+   "promptness",
+   "prompting"
+  ],
+  "zh": "上個月航班取消之後，這家航空公司迅速處理退款申請，獲得了顧客的好評。",
+  "ex": "所有格 its 和名詞 handling 之間要放形容詞，prompt handling 是「迅速的處理」。promptly 是副詞、promptness 是名詞、prompting 是動詞的現在分詞。"
+ },
+ {
+  "wid": 861,
+  "type": "form",
+  "q": "Switching to a new accounting system will require a ------- amount of time and training, so the change is planned for the quiet season.",
+  "answer": "considerable",
+  "distractors": [
+   "consider",
+   "consideration",
+   "considerably"
+  ],
+  "zh": "改用新的會計系統需要相當多的時間和訓練，所以這項變更安排在淡季進行。",
+  "ex": "冠詞 a 和名詞 amount 之間要放形容詞，a considerable amount of 是「相當大量的」。consider 是動詞、consideration 是名詞、considerably 是副詞。"
+ },
+ {
+  "wid": 862,
+  "type": "vocab",
+  "q": "A recent survey found that ------- professionals such as accountants and lawyers are now more likely than factory workers to work from home.",
+  "answer": "white-collar",
+  "distractors": [
+   "blue-collar",
+   "state-of-the-art",
+   "pharmaceutical"
+  ],
+  "zh": "最近一項調查發現，會計師、律師這類白領專業人士現在比工廠作業員更有可能在家工作。",
+  "ex": "會計師和律師是坐辦公室的 white-collar「白領」工作者，和 factory workers 相對。blue-collar 是藍領的（從事勞力工作）、state-of-the-art 是最先進的、pharmaceutical 是製藥的。"
+ },
+ {
+  "wid": 863,
+  "type": "vocab",
+  "q": "These sales figures are only -------; the final numbers will be released once all regional offices have submitted their reports.",
+  "answer": "preliminary",
+  "distractors": [
+   "managerial",
+   "dormant",
+   "complementary"
+  ],
+  "zh": "這些銷售數字只是初步的，等所有區域辦公室都交出報告之後，才會公布最終數字。",
+  "ex": "後面說「最終數字之後才公布」，所以現在的數字是 preliminary「初步的」。managerial 是管理的、dormant 是休眠的、complementary 是互補的。"
+ },
+ {
+  "wid": 864,
+  "type": "vocab",
+  "q": "The hotel's quiet garden rooms are far more ------- to a good night's sleep than those facing the main road.",
+  "answer": "conducive",
+  "distractors": [
+   "accountable",
+   "prevalent",
+   "feasible"
+  ],
+  "zh": "這家飯店安靜的花園客房，遠比面向大馬路的房間更有助於一夜好眠。",
+  "ex": "be conducive to 是「有助於…」，安靜的房間有助於睡眠。accountable 是應負責的、prevalent 是普遍的、feasible 是可行的，都不能這樣接 to。"
+ },
+ {
+  "wid": 865,
+  "type": "vocab",
+  "q": "With fuel costs rising every month and no cheaper supplier available, an increase in ticket prices now seems -------.",
+  "answer": "inevitable",
+  "distractors": [
+   "renowned",
+   "ergonomic",
+   "respective"
+  ],
+  "zh": "燃料成本每個月都在上漲，又找不到更便宜的供應商，看來票價調漲已經不可避免。",
+  "ex": "成本一直漲又沒有別的辦法，漲價就是 inevitable「不可避免的」。renowned 是有名的、ergonomic 是符合人體工學的、respective 是各自的。"
+ },
+ {
+  "wid": 866,
+  "type": "vocab",
+  "q": "Without at least 200 regular subscribers, the weekly meal-delivery service will not be commercially ------- and will have to close.",
+  "answer": "viable",
+  "distractors": [
+   "exempt",
+   "intermittent",
+   "accountable"
+  ],
+  "zh": "如果沒有至少 200 位固定訂戶，這項每週送餐服務在商業上就無法維持下去，只能結束營業。",
+  "ex": "commercially viable 是「在商業上可行、能經營下去的」，訂戶不夠就撐不下去。exempt 是豁免的、intermittent 是斷斷續續的、accountable 是應負責的。"
+ },
+ {
+  "wid": 867,
+  "type": "form",
+  "q": "With demand still weak, the factory will continue operating on a single shift for the ------- future.",
+  "answer": "foreseeable",
+  "distractors": [
+   "foresee",
+   "foresight",
+   "foreseeably"
+  ],
+  "zh": "由於需求依然疲弱，在可預見的未來，工廠都將維持單班制運作。",
+  "ex": "冠詞 the 和名詞 future 之間要放形容詞，for the foreseeable future 是「在可預見的未來」。foresee 是動詞、foresight 是名詞（先見之明）、foreseeably 是副詞。"
+ },
+ {
+  "wid": 868,
+  "type": "form",
+  "q": "Winners of the design and engineering awards were each asked to say a few words about their ------- projects.",
+  "answer": "respective",
+  "distractors": [
+   "respect",
+   "respectively",
+   "respectfully"
+  ],
+  "zh": "設計獎和工程獎的得主都受邀針對各自的專案簡單說幾句話。",
+  "ex": "所有格 their 和名詞 projects 之間要放形容詞，respective 是「各自的」。respect 是名詞或動詞、respectively 是副詞（分別地）、respectfully 是副詞（恭敬地）。"
+ },
+ {
+  "wid": 869,
+  "type": "vocab",
+  "q": "Every summer, visitors from all over the country travel to the seaside town, which is ------- for its seafood restaurants.",
+  "answer": "renowned",
+  "distractors": [
+   "conducive",
+   "prevalent",
+   "deficient"
+  ],
+  "zh": "每年夏天，全國各地的遊客都會前往這座以海鮮餐廳聞名的海濱小鎮。",
+  "ex": "be renowned for 是「以…聞名」，能吸引全國遊客表示很有名。conducive 是有助於…的、prevalent 是普遍的、deficient 是缺乏的。"
+ },
+ {
+  "wid": 870,
+  "type": "form",
+  "q": "Regular customers who join the loyalty program can expect a ------- discount on orders of more than fifty units.",
+  "answer": "substantial",
+  "distractors": [
+   "substance",
+   "substantially",
+   "substantiate"
+  ],
+  "zh": "加入會員方案的老顧客，訂購超過五十件時可以享有相當可觀的折扣。",
+  "ex": "冠詞 a 和名詞 discount 之間要放形容詞，a substantial discount 是「可觀的折扣」。substance 是名詞、substantially 是副詞、substantiate 是動詞（證實）。"
+ },
+ {
+  "wid": 871,
+  "type": "vocab",
+  "q": "Rather than taking ------- action such as closing stores, the retailer chose to reduce costs gradually by renegotiating its leases.",
+  "answer": "drastic",
+  "distractors": [
+   "dormant",
+   "ergonomic",
+   "renowned"
+  ],
+  "zh": "這家零售商沒有採取關閉門市這類激烈的手段，而是選擇重新協商租約，逐步降低成本。",
+  "ex": "關閉門市是很大、很激烈的做法，和後面的 gradually 相對，所以用 drastic「激烈的、大幅度的」。dormant 是休眠的、ergonomic 是符合人體工學的、renowned 是有名的。"
+ },
+ {
+  "wid": 872,
+  "type": "form",
+  "q": "The addition of ramps and wider doorways has greatly improved the ------- of the museum for visitors with strollers or heavy luggage.",
+  "answer": "accessibility",
+  "distractors": [
+   "accessible",
+   "accessibly",
+   "accessed"
+  ],
+  "zh": "增設斜坡道並加寬出入口之後，對推嬰兒車或攜帶大件行李的訪客來說，博物館的無障礙性大幅改善。",
+  "ex": "冠詞 the 和 of 之間要放名詞，accessibility 是「無障礙性、容易進出的程度」。accessible 是形容詞、accessibly 是副詞、accessed 是動詞過去式。"
+ },
+ {
+  "wid": 873,
+  "type": "vocab",
+  "q": "Because their skills are -------, with one partner strong in design and the other in finance, the two cofounders rarely disagree about who should handle a task.",
+  "answer": "complementary",
+  "distractors": [
+   "complimentary",
+   "intermittent",
+   "provisional"
+  ],
+  "zh": "這兩位共同創辦人的專長互補，一位擅長設計，另一位擅長財務，所以很少為了誰該負責哪件事而意見不合。",
+  "ex": "一個強在設計、一個強在財務，剛好互相補足，所以是 complementary「互補的」。complimentary 拼法很像，但意思是「免費贈送的；讚美的」；intermittent 是斷斷續續的、provisional 是暫時的。"
+ },
+ {
+  "wid": 874,
+  "type": "form",
+  "q": "Paying by mobile phone has become increasingly ------- among younger shoppers, many of whom no longer carry cash.",
+  "answer": "prevalent",
+  "distractors": [
+   "prevail",
+   "prevalence",
+   "prevalently"
+  ],
+  "zh": "用手機付款在年輕購物者之間越來越普遍，其中許多人已經不帶現金了。",
+  "ex": "become 後面接形容詞當補語，副詞 increasingly 修飾形容詞 prevalent「普遍的」。prevail 是動詞、prevalence 是名詞、prevalently 是副詞。"
+ }
+]

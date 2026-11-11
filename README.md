@@ -37,6 +37,8 @@ sw.js             離線快取；每次更新網站記得把裡面的 VERSION �
 manifest.webmanifest, icons/   加到手機主畫面用
 ```
 
+`tools/` 不是網站的一部分：裡面是題庫與小字典的原始檔、建置和測試腳本，以及開發交接文件 [`tools/HANDOFF.md`](tools/HANDOFF.md)。
+
 ## Firebase 設定（只需做一次）
 
 1. Firebase Console → 專案 → **Authentication → Sign-in method** → 啟用 Google

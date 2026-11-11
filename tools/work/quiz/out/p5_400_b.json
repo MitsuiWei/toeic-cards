@@ -1,0 +1,1627 @@
+[
+ {
+  "wid": 125,
+  "type": "vocab",
+  "q": "You need a password to use the hotel's Wi-Fi ------- in your room.",
+  "answer": "network",
+  "distractors": [
+   "receipt",
+   "passenger",
+   "beverage"
+  ],
+  "zh": "您需要密碼才能在房間裡使用飯店的 Wi-Fi 網路。",
+  "ex": "Wi-Fi network 是「無線網路」，要有密碼才能連上。receipt 是收據、passenger 是乘客、beverage 是飲料，都不能和 Wi-Fi 搭配。"
+ },
+ {
+  "wid": 126,
+  "type": "vocab",
+  "q": "In a ------- of 500 hotel guests, most people said the breakfast was great.",
+  "answer": "survey",
+  "distractors": [
+   "wage",
+   "fuel",
+   "currency"
+  ],
+  "zh": "在一項針對 500 位飯店房客的調查中，大多數人都說早餐很棒。",
+  "ex": "a survey of 500 guests 是「對 500 位房客做的調查」，後面接的是大家的回答。wage 是工資、fuel 是燃料、currency 是貨幣，意思都不通。"
+ },
+ {
+  "wid": 127,
+  "type": "vocab",
+  "q": "We have rooms in every price -------, from 50 to 300 dollars a night.",
+  "answer": "range",
+  "distractors": [
+   "lobby",
+   "flight",
+   "author"
+  ],
+  "zh": "我們有各種價位的房間，每晚從 50 美元到 300 美元都有。",
+  "ex": "price range 是「價格範圍、價位」，後面的 from 50 to 300 dollars 就是在說這個範圍。lobby 是大廳、flight 是班機、author 是作者。"
+ },
+ {
+  "wid": 128,
+  "type": "vocab",
+  "q": "The company is doing an ------- to see if a four-day work week makes staff happier.",
+  "answer": "experiment",
+  "distractors": [
+   "employee",
+   "emergency",
+   "area"
+  ],
+  "zh": "公司正在做一項實驗，看看一週工作四天會不會讓員工更快樂。",
+  "ex": "do an experiment to see if… 是「做實驗看看是否…」。employee 是員工、emergency 是緊急情況、area 是地區，都不能說 do an …。"
+ },
+ {
+  "wid": 129,
+  "type": "vocab",
+  "q": "At only ten dollars, this warm winter coat is a real -------.",
+  "answer": "bargain",
+  "distractors": [
+   "passenger",
+   "clinic",
+   "route"
+  ],
+  "zh": "只要十美元，這件保暖的冬季外套真的很划算。",
+  "ex": "a real bargain 是「真的很划算的東西」，因為前面說只要十美元。passenger 是乘客、clinic 是診所、route 是路線。"
+ },
+ {
+  "wid": 130,
+  "type": "vocab",
+  "q": "Mr. Park wrote a ------- of the email and asked his manager to check it.",
+  "answer": "draft",
+  "distractors": [
+   "fare",
+   "brand",
+   "vehicle"
+  ],
+  "zh": "朴先生寫了一份電子郵件的草稿，並請主管幫忙檢查。",
+  "ex": "a draft of the email 是「電子郵件的草稿」，所以才要請主管先檢查。fare 是車資、brand 是品牌、vehicle 是車輛。"
+ },
+ {
+  "wid": 131,
+  "type": "vocab",
+  "q": "The team did a lot of ------- on the market before opening the new store.",
+  "answer": "research",
+  "distractors": [
+   "pollution",
+   "fuel",
+   "accommodation"
+  ],
+  "zh": "團隊在新店開幕前對市場做了很多研究。",
+  "ex": "do research on… 是「對…做研究」，開店前要先研究市場。pollution 是污染、fuel 是燃料、accommodation 是住宿。"
+ },
+ {
+  "wid": 132,
+  "type": "vocab",
+  "q": "The city will ------- the price of parking from 8 to 10 dollars a day.",
+  "answer": "raise",
+  "distractors": [
+   "attach",
+   "invite",
+   "hire"
+  ],
+  "zh": "市政府將把停車費從每天 8 美元調漲到 10 美元。",
+  "ex": "raise the price 是「提高價格」，從 8 美元變成 10 美元。attach 是附上、invite 是邀請、hire 是雇用。"
+ },
+ {
+  "wid": 133,
+  "type": "vocab",
+  "q": "Ms. Lee is leading a ------- to build a new website for the bank.",
+  "answer": "project",
+  "distractors": [
+   "pharmacy",
+   "fare",
+   "beverage"
+  ],
+  "zh": "李小姐正在帶領一個為銀行建立新網站的專案。",
+  "ex": "lead a project 是「帶領一個專案」，後面說明專案的內容是建立新網站。pharmacy 是藥局、fare 是車資、beverage 是飲料。"
+ },
+ {
+  "wid": 134,
+  "type": "form",
+  "q": "This beach is -------, so only hotel guests can use it.",
+  "answer": "private",
+  "distractors": [
+   "privacy",
+   "privately",
+   "privatize"
+  ],
+  "zh": "這片海灘是私人的，所以只有飯店房客可以使用。",
+  "ex": "be 動詞後面接形容詞 private「私人的」來說明海灘。privacy 是名詞（隱私）、privately 是副詞、privatize 是動詞（使民營化）。"
+ },
+ {
+  "wid": 135,
+  "type": "form",
+  "q": "Do not share your ------- information with people you do not know.",
+  "answer": "personal",
+  "distractors": [
+   "person",
+   "personally",
+   "personalize"
+  ],
+  "zh": "不要把你的個人資料告訴不認識的人。",
+  "ex": "名詞 information 前面要用形容詞，personal information 是「個人資料」。person 是名詞（人）、personally 是副詞、personalize 是動詞（使個人化）。"
+ },
+ {
+  "wid": 136,
+  "type": "vocab",
+  "q": "Rain is very ------- in this area in June, so bring an umbrella.",
+  "answer": "common",
+  "distractors": [
+   "portable",
+   "private",
+   "legal"
+  ],
+  "zh": "這個地區六月很常下雨，所以請帶把傘。",
+  "ex": "common 是「常見的、普遍的」，雨很常見所以要帶傘。portable 是便於攜帶的、private 是私人的、legal 是合法的，都不能用來形容雨。"
+ },
+ {
+  "wid": 137,
+  "type": "form",
+  "q": "Mr. Tan is a ------- customer who comes to our coffee shop every morning.",
+  "answer": "regular",
+  "distractors": [
+   "regularly",
+   "regularity",
+   "regulate"
+  ],
+  "zh": "譚先生是每天早上都來我們咖啡店的常客。",
+  "ex": "冠詞 a 和名詞 customer 中間要放形容詞，regular customer 是「常客」。regularly 是副詞、regularity 是名詞（規律性）、regulate 是動詞（管理）。"
+ },
+ {
+  "wid": 138,
+  "type": "vocab",
+  "q": "This fast train stops only at ------- cities, not at small towns.",
+  "answer": "major",
+  "distractors": [
+   "annual",
+   "spare",
+   "aware"
+  ],
+  "zh": "這班快車只停靠主要城市，不停小鎮。",
+  "ex": "major cities 是「主要城市、大城市」，和後面的 small towns 相對。annual 是每年的、spare 是多餘的、aware 是知道的。"
+ },
+ {
+  "wid": 139,
+  "type": "vocab",
+  "q": "Tickets for the concert are ------- online or at the front desk.",
+  "answer": "available",
+  "distractors": [
+   "aware",
+   "capable",
+   "optimistic"
+  ],
+  "zh": "音樂會的門票可以在網路上或櫃檯買到。",
+  "ex": "available 是「可取得的、買得到的」，門票在網路或櫃檯都買得到。aware 是知道的、capable 是有能力的、optimistic 是樂觀的，都是用來形容人。"
+ },
+ {
+  "wid": 140,
+  "type": "form",
+  "q": "Not all the comments were -------; many guests said they loved the food.",
+  "answer": "negative",
+  "distractors": [
+   "negatively",
+   "negativity",
+   "negate"
+  ],
+  "zh": "並不是所有的評語都是負面的，很多客人說他們很喜歡那裡的食物。",
+  "ex": "be 動詞 were 後面要接形容詞 negative「負面的」。negatively 是副詞、negativity 是名詞（消極）、negate 是動詞（否定）。"
+ },
+ {
+  "wid": 141,
+  "type": "vocab",
+  "q": "This is only a ------- office; we will move to the new building in May.",
+  "answer": "temporary",
+  "distractors": [
+   "harmful",
+   "capable",
+   "frequent"
+  ],
+  "zh": "這只是臨時的辦公室，我們五月會搬到新大樓。",
+  "ex": "temporary 是「暫時的、臨時的」，因為五月就要搬走了。harmful 是有害的、capable 是有能力的、frequent 是頻繁的。"
+ },
+ {
+  "wid": 142,
+  "type": "vocab",
+  "q": "The ------- reason we chose this office is that it is close to the station.",
+  "answer": "primary",
+  "distractors": [
+   "portable",
+   "optimistic",
+   "spare"
+  ],
+  "zh": "我們選擇這間辦公室的主要原因是它離車站很近。",
+  "ex": "primary reason 是「主要原因」。portable 是便於攜帶的、optimistic 是樂觀的、spare 是多餘的，都不能用來修飾 reason。"
+ },
+ {
+  "wid": 143,
+  "type": "vocab",
+  "q": "On a ------- day, about 300 people visit the museum.",
+  "answer": "typical",
+  "distractors": [
+   "legal",
+   "harmful",
+   "portable"
+  ],
+  "zh": "在平常的日子裡，一天大約有 300 人參觀這間博物館。",
+  "ex": "on a typical day 是「在典型的、平常的一天」。legal 是合法的、harmful 是有害的、portable 是便於攜帶的，都不能用來形容 day。"
+ },
+ {
+  "wid": 144,
+  "type": "vocab",
+  "q": "For a ------- time only, all shoes in the store are 20 percent off.",
+  "answer": "limited",
+  "distractors": [
+   "capable",
+   "harmful",
+   "detailed"
+  ],
+  "zh": "限時優惠，店裡所有鞋子都打八折。",
+  "ex": "for a limited time only 是「限時」，常出現在特價廣告裡。capable 是有能力的、harmful 是有害的、detailed 是詳細的。"
+ },
+ {
+  "wid": 145,
+  "type": "vocab",
+  "q": "Moving heavy boxes all day is hard ------- work.",
+  "answer": "physical",
+  "distractors": [
+   "annual",
+   "optimistic",
+   "spare"
+  ],
+  "zh": "整天搬重箱子是很辛苦的體力工作。",
+  "ex": "physical work 是「體力工作」，搬重箱子要用到身體的力氣。annual 是每年的、optimistic 是樂觀的、spare 是多餘的。"
+ },
+ {
+  "wid": 146,
+  "type": "vocab",
+  "q": "The gym's ------- fee is 300 dollars, or you can pay 30 dollars a month.",
+  "answer": "annual",
+  "distractors": [
+   "aware",
+   "capable",
+   "obvious"
+  ],
+  "zh": "健身房的年費是 300 美元，或者您也可以每個月付 30 美元。",
+  "ex": "annual fee 是「年費」，和後面的每月付款相對。aware 是知道的、capable 是有能力的、obvious 是明顯的。"
+ },
+ {
+  "wid": 147,
+  "type": "form",
+  "q": "The trains to the airport are very -------, about one every five minutes.",
+  "answer": "frequent",
+  "distractors": [
+   "frequently",
+   "frequency",
+   "frequents"
+  ],
+  "zh": "往機場的列車班次很密集，大約每五分鐘一班。",
+  "ex": "be 動詞加 very 後面要接形容詞 frequent「頻繁的」。frequently 是副詞、frequency 是名詞（頻率）、frequents 是動詞（常去）。"
+ },
+ {
+  "wid": 148,
+  "type": "form",
+  "q": "The shop sells ------- kinds of tea from around the world.",
+  "answer": "various",
+  "distractors": [
+   "variety",
+   "vary",
+   "variously"
+  ],
+  "zh": "這家店販售來自世界各地的各種茶。",
+  "ex": "名詞 kinds 前面要用形容詞，various kinds of 是「各式各樣的」。variety 是名詞（多樣性）、vary 是動詞（變化）、variously 是副詞。"
+ },
+ {
+  "wid": 149,
+  "type": "form",
+  "q": "We are looking for a ------- place to hold the company party.",
+  "answer": "suitable",
+  "distractors": [
+   "suit",
+   "suitably",
+   "suitability"
+  ],
+  "zh": "我們正在找一個合適的地點來舉辦公司派對。",
+  "ex": "冠詞 a 和名詞 place 中間要放形容詞 suitable「合適的」。suit 是動詞（適合）或名詞（西裝）、suitably 是副詞、suitability 是名詞。"
+ },
+ {
+  "wid": 150,
+  "type": "form",
+  "q": "A small car is more ------- than a large one in the city.",
+  "answer": "practical",
+  "distractors": [
+   "practically",
+   "practice",
+   "practicality"
+  ],
+  "zh": "在城市裡，小車比大車更實用。",
+  "ex": "more … than 中間要放形容詞，more practical 是「更實用」。practically 是副詞、practice 是名詞或動詞（練習）、practicality 是名詞（實用性）。"
+ },
+ {
+  "wid": 151,
+  "type": "vocab",
+  "q": "Your phone bill is ------- on the tenth day of every month.",
+  "answer": "due",
+  "distractors": [
+   "aware",
+   "optimistic",
+   "portable"
+  ],
+  "zh": "您的電話費每個月十號到期，必須繳清。",
+  "ex": "be due on… 是「在…到期、該繳了」，常用在帳單和租金。aware 是知道的、optimistic 是樂觀的、portable 是便於攜帶的。"
+ },
+ {
+  "wid": 152,
+  "type": "form",
+  "q": "Is it ------- to park on this street at night?",
+  "answer": "legal",
+  "distractors": [
+   "legally",
+   "legality",
+   "legalize"
+  ],
+  "zh": "晚上在這條街上停車合法嗎？",
+  "ex": "Is it … to 中間要放形容詞，legal 是「合法的」。legally 是副詞、legality 是名詞（合法性）、legalize 是動詞（使合法）。"
+ },
+ {
+  "wid": 153,
+  "type": "vocab",
+  "q": "This restaurant serves ------- Korean food, made the same way for 100 years.",
+  "answer": "traditional",
+  "distractors": [
+   "portable",
+   "aware",
+   "due"
+  ],
+  "zh": "這家餐廳供應傳統的韓國菜，一百年來做法都一樣。",
+  "ex": "traditional 是「傳統的」，後面說一百年來做法都沒變。portable 是便於攜帶的、aware 是知道的、due 是到期的。"
+ },
+ {
+  "wid": 154,
+  "type": "vocab",
+  "q": "This ------- printer is small and light, so you can carry it in your bag.",
+  "answer": "portable",
+  "distractors": [
+   "annual",
+   "aware",
+   "frequent"
+  ],
+  "zh": "這台可攜式印表機又小又輕，可以放在包包裡帶著走。",
+  "ex": "portable 是「便於攜帶的」，又小又輕、可以放進包包。annual 是每年的、aware 是知道的、frequent 是頻繁的。"
+ },
+ {
+  "wid": 155,
+  "type": "vocab",
+  "q": "Some cleaning products are ------- to small children and must be kept on a high shelf.",
+  "answer": "harmful",
+  "distractors": [
+   "annual",
+   "detailed",
+   "optimistic"
+  ],
+  "zh": "有些清潔用品對幼童有害，必須放在高的架子上。",
+  "ex": "be harmful to… 是「對…有害」，所以要放在小孩拿不到的高處。annual 是每年的、detailed 是詳細的、optimistic 是樂觀的。"
+ },
+ {
+  "wid": 156,
+  "type": "vocab",
+  "q": "Ms. Sato spent the ------- day in meetings and had no time for lunch.",
+  "answer": "entire",
+  "distractors": [
+   "aware",
+   "capable",
+   "harmful"
+  ],
+  "zh": "佐藤小姐一整天都在開會，沒有時間吃午餐。",
+  "ex": "the entire day 是「一整天」，所以連吃午餐的時間都沒有。aware 是知道的、capable 是有能力的、harmful 是有害的。"
+ },
+ {
+  "wid": 157,
+  "type": "form",
+  "q": "This table is not -------, so do not put heavy things on it.",
+  "answer": "stable",
+  "distractors": [
+   "stability",
+   "stabilize",
+   "stably"
+  ],
+  "zh": "這張桌子不穩，所以不要把重物放在上面。",
+  "ex": "be 動詞後面接形容詞 stable「穩固的」。stability 是名詞（穩定性）、stabilize 是動詞（使穩定）、stably 是副詞。"
+ },
+ {
+  "wid": 158,
+  "type": "form",
+  "q": "The store owner is ------- about sales during the holiday season.",
+  "answer": "optimistic",
+  "distractors": [
+   "optimism",
+   "optimist",
+   "optimistically"
+  ],
+  "zh": "店主對假期期間的銷售情況感到樂觀。",
+  "ex": "be 動詞後面接形容詞，be optimistic about 是「對…感到樂觀」。optimism 是名詞（樂觀）、optimist 是名詞（樂觀的人）、optimistically 是副詞。"
+ },
+ {
+  "wid": 159,
+  "type": "vocab",
+  "q": "Ms. Lin is ------- of running the store by herself when the manager is away.",
+  "answer": "capable",
+  "distractors": [
+   "suitable",
+   "available",
+   "portable"
+  ],
+  "zh": "經理不在的時候，林小姐有能力自己管理這家店。",
+  "ex": "be capable of + V-ing 是「有能力做…」。suitable 是合適的、available 是有空的、portable 是便於攜帶的，後面都不接 of。"
+ },
+ {
+  "wid": 160,
+  "type": "vocab",
+  "q": "It is ------- to rain today because there are no clouds in the sky.",
+  "answer": "unlikely",
+  "distractors": [
+   "portable",
+   "private",
+   "detailed"
+  ],
+  "zh": "今天不太可能下雨，因為天空沒有雲。",
+  "ex": "be unlikely to… 是「不太可能…」，天空沒有雲所以不太會下雨。portable 是便於攜帶的、private 是私人的、detailed 是詳細的。"
+ },
+ {
+  "wid": 161,
+  "type": "vocab",
+  "q": "The map is very -------; it shows every street, shop, and bus stop.",
+  "answer": "detailed",
+  "distractors": [
+   "optimistic",
+   "capable",
+   "annual"
+  ],
+  "zh": "這張地圖非常詳細，每條街道、每家商店和每個公車站都有標示。",
+  "ex": "detailed 是「詳細的」，後面說每條街、每家店都標出來了。optimistic 是樂觀的、capable 是有能力的、annual 是每年的。"
+ },
+ {
+  "wid": 162,
+  "type": "vocab",
+  "q": "The answer was so ------- that everyone in the room knew it right away.",
+  "answer": "obvious",
+  "distractors": [
+   "portable",
+   "annual",
+   "spare"
+  ],
+  "zh": "答案太明顯了，房間裡每個人馬上就知道了。",
+  "ex": "obvious 是「明顯的」，so obvious that… 表示明顯到大家立刻就知道。portable 是便於攜帶的、annual 是每年的、spare 是多餘的。"
+ },
+ {
+  "wid": 163,
+  "type": "vocab",
+  "q": "Please be ------- that the store closes at 5 P.M. on Sundays.",
+  "answer": "aware",
+  "distractors": [
+   "capable",
+   "portable",
+   "frequent"
+  ],
+  "zh": "請注意，本店星期日下午五點打烊。",
+  "ex": "Please be aware that… 是「請注意、請知悉…」，常用在公告。capable 是有能力的、portable 是便於攜帶的、frequent 是頻繁的。"
+ },
+ {
+  "wid": 164,
+  "type": "form",
+  "q": "The restaurant buys fresh fruit from ------- farmers every morning.",
+  "answer": "local",
+  "distractors": [
+   "locally",
+   "locate",
+   "location"
+  ],
+  "zh": "這家餐廳每天早上向當地農夫購買新鮮水果。",
+  "ex": "名詞 farmers 前面要用形容詞，local farmers 是「當地的農夫」。locally 是副詞、locate 是動詞（找出位置）、location 是名詞（地點）。"
+ },
+ {
+  "wid": 165,
+  "type": "form",
+  "q": "You must show the ------- receipt, not a copy, to return an item.",
+  "answer": "original",
+  "distractors": [
+   "originally",
+   "origin",
+   "originate"
+  ],
+  "zh": "退貨時必須出示收據正本，不能用影本。",
+  "ex": "the 和名詞 receipt 中間要放形容詞，original receipt 是「收據正本」。originally 是副詞、origin 是名詞（起源）、originate 是動詞（起源於）。"
+ },
+ {
+  "wid": 166,
+  "type": "vocab",
+  "q": "If you lose your room key, the front desk has a ------- one for you.",
+  "answer": "spare",
+  "distractors": [
+   "detailed",
+   "capable",
+   "frequent"
+  ],
+  "zh": "如果您弄丟了房間鑰匙，櫃檯有一把備用的可以給您。",
+  "ex": "a spare key 是「備用鑰匙」，spare 表示多出來、可以備用的。detailed 是詳細的、capable 是有能力的、frequent 是頻繁的。"
+ },
+ {
+  "wid": 167,
+  "type": "vocab",
+  "q": "The store manager will ------- the award to the best employee at tonight's dinner.",
+  "answer": "present",
+  "distractors": [
+   "attend",
+   "retire",
+   "depart"
+  ],
+  "zh": "店經理將在今晚的晚宴上把獎項頒給最佳員工。",
+  "ex": "present an award to someone 是「頒獎給某人」。attend 是參加、retire 是退休、depart 是出發，都不能接 the award to…。"
+ },
+ {
+  "wid": 168,
+  "type": "form",
+  "q": "Is this website -------? I want to pay by credit card.",
+  "answer": "secure",
+  "distractors": [
+   "security",
+   "securely",
+   "secures"
+  ],
+  "zh": "這個網站安全嗎？我想用信用卡付款。",
+  "ex": "be 動詞 is 需要形容詞來說明主詞 this website，secure 是「安全的」。security 是名詞（安全）、securely 是副詞、secures 是動詞。"
+ },
+ {
+  "wid": 169,
+  "type": "form",
+  "q": "Our ------- plan was to open in May, but we changed the date to July.",
+  "answer": "initial",
+  "distractors": [
+   "initially",
+   "initiate",
+   "initiative"
+  ],
+  "zh": "我們最初的計畫是五月開幕，但後來把日期改到七月。",
+  "ex": "所有格 our 和名詞 plan 中間要放形容詞 initial「最初的」。initially 是副詞、initiate 是動詞（開始）、initiative 是名詞（主動性）。"
+ },
+ {
+  "wid": 170,
+  "type": "vocab",
+  "q": "If you smell smoke, please call the front desk -------.",
+  "answer": "immediately",
+  "distractors": [
+   "nearly",
+   "hardly",
+   "rarely"
+  ],
+  "zh": "如果您聞到煙味，請立刻打電話給櫃檯。",
+  "ex": "immediately 是「立刻」，聞到煙味要馬上通知櫃檯。nearly 是幾乎、hardly 是幾乎不、rarely 是很少，放在這裡意思都不通。"
+ },
+ {
+  "wid": 171,
+  "type": "vocab",
+  "q": "It took ------- three hours to drive to the airport because of the traffic.",
+  "answer": "nearly",
+  "distractors": [
+   "immediately",
+   "carefully",
+   "suddenly"
+  ],
+  "zh": "因為塞車，開車到機場花了將近三個小時。",
+  "ex": "nearly three hours 是「將近三小時」，nearly 常放在數字前面。immediately 是立刻、carefully 是小心地、suddenly 是突然地，都不能修飾數字。"
+ },
+ {
+  "wid": 172,
+  "type": "vocab",
+  "q": "You can ------- 20 dollars if you buy two movie tickets together.",
+  "answer": "save",
+  "distractors": [
+   "remind",
+   "install",
+   "interrupt"
+  ],
+  "zh": "如果你一次買兩張電影票，可以省下 20 美元。",
+  "ex": "save 20 dollars 是「省下 20 美元」，兩張一起買比較便宜。remind 是提醒、install 是安裝、interrupt 是打斷。"
+ },
+ {
+  "wid": 173,
+  "type": "vocab",
+  "q": "We would like to ------- you to our store's opening party on Saturday.",
+  "answer": "invite",
+  "distractors": [
+   "remove",
+   "calculate",
+   "install"
+  ],
+  "zh": "我們想邀請您參加本店星期六的開幕派對。",
+  "ex": "invite someone to a party 是「邀請某人參加派對」。remove 是去除、calculate 是計算、install 是安裝。"
+ },
+ {
+  "wid": 174,
+  "type": "vocab",
+  "q": "Visitors can ------- the form from our website and print it at home.",
+  "answer": "download",
+  "distractors": [
+   "retire",
+   "apologize",
+   "hire"
+  ],
+  "zh": "訪客可以從我們的網站下載表格，然後在家列印。",
+  "ex": "download … from our website 是「從網站下載…」。retire 是退休、apologize 是道歉、hire 是雇用，都不能接 the form。"
+ },
+ {
+  "wid": 175,
+  "type": "form",
+  "q": "All new employees must ------- the training class on Monday morning.",
+  "answer": "attend",
+  "distractors": [
+   "attendance",
+   "attendee",
+   "attendant"
+  ],
+  "zh": "所有新進員工都必須參加星期一早上的訓練課程。",
+  "ex": "助動詞 must 後面要接原形動詞 attend「參加」。attendance 是名詞（出席）、attendee 是名詞（出席者）、attendant 是名詞（服務員）。"
+ },
+ {
+  "wid": 176,
+  "type": "vocab",
+  "q": "The airline had to ------- the flight because of the bad weather.",
+  "answer": "cancel",
+  "distractors": [
+   "invite",
+   "afford",
+   "subscribe"
+  ],
+  "zh": "由於天氣不好，航空公司不得不取消這班飛機。",
+  "ex": "cancel the flight 是「取消班機」，原因是天氣不好。invite 是邀請、afford 是負擔得起、subscribe 是訂閱。"
+ },
+ {
+  "wid": 177,
+  "type": "vocab",
+  "q": "Could you ------- me to call the bank before it closes at three?",
+  "answer": "remind",
+  "distractors": [
+   "compare",
+   "deliver",
+   "attach"
+  ],
+  "zh": "你可以提醒我在銀行三點關門前打電話過去嗎？",
+  "ex": "remind someone to do something 是「提醒某人做某事」。compare 是比較、deliver 是遞送、attach 是附上，都不能用在這個句型。"
+ },
+ {
+  "wid": 178,
+  "type": "form",
+  "q": "It is smart to ------- prices at different stores before you buy a phone.",
+  "answer": "compare",
+  "distractors": [
+   "comparison",
+   "comparable",
+   "comparatively"
+  ],
+  "zh": "買手機之前，先比較不同商店的價格是聰明的做法。",
+  "ex": "to 後面要接原形動詞，compare prices 是「比價」。comparison 是名詞（比較）、comparable 是形容詞（可比較的）、comparatively 是副詞。"
+ },
+ {
+  "wid": 179,
+  "type": "vocab",
+  "q": "We ------- pizza to homes and offices in this area until 11 P.M.",
+  "answer": "deliver",
+  "distractors": [
+   "participate",
+   "apologize",
+   "retire"
+  ],
+  "zh": "我們外送披薩到這個地區的住家和辦公室，一直到晚上 11 點。",
+  "ex": "deliver … to homes 是「把…送到家」，也就是外送。participate 是參加、apologize 是道歉、retire 是退休。"
+ },
+ {
+  "wid": 180,
+  "type": "form",
+  "q": "The hotel manager called our room to ------- for the noise last night.",
+  "answer": "apologize",
+  "distractors": [
+   "apology",
+   "apologetic",
+   "apologetically"
+  ],
+  "zh": "飯店經理打電話到我們房間，為昨晚的噪音道歉。",
+  "ex": "to 後面要接原形動詞，apologize for 是「為…道歉」。apology 是名詞、apologetic 是形容詞（感到抱歉的）、apologetically 是副詞。"
+ },
+ {
+  "wid": 181,
+  "type": "vocab",
+  "q": "The waiter came to ------- the empty plates from our table.",
+  "answer": "remove",
+  "distractors": [
+   "attend",
+   "depart",
+   "respond"
+  ],
+  "zh": "服務生過來把我們桌上的空盤子收走。",
+  "ex": "remove … from the table 是「把…從桌上拿走」。attend 是參加、depart 是出發、respond 是回應。"
+ },
+ {
+  "wid": 182,
+  "type": "form",
+  "q": "Ms. Rivera will ------- a welcome lunch for the new staff next week.",
+  "answer": "organize",
+  "distractors": [
+   "organization",
+   "organizer",
+   "organizational"
+  ],
+  "zh": "里維拉小姐下週將為新進員工籌辦一場歡迎午餐會。",
+  "ex": "助動詞 will 後面要接原形動詞 organize「籌辦」。organization 是名詞（組織）、organizer 是名詞（籌辦人）、organizational 是形容詞。"
+ },
+ {
+  "wid": 183,
+  "type": "form",
+  "q": "The design team needs one week to ------- a new logo for the bakery.",
+  "answer": "create",
+  "distractors": [
+   "creation",
+   "creative",
+   "creatively"
+  ],
+  "zh": "設計團隊需要一週的時間為這家麵包店創作新的標誌。",
+  "ex": "to 後面要接原形動詞 create「創作」。creation 是名詞（創作）、creative 是形容詞（有創意的）、creatively 是副詞。"
+ },
+ {
+  "wid": 184,
+  "type": "form",
+  "q": "Did you ------- the man who was standing at the front desk?",
+  "answer": "recognize",
+  "distractors": [
+   "recognition",
+   "recognizable",
+   "recognizably"
+  ],
+  "zh": "你有認出站在櫃檯的那位男士嗎？",
+  "ex": "Did you 後面要接原形動詞 recognize「認出」。recognition 是名詞、recognizable 是形容詞（認得出來的）、recognizably 是副詞。"
+ },
+ {
+  "wid": 185,
+  "type": "vocab",
+  "q": "Ms. Chen called the travel agent to ------- two seats on the morning flight.",
+  "answer": "book",
+  "distractors": [
+   "retire",
+   "apologize",
+   "remain"
+  ],
+  "zh": "陳小姐打電話給旅行社，預訂早班飛機的兩個座位。",
+  "ex": "book seats 是「訂位」，打給旅行社就是為了訂機位。retire 是退休、apologize 是道歉、remain 是保持。"
+ },
+ {
+  "wid": 186,
+  "type": "form",
+  "q": "Most customers ------- to our emails within a day or two.",
+  "answer": "respond",
+  "distractors": [
+   "response",
+   "responsive",
+   "responsively"
+  ],
+  "zh": "大多數顧客會在一兩天內回覆我們的電子郵件。",
+  "ex": "主詞 most customers 後面需要動詞，respond to 是「回覆」。response 是名詞（回應）、responsive 是形容詞、responsively 是副詞。"
+ },
+ {
+  "wid": 187,
+  "type": "vocab",
+  "q": "When you call the hotel, please ------- that we will arrive late.",
+  "answer": "mention",
+  "distractors": [
+   "attach",
+   "install",
+   "repair"
+  ],
+  "zh": "你打電話給飯店的時候，請提一下我們會晚到。",
+  "ex": "mention that… 是「提到、說一下…」。attach 是附上、install 是安裝、repair 是修理，後面都不能接 that 子句。"
+ },
+ {
+  "wid": 188,
+  "type": "form",
+  "q": "Use this website to ------- the cost of sending your package.",
+  "answer": "calculate",
+  "distractors": [
+   "calculation",
+   "calculator",
+   "calculating"
+  ],
+  "zh": "請用這個網站計算寄送包裹的費用。",
+  "ex": "to 後面要接原形動詞 calculate「計算」。calculation 是名詞（計算）、calculator 是名詞（計算機）、calculating 是動名詞或現在分詞。"
+ },
+ {
+  "wid": 189,
+  "type": "vocab",
+  "q": "A worker will come tomorrow to ------- the new air conditioner in the meeting room.",
+  "answer": "install",
+  "distractors": [
+   "invite",
+   "subscribe",
+   "depart"
+  ],
+  "zh": "明天會有一位工人來會議室安裝新的冷氣機。",
+  "ex": "install an air conditioner 是「安裝冷氣機」。invite 是邀請、subscribe 是訂閱、depart 是出發，都不能用在機器上。"
+ },
+ {
+  "wid": 190,
+  "type": "vocab",
+  "q": "The email ------- important information about your flight and hotel.",
+  "answer": "contains",
+  "distractors": [
+   "attends",
+   "hires",
+   "affords"
+  ],
+  "zh": "這封電子郵件包含有關您的班機和飯店的重要資訊。",
+  "ex": "contain information 是「包含資訊」，主詞 the email 是單數所以用 contains。attends 是參加、hires 是雇用、affords 是負擔得起。"
+ },
+ {
+  "wid": 191,
+  "type": "vocab",
+  "q": "The name on your ticket must ------- the name on your passport.",
+  "answer": "match",
+  "distractors": [
+   "reduce",
+   "deliver",
+   "hire"
+  ],
+  "zh": "機票上的姓名必須和護照上的姓名相符。",
+  "ex": "match 是「相符」，票上的名字要和護照上的一樣。reduce 是減少、deliver 是遞送、hire 是雇用。"
+ },
+ {
+  "wid": 192,
+  "type": "form",
+  "q": "We cannot ------- to buy a new car this year.",
+  "answer": "afford",
+  "distractors": [
+   "affordable",
+   "affordably",
+   "affordability"
+  ],
+  "zh": "我們今年買不起新車。",
+  "ex": "cannot 後面要接原形動詞，cannot afford to 是「負擔不起」。affordable 是形容詞（買得起的）、affordably 是副詞、affordability 是名詞。"
+ },
+ {
+  "wid": 193,
+  "type": "form",
+  "q": "The front desk will be happy to ------- you with your bags.",
+  "answer": "assist",
+  "distractors": [
+   "assistant",
+   "assistance",
+   "assisted"
+  ],
+  "zh": "櫃檯人員很樂意協助您搬行李。",
+  "ex": "to 後面要接原形動詞，assist you with 是「協助您處理…」。assistant 是名詞（助理）、assistance 是名詞（協助）、assisted 是過去式。"
+ },
+ {
+  "wid": 194,
+  "type": "form",
+  "q": "Free samples usually ------- many shoppers to our table.",
+  "answer": "attract",
+  "distractors": [
+   "attraction",
+   "attractive",
+   "attractively"
+  ],
+  "zh": "免費試用品通常會吸引很多購物的人到我們的桌子前。",
+  "ex": "主詞 free samples 後面需要動詞，attract 是「吸引」。attraction 是名詞（吸引力）、attractive 是形容詞（吸引人的）、attractively 是副詞。"
+ },
+ {
+  "wid": 195,
+  "type": "form",
+  "q": "Mr. Ito and his team ------- software for banks and hotels.",
+  "answer": "develop",
+  "distractors": [
+   "development",
+   "developer",
+   "developmental"
+  ],
+  "zh": "伊藤先生和他的團隊為銀行和飯店開發軟體。",
+  "ex": "主詞後面需要動詞，develop software 是「開發軟體」。development 是名詞（開發）、developer 是名詞（開發者）、developmental 是形容詞。"
+ },
+ {
+  "wid": 196,
+  "type": "vocab",
+  "q": "I am writing to ------- that Ms. Gomez will visit your factory on June 3.",
+  "answer": "confirm",
+  "distractors": [
+   "install",
+   "repair",
+   "attach"
+  ],
+  "zh": "我寫這封信是要確認戈梅茲小姐將於 6 月 3 日拜訪貴工廠。",
+  "ex": "confirm that… 是「確認…」，寫信是為了確認來訪的日期。install 是安裝、repair 是修理、attach 是附上，後面都不能接 that 子句。"
+ },
+ {
+  "wid": 197,
+  "type": "form",
+  "q": "You can ------- for the job on our website until May 31.",
+  "answer": "apply",
+  "distractors": [
+   "application",
+   "applicant",
+   "applicable"
+  ],
+  "zh": "您可以在 5 月 31 日前到我們的網站應徵這份工作。",
+  "ex": "助動詞 can 後面要接原形動詞，apply for a job 是「應徵工作」。application 是名詞（申請）、applicant 是名詞（申請人）、applicable 是形容詞（適用的）。"
+ },
+ {
+  "wid": 198,
+  "type": "vocab",
+  "q": "The new machine will ------- the waiting time from ten minutes to two.",
+  "answer": "reduce",
+  "distractors": [
+   "invite",
+   "hire",
+   "apologize"
+  ],
+  "zh": "新機器將把等候時間從十分鐘減少到兩分鐘。",
+  "ex": "reduce the waiting time 是「減少等候時間」，從十分鐘變成兩分鐘。invite 是邀請、hire 是雇用、apologize 是道歉。"
+ },
+ {
+  "wid": 199,
+  "type": "vocab",
+  "q": "The manager ------- our idea because it would cost too much money.",
+  "answer": "rejected",
+  "distractors": [
+   "installed",
+   "attended",
+   "invited"
+  ],
+  "zh": "經理否決了我們的點子，因為那會花太多錢。",
+  "ex": "reject an idea 是「拒絕、否決點子」，原因是太花錢。installed 是安裝、attended 是參加、invited 是邀請。"
+ },
+ {
+  "wid": 200,
+  "type": "vocab",
+  "q": "New employees should ------- a photo to the website for their staff card.",
+  "answer": "upload",
+  "distractors": [
+   "hire",
+   "afford",
+   "retire"
+  ],
+  "zh": "新進員工應該把照片上傳到網站，以便製作員工證。",
+  "ex": "upload a photo to the website 是「把照片上傳到網站」。hire 是雇用、afford 是負擔得起、retire 是退休。"
+ },
+ {
+  "wid": 201,
+  "type": "vocab",
+  "q": "Please ------- seated until the bus comes to a full stop.",
+  "answer": "remain",
+  "distractors": [
+   "reach",
+   "attend",
+   "save"
+  ],
+  "zh": "在公車完全停妥之前，請留在座位上。",
+  "ex": "remain seated 是「保持坐著」，是交通工具上常聽到的廣播。reach 是到達、attend 是參加、save 是節省，後面都不能接 seated。"
+ },
+ {
+  "wid": 202,
+  "type": "vocab",
+  "q": "The restaurant plans to ------- two more waiters before the busy summer season.",
+  "answer": "hire",
+  "distractors": [
+   "install",
+   "cancel",
+   "calculate"
+  ],
+  "zh": "這家餐廳打算在夏季旺季前再雇用兩名服務生。",
+  "ex": "hire waiters 是「雇用服務生」，旺季前需要更多人手。install 是安裝、cancel 是取消、calculate 是計算。"
+ },
+ {
+  "wid": 203,
+  "type": "form",
+  "q": "Do you ------- many people to come to the event on Saturday?",
+  "answer": "expect",
+  "distractors": [
+   "expectation",
+   "expected",
+   "expecting"
+  ],
+  "zh": "你預期星期六會有很多人來參加活動嗎？",
+  "ex": "Do you 後面要接原形動詞 expect「預期」。expectation 是名詞（期望）、expected 是過去式或過去分詞、expecting 是現在分詞。"
+ },
+ {
+  "wid": 204,
+  "type": "form",
+  "q": "The shop will ------- its summer sale in the local newspaper.",
+  "answer": "advertise",
+  "distractors": [
+   "advertisement",
+   "advertiser",
+   "advertising"
+  ],
+  "zh": "這家店將在當地報紙上為夏季特賣打廣告。",
+  "ex": "助動詞 will 後面要接原形動詞 advertise「打廣告」。advertisement 是名詞（廣告）、advertiser 是名詞（廣告主）、advertising 是名詞（廣告業）或現在分詞。"
+ },
+ {
+  "wid": 205,
+  "type": "vocab",
+  "q": "Mr. Kim asked us to ------- the chairs in a circle before the meeting.",
+  "answer": "arrange",
+  "distractors": [
+   "attend",
+   "subscribe",
+   "apologize"
+  ],
+  "zh": "金先生要我們在開會前把椅子排成一圈。",
+  "ex": "arrange the chairs in a circle 是「把椅子排成一圈」。attend 是參加、subscribe 是訂閱、apologize 是道歉。"
+ },
+ {
+  "wid": 206,
+  "type": "form",
+  "q": "Who is going to ------- our company at the trade show in Tokyo?",
+  "answer": "represent",
+  "distractors": [
+   "representative",
+   "representation",
+   "represented"
+  ],
+  "zh": "誰要代表我們公司參加東京的商展？",
+  "ex": "be going to 後面要接原形動詞 represent「代表」。representative 是名詞（代表人）、representation 是名詞、represented 是過去式。"
+ },
+ {
+  "wid": 207,
+  "type": "form",
+  "q": "We ------- to open a second store in the city next spring.",
+  "answer": "intend",
+  "distractors": [
+   "intention",
+   "intentional",
+   "intentionally"
+  ],
+  "zh": "我們打算明年春天在市區開第二家店。",
+  "ex": "主詞 we 後面需要動詞，intend to 是「打算…」。intention 是名詞（意圖）、intentional 是形容詞（故意的）、intentionally 是副詞。"
+ },
+ {
+  "wid": 208,
+  "type": "vocab",
+  "q": "Can you ------- a good place to eat near the train station?",
+  "answer": "recommend",
+  "distractors": [
+   "depart",
+   "apologize",
+   "participate"
+  ],
+  "zh": "你可以推薦一個火車站附近吃飯的好地方嗎？",
+  "ex": "recommend a good place 是「推薦好地方」。depart 是出發、apologize 是道歉、participate 是參加，後面都不能直接接 a good place。"
+ },
+ {
+  "wid": 209,
+  "type": "form",
+  "q": "Fifty employees ------- in the company sports day every year.",
+  "answer": "participate",
+  "distractors": [
+   "participant",
+   "participation",
+   "participating"
+  ],
+  "zh": "每年有五十名員工參加公司運動會。",
+  "ex": "主詞 fifty employees 後面需要動詞，participate in 是「參加」。participant 是名詞（參加者）、participation 是名詞、participating 是現在分詞，不能單獨當動詞。"
+ },
+ {
+  "wid": 210,
+  "type": "form",
+  "q": "Does the hotel ------- a credit card when guests check in?",
+  "answer": "require",
+  "distractors": [
+   "requirement",
+   "required",
+   "requiring"
+  ],
+  "zh": "房客辦理入住時，飯店會要求出示信用卡嗎？",
+  "ex": "Does 加主詞後面要接原形動詞 require「要求」。requirement 是名詞（要求）、required 是過去式或過去分詞、requiring 是現在分詞。"
+ },
+ {
+  "wid": 211,
+  "type": "form",
+  "q": "To get our weekly news, please ------- to our email list.",
+  "answer": "subscribe",
+  "distractors": [
+   "subscription",
+   "subscriber",
+   "subscribed"
+  ],
+  "zh": "想收到我們每週的消息，請訂閱我們的電子報。",
+  "ex": "please 後面要接原形動詞，subscribe to 是「訂閱」。subscription 是名詞（訂閱）、subscriber 是名詞（訂閱者）、subscribed 是過去式。"
+ },
+ {
+  "wid": 212,
+  "type": "vocab",
+  "q": "If the phone breaks this year, the store will ------- it with a new one.",
+  "answer": "replace",
+  "distractors": [
+   "invite",
+   "mention",
+   "attend"
+  ],
+  "zh": "如果手機今年內壞掉，店家會換一支新的給您。",
+  "ex": "replace … with a new one 是「用新的把…換掉」，壞了就換一支新的。invite 是邀請、mention 是提及、attend 是參加。"
+ },
+ {
+  "wid": 213,
+  "type": "form",
+  "q": "A local band will ------- at the hotel on Saturday night.",
+  "answer": "perform",
+  "distractors": [
+   "performance",
+   "performer",
+   "performing"
+  ],
+  "zh": "一個當地樂團星期六晚上將在飯店表演。",
+  "ex": "助動詞 will 後面要接原形動詞 perform「表演」。performance 是名詞（表演）、performer 是名詞（表演者）、performing 是現在分詞。"
+ },
+ {
+  "wid": 214,
+  "type": "form",
+  "q": "Let me ------- you to our new sales manager, Ms. Novak.",
+  "answer": "introduce",
+  "distractors": [
+   "introduction",
+   "introductory",
+   "introducing"
+  ],
+  "zh": "讓我為您介紹我們的新業務經理諾瓦克小姐。",
+  "ex": "Let me 後面要接原形動詞，introduce someone to… 是「把某人介紹給…」。introduction 是名詞（介紹）、introductory 是形容詞、introducing 是現在分詞。"
+ },
+ {
+  "wid": 215,
+  "type": "vocab",
+  "q": "The heavy snow ------- many workers from getting to the office on time.",
+  "answer": "prevented",
+  "distractors": [
+   "invited",
+   "repaired",
+   "attached"
+  ],
+  "zh": "大雪使許多員工無法準時到辦公室。",
+  "ex": "prevent someone from + V-ing 是「使某人無法做…」。invited 是邀請、repaired 是修理、attached 是附上，都不能搭配 from getting。"
+ },
+ {
+  "wid": 216,
+  "type": "vocab",
+  "q": "It takes about forty minutes to ------- the airport by bus.",
+  "answer": "reach",
+  "distractors": [
+   "remind",
+   "afford",
+   "cancel"
+  ],
+  "zh": "搭公車到機場大約需要四十分鐘。",
+  "ex": "reach the airport 是「到達機場」，reach 後面直接接地點。remind 是提醒、afford 是負擔得起、cancel 是取消。"
+ },
+ {
+  "wid": 217,
+  "type": "form",
+  "q": "Please ------- our offer and call us back by Friday.",
+  "answer": "consider",
+  "distractors": [
+   "consideration",
+   "considerable",
+   "considerably"
+  ],
+  "zh": "請考慮我們的提議，並在星期五前回電。",
+  "ex": "please 後面要接原形動詞 consider「考慮」。consideration 是名詞（考慮）、considerable 是形容詞（相當多的）、considerably 是副詞。"
+ },
+ {
+  "wid": 218,
+  "type": "vocab",
+  "q": "Ms. Davis plans to ------- next year and travel around the world with her husband.",
+  "answer": "retire",
+  "distractors": [
+   "contain",
+   "attach",
+   "install"
+  ],
+  "zh": "戴維斯小姐打算明年退休，然後和丈夫一起環遊世界。",
+  "ex": "retire 是「退休」，退休後才有時間環遊世界。contain 是包含、attach 是附上、install 是安裝，後面都需要受詞。"
+ },
+ {
+  "wid": 219,
+  "type": "vocab",
+  "q": "Ms. Wu ------- a map of the office to her email for the new staff.",
+  "answer": "attached",
+  "distractors": [
+   "departed",
+   "afforded",
+   "invited"
+  ],
+  "zh": "吳小姐在電子郵件裡附上了一張辦公室地圖給新進員工。",
+  "ex": "attach … to an email 是「把…附在電子郵件裡」。departed 是出發、afforded 是負擔得起、invited 是邀請。"
+ },
+ {
+  "wid": 220,
+  "type": "vocab",
+  "q": "Sorry to ------- your meeting, but there is an important phone call for Mr. Wang.",
+  "answer": "interrupt",
+  "distractors": [
+   "install",
+   "subscribe",
+   "afford"
+  ],
+  "zh": "抱歉打斷您的會議，但有一通找王先生的重要電話。",
+  "ex": "interrupt a meeting 是「打斷會議」，Sorry to interrupt 是很常用的客氣說法。install 是安裝、subscribe 是訂閱、afford 是負擔得起。"
+ },
+ {
+  "wid": 221,
+  "type": "vocab",
+  "q": "If your computer does not work, please ------- help from the IT team.",
+  "answer": "seek",
+  "distractors": [
+   "remain",
+   "depart",
+   "match"
+  ],
+  "zh": "如果您的電腦無法運作，請向資訊部門尋求協助。",
+  "ex": "seek help from… 是「向…尋求協助」。remain 是保持、depart 是出發、match 是相符，都不能接 help from。"
+ },
+ {
+  "wid": 222,
+  "type": "vocab",
+  "q": "Our bus will ------- for the airport in ten minutes, so please get on now.",
+  "answer": "depart",
+  "distractors": [
+   "retire",
+   "calculate",
+   "attach"
+  ],
+  "zh": "我們的巴士十分鐘後就要出發前往機場，請現在上車。",
+  "ex": "depart for… 是「出發前往…」。retire 是退休、calculate 是計算、attach 是附上，放在這裡意思都不通。"
+ },
+ {
+  "wid": 223,
+  "type": "vocab",
+  "q": "Loud music after 10 P.M. may ------- the people who live next door.",
+  "answer": "disturb",
+  "distractors": [
+   "install",
+   "deliver",
+   "calculate"
+  ],
+  "zh": "晚上十點以後大聲播放音樂可能會打擾到隔壁的住戶。",
+  "ex": "disturb 是「打擾」，太晚放大聲的音樂會吵到鄰居。install 是安裝、deliver 是遞送、calculate 是計算。"
+ },
+ {
+  "wid": 224,
+  "type": "vocab",
+  "q": "Mr. Hall ------- holding the party inside because it might rain on Saturday.",
+  "answer": "proposed",
+  "distractors": [
+   "contained",
+   "attached",
+   "installed"
+  ],
+  "zh": "霍爾先生提議在室內舉辦派對，因為星期六可能會下雨。",
+  "ex": "propose + V-ing 是「提議做…」。contained 是包含、attached 是附上、installed 是安裝，後面都不能接 holding the party。"
+ },
+ {
+  "wid": 225,
+  "type": "form",
+  "q": "The staff could not ------- the owner of the lost bag.",
+  "answer": "identify",
+  "distractors": [
+   "identification",
+   "identity",
+   "identifiable"
+  ],
+  "zh": "工作人員無法確認那個遺失包包的主人是誰。",
+  "ex": "could not 後面要接原形動詞 identify「確認、辨識」。identification 是名詞（身分證明）、identity 是名詞（身分）、identifiable 是形容詞。"
+ },
+ {
+  "wid": 226,
+  "type": "vocab",
+  "q": "The airline ------- free meals to all passengers on long flights.",
+  "answer": "offers",
+  "distractors": [
+   "repairs",
+   "attends",
+   "calculates"
+  ],
+  "zh": "這家航空公司在長途班機上為所有乘客提供免費餐點。",
+  "ex": "offer free meals 是「提供免費餐點」，主詞 the airline 是單數所以用 offers。repairs 是修理、attends 是參加、calculates 是計算。"
+ },
+ {
+  "wid": 227,
+  "type": "vocab",
+  "q": "Bus fares will ------- from two dollars to three dollars next year.",
+  "answer": "rise",
+  "distractors": [
+   "remind",
+   "attend",
+   "hire"
+  ],
+  "zh": "公車票價明年將從兩美元上漲到三美元。",
+  "ex": "rise from … to … 是「從…上升到…」，rise 後面不接受詞。remind 是提醒、attend 是參加、hire 是雇用。"
+ },
+ {
+  "wid": 228,
+  "type": "vocab",
+  "q": "The ------- for this apartment is 800 dollars a month, and water is included.",
+  "answer": "rent",
+  "distractors": [
+   "fare",
+   "wage",
+   "refund"
+  ],
+  "zh": "這間公寓的租金是每個月 800 美元，含水費。",
+  "ex": "rent 是「租金」，住公寓每個月要付的錢。fare 是車資、wage 是工資、refund 是退款。"
+ },
+ {
+  "wid": 229,
+  "type": "vocab",
+  "q": "Workers at the factory will get a 5 percent ------- in pay next year.",
+  "answer": "increase",
+  "distractors": [
+   "receipt",
+   "venue",
+   "colleague"
+  ],
+  "zh": "工廠的工人明年薪資將增加百分之五。",
+  "ex": "an increase in pay 是「薪資增加」，前面的 5 percent 說明增加的幅度。receipt 是收據、venue 是會場、colleague 是同事。"
+ },
+ {
+  "wid": 230,
+  "type": "vocab",
+  "q": "Ms. Reyes tried to ------- you by phone this morning, but you were out.",
+  "answer": "contact",
+  "distractors": [
+   "contain",
+   "cancel",
+   "calculate"
+  ],
+  "zh": "雷耶斯小姐今天早上試著打電話聯絡你，但你不在。",
+  "ex": "contact someone by phone 是「用電話聯絡某人」。contain 是包含、cancel 是取消、calculate 是計算。"
+ },
+ {
+  "wid": 231,
+  "type": "vocab",
+  "q": "Mr. Cho has a job ------- at the bank at ten o'clock tomorrow.",
+  "answer": "interview",
+  "distractors": [
+   "receipt",
+   "label",
+   "beverage"
+  ],
+  "zh": "趙先生明天十點在銀行有一場工作面試。",
+  "ex": "job interview 是「工作面試」，有確定的時間和地點。receipt 是收據、label 是標籤、beverage 是飲料。"
+ },
+ {
+  "wid": 232,
+  "type": "vocab",
+  "q": "The elevator is broken, and someone will come to ------- it this afternoon.",
+  "answer": "repair",
+  "distractors": [
+   "invite",
+   "mention",
+   "subscribe"
+  ],
+  "zh": "電梯壞了，今天下午會有人來修理。",
+  "ex": "repair 是「修理」，電梯壞了所以要找人來修。invite 是邀請、mention 是提及、subscribe 是訂閱。"
+ },
+ {
+  "wid": 233,
+  "type": "vocab",
+  "q": "We ------- our website every morning with the newest prices.",
+  "answer": "update",
+  "distractors": [
+   "hire",
+   "retire",
+   "attend"
+  ],
+  "zh": "我們每天早上都會用最新的價格更新網站。",
+  "ex": "update a website 是「更新網站」，把最新的價格放上去。hire 是雇用、retire 是退休、attend 是參加。"
+ },
+ {
+  "wid": 234,
+  "type": "vocab",
+  "q": "I called the restaurant to ------- a table for six people on Friday night.",
+  "answer": "reserve",
+  "distractors": [
+   "remind",
+   "respond",
+   "retire"
+  ],
+  "zh": "我打電話到餐廳，預訂星期五晚上六個人的位子。",
+  "ex": "reserve a table 是「訂位」。remind 是提醒、respond 是回應、retire 是退休，都不能接 a table。"
+ },
+ {
+  "wid": 235,
+  "type": "vocab",
+  "q": "Thank you for your help and ------- during the office move last week.",
+  "answer": "support",
+  "distractors": [
+   "pollution",
+   "currency",
+   "fuel"
+  ],
+  "zh": "感謝您在上週辦公室搬遷期間的協助與支持。",
+  "ex": "help and support 是「協助與支持」，是感謝別人時常用的說法。pollution 是污染、currency 是貨幣、fuel 是燃料。"
+ },
+ {
+  "wid": 236,
+  "type": "form",
+  "q": "The building does not ------- visitors to enter after 9 P.M.",
+  "answer": "permit",
+  "distractors": [
+   "permission",
+   "permissible",
+   "permitted"
+  ],
+  "zh": "這棟大樓晚上九點後不允許訪客進入。",
+  "ex": "does not 後面要接原形動詞 permit「允許」。permission 是名詞（許可）、permissible 是形容詞（可允許的）、permitted 是過去式或過去分詞。"
+ },
+ {
+  "wid": 237,
+  "type": "form",
+  "q": "The new bus line will ------- people who live far from the city center.",
+  "answer": "benefit",
+  "distractors": [
+   "beneficial",
+   "beneficially",
+   "beneficiary"
+  ],
+  "zh": "新的公車路線將讓住得離市中心很遠的人受益。",
+  "ex": "助動詞 will 後面要接原形動詞 benefit「對…有益」。beneficial 是形容詞（有益的）、beneficially 是副詞、beneficiary 是名詞（受益人）。"
+ },
+ {
+  "wid": 238,
+  "type": "vocab",
+  "q": "This farm ------- fresh vegetables to many restaurants in the city.",
+  "answer": "supplies",
+  "distractors": [
+   "reminds",
+   "attends",
+   "repairs"
+  ],
+  "zh": "這座農場供應新鮮蔬菜給市區的許多餐廳。",
+  "ex": "supply … to restaurants 是「供應…給餐廳」，主詞 this farm 是單數所以用 supplies。reminds 是提醒、attends 是參加、repairs 是修理。"
+ },
+ {
+  "wid": 239,
+  "type": "vocab",
+  "q": "A problem with the computer system ------- long lines at the bank this morning.",
+  "answer": "caused",
+  "distractors": [
+   "invited",
+   "hired",
+   "saved"
+  ],
+  "zh": "電腦系統出了問題，造成今天早上銀行大排長龍。",
+  "ex": "cause 是「導致、造成」，電腦出問題造成排隊人潮。invited 是邀請、hired 是雇用、saved 是節省。"
+ },
+ {
+  "wid": 240,
+  "type": "vocab",
+  "q": "The new restaurant received high ------- from customers for its friendly service.",
+  "answer": "praise",
+  "distractors": [
+   "fuel",
+   "software",
+   "pollution"
+  ],
+  "zh": "這家新餐廳因為親切的服務而獲得顧客的高度讚揚。",
+  "ex": "receive high praise 是「獲得高度讚揚」，原因是服務親切。fuel 是燃料、software 是軟體、pollution 是污染。"
+ },
+ {
+  "wid": 241,
+  "type": "vocab",
+  "q": "There is a ------- on taking photos inside the theater.",
+  "answer": "ban",
+  "distractors": [
+   "wage",
+   "flight",
+   "brand"
+  ],
+  "zh": "劇院內禁止拍照。",
+  "ex": "a ban on + V-ing 是「禁止做…的禁令」。wage 是工資、flight 是班機、brand 是品牌，都不能接 on taking photos。"
+ },
+ {
+  "wid": 242,
+  "type": "vocab",
+  "q": "Our insurance will pay for any ------- to the car during the trip.",
+  "answer": "damage",
+  "distractors": [
+   "audience",
+   "clinic",
+   "author"
+  ],
+  "zh": "旅途中車子如果有任何損壞，我們的保險都會理賠。",
+  "ex": "damage to the car 是「車子的損壞」，保險會賠償損失。audience 是觀眾、clinic 是診所、author 是作者。"
+ },
+ {
+  "wid": 243,
+  "type": "vocab",
+  "q": "Mr. Lopez will ------- the money to my bank account by Friday.",
+  "answer": "transfer",
+  "distractors": [
+   "remind",
+   "attend",
+   "install"
+  ],
+  "zh": "羅培茲先生會在星期五前把錢轉到我的銀行帳戶。",
+  "ex": "transfer money to an account 是「把錢轉到帳戶」。remind 是提醒、attend 是參加、install 是安裝。"
+ },
+ {
+  "wid": 244,
+  "type": "vocab",
+  "q": "The company will ------- its new phone in March with a big event in Taipei.",
+  "answer": "launch",
+  "distractors": [
+   "apologize",
+   "depart",
+   "subscribe"
+  ],
+  "zh": "這家公司將於三月在台北舉辦大型活動，推出新手機。",
+  "ex": "launch a new phone 是「推出新手機」。apologize 是道歉、depart 是出發、subscribe 是訂閱，都不能接 its new phone。"
+ },
+ {
+  "wid": 245,
+  "type": "vocab",
+  "q": "The captain ------- the sailors to stay on the ship until the storm passed.",
+  "answer": "commanded",
+  "distractors": [
+   "attended",
+   "contained",
+   "calculated"
+  ],
+  "zh": "船長命令水手們留在船上，直到暴風雨過去。",
+  "ex": "command someone to do something 是「命令某人做某事」。attended 是參加、contained 是包含、calculated 是計算，都不能用在這個句型。"
+ },
+ {
+  "wid": 246,
+  "type": "vocab",
+  "q": "You should buy your tickets two weeks in ------- to get the lower price.",
+  "answer": "advance",
+  "distractors": [
+   "amount",
+   "account",
+   "area"
+  ],
+  "zh": "您應該提前兩週購票，才能享有較低的票價。",
+  "ex": "in advance 是「預先、提前」，two weeks in advance 就是提前兩週。amount 是數量、account 是帳戶、area 是地區。"
+ },
+ {
+  "wid": 247,
+  "type": "vocab",
+  "q": "These five boxes will not ------- in the back of my small car.",
+  "answer": "fit",
+  "distractors": [
+   "depart",
+   "retire",
+   "respond"
+  ],
+  "zh": "這五個箱子放不進我小車的後面。",
+  "ex": "fit in… 是「（大小）放得進…」，車子太小所以箱子放不下。depart 是出發、retire 是退休、respond 是回應。"
+ },
+ {
+  "wid": 248,
+  "type": "form",
+  "q": "Customers can ------- a seat when they buy a ticket online.",
+  "answer": "select",
+  "distractors": [
+   "selection",
+   "selective",
+   "selectively"
+  ],
+  "zh": "顧客在網路上購票時可以挑選座位。",
+  "ex": "助動詞 can 後面要接原形動詞 select「挑選」。selection 是名詞（選擇）、selective 是形容詞（挑剔的）、selectively 是副詞。"
+ },
+ {
+  "wid": 249,
+  "type": "form",
+  "q": "The two teams work in ------- offices on the third floor.",
+  "answer": "separate",
+  "distractors": [
+   "separately",
+   "separation",
+   "separates"
+  ],
+  "zh": "這兩個團隊在三樓各自不同的辦公室工作。",
+  "ex": "介系詞 in 和名詞 offices 中間要放形容詞 separate「分開的」。separately 是副詞、separation 是名詞（分開）、separates 是動詞第三人稱單數。"
+ }
+]

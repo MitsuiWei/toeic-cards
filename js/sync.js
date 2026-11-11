@@ -8,7 +8,7 @@
  *  - Firestore 離線快取開著，沒網路時照常用，恢復連線自動補寫。
  *
  * 資料位置（collection 名稱刻意獨立，不碰同一專案裡其他 app 的資料）：
- *   toeicCards/{uid}                { recs, settings, settingsUpdated, daily, updated }
+ *   toeicCards/{uid}                { recs, settings, settingsUpdated, daily, practice, pday, updated }
  *   toeicCards/{uid}/log/{YYYY-MM}  { e: [{t, id, r, s}, ...] }
  */
 (function (global) {
@@ -104,10 +104,13 @@
     unsubDoc = docRef().onSnapshot(function (snap) {
       if (snap.metadata.hasPendingWrites || !snap.exists) return;
       var r = snap.data();
-      var result = hooks.mergeRemote({ recs: r.recs, settings: r.settings, settingsUpdated: r.settingsUpdated, daily: r.daily });
+      var result = hooks.mergeRemote({ recs: r.recs, settings: r.settings, settingsUpdated: r.settingsUpdated, daily: r.daily, practice: r.practice, pday: r.pday });
       lastSync = Date.now();
       setStatus('synced');
-      if (result.localWinIds.length) noteChange({ ids: result.localWinIds, settings: result.settingsLocalWins, daily: true, log: [] });
+      var pw = result.practiceLocalWins || [], dw = result.pdayLocalWins || [];
+      if (result.localWinIds.length || pw.length || dw.length) {
+        noteChange({ ids: result.localWinIds, settings: result.settingsLocalWins, daily: true, log: [], practice: pw, pdays: dw });
+      }
       if (result.changed) hooks.render();
     }, function (e) { setStatus('error', '監聽失敗：' + friendly(e)); });
     var m = monthKey(Date.now());
@@ -130,6 +133,7 @@
     var batch = db.batch();
     batch.set(docRef(), {
       recs: s.recs, settings: s.settings, settingsUpdated: s.settingsUpdated || 0, daily: s.daily,
+      practice: s.practice || {}, pday: s.pday || {},
       updated: firebase.firestore.FieldValue.serverTimestamp()
     }, { merge: true });
     var byMonth = {};
@@ -143,11 +147,13 @@
   /* app 每次 save() 呼叫：累積變更，1.5 秒後一次推 */
   function noteChange(ch) {
     if (!user || status === 'off') return;
-    queue = queue || { ids: {}, settings: false, daily: false, log: [] };
+    queue = queue || { ids: {}, settings: false, daily: false, log: [], practice: {}, pdays: {} };
     (ch.ids || []).forEach(function (id) { queue.ids[id] = true; });
     if (ch.settings) queue.settings = true;
     if (ch.daily) queue.daily = true;
     if (ch.log && ch.log.length) queue.log = queue.log.concat(ch.log);
+    (ch.practice || []).forEach(function (k) { queue.practice[k] = true; });
+    (ch.pdays || []).forEach(function (k) { queue.pdays[k] = true; });
     clearTimeout(flushTimer);
     flushTimer = setTimeout(flushNow, 1500);
   }
@@ -161,6 +167,17 @@
     if (ids.length) { upd.recs = {}; ids.forEach(function (id) { upd.recs[id] = s.recs[id] || null; }); }
     if (q.settings) { upd.settings = s.settings; upd.settingsUpdated = s.settingsUpdated || 0; }
     if (q.daily) upd.daily = s.daily;
+    var pk = Object.keys(q.practice || {});
+    if (pk.length) {
+      upd.practice = {};
+      pk.forEach(function (k) {
+        var i = k.indexOf('|'), tp = k.slice(0, i), id = k.slice(i + 1);
+        var v = (s.practice && s.practice[tp] && s.practice[tp][id]) || null;
+        if (v) { (upd.practice[tp] = upd.practice[tp] || {})[id] = v; }
+      });
+    }
+    var dk = Object.keys(q.pdays || {});
+    if (dk.length) { upd.pday = {}; dk.forEach(function (k) { if (s.pday && s.pday[k]) upd.pday[k] = s.pday[k]; }); }
     var batch = db.batch();
     batch.set(docRef(), upd, { merge: true });
     var byMonth = {};

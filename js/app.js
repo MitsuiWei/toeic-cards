@@ -19,6 +19,7 @@
     autoSpeak: 'word',
     speakOnShow: 'yes',
     phonetic: 'kk',
+    practiceScope: 'learned',
     rate: '0.85',
     voice: ''
   };
@@ -44,10 +45,15 @@
     s.view = s.view || 'study';
     s.daily = s.daily || { day: todayKey(), newCount: 0, extraNew: 0 };
     s.settingsUpdated = s.settingsUpdated || 0;
+    // 練習成績：practice[題型][題號] = [作答次數, 答對數, 最後作答時間, 最後一次答對數]
+    s.practice = s.practice || {};
+    ['p5', 'read', 'listen'].forEach(function (k) { s.practice[k] = s.practice[k] || {}; });
+    // 每天的練習量：pday[日期] = { p5: [題數, 答對], read: [...], listen: [...], t: 最後更新時間 }
+    s.pday = s.pday || {};
     return s;
   }
   // 還沒推到雲端的變更
-  var pending = { ids: {}, settings: false, logFrom: state.log.length };
+  var pending = { ids: {}, settings: false, logFrom: state.log.length, practice: {}, pdays: {} };
   function persist() {
     try { localStorage.setItem(STORE_KEY, JSON.stringify(state)); }
     catch (e) { toast('無法儲存進度：瀏覽器儲存空間不可用'); }
@@ -58,12 +64,14 @@
     if (pending.logFrom > state.log.length) pending.logFrom = state.log.length;
     var ids = Object.keys(pending.ids);
     var entries = state.log.slice(pending.logFrom);
-    if (ids.length || pending.settings || entries.length) {
-      Sync.noteChange({ ids: ids, settings: pending.settings, daily: true, log: entries });
+    var pr = Object.keys(pending.practice), pd = Object.keys(pending.pdays);
+    if (ids.length || pending.settings || entries.length || pr.length || pd.length) {
+      Sync.noteChange({ ids: ids, settings: pending.settings, daily: true, log: entries, practice: pr, pdays: pd });
     }
-    pending = { ids: {}, settings: false, logFrom: state.log.length };
+    clearPending();
   }
-  function clearPending() { pending = { ids: {}, settings: false, logFrom: state.log.length }; }
+  function clearPending() { pending = { ids: {}, settings: false, logFrom: state.log.length, practice: {}, pdays: {} }; }
+  function notePractice(type, id) { pending.practice[type + '|' + id] = true; pending.pdays[todayKey()] = true; }
   function todayKey(t) {
     var d = new Date(t || Date.now());
     return d.getFullYear() + '-' + pad(d.getMonth() + 1) + '-' + pad(d.getDate());
@@ -157,25 +165,27 @@
   function clearSpeaking() {
     if (speakingEl) { speakingEl.classList.remove('is-speaking'); speakingEl = null; }
   }
-  /* items: [{text, el}] 依序播放 */
   // 最近一次使用者操作的時間：自動發音只在操作之後觸發（瀏覽器不允許頁面自己出聲）
   var lastGesture = 0;
   ['pointerdown', 'touchend', 'click', 'keydown'].forEach(function (ev) {
     document.addEventListener(ev, function () { lastGesture = Date.now(); }, true);
   });
-  var cancelBusyAt = 0;
+  var cancelBusyAt = 0, seqId = 0;
   function stopSpeech() {
+    seqId++;                       // 讓還在排隊的句子不再接著唸
     if (!synth) return;
     if (synth.speaking || synth.pending) cancelBusyAt = Date.now();
     synth.cancel();
     clearSpeaking();
   }
-  function speakSeq(items) {
-    if (!synth) { toast('這個瀏覽器不支援語音發音'); return; }
+  /* items: [{text, el, pause}]，pause 是唸完後停頓的毫秒數；onDone 在整串唸完或中斷時呼叫 */
+  function speakSeq(items, onDone) {
+    if (!synth) { toast('這個瀏覽器不支援語音發音'); if (onDone) onDone(); return; }
     stopSpeech();
-    var i = 0;
+    var my = seqId, i = 0;
     function next() {
-      if (i >= items.length) return;
+      if (my !== seqId) return;
+      if (i >= items.length) { if (onDone) onDone(); return; }
       var it = items[i++];
       var u = new SpeechSynthesisUtterance(it.text);
       u.lang = 'en-US';
@@ -183,8 +193,8 @@
       var v = pickVoice();
       if (v) u.voice = v;
       u.onstart = function () { clearSpeaking(); if (it.el) { it.el.classList.add('is-speaking'); speakingEl = it.el; } };
-      u.onend = function () { clearSpeaking(); next(); };
-      u.onerror = function () { clearSpeaking(); };
+      u.onend = function () { clearSpeaking(); if (it.pause) setTimeout(next, it.pause); else next(); };
+      u.onerror = function () { clearSpeaking(); if (my === seqId && onDone) onDone(); };
       synth.speak(u);
     }
     // 剛打斷正在播的語音時，Chrome 立刻 speak 偶爾會被吃掉，稍等一下；
@@ -231,6 +241,7 @@
     if (state.view === 'browse') renderBrowse();
     if (state.view === 'stats') renderStats();
     if (state.view === 'settings') renderSettings();
+    if (state.view === 'practice' && window.Practice) Practice.render();
   }
   function renderAll() { renderTabs(); renderViews(); }
 
@@ -482,6 +493,12 @@
     var newToday = todayLog.filter(function (e) { return e[3] === 'new'; }).length;
     var days = {};
     state.log.forEach(function (e) { var k = todayKey(e[0]); days[k] = (days[k] || 0) + 1; });
+    Object.keys(state.pday).forEach(function (k) {
+      var d = state.pday[k], n = 0;
+      ['p5', 'read', 'listen'].forEach(function (t) { if (d[t]) n += d[t][0] || 0; });
+      if (n) days[k] = (days[k] || 0) + n;
+    });
+    if (window.Practice) $('#pracStats').innerHTML = Practice.statsHtml();
     var streak = 0, cursor = new Date();
     if (!days[today]) cursor.setDate(cursor.getDate() - 1);
     while (days[todayKey(cursor.getTime())]) { streak++; cursor.setDate(cursor.getDate() - 1); }
@@ -525,7 +542,7 @@
     for (var t = startDay.getTime(); t <= end.getTime(); t += SRS.DAY) {
       var k2 = todayKey(t), c = days[k2] || 0;
       var lvl = c === 0 ? 0 : c < 15 ? 1 : c < 40 ? 2 : c < 80 ? 3 : 4;
-      cells += '<i data-l="' + lvl + '" title="' + k2 + '：' + c + ' 張"></i>';
+      cells += '<i data-l="' + lvl + '" title="' + k2 + '：' + c + ' 次"></i>';
     }
     $('#heat').innerHTML = cells;
 
@@ -561,6 +578,7 @@
       state.level = lv === 'all' ? 'all' : Number(lv);
       current = null; revealed = false; openItem = null; browseLimit = 80; forceAhead = false;
       if (screen) screen = null;
+      if (window.Practice) Practice.reset();
       $('#counts').hidden = false; $('#studyTools').hidden = false;
       save(); renderAll();
     });
@@ -568,6 +586,7 @@
   $all('.view-btn').forEach(function (b) {
     b.addEventListener('click', function () {
       state.view = b.getAttribute('data-view');
+      stopSpeech();
       save(); renderViews();
     });
   });
@@ -659,6 +678,9 @@
         var now = Date.now();
         Object.keys(state.recs).forEach(function (id) { state.recs[id].last = Math.max(state.recs[id].last || 0, now); pending.ids[id] = true; });
         state.settingsUpdated = now; pending.settings = true; pending.logFrom = 0;
+        ['p5', 'read', 'listen'].forEach(function (tp) { Object.keys(state.practice[tp]).forEach(function (id) { pending.practice[tp + '|' + id] = true; }); });
+        Object.keys(state.pday).forEach(function (k) { state.pday[k].t = now; pending.pdays[k] = true; });
+        if (window.Practice) Practice.reset();
         save(); renderAll(); toast('已匯入備份');
       } catch (err) { toast('這個檔案不是有效的備份'); }
     };
@@ -680,6 +702,10 @@
     state.recs = {};
     WORDS.forEach(function (w) { setRec(w.id, Object.assign(SRS.newRecord(), { last: now })); });
     state.log = []; state.daily = { day: todayKey(), newCount: 0, extraNew: 0 };
+    // 練習成績也歸零（留下時間戳，雲端才會跟著歸零）
+    ['p5', 'read', 'listen'].forEach(function (tp) { Object.keys(state.practice[tp]).forEach(function (id) { state.practice[tp][id] = [0, 0, now, 0]; pending.practice[tp + '|' + id] = true; }); });
+    Object.keys(state.pday).forEach(function (k) { state.pday[k] = { t: now }; pending.pdays[k] = true; });
+    if (window.Practice) Practice.reset();
     undoStack = []; current = null; save(); renderAll(); toast('進度已清除（雲端的紀錄檔會保留，進度會歸零）');
   });
 
@@ -744,8 +770,30 @@
       remote.log.forEach(function (e) { var k = e[0] + '-' + e[1]; if (!seen[k]) { seen[k] = 1; state.log.push(e); add++; } });
       if (add) { state.log.sort(function (a, b) { return a[0] - b[0]; }); changed = true; pending.logFrom = state.log.length; }
     }
+    var pWins = [], dWins = [];
+    if (remote.practice) {
+      ['p5', 'read', 'listen'].forEach(function (tp) {
+        var rp = remote.practice[tp] || {}, lp = state.practice[tp];
+        Object.keys(rp).forEach(function (id) {
+          var r = rp[id]; if (!Array.isArray(r)) return;
+          var l = lp[id];
+          if (!l || (r[2] || 0) > (l[2] || 0)) { lp[id] = r; changed = true; }
+          else if ((l[2] || 0) > (r[2] || 0)) pWins.push(tp + '|' + id);
+        });
+        Object.keys(lp).forEach(function (id) { if (!rp[id]) pWins.push(tp + '|' + id); });
+      });
+    }
+    if (remote.pday) {
+      Object.keys(remote.pday).forEach(function (k) {
+        var r = remote.pday[k]; if (!r || typeof r !== 'object') return;
+        var l = state.pday[k];
+        if (!l || (r.t || 0) > (l.t || 0)) { state.pday[k] = r; changed = true; }
+        else if ((l.t || 0) > (r.t || 0)) dWins.push(k);
+      });
+      Object.keys(state.pday).forEach(function (k) { if (!remote.pday[k]) dWins.push(k); });
+    }
     if (changed) persist();
-    return { changed: changed, localWinIds: localWin, settingsLocalWins: settingsLocalWins };
+    return { changed: changed, localWinIds: localWin, settingsLocalWins: settingsLocalWins, practiceLocalWins: pWins, pdayLocalWins: dWins };
   }
   function fmtTime(t) { var d = new Date(t); return pad(d.getHours()) + ':' + pad(d.getMinutes()); }
   function renderSync() {
@@ -777,6 +825,19 @@
     if (e.target.id === 'signOutBtn') { if (confirm('登出後這台裝置會保留目前進度，但不再同步。確定？')) Sync.signOut(); }
     if (e.target.id === 'syncNowBtn') { Sync.flush(); toast('已送出'); }
   });
+
+  // 給 js/practice.js 用的內部介面
+  if (window.Practice) {
+    Practice.init({
+      state: function () { return state; },
+      save: save, notePractice: notePractice, todayKey: todayKey,
+      esc: esc, toast: toast, byId: byId, rec: rec, setRec: setRec, SRS: SRS,
+      levelFilter: levelFilter, levelName: function () { return state.level === 'all' ? '全部級別' : '衝 ' + state.level + ' 分'; },
+      speak: speak, speakSeq: speakSeq, stopSpeech: stopSpeech, canSpeak: function () { return !!synth; },
+      phonHtml: phonHtml, SPK: SPK,
+      renderTabs: renderTabs, isActive: function () { return state.view === 'practice'; }
+    });
+  }
 
   renderAll();
 

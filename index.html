@@ -42,6 +42,7 @@
 
     <nav class="views" aria-label="功能">
       <button class="view-btn is-active" data-view="study">學習</button>
+      <button class="view-btn" data-view="practice">練習</button>
       <button class="view-btn" data-view="browse">單字庫</button>
       <button class="view-btn" data-view="stats">統計</button>
       <button class="view-btn" data-view="settings">設定</button>
@@ -95,6 +96,11 @@
       </div>
     </section>
 
+    <!-- ===== 練習 ===== -->
+    <section class="view view-practice" id="view-practice">
+      <div id="pracRoot"></div>
+    </section>
+
     <!-- ===== 單字庫 ===== -->
     <section class="view view-browse" id="view-browse">
       <div class="browse-bar">
@@ -116,6 +122,8 @@
     <!-- ===== 統計 ===== -->
     <section class="view view-stats" id="view-stats">
       <div class="stat-row" id="statToday"></div>
+      <h2 class="stat-h">練習</h2>
+      <div id="pracStats"></div>
       <h2 class="stat-h">各級進度</h2>
       <div class="level-bars" id="levelBars"></div>
       <h2 class="stat-h">未來 7 天到期</h2>
@@ -201,6 +209,8 @@
 <script src="https://www.gstatic.com/firebasejs/10.14.1/firebase-firestore-compat.js"></script>
 <script src="js/firebase-config.js"></script>
 <script src="js/sync.js"></script>
+<script src="data/quiz_meta.js"></script>
+<script src="js/practice.js"></script>
 <script src="js/app.js"></script>
 </body>
 </html>

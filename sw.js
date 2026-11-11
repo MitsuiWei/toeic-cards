@@ -1,7 +1,7 @@
 /* 離線快取：第一次打開後，沒網路也能用。
  * 更新網站時把 VERSION 改掉，舊快取會在下次打開時被清掉。 */
-var VERSION = 'toeic-cards-v10';
-var SHELL = ['./', './index.html', './css/style.css', './js/srs.js', './js/app.js', './data/words.js', './js/sync.js', './js/firebase-config.js', './manifest.webmanifest', './icons/icon-192.png', './icons/apple-touch-icon.png', './favicon.ico'];
+var VERSION = 'toeic-cards-v11';
+var SHELL = ['./', './index.html', './css/style.css', './js/srs.js', './js/app.js', './data/words.js', './js/sync.js', './js/firebase-config.js', './js/practice.js', './data/quiz_meta.js', './data/quiz_p5.js', './data/quiz_read.js', './data/quiz_listen.js', './manifest.webmanifest', './icons/icon-192.png', './icons/apple-touch-icon.png', './favicon.ico'];
 
 self.addEventListener('install', function (e) {
   e.waitUntil(caches.open(VERSION).then(function (c) { return c.addAll(SHELL); }).then(function () { return self.skipWaiting(); }));

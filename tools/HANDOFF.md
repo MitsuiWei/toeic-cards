@@ -12,7 +12,7 @@
 ## 2. 工作慣例
 
 - **先給使用者看畫面，他說「上線」才 commit / push。** 使用者自己沒有本機 repo，commit 和 push 都由這邊做。
-- 每次上線把 `sw.js` 的 `VERSION` 加一（目前 `toeic-cards-v12`），舊快取才會被換掉。
+- 每次上線把 `sw.js` 的 `VERSION` 加一（目前 `toeic-cards-v13`），舊快取才會被換掉。
 - 所有中文一律繁體、台灣用語；不可以出現簡體字。
 - 題目必須原創，不可抄多益官方或任何出版社的試題。
 - 主要使用裝置是 iPad 和手機：每次改版面都要檢查 320 / 390 / 820 / 1280 寬，不能有橫向溢出。
@@ -96,7 +96,7 @@ settings, settingsUpdated, daily, level, view, log
 - 統計：今日、連續天數、各級進度、未來 7 天、12 週熱力圖、最常忘的字；點「複習中／學習中／已會／還沒學」或各級那一列會列出單字。
 - 練習：單字填空（預設只出學過的字，不夠用沒學的補）、短文閱讀、聽力應答（Web Speech 唸題目與選項）。答錯的單字填空會把那個字排回單字卡。
 - 錯題分析：依題型統計「最近一次作答」的答對率、標出最弱的一類並給提示、列出錯題與當時選的選項、只重做錯題。
-- 點字存單字：`practice.js` 的 `tw()` 把英文字包成 `<span class="tw">`；`pickWord()` 查 `GLOSS`，字表內的字 `prioritize()`，字表外的字 `addCustom()`；接在稱謂或人名後面的大寫字視為專有名詞。`ALT` 表處理拼法撞到字表的字（minutes、found）。
+- 點字查意思、存單字：`practice.js` 的 `tw()` 把英文字包成 `<span class="tw">`；`pickWord()` 查 `GLOSS` 並跳出小卡，**點字本身不會存**，要按小卡上的「存起來」（`onPopClick` 的 `save`）才存：字表內的字 `prioritize()`，字表外的字 `addCustom()`。接在稱謂或人名後面的大寫字視為專有名詞。`ALT` 表處理拼法撞到字表的字（minutes、found）。
 - 鍵盤：空白鍵翻面、1–4 評分、P／S 發音、Z 復原；練習頁 1–4／A–D 作答、Enter 下一題、R 重聽、Esc 關小卡。
 
 ## 6. 題庫與小字典怎麼重建
@@ -125,7 +125,7 @@ python3 /home/claude/scripts/gloss_build.py                                 work
 ```
 node /home/claude/scripts/test_prac3.js 400     練習三種題型（可換級別），手機／iPad／桌機
 node /home/claude/scripts/test_wrong.js         統計點進去看單字、錯題分析、重做錯題
-node /home/claude/scripts/test_tap.js           點字存單字、自選分頁、同步合併（含 320 寬）
+node /home/claude/scripts/test_tap.js           點字查意思、按「存起來」才存、自選分頁、同步合併（含 320 寬）
 node /home/claude/scripts/test_legacy.js        舊格式練習紀錄的相容性
 node /home/claude/scripts/test2.js              排程與單字卡流程
 node /home/claude/scripts/test_phon.js          音標顯示

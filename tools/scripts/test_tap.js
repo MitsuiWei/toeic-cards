@@ -1,4 +1,4 @@
-// 測「點一下存單字」：字表內的字排到最前面、字表外的字進「自選」、取消、單字卡、單字庫移除、同步合併、各尺寸不溢出。
+// 測「點字查意思、按『存起來』才存」：字表內的字排到最前面、字表外的字進「自選」、取消、單字卡、單字庫移除、同步合併、各尺寸不溢出。
 const { chromium } = require('playwright');
 const SITE = 'file:///home/claude/work/site/index.html';
 const SHOTS = '/home/claude/work/shots/';
@@ -20,6 +20,9 @@ const overflow = p => p.evaluate(() => document.documentElement.scrollWidth - wi
     p.on('console', m => { if (m.type() === 'error' && !/net::|Failed to load resource/.test(m.text())) errs.push(name + ' console: ' + m.text()); });
     const shot = async (n, full) => { await p.screenshot({ path: SHOTS + 't-' + name + '-' + n + '.png', fullPage: !!full }); const o = await overflow(p); if (o > 0) errs.push(name + ' ' + n + ': overflow ' + o + 'px'); };
     const pop = async () => (await p.evaluate(() => { const e = document.getElementById('wordPop'); return e.hidden ? '(hidden)' : e.textContent.replace(/\s+/g, ' ').trim(); }));
+    const nCustom = () => p.evaluate(() => Object.values(ToeicDebug.state().custom).filter(x => !x.del).length);
+    const nPri = () => p.evaluate(() => { const s = ToeicDebug.state(); return Object.keys(s.recs).filter(k => /^\d+$/.test(k) && s.recs[k].pri).length; });   // 只算字表裡的字（自選的字本來就有 pri）
+    const save = async () => { await p.click('#wordPop [data-wp="save"]'); await p.waitForTimeout(120); return pop(); };
     const tap = async (word, scope) => { const loc = p.locator((scope || '#pracRoot') + ' .tw', { hasText: new RegExp('^' + word + '$') }).first(); await loc.click(); await p.waitForTimeout(250); return pop(); };
     await p.goto(SITE); await p.waitForTimeout(300);
     console.log(name, 'tabs:', await p.$$eval('.tab', e => e.map(x => x.textContent.replace(/\s+/g, '')).join(' | ')), '| tab widths ok:', await p.$$eval('.tab', e => e.every(x => x.scrollWidth <= x.clientWidth + 1)));
@@ -48,17 +51,23 @@ const overflow = p => p.evaluate(() => document.documentElement.scrollWidth - wi
     }
     console.log(name, 'pick gloss:', glossWord, '| list:', listWord, '| name:', nameWord);
     if (glossWord) {
-      console.log(name, 'tap gloss →', await tap(glossWord));
+      console.log(name, 'tap gloss →', await tap(glossWord), '| saved after tap only:', await nCustom(), '(should be 0)');
+      if (await nCustom() !== 0) errs.push(name + ': tap alone saved a word');
+      await shot('1-pop-ask');
+      console.log(name, 'press 存起來 →', await save(), '| saved:', await nCustom());
       await shot('1-pop-gloss');
       console.log(name, 'spoken:', (await p.evaluate(() => window.__spoken)).slice(-1), '| custom:', await p.evaluate(() => JSON.stringify(Object.values(ToeicDebug.state().custom)).slice(0, 260)));
       console.log(name, 'tab 自選 pill after save → words:', await p.evaluate(() => window.WORDS.length));
       console.log(name, 'tap again →', await tap(glossWord));
       await p.click('#wordPop [data-wp="undo"]'); await p.waitForTimeout(80);
       console.log(name, 'after remove →', await pop(), '| words:', await p.evaluate(() => window.WORDS.length), '| tombstone:', await p.evaluate(() => JSON.stringify(Object.values(ToeicDebug.state().custom).map(x => [x.del, !!x.w]))));
-      console.log(name, 'tap 3rd (re-add) →', (await tap(glossWord)).slice(0, 60));
+      console.log(name, 'tap 3rd →', (await tap(glossWord)).slice(-28), '| saved:', await nCustom(), '→ save:', (await save()).slice(-34), '| saved:', await nCustom());
     }
     if (listWord) {
-      console.log(name, 'tap list →', await tap(listWord));
+      console.log(name, 'tap list →', await tap(listWord), '| pri after tap only:', await nPri(), '(should be 0)');
+      if (await nPri() !== 0) errs.push(name + ': tap alone prioritized a word');
+      await shot('2-pop-list-ask');
+      console.log(name, 'press 存起來 →', (await save()).slice(-44));
       await shot('2-pop-list');
       const info = await p.evaluate(() => { const s = ToeicDebug.state(); const ids = Object.keys(s.recs).filter(k => s.recs[k].pri); return ids.map(k => [k, s.recs[k].st, !!s.recs[k].pri]); });
       console.log(name, 'pri recs:', JSON.stringify(info));
@@ -92,6 +101,7 @@ const overflow = p => p.evaluate(() => document.documentElement.scrollWidth - wi
     if (rw) {
       console.log(name, 'read tap', rw, '→', (await tap(rw, '.passage-text')).slice(0, 80));
       await shot('5-read-pop');
+      await save();
       console.log(name, 'saved ex:', await p.evaluate(w => { const c = Object.values(ToeicDebug.state().custom).filter(x => !x.del).pop(); return JSON.stringify([c.w, c.ex, c.hl, c.ex.slice(c.hl[0], c.hl[1])]); }, rw));
     }
     await p.keyboard.press('Escape');

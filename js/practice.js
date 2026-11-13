@@ -56,8 +56,8 @@
     document.head.appendChild(s);
   }
 
-  /* ---------- 點一個字：顯示意思並存起來 ----------
-     題目、短文、聽力原文裡的每個英文字都包成 <span class="tw">。點了之後：
+  /* ---------- 點一個字：顯示意思，確認後存起來 ----------
+     題目、短文、聽力原文裡的每個英文字都包成 <span class="tw">。點了先顯示意思；按小卡上的「存起來」之後：
        字表裡還沒學的字 → 排到那一級新字的最前面
        字表以外的字     → 存成「自選」單字（例句就是點它的那一句）
      中文解釋來自 data/gloss.js（第一次點才載入）。 */
@@ -154,17 +154,15 @@
     loadGloss(function () {
       var raw = el.textContent, r = inName(el) ? { kind: 'name', form: raw.toLowerCase() } : lookup(raw), c = el.closest('[data-ex]');
       var ex = c ? c.getAttribute('data-ex') : '', zh = c ? (c.getAttribute('data-zh') || '') : '';
-      var st = { r: r, raw: raw };
+      // 點字只是查意思；要按小卡上的「存起來」才會存（mode 是 ask-*）
+      var st = { r: r, raw: raw, ex: ex, zh: zh };
       if (r.kind === 'list') {
         var rc = T.rec(r.w.id);
         st.id = r.w.id;
-        if (rc.st !== 'new') st.mode = 'list-' + rc.st;
-        else if (rc.pri) st.mode = 'pri-old';
-        else { T.prioritize(r.w.id, true); st.mode = 'pri-new'; }
+        st.mode = rc.st !== 'new' ? 'list-' + rc.st : rc.pri ? 'pri-old' : 'ask-pri';
       } else if (r.kind === 'gloss') {
         st.id = T.customId(r.w.w);
-        if (T.byId[st.id]) st.mode = 'custom-old';
-        else { T.addCustom({ w: r.w.w, kk: r.w.kk, ip: r.w.ip, d: r.w.d, ex: ex, zh: zh, hl: hlOf(ex, raw) }); st.mode = 'custom-new'; }
+        st.mode = T.byId[st.id] ? 'custom-old' : 'ask-custom';
       } else st.mode = r.kind;
       var old = root.querySelector('.tw.is-picked'); if (old) old.classList.remove('is-picked');
       el.classList.add('is-picked');
@@ -180,23 +178,25 @@
     var r = st.r, h = '<button type="button" class="wp-x" data-wp="close" aria-label="關閉">×</button>';
     if (r.kind === 'name' || r.kind === 'none') {
       h += '<div class="wp-head"><b class="wp-plain" lang="en">' + esc(st.raw) + '</b></div><p class="wp-msg">' +
-        (r.kind === 'name' ? '專有名詞（人名、公司名或地名），不用背。' : '這個字沒有收錄中文解釋，沒有存。') + '</p>';
+        (r.kind === 'name' ? '專有名詞（人名、公司名或地名），不用背。' : '這個字沒有收錄中文解釋。') + '</p>';
     } else {
-      var w = r.w, msg, btn = '';
+      var w = r.w, msg, btn = '', save = false;
       h += '<div class="wp-head"><button type="button" class="speakable wp-word" data-wp-say="' + esc(w.w) + '" lang="en"><b>' + esc(w.w) + '</b>' + T.SPK + '</button>' + T.phonHtml(w) + '</div>';
       if (r.form !== w.w.toLowerCase()) h += '<p class="wp-form"><span lang="en">' + esc(st.raw) + '</span> 是 <span lang="en">' + esc(w.w) + '</span> 的變化形</p>';
       h += '<div class="wp-defs">' + w.d.map(function (d) { return '<span><i>(' + esc(d[0]) + ')</i> ' + esc(d[1]) + '</span>'; }).join('') + '</div>';
       if (r.alt) h += '<p class="wp-form">也可能是另一個字 <span lang="en">' + esc(r.alt.w) + '</span>：' + esc(r.alt.d.map(function (d) { return '(' + d[0] + ') ' + d[1]; }).join('　')) + '</p>';
       var lv = r.kind === 'list' ? T.lvLabel(w.lv) : '';
-      if (st.mode === 'pri-new') { msg = '<b class="wp-ok">已存起來</b>，下次背「' + lv + '」的新字會先出這個字'; btn = '取消'; }
+      if (st.mode === 'ask-custom') { msg = '要存起來背嗎？會放進「自選」'; btn = '存起來'; save = true; }
+      else if (st.mode === 'ask-pri') { msg = '這是「' + lv + '」還沒學的字，要存起來優先背嗎？'; btn = '存起來'; save = true; }
+      else if (st.mode === 'pri-new') { msg = '<b class="wp-ok">已存起來</b>，下次背「' + lv + '」的新字會先出這個字'; btn = '取消'; }
       else if (st.mode === 'pri-old') { msg = '之前存過了，會先出現在「' + lv + '」的新字裡'; btn = '取消'; }
       else if (st.mode === 'custom-new') { msg = '<b class="wp-ok">已存到「自選」</b>，之後會排進單字卡'; btn = '取消'; }
       else if (st.mode === 'custom-old') { msg = '之前存過了，在「自選」裡'; btn = '移除'; }
-      else if (st.mode === 'undone') msg = '已取消，沒有存';
       else if (st.mode === 'list-known') msg = '這個字你已經標成「已會」';
       else if (st.mode === 'list-suspended') msg = '這個字在「' + lv + '」裡，被你停用了';
       else msg = '這個字你已經在背了（' + lv + '・' + (ST_NAMES[st.mode.slice(5)] || '') + '）';
-      h += '<div class="wp-status"><span>' + msg + '</span>' + (btn ? '<button type="button" class="tool-btn" data-wp="undo">' + btn + '</button>' : '') + '</div>';
+      h += '<div class="wp-status"><span>' + msg + '</span>' +
+        (btn ? '<button type="button" class="tool-btn' + (save ? ' wp-save' : '') + '" data-wp="' + (save ? 'save' : 'undo') + '">' + btn + '</button>' : '') + '</div>';
     }
     pop.innerHTML = h;
     pop.hidden = false;
@@ -211,10 +211,19 @@
     if (say) { T.speak(say.getAttribute('data-wp-say'), say); return; }
     var b = e.target.closest('[data-wp]');
     if (!b || !popState) return;
-    if (b.getAttribute('data-wp') === 'close') { closePop(); return; }
-    if (popState.mode === 'pri-new' || popState.mode === 'pri-old') T.prioritize(popState.id, false);
-    else if (popState.mode === 'custom-new' || popState.mode === 'custom-old') T.removeCustom(popState.id);
-    popState.mode = 'undone';
+    var act = b.getAttribute('data-wp'), st = popState;
+    if (act === 'close') { closePop(); return; }
+    if (act === 'save') {                      // 確認要存
+      if (st.mode === 'ask-pri') { T.prioritize(st.id, true); st.mode = 'pri-new'; }
+      else if (st.mode === 'ask-custom') {
+        var w = st.r.w;
+        T.addCustom({ w: w.w, kk: w.kk, ip: w.ip, d: w.d, ex: st.ex, zh: st.zh, hl: hlOf(st.ex, st.raw) });
+        st.mode = 'custom-new';
+      }
+    } else if (act === 'undo') {               // 取消／移除之後回到「要存嗎」
+      if (st.mode === 'pri-new' || st.mode === 'pri-old') { T.prioritize(st.id, false); st.mode = 'ask-pri'; }
+      else if (st.mode === 'custom-new' || st.mode === 'custom-old') { T.removeCustom(st.id); st.mode = 'ask-custom'; }
+    }
     renderPop();
   }
 
@@ -358,7 +367,7 @@
       return '<div class="empty"><strong>「自選」沒有專屬的題庫</strong>這裡放的是你在練習題裡點一下存下來的字。要做練習題，請切到 400、600、800、990 或「全部」。</div>';
     }
     var h = '<p class="prac-lead">目前練習範圍：<b>' + esc(T.levelName()) + '</b>（切換級別就換題庫）。做過的題目和成績會記下來，答錯的之後會再出。' +
-      '<br><b>看到不認識的英文字，直接點它</b>：會顯示音標和中文，並存起來排進單字卡。</p><div class="prac-modes">';
+      '<br><b>看到不認識的英文字，直接點它</b>：會顯示音標和中文；想背的話再按小卡上的「存起來」，就會排進單字卡。</p><div class="prac-modes">';
     TYPES.forEach(function (tp) {
       var s = summary(tp), unit = tp === 'read' ? '篇' : '題';
       h += '<button class="prac-mode" data-start="' + tp + '">' +

@@ -487,6 +487,8 @@ kbd {
 .wp-status span { min-width: 0; }
 .wp-ok { color: var(--good); }
 .wp-status .tool-btn { margin-left: auto; flex: none; font-size: 12px; padding: 4px 12px; }
+.wp-status .wp-save { font-size: 14px; font-weight: 700; padding: 8px 18px; background: var(--orange); border-color: var(--orange); color: #fff; }
+.wp-status .wp-save:hover { background: #e67700; border-color: #e67700; color: #fff; }
 .wp-msg { margin: 6px 0 0; font-size: 14px; color: var(--muted); }
 .wq-sent { font-size: 17px; line-height: 1.6; color: var(--text); }
 .wq-sent mark { background: none; color: var(--orange); font-weight: 700; }

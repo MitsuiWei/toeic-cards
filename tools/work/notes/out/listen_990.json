@@ -1,0 +1,2102 @@
+[
+ {
+  "id": "l990-001",
+  "key": "附加問句求確認；Yes, but…＝可以但有但書",
+  "notes": [
+   {
+    "o": "Yes, but feel free to use it until someone turns up.",
+    "trap": "",
+    "why": "Yes 確認，並補充有人來之前可以先用"
+   },
+   {
+    "o": "We visited the factory last spring.",
+    "trap": "相似音陷阱",
+    "why": "visited 與 visiting 發音相近，講參觀工廠"
+   },
+   {
+    "o": "The designer sent three logo options.",
+    "trap": "相似音陷阱",
+    "why": "designer 與 designated 發音相近"
+   }
+  ]
+ },
+ {
+  "id": "l990-002",
+  "key": "附加問句求附和；Especially since＝補充同意的理由",
+  "notes": [
+   {
+    "o": "The gym equipment is brand new.",
+    "trap": "重複字陷阱",
+    "why": "重複 equipment，講健身器材，沒回應租賃"
+   },
+   {
+    "o": "Especially since we'll only need it for six months.",
+    "trap": "",
+    "why": "Especially 附和租比較實際，理由是只用半年"
+   },
+   {
+    "o": "At least a dozen people signed up.",
+    "trap": "語意不連貫",
+    "why": "報名人數與租設備無關"
+   }
+  ]
+ },
+ {
+  "id": "l990-003",
+  "key": "A or B 問句；用理由間接選「等到週末」",
+  "notes": [
+   {
+    "o": "Hold on, I'll transfer your call.",
+    "trap": "相似音陷阱",
+    "why": "Hold on 與 hold off 相近，講電話轉接"
+   },
+   {
+    "o": "The site gets the fewest visitors on Sundays.",
+    "trap": "",
+    "why": "週日訪客最少 → 暗示等到週末部署影響最小"
+   },
+   {
+    "o": "The date on the form is wrong.",
+    "trap": "相似音陷阱",
+    "why": "date 與 update 發音相近，講表格日期"
+   }
+  ]
+ },
+ {
+  "id": "l990-004",
+  "key": "陳述句說問題 → 選提議檢討；turnover＝人員流動",
+  "notes": [
+   {
+    "o": "The shelf is too high for me to reach.",
+    "trap": "一字多義陷阱",
+    "why": "high 指架子高度，不是流動率高"
+   },
+   {
+    "o": "Maybe it's time we reviewed the incentive plan.",
+    "trap": "",
+    "why": "Maybe 提議檢討獎勵制度，回應流動率問題"
+   },
+   {
+    "o": "Turn over the page and sign at the bottom.",
+    "trap": "一字多義陷阱",
+    "why": "Turn over 是翻頁，不是人員流動 turnover"
+   }
+  ]
+ },
+ {
+  "id": "l990-005",
+  "key": "A or B 問句；「平均分」＝兩者都給",
+  "notes": [
+   {
+    "o": "The center is closed on public holidays.",
+    "trap": "重複字陷阱",
+    "why": "重複 center，講假日休館，沒做選擇"
+   },
+   {
+    "o": "The donors asked us to split them evenly.",
+    "trap": "",
+    "why": "平均分配 → 兩邊都給，不是只選一個"
+   },
+   {
+    "o": "Please proceed to the front desk.",
+    "trap": "相似音陷阱",
+    "why": "proceed 與 proceeds 相近，講前往櫃台"
+   }
+  ]
+ },
+ {
+  "id": "l990-006",
+  "key": "How 問方法；聽動詞進行式的具體作法",
+  "notes": [
+   {
+    "o": "We're negotiating a bulk rate with another carrier.",
+    "trap": "",
+    "why": "說明作法：和別家貨運談大宗優惠費率"
+   },
+   {
+    "o": "The ship departs from the harbor at dawn.",
+    "trap": "重複字陷阱",
+    "why": "ship 與 shipping 相近，講船的出發"
+   },
+   {
+    "o": "I set it off by accident, sorry.",
+    "trap": "一字多義陷阱",
+    "why": "set off 是觸發，不是抵銷 offset"
+   }
+  ]
+ },
+ {
+  "id": "l990-007",
+  "key": "What accounts for 問原因；聽差異的具體來源",
+  "notes": [
+   {
+    "o": "They're in the top drawer of my desk.",
+    "trap": "答非所問",
+    "why": "drawer 是位置，不是差異的原因"
+   },
+   {
+    "o": "One of them doesn't include the delivery charge.",
+    "trap": "",
+    "why": "指出原因：其中一張沒含運費"
+   },
+   {
+    "o": "I opened both accounts at the same bank.",
+    "trap": "一字多義陷阱",
+    "why": "accounts 指銀行帳戶，不是 account for"
+   }
+  ]
+ },
+ {
+  "id": "l990-008",
+  "key": "Can you 請求；「放桌上我看看」＝願意處理",
+  "notes": [
+   {
+    "o": "The names are listed in alphabetical order.",
+    "trap": "一字多義陷阱",
+    "why": "order 指排序，不是採購單"
+   },
+   {
+    "o": "The leaves are turning red already.",
+    "trap": "相似音陷阱",
+    "why": "leaves 與 leave 發音相近，講樹葉"
+   },
+   {
+    "o": "Leave it on my desk and I'll look it over.",
+    "trap": "",
+    "why": "放桌上我會看 → 答應盡量處理"
+   }
+  ]
+ },
+ {
+  "id": "l990-009",
+  "key": "Can…handle 問能否應付；「測試當機」＝不行",
+  "notes": [
+   {
+    "o": "I ordered the soup and a salad.",
+    "trap": "一字多義陷阱",
+    "why": "ordered 指點餐，不是訂單暴增"
+   },
+   {
+    "o": "Please handle the boxes with care.",
+    "trap": "重複字陷阱",
+    "why": "重複 handle，指搬運箱子"
+   },
+   {
+    "o": "It crashed twice during last week's test.",
+    "trap": "",
+    "why": "測試當機兩次 → 暗示應付不了暴增"
+   }
+  ]
+ },
+ {
+  "id": "l990-010",
+  "key": "Why 問原因；聽人力、故障等具體原因",
+  "notes": [
+   {
+    "o": "By the end of the week at the latest.",
+    "trap": "答非所問",
+    "why": "By the end of week 是期限，不是原因"
+   },
+   {
+    "o": "Please log back in and try again.",
+    "trap": "相似音陷阱",
+    "why": "log 與 backlog 的 log 相近，講登入"
+   },
+   {
+    "o": "Half the support team is away at an offsite workshop.",
+    "trap": "",
+    "why": "說出原因：客服團隊一半的人不在"
+   }
+  ]
+ },
+ {
+  "id": "l990-011",
+  "key": "Isn't supposed to 確認預定；回延期＝不是週一",
+  "notes": [
+   {
+    "o": "The auditorium seats five hundred people.",
+    "trap": "相似音陷阱",
+    "why": "auditorium 與 audit 發音相近"
+   },
+   {
+    "o": "The comments were very helpful.",
+    "trap": "相似音陷阱",
+    "why": "comments 與 commence 發音相近"
+   },
+   {
+    "o": "The auditors asked to push it back a week.",
+    "trap": "",
+    "why": "要求延一週 → 暗示不是下週一開始"
+   }
+  ]
+ },
+ {
+  "id": "l990-012",
+  "key": "Do we need 問需不需要；引用規定＝需要",
+  "notes": [
+   {
+    "o": "I bid on a painting at an auction once.",
+    "trap": "重複字陷阱",
+    "why": "重複 bid，講競標畫作，沒回答規定"
+   },
+   {
+    "o": "The supplies are in the storage closet.",
+    "trap": "相似音陷阱",
+    "why": "supplies 與 supplier 相近，講用品位置"
+   },
+   {
+    "o": "Company policy calls for at least three.",
+    "trap": "",
+    "why": "規定至少三家 → 暗示需要多家報價"
+   }
+  ]
+ },
+ {
+  "id": "l990-013",
+  "key": "附加問句求確認；說明代理＝不是原定人選",
+  "notes": [
+   {
+    "o": "The strategy worked better than expected.",
+    "trap": "重複字陷阱",
+    "why": "重複 strategy，評價策略，沒說誰主持"
+   },
+   {
+    "o": "She's on leave, so Mr. Chen is filling in.",
+    "trap": "",
+    "why": "她請假、陳先生代理 → 這次不是她主持"
+   },
+   {
+    "o": "The facilities include a pool and a gym.",
+    "trap": "相似音陷阱",
+    "why": "facilities 與 facilitate 發音相近"
+   }
+  ]
+ },
+ {
+  "id": "l990-014",
+  "key": "Could you 請求；說出具體作法＝答應",
+  "notes": [
+   {
+    "o": "The interest rate has gone up again.",
+    "trap": "一字多義陷阱",
+    "why": "interest 指利息，不是對彈性工時的興趣"
+   },
+   {
+    "o": "Your flight departs from gate nine.",
+    "trap": "相似音陷阱",
+    "why": "gate 與 gauge 發音相近，講登機門"
+   },
+   {
+    "o": "I'll send out a short survey this afternoon.",
+    "trap": "",
+    "why": "答應，並說要發問卷來了解意願"
+   }
+  ]
+ },
+ {
+  "id": "l990-015",
+  "key": "Didn't 確認過去經歷；回答細節＝間接肯定",
+  "notes": [
+   {
+    "o": "She overslept and missed the bus.",
+    "trap": "相似音陷阱",
+    "why": "overslept 與 oversee 的 over 相近"
+   },
+   {
+    "o": "I'd like to transfer money to my savings account.",
+    "trap": "一字多義陷阱",
+    "why": "transfer 指轉帳，不是調職"
+   },
+   {
+    "o": "For about three years, I believe.",
+    "trap": "",
+    "why": "回答任期約三年 → 間接肯定她確實管過"
+   }
+  ]
+ },
+ {
+  "id": "l990-016",
+  "key": "Does…apply to 問適用對象；說「針對正職」＝不適用",
+  "notes": [
+   {
+    "o": "It's meant for full-time staff, as I understand it.",
+    "trap": "",
+    "why": "只針對正職 → 暗示不適用約聘人員"
+   },
+   {
+    "o": "I applied for the position online.",
+    "trap": "一字多義陷阱",
+    "why": "applied for 是應徵，不是 apply to 適用"
+   },
+   {
+    "o": "The attendance was better than last year.",
+    "trap": "重複字陷阱",
+    "why": "重複 attendance，講出席人數，沒答適用對象"
+   }
+  ]
+ },
+ {
+  "id": "l990-017",
+  "key": "A or B 問句；用班機時間暗示會留下",
+  "notes": [
+   {
+    "o": "The shop is closing in ten minutes.",
+    "trap": "重複字陷阱",
+    "why": "closing 是打烊，不是閉幕酒會"
+   },
+   {
+    "o": "The receptionist is on her lunch break.",
+    "trap": "相似音陷阱",
+    "why": "receptionist 與 reception 發音相近"
+   },
+   {
+    "o": "My flight isn't until tomorrow afternoon.",
+    "trap": "",
+    "why": "班機明天下午 → 今晚不走，會留下參加"
+   }
+  ]
+ },
+ {
+  "id": "l990-018",
+  "key": "陳述句報喜 → 選表揚、附和的回應",
+  "notes": [
+   {
+    "o": "I'd like a price quote for this printer.",
+    "trap": "相似音陷阱",
+    "why": "quote 與 quota 發音相近，講報價"
+   },
+   {
+    "o": "The team deserves some recognition for that.",
+    "trap": "",
+    "why": "附和喜訊：團隊值得表揚"
+   },
+   {
+    "o": "The margins on this page are too narrow.",
+    "trap": "一字多義陷阱",
+    "why": "margins 指頁面邊界，不是超額幅度"
+   }
+  ]
+ },
+ {
+  "id": "l990-019",
+  "key": "陳述句有但書 → 選補救辦法；lacks＝缺乏",
+  "notes": [
+   {
+    "o": "The manager's office is down the hall.",
+    "trap": "重複字陷阱",
+    "why": "重複 manager，講辦公室位置"
+   },
+   {
+    "o": "We could pair him with a senior mentor at first.",
+    "trap": "",
+    "why": "提出補救：安排導師彌補管理經驗不足"
+   },
+   {
+    "o": "I left my credit card at home.",
+    "trap": "相似音陷阱",
+    "why": "credit card 與 credentials 發音相近"
+   }
+  ]
+ },
+ {
+  "id": "l990-020",
+  "key": "A or B 問句；「你比我熟」＝請對方自己報告",
+  "notes": [
+   {
+    "o": "I bought her a present yesterday.",
+    "trap": "一字多義陷阱",
+    "why": "present 指禮物，不是做報告"
+   },
+   {
+    "o": "The room is about ten meters long.",
+    "trap": "相似音陷阱",
+    "why": "meters 與 metrics 發音相近"
+   },
+   {
+    "o": "You know the figures better than I do.",
+    "trap": "",
+    "why": "你比我熟 → 暗示由對方自己報告"
+   }
+  ]
+ },
+ {
+  "id": "l990-021",
+  "key": "陳述句描述現象 → 選說明因應作法",
+  "notes": [
+   {
+    "o": "That's why we bring in seasonal staff.",
+    "trap": "",
+    "why": "That's why 承接銷量起伏，說明找季節人手"
+   },
+   {
+    "o": "I'm spending the holidays with my family.",
+    "trap": "重複字陷阱",
+    "why": "重複 holidays，講自己的假期，沒回應銷售"
+   },
+   {
+    "o": "The sailboat tour leaves at noon.",
+    "trap": "相似音陷阱",
+    "why": "sailboat 與 sales 發音相近"
+   }
+  ]
+ },
+ {
+  "id": "l990-022",
+  "key": "Has…finished 問完成沒；要求延期＝還沒完成",
+  "notes": [
+   {
+    "o": "He's quite a reliable colleague.",
+    "trap": "相似音陷阱",
+    "why": "reliable 與 liability 發音相近"
+   },
+   {
+    "o": "They've asked for an extension until Thursday.",
+    "trap": "",
+    "why": "要求延到週四 → 暗示還沒評估完"
+   },
+   {
+    "o": "The legal department is on the ninth floor.",
+    "trap": "重複字陷阱",
+    "why": "重複 legal，講部門樓層，沒答進度"
+   }
+  ]
+ },
+ {
+  "id": "l990-023",
+  "key": "陳述句講期限 → 選表達時間緊迫的回應",
+  "notes": [
+   {
+    "o": "That doesn't leave us much time to run the numbers.",
+    "trap": "",
+    "why": "時間不多，不夠把數字算過一遍"
+   },
+   {
+    "o": "I usually have lunch around noon.",
+    "trap": "重複字陷阱",
+    "why": "重複 noon，講午餐時間，沒回應期限"
+   },
+   {
+    "o": "The answering machine is full.",
+    "trap": "一字多義陷阱",
+    "why": "answering machine 是答錄機，不是答覆"
+   }
+  ]
+ },
+ {
+  "id": "l990-024",
+  "key": "When 問時間；「大多兩週內」是期間說法",
+  "notes": [
+   {
+    "o": "In the training room on the second floor.",
+    "trap": "答非所問",
+    "why": "training room 是地點，不是時間"
+   },
+   {
+    "o": "We're boarding at gate twelve.",
+    "trap": "相似音陷阱",
+    "why": "boarding 與 onboarding 發音相近"
+   },
+   {
+    "o": "It varies, but most are done within two weeks.",
+    "trap": "",
+    "why": "沒給確切日期，但說大多兩週內完成"
+   }
+  ]
+ },
+ {
+  "id": "l990-025",
+  "key": "附加問句確認「交了沒」；缺東西＝還沒交",
+  "notes": [
+   {
+    "o": "I haven't been to that restaurant.",
+    "trap": "語意不連貫",
+    "why": "沒去過餐廳與費用報告無關"
+   },
+   {
+    "o": "I'm still missing one hotel receipt.",
+    "trap": "",
+    "why": "還缺一張收據 → 暗示報告還沒交"
+   },
+   {
+    "o": "The weather report says rain.",
+    "trap": "重複字陷阱",
+    "why": "重複 report，講天氣預報"
+   }
+  ]
+ },
+ {
+  "id": "l990-026",
+  "key": "Weren't…due 問該交了沒；說對方晚交＝還沒交",
+  "notes": [
+   {
+    "o": "The regional offices were late sending their data.",
+    "trap": "",
+    "why": "區域辦公室資料晚交 → 所以數字還沒交"
+   },
+   {
+    "o": "The sale ends this Sunday.",
+    "trap": "一字多義陷阱",
+    "why": "sale 指特賣，不是 sales figures 銷售數字"
+   },
+   {
+    "o": "He's due to arrive at noon.",
+    "trap": "重複字陷阱",
+    "why": "重複 due，講他預計抵達，主詞也不合"
+   }
+  ]
+ },
+ {
+  "id": "l990-027",
+  "key": "Don't you think 徵詢看法；「只是起步」＝不完全同意",
+  "notes": [
+   {
+    "o": "I'm paying close attention.",
+    "trap": "相似音陷阱",
+    "why": "attention 與 retention 發音相近"
+   },
+   {
+    "o": "It's a start, but salaries are the underlying issue.",
+    "trap": "",
+    "why": "只是起步，根本問題是薪水 → 不完全同意"
+   },
+   {
+    "o": "The staff room is on the left.",
+    "trap": "重複字陷阱",
+    "why": "重複 staff，講休息室位置，沒表態"
+   }
+  ]
+ },
+ {
+  "id": "l990-028",
+  "key": "陳述句報壞消息 → 選因應行動",
+  "notes": [
+   {
+    "o": "This sticker won't come off the box.",
+    "trap": "相似音陷阱",
+    "why": "sticker 與 stuck 發音相近，講貼紙"
+   },
+   {
+    "o": "The customer left a five-star review.",
+    "trap": "相似音陷阱",
+    "why": "customer 與 customs 發音相近"
+   },
+   {
+    "o": "We'd better warn the retailers about a delay.",
+    "trap": "",
+    "why": "提議通知零售商延誤，是合理的因應"
+   }
+  ]
+ },
+ {
+  "id": "l990-029",
+  "key": "What did…say 問說了什麼；「我先走了」＝不知道",
+  "notes": [
+   {
+    "o": "I had to leave before she got to that item.",
+    "trap": "",
+    "why": "沒聽到她講合併案 → 間接表示不知道"
+   },
+   {
+    "o": "The chairs in the boardroom are quite comfortable.",
+    "trap": "重複字陷阱",
+    "why": "chairs 與 chairperson 的 chair 相近，講椅子"
+   },
+   {
+    "o": "It's a major road, so traffic is heavy.",
+    "trap": "相似音陷阱",
+    "why": "major 與 merger 發音相近，講幹道"
+   }
+  ]
+ },
+ {
+  "id": "l990-030",
+  "key": "Hasn't…finished 問還沒好嗎；等零件＝還沒好",
+  "notes": [
+   {
+    "o": "The installment is due on the first.",
+    "trap": "相似音陷阱",
+    "why": "installment 與 installing 相近，講分期款"
+   },
+   {
+    "o": "They're waiting for a few parts to arrive.",
+    "trap": "",
+    "why": "在等零件 → 暗示還沒裝好"
+   },
+   {
+    "o": "The new workstations cost about nine hundred dollars each.",
+    "trap": "重複字陷阱",
+    "why": "重複 workstations，講價格，沒答進度"
+   }
+  ]
+ },
+ {
+  "id": "l990-031",
+  "key": "Did…comply 問有沒有遵守；用結果間接回答",
+  "notes": [
+   {
+    "o": "She specializes in tax law.",
+    "trap": "相似音陷阱",
+    "why": "specializes 與 specifications 發音相近"
+   },
+   {
+    "o": "The last three shipments arrived exactly as requested.",
+    "trap": "",
+    "why": "最近三批完全照要求 → 暗示有遵守規格"
+   },
+   {
+    "o": "The complaint form is on our website.",
+    "trap": "相似音陷阱",
+    "why": "complaint 與 comply 發音相近"
+   }
+  ]
+ },
+ {
+  "id": "l990-032",
+  "key": "Should we 問該不該；「等驗證」＝現在先別公開",
+  "notes": [
+   {
+    "o": "Let's wait until the data has been verified.",
+    "trap": "",
+    "why": "等資料驗證 → 暗示現在先不要告知"
+   },
+   {
+    "o": "The store closes at nine on weekdays.",
+    "trap": "語意不連貫",
+    "why": "店家營業時間與是否告知客戶無關"
+   },
+   {
+    "o": "The test was easier than I expected.",
+    "trap": "一字多義陷阱",
+    "why": "test 指考試，不是測試結果"
+   }
+  ]
+ },
+ {
+  "id": "l990-033",
+  "key": "陳述句講問題 → 選處理動作；discrepancy＝不符",
+  "notes": [
+   {
+    "o": "The latest train leaves at midnight.",
+    "trap": "重複字陷阱",
+    "why": "重複 latest，講末班火車"
+   },
+   {
+    "o": "I'll pull up the order and compare the totals.",
+    "trap": "",
+    "why": "調出訂單核對總額，是處理不符的做法"
+   },
+   {
+    "o": "Her voice is very clear.",
+    "trap": "語意不連貫",
+    "why": "聲音清不清楚與發票無關"
+   }
+  ]
+ },
+ {
+  "id": "l990-034",
+  "key": "Is…going to 問會不會；「週五才宣布」＝未定",
+  "notes": [
+   {
+    "o": "The announcement won't be made until Friday.",
+    "trap": "",
+    "why": "週五才宣布 → 目前還不確定"
+   },
+   {
+    "o": "The event was a great success.",
+    "trap": "相似音陷阱",
+    "why": "success 與 succeed 同字根，講活動成功"
+   },
+   {
+    "o": "He gave me clear directions to the station.",
+    "trap": "相似音陷阱",
+    "why": "directions 與 director 發音相近"
+   }
+  ]
+ },
+ {
+  "id": "l990-035",
+  "key": "A or B 問句；用條件暗示「會員專屬」",
+  "notes": [
+   {
+    "o": "We open at eight every morning.",
+    "trap": "重複字陷阱",
+    "why": "重複 open，講營業時間，沒做選擇"
+   },
+   {
+    "o": "You'll need to show a membership card at checkout.",
+    "trap": "",
+    "why": "要出示會員卡 → 暗示折扣是會員專屬"
+   },
+   {
+    "o": "I can count on him every time.",
+    "trap": "相似音陷阱",
+    "why": "count 與 discount 的 count 相近"
+   }
+  ]
+ },
+ {
+  "id": "l990-036",
+  "key": "附加問句問有沒有違約；「審閱中」＝未定",
+  "notes": [
+   {
+    "o": "Our lawyers are reviewing the delivery terms now.",
+    "trap": "",
+    "why": "律師在審閱 → 目前還不確定有沒有違約"
+   },
+   {
+    "o": "The beach is only ten minutes away.",
+    "trap": "相似音陷阱",
+    "why": "beach 與 breach 發音相近"
+   },
+   {
+    "o": "They supply paper to most local schools.",
+    "trap": "重複字陷阱",
+    "why": "supply 與 supplier 相近，講供應紙張"
+   }
+  ]
+ },
+ {
+  "id": "l990-037",
+  "key": "Who 問人；職稱＋簽核＝回答誰核准",
+  "notes": [
+   {
+    "o": "He traveled by train both ways.",
+    "trap": "重複字陷阱",
+    "why": "traveled 與 travel 相近，講交通方式"
+   },
+   {
+    "o": "The author will sign copies after the talk.",
+    "trap": "相似音陷阱",
+    "why": "author 與 authorized 發音相近"
+   },
+   {
+    "o": "His department head signs off on those.",
+    "trap": "",
+    "why": "department head 是人，簽核表示由他核准"
+   }
+  ]
+ },
+ {
+  "id": "l990-038",
+  "key": "陳述句說問題 → 選推測原因的回應",
+  "notes": [
+   {
+    "o": "I logged ten hours of overtime last week.",
+    "trap": "一字多義陷阱",
+    "why": "logged 指記錄時數，不是登入 log in"
+   },
+   {
+    "o": "Your password may have expired.",
+    "trap": "",
+    "why": "密碼可能過期，是登入失敗的可能原因"
+   },
+   {
+    "o": "The logo looks great on the box.",
+    "trap": "相似音陷阱",
+    "why": "logo 與 log 發音相近"
+   }
+  ]
+ },
+ {
+  "id": "l990-039",
+  "key": "How much 問費用；「先查費率」＝現在還不知道",
+  "notes": [
+   {
+    "o": "My assignment was to call the branch manager.",
+    "trap": "相似音陷阱",
+    "why": "assignment 與 consignment 發音相近"
+   },
+   {
+    "o": "Let me check the courier's rate sheet first.",
+    "trap": "",
+    "why": "先查費率表 → 現在還不知道價格"
+   },
+   {
+    "o": "It should arrive within three business days.",
+    "trap": "答非所問",
+    "why": "三個工作天是時間，不是費用"
+   }
+  ]
+ },
+ {
+  "id": "l990-040",
+  "key": "A or B 問句；回「哪個趕得上就哪個」＝重時效",
+  "notes": [
+   {
+    "o": "I can see the harbor from my window.",
+    "trap": "相關字陷阱",
+    "why": "港口與海運相關，沒做選擇"
+   },
+   {
+    "o": "Whichever gets them there before the trade fair.",
+    "trap": "",
+    "why": "以趕上商展為標準，哪種都行"
+   },
+   {
+    "o": "The air conditioner needs to be repaired.",
+    "trap": "重複字陷阱",
+    "why": "air 重複，指冷氣，不是空運"
+   }
+  ]
+ },
+ {
+  "id": "l990-041",
+  "key": "Could you 請求；Of course＋直接開始講",
+  "notes": [
+   {
+    "o": "The late fee is ten dollars.",
+    "trap": "重複字陷阱",
+    "why": "重複 late，講逾期費，沒回應請求"
+   },
+   {
+    "o": "Of course. First, the launch date has moved.",
+    "trap": "",
+    "why": "Of course 答應，並直接開始講第一點"
+   },
+   {
+    "o": "It's impolite to point at people.",
+    "trap": "一字多義陷阱",
+    "why": "point 是用手指，不是要點"
+   }
+  ]
+ },
+ {
+  "id": "l990-042",
+  "key": "Could you 請求；Sure, once…＝答應但要等",
+  "notes": [
+   {
+    "o": "Sure, once the last few come in.",
+    "trap": "",
+    "why": "Sure 答應，但要等最後幾份回覆才做"
+   },
+   {
+    "o": "The pile of boxes fell over.",
+    "trap": "相似音陷阱",
+    "why": "pile 與 compile 發音相近，講箱子倒了"
+   },
+   {
+    "o": "I'd like a single room, please.",
+    "trap": "重複字陷阱",
+    "why": "重複 single，講單人房，沒回應請求"
+   }
+  ]
+ },
+ {
+  "id": "l990-043",
+  "key": "附加問句求確認；說「已安排」＝肯定",
+  "notes": [
+   {
+    "o": "It's a logical conclusion.",
+    "trap": "相似音陷阱",
+    "why": "logical 與 logistics 發音相近"
+   },
+   {
+    "o": "I've already set up a weekly call with them.",
+    "trap": "",
+    "why": "已約好每週電話 → 肯定會與新加坡聯繫"
+   },
+   {
+    "o": "The post office closes at five.",
+    "trap": "語意不連貫",
+    "why": "郵局營業時間與聯繫窗口無關"
+   }
+  ]
+ },
+ {
+  "id": "l990-044",
+  "key": "附加問句問「沒豁免吧」；「每棟都要」＝沒豁免",
+  "notes": [
+   {
+    "o": "Every building on the premises has to be checked.",
+    "trap": "",
+    "why": "每棟建築都要檢查 → 暗示我們沒有豁免"
+   },
+   {
+    "o": "I made several attempts to call.",
+    "trap": "相似音陷阱",
+    "why": "attempts 與 exempt 發音相近"
+   },
+   {
+    "o": "Keep your valuables in the hotel safe.",
+    "trap": "重複字陷阱",
+    "why": "safe 與 safety 相近，講保險箱"
+   }
+  ]
+ },
+ {
+  "id": "l990-045",
+  "key": "Are…entitled 問有沒有資格；「只有…時」＝有條件",
+  "notes": [
+   {
+    "o": "Only when they're visiting a client.",
+    "trap": "",
+    "why": "only when 表示有條件：只限拜訪客戶"
+   },
+   {
+    "o": "The park is lovely in spring.",
+    "trap": "一字多義陷阱",
+    "why": "park 指公園，不是停車 parking"
+   },
+   {
+    "o": "The title of the report is too long.",
+    "trap": "相似音陷阱",
+    "why": "title 與 entitled 發音相近"
+   }
+  ]
+ },
+ {
+  "id": "l990-046",
+  "key": "Haven't…been paid 問還沒付嗎；說對方承諾＝還沒付",
+  "notes": [
+   {
+    "o": "The client promised a transfer by Friday.",
+    "trap": "",
+    "why": "客戶答應週五前匯款 → 目前還沒付清"
+   },
+   {
+    "o": "The pay raise takes effect in July.",
+    "trap": "重複字陷阱",
+    "why": "pay 與 paid 相近，講加薪生效"
+   },
+   {
+    "o": "Thank you, she did an outstanding job.",
+    "trap": "一字多義陷阱",
+    "why": "outstanding 指出色，不是未付"
+   }
+  ]
+ },
+ {
+  "id": "l990-047",
+  "key": "陳述句報好消息 → 選附和、展望的回應",
+  "notes": [
+   {
+    "o": "That's a good sign for next month's launch.",
+    "trap": "",
+    "why": "a good sign 附和好消息，並展望上市"
+   },
+   {
+    "o": "I'm positive I locked the door.",
+    "trap": "一字多義陷阱",
+    "why": "positive 指確定，不是正面"
+   },
+   {
+    "o": "I'd like to buy two tickets, please.",
+    "trap": "相似音陷阱",
+    "why": "buy 與 buyers 發音相近"
+   }
+  ]
+ },
+ {
+  "id": "l990-048",
+  "key": "A or B 問句；「沒數字沒意義」＝先等結果",
+  "notes": [
+   {
+    "o": "The committee has seven members.",
+    "trap": "重複字陷阱",
+    "why": "重複 committee，講人數，沒做選擇"
+   },
+   {
+    "o": "Yes, it's very convenient for me.",
+    "trap": "相似音陷阱",
+    "why": "convenient 與 convene 相近；Yes 也不合"
+   },
+   {
+    "o": "There's little point in meeting without the numbers.",
+    "trap": "",
+    "why": "沒數字開會沒意義 → 暗示等查帳結果"
+   }
+  ]
+ },
+ {
+  "id": "l990-049",
+  "key": "Why 問原因；聽瑕疵、延誤等具體原因",
+  "notes": [
+   {
+    "o": "They sent us a thank-you card last week.",
+    "trap": "重複字陷阱",
+    "why": "重複 sent，講感謝卡，沒說原因"
+   },
+   {
+    "o": "Yes, I typed it up this morning.",
+    "trap": "Yes／No 陷阱",
+    "why": "Why 問句不能用 Yes 回答"
+   },
+   {
+    "o": "The engineers found a flaw in the latest test.",
+    "trap": "",
+    "why": "說出原因：測試發現瑕疵"
+   }
+  ]
+ },
+ {
+  "id": "l990-050",
+  "key": "Could you help 請求；先反問排除步驟＝願意協助",
+  "notes": [
+   {
+    "o": "Registration closes at five o'clock.",
+    "trap": "相似音陷阱",
+    "why": "Registration 與 register 發音相近"
+   },
+   {
+    "o": "I read the card you sent me.",
+    "trap": "重複字陷阱",
+    "why": "重複 card，講讀卡片，沒回應請求"
+   },
+   {
+    "o": "Have you tried restarting it?",
+    "trap": "",
+    "why": "先問是否重開機 → 願意協助，先排除簡單原因"
+   }
+  ]
+ },
+ {
+  "id": "l990-051",
+  "key": "Wouldn't 否定問句；It would, but…＝同意但有阻礙",
+  "notes": [
+   {
+    "o": "The ship docks at pier seven.",
+    "trap": "重複字陷阱",
+    "why": "ship 與 shipments 相近，講船靠港"
+   },
+   {
+    "o": "The economy class seats were full.",
+    "trap": "相似音陷阱",
+    "why": "economy 與 economical 相近，講經濟艙"
+   },
+   {
+    "o": "It would, but the client wants them on separate dates.",
+    "trap": "",
+    "why": "It would 同意較省錢，but 說明客戶要分開到貨"
+   }
+  ]
+ },
+ {
+  "id": "l990-052",
+  "key": "Have you had a chance 問做了沒；等收據＝還沒做",
+  "notes": [
+   {
+    "o": "I'm still waiting on a few receipts from sales.",
+    "trap": "",
+    "why": "還在等收據 → 暗示帳還沒核對完"
+   },
+   {
+    "o": "We recycle paper and plastic here.",
+    "trap": "相似音陷阱",
+    "why": "recycle 與 reconcile 發音相近"
+   },
+   {
+    "o": "There's a good chance of rain tomorrow.",
+    "trap": "一字多義陷阱",
+    "why": "chance 指機率，不是有機會做某事"
+   }
+  ]
+ },
+ {
+  "id": "l990-053",
+  "key": "Would you please 請求；Understood＝答應",
+  "notes": [
+   {
+    "o": "Understood. I'll keep it to myself for now.",
+    "trap": "",
+    "why": "Understood 答應，暫時不會說出去"
+   },
+   {
+    "o": "The road sign was hard to read.",
+    "trap": "重複字陷阱",
+    "why": "sign 與 signed 相近，講路標"
+   },
+   {
+    "o": "Please hold the elevator for me.",
+    "trap": "相似音陷阱",
+    "why": "hold 與 withhold 相近，講按住電梯"
+   }
+  ]
+ },
+ {
+  "id": "l990-054",
+  "key": "Where 問去哪找；說「還在整理」＝暫時找不到",
+  "notes": [
+   {
+    "o": "It lasted about ninety minutes.",
+    "trap": "一字多義陷阱",
+    "why": "minutes 指分鐘，不是會議紀錄"
+   },
+   {
+    "o": "Ms. Lin is still typing them up.",
+    "trap": "",
+    "why": "還在打字整理 → 暗示紀錄暫時還沒有"
+   },
+   {
+    "o": "I was so bored I nearly fell asleep.",
+    "trap": "相似音陷阱",
+    "why": "bored 與 board 發音相近"
+   }
+  ]
+ },
+ {
+  "id": "l990-055",
+  "key": "陳述句說不滿 → 選說明原因的回應",
+  "notes": [
+   {
+    "o": "Please share the document with everyone.",
+    "trap": "重複字陷阱",
+    "why": "share 與 shareholders 相近，講分享文件"
+   },
+   {
+    "o": "We divided the bill equally.",
+    "trap": "相似音陷阱",
+    "why": "divided 與 dividend 發音相近，講平分帳單"
+   },
+   {
+    "o": "With profits down, a smaller payout was inevitable.",
+    "trap": "",
+    "why": "說明原因：獲利下滑，股利變少免不了"
+   }
+  ]
+ },
+ {
+  "id": "l990-056",
+  "key": "陳述句報設備故障 → 選建議報修",
+  "notes": [
+   {
+    "o": "The train station is two blocks away.",
+    "trap": "語意不連貫",
+    "why": "火車站距離與冷氣故障無關"
+   },
+   {
+    "o": "You should report that to the facilities team.",
+    "trap": "",
+    "why": "建議向設施組報修，回應冷氣故障"
+   },
+   {
+    "o": "Please shut the door behind you.",
+    "trap": "重複字陷阱",
+    "why": "shut 重複，講關門，沒回應故障"
+   }
+  ]
+ },
+ {
+  "id": "l990-057",
+  "key": "附加問句問「沒變吧」；Only…＝其實有變",
+  "notes": [
+   {
+    "o": "She used to be a fashion model.",
+    "trap": "一字多義陷阱",
+    "why": "model 指模特兒，不是機型"
+   },
+   {
+    "o": "I need change for the vending machine.",
+    "trap": "一字多義陷阱",
+    "why": "change 指零錢，不是規格改變"
+   },
+   {
+    "o": "Only the battery capacity, as far as I know.",
+    "trap": "",
+    "why": "Only 表示只有電池容量有變 → 規格並非全沒變"
+   }
+  ]
+ },
+ {
+  "id": "l990-058",
+  "key": "Who 問人；「還沒決定」＝目前沒有人選",
+  "notes": [
+   {
+    "o": "It rolls out at the start of next quarter.",
+    "trap": "答非所問",
+    "why": "回答上線時間，不是誰"
+   },
+   {
+    "o": "I overlooked the last paragraph, sorry.",
+    "trap": "相似音陷阱",
+    "why": "overlooked 與 oversee 的 over 相近"
+   },
+   {
+    "o": "That hasn't been decided yet, as far as I know.",
+    "trap": "",
+    "why": "還沒決定 → 目前沒有人選"
+   }
+  ]
+ },
+ {
+  "id": "l990-059",
+  "key": "問走路到得了嗎；提接駁車＝暗示走路不方便",
+  "notes": [
+   {
+    "o": "There's a free shuttle every fifteen minutes.",
+    "trap": "",
+    "why": "有免費接駁車 → 暗示距離遠，走路不太方便"
+   },
+   {
+    "o": "I've been working there for a decade.",
+    "trap": "語意不連貫",
+    "why": "工作十年與場地距離無關"
+   },
+   {
+    "o": "The conference call went well.",
+    "trap": "重複字陷阱",
+    "why": "重複 conference，講電話會議，沒答距離"
+   }
+  ]
+ },
+ {
+  "id": "l990-060",
+  "key": "How did…react 問反應；聽對方的態度",
+  "notes": [
+   {
+    "o": "I figured it out by myself, thanks.",
+    "trap": "相似音陷阱",
+    "why": "figured 與 figures 發音相近"
+   },
+   {
+    "o": "They want a more detailed breakdown before they commit.",
+    "trap": "",
+    "why": "說出反應：想先看更詳細的明細才表態"
+   },
+   {
+    "o": "The preliminary round starts at nine.",
+    "trap": "重複字陷阱",
+    "why": "重複 preliminary，講預賽時間"
+   }
+  ]
+ },
+ {
+  "id": "l990-061",
+  "key": "陳述句抱怨難用 → 選提供協助",
+  "notes": [
+   {
+    "o": "There's a tutorial video on the staff portal.",
+    "trap": "",
+    "why": "提供教學影片，回應軟體難上手"
+   },
+   {
+    "o": "I hope the weather improves by Friday.",
+    "trap": "重複字陷阱",
+    "why": "hope 重複，講天氣，沒回應軟體"
+   },
+   {
+    "o": "That restaurant is far too expensive.",
+    "trap": "相似音陷阱",
+    "why": "expensive 與 expense 發音相近"
+   }
+  ]
+ },
+ {
+  "id": "l990-062",
+  "key": "Didn't…unanimously 確認一致；Actually＝其實不是",
+  "notes": [
+   {
+    "o": "Two members voted against it, actually.",
+    "trap": "",
+    "why": "Actually 糾正：其實有兩位投反對票"
+   },
+   {
+    "o": "The expansion will add two new floors.",
+    "trap": "重複字陷阱",
+    "why": "重複 expansion，講擴建樓層，沒答表決"
+   },
+   {
+    "o": "The cutting board is in the kitchen.",
+    "trap": "一字多義陷阱",
+    "why": "board 指砧板，不是董事會"
+   }
+  ]
+ },
+ {
+  "id": "l990-063",
+  "key": "陳述句說新規定 → 選配合規定的作法",
+  "notes": [
+   {
+    "o": "Then I'll switch my client visit to a video call.",
+    "trap": "",
+    "why": "配合規定：把出差改成視訊"
+   },
+   {
+    "o": "The curtains in the lobby look new.",
+    "trap": "相似音陷阱",
+    "why": "curtains 與 curtail 發音相近，講窗簾"
+   },
+   {
+    "o": "A quarter past three would suit me.",
+    "trap": "一字多義陷阱",
+    "why": "quarter 指十五分，不是季度"
+   }
+  ]
+ },
+ {
+  "id": "l990-064",
+  "key": "A or B 問句；Neither＝兩者都不是",
+  "notes": [
+   {
+    "o": "I got approval from my supervisor.",
+    "trap": "相似音陷阱",
+    "why": "approval 與 appraisal 發音相近"
+   },
+   {
+    "o": "Yes, the office is open on Saturdays.",
+    "trap": "Yes／No 陷阱",
+    "why": "A or B 問句不能用 Yes 回答"
+   },
+   {
+    "o": "Neither, we've moved it online.",
+    "trap": "",
+    "why": "Neither 兩個都不是，並說明改為線上"
+   }
+  ]
+ },
+ {
+  "id": "l990-065",
+  "key": "Can you 請求；答應並給出具體時間",
+  "notes": [
+   {
+    "o": "The presentation went very well, thank you.",
+    "trap": "時態或主詞不合",
+    "why": "簡報在週四，went 過去式時態不合"
+   },
+   {
+    "o": "Express delivery will get it to you by Wednesday.",
+    "trap": "",
+    "why": "答應加急：快遞星期三前送到"
+   },
+   {
+    "o": "The expedition lasted three weeks.",
+    "trap": "相似音陷阱",
+    "why": "expedition 與 expedite 發音相近"
+   }
+  ]
+ },
+ {
+  "id": "l990-066",
+  "key": "Do you think 問看法；Not unless＝有條件才行",
+  "notes": [
+   {
+    "o": "The line at the bank was very long.",
+    "trap": "一字多義陷阱",
+    "why": "line 指排隊，不是 timeline 時程"
+   },
+   {
+    "o": "Not unless we get two more developers.",
+    "trap": "",
+    "why": "Not unless 表示除非加人，否則時程不可行"
+   },
+   {
+    "o": "The time zone difference is eight hours.",
+    "trap": "重複字陷阱",
+    "why": "time 與 timeline 相近，講時差"
+   }
+  ]
+ },
+ {
+  "id": "l990-067",
+  "key": "A or B 問句；說現場不能用＝選外面",
+  "notes": [
+   {
+    "o": "The training room here is being renovated.",
+    "trap": "",
+    "why": "這裡訓練室整修中 → 暗示要在外面辦"
+   },
+   {
+    "o": "The workshop lasted about three hours.",
+    "trap": "重複字陷阱",
+    "why": "重複 workshop，講時數，沒選地點"
+   },
+   {
+    "o": "I couldn't find the website.",
+    "trap": "相似音陷阱",
+    "why": "website 與 offsite 發音相近"
+   }
+  ]
+ },
+ {
+  "id": "l990-068",
+  "key": "陳述句強調必須 → 選配合的行動",
+  "notes": [
+   {
+    "o": "The appliance store is having a sale.",
+    "trap": "相似音陷阱",
+    "why": "appliance 與 compliance 發音相近"
+   },
+   {
+    "o": "Nice to meet you, too.",
+    "trap": "一字多義陷阱",
+    "why": "meet you 是見面，不是趕上期限"
+   },
+   {
+    "o": "Then I'll clear my schedule to finish the paperwork.",
+    "trap": "",
+    "why": "排開行程把文件弄完，回應必須趕上期限"
+   }
+  ]
+ },
+ {
+  "id": "l990-069",
+  "key": "Does…require 問要不要；Not for…＝不用",
+  "notes": [
+   {
+    "o": "We sat on the river bank for hours.",
+    "trap": "一字多義陷阱",
+    "why": "bank 指河岸，不是銀行"
+   },
+   {
+    "o": "Not for established customers like us.",
+    "trap": "",
+    "why": "Not 表示不用，因為我們是老客戶"
+   },
+   {
+    "o": "I'm all alone in the office today.",
+    "trap": "相似音陷阱",
+    "why": "alone 與 loan 發音相近"
+   }
+  ]
+ },
+ {
+  "id": "l990-070",
+  "key": "A or B 問句；用時間限制暗示選摘要",
+  "notes": [
+   {
+    "o": "The summer schedule starts in June.",
+    "trap": "相似音陷阱",
+    "why": "summer 與 summary 發音相近"
+   },
+   {
+    "o": "I only have five minutes before my next call.",
+    "trap": "",
+    "why": "只剩五分鐘 → 暗示只看得了簡短摘要"
+   },
+   {
+    "o": "Yes, the reporter interviewed him.",
+    "trap": "相似音陷阱",
+    "why": "reporter 與 report 相近；Yes 也不合"
+   }
+  ]
+ },
+ {
+  "id": "l990-071",
+  "key": "Is it feasible 問可不可行；Only if＝有條件才行",
+  "notes": [
+   {
+    "o": "Only if we hire extra movers.",
+    "trap": "",
+    "why": "Only if 附條件：要多請搬運人員才可行"
+   },
+   {
+    "o": "The fees are listed on the last page.",
+    "trap": "相似音陷阱",
+    "why": "fees 與 feasible 前半音相近"
+   },
+   {
+    "o": "The warehouse is on Harbor Street.",
+    "trap": "重複字陷阱",
+    "why": "重複 warehouse，講位置，沒答可行性"
+   }
+  ]
+ },
+ {
+  "id": "l990-072",
+  "key": "Could you 請求；說「還沒有」＝暫時辦不到",
+  "notes": [
+   {
+    "o": "The show starts at eight tonight.",
+    "trap": "重複字陷阱",
+    "why": "show 與 showroom 相近，講表演時間"
+   },
+   {
+    "o": "Go forward two blocks and turn left.",
+    "trap": "一字多義陷阱",
+    "why": "forward 指往前，不是轉寄"
+   },
+   {
+    "o": "The architect hasn't released the final version.",
+    "trap": "",
+    "why": "最終版還沒釋出 → 暫時沒辦法轉寄"
+   }
+  ]
+ },
+ {
+  "id": "l990-073",
+  "key": "Where 問地點；「邀請裡都寫了」＝去看邀請",
+  "notes": [
+   {
+    "o": "I'd like a brief summary, please.",
+    "trap": "相似音陷阱",
+    "why": "brief 與 debrief 發音相近"
+   },
+   {
+    "o": "It's all in the calendar invitation I sent.",
+    "trap": "",
+    "why": "沒說地點，但邀請裡都寫了 → 去看邀請"
+   },
+   {
+    "o": "We traded shifts last weekend.",
+    "trap": "重複字陷阱",
+    "why": "traded 與 trade 相近，講換班"
+   }
+  ]
+ },
+ {
+  "id": "l990-074",
+  "key": "陳述句報壞消息 → 選追問影響的回應",
+  "notes": [
+   {
+    "o": "Did they say how late the food will be?",
+    "trap": "",
+    "why": "追問會晚多久，關心餐點延誤"
+   },
+   {
+    "o": "The call lasted almost an hour.",
+    "trap": "重複字陷阱",
+    "why": "重複 call，講通話時間，沒追問影響"
+   },
+   {
+    "o": "I'll take my break at two o'clock.",
+    "trap": "相似音陷阱",
+    "why": "break 與 broke 發音相近，講休息"
+   }
+  ]
+ },
+ {
+  "id": "l990-075",
+  "key": "附加問句確認；提前一天＝確實在期限前",
+  "notes": [
+   {
+    "o": "The files are in the top cabinet.",
+    "trap": "相似音陷阱",
+    "why": "files 與 filed 相近，講檔案櫃"
+   },
+   {
+    "o": "Our attorney submitted it with a day to spare.",
+    "trap": "",
+    "why": "提前一天送出 → 確實在期限前送件"
+   },
+   {
+    "o": "Please be patient, it won't take long.",
+    "trap": "相似音陷阱",
+    "why": "patient 與 patent 發音相近"
+   }
+  ]
+ },
+ {
+  "id": "l990-076",
+  "key": "When 問時間；「視…而定」＝時間不確定",
+  "notes": [
+   {
+    "o": "Yes, the audio was much clearer this time.",
+    "trap": "相似音陷阱",
+    "why": "audio 與 auditors 發音相近；Yes 也不合"
+   },
+   {
+    "o": "It depends on how quickly we send the missing receipts.",
+    "trap": "",
+    "why": "要看收據多快送到 → 完成時間不確定"
+   },
+   {
+    "o": "In the accounting office on the third floor.",
+    "trap": "答非所問",
+    "why": "accounting office 是地點，不是時間"
+   }
+  ]
+ },
+ {
+  "id": "l990-077",
+  "key": "Aren't you going to 問去不去；「派人代替」＝不去",
+  "notes": [
+   {
+    "o": "Good afternoon, may I take your order?",
+    "trap": "重複字陷阱",
+    "why": "重複 afternoon，是招呼語，沒回答"
+   },
+   {
+    "o": "I intend to buy a new laptop.",
+    "trap": "相似音陷阱",
+    "why": "intend 與 attend 發音相近"
+   },
+   {
+    "o": "I'm sending my deputy in my place.",
+    "trap": "",
+    "why": "派副手代替我去 → 暗示自己不出席"
+   }
+  ]
+ },
+ {
+  "id": "l990-078",
+  "key": "Why don't we 是提議；說已有人選＝贊同",
+  "notes": [
+   {
+    "o": "I set up my new phone last night.",
+    "trap": "重複字陷阱",
+    "why": "重複 set up，指設定手機，不是佈置攤位"
+   },
+   {
+    "o": "Ms. Ito has offered to take that on.",
+    "trap": "",
+    "why": "伊藤小姐已主動接下 → 贊同，且已有人選"
+   },
+   {
+    "o": "Because the boots were too tight.",
+    "trap": "相似音陷阱",
+    "why": "boots 與 booth 發音相近，且聽成問原因"
+   }
+  ]
+ },
+ {
+  "id": "l990-079",
+  "key": "Couldn't we 提議；說代價大＝不太可行",
+  "notes": [
+   {
+    "o": "Please shift the table to the left.",
+    "trap": "一字多義陷阱",
+    "why": "shift 指移動，不是輪班"
+   },
+   {
+    "o": "The relay race starts at ten.",
+    "trap": "相似音陷阱",
+    "why": "relay 與 delay 發音相近"
+   },
+   {
+    "o": "That would entail hiring a lot more staff.",
+    "trap": "",
+    "why": "會需要多請很多人 → 暗示成本高、不容易"
+   }
+  ]
+ },
+ {
+  "id": "l990-080",
+  "key": "Don't we need 問需不需要；Only for…＝有條件才要",
+  "notes": [
+   {
+    "o": "Only for expenditures over five thousand dollars.",
+    "trap": "",
+    "why": "Only for 表示只有超過五千才需要"
+   },
+   {
+    "o": "The direction signs are confusing.",
+    "trap": "相似音陷阱",
+    "why": "direction 與 director 發音相近"
+   },
+   {
+    "o": "He succeeded on his first try.",
+    "trap": "相似音陷阱",
+    "why": "succeeded 與 exceed 發音相近"
+   }
+  ]
+ },
+ {
+  "id": "l990-081",
+  "key": "Please make sure 請求；「我會準備好」＝答應",
+  "notes": [
+   {
+    "o": "The entry fee is five dollars.",
+    "trap": "重複字陷阱",
+    "why": "entry 與 entering 相近，講入場費"
+   },
+   {
+    "o": "The sign on the door says closed.",
+    "trap": "一字多義陷阱",
+    "why": "sign 指牌子，不是簽到 sign in"
+   },
+   {
+    "o": "I'll have the log sheet ready at the front desk.",
+    "trap": "",
+    "why": "準備好登記表 → 答應讓訪客簽到"
+   }
+  ]
+ },
+ {
+  "id": "l990-082",
+  "key": "陳述句報告問題 → 選處理動作",
+  "notes": [
+   {
+    "o": "The notice was posted yesterday.",
+    "trap": "相似音陷阱",
+    "why": "notice 與 noticed 相近，講公告"
+   },
+   {
+    "o": "That's against the safety code. I'll have them moved.",
+    "trap": "",
+    "why": "指出違規，並說會請人搬走"
+   },
+   {
+    "o": "The exit interview is scheduled for Monday.",
+    "trap": "重複字陷阱",
+    "why": "重複 exit，指離職面談，沒回應堵住"
+   }
+  ]
+ },
+ {
+  "id": "l990-083",
+  "key": "Why don't we 提議；「不確定會更省」＝保留",
+  "notes": [
+   {
+    "o": "Because the outside door was locked.",
+    "trap": "重複字陷阱",
+    "why": "重複 outside，講門鎖住，且聽成問原因"
+   },
+   {
+    "o": "Please press the button firmly.",
+    "trap": "相似音陷阱",
+    "why": "firmly 與 firm 相近，講用力按"
+   },
+   {
+    "o": "I'm not sure that would be cheaper in the long run.",
+    "trap": "",
+    "why": "不確定長期較省 → 對外包持保留態度"
+   }
+  ]
+ },
+ {
+  "id": "l990-084",
+  "key": "Would you mind 答 As long as＝同意但附條件",
+  "notes": [
+   {
+    "o": "As long as you can still join the team call.",
+    "trap": "",
+    "why": "As long as 同意在外面工作，但要參加電話會議"
+   },
+   {
+    "o": "It works much better now.",
+    "trap": "重複字陷阱",
+    "why": "works 與 worked 相近，指運作順暢"
+   },
+   {
+    "o": "The sightseeing bus leaves at nine.",
+    "trap": "相似音陷阱",
+    "why": "sightseeing 與 offsite 的 site 相近"
+   }
+  ]
+ },
+ {
+  "id": "l990-085",
+  "key": "附加問句求確認；說明原因＝同意",
+  "notes": [
+   {
+    "o": "He's much taller than his brother.",
+    "trap": "語意不連貫",
+    "why": "比較身高與扣款無關"
+   },
+   {
+    "o": "The new insurance premium took effect on the first.",
+    "trap": "",
+    "why": "新保險費生效 → 說明扣款增加的原因"
+   },
+   {
+    "o": "Payday is the twenty-fifth of each month.",
+    "trap": "相關字陷阱",
+    "why": "發薪日與薪資相關，沒回應扣款變多"
+   }
+  ]
+ },
+ {
+  "id": "l990-086",
+  "key": "A or B 問句；「兩個都要」＝不選其一",
+  "notes": [
+   {
+    "o": "The chairperson will speak first.",
+    "trap": "重複字陷阱",
+    "why": "chairperson 的 chair 重複，講主席發言"
+   },
+   {
+    "o": "I can't stand waiting in long lines.",
+    "trap": "一字多義陷阱",
+    "why": "stand 指忍受，不是站立式辦公桌"
+   },
+   {
+    "o": "Actually, I was hoping to get both.",
+    "trap": "",
+    "why": "Actually 說兩樣都想要 → 不二選一"
+   }
+  ]
+ },
+ {
+  "id": "l990-087",
+  "key": "I heard 傳聞 → 選驚訝＋提出相反資訊",
+  "notes": [
+   {
+    "o": "It's physically demanding work.",
+    "trap": "相似音陷阱",
+    "why": "physically 與 fiscal 發音相近"
+   },
+   {
+    "o": "The finalists will be announced tomorrow.",
+    "trap": "相似音陷阱",
+    "why": "finalists 與 finalized 發音相近"
+   },
+   {
+    "o": "Really? I thought the board had already signed off.",
+    "trap": "",
+    "why": "Really? 表示驚訝，並說原先以為已核准"
+   }
+  ]
+ },
+ {
+  "id": "l990-088",
+  "key": "Will…endorse 問會不會支持；「有疑慮」＝未必",
+  "notes": [
+   {
+    "o": "Support staff are available around the clock.",
+    "trap": "重複字陷阱",
+    "why": "重複 support，講客服人員，沒答董事會"
+   },
+   {
+    "o": "We boarded the plane an hour late.",
+    "trap": "一字多義陷阱",
+    "why": "boarded 指登機，不是董事會 board"
+   },
+   {
+    "o": "Several members have serious reservations.",
+    "trap": "",
+    "why": "多位董事有疑慮 → 暗示未必支持"
+   }
+  ]
+ },
+ {
+  "id": "l990-089",
+  "key": "附加問句求確認；「邀請函這麼寫」＝是",
+  "notes": [
+   {
+    "o": "I need to replace a flat tire.",
+    "trap": "相似音陷阱",
+    "why": "tire 與 attire 發音相近"
+   },
+   {
+    "o": "The code for the door is four two one.",
+    "trap": "重複字陷阱",
+    "why": "重複 code，講門的密碼"
+   },
+   {
+    "o": "That's what it says on the invitation.",
+    "trap": "",
+    "why": "邀請函上這麼寫 → 肯定是正式服裝"
+   }
+  ]
+ },
+ {
+  "id": "l990-090",
+  "key": "Which 問哪一個；「還沒篩選」＝還沒有名單",
+  "notes": [
+   {
+    "o": "They haven't narrowed it down yet.",
+    "trap": "",
+    "why": "還沒篩選出來 → 目前沒有候選名單"
+   },
+   {
+    "o": "In the lobby, next to the reception desk.",
+    "trap": "重複字陷阱",
+    "why": "重複 lobby，講位置，沒指出承包商"
+   },
+   {
+    "o": "The contract is short, only two pages.",
+    "trap": "相似音陷阱",
+    "why": "contract 與 contractor 相近；short 與 shortlist 相近"
+   }
+  ]
+ },
+ {
+  "id": "l990-091",
+  "key": "Wasn't…scheduled 問原定計畫；說延後＝沒準時",
+  "notes": [
+   {
+    "o": "The rolls are fresh from the oven.",
+    "trap": "相似音陷阱",
+    "why": "rolls 與 rollout 發音相近"
+   },
+   {
+    "o": "It's the first door on your left.",
+    "trap": "一字多義陷阱",
+    "why": "first door 是第一扇門，不是一號"
+   },
+   {
+    "o": "Testing uncovered a few bugs, so it's been delayed.",
+    "trap": "",
+    "why": "測試發現錯誤所以延後 → 沒有按原訂上線"
+   }
+  ]
+ },
+ {
+  "id": "l990-092",
+  "key": "附加問句問是否負責；Only…＝只負責部分",
+  "notes": [
+   {
+    "o": "The accountant retired last year.",
+    "trap": "相似音陷阱",
+    "why": "accountant 與 accountable 發音相近"
+   },
+   {
+    "o": "Only for the east warehouse.",
+    "trap": "",
+    "why": "Only 表示只負責東倉，不是全部"
+   },
+   {
+    "o": "The inventor won a national award.",
+    "trap": "相似音陷阱",
+    "why": "inventor 與 inventory 發音相近"
+   }
+  ]
+ },
+ {
+  "id": "l990-093",
+  "key": "Would you be able 請求；「寧願別人做」＝婉拒",
+  "notes": [
+   {
+    "o": "The medium size should fit you.",
+    "trap": "相似音陷阱",
+    "why": "medium 與 mediate 發音相近"
+   },
+   {
+    "o": "I'd rather someone neutral from human resources did it.",
+    "trap": "",
+    "why": "寧願讓中立的人來做 → 委婉拒絕"
+   },
+   {
+    "o": "The apartment is on the top floor.",
+    "trap": "相似音陷阱",
+    "why": "apartment 與 department 發音相近"
+   }
+  ]
+ },
+ {
+  "id": "l990-094",
+  "key": "A or B 問句；推給決策者＝自己不選",
+  "notes": [
+   {
+    "o": "That's at the finance director's discretion.",
+    "trap": "",
+    "why": "由財務總監決定 → 自己不替他選"
+   },
+   {
+    "o": "The market is open until six.",
+    "trap": "重複字陷阱",
+    "why": "market 與 marketing 相近，講市場營業時間"
+   },
+   {
+    "o": "He left the office about an hour ago.",
+    "trap": "一字多義陷阱",
+    "why": "left 指離開，不是 leave（留下）"
+   }
+  ]
+ },
+ {
+  "id": "l990-095",
+  "key": "Isn't mandatory 確認規定；Yes＋補充細節",
+  "notes": [
+   {
+    "o": "I'll be back in ten minutes.",
+    "trap": "重複字陷阱",
+    "why": "back 與 back up 相近，指回來"
+   },
+   {
+    "o": "The server brought us the wrong dishes.",
+    "trap": "一字多義陷阱",
+    "why": "server 指服務生，不是伺服器"
+   },
+   {
+    "o": "Yes, and the system does it automatically every night.",
+    "trap": "",
+    "why": "Yes 確認規定，並補充每晚自動備份"
+   }
+  ]
+ },
+ {
+  "id": "l990-096",
+  "key": "A or B 問句；說理由暗示選包廂",
+  "notes": [
+   {
+    "o": "We'll be discussing some confidential figures.",
+    "trap": "",
+    "why": "要討論機密數字 → 暗示該訂包廂"
+   },
+   {
+    "o": "The main course comes with a salad.",
+    "trap": "重複字陷阱",
+    "why": "重複 main，講主菜，沒選座位"
+   },
+   {
+    "o": "I've read that book twice.",
+    "trap": "一字多義陷阱",
+    "why": "book 指書，不是訂位"
+   }
+  ]
+ },
+ {
+  "id": "l990-097",
+  "key": "A or B 問句；說已在做＝選找新場所",
+  "notes": [
+   {
+    "o": "He made a promise to call back.",
+    "trap": "相似音陷阱",
+    "why": "promise 與 premises 發音相近"
+   },
+   {
+    "o": "Yes, the news was on this morning.",
+    "trap": "Yes／No 陷阱",
+    "why": "A or B 問句不能用 Yes 回答"
+   },
+   {
+    "o": "We've already started viewing other buildings.",
+    "trap": "",
+    "why": "已開始看其他大樓 → 選擇找新場所"
+   }
+  ]
+ },
+ {
+  "id": "l990-098",
+  "key": "Shouldn't we 問該不該；「已在做」＝同意",
+  "notes": [
+   {
+    "o": "The rice was a little dry.",
+    "trap": "相似音陷阱",
+    "why": "rice 與 risks 發音相近"
+   },
+   {
+    "o": "The consultants are already working on that.",
+    "trap": "",
+    "why": "顧問已在做 → 同意該評估，且已進行"
+   },
+   {
+    "o": "The access road is closed today.",
+    "trap": "相似音陷阱",
+    "why": "access 與 assess 發音相近"
+   }
+  ]
+ },
+ {
+  "id": "l990-099",
+  "key": "What's causing 問原因；「派人查」＝原因未明",
+  "notes": [
+   {
+    "o": "My connecting flight leaves in forty minutes.",
+    "trap": "相似音陷阱",
+    "why": "connecting 與 connectivity 發音相近"
+   },
+   {
+    "o": "A technician is coming to look into it this afternoon.",
+    "trap": "",
+    "why": "沒說原因，但派人來查 → 原因還在調查"
+   },
+   {
+    "o": "Yes, it's on the fourth floor.",
+    "trap": "Yes／No 陷阱",
+    "why": "What 問句不能用 Yes 回答"
+   }
+  ]
+ },
+ {
+  "id": "l990-100",
+  "key": "附加問句求確認；補充原因＝同意",
+  "notes": [
+   {
+    "o": "I couldn't reach him by phone.",
+    "trap": "相似音陷阱",
+    "why": "reach 與 outreach 發音相近"
+   },
+   {
+    "o": "The attendant will show you to your seat.",
+    "trap": "相似音陷阱",
+    "why": "attendant 與 attendance 發音相近"
+   },
+   {
+    "o": "The heavy rain kept a lot of people home.",
+    "trap": "",
+    "why": "說明出席少的原因：雨太大"
+   }
+  ]
+ }
+]

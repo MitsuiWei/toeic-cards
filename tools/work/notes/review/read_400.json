@@ -1,0 +1,38 @@
+[
+ {
+  "id": "r400-04.1",
+  "field": "notes.2.why",
+  "problem": "'already on the flight' is not stated in the passage",
+  "fix": "文中沒有訂機票，Dana 只是說班機延誤"
+ },
+ {
+  "id": "r400-04.3",
+  "field": "notes.0.why",
+  "problem": "'Dana is at the airport' is not stated in the passage",
+  "fix": "文中沒說他要去機場，只說 Dana 的班機延誤"
+ },
+ {
+  "id": "r400-20.3",
+  "field": "notes.2.why",
+  "problem": "passage never says drivers pay the cashier; it only says to show the receipt there",
+  "fix": "文中只說在出口向 cashier 出示收據，沒有禁止這件事"
+ },
+ {
+  "id": "r400-27.3",
+  "field": "notes.0.why",
+  "problem": "'But you have a copy, please attach...' is a comma-joined run-on, not simply fine grammar",
+  "fix": "兩個完整句只用逗號連接不合文法，句意也不是轉折"
+ },
+ {
+  "id": "r400-27.3",
+  "field": "notes.1.why",
+  "problem": "'So you have a copy, please attach...' is a comma-joined run-on, not simply fine grammar",
+  "fix": "兩個完整句只用逗號連接不合文法，也沒有因果關係"
+ },
+ {
+  "id": "r400-27.3",
+  "field": "notes.2.why",
+  "problem": "'Or you have a copy, please attach...' is a comma-joined run-on, not simply fine grammar",
+  "fix": "兩個完整句只用逗號連接不合文法，句意也不是二選一"
+ }
+]

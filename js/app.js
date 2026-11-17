@@ -26,6 +26,7 @@
     speakOnShow: 'yes',
     phonetic: 'kk',
     practiceScope: 'learned',
+    explain: 'show',               // 練習作答後的各選項解析：show 直接顯示／fold 先收起來
     rate: '0.85',
     voice: ''
   };

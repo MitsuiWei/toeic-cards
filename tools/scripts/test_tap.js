@@ -22,7 +22,8 @@ const overflow = p => p.evaluate(() => document.documentElement.scrollWidth - wi
     const pop = async () => (await p.evaluate(() => { const e = document.getElementById('wordPop'); return e.hidden ? '(hidden)' : e.textContent.replace(/\s+/g, ' ').trim(); }));
     const nCustom = () => p.evaluate(() => Object.values(ToeicDebug.state().custom).filter(x => !x.del).length);
     const nPri = () => p.evaluate(() => { const s = ToeicDebug.state(); return Object.keys(s.recs).filter(k => /^\d+$/.test(k) && s.recs[k].pri).length; });   // 只算字表裡的字（自選的字本來就有 pri）
-    const save = async () => { await p.click('#wordPop [data-wp="save"]'); await p.waitForTimeout(120); return pop(); };
+    // 小卡上不一定有「存起來」（那個字已經存過、或被判成專有名詞），有才按
+    const save = async () => { const btn = await p.$('#wordPop [data-wp="save"]'); if (btn) { await btn.click(); await p.waitForTimeout(120); } return pop(); };
     const tap = async (word, scope) => { const loc = p.locator((scope || '#pracRoot') + ' .tw', { hasText: new RegExp('^' + word + '$') }).first(); await loc.click(); await p.waitForTimeout(250); return pop(); };
     await p.goto(SITE); await p.waitForTimeout(300);
     console.log(name, 'tabs:', await p.$$eval('.tab', e => e.map(x => x.textContent.replace(/\s+/g, '')).join(' | ')), '| tab widths ok:', await p.$$eval('.tab', e => e.every(x => x.scrollWidth <= x.clientWidth + 1)));
@@ -45,7 +46,7 @@ const overflow = p => p.evaluate(() => document.documentElement.scrollWidth - wi
       const kind = await p.evaluate(w => new Promise(res => { const s = document.createElement('script'); if (window.GLOSS) return res(1); s.src = 'data/gloss.js'; s.onload = () => res(1); document.head.appendChild(s); }).then(() => {
         const f = w.toLowerCase(); const lw = window.WORDS.find(x => !x.custom && x.w.toLowerCase() === f); if (lw) return 'list';
         const l = window.GLOSS.f[f] || f; if (window.WORDS.find(x => !x.custom && x.w.toLowerCase() === l)) return 'list'; if (window.GLOSS.w[l]) return 'gloss'; return window.GLOSS.n[f] ? 'name' : 'none'; }), wd);
-      if (kind === 'gloss' && !glossWord && wd.length > 3) glossWord = wd;
+      if (kind === 'gloss' && !glossWord && wd.length > 3 && /^[a-z]/.test(wd)) glossWord = wd;   // 大寫開頭的可能被當成人名（Mr. Stone），不拿來測存字
       if (kind === 'list' && !listWord) listWord = wd;
       if (kind === 'name' && !nameWord) nameWord = wd;
     }
@@ -97,7 +98,7 @@ const overflow = p => p.evaluate(() => document.documentElement.scrollWidth - wi
 
     // 閱讀：點短文裡的字，例句應該是那一句
     await p.click('[data-start="read"]'); await p.waitForTimeout(300);
-    const rw = await p.evaluate(() => { const els = [...document.querySelectorAll('.passage-text .tw')]; const G = window.GLOSS; const e = els.find(x => { const f = x.textContent.toLowerCase(); const l = G.f[f] || f; return f.length > 4 && G.w[l] && !window.WORDS.find(y => y.w.toLowerCase() === l); }); return e ? e.textContent : null; });
+    const rw = await p.evaluate(() => { const els = [...document.querySelectorAll('.passage-text .tw')]; const G = window.GLOSS; const e = els.find(x => { const f = x.textContent.toLowerCase(); const l = G.f[f] || f; return /^[a-z]/.test(x.textContent) && f.length > 4 && G.w[l] && !window.WORDS.find(y => y.w.toLowerCase() === l); }); return e ? e.textContent : null; });
     if (rw) {
       console.log(name, 'read tap', rw, '→', (await tap(rw, '.passage-text')).slice(0, 80));
       await shot('5-read-pop');

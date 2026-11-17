@@ -1,0 +1,4 @@
+[
+{"id":"p285","field":"notes.2.why","problem":"'lecture in + subject' also occurs (a lecture in history), so 'in not on' overgeneralises; real reason is meaning","fix":"講座是 give／attend 的活動，不是 earn 得到的學位"},
+{"id":"p321","field":"notes.1.why","problem":"reason is circular and gives no real slot mismatch","fix":"a clear 後要名詞；分詞 improving 後面沒有名詞可修飾"}
+]

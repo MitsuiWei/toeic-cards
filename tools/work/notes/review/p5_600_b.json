@@ -1,0 +1,14 @@
+[
+ {
+  "id": "p421",
+  "field": "notes.2.why",
+  "problem": "'not on' overgeneralises: British English uses 'enrol on a course'; the real reason is meaning",
+  "fix": "enroll 美式接 in + 課程（英式才有 on），且語意與專心無關"
+ },
+ {
+  "id": "p471",
+  "field": "notes.0.why",
+  "problem": "'not on' overgeneralises: British English uses 'enrol on a course'; the real reason is meaning",
+  "fix": "enroll 美式接 in（英式才有 on），語意也與講者說明無關"
+ }
+]

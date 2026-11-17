@@ -1,0 +1,86 @@
+[
+ {
+  "id": "p880",
+  "field": "notes.2.why",
+  "problem": "comprehensive and comprehend are in fact related (same root); 'unrelated' is false and gives no collocation",
+  "fix": "comprehensive＝thorough；與 comprehend 同源"
+ },
+ {
+  "id": "p890",
+  "field": "notes.1.why",
+  "problem": "conducive can stand before a noun (a conducive environment); claim is false",
+  "fix": "conducive 後常接 to；修飾 problem 語意不合"
+ },
+ {
+  "id": "p914",
+  "field": "notes.3.why",
+  "problem": "approximately can modify adjectives/phrases, not only numbers; 'must' overgeneralises",
+  "fix": "主要修飾數字；修飾 failed 語意不通"
+ },
+ {
+  "id": "p917",
+  "field": "notes.3.why",
+  "problem": "approximately can modify adjectives/phrases, not only numbers; 'must' overgeneralises",
+  "fix": "主要修飾數字；修飾 approved 語意不通"
+ },
+ {
+  "id": "p919",
+  "field": "notes.3.why",
+  "problem": "gives a false general rule (adjectives can precede articles, e.g. quite a/all the) and misses the real reason: a verb is required after to",
+  "fix": "to 後面要原形動詞，形容詞不能當動詞"
+ },
+ {
+  "id": "p927",
+  "field": "notes.1.why",
+  "problem": "gives a false general rule (adjectives can precede articles, e.g. quite a/all the) and misses the real reason: a verb is required after to",
+  "fix": "to 後面要原形動詞，形容詞不能當動詞"
+ },
+ {
+  "id": "p931",
+  "field": "notes.0.why",
+  "problem": "gives a false general rule (adjectives can precede articles, e.g. quite a/all the) and misses the real reason: a verb is required after to",
+  "fix": "be used to 後面要原形動詞，形容詞不行"
+ },
+ {
+  "id": "p934",
+  "field": "notes.0.why",
+  "problem": "gives a false general rule (adjectives can precede articles, e.g. quite a/all the) and misses the real reason: a verb is required after to",
+  "fix": "plans to 後要原形動詞；形容詞不能當動詞"
+ },
+ {
+  "id": "p941",
+  "field": "notes.1.why",
+  "problem": "gives a false general rule (adjectives can precede articles, e.g. quite a/all the) and misses the real reason: a verb is required after to",
+  "fix": "in order to 後要原形動詞，形容詞不行"
+ },
+ {
+  "id": "p978",
+  "field": "notes.2.why",
+  "problem": "gives a false general rule (adjectives can precede articles, e.g. quite a/all the) and misses the real reason: a verb is required after to",
+  "fix": "to 後面要原形動詞，形容詞不能當動詞"
+ },
+ {
+  "id": "p980",
+  "field": "notes.3.why",
+  "problem": "gives a false general rule (adjectives can precede articles, e.g. quite a/all the) and misses the real reason: a verb is required after to",
+  "fix": "表目的的 to 後要原形動詞，形容詞不行"
+ },
+ {
+  "id": "p982",
+  "field": "notes.2.why",
+  "problem": "gives a false general rule (adjectives can precede articles, e.g. quite a/all the) and misses the real reason: a verb is required after to",
+  "fix": "hopes to 後要原形動詞，形容詞不能當動詞"
+ },
+ {
+  "id": "p985",
+  "field": "notes.3.why",
+  "problem": "gives a false general rule (adjectives can precede articles, e.g. quite a/all the) and misses the real reason: a verb is required after to",
+  "fix": "be forced to 後要原形動詞，形容詞不行"
+ },
+ {
+  "id": "p997",
+  "field": "notes.2.why",
+  "problem": "gives a false general rule (adjectives can precede articles, e.g. quite a/all the) and misses the real reason: a verb is required after to",
+  "fix": "plans to 後要原形動詞，形容詞不能當動詞"
+ }
+]

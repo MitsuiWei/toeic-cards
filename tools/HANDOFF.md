@@ -12,7 +12,7 @@
 ## 2. 工作慣例
 
 - **先給使用者看畫面，他說「上線」才 commit / push。** 使用者自己沒有本機 repo，commit 和 push 都由這邊做。
-- 每次上線把 `sw.js` 的 `VERSION` 加一（目前 `toeic-cards-v13`），舊快取才會被換掉。
+- 每次上線把 `sw.js` 的 `VERSION` 加一（目前 `toeic-cards-v14`），舊快取才會被換掉。
 - 所有中文一律繁體、台灣用語；不可以出現簡體字。
 - 題目必須原創，不可抄多益官方或任何出版社的試題。
 - 主要使用裝置是 iPad 和手機：每次改版面都要檢查 320 / 390 / 820 / 1280 寬，不能有橫向溢出。
@@ -64,9 +64,14 @@ git push origin main
 ### 資料格式
 
 ```
-QUIZ_P5     {id:'p'+wid, wid, lv, t:'v'|'f', q:'… ------- …', o:[4], a, zh, ex}
-QUIZ_READ   {id:'r400-01', lv, p:6|7, k, ti, tx, zh, w:[wid], qs:[{q, o:[4], a, ex}×3]}   Part 6 空格寫成 "[1] -------"
-QUIZ_LISTEN {id:'l400-001', lv, t, q, o:[3], a, zq, zo:[3], ex}
+QUIZ_P5     {id:'p'+wid, wid, lv, t:'v'|'f', q:'… ------- …', o:[4], a, zh, k, n}
+QUIZ_READ   {id:'r400-01', lv, p:6|7, k, ti, tx, zh, w:[wid], qs:[{q, o:[4], a, k, n}×3]}   Part 6 空格寫成 "[1] -------"
+QUIZ_LISTEN {id:'l400-001', lv, t, q, o:[3], a, zq, zo:[3], k, n}
+  k = 解題關鍵（一行）；n = 各選項解析，順序和 o 一樣：
+    單字填空 n[i] = [詞性, 中文, 常考用法, 為什麼對／錯]
+    短文閱讀 n[i] = [中文, 用法（可空）, 為什麼對／錯]
+    聽力應答 n[i] = [陷阱類型（正解是空字串）, 為什麼對／錯]
+  沒有 k／n 的題目才會有舊的一段說明 ex（程式會退回顯示它）；目前 1,760 題都有 k／n。
 GLOSS       {f:{變化形: 原形}, w:{原形: [KK, IPA, '詞性|中文', …]}, n:{專有名詞: 1}, c:{原形: 顯示用大小寫}}
 ```
 
@@ -95,6 +100,7 @@ settings, settingsUpdated, daily, level, view, log
 - 單字庫：搜尋、依狀態篩選、標已會／停用／重置；自選的字可以移除。
 - 統計：今日、連續天數、各級進度、未來 7 天、12 週熱力圖、最常忘的字；點「複習中／學習中／已會／還沒學」或各級那一列會列出單字。
 - 練習：單字填空（預設只出學過的字，不夠用沒學的補）、短文閱讀、聽力應答（Web Speech 唸題目與選項）。答錯的單字填空會把那個字排回單字卡。
+- 各選項解析：作答後每個選項底下顯示解析（`practice.js` 的 `noteHtml()`、`keyHtml()`、`optsHtml()`），回饋框有「解題關鍵」。設定 `settings.explain` = `show`（直接顯示）或 `fold`（先收起來，按「看解析」才展開，展開狀態記在 `sess.xp`，換題就收回去）。錯題分析裡點開的題目一律顯示。
 - 錯題分析：依題型統計「最近一次作答」的答對率、標出最弱的一類並給提示、列出錯題與當時選的選項、只重做錯題。
 - 點字查意思、存單字：`practice.js` 的 `tw()` 把英文字包成 `<span class="tw">`；`pickWord()` 查 `GLOSS` 並跳出小卡，**點字本身不會存**，要按小卡上的「存起來」（`onPopClick` 的 `save`）才存：字表內的字 `prioritize()`，字表外的字 `addCustom()`。接在稱謂或人名後面的大寫字視為專有名詞。`ALT` 表處理拼法撞到字表的字（minutes、found）。
 - 鍵盤：空白鍵翻面、1–4 評分、P／S 發音、Z 復原；練習頁 1–4／A–D 作答、Enter 下一題、R 重聽、Esc 關小卡。
@@ -111,6 +117,26 @@ python3 /home/claude/work/gloss/validate.py <in> <out>                      小�
 python3 /home/claude/scripts/gloss_build.py                                 work/gloss/out/gloss_*.json → site/data/gloss.js（音標用 CMUdict）
 ```
 
+各選項解析是另一條線，原始檔在 `tools/work/notes/`：
+
+```
+node /home/claude/scripts/notes_export.js                                   題庫 → notes/in/*.json（寫解析用的輸入，含答案）
+python3 /home/claude/work/notes/validate.py p5|read|listen <in> <out>       解析的格式檢查
+python3 /home/claude/work/notes/review_check.py <解析檔> <查核結果>          查核結果的格式檢查
+python3 /home/claude/work/notes/show_review.py p5_400_a read_600 …          列出查核找到的問題（目前寫法／問題／建議修正）
+python3 /home/claude/work/notes/show_review.py -2 p5_400_a …               第二輪查核（review2/，對照 cur/）
+python3 /home/claude/work/notes/make_cur.py                                 out/ + fixes.json → cur/（目前線上的解析）
+python3 /home/claude/work/notes/make_rv.py                                  in/ + cur/ → rv/（題目和解析合在一起，給查核者讀；需要先跑 notes_export.js 產生 in/）
+python3 /home/claude/work/notes/apply_review.py                             查核修正 + manual_fixes.json → fixes.json
+python3 /home/claude/scripts/quiz_build.py                                  會把 notes/out/*.json 和 fixes.json 併進題庫
+```
+
+- 寫解析的說明書：`notes/BRIEF_COMMON.md` 加上 `BRIEF_P5.md`／`BRIEF_READ.md`／`BRIEF_LISTEN.md`；第一輪查核的說明書：`BRIEF_REVIEW.md`；第二輪（以美籍英文老師的角度抓不自然的英文、台灣學生常見誤解）：`BRIEF_REVIEW2.md`，結果在 `review2/`，不採用的寫進 `review2/rejected.json`。`apply_review.py` 依序套 review/ → review2/ → manual_fixes.json，後面的蓋過前面的。
+- 流程：寫解析 → 格式檢查 → 另一個不知情的查核者逐題抓「講錯的規則、對不上原文、沒給理由」→ 我看過每一筆再套用（不同意的寫進 `review/rejected.json`，自己改寫的放 `manual_fixes.json`）。第一輪 1,760 題共修正 40 處。
+- 第二輪（`BRIEF_REVIEW2.md`，美籍英文老師的角度）目前只做了 400／600 分：P5 500 題、閱讀 60 篇、聽力 200 題，採用 32 處，另外自己補了同類的 11 處（accommodation 美式用複數、airfare 拼法、hire／invite 的主詞）。800／990 分還沒做第二輪。
+- 第二輪也挑出題目本身不自然的英文（the city hall、guarantee→warranty、The quantity is limited 之類），11 題的原文改在 `work/quiz/fixes.json`，對應的解析改在 `manual_fixes.json`；做法見 `notes/wording_fixes.py`。改題目原文時要注意：解析是用選項文字（`o`）對應選項的，選項改了 `o` 也要改，否則建置會印「解析和選項對不上」；新出現的字要確認小字典或字表裡有。
+- 要改某一條解析：在 `notes/manual_fixes.json` 加 `{"題號": {"key": "…", "notes.2.why": "…"}}`（notes 的索引是 `notes/out` 原始檔裡的順序；閱讀的題號是 `r600-07.2`），跑 `apply_review.py` 再跑 `quiz_build.py`。
+
 - 改單一題目：寫進 `work/quiz/fixes.json`（`{"題號": "drop"}` 或 `{"題號": {"欄位路徑": 新值}}`），再跑 `quiz_build.py`。選項順序用題號當亂數種子，重建不會變。
 - 改小字典：寫進 `work/gloss/fixes.json`（`{"forms": {變化形: 原形或 null}, "defs": {原形: [[詞性, 中文]]}}`），再跑 `gloss_build.py`。
 - 新增題目時，題庫裡出現的新字也要補進小字典，否則點了會顯示「沒有收錄」。
@@ -126,6 +152,7 @@ python3 /home/claude/scripts/gloss_build.py                                 work
 node /home/claude/scripts/test_prac3.js 400     練習三種題型（可換級別），手機／iPad／桌機
 node /home/claude/scripts/test_wrong.js         統計點進去看單字、錯題分析、重做錯題
 node /home/claude/scripts/test_tap.js           點字查意思、按「存起來」才存、自選分頁、同步合併（含 320 寬）
+node /home/claude/scripts/test_notes.js 400     各選項解析、「先收起來」設定、錯題分析裡的解析（可換級別）
 node /home/claude/scripts/test_legacy.js        舊格式練習紀錄的相容性
 node /home/claude/scripts/test2.js              排程與單字卡流程
 node /home/claude/scripts/test_phon.js          音標顯示
@@ -137,6 +164,7 @@ node /home/claude/scripts/test_ahead.js         休息畫面快捷鍵（test_ahe
 ## 8. 已知限制與還沒做的事
 
 - 小字典的中文沒有逐筆核對；約 90 個複合字（check-in 之類）沒有音標。
+- 各選項解析查核過一輪（400／600 分兩輪），但不保證每一句都對；使用者回報時用 `notes/manual_fixes.json` 修。
 - 題庫盲測主要能抓到「答案標錯」，「另一個選項也說得通」不保證抓乾淨；使用者回報怪題時用 `fixes.json` 修。
 - 只有練習頁的英文字可以點；單字卡例句裡的字不能點（小字典只涵蓋題庫用字）。
 - 同步的實際上傳路徑（`sync.js` 的 `flushNow`／`pushFull`）在沙盒裡沒辦法連 Firebase 實測，只測過合併邏輯；自選單字的跨裝置同步上線後值得請使用者實際驗一次。
@@ -148,3 +176,4 @@ node /home/claude/scripts/test_ahead.js         休息畫面快捷鍵（test_ahe
 - 第一次同時開 16 個出題工作，把使用者 5 小時的用量額度用完，全部被中斷。之後改成：分批、先做使用者正在用的級別、每批寫完就存檔。
 - 讓出題的工作「每 25 題寫一個檔」，中斷後可以從檔案接續。
 - 核對答案和建小字典這類較簡單的工作用較輕量的模型就夠，省很多用量。
+- 寫各選項解析那次又撞到一次上限：四組用主力模型寫的單字填空（每組約 25 萬 token）還沒跑完就接著開下一輪。之後要更保守：先估總量，同一個 5 小時視窗內不要排超過約 150 萬 token 的主力模型工作；被中斷時先看磁碟上已經寫好的批次，能自己合併就不要重跑。

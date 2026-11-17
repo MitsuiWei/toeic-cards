@@ -1,0 +1,38 @@
+[
+ {
+  "id": "p279",
+  "field": "notes.1.use",
+  "problem": "Uncountable 'provide accommodation' for lodging is mainly British; American English normally says 'accommodations'.",
+  "fix": "provide accommodations for + 人（美式常用複數）"
+ },
+ {
+  "id": "p288",
+  "field": "notes.3.why",
+  "problem": "Overgeneralised: 'the majority' can stand alone (The majority agreed.), so it does not always need of + noun.",
+  "fix": "語意不通：「大多數」是人數比例，不是退貨規定"
+ },
+ {
+  "id": "p297",
+  "field": "notes.2.why",
+  "problem": "Overgeneralised: a single provision can be 'a term' (each term of the agreement), so 'terms' is usual but not obligatory plural.",
+  "fix": "作「條款」解多用複數 terms；in terms of「就…而言」"
+ },
+ {
+  "id": "p365",
+  "field": "notes.2.why",
+  "problem": "Misleading: the verb 'strike' also commonly means 'go on strike' (workers are striking), not only 'hit/attack'.",
+  "fix": "be on strike「罷工中」；動詞 strike 也可表「罷工」"
+ },
+ {
+  "id": "p366",
+  "field": "notes.1.why",
+  "problem": "Overgeneralised: profit also takes 'on' and 'from' (make a profit on each sale, profit from), so 'at' is not its only preposition.",
+  "fix": "sell at a profit 才用 at；沒有 buy on profit 的說法"
+ },
+ {
+  "id": "p371",
+  "field": "notes.1.use",
+  "problem": "'accessibly located' is rare and sounds odd; natives say 'easily accessible' or 'conveniently located'.",
+  "fix": "副詞（少見）；一般說 easily accessible（容易到達）"
+ }
+]

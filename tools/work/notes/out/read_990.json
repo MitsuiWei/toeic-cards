@@ -1,0 +1,2852 @@
+[
+ {
+  "id": "r990-01",
+  "qs": [
+   {
+    "n": 1,
+    "key": "主旨題：結論句 'until we receive a corrected invoice' → 要求更正發票",
+    "notes": [
+     {
+      "o": "To order additional chairs",
+      "zh": "要訂購更多椅子",
+      "use": "",
+      "why": "她指出多開了 8 張，並非要加訂"
+     },
+     {
+      "o": "To request a corrected invoice",
+      "zh": "要求提供更正後的發票",
+      "use": "",
+      "why": "文中 'on hold until we receive a corrected invoice'"
+     },
+     {
+      "o": "To announce a new payment policy",
+      "zh": "宣布新的付款政策",
+      "use": "",
+      "why": "policy 是既有的 'our internal policy'，不是新宣布"
+     },
+     {
+      "o": "To report damaged merchandise",
+      "zh": "通報商品受損",
+      "use": "",
+      "why": "只說數量不符、'only 40 were delivered'，沒提受損"
+     }
+    ]
+   },
+   {
+    "n": 2,
+    "key": "細節題：找 October 13 → 第三段 'released within three business days'",
+    "notes": [
+     {
+      "o": "The purchase order will be canceled",
+      "zh": "採購單會被取消",
+      "use": "",
+      "why": "文中沒提取消採購單"
+     },
+     {
+      "o": "Payment will be released within three business days",
+      "zh": "款項將在三個工作天內撥付",
+      "use": "",
+      "why": "文中 'released within three business days'"
+     },
+     {
+      "o": "The auditors will postpone their review",
+      "zh": "稽核人員會延後查帳",
+      "use": "",
+      "why": "稽核 October 20 開始，沒說會延後"
+     },
+     {
+      "o": "Eight more chairs will be delivered",
+      "zh": "會再送來八張椅子",
+      "use": "",
+      "why": "8 張是多開的差額，且 40 張已送達，不會補送"
+     }
+    ]
+   },
+   {
+    "n": 3,
+    "key": "字義題：outstanding balance → 未付餘額，呼應 withhold payment",
+    "notes": [
+     {
+      "o": "unpaid",
+      "zh": "(adj.) 未付清的",
+      "use": "",
+      "why": "'outstanding balance' 指未付餘額，款項仍 on hold"
+     },
+     {
+      "o": "excellent",
+      "zh": "(adj.) 傑出的",
+      "use": "",
+      "why": "outstanding 另一義項，但不能形容 balance"
+     },
+     {
+      "o": "estimated",
+      "zh": "(adj.) 估計的",
+      "use": "",
+      "why": "$8,880 是發票明列的確定金額，不是估計"
+     },
+     {
+      "o": "noticeable",
+      "zh": "(adj.) 明顯的",
+      "use": "",
+      "why": "『明顯』也是義項，但套進 balance 語意不通"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "r990-02",
+  "qs": [
+   {
+    "n": 1,
+    "key": "主旨題：開頭 'the following rules will take effect' → 新差旅規定",
+    "notes": [
+     {
+      "o": "To announce a reduction in sales staff",
+      "zh": "宣布裁減業務人員",
+      "use": "",
+      "why": "文中沒提裁員，只談差旅費用規則"
+     },
+     {
+      "o": "To report the results of a client survey",
+      "zh": "報告客戶調查結果",
+      "use": "",
+      "why": "文中沒提任何客戶調查"
+     },
+     {
+      "o": "To invite employees to a budget meeting",
+      "zh": "邀請員工參加預算會議",
+      "use": "",
+      "why": "只說預算撐不住，沒有任何會議邀請"
+     },
+     {
+      "o": "To explain new rules for travel expenses",
+      "zh": "說明新的差旅費用規定",
+      "use": "",
+      "why": "文中 'rules will take effect on April 1'，後列三項規定"
+     }
+    ]
+   },
+   {
+    "n": 2,
+    "key": "細節題：找 exempt → 'Staff traveling together with clients'",
+    "notes": [
+     {
+      "o": "Employees traveling with clients",
+      "zh": "與客戶同行的員工",
+      "use": "",
+      "why": "文中 'traveling together with clients are exempt'"
+     },
+     {
+      "o": "Finance department staff",
+      "zh": "財務部員工",
+      "use": "",
+      "why": "財務部只負責受理疑問，沒說可免訂經濟艙"
+     },
+     {
+      "o": "Regional managers",
+      "zh": "區域經理",
+      "use": "",
+      "why": "區域經理負責核准出差，沒說他們可免訂經濟艙"
+     },
+     {
+      "o": "Employees whose trips cost over $1,500",
+      "zh": "出差費用超過 $1,500 的員工",
+      "use": "",
+      "why": "超過 $1,500 只是須事先核准，不是免訂經濟艙"
+     }
+    ]
+   },
+   {
+    "n": 3,
+    "key": "推論題：對應稽核結果 → 'lacked adequate documentation'",
+    "notes": [
+     {
+      "o": "They lacked enough supporting documents",
+      "zh": "缺少足夠的佐證文件",
+      "use": "",
+      "why": "文中 'claims lacked adequate documentation'"
+     },
+     {
+      "o": "They were rejected by external auditors",
+      "zh": "被外部稽核人員駁回",
+      "use": "",
+      "why": "audit 只發現文件不足，沒說被駁回，也沒說外部"
+     },
+     {
+      "o": "They involved flights longer than six hours",
+      "zh": "涉及超過六小時的航班",
+      "use": "",
+      "why": "六小時是新規定的條件，與過去報帳問題無關"
+     },
+     {
+      "o": "They were paid twice by mistake",
+      "zh": "被誤付了兩次",
+      "use": "",
+      "why": "文中沒提重複付款"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "r990-03",
+  "qs": [
+   {
+    "n": 1,
+    "key": "主旨題：首句 'voted on Tuesday to approve a merger' → 合併案獲准",
+    "notes": [
+     {
+      "o": "The opening of a new cold-storage warehouse",
+      "zh": "一座新冷藏倉庫啟用",
+      "use": "",
+      "why": "文中沒提新倉庫，只提 consolidating warehouses"
+     },
+     {
+      "o": "A dispute between regulators and a logistics firm",
+      "zh": "主管機關與物流公司的爭議",
+      "use": "",
+      "why": "regulators 只是尚須核准，沒說有爭議"
+     },
+     {
+      "o": "The resignation of a company's chairperson",
+      "zh": "一位公司董事長請辭",
+      "use": "",
+      "why": "Navarro 只是發言說明綜效，沒有請辭"
+     },
+     {
+      "o": "The approval of a merger between two transport firms",
+      "zh": "兩家運輸公司合併案獲得通過",
+      "use": "",
+      "why": "文中 'voted ... to approve a merger'"
+     }
+    ]
+   },
+   {
+    "n": 2,
+    "key": "細節題：找 savings → 'chiefly by consolidating warehouses'",
+    "notes": [
+     {
+      "o": "By reducing the number of drivers",
+      "zh": "減少司機人數",
+      "use": "",
+      "why": "文中沒提減少司機"
+     },
+     {
+      "o": "By changing Rhine Cargo's name",
+      "zh": "更改 Rhine Cargo 的名稱",
+      "use": "",
+      "why": "Rhine 會 'keep its own name'，與節省無關"
+     },
+     {
+      "o": "By replacing the tracking systems",
+      "zh": "汰換追蹤系統",
+      "use": "",
+      "why": "整合追蹤系統是分析師說的開銷，不是省錢來源"
+     },
+     {
+      "o": "By combining warehouses",
+      "zh": "合併倉庫",
+      "use": "",
+      "why": "文中 'chiefly by consolidating warehouses'"
+     }
+    ]
+   },
+   {
+    "n": 3,
+    "key": "NOT 題：逐項對照，三項都有寫，只有搬遷總部沒提",
+    "notes": [
+     {
+      "o": "It will keep its current name",
+      "zh": "會保留現有名稱",
+      "use": "",
+      "why": "文中有：'keep its own name'"
+     },
+     {
+      "o": "It will relocate its headquarters",
+      "zh": "會遷移總部",
+      "use": "",
+      "why": "全文沒提搬遷總部，故為答案"
+     },
+     {
+      "o": "Its chief executive will stay on",
+      "zh": "執行長會留任",
+      "use": "",
+      "why": "文中有：'Paul Derrick, will remain in his post'"
+     },
+     {
+      "o": "It specializes in refrigerated transport",
+      "zh": "專營冷藏運輸",
+      "use": "",
+      "why": "文中有：'specializes in refrigerated transport'"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "r990-04",
+  "qs": [
+   {
+    "n": 1,
+    "key": "主旨題：開頭 'replace the control systems' + 日期 → 電梯工程通知",
+    "notes": [
+     {
+      "o": "To introduce a new building manager",
+      "zh": "介紹新的大樓經理",
+      "use": "",
+      "why": "'Building management' 只是發出通知，沒介紹新經理"
+     },
+     {
+      "o": "To announce an increase in rent",
+      "zh": "宣布調漲租金",
+      "use": "",
+      "why": "文中沒提租金"
+     },
+     {
+      "o": "To inform tenants about upcoming elevator work",
+      "zh": "通知租戶即將進行電梯工程",
+      "use": "",
+      "why": "文中 'replace the control systems' of elevators"
+     },
+     {
+      "o": "To report a recent safety violation",
+      "zh": "通報最近的安全違規",
+      "use": "",
+      "why": "只說新系統符合安全規範，沒提違規"
+     }
+    ]
+   },
+   {
+    "n": 2,
+    "key": "細節題：找 noisiest → 'between 7:00 P.M. and 6:00 A.M.'",
+    "notes": [
+     {
+      "o": "Only on weekends",
+      "zh": "只在週末",
+      "use": "",
+      "why": "文中沒限定週末，限制的是夜間時段"
+     },
+     {
+      "o": "During regular office hours",
+      "zh": "一般上班時間",
+      "use": "",
+      "why": "吵的作業被限制在夜間，正是避開上班時段"
+     },
+     {
+      "o": "Between 7:00 P.M. and 6:00 A.M.",
+      "zh": "晚上 7 點到清晨 6 點",
+      "use": "",
+      "why": "文中 'noisiest tasks' 限於 7 P.M. 到 6 A.M."
+     },
+     {
+      "o": "Between 8:30 and 9:30 A.M.",
+      "zh": "上午 8:30 到 9:30",
+      "use": "",
+      "why": "那是等電梯較久的尖峰，不是噪音作業時段"
+     }
+    ]
+   },
+   {
+    "n": 3,
+    "key": "字義題：mitigate disruption → 減輕干擾，措施是一次只停一部",
+    "notes": [
+     {
+      "o": "schedule",
+      "zh": "(v.) 安排時程",
+      "use": "",
+      "why": "『安排』套進 mitigate disruption 語意不通"
+     },
+     {
+      "o": "predict",
+      "zh": "(v.) 預測",
+      "use": "",
+      "why": "預測干擾，與『一次只停一部』的措施不合"
+     },
+     {
+      "o": "explain",
+      "zh": "(v.) 解釋",
+      "use": "",
+      "why": "解釋干擾，語意不通；措施是為了減少不便"
+     },
+     {
+      "o": "lessen",
+      "zh": "(v.) 減輕",
+      "use": "",
+      "why": "'only one elevator ... at a time' 是為了減輕干擾"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "r990-05",
+  "qs": [
+   {
+    "n": 1,
+    "key": "細節題：找 clientele → 'clientele in twelve countries'",
+    "notes": [
+     {
+      "o": "It was founded twelve years ago",
+      "zh": "成立於十二年前",
+      "use": "",
+      "why": "twelve 指國家數，不是創立年數"
+     },
+     {
+      "o": "It grows its own wheat and sugar",
+      "zh": "自己種植小麥和糖",
+      "use": "",
+      "why": "小麥、糖是向 suppliers 採購，不是自己種"
+     },
+     {
+      "o": "It has customers in many countries",
+      "zh": "在許多國家都有客戶",
+      "use": "",
+      "why": "文中 'clientele in twelve countries'，即多國客戶"
+     },
+     {
+      "o": "It recently moved its headquarters",
+      "zh": "最近搬遷了總部",
+      "use": "",
+      "why": "只說總部在 Riverside，沒提搬遷"
+     }
+    ]
+   },
+   {
+    "n": 2,
+    "key": "細節題：找 must → 'at least five years of managerial experience'",
+    "notes": [
+     {
+      "o": "Familiarity with food-safety legislation",
+      "zh": "熟悉食品安全法規",
+      "use": "",
+      "why": "只是 'a considerable advantage'，非必要"
+     },
+     {
+      "o": "Proficiency in a second language",
+      "zh": "精通第二外語",
+      "use": "",
+      "why": "'desirable but not essential'，非必要"
+     },
+     {
+      "o": "Managerial experience in purchasing",
+      "zh": "採購方面的管理經驗",
+      "use": "",
+      "why": "文中 'must' + 'managerial experience in purchasing'"
+     },
+     {
+      "o": "Previous work in the snack industry",
+      "zh": "先前在零食業工作過",
+      "use": "",
+      "why": "只要求採購管理經驗，不限零食業"
+     }
+    ]
+   },
+   {
+    "n": 3,
+    "key": "推論題：看最後一句 → 'preliminary video interview'",
+    "notes": [
+     {
+      "o": "All interviews will take place in December",
+      "zh": "所有面試都在十二月",
+      "use": "",
+      "why": "初步面試在十二月，final 在 January"
+     },
+     {
+      "o": "The first round will be conducted by video",
+      "zh": "第一輪將以視訊進行",
+      "use": "",
+      "why": "文中 'a preliminary video interview'"
+     },
+     {
+      "o": "Final interviews will be held online",
+      "zh": "最終面試將在線上舉行",
+      "use": "",
+      "why": "final interviews 是 'onsite'，不是線上"
+     },
+     {
+      "o": "Candidates will be interviewed by six buyers",
+      "zh": "應徵者將由六名採購員面試",
+      "use": "",
+      "why": "六名採購員是新經理要帶領的團隊，不是面試官"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "r990-06",
+  "qs": [
+   {
+    "n": 1,
+    "key": "主旨題：Austin 'logged out every twenty minutes' → 連線一直斷",
+    "notes": [
+     {
+      "o": "A technician did not arrive in Austin",
+      "zh": "技術人員沒有抵達 Austin",
+      "use": "",
+      "why": "Vega 已與他們的技術人員一起排除問題"
+     },
+     {
+      "o": "Users in one office keep losing their connection",
+      "zh": "一個辦公室的使用者一直斷線",
+      "use": "",
+      "why": "文中 'users are logged out every twenty minutes'"
+     },
+     {
+      "o": "Employees in Denver were paid late",
+      "zh": "Denver 員工被延遲發薪",
+      "use": "",
+      "why": "文中 Denver 'is running smoothly'，無發薪問題"
+     },
+     {
+      "o": "The payroll software has crashed several times",
+      "zh": "薪資軟體當機多次",
+      "use": "",
+      "why": "Vega 說 'The application itself never crashed'"
+     }
+    ]
+   },
+   {
+    "n": 2,
+    "key": "細節題：Vega 說 'Almost certainly their network' + 路由器",
+    "notes": [
+     {
+      "o": "A mistake made during the weekend installation",
+      "zh": "週末安裝時出了錯",
+      "use": "",
+      "why": "沒提安裝失誤，Vega 歸咎於對方網路"
+     },
+     {
+      "o": "A shortage of trained technicians",
+      "zh": "受過訓練的技術人員不足",
+      "use": "",
+      "why": "文中沒提人力不足"
+     },
+     {
+      "o": "A defect in the new software",
+      "zh": "新軟體有缺陷",
+      "use": "",
+      "why": "Vega 說軟體本身 'never crashed'"
+     },
+     {
+      "o": "Outdated network equipment in Austin",
+      "zh": "Austin 老舊的網路設備",
+      "use": "",
+      "why": "文中 'router has not been updated in years'"
+     }
+    ]
+   },
+   {
+    "n": 3,
+    "key": "推論題：Sofia 'cannot process Friday's payroll' → Ravi 決定退回舊系統",
+    "notes": [
+     {
+      "o": "Austin staff will be paid through the old system",
+      "zh": "Austin 員工將用舊系統領薪",
+      "use": "",
+      "why": "文中 'Austin goes back to the old system'"
+     },
+     {
+      "o": "The Denver office will return to the old system",
+      "zh": "Denver 辦公室將退回舊系統",
+      "use": "",
+      "why": "Denver 運作順暢，沒有退回的理由"
+     },
+     {
+      "o": "Mr. Menon will travel to Austin",
+      "zh": "Menon 先生將前往 Austin",
+      "use": "",
+      "why": "文中沒提 Menon 出差"
+     },
+     {
+      "o": "The Seattle office will start using the new software",
+      "zh": "Seattle 辦公室將開始用新軟體",
+      "use": "",
+      "why": "Seattle 被指示 'postpone ... by a week'，不是開始"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "r990-07",
+  "qs": [
+   {
+    "n": 1,
+    "key": "主旨題：'must be classified as dormant' + 收費預告 → 警告帳戶靜止",
+    "notes": [
+     {
+      "o": "To request repayment of a loan",
+      "zh": "要求償還貸款",
+      "use": "",
+      "why": "文中沒提貸款"
+     },
+     {
+      "o": "To warn him that his account is considered inactive",
+      "zh": "警告他帳戶被視為不活躍",
+      "use": "",
+      "why": "文中 'no customer activity ... dormant'"
+     },
+     {
+      "o": "To confirm that his account has been closed",
+      "zh": "確認他的帳戶已被結清",
+      "use": "",
+      "why": "帳戶尚未關閉，五年未動才會被關"
+     },
+     {
+      "o": "To announce a change in interest rates",
+      "zh": "宣布利率調整",
+      "use": "",
+      "why": "文中 'at the current rate'，利率沒變"
+     }
+    ]
+   },
+   {
+    "n": 2,
+    "key": "細節題：找 avoid fee → 'No fee ... before June 3'",
+    "notes": [
+     {
+      "o": "By signing a new account agreement",
+      "zh": "簽署新的帳戶合約",
+      "use": "",
+      "why": "文中沒要求簽新合約"
+     },
+     {
+      "o": "By making a transaction before June 3",
+      "zh": "在 6 月 3 日前進行一筆交易",
+      "use": "",
+      "why": "文中 'make a transaction ... before June 3'"
+     },
+     {
+      "o": "By opening a second savings account",
+      "zh": "再開一個儲蓄帳戶",
+      "use": "",
+      "why": "文中沒提開第二個帳戶"
+     },
+     {
+      "o": "By writing to the unclaimed-funds office",
+      "zh": "寫信給無人認領資金辦公室",
+      "use": "",
+      "why": "該單位只在五年後接收餘額，不能免收費"
+     }
+    ]
+   },
+   {
+    "n": 3,
+    "key": "字義題：accrue interest → 利息累積，搭配 remain safe",
+    "notes": [
+     {
+      "o": "owe",
+      "zh": "(v.) 欠",
+      "use": "",
+      "why": "『欠』與存款孳息語意不合"
+     },
+     {
+      "o": "lose",
+      "zh": "(v.) 失去",
+      "use": "",
+      "why": "與 'remain safe' 語意相反"
+     },
+     {
+      "o": "accumulate",
+      "zh": "(v.) 累積",
+      "use": "",
+      "why": "'accrue interest' = 利息累積"
+     },
+     {
+      "o": "transfer",
+      "zh": "(v.) 轉移",
+      "use": "",
+      "why": "轉移的是後句的餘額，不是利息"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "r990-08",
+  "qs": [
+   {
+    "n": 1,
+    "key": "細節題：找 greatest → 'foremost strength' 後的設計",
+    "notes": [
+     {
+      "o": "Its detailed manual",
+      "zh": "詳細的說明書",
+      "use": "",
+      "why": "文中說明書 'deviate from the parts'，是缺點"
+     },
+     {
+      "o": "Its low price",
+      "zh": "低廉的價格",
+      "use": "",
+      "why": "文中 'costs considerably more'，價格偏高"
+     },
+     {
+      "o": "Its simple assembly",
+      "zh": "簡單的組裝",
+      "use": "",
+      "why": "要兩人約九十分鐘，被列為保留意見"
+     },
+     {
+      "o": "Its ergonomic design",
+      "zh": "符合人體工學的設計",
+      "use": "",
+      "why": "文中 'ergonomic design is the ... foremost strength'"
+     }
+    ]
+   },
+   {
+    "n": 2,
+    "key": "細節題：找 fifth month → 'one motor failed'",
+    "notes": [
+     {
+      "o": "A desk was returned for a refund",
+      "zh": "有桌子被退貨退款",
+      "use": "",
+      "why": "文中是免費寄替換品，沒提退款"
+     },
+     {
+      "o": "A motor stopped working",
+      "zh": "一個馬達故障",
+      "use": "",
+      "why": "文中 'one motor failed in the fifth month'"
+     },
+     {
+      "o": "The control panel was replaced",
+      "zh": "控制面板被更換",
+      "use": "",
+      "why": "換的是馬達，控制面板反而 'intuitive'"
+     },
+     {
+      "o": "The surface became scratched",
+      "zh": "桌面出現刮痕",
+      "use": "",
+      "why": "文中 'shows no scratches'"
+     }
+    ]
+   },
+   {
+    "n": 3,
+    "key": "NOT 題：缺點在第三段；噪音沒列為缺點，反而說安靜",
+    "notes": [
+     {
+      "o": "Noisy height adjustment",
+      "zh": "調整高度時噪音大",
+      "use": "",
+      "why": "文中 'adjusts quietly'，不是缺點，故為答案"
+     },
+     {
+      "o": "A relatively high price",
+      "zh": "價格相對偏高",
+      "use": "",
+      "why": "文中有：'costs considerably more'"
+     },
+     {
+      "o": "Lengthy assembly",
+      "zh": "組裝耗時",
+      "use": "",
+      "why": "文中有：'about ninety minutes'"
+     },
+     {
+      "o": "Inaccurate assembly instructions",
+      "zh": "組裝說明不準確",
+      "use": "",
+      "why": "文中有：'instructions deviate from the parts'"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "r990-09",
+  "qs": [
+   {
+    "n": 1,
+    "key": "主旨題：首句 'Forum will convene on October 17 and 18'",
+    "notes": [
+     {
+      "o": "A two-day event for business owners",
+      "zh": "為企業主舉辦的兩天活動",
+      "use": "",
+      "why": "文中 'Forum will convene on October 17 and 18'"
+     },
+     {
+      "o": "A change in chamber membership fees",
+      "zh": "商會會費的異動",
+      "use": "",
+      "why": "會員只是有折扣，沒說會費異動"
+     },
+     {
+      "o": "The opening of a new bakery outlet",
+      "zh": "新烘焙分店開幕",
+      "use": "",
+      "why": "烘焙品牌只是主講人的背景"
+     },
+     {
+      "o": "A mentoring program for students",
+      "zh": "針對學生的輔導計畫",
+      "use": "",
+      "why": "輔導對象是 prospective business owners，非學生"
+     }
+    ]
+   },
+   {
+    "n": 2,
+    "key": "細節題：兩日 $180 × 20% 折扣 = $144",
+    "notes": [
+     {
+      "o": "$110",
+      "zh": "110 美元",
+      "use": "",
+      "why": "那是非會員的單日票價"
+     },
+     {
+      "o": "$144",
+      "zh": "144 美元",
+      "use": "",
+      "why": "文中 '$180 for both days'，會員折 20% = 144"
+     },
+     {
+      "o": "$88",
+      "zh": "88 美元",
+      "use": "",
+      "why": "那是會員單日價（110 打八折）"
+     },
+     {
+      "o": "$180",
+      "zh": "180 美元",
+      "use": "",
+      "why": "那是非會員的兩日票價"
+     }
+    ]
+   },
+   {
+    "n": 3,
+    "key": "推論題：找 last year → 'sold out three weeks in advance'",
+    "notes": [
+     {
+      "o": "It was held at a different venue",
+      "zh": "在不同場地舉行",
+      "use": "",
+      "why": "文中沒提去年場地"
+     },
+     {
+      "o": "It was free for chamber members",
+      "zh": "會員免費入場",
+      "use": "",
+      "why": "會員只有八折；免費的是學生"
+     },
+     {
+      "o": "It lasted only one day",
+      "zh": "只舉辦一天",
+      "use": "",
+      "why": "文中沒提去年天數"
+     },
+     {
+      "o": "All of its seats were filled",
+      "zh": "所有座位都被訂滿",
+      "use": "",
+      "why": "文中 'last year's forum sold out'"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "r990-10",
+  "qs": [
+   {
+    "n": 1,
+    "key": "主旨題：標題 'Consignment Confirmation' + 貨物與費用明細",
+    "notes": [
+     {
+      "o": "To cancel a freight booking",
+      "zh": "取消貨運訂位",
+      "use": "",
+      "why": "文件是確認單，不是取消"
+     },
+     {
+      "o": "To request a customs inspection",
+      "zh": "要求海關查驗",
+      "use": "",
+      "why": "'Customs documentation' 只是收費項目"
+     },
+     {
+      "o": "To confirm the details of a shipment",
+      "zh": "確認一批貨物的運送細節",
+      "use": "",
+      "why": "標題 'Consignment Confirmation'，並列貨物、費用"
+     },
+     {
+      "o": "To report goods damaged in transit",
+      "zh": "通報貨物運送途中受損",
+      "use": "",
+      "why": "沒提貨損；條款 2 只說賠償上限"
+     }
+    ]
+   },
+   {
+    "n": 2,
+    "key": "推論題：條款 2 'limited to the declared value' → $58,000",
+    "notes": [
+     {
+      "o": "$58,000",
+      "zh": "58,000 美元",
+      "use": "",
+      "why": "文中 'limited to the declared value'，即 $58,000"
+     },
+     {
+      "o": "$3,860",
+      "zh": "3,860 美元",
+      "use": "",
+      "why": "那是應付總額，不是賠償上限"
+     },
+     {
+      "o": "$290",
+      "zh": "290 美元",
+      "use": "",
+      "why": "那是保險費"
+     },
+     {
+      "o": "$3,420",
+      "zh": "3,420 美元",
+      "use": "",
+      "why": "那是運費"
+     }
+    ]
+   },
+   {
+    "n": 3,
+    "key": "細節題：條款 3 'charged to the shipper' → Shipper 欄",
+    "notes": [
+     {
+      "o": "Kobe Precision Tools",
+      "zh": "Kobe 精密工具公司（收件人）",
+      "use": "",
+      "why": "它是 Recipient 收件人，不是 shipper"
+     },
+     {
+      "o": "Dalton Machine Parts",
+      "zh": "Dalton 機械零件公司（託運人）",
+      "use": "",
+      "why": "條款 3 'charged to the shipper'，Shipper 即 Dalton"
+     },
+     {
+      "o": "Transpacific Freight Services",
+      "zh": "Transpacific 貨運公司（承運人）",
+      "use": "",
+      "why": "它是收費的承運人，不是被收費方"
+     },
+     {
+      "o": "Mr. Tanaka",
+      "zh": "Tanaka 先生（收件聯絡人）",
+      "use": "",
+      "why": "他是收件公司的聯絡人，不是 shipper"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "r990-11",
+  "qs": [
+   {
+    "n": 1,
+    "key": "主旨題：首句 'Thank you for your inquiry' → 回覆訂場詢問",
+    "notes": [
+     {
+      "o": "To request payment of an overdue invoice",
+      "zh": "要求支付逾期發票",
+      "use": "",
+      "why": "文中沒提任何發票"
+     },
+     {
+      "o": "To cancel a reservation she made",
+      "zh": "取消她所做的預約",
+      "use": "",
+      "why": "他是替她 'placed a provisional hold'，不是取消"
+     },
+     {
+      "o": "To invite her to a hotel opening",
+      "zh": "邀請她參加飯店開幕",
+      "use": "",
+      "why": "文中沒提開幕活動"
+     },
+     {
+      "o": "To reply to her request about booking an event",
+      "zh": "回覆她關於訂辦活動的詢問",
+      "use": "",
+      "why": "文中 'Thank you for your inquiry about holding'"
+     }
+    ]
+   },
+   {
+    "n": 2,
+    "key": "細節題：找 March 31 → 'signed agreement and a deposit'",
+    "notes": [
+     {
+      "o": "Full payment for 24 rooms",
+      "zh": "24 間房的全額款項",
+      "use": "",
+      "why": "文中只要求 25 percent 的訂金"
+     },
+     {
+      "o": "A final list of participants",
+      "zh": "最終的與會者名單",
+      "use": "",
+      "why": "只要求之後告知所需無障礙房數，沒訂 3/31 期限"
+     },
+     {
+      "o": "A signed agreement and a deposit",
+      "zh": "簽署的合約與訂金",
+      "use": "",
+      "why": "文中 'signed agreement and a deposit of 25 percent'"
+     },
+     {
+      "o": "A choice of dinner menu",
+      "zh": "晚餐菜單的選擇",
+      "use": "",
+      "why": "晚餐只說 'arranged at an additional charge'，無期限"
+     }
+    ]
+   },
+   {
+    "n": 3,
+    "key": "推論題：April 25 晚於 April 20 → 'after that date it is forfeited'",
+    "notes": [
+     {
+      "o": "A fee of $210 would be charged",
+      "zh": "會收取 210 美元的費用",
+      "use": "",
+      "why": "$210 是每人每晚房價，不是取消費"
+     },
+     {
+      "o": "The booking would be moved to June",
+      "zh": "訂位會改到六月",
+      "use": "",
+      "why": "文中沒提改期"
+     },
+     {
+      "o": "The deposit would be refunded in full",
+      "zh": "訂金會全額退還",
+      "use": "",
+      "why": "全額退款只限 'before April 20'"
+     },
+     {
+      "o": "Her company would lose its deposit",
+      "zh": "她的公司會損失訂金",
+      "use": "",
+      "why": "文中 'after that date it is forfeited'"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "r990-12",
+  "qs": [
+   {
+    "n": 1,
+    "key": "主旨題：標題 + 首句 'cut carbon emissions ... by 18 percent'",
+    "notes": [
+     {
+      "o": "A new regulation on packaging waste",
+      "zh": "包裝廢棄物的新法規",
+      "use": "",
+      "why": "文中沒提任何新法規"
+     },
+     {
+      "o": "A paper company's plan to close a mill",
+      "zh": "造紙公司關閉紙廠的計畫",
+      "use": "",
+      "why": "三座紙廠仍在運作，沒提關廠"
+     },
+     {
+      "o": "An increase in natural gas prices",
+      "zh": "天然氣價格上漲",
+      "use": "",
+      "why": "天然氣只是被木料廢棄物取代，沒提漲價"
+     },
+     {
+      "o": "A manufacturer's progress in reducing emissions",
+      "zh": "製造商在減排上的進展",
+      "use": "",
+      "why": "文中 'has cut carbon emissions ... by 18 percent'"
+     }
+    ]
+   },
+   {
+    "n": 2,
+    "key": "細節題：找 attributes most → '$40 million upgrade'",
+    "notes": [
+     {
+      "o": "Shorter delivery routes",
+      "zh": "縮短配送路線",
+      "use": "",
+      "why": "文中說這只是 'A smaller share'"
+     },
+     {
+      "o": "An upgrade of energy equipment",
+      "zh": "能源設備升級",
+      "use": "",
+      "why": "文中 'most of the reduction' → '$40 million upgrade'"
+     },
+     {
+      "o": "A decline in paper production",
+      "zh": "紙張產量下降",
+      "use": "",
+      "why": "文中沒提減產"
+     },
+     {
+      "o": "The purchase of carbon credits",
+      "zh": "購買碳權",
+      "use": "",
+      "why": "Stein 說公司 'does not intend to buy carbon credits'"
+     }
+    ]
+   },
+   {
+    "n": 3,
+    "key": "字義題：harder to attain targets → 達成目標",
+    "notes": [
+     {
+      "o": "explain",
+      "zh": "(v.) 解釋",
+      "use": "",
+      "why": "目標無法被『解釋』，語意不通"
+     },
+     {
+      "o": "reach",
+      "zh": "(v.) 達到",
+      "use": "",
+      "why": "'attain targets' = 達成目標，同 reach"
+     },
+     {
+      "o": "lower",
+      "zh": "(v.) 降低",
+      "use": "",
+      "why": "『降低目標』與 'harder to' 的語意不合"
+     },
+     {
+      "o": "publish",
+      "zh": "(v.) 公布",
+      "use": "",
+      "why": "公布目標與『更難』的語意不連貫"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "r990-13",
+  "qs": [
+   {
+    "n": 1,
+    "key": "細節題：turnover 31% + 'rigid shift patterns' → 降離職",
+    "notes": [
+     {
+      "o": "To reduce the number of employees who leave",
+      "zh": "減少離職的員工人數",
+      "use": "",
+      "why": "文中 'turnover ... 31 percent'，彈性排班是對策"
+     },
+     {
+      "o": "To extend customer support hours",
+      "zh": "延長客服時間",
+      "use": "",
+      "why": "只是讓員工自選上班時間，須維持 required coverage"
+     },
+     {
+      "o": "To lower payroll costs",
+      "zh": "降低薪資成本",
+      "use": "",
+      "why": "文中說原因是排班 'rather than pay'，沒提降成本"
+     },
+     {
+      "o": "To prepare for opening a Dublin office",
+      "zh": "籌備設立 Dublin 辦公室",
+      "use": "",
+      "why": "Dublin 是已有的子公司，只是參考案例"
+     }
+    ]
+   },
+   {
+    "n": 2,
+    "key": "細節題：找 suspended → 'deteriorate by more than 10 percent'",
+    "notes": [
+     {
+      "o": "Scheduling conflicts among agents",
+      "zh": "員工之間的排班衝突",
+      "use": "",
+      "why": "組長有權 'resolve conflicts'，不會導致暫停"
+     },
+     {
+      "o": "Complaints from the Dublin subsidiary",
+      "zh": "Dublin 子公司的抱怨",
+      "use": "",
+      "why": "文中沒提 Dublin 的抱怨"
+     },
+     {
+      "o": "A fall in the number of job applicants",
+      "zh": "求職者人數減少",
+      "use": "",
+      "why": "文中沒提應徵人數"
+     },
+     {
+      "o": "A significant worsening of response times",
+      "zh": "回應時間明顯惡化",
+      "use": "",
+      "why": "文中 'deteriorate by more than 10 percent'"
+     }
+    ]
+   },
+   {
+    "n": 3,
+    "key": "NOT 題：三項指標是留任率、回應時間、滿意度，營收沒列",
+    "notes": [
+     {
+      "o": "Average response time",
+      "zh": "平均回應時間",
+      "use": "",
+      "why": "文中有：'average response time'"
+     },
+     {
+      "o": "Staff retention",
+      "zh": "員工留任率",
+      "use": "",
+      "why": "文中有：'staff retention'"
+     },
+     {
+      "o": "Customer satisfaction scores",
+      "zh": "顧客滿意度分數",
+      "use": "",
+      "why": "文中有：'customer satisfaction scores'"
+     },
+     {
+      "o": "Sales revenue",
+      "zh": "銷售營收",
+      "use": "",
+      "why": "三項指標中沒有，故為答案"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "r990-14",
+  "qs": [
+   {
+    "n": 1,
+    "key": "細節題：首句 'attempted breach of our customer database'",
+    "notes": [
+     {
+      "o": "Customer data was stolen last month",
+      "zh": "客戶資料上個月被竊",
+      "use": "",
+      "why": "文中 'No customer data was exposed'"
+     },
+     {
+      "o": "Someone recently tried to break into a company database",
+      "zh": "最近有人試圖闖入公司資料庫",
+      "use": "",
+      "why": "文中 'attempted breach of our customer database'"
+     },
+     {
+      "o": "A new staff portal has been launched",
+      "zh": "新的員工入口網站上線",
+      "use": "",
+      "why": "入口網站只是課程的平台，不是原因"
+     },
+     {
+      "o": "New legislation requires it",
+      "zh": "新法規要求這麼做",
+      "use": "",
+      "why": "文中沒提任何法規"
+     }
+    ]
+   },
+   {
+    "n": 2,
+    "key": "細節題：找 December 1 → 'credentials ... will be suspended'",
+    "notes": [
+     {
+      "o": "Their quiz scores will be lowered",
+      "zh": "測驗分數會被調降",
+      "use": "",
+      "why": "文中沒提調降分數"
+     },
+     {
+      "o": "They will have to pay a fine",
+      "zh": "必須繳納罰款",
+      "use": "",
+      "why": "文中沒提罰款，且說 'not a punishment'"
+     },
+     {
+      "o": "Their network access will be suspended",
+      "zh": "網路存取權會被停用",
+      "use": "",
+      "why": "文中 'network credentials ... will be suspended'"
+     },
+     {
+      "o": "They must attend a class in person",
+      "zh": "必須親自去上課",
+      "use": "",
+      "why": "課程是 'online course'，不是現場"
+     }
+    ]
+   },
+   {
+    "n": 3,
+    "key": "字義題：imperative + 逾期停權 → 非做不可",
+    "notes": [
+     {
+      "o": "difficult",
+      "zh": "(adj.) 困難的",
+      "use": "",
+      "why": "句子談的是必須完成，不是難度"
+     },
+     {
+      "o": "customary",
+      "zh": "(adj.) 慣例的",
+      "use": "",
+      "why": "這是新制度，逾期還會停權，不是慣例"
+     },
+     {
+      "o": "optional",
+      "zh": "(adj.) 可選擇的",
+      "use": "",
+      "why": "與 'required' 及停權的處分相反"
+     },
+     {
+      "o": "essential",
+      "zh": "(adj.) 必要的",
+      "use": "",
+      "why": "'imperative' = 必須，呼應 'required' 與停權"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "r990-15",
+  "qs": [
+   {
+    "n": 1,
+    "key": "主旨題：'I have therefore authorized' 補寄 + 退運費 + 折價券",
+    "notes": [
+     {
+      "o": "To explain how an order problem will be resolved",
+      "zh": "說明訂單問題將如何解決",
+      "use": "",
+      "why": "文中 'I have therefore authorized two replacement'"
+     },
+     {
+      "o": "To ask a customer to return damaged goods",
+      "zh": "要求客戶退回受損商品",
+      "use": "",
+      "why": "文中沒要求寄回商品"
+     },
+     {
+      "o": "To notify a customer of a price increase",
+      "zh": "通知客戶價格上漲",
+      "use": "",
+      "why": "文中沒提漲價"
+     },
+     {
+      "o": "To confirm that an order arrived complete",
+      "zh": "確認訂單完整送達",
+      "use": "",
+      "why": "貨物只是 'left our warehouse complete'，到貨少了兩個"
+     }
+    ]
+   },
+   {
+    "n": 2,
+    "key": "細節題：找 two of six → 'damaged in transit'",
+    "notes": [
+     {
+      "o": "The order was sent to the wrong address",
+      "zh": "訂單寄錯地址",
+      "use": "",
+      "why": "文中沒提地址錯誤"
+     },
+     {
+      "o": "The items were out of stock",
+      "zh": "商品缺貨",
+      "use": "",
+      "why": "文中說貨 'left our warehouse complete'，非缺貨"
+     },
+     {
+      "o": "The warehouse packed too few items",
+      "zh": "倉庫少裝了商品",
+      "use": "",
+      "why": "文中 'left our warehouse complete'，出倉時齊全"
+     },
+     {
+      "o": "The box was damaged during shipping",
+      "zh": "箱子在運送中受損",
+      "use": "",
+      "why": "文中 'The box ... was damaged in transit'"
+     }
+    ]
+   },
+   {
+    "n": 3,
+    "key": "NOT 題：補寄、退運費、15% 折價券都有，未來免運沒提",
+    "notes": [
+     {
+      "o": "Free delivery on future orders",
+      "zh": "未來訂單免運費",
+      "use": "",
+      "why": "只給 15 percent 折價券，沒提免運，故為答案"
+     },
+     {
+      "o": "Repayment of the delivery fee",
+      "zh": "退還運費",
+      "use": "",
+      "why": "文中有：'$12 delivery fee ... reimbursed'"
+     },
+     {
+      "o": "Replacement saucepans",
+      "zh": "補寄湯鍋",
+      "use": "",
+      "why": "文中有：'two replacement saucepans'"
+     },
+     {
+      "o": "A discount voucher",
+      "zh": "折價券",
+      "use": "",
+      "why": "文中有：'15 percent off your next purchase'"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "r990-16",
+  "qs": [
+   {
+    "n": 1,
+    "key": "細節題：找 chief merit → 'Its chief merit is simplicity'",
+    "notes": [
+     {
+      "o": "It is easy to use",
+      "zh": "容易使用",
+      "use": "",
+      "why": "文中 'chief merit is simplicity'"
+     },
+     {
+      "o": "It replaces his accounting program",
+      "zh": "取代他的會計程式",
+      "use": "",
+      "why": "文中是 'complements ... rather than replacing'"
+     },
+     {
+      "o": "It costs less than rival products",
+      "zh": "比競爭產品便宜",
+      "use": "",
+      "why": "文中說 'not the cheapest option'"
+     },
+     {
+      "o": "It allows full customization of reports",
+      "zh": "報表可完全客製化",
+      "use": "",
+      "why": "文中說報表 'cannot be customized as much'，是缺點"
+     }
+    ]
+   },
+   {
+    "n": 2,
+    "key": "細節題：找 children's bicycles → 'sales ... rose 30 percent'",
+    "notes": [
+     {
+      "o": "The shop ran out of stock",
+      "zh": "店裡缺貨",
+      "use": "",
+      "why": "他事先 'ordered extra stock'，沒缺貨"
+     },
+     {
+      "o": "The shop sold more children's bicycles",
+      "zh": "店裡賣出更多兒童腳踏車",
+      "use": "",
+      "why": "文中 'sales in that category rose 30 percent'"
+     },
+     {
+      "o": "The shop lowered its prices",
+      "zh": "店裡降價",
+      "use": "",
+      "why": "文中沒提降價"
+     },
+     {
+      "o": "The shop hired a data specialist",
+      "zh": "店裡聘請資料專員",
+      "use": "",
+      "why": "文中 'without a data specialist'，並沒聘請"
+     }
+    ]
+   },
+   {
+    "n": 3,
+    "key": "字義題：prompt 支援 → 'answered within a day' → 迅速",
+    "notes": [
+     {
+      "o": "automatic",
+      "zh": "(adj.) 自動的",
+      "use": "",
+      "why": "支援由人回覆，重點是 'within a day' 的速度"
+     },
+     {
+      "o": "costly",
+      "zh": "(adj.) 昂貴的",
+      "use": "",
+      "why": "費用另在末段談，此處講回覆時間"
+     },
+     {
+      "o": "quick",
+      "zh": "(adj.) 迅速的",
+      "use": "",
+      "why": "'prompt' 支援 = 'answered within a day'"
+     },
+     {
+      "o": "polite",
+      "zh": "(adj.) 有禮貌的",
+      "use": "",
+      "why": "文中只說一天內回覆，講速度不講禮貌"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "r990-17",
+  "qs": [
+   {
+    "n": 1,
+    "key": "主旨題：'Please regard this letter as such notice' → 警告改善",
+    "notes": [
+     {
+      "o": "To warn a contractor that its service must improve",
+      "zh": "警告承包商必須改善服務",
+      "use": "",
+      "why": "文中 'regard this letter as such notice' 並限期改善"
+     },
+     {
+      "o": "To request a price quotation",
+      "zh": "要求提供報價",
+      "use": "",
+      "why": "文中沒提報價"
+     },
+     {
+      "o": "To thank a company for its work",
+      "zh": "感謝公司的服務",
+      "use": "",
+      "why": "文中 'standard of service has deteriorated'，是批評"
+     },
+     {
+      "o": "To renew a cleaning contract",
+      "zh": "續簽清潔合約",
+      "use": "",
+      "why": "文中是可能終止合約，不是續約"
+     }
+    ]
+   },
+   {
+    "n": 2,
+    "key": "細節題：找 March 13 → 'the contract will continue as before'",
+    "notes": [
+     {
+      "o": "A new agreement will be signed",
+      "zh": "會簽署新協議",
+      "use": "",
+      "why": "文中 'continue as before'，不需新協議"
+     },
+     {
+      "o": "The contract will end on March 31",
+      "zh": "合約將在 3 月 31 日結束",
+      "use": "",
+      "why": "那是未改善的後果：'Otherwise ... March 31'"
+     },
+     {
+      "o": "The contract will remain in effect",
+      "zh": "合約仍然有效",
+      "use": "",
+      "why": "文中 'the contract will continue as before'"
+     },
+     {
+      "o": "Payment will be withheld",
+      "zh": "款項將被扣留",
+      "use": "",
+      "why": "扣款屬 'Otherwise' 的情況，且只針對不合格工作"
+     }
+    ]
+   },
+   {
+    "n": 3,
+    "key": "字義題：with respect to the contract → 關於",
+    "notes": [
+     {
+      "o": "instead of",
+      "zh": "(prep.) 而不是",
+      "use": "",
+      "why": "『取代』不合，信是在談合約這件事"
+     },
+     {
+      "o": "concerning",
+      "zh": "(prep.) 關於",
+      "use": "",
+      "why": "'with respect to the cleaning contract' = 關於合約"
+     },
+     {
+      "o": "in honor of",
+      "zh": "(prep.) 為了向...致敬",
+      "use": "",
+      "why": "『致敬』與談合約的語意不符"
+     },
+     {
+      "o": "in spite of",
+      "zh": "(prep.) 儘管",
+      "use": "",
+      "why": "『儘管』語意不通，後面不是讓步內容"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "r990-18",
+  "qs": [
+   {
+    "n": 1,
+    "key": "主旨題：標題 + 'announced plans to franchise the concept'",
+    "notes": [
+     {
+      "o": "A new training school for café managers",
+      "zh": "咖啡店經理的新訓練學校",
+      "use": "",
+      "why": "訓練只是加盟者的條件，不是主題"
+     },
+     {
+      "o": "A sharp rise in coffee bean prices",
+      "zh": "咖啡豆價格大漲",
+      "use": "",
+      "why": "豆價只是背景，且說獲利 'has held up'"
+     },
+     {
+      "o": "The sale of a café chain to investors",
+      "zh": "連鎖咖啡店賣給投資人",
+      "use": "",
+      "why": "Bell 不願 'handing ... equity to outside investors'"
+     },
+     {
+      "o": "A coffee company's plan to grow through franchising",
+      "zh": "咖啡公司以加盟方式擴張的計畫",
+      "use": "",
+      "why": "文中 'plans to franchise the concept'"
+     }
+    ]
+   },
+   {
+    "n": 2,
+    "key": "細節題：找 Bell 的理由 → 'not willing' 讓出 equity",
+    "notes": [
+     {
+      "o": "He could not find suitable café sites",
+      "zh": "找不到合適的店面",
+      "use": "",
+      "why": "文中沒提找不到店面"
+     },
+     {
+      "o": "His customers asked for more locations",
+      "zh": "顧客要求更多據點",
+      "use": "",
+      "why": "文中沒提顧客要求"
+     },
+     {
+      "o": "He did not want to give up much ownership",
+      "zh": "不想讓出太多所有權",
+      "use": "",
+      "why": "文中 'handing a substantial share of equity' 他不願意"
+     },
+     {
+      "o": "His company-owned cafés were losing money",
+      "zh": "自營店虧損",
+      "use": "",
+      "why": "文中 'profitability has held up'，並未虧損"
+     }
+    ]
+   },
+   {
+    "n": 3,
+    "key": "NOT 題：抽成、八週訓練、自付開店費都有；沒提自己烘豆",
+    "notes": [
+     {
+      "o": "Give Graystone a share of their sales",
+      "zh": "把銷售額的一部分交給 Graystone",
+      "use": "",
+      "why": "文中有：'6 percent of their sales'"
+     },
+     {
+      "o": "Complete eight weeks of training",
+      "zh": "完成八週訓練",
+      "use": "",
+      "why": "文中有：'eight weeks of training'"
+     },
+     {
+      "o": "Pay the cost of opening a café",
+      "zh": "負擔開店成本",
+      "use": "",
+      "why": "文中有：'bear the opening costs'"
+     },
+     {
+      "o": "Roast their own coffee beans",
+      "zh": "自己烘焙咖啡豆",
+      "use": "",
+      "why": "文中只說在烘焙廠受訓，沒說自己烘豆"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "r990-19",
+  "qs": [
+   {
+    "n": 1,
+    "key": "細節題：Diane 首句 'flight ... is delayed at least three hours'",
+    "notes": [
+     {
+      "o": "The meeting was moved to an earlier time",
+      "zh": "會議被提前",
+      "use": "",
+      "why": "文中會議仍在 10:00，沒提提前"
+     },
+     {
+      "o": "She is busy compiling figures",
+      "zh": "她忙著整理數據",
+      "use": "",
+      "why": "整理數據的是 Kenji：'You compiled most of the figures'"
+     },
+     {
+      "o": "Her flight has been delayed",
+      "zh": "她的班機延誤",
+      "use": "",
+      "why": "文中 'My flight from Portland is delayed'"
+     },
+     {
+      "o": "She has to fly home tonight",
+      "zh": "她今晚要飛回家",
+      "use": "",
+      "why": "今晚飛回家的是 'two directors'"
+     }
+    ]
+   },
+   {
+    "n": 2,
+    "key": "細節題：找請求 → 'I would rather you presented ... in my place'",
+    "notes": [
+     {
+      "o": "Book her a seat on another flight",
+      "zh": "替她訂另一班飛機",
+      "use": "",
+      "why": "文中沒提改訂班機"
+     },
+     {
+      "o": "Postpone the board meeting",
+      "zh": "延後董事會",
+      "use": "",
+      "why": "是 Kenji 說主席不想延期，她沒要求"
+     },
+     {
+      "o": "Present a proposal on her behalf",
+      "zh": "代替她報告提案",
+      "use": "",
+      "why": "文中 'rather you presented the acquisition proposal'"
+     },
+     {
+      "o": "Move her item to the end of the agenda",
+      "zh": "把她的議程移到最後",
+      "use": "",
+      "why": "那是 Kenji 的提議，她說 'Even then I would miss it'"
+     }
+    ]
+   },
+   {
+    "n": 3,
+    "key": "推論題：Diane 7:01 'I will write a one-page note on that now'",
+    "notes": [
+     {
+      "o": "Prepare a short document about debt",
+      "zh": "寫一份有關債務的簡短文件",
+      "use": "",
+      "why": "文中 'one-page note' 談 'implications for our debt'"
+     },
+     {
+      "o": "Lower the proposed purchase price",
+      "zh": "調降擬議的收購價",
+      "use": "",
+      "why": "文中沒提調價"
+     },
+     {
+      "o": "Telephone the chairperson",
+      "zh": "打電話給董事會主席",
+      "use": "",
+      "why": "是董事可能在她降落後打給她，不是她打"
+     },
+     {
+      "o": "Record the minutes of the meeting",
+      "zh": "記錄會議紀錄",
+      "use": "",
+      "why": "Kenji 只確認她缺席被記入 minutes，記錄者不是她"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "r990-20",
+  "qs": [
+   {
+    "n": 1,
+    "key": "主旨題：首句 'has been appointed chief operating officer'",
+    "notes": [
+     {
+      "o": "To announce a merger with another firm",
+      "zh": "宣布與另一家公司合併",
+      "use": "",
+      "why": "文中沒提併購"
+     },
+     {
+      "o": "To introduce a newly appointed executive",
+      "zh": "介紹新任命的主管",
+      "use": "",
+      "why": "文中 'has been appointed chief operating officer'"
+     },
+     {
+      "o": "To invite employees to a training session",
+      "zh": "邀請員工參加訓練課程",
+      "use": "",
+      "why": "邀請的是 June 27 的歡送會，不是訓練"
+     },
+     {
+      "o": "To report the closure of a subsidiary",
+      "zh": "報告子公司關閉",
+      "use": "",
+      "why": "新加坡子公司表現亮眼，沒提關閉"
+     }
+    ]
+   },
+   {
+    "n": 2,
+    "key": "細節題：找 Singapore → 'cut delivery times by a fifth'",
+    "notes": [
+     {
+      "o": "It shortened its delivery times",
+      "zh": "縮短了配送時間",
+      "use": "",
+      "why": "文中 'cut delivery times by a fifth'"
+     },
+     {
+      "o": "It lowered its manufacturing costs",
+      "zh": "降低了製造成本",
+      "use": "",
+      "why": "文中沒提製造成本"
+     },
+     {
+      "o": "It doubled its number of warehouses",
+      "zh": "倉庫數量增加一倍",
+      "use": "",
+      "why": "四合為二是她未來的任務，且在歐洲"
+     },
+     {
+      "o": "It expanded into eleven countries",
+      "zh": "擴展到十一個國家",
+      "use": "",
+      "why": "eleven countries 是整個集團的營運國家數"
+     }
+    ]
+   },
+   {
+    "n": 3,
+    "key": "NOT 題：新職責是 manufacturing、procurement、distribution",
+    "notes": [
+     {
+      "o": "Manufacturing",
+      "zh": "製造",
+      "use": "",
+      "why": "文中有：'oversee manufacturing'"
+     },
+     {
+      "o": "Marketing",
+      "zh": "行銷",
+      "use": "",
+      "why": "文中職責清單沒有行銷，故為答案"
+     },
+     {
+      "o": "Distribution",
+      "zh": "配送",
+      "use": "",
+      "why": "文中有：'distribution'"
+     },
+     {
+      "o": "Procurement",
+      "zh": "採購",
+      "use": "",
+      "why": "文中有：'procurement'"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "r990-21",
+  "qs": [
+   {
+    "n": 1,
+    "key": "時態／語態：you 被接待並 'issued' 徽章，'by' 帶出施動者 → 未來被動",
+    "notes": [
+     {
+      "o": "are meeting",
+      "zh": "(進行式) 正在見面",
+      "use": "be + p.p. + by + 人",
+      "why": "主動語態，後面缺受詞，也無法接 'by a member'"
+     },
+     {
+      "o": "will be met",
+      "zh": "(未來被動) 將被接待",
+      "use": "will be + p.p. + by",
+      "why": "'by a member of my team' + 'issued' 並列，週一尚未發生"
+     },
+     {
+      "o": "will meet",
+      "zh": "(未來式) 將會見",
+      "use": "",
+      "why": "主動語態，缺受詞，與 'by a member' 矛盾"
+     },
+     {
+      "o": "have met",
+      "zh": "(完成式) 已經見過",
+      "use": "",
+      "why": "主動且缺受詞；週一是未來，不能用現在完成"
+     }
+    ]
+   },
+   {
+    "n": 2,
+    "key": "單字：has been ___ to guide → 被指派去指導 → designated",
+    "notes": [
+     {
+      "o": "depreciated",
+      "zh": "(v.) 貶值",
+      "use": "",
+      "why": "語意不通，導師不會被『貶值』"
+     },
+     {
+      "o": "deterred",
+      "zh": "(v.) 阻止",
+      "use": "",
+      "why": "deter 要接 from + V-ing，與 'to guide' 不合"
+     },
+     {
+      "o": "designated",
+      "zh": "(v.) 指派",
+      "use": "be designated to + V",
+      "why": "'the mentor ... designated to guide you' 導師被指派"
+     },
+     {
+      "o": "disclosed",
+      "zh": "(v.) 揭露",
+      "use": "",
+      "why": "disclose 不接 to V，語意也不通"
+     }
+    ]
+   },
+   {
+    "n": 3,
+    "key": "連接詞：前句要求帶資料、後句說無法入薪資 → 否則 Otherwise",
+    "notes": [
+     {
+      "o": "Likewise",
+      "zh": "(adv.) 同樣地",
+      "use": "",
+      "why": "表示並列相似，文中是『不帶就會…』的後果"
+     },
+     {
+      "o": "Meanwhile",
+      "zh": "(adv.) 同時",
+      "use": "",
+      "why": "表示同時發生，沒有條件與後果的關係"
+     },
+     {
+      "o": "Therefore",
+      "zh": "(adv.) 因此",
+      "use": "",
+      "why": "因果方向反了：不是帶了資料所以無法入薪資"
+     },
+     {
+      "o": "Otherwise",
+      "zh": "(adv.) 否則",
+      "use": "Otherwise, + 後果",
+      "why": "'bring ... Otherwise, we will be unable' 條件的反面"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "r990-22",
+  "qs": [
+   {
+    "n": 1,
+    "key": "單字：no longer rely ___ on own observations → 不再『只』靠",
+    "notes": [
+     {
+      "o": "exclusively",
+      "zh": "(adv.) 僅僅、只",
+      "use": "rely exclusively on + N",
+      "why": "'no longer rely exclusively on'；後句 'also draw on'"
+     },
+     {
+      "o": "unanimously",
+      "zh": "(adv.) 一致地",
+      "use": "",
+      "why": "常修飾表決或同意，不能修飾 rely on"
+     },
+     {
+      "o": "respectively",
+      "zh": "(adv.) 分別地",
+      "use": "",
+      "why": "要有兩組對應項才能用，此處不適用"
+     },
+     {
+      "o": "approximately",
+      "zh": "(adv.) 大約",
+      "use": "",
+      "why": "修飾數字，語意不通"
+     }
+    ]
+   },
+   {
+    "n": 2,
+    "key": "詞性：介系詞 without 後 → 要接名詞 justification",
+    "notes": [
+     {
+      "o": "justification",
+      "zh": "(n.) 正當理由",
+      "use": "without + N",
+      "why": "without 後接名詞：'without justification'"
+     },
+     {
+      "o": "justifiably",
+      "zh": "(adv.) 合理地",
+      "use": "",
+      "why": "副詞不能當 without 的受詞"
+     },
+     {
+      "o": "justified",
+      "zh": "(adj.) 正當的",
+      "use": "",
+      "why": "形容詞後面沒有名詞可修飾，不能單獨接在 without 後"
+     },
+     {
+      "o": "justify",
+      "zh": "(v.) 證明正當",
+      "use": "",
+      "why": "介系詞後不能直接接動詞原形"
+     }
+    ]
+   },
+   {
+    "n": 3,
+    "key": "時態／語態：規則預告 'any forms submitted after' → 未來式",
+    "notes": [
+     {
+      "o": "will delay",
+      "zh": "(未來式) 將延誤",
+      "use": "",
+      "why": "主詞是 'any forms'，規則的後果用 will + 原形"
+     },
+     {
+      "o": "have delayed",
+      "zh": "(完成式) 已經延誤",
+      "use": "",
+      "why": "現在完成表示已發生，但逾期尚未發生"
+     },
+     {
+      "o": "delayed",
+      "zh": "(過去式) 延誤了",
+      "use": "",
+      "why": "文法可以，但時間不合：這是對未來的預告"
+     },
+     {
+      "o": "delaying",
+      "zh": "(V-ing) 延誤",
+      "use": "",
+      "why": "缺助動詞，不能單獨當述語"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "r990-23",
+  "qs": [
+   {
+    "n": 1,
+    "key": "時態／語態：work 被延後 + 'originally planned' → 過去被動",
+    "notes": [
+     {
+      "o": "postponed",
+      "zh": "(p.p.) 被延後",
+      "use": "",
+      "why": "缺 be 動詞，句子沒有述語"
+     },
+     {
+      "o": "was postponed",
+      "zh": "(過去被動) 被延後了",
+      "use": "was + p.p.",
+      "why": "work 是被延後的對象；'originally planned for the spring'"
+     },
+     {
+      "o": "is postponing",
+      "zh": "(進行式) 正在延後",
+      "use": "",
+      "why": "主動語態，缺受詞，work 不會自己延後別的事"
+     },
+     {
+      "o": "has postponed",
+      "zh": "(完成式) 已延後",
+      "use": "",
+      "why": "主動語態，缺受詞，主詞 work 無法 postpone"
+     }
+    ]
+   },
+   {
+    "n": 2,
+    "key": "單字：To ___ the shortage of spaces → 緩解車位不足",
+    "notes": [
+     {
+      "o": "advocate",
+      "zh": "(v.) 提倡",
+      "use": "",
+      "why": "advocate 指公開支持主張，不能搭配 shortage"
+     },
+     {
+      "o": "accumulate",
+      "zh": "(v.) 累積",
+      "use": "",
+      "why": "累積車位短缺，與後面補助措施的目的相反"
+     },
+     {
+      "o": "authorize",
+      "zh": "(v.) 授權",
+      "use": "",
+      "why": "authorize 要搭配許可的事項，語意不通"
+     },
+     {
+      "o": "alleviate",
+      "zh": "(v.) 緩解",
+      "use": "alleviate + shortage/problem",
+      "why": "補助通勤月票與接駁車是為了減輕短缺"
+     }
+    ]
+   },
+   {
+    "n": 3,
+    "key": "連接詞：前句說會被拖吊、後句呼籲移車 → 因此 Accordingly",
+    "notes": [
+     {
+      "o": "Nevertheless",
+      "zh": "(adv.) 儘管如此",
+      "use": "",
+      "why": "表讓步，前後並非轉折"
+     },
+     {
+      "o": "Similarly",
+      "zh": "(adv.) 同樣地",
+      "use": "",
+      "why": "表相似並列，這裡是後果引出行動"
+     },
+     {
+      "o": "Accordingly",
+      "zh": "(adv.) 因此",
+      "use": "Accordingly, + 建議或行動",
+      "why": "'will be towed' → 因此 'we urge you to move'"
+     },
+     {
+      "o": "Otherwise",
+      "zh": "(adv.) 否則",
+      "use": "",
+      "why": "文法可以，但前句已是後果，沒有可被『否則』的條件"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "r990-24",
+  "qs": [
+   {
+    "n": 1,
+    "key": "單字：loan secured by equipment 'offered as ___' → 抵押品",
+    "notes": [
+     {
+      "o": "correspondence",
+      "zh": "(n.) 書信往來",
+      "use": "",
+      "why": "語意不通，設備不能當作書信往來提供"
+     },
+     {
+      "o": "clientele",
+      "zh": "(n.) 顧客群",
+      "use": "",
+      "why": "設備不是顧客群"
+     },
+     {
+      "o": "compliance",
+      "zh": "(n.) 遵守",
+      "use": "",
+      "why": "'offered as compliance' 語意不通"
+     },
+     {
+      "o": "collateral",
+      "zh": "(n.) 擔保品",
+      "use": "offer ... as collateral",
+      "why": "文中 'loan will be secured by the equipment'"
+     }
+    ]
+   },
+   {
+    "n": 2,
+    "key": "詞性：'required to' 的 to 是不定詞 → 後接原形動詞",
+    "notes": [
+     {
+      "o": "disclosing",
+      "zh": "(V-ing) 揭露",
+      "use": "",
+      "why": "to 在此是不定詞標記，後面接原形，不接 V-ing"
+     },
+     {
+      "o": "disclose",
+      "zh": "(v.) 揭露",
+      "use": "be required to + 原形",
+      "why": "文中 'required to disclose any outstanding debts'"
+     },
+     {
+      "o": "disclosure",
+      "zh": "(n.) 揭露",
+      "use": "",
+      "why": "名詞後不能再直接帶受詞 'any outstanding debts'"
+     },
+     {
+      "o": "disclosed",
+      "zh": "(p.p.) 被揭露",
+      "use": "",
+      "why": "to 後接過去分詞，形式錯誤"
+     }
+    ]
+   },
+   {
+    "n": 3,
+    "key": "時態：Once 時間子句 + 主句 will be issued → 現在完成代替未來",
+    "notes": [
+     {
+      "o": "will receive",
+      "zh": "(未來式) 將收到",
+      "use": "",
+      "why": "時間子句不用 will，要用現在式或現在完成"
+     },
+     {
+      "o": "had received",
+      "zh": "(過去完成) 已收到",
+      "use": "",
+      "why": "過去完成與主句的未來 will be issued 不搭"
+     },
+     {
+      "o": "have received",
+      "zh": "(現在完成) 已收到",
+      "use": "Once + 現在完成, 未來式",
+      "why": "'Once we have received ...' 現在完成表示未來某時已完成"
+     },
+     {
+      "o": "received",
+      "zh": "(過去式) 收到了",
+      "use": "",
+      "why": "過去式與主句的未來時間不合"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "r990-25",
+  "qs": [
+   {
+    "n": 1,
+    "key": "單字：營收 rose 9% ___ analysts' forecasts → 超越預期",
+    "notes": [
+     {
+      "o": "deterring",
+      "zh": "(v.) 阻止",
+      "use": "",
+      "why": "與 'revenue rose' 的好消息語意不合"
+     },
+     {
+      "o": "curtailing",
+      "zh": "(v.) 削減",
+      "use": "",
+      "why": "營收成長不是削減預測"
+     },
+     {
+      "o": "withholding",
+      "zh": "(v.) 扣留",
+      "use": "",
+      "why": "withhold 指扣下，不搭配 forecasts"
+     },
+     {
+      "o": "surpassing",
+      "zh": "(v.) 超越",
+      "use": "surpass + 預期、預測",
+      "why": "文中 '9 percent' → 'surpassing' 預期"
+     }
+    ]
+   },
+   {
+    "n": 2,
+    "key": "連接詞：營收成長、利潤率 'narrowed slightly' → 轉折 however",
+    "notes": [
+     {
+      "o": "therefore",
+      "zh": "(adv.) 因此",
+      "use": "",
+      "why": "因果不合：營收成長不會導致利潤率縮小"
+     },
+     {
+      "o": "otherwise",
+      "zh": "(adv.) 否則",
+      "use": "",
+      "why": "前句沒有條件，不能用 otherwise"
+     },
+     {
+      "o": "however",
+      "zh": "(adv.) 然而",
+      "use": "插入語：, however,",
+      "why": "營收上升 vs. 利潤率下滑，前後對比"
+     },
+     {
+      "o": "moreover",
+      "zh": "(adv.) 此外",
+      "use": "",
+      "why": "表遞進，但前後是好壞對比，不是補充"
+     }
+    ]
+   },
+   {
+    "n": 3,
+    "key": "句子插入：後句談股利 → 空格要引出股東受惠",
+    "notes": [
+     {
+      "o": "Several stores are scheduled to close next month.",
+      "zh": "數家門市預定下個月關閉",
+      "use": "",
+      "why": "與後句的股利無關，也與好消息的脈絡不合"
+     },
+     {
+      "o": "Shareholders will also share in the improved results.",
+      "zh": "股東也將分享營運成果",
+      "use": "also 呼應前面營收成長",
+      "why": "'Shareholders will also share' 引出後句股利"
+     },
+     {
+      "o": "Analysts had expected revenue to rise much more.",
+      "zh": "分析師原本預期營收成長更多",
+      "use": "",
+      "why": "與前文 surpassing forecasts 矛盾"
+     },
+     {
+      "o": "Customers have complained about slow deliveries.",
+      "zh": "顧客抱怨配送太慢",
+      "use": "",
+      "why": "與前文降低配送成本及後句股利都無關"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "r990-26",
+  "qs": [
+   {
+    "n": 1,
+    "key": "單字：environment ___ to concentration → conducive to",
+    "notes": [
+     {
+      "o": "contractual",
+      "zh": "(adj.) 合約的",
+      "use": "",
+      "why": "'contractual to' 語意不通，不是固定搭配"
+     },
+     {
+      "o": "comprehensive",
+      "zh": "(adj.) 全面的",
+      "use": "",
+      "why": "comprehensive 不搭配 to concentration"
+     },
+     {
+      "o": "conducive",
+      "zh": "(adj.) 有助於…的",
+      "use": "be conducive to + N",
+      "why": "environment conducive to concentration 有助專注"
+     },
+     {
+      "o": "considerable",
+      "zh": "(adj.) 相當大的",
+      "use": "",
+      "why": "considerable 不搭配 to，也不合語意"
+     }
+    ]
+   },
+   {
+    "n": 2,
+    "key": "時態／語態：each (meeting room) 被配備，後接 with → 被動",
+    "notes": [
+     {
+      "o": "has equipped",
+      "zh": "(完成式) 已配備",
+      "use": "",
+      "why": "主動語態缺受詞，房間不是配備者"
+     },
+     {
+      "o": "is equipped",
+      "zh": "(被動) 配備有",
+      "use": "be equipped with + N",
+      "why": "each 是被配備的對象；單數主詞 + is"
+     },
+     {
+      "o": "equipping",
+      "zh": "(V-ing) 配備",
+      "use": "",
+      "why": "缺助動詞，不能單獨當述語"
+     },
+     {
+      "o": "equips",
+      "zh": "(現在式) 配備",
+      "use": "",
+      "why": "主動語態缺受詞，each 是被配備的一方"
+     }
+    ]
+   },
+   {
+    "n": 3,
+    "key": "詞性：are ___ to complimentary transfers → 過去分詞 entitled",
+    "notes": [
+     {
+      "o": "entitled",
+      "zh": "(p.p.) 有權享有",
+      "use": "be entitled to + N",
+      "why": "文中 'entitled to complimentary airport transfers'"
+     },
+     {
+      "o": "entitlement",
+      "zh": "(n.) 權利",
+      "use": "",
+      "why": "名詞不能直接接在 are 後當述語"
+     },
+     {
+      "o": "entitling",
+      "zh": "(V-ing) 賦予權利",
+      "use": "",
+      "why": "are entitling 是主動進行式，缺受詞且語意不通"
+     },
+     {
+      "o": "entitle",
+      "zh": "(v.) 賦予權利",
+      "use": "",
+      "why": "are 後不能接動詞原形"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "r990-27",
+  "qs": [
+   {
+    "n": 1,
+    "key": "單字：a ___ of more than 3,000 unfilled orders → 積壓訂單",
+    "notes": [
+     {
+      "o": "boardroom",
+      "zh": "(n.) 會議室",
+      "use": "",
+      "why": "語意不通，不能是 unfilled orders 的集合"
+     },
+     {
+      "o": "blueprint",
+      "zh": "(n.) 藍圖",
+      "use": "",
+      "why": "語意不通，與 unfilled orders 無關"
+     },
+     {
+      "o": "backlog",
+      "zh": "(n.) 積壓的工作",
+      "use": "a backlog of + N",
+      "why": "'a backlog of ... unfilled orders' 積壓的訂單"
+     },
+     {
+      "o": "benchmark",
+      "zh": "(n.) 基準",
+      "use": "",
+      "why": "benchmark 指衡量標準，不是未出貨的量"
+     }
+    ]
+   },
+   {
+    "n": 2,
+    "key": "時態／語態：order 被賦予優先，後面仍接 priority status → 被動",
+    "notes": [
+     {
+      "o": "gave",
+      "zh": "(過去式) 給予",
+      "use": "",
+      "why": "主動語態，訂單不會自己給予地位"
+     },
+     {
+      "o": "has been given",
+      "zh": "(現在完成被動) 被賦予",
+      "use": "has been given + N",
+      "why": "order 是被賦予者；Production returned Monday 後的現況"
+     },
+     {
+      "o": "has given",
+      "zh": "(現在完成) 給予",
+      "use": "",
+      "why": "主動語態，order 不是給予者"
+     },
+     {
+      "o": "is giving",
+      "zh": "(進行式) 正在給予",
+      "use": "",
+      "why": "主動語態，order 不是給予者"
+     }
+    ]
+   },
+   {
+    "n": 3,
+    "key": "連接詞：前句已補救（空運、吸收運費）→ 仍承認影響 → 讓步 Nevertheless",
+    "notes": [
+     {
+      "o": "For example",
+      "zh": "(adv.) 例如",
+      "use": "",
+      "why": "後句不是前句的例子"
+     },
+     {
+      "o": "Consequently",
+      "zh": "(adv.) 因此",
+      "use": "",
+      "why": "後句不是前面補救措施造成的結果"
+     },
+     {
+      "o": "In other words",
+      "zh": "(adv.) 換句話說",
+      "use": "",
+      "why": "後句不是重述前句，而是新的歉意內容"
+     },
+     {
+      "o": "Nevertheless",
+      "zh": "(adv.) 儘管如此",
+      "use": "Nevertheless, + 句子",
+      "why": "已補救，但 'may already have affected' 仍有影響"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "r990-28",
+  "qs": [
+   {
+    "n": 1,
+    "key": "詞性：主句已有 has become → 逗號後用分詞構句 attracting",
+    "notes": [
+     {
+      "o": "attracting",
+      "zh": "(V-ing) 吸引",
+      "use": "分詞構句 V-ing + O",
+      "why": "接在逗號後的分詞構句，後接受詞 'more than 2,000'"
+     },
+     {
+      "o": "attracted",
+      "zh": "(p.p.) 吸引了",
+      "use": "",
+      "why": "逗號後多一個述語，缺連接詞；過去分詞也不接受詞"
+     },
+     {
+      "o": "attraction",
+      "zh": "(n.) 吸引力",
+      "use": "",
+      "why": "名詞後面不能再接 'more than 2,000 participants'"
+     },
+     {
+      "o": "attracts",
+      "zh": "(現在式) 吸引",
+      "use": "",
+      "why": "時態與 last year 衝突，也會造成逗號連接兩句"
+     }
+    ]
+   },
+   {
+    "n": 2,
+    "key": "單字：All ___ from registration fees → 報名費的收益",
+    "notes": [
+     {
+      "o": "minutes",
+      "zh": "(n.) 分鐘、會議紀錄",
+      "use": "",
+      "why": "'All minutes from registration fees' 語意不通"
+     },
+     {
+      "o": "premises",
+      "zh": "(n.) 場所",
+      "use": "",
+      "why": "premises 指場地，不能來自報名費"
+     },
+     {
+      "o": "proceeds",
+      "zh": "(n.) 收益",
+      "use": "proceeds from + N",
+      "why": "'proceeds from registration fees' 報名費的收益"
+     },
+     {
+      "o": "credentials",
+      "zh": "(n.) 資格證明",
+      "use": "",
+      "why": "credentials 指資歷，不是報名費的來源"
+     }
+    ]
+   },
+   {
+    "n": 3,
+    "key": "句子插入：前句徵志工、後句 briefing → 補充說明免經驗",
+    "notes": [
+     {
+      "o": "No previous experience is necessary.",
+      "zh": "不需要任何先前經驗",
+      "use": "",
+      "why": "接在徵志工後，並引出簡短說明 'short briefing'"
+     },
+     {
+      "o": "Registration closed at the end of March.",
+      "zh": "三月底已截止報名",
+      "use": "",
+      "why": "與員工 'until April 24' 報名的日期矛盾"
+     },
+     {
+      "o": "The race has been postponed until next year.",
+      "zh": "比賽已延到明年",
+      "use": "",
+      "why": "與 'May 9' 和比賽當日 briefing 矛盾"
+     },
+     {
+      "o": "Runners must bring their own water.",
+      "zh": "跑者必須自備飲水",
+      "use": "",
+      "why": "與志工在沿途 'hand out water' 矛盾"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "r990-29",
+  "qs": [
+   {
+    "n": 1,
+    "key": "單字：imperative that we ___ spending → 削減支出",
+    "notes": [
+     {
+      "o": "escalate",
+      "zh": "(v.) 升高",
+      "use": "It is imperative that + S + 原形",
+      "why": "與要降低赤字、削減支出的語意相反"
+     },
+     {
+      "o": "accrue",
+      "zh": "(v.) 累積",
+      "use": "",
+      "why": "accrue 指利息等累積，不搭配 spending"
+     },
+     {
+      "o": "deteriorate",
+      "zh": "(v.) 惡化",
+      "use": "",
+      "why": "deteriorate 是不及物動詞，不能接 spending"
+     },
+     {
+      "o": "curtail",
+      "zh": "(v.) 削減",
+      "use": "curtail spending",
+      "why": "為了處理赤字，'curtail spending' 削減支出"
+     }
+    ]
+   },
+   {
+    "n": 2,
+    "key": "時態／語態：funds 被重新分配 to product launch → 未來被動",
+    "notes": [
+     {
+      "o": "will reallocate",
+      "zh": "(未來式) 將重新分配",
+      "use": "",
+      "why": "主動語態缺受詞，funds 是被分配的對象"
+     },
+     {
+      "o": "will be reallocated",
+      "zh": "(未來被動) 將被重新分配",
+      "use": "will be + p.p. + to",
+      "why": "funds 是被分配的對象；措施自 July 1 起"
+     },
+     {
+      "o": "reallocating",
+      "zh": "(V-ing) 重新分配",
+      "use": "",
+      "why": "缺助動詞，不能單獨當述語"
+     },
+     {
+      "o": "have reallocated",
+      "zh": "(現在完成) 已重新分配",
+      "use": "",
+      "why": "主動語態缺受詞，措施是 'apply from July 1' 的未來"
+     }
+    ]
+   },
+   {
+    "n": 3,
+    "key": "連接詞：前句 not ... downsizing，後句說反面 → On the contrary",
+    "notes": [
+     {
+      "o": "For instance",
+      "zh": "(adv.) 例如",
+      "use": "",
+      "why": "後句不是舉例"
+     },
+     {
+      "o": "On the contrary",
+      "zh": "(adv.) 相反地",
+      "use": "On the contrary, + 句子",
+      "why": "前句否定裁員，後句 'protect jobs' 說相反意思"
+     },
+     {
+      "o": "In addition",
+      "zh": "(adv.) 此外",
+      "use": "",
+      "why": "表新增並列，這裡是否定後的反面說法"
+     },
+     {
+      "o": "As a result",
+      "zh": "(adv.) 因此",
+      "use": "",
+      "why": "後句不是前句造成的結果"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "r990-30",
+  "qs": [
+   {
+    "n": 1,
+    "key": "連接詞：cause is old equipment ___ a fault in any computer → 而非",
+    "notes": [
+     {
+      "o": "in case of",
+      "zh": "(prep.) 以防",
+      "use": "",
+      "why": "in case of 表預防，語意不通"
+     },
+     {
+      "o": "as well as",
+      "zh": "(prep.) 以及",
+      "use": "",
+      "why": "as well as 表並列，但前句說 'found no defects'"
+     },
+     {
+      "o": "rather than",
+      "zh": "(prep.) 而不是",
+      "use": "A rather than B",
+      "why": "'old equipment rather than a fault' 是設備而非電腦"
+     },
+     {
+      "o": "because of",
+      "zh": "(prep.) 因為",
+      "use": "",
+      "why": "because of a fault 把原因說反了，與 'no defects' 矛盾"
+     }
+    ]
+   },
+   {
+    "n": 2,
+    "key": "單字：new switches will be ___ throughout the building → 部署",
+    "notes": [
+     {
+      "o": "depreciated",
+      "zh": "(v.) 折舊",
+      "use": "",
+      "why": "語意不通，新交換器不會被折舊"
+     },
+     {
+      "o": "deployed",
+      "zh": "(v.) 部署、安裝",
+      "use": "deploy + 設備",
+      "why": "文中 'switches will be deployed' 部署新設備"
+     },
+     {
+      "o": "disclosed",
+      "zh": "(v.) 揭露",
+      "use": "",
+      "why": "disclose 指公開資訊，不是設備"
+     },
+     {
+      "o": "deterred",
+      "zh": "(v.) 阻止",
+      "use": "",
+      "why": "deter 不搭配 throughout the building"
+     }
+    ]
+   },
+   {
+    "n": 3,
+    "key": "時態／語態：by the time 子句用現在式 → 主句未來完成被動",
+    "notes": [
+     {
+      "o": "was completing",
+      "zh": "(過去進行) 當時正在完成",
+      "use": "",
+      "why": "主動且時間是過去，與 'We expect' 的未來不合"
+     },
+     {
+      "o": "will have been completed",
+      "zh": "(未來完成被動) 屆時已完成",
+      "use": "will have been + p.p.",
+      "why": "'by the time the office reopens' 的未來完成"
+     },
+     {
+      "o": "has completed",
+      "zh": "(現在完成) 已完成",
+      "use": "",
+      "why": "主動語態缺受詞，work 是被完成的對象"
+     },
+     {
+      "o": "had been completed",
+      "zh": "(過去完成被動) 早已完成",
+      "use": "",
+      "why": "過去完成與 'We expect' 的未來不合"
+     }
+    ]
+   }
+  ]
+ }
+]

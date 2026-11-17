@@ -2,5 +2,105 @@
  "r800-21": {
   "text": "To: Henry Clark\nFrom: Member Services, Business Insight Weekly\nSubject: Your subscription ends soon\nCustomer number: 20417\n\nDear Mr. Clark,\n\nYour subscription to Business Insight Weekly will end on June 30. To continue receiving the publication without interruption, please [1] ------- your subscription before that date.\n\nAs a loyal reader, you are [2] ------- for an exclusive rate of $79 per year, a saving of 20 percent on the regular price. You will also keep full access to our online library, which contains more than ten years of articles and market analysis.\n\nThe process is simple. Visit our website, enter the customer number shown above, and choose a payment method. [3] -------, you may call a customer representative at 555-0199 on weekdays between 9:00 A.M. and 5:00 P.M.\n\nThank you for your continued support.\n\nMember Services",
   "zh": "收件人：Henry Clark\n寄件人：Business Insight Weekly 會員服務部\n主旨：您的訂閱即將到期\n客戶編號：20417\n\nClark 先生您好：\n\n您訂閱的 Business Insight Weekly 將於 6 月 30 日到期。為了讓您不間斷地收到本刊，請在該日期之前續訂。\n\n身為忠實讀者，您有資格享有每年 79 美元的專屬優惠價，比原價省下 20%。您也可以繼續完整使用我們的線上資料庫，裡面收錄了十多年來的文章和市場分析。\n\n手續很簡單：請上我們的網站，輸入上方所示的客戶編號，再選擇付款方式即可。或者，您也可以在週一至週五上午 9 點至下午 5 點之間，撥 555-0199 與客服代表聯絡。\n\n感謝您長期的支持。\n\n會員服務部"
+ },
+ "r400-03": {
+  "text": "Sunny Shoes — Annual Summer Sale!\n\nFrom July 1 to July 7, all shoes are 30% off. We have a wide selection of popular brands for men, women, and children. Bags are also on sale at a 10% discount.\n\nQuantities are limited, so come early! The store is open from 10 A.M. to 9 P.M. every day. Sorry, we cannot give refunds on sale items.",
+  "words": [
+   "annual",
+   "selection",
+   "brand",
+   "discount",
+   "quantities",
+   "limited",
+   "refund",
+   "item"
+  ]
+ },
+ "r400-16": {
+  "text": "Blue Wave Speaker — Review by Sara P.\nRating: 5 out of 5\n\nI bought this speaker last month for $35. It is small and portable, so I carry it in my bag every day. The sound is clear, even at high volume. The battery lasts about ten hours.\n\nMy only complaint is the manual. It is not detailed, so I watched a video to learn how to use the speaker. For this price, it is a real bargain.",
+  "words": [
+   "portable",
+   "volume",
+   "complaint",
+   "manual",
+   "detailed",
+   "bargain"
+  ]
+ },
+ "r400-26": {
+  "text": "Holiday Hours at Green Basket Market\n\nDear customers,\n\nGreen Basket Market will be closed on Thursday, January 1, for the New Year holiday. We will open again on Friday at our [1] ------- time, 8 A.M.\n\nOn Wednesday, December 31, the store will close early at 6 P.M. [2] -------\n\nThis week, all beverages are 20% off. Thank you for your [3] ------- this year. We wish you a happy New Year!"
+ },
+ "r600-05": {
+  "text": "IT Department Notice: Customer Database Update\n\nThe customer database will not be available this Saturday, October 18, from 8:00 P.M. to midnight. During these hours, our technicians will install new hardware and add a search function that many employees have requested.\n\nPlease save your work and log out before 8:00 P.M. Any data entered after that time may be lost. Access will be restored on Sunday morning, and you will not need a new password.\n\nIf the database does not function correctly on Monday, do not attempt to fix the problem yourself. Call the help desk at extension 220, and a technician will assist you."
+ },
+ "r600-22": {
+  "text": "Employee of the Year Award Ceremony\n\nWestbrook Electronics is pleased to announce that this year's award ceremony will be held on Friday, December 12, at 6:00 P.M. in the Grand Hall of the Parkside Hotel.\n\nThe committee has nominated three employees for their excellent performance. The winner will receive a $1,000 prize and two additional days of paid vacation. A reception with food and drinks will follow the ceremony.\n\nAll employees are invited. To help us plan, please register on the company website by December 5. Transportation from the office to the hotel will be provided at 5:15 P.M.",
+  "words": [
+   "ceremony",
+   "committee",
+   "nominate",
+   "performance",
+   "prize",
+   "additional",
+   "reception",
+   "register",
+   "transportation"
+  ]
+ },
+ "r600-06": {
+  "words": [
+   "purchase",
+   "appliance",
+   "warranty",
+   "charge",
+   "courier"
+  ],
+  "qs.1.answer": "warranty"
+ },
+ "r600-10": {
+  "text": "Kitchen Corner Summer Appliance Sale\n\nFrom July 1 to July 15, save up to 30 percent on kitchen appliances at all Kitchen Corner outlets. Choose from a wide range of affordable ovens, coffee makers, and rice cookers.\n\nEvery purchase over $200 comes with complimentary delivery within the city. All appliances have a two-year warranty, and our technicians will install large items at no additional charge.\n\nNot sure which model is right for you? Our staff will be happy to demonstrate any product in the store. Visit us soon, because stock is limited!\n\nAll outlets are open daily from 10:00 A.M. to 9:00 P.M.",
+  "words": [
+   "appliance",
+   "outlet",
+   "affordable",
+   "purchase",
+   "complimentary",
+   "warranty",
+   "technician",
+   "additional",
+   "charge",
+   "demonstrate",
+   "stock"
+  ],
+  "qs.2.distractors.0": "A two-year warranty"
+ },
+ "r600-26": {
+  "text": "Product Review: TaskPilot\nRating: 4 out of 5\nBy Sam Carter, small business owner\n\nI started using TaskPilot three months ago to track my team's assignments. The interface is simple, and it took me only a few minutes to learn. My favorite feature is the dashboard, which shows every project deadline on one screen. You can also customize the colors and categories.\n\nThe 30-day trial is free. After that, the subscription costs $9 a month, which is affordable for a small firm like mine. However, the phone application sometimes closes without warning. I hope the company fixes this soon.\n\nOverall, TaskPilot is a useful tool, and I recommend it.",
+  "words": [
+   "track",
+   "assignment",
+   "interface",
+   "feature",
+   "dashboard",
+   "deadline",
+   "customize",
+   "category",
+   "trial",
+   "subscription",
+   "affordable",
+   "firm",
+   "application",
+   "overall"
+  ]
+ },
+ "l400-022": {
+  "distractors.0": "At City Hall."
+ },
+ "l600-056": {
+  "q": "How long is the warranty on this appliance?"
+ },
+ "l600-087": {
+  "q": "Could you donate something to our charity auction?",
+  "zh_q": "你可以捐點東西給我們的慈善拍賣會嗎？"
  }
 }

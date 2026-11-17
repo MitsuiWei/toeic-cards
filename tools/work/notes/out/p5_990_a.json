@@ -1,0 +1,752 @@
+[
+{"id":"p750","key":"a young ------- with：冠詞 + 形容詞後要可數名詞；As 指 Ms. Alvarez → 選「人」","notes":[
+ {"o":"entrepreneurial","pos":"adj.","zh":"創業的；有創業精神的","use":"形容詞：名詞前，entrepreneurial spirit／skills","why":"後面是介系詞 with，沒有名詞可修飾；a young 後缺名詞"},
+ {"o":"entrepreneur","pos":"n.（人）","zh":"創業家；企業家","use":"可數名詞（人）：a／形容詞後；a successful entrepreneur","why":"As + 身分＝主詞本人；人用 -eur，抽象概念用 -ship"},
+ {"o":"entrepreneurially","pos":"adv.","zh":"以創業家的方式","use":"副詞：修飾動詞，think／act entrepreneurially","why":"冠詞 a + 形容詞後面要名詞，副詞不能當名詞用"},
+ {"o":"entrepreneurship","pos":"n.","zh":"創業；創業精神","use":"不可數名詞：promote／encourage entrepreneurship","why":"不可數，不能接 a；As… 要對應人 Ms. Alvarez"}
+]},
+{"id":"p751","key":"One ------- of … is that：One 和 of 之間要單數可數名詞當主詞 → implication","notes":[
+ {"o":"imply","pos":"v.","zh":"暗示；意味著","use":"動詞：imply + that 子句／N","why":"One 後面要名詞；句子已有動詞 is，不能再放原形動詞"},
+ {"o":"implicitly","pos":"adv.","zh":"含蓄地；完全地","use":"副詞：修飾動詞，trust + 人 + implicitly（完全信任）","why":"副詞不能當主詞，One 和 of 之間要名詞"},
+ {"o":"implicit","pos":"adj.","zh":"不明說的；隱含的","use":"形容詞：名詞前或 be 後；be implicit in + N","why":"形容詞後面沒有名詞，不能單獨當 is 的主詞"},
+ {"o":"implication","pos":"n.","zh":"可能的影響；含意","use":"可數名詞：the implications of + N","why":"have implications for + N；常用複數 implications"}
+]},
+{"id":"p752","key":"against which … measure：measure A against + 標準 → benchmark","notes":[
+ {"o":"consignment","pos":"n.","zh":"託運的一批貨物","use":"a consignment of + 貨物；on consignment（寄售）","why":"文法可以，但語意不通：貨物不能當衡量表現的標準"},
+ {"o":"benchmark","pos":"n.","zh":"基準；標竿","use":"set a benchmark for + N；an industry benchmark","why":"serve as a benchmark；measure A against it"},
+ {"o":"backlog","pos":"n.","zh":"積壓的工作","use":"a backlog of orders／work；clear a backlog","why":"文法可以，但積壓的工作不是拿來比較的標準"},
+ {"o":"patent","pos":"n.","zh":"專利","use":"apply for／hold a patent on／for + 發明","why":"文法可以，但專利是發明的權利，不是衡量標準"}
+]},
+{"id":"p753","key":"線索 salary payment：加進去才領得到薪水的名單 → be added to the payroll","notes":[
+ {"o":"portfolio","pos":"n.","zh":"投資組合；作品集","use":"an investment portfolio；a portfolio of work","why":"文法可以，但投資組合／作品集和發薪無關"},
+ {"o":"blueprint","pos":"n.","zh":"藍圖；計畫","use":"a blueprint for + 建築／計畫","why":"藍圖是設計圖，員工不會被加進去，也和發薪無關"},
+ {"o":"payroll","pos":"n.","zh":"薪資名單；薪資總額","use":"be on the payroll（受僱）；the payroll department","why":"add + 人 + to the payroll；介系詞：on the payroll"},
+ {"o":"consignment","pos":"n.","zh":"託運的一批貨物","use":"a consignment of + 貨物","why":"一批貨裡不會加入員工，和發薪無關"}
+]},
+{"id":"p754","key":"removed manual steps from its -------：有「步驟」的是流程 → workflow","notes":[
+ {"o":"clientele","pos":"n.","zh":"顧客群（集合名詞）","use":"a loyal／wealthy clientele；attract a clientele","why":"文法可以，但顧客群沒有「步驟」可以省去"},
+ {"o":"surplus","pos":"n.","zh":"盈餘；過剩","use":"a budget／trade surplus；a surplus of + N","why":"文法可以，但盈餘是多出來的錢，裡面沒有步驟"},
+ {"o":"hierarchy","pos":"n.","zh":"階層制度；層級","use":"a corporate hierarchy；in the hierarchy","why":"階層有的是 levels／layers，不是 manual steps"},
+ {"o":"workflow","pos":"n.","zh":"工作流程","use":"streamline／automate a workflow","why":"看到 steps、automate、process payments → workflow"}
+]},
+{"id":"p755","key":"the rate of -------：介系詞 of 後面要名詞 → the rate of inflation 通膨率","notes":[
+ {"o":"inflate","pos":"v.","zh":"使膨脹；抬高（價格）","use":"動詞：inflate + 價格／數字／輪胎","why":"介系詞 of 後面不能接原形動詞"},
+ {"o":"inflationary","pos":"adj.","zh":"通貨膨脹的","use":"形容詞：名詞前，inflationary pressure(s)","why":"of 後面要名詞；形容詞後面沒有名詞可修飾"},
+ {"o":"inflation","pos":"n.","zh":"通貨膨脹","use":"不可數名詞：介系詞後；rising／high inflation","why":"也說 the inflation rate；curb／control inflation"},
+ {"o":"inflated","pos":"adj.／v.（過去分詞）","zh":"被抬高的；誇大的","use":"形容詞：名詞前，inflated prices／figures","why":"of 後面要名詞；inflated 後面沒有名詞可修飾"}
+]},
+{"id":"p756","key":"claim a ------- for：冠詞 a 後面要可數名詞當 claim 的受詞 → deduction","notes":[
+ {"o":"deductive","pos":"adj.","zh":"演繹的；推論的","use":"形容詞：名詞前，deductive reasoning（演繹推理）","why":"a 後面要名詞；形容詞後面沒有名詞，意思也和稅無關"},
+ {"o":"deducted","pos":"v.（過去式／過去分詞）","zh":"扣除了；被扣除的","use":"動詞：be deducted from + 薪資／總額","why":"a + 過去分詞後面要有名詞，這裡直接接 for"},
+ {"o":"deduct","pos":"v.","zh":"扣除","use":"動詞：deduct A from B（從 B 扣掉 A）","why":"冠詞 a 後面不能接原形動詞"},
+ {"o":"deduction","pos":"n.","zh":"扣除（額）","use":"名詞：a／the 後；a tax deduction；deductions from pay","why":"claim a deduction for + 費用；tax-deductible 可抵稅"}
+]},
+{"id":"p757","key":"is equipped with 桌子、螢幕、抽屜：辦公室裡的個人座位 → workstation","notes":[
+ {"o":"blueprint","pos":"n.","zh":"藍圖；計畫","use":"a blueprint for + 建築／計畫","why":"藍圖是設計圖，不會配備桌子和螢幕"},
+ {"o":"workstation","pos":"n.","zh":"工作站；辦公座位","use":"at one's workstation；a computer workstation","why":"be equipped with + 設備；Each + 單數名詞 + 單數動詞 is"},
+ {"o":"syndicate","pos":"n.","zh":"聯合組織；財團","use":"a syndicate of banks／investors","why":"聯合組織是多家機構的集合，不是辦公室裡的座位"},
+ {"o":"subsidiary","pos":"n.","zh":"子公司","use":"a subsidiary of + 母公司","why":"子公司是一家公司，不是辦公室裡配桌子的座位"}
+]},
+{"id":"p758","key":"on the restaurant's -------：on + 場所 → on the premises「在店內」","notes":[
+ {"o":"premises","pos":"n.（複數）","zh":"（店家、公司的）場所","use":"on／off the premises；business premises","why":"介系詞用 on；作「場所」恆用複數；vacate the premises"},
+ {"o":"minutes","pos":"n.（複數）","zh":"會議紀錄","use":"take／approve the minutes of a meeting","why":"會議紀錄是文件，不能在上面吃東西"},
+ {"o":"credentials","pos":"n.（複數）","zh":"資格證明；資歷","use":"academic／professional credentials","why":"資格證明不是地點，食物不能 consumed on"},
+ {"o":"proceeds","pos":"n.（複數）","zh":"（活動的）收益","use":"the proceeds from／of + 銷售／活動","why":"收益是錢，不是可以在裡面用餐的地點"}
+]},
+{"id":"p759","key":"setting the agenda、掌控會議進度：委員會的主持人 → chairperson","notes":[
+ {"o":"contractor","pos":"n.（人）","zh":"承包商","use":"a building contractor；hire a contractor","why":"承包商是外聘廠商，不會擬議程、主持委員會"},
+ {"o":"shareholder","pos":"n.（人）","zh":"股東","use":"a major shareholder；a shareholders' meeting","why":"股東是持有公司股票的人，不是委員會的主持人"},
+ {"o":"subordinate","pos":"n.（人）","zh":"下屬","use":"one's subordinates；delegate work to subordinates","why":"下屬是聽指示的人，不負責擬議程、控進度"},
+ {"o":"chairperson","pos":"n.（人）","zh":"主席","use":"chairperson of + 委員會／董事會；＝chair","why":"as + 唯一職位常不加冠詞：As chairperson of…"}
+]},
+{"id":"p760","key":"carbon ------- + 柴油車換電動車：固定搭配 carbon emissions「碳排放」","notes":[
+ {"o":"acquisitions","pos":"n.（複數）","zh":"收購","use":"mergers and acquisitions（併購）","why":"沒有 carbon acquisitions 的說法，換車和收購無關"},
+ {"o":"emissions","pos":"n.（複數）","zh":"排放（量）","use":"carbon／greenhouse gas emissions","why":"cut／reduce／lower emissions；動詞 emit（排放）"},
+ {"o":"provisions","pos":"n.（複數）","zh":"條款；準備","use":"the provisions of a contract；make provision for","why":"條款是合約內容，和 carbon、換電動車無關"},
+ {"o":"allegations","pos":"n.（複數）","zh":"指控","use":"deny／make allegations of + 不當行為","why":"指控是未證實的說法，和 carbon、換車無關"}
+]},
+{"id":"p761","key":"combine … into a single company：兩家併成一家 → merger","notes":[
+ {"o":"patent","pos":"n.","zh":"專利","use":"apply for／hold a patent on + 發明","why":"文法可以，但專利不會把兩家公司合成一家"},
+ {"o":"deficit","pos":"n.","zh":"赤字；虧損","use":"a budget／trade deficit；run a deficit","why":"赤字是虧損缺口，不會把兩家公司合成一家"},
+ {"o":"audit","pos":"n.","zh":"審計；稽核","use":"conduct／carry out an audit of + 帳目","why":"文法可以，但稽核是查帳，不會合併兩家公司"},
+ {"o":"merger","pos":"n.","zh":"（公司）合併","use":"a merger with + 公司／between A and B；動詞 merge","why":"approve a merger；mergers and acquisitions（併購）"}
+]},
+{"id":"p762","key":"business ------- is required + 禁 jeans、sneakers：談服裝 → attire","notes":[
+ {"o":"attire","pos":"n.","zh":"服裝（正式用語）","use":"不可數：business／formal／casual attire","why":"不可數，動詞用單數 is；dress code＝服裝規定"},
+ {"o":"correspondence","pos":"n.","zh":"通信；往來信件","use":"business correspondence；correspondence with + 人","why":"文法可以，但商務書信和牛仔褲、運動鞋無關"},
+ {"o":"collateral","pos":"n.","zh":"抵押品；擔保品","use":"put up + 資產 + as collateral for a loan","why":"抵押品是貸款擔保，和晚宴穿著無關"},
+ {"o":"expertise","pos":"n.","zh":"專業知識","use":"expertise in + 領域；technical expertise","why":"文法可以，但專業知識和穿著規定無關"}
+]},
+{"id":"p763","key":"In ------- of：兩個介系詞中間要名詞 → in recognition of「為表彰」","notes":[
+ {"o":"recognize","pos":"v.","zh":"表彰；認出；承認","use":"動詞：recognize + 人 + for + 貢獻；be recognized as","why":"介系詞 In 後面不能接原形動詞"},
+ {"o":"recognizably","pos":"adv.","zh":"可辨認地","use":"副詞：修飾形容詞，recognizably different","why":"介系詞 In 和 of 之間要名詞，副詞不行"},
+ {"o":"recognizable","pos":"adj.","zh":"可辨認的","use":"形容詞：名詞前或 be 後，instantly recognizable","why":"In 和 of 之間要名詞；形容詞後面沒有名詞"},
+ {"o":"recognition","pos":"n.","zh":"表彰；認可","use":"名詞：介系詞後；gain／receive recognition for + N","why":"同型片語：in appreciation of、in honor of"}
+]},
+{"id":"p764","key":"small and medium-sized -------（SMEs）；that export… 的主詞要是企業","notes":[
+ {"o":"enterprises","pos":"n.（複數）","zh":"企業","use":"small and medium-sized enterprises（SMEs）","why":"SMEs＝中小企業；a private／state-owned enterprise"},
+ {"o":"incentives","pos":"n.（複數）","zh":"獎勵措施；誘因","use":"tax incentives；an incentive to V／for + 人","why":"獎勵措施不會出口產品，也不是貸款的對象"},
+ {"o":"deficits","pos":"n.（複數）","zh":"赤字","use":"a budget／trade deficit","why":"赤字是金額缺口，不會出口產品、申請貸款"},
+ {"o":"commodities","pos":"n.（複數）","zh":"大宗商品；原物料","use":"commodity prices；basic commodities such as oil","why":"商品是「被」出口的東西，不能當 export 的主詞"}
+]},
+{"id":"p765","key":"All written ------- with … should be saved：形容詞後要名詞當主詞","notes":[
+ {"o":"correspondence","pos":"n.","zh":"通信；往來信件","use":"不可數名詞：形容詞後；correspondence with + 人","why":"不可數，不加 s；動詞 correspond with + 人"},
+ {"o":"correspondingly","pos":"adv.","zh":"相應地","use":"副詞：修飾形容詞或動詞，correspondingly higher","why":"副詞不能當主詞，written 後面要名詞"},
+ {"o":"correspond","pos":"v.","zh":"通信；相符","use":"動詞：correspond with + 人；correspond to + N","why":"All written 後面要名詞；句子已有動詞 should be saved"},
+ {"o":"corresponding","pos":"adj.","zh":"相對應的","use":"形容詞：名詞前，the corresponding period／figure","why":"形容詞後面沒有名詞，不能當 should be saved 的主詞"}
+]},
+{"id":"p766","key":"A licensed ------- was hired：冠詞 + 形容詞後要名詞當主詞，被雇用的是人","notes":[
+ {"o":"contractor","pos":"n.（人）","zh":"承包商","use":"可數名詞（人）：a／形容詞後；hire a contractor","why":"人 -or 對事物 contract；subcontractor 分包商"},
+ {"o":"contractual","pos":"adj.","zh":"合約的","use":"形容詞：名詞前，contractual obligations／terms","why":"A licensed 後面要名詞；形容詞不能直接接動詞 was"},
+ {"o":"contractually","pos":"adv.","zh":"依合約地","use":"副詞：修飾形容詞，be contractually obligated to V","why":"副詞不能當主詞，後面直接是動詞 was hired"},
+ {"o":"contracted","pos":"v.（過去式／過去分詞）","zh":"簽約；收縮","use":"動詞：be contracted to V（簽約承做）","why":"不是名詞，不能當 was hired 的主詞"}
+]},
+{"id":"p767","key":"in ------- with：固定片語 in conjunction with「與…配合／一起」","notes":[
+ {"o":"accumulation","pos":"n.","zh":"累積","use":"the accumulation of + wealth／dust／data","why":"沒有 in accumulation with 這個片語；累積和同時舉辦無關"},
+ {"o":"jurisdiction","pos":"n.","zh":"管轄權；管轄區","use":"have jurisdiction over + 案件／地區","why":"搭配 over／of，沒有 in jurisdiction with 這個片語"},
+ {"o":"conjunction","pos":"n.","zh":"結合；連接詞","use":"in conjunction with + N（與…一起／配合）","why":"同型：in accordance／compliance／cooperation with"},
+ {"o":"retention","pos":"n.","zh":"保留；留任","use":"employee／customer retention；the retention of + N","why":"沒有 in retention with 這個片語；保留和同時舉辦無關"}
+]},
+{"id":"p768","key":"such as wheat, coffee, and copper：看舉例定類別 → 原物料 commodities","notes":[
+ {"o":"commodities","pos":"n.（複數）","zh":"大宗商品；原物料","use":"basic／agricultural commodities；commodity prices","why":"prices of commodities rise／fall；單數 commodity"},
+ {"o":"credentials","pos":"n.（複數）","zh":"資格證明；資歷","use":"academic／professional credentials","why":"小麥、咖啡、銅不是資格證明，也不會有價格"},
+ {"o":"incentives","pos":"n.（複數）","zh":"獎勵措施；誘因","use":"tax／financial incentives；an incentive to V","why":"獎勵措施不是小麥、銅這類可買賣的貨物"},
+ {"o":"prototypes","pos":"n.（複數）","zh":"原型；試作品","use":"build／test a prototype of + 產品","why":"原型是新產品的試作品，小麥、銅是原物料"}
+]},
+{"id":"p769","key":"Spending exceeded income（支出＞收入）→ 赤字；close a budget deficit","notes":[
+ {"o":"surplus","pos":"n.","zh":"盈餘；過剩","use":"a budget／trade surplus；run a surplus","why":"意思相反：收入大於支出才是 surplus"},
+ {"o":"inflation","pos":"n.","zh":"通貨膨脹","use":"the rate of inflation；rising inflation","why":"通膨是物價上漲，不是支出超過收入的缺口"},
+ {"o":"collateral","pos":"n.","zh":"抵押品；擔保品","use":"use + 資產 + as collateral for a loan","why":"抵押品是貸款擔保，不是支出超過收入的缺口"},
+ {"o":"deficit","pos":"n.","zh":"赤字；虧損","use":"a budget／trade deficit；a deficit of + 金額","why":"close／reduce／run a deficit；反義 surplus"}
+]},
+{"id":"p770","key":"in full ------- with：in + 形容詞 full 後要名詞 → in compliance with","notes":[
+ {"o":"complied","pos":"v.（過去式／過去分詞）","zh":"遵守了","use":"動詞：comply with + 規定（不及物）","why":"形容詞 full 後面要名詞，不能接動詞"},
+ {"o":"compliant","pos":"adj.","zh":"符合規定的","use":"形容詞：be (fully) compliant with + 規定","why":"in full 後面要名詞；用形容詞要改成 is fully compliant with"},
+ {"o":"compliance","pos":"n.","zh":"遵守；合規","use":"名詞：介系詞／形容詞後；ensure compliance","why":"同義改寫：comply with、be compliant with"},
+ {"o":"comply","pos":"v.","zh":"遵守","use":"動詞：comply with + rules／regulations／requests","why":"介系詞 in 和形容詞 full 後面不能接原形動詞"}
+]},
+{"id":"p771","key":"wireless ------- is：動詞 is 前要名詞當主詞 → connectivity","notes":[
+ {"o":"connectivity","pos":"n.","zh":"連線（能力）","use":"不可數名詞：wireless／Internet／network connectivity","why":"字尾 -ity 是名詞；不可數，動詞用單數 is"},
+ {"o":"connect","pos":"v.","zh":"連接","use":"動詞：connect A to／with B；connect to the Internet","why":"主詞位置要名詞，is 前面不能放原形動詞"},
+ {"o":"connective","pos":"adj.","zh":"連接的","use":"形容詞：名詞前，connective tissue（結締組織）","why":"形容詞不能當 is 的主詞"},
+ {"o":"connected","pos":"adj.／v.（過去分詞）","zh":"已連線的；有關聯的","use":"be connected to + 網路／裝置；stay connected","why":"不是名詞，不能當 is 的主詞"}
+]},
+{"id":"p772","key":"According to the ------- + loading dock 的位置：設計圖 → blueprint","notes":[
+ {"o":"payroll","pos":"n.","zh":"薪資名單","use":"be on the payroll；payroll costs","why":"薪資名單列的是員工，不會標示裝卸平台的位置"},
+ {"o":"ledger","pos":"n.","zh":"總帳；帳本","use":"record／enter + 款項 + in the ledger","why":"帳本記的是金額，不會顯示建築配置"},
+ {"o":"blueprint","pos":"n.","zh":"藍圖；計畫","use":"a blueprint for + 建築／計畫；draw up a blueprint","why":"介系詞用 for；也比喻「計畫」：a blueprint for growth"},
+ {"o":"merger","pos":"n.","zh":"合併","use":"a merger with／between + 公司","why":"合併是公司之間的交易，不會標示倉庫配置"}
+]},
+{"id":"p773","key":"the long-term ------- of：冠詞 + 形容詞後、of 前要名詞 → profitability","notes":[
+ {"o":"profited","pos":"v.（過去式／過去分詞）","zh":"獲利了","use":"動詞：profit from + N（從…獲利）","why":"the long-term 後面要名詞，不能接動詞過去式"},
+ {"o":"profitability","pos":"n.","zh":"獲利能力","use":"不可數名詞：the + 形容詞後、of 前","why":"字尾 -ability 是名詞；improve／restore profitability"},
+ {"o":"profitable","pos":"adj.","zh":"有利潤的；賺錢的","use":"形容詞：名詞前或 be 後，a profitable business","why":"形容詞後面沒有名詞，不能放在 of 前面"},
+ {"o":"profitably","pos":"adv.","zh":"有利潤地","use":"副詞：修飾動詞，operate／run profitably","why":"副詞不能放在 the + 形容詞後面當名詞用"}
+]},
+{"id":"p774","key":"your ------- about：所有格後要名詞 → in response to your inquiry","notes":[
+ {"o":"inquire","pos":"v.","zh":"詢問","use":"動詞：inquire about + 事項；inquire whether…","why":"所有格 your 後面不能接原形動詞"},
+ {"o":"inquisitive","pos":"adj.","zh":"好問的；好奇的","use":"形容詞：名詞前或 be 後，an inquisitive mind","why":"your 後面要名詞；形容詞後面沒有名詞"},
+ {"o":"inquired","pos":"v.（過去式／過去分詞）","zh":"詢問了","use":"動詞：人 + inquired about + 事項","why":"所有格後面要名詞，不能接動詞過去式"},
+ {"o":"inquiry","pos":"n.","zh":"詢問；調查","use":"名詞：make an inquiry about／into + N；複數 inquiries","why":"in response to your inquiry；英式拼法 enquiry"}
+]},
+{"id":"p775","key":"academic ------- were verified：向大學查證的是學歷證明 → credentials","notes":[
+ {"o":"proceeds","pos":"n.（複數）","zh":"收益","use":"the proceeds from + 銷售／活動","why":"收益是錢，不和 academic 搭配，也不用向大學查證"},
+ {"o":"credentials","pos":"n.（複數）","zh":"資格證明；學經歷","use":"academic／professional／teaching credentials","why":"通常用複數，動詞 were；verify／check credentials"},
+ {"o":"logistics","pos":"n.","zh":"物流；後勤安排","use":"the logistics of + 活動；a logistics company","why":"後勤是安排運輸、場地，不是應徵者的學歷"},
+ {"o":"emissions","pos":"n.（複數）","zh":"排放（量）","use":"carbon／greenhouse gas emissions","why":"排放是廢氣，和應徵者、向大學查證無關"}
+]},
+{"id":"p776","key":"Having started the company together：一起創立 → co- + founders","notes":[
+ {"o":"auditors","pos":"n.（複數，人）","zh":"稽核員；審計員","use":"an independent／external auditor；動詞 audit","why":"稽核員是查帳的人，不是創立公司的人"},
+ {"o":"contractors","pos":"n.（複數，人）","zh":"承包商","use":"hire a contractor；an independent contractor","why":"承包商是外聘廠商，不是公司的創立者"},
+ {"o":"cofounders","pos":"n.（複數，人）","zh":"共同創辦人","use":"a cofounder of + 公司；動詞 found（創立）","why":"字首 co-＝一起：coworker、co-chair、cooperate"},
+ {"o":"subordinates","pos":"n.（複數，人）","zh":"下屬","use":"one's subordinates；report to a superior","why":"下屬是職位較低的人，和「一起創立」不合"}
+]},
+{"id":"p777","key":"------- of conduct：固定搭配 code of conduct「行為準則」","notes":[
+ {"o":"code","pos":"n.","zh":"規範；準則；代碼","use":"a code of conduct／ethics；a dress code","why":"follow／violate the code；building code 建築法規"},
+ {"o":"surplus","pos":"n.","zh":"盈餘；過剩","use":"a budget surplus；a surplus of + N","why":"盈餘是多出來的錢，不是員工要 follow 的規範"},
+ {"o":"ledger","pos":"n.","zh":"總帳；帳本","use":"record + 款項 + in the ledger","why":"帳本是記帳用的，不是員工要遵守的規範"},
+ {"o":"patent","pos":"n.","zh":"專利","use":"apply for／hold a patent on + 發明","why":"專利是發明的權利，沒有 patent of conduct 的說法"}
+]},
+{"id":"p778","key":"arrive at a ------- on + 議題：討論後「達成」的是共識 → consensus","notes":[
+ {"o":"prototype","pos":"n.","zh":"原型；試作品","use":"build／test a prototype of + 產品","why":"原型是做出來的樣品，不是討論後達成的結果"},
+ {"o":"backlog","pos":"n.","zh":"積壓的工作","use":"a backlog of orders；clear a backlog","why":"積壓是累積出來的工作，不是討論要達成的結果"},
+ {"o":"discrepancy","pos":"n.","zh":"差異；不一致","use":"a discrepancy between A and B","why":"指數字／說法對不上，不是討論後達成的結果"},
+ {"o":"consensus","pos":"n.","zh":"共識","use":"reach／arrive at／build a consensus on + 議題","why":"介系詞 on／about；by consensus「經一致同意」"}
+]},
+{"id":"p779","key":"directors' meeting + which seats twenty：董事開會的房間 → boardroom","notes":[
+ {"o":"infrastructure","pos":"n.","zh":"基礎設施","use":"transport／IT infrastructure","why":"基礎設施是道路、網路等系統，不是能坐二十人的房間"},
+ {"o":"boardroom","pos":"n.","zh":"董事會會議室","use":"in the boardroom；a board meeting（董事會議）","why":"board＝董事會；seat + 人數＝可容納…人"},
+ {"o":"subsidiary","pos":"n.","zh":"子公司","use":"a subsidiary of + 母公司","why":"子公司是一家公司，不是十樓能坐二十人的房間"},
+ {"o":"workstation","pos":"n.","zh":"工作站；個人座位","use":"at one's workstation","why":"工作站是一個人的座位，坐不下二十人開會"}
+]},
+{"id":"p780","key":"A, B, C, and other -------：空格要能概括居民、司機、店家 → stakeholders","notes":[
+ {"o":"contractors","pos":"n.（複數，人）","zh":"承包商","use":"hire a contractor；a building contractor","why":"居民、司機、店家不是承包商，other 概括不了"},
+ {"o":"auditors","pos":"n.（複數，人）","zh":"稽核員；審計員","use":"an independent／external auditor","why":"居民、店家不是查帳的人，other 概括不了"},
+ {"o":"shareholders","pos":"n.（複數，人）","zh":"股東","use":"shareholders of + 公司；a shareholders' meeting","why":"share＝股份，指持股的人；居民、店家不是市府的股東"},
+ {"o":"stakeholders","pos":"n.（複數，人）","zh":"利害關係人","use":"consult／engage stakeholders；key stakeholders","why":"stake＝利害關係：受決策影響的人都算，不必持股"}
+]},
+{"id":"p781","key":"raised enough ------- to build…：賣股權籌到的錢 → raise capital","notes":[
+ {"o":"severance","pos":"n.","zh":"資遣（費）","use":"severance pay；a severance package","why":"資遣費是公司付給離職員工的，不是向投資人籌的錢"},
+ {"o":"inflation","pos":"n.","zh":"通貨膨脹","use":"the rate of inflation；curb inflation","why":"文法可以，但通膨是物價上漲，不能拿來蓋工廠"},
+ {"o":"capital","pos":"n.","zh":"資本；資金","use":"raise capital；venture capital；working capital","why":"raise capital／funds／money 籌資；作「資金」不可數"},
+ {"o":"liability","pos":"n.","zh":"負債；法律責任","use":"assets and liabilities；liability for + 損害","why":"負債是欠的錢；賣股權是為了籌資金，不是籌負債"}
+]},
+{"id":"p782","key":"took the ------- to V：冠詞 the 後要名詞 → take the initiative to V","notes":[
+ {"o":"initiative","pos":"n.","zh":"主動（權）；新措施","use":"名詞：the 後；a new initiative（新方案）","why":"字尾 -ive 卻是名詞，同 objective、alternative"},
+ {"o":"initiate","pos":"v.","zh":"發起；開始","use":"動詞：initiate + 計畫／討論／程序","why":"冠詞 the 後面不能接原形動詞"},
+ {"o":"initially","pos":"adv.","zh":"起初","use":"副詞：修飾動詞或整句，was initially planned","why":"副詞不能放在 the 後面當 took 的受詞"},
+ {"o":"initiated","pos":"v.（過去式／過去分詞）","zh":"發起了；被發起的","use":"動詞：initiate a project；被動 be initiated by","why":"the + 過去分詞後面要有名詞，這裡接的是 to V"}
+]},
+{"id":"p783","key":"missed the meeting → can read the -------：會後可讀的文件 → minutes","notes":[
+ {"o":"proceeds","pos":"n.（複數）","zh":"收益","use":"the proceeds from + 銷售／活動","why":"收益是錢，不能 read，也不會用 e-mail 寄給主管"},
+ {"o":"emissions","pos":"n.（複數）","zh":"排放（量）","use":"carbon emissions；reduce emissions","why":"排放是廢氣，不是可以閱讀的會議文件"},
+ {"o":"minutes","pos":"n.（複數）","zh":"會議紀錄","use":"the minutes of a meeting；approve the minutes","why":"作「會議紀錄」恆用複數；take the minutes＝做紀錄"},
+ {"o":"premises","pos":"n.（複數）","zh":"（店家、公司的）場所","use":"on the premises","why":"場所是地點，不能 read，也不能用 e-mail 寄"}
+]},
+{"id":"p784","key":"先 testing 五家 → a gradual ------- to 其餘分店：分階段推行 → rollout","notes":[
+ {"o":"rollout","pos":"n.","zh":"（新系統）推行；上市","use":"the rollout of + 新系統／產品；動詞 roll out","why":"a gradual／phased／nationwide rollout"},
+ {"o":"surplus","pos":"n.","zh":"盈餘；過剩","use":"a budget surplus；a surplus of + N","why":"盈餘是多出來的錢，不能「推到」其餘 200 家分店"},
+ {"o":"merger","pos":"n.","zh":"合併","use":"a merger with／between + 公司","why":"合併的對象是公司，不是把系統推到各分店"},
+ {"o":"backlog","pos":"n.","zh":"積壓的工作","use":"a backlog of orders；clear a backlog","why":"積壓是累積的待辦工作，和測試後擴大實施無關"}
+]},
+{"id":"p785","key":"a ------- containing samples of work：收錄作品樣本 → portfolio","notes":[
+ {"o":"prototype","pos":"n.","zh":"原型；試作品","use":"build／test a prototype of + 產品","why":"原型是單一產品的試作品，不會內含十件作品"},
+ {"o":"ledger","pos":"n.","zh":"總帳；帳本","use":"record + 款項 + in the ledger","why":"帳本記的是金額，不會收錄設計作品"},
+ {"o":"portfolio","pos":"n.","zh":"作品集；投資組合","use":"a design portfolio；an investment portfolio","why":"徵才情境＝作品集；金融情境＝投資組合，兩義都考"},
+ {"o":"patent","pos":"n.","zh":"專利","use":"apply for／hold a patent on + 發明","why":"專利是發明的權利文件，不會收錄作品樣本"}
+]},
+{"id":"p786","key":"only 5,000 tons … exceeding that -------：指前面的數量上限 → quota","notes":[
+ {"o":"deficit","pos":"n.","zh":"赤字；不足額","use":"a budget／trade deficit","why":"赤字是「不足」的金額，不是可進口的數量上限"},
+ {"o":"backlog","pos":"n.","zh":"積壓的工作","use":"a backlog of orders／work","why":"積壓是沒處理完的工作，不是規定的數量上限"},
+ {"o":"patent","pos":"n.","zh":"專利","use":"hold a patent on + 發明","why":"專利是發明的權利，和進口數量上限無關"},
+ {"o":"quota","pos":"n.","zh":"配額；限額","use":"an import quota；meet／exceed a sales quota","why":"exceed／fill a quota；sales quota＝業績目標"}
+]},
+{"id":"p787","key":"find any ------- for：any 後要名詞當 find 的受詞 → justification for","notes":[
+ {"o":"justifiably","pos":"adv.","zh":"有正當理由地","use":"副詞：修飾形容詞，be justifiably proud of + N","why":"副詞不能當 find 的受詞"},
+ {"o":"justification","pos":"n.","zh":"正當理由","use":"名詞：any／no 後；justification for + N／V-ing","why":"There is no justification for + N；介系詞用 for"},
+ {"o":"justify","pos":"v.","zh":"證明…合理","use":"動詞：justify + 支出／決定；justify V-ing","why":"any 後面要名詞當受詞，不能接原形動詞"},
+ {"o":"justifiable","pos":"adj.","zh":"合理的；情有可原的","use":"形容詞：名詞前或 be 後，a justifiable expense","why":"形容詞後面沒有名詞，不能當 find 的受詞"}
+]},
+{"id":"p788","key":"Unlike … rigid corporate -------：和「基層可直接找執行長」相反 → hierarchy","notes":[
+ {"o":"surplus","pos":"n.","zh":"盈餘；過剩","use":"a budget／trade surplus","why":"盈餘是錢，和基層能否直接找執行長無關"},
+ {"o":"portfolio","pos":"n.","zh":"投資組合；作品集","use":"an investment／product portfolio","why":"指資產／產品的組合，和上下層級的對比無關"},
+ {"o":"hierarchy","pos":"n.","zh":"階層制度；層級","use":"a rigid／strict hierarchy；the corporate hierarchy","why":"Unlike 表對比；相反是 a flat structure（扁平組織）"},
+ {"o":"payroll","pos":"n.","zh":"薪資名單","use":"be on the payroll","why":"薪資名單和基層能不能直接找高層無關"}
+]},
+{"id":"p789","key":"never to alter figures to please a client：不造假 → integrity","notes":[
+ {"o":"turnover","pos":"n.","zh":"營業額；人員流動率","use":"annual turnover；high staff turnover","why":"文法可以，但流動率／營業額和「不改數字」無關"},
+ {"o":"severance","pos":"n.","zh":"資遣（費）","use":"severance pay／package","why":"資遣費是離職補償，聲譽不會建立在這上面"},
+ {"o":"attire","pos":"n.","zh":"服裝（正式用語）","use":"business／formal attire","why":"文法可以，但服裝和「不為客戶改數字」無關"},
+ {"o":"integrity","pos":"n.","zh":"誠信；正直；完整性","use":"a person of integrity；data integrity","why":"honesty and integrity；rest on＝建立在…之上"}
+]},
+{"id":"p790","key":"correct the ------- that + 子句：要被導正的看法 → misconception","notes":[
+ {"o":"discrepancy","pos":"n.","zh":"差異；不一致","use":"a discrepancy between A and B","why":"指兩個數字／說法對不上；that 子句說的是一種看法"},
+ {"o":"misconception","pos":"n.","zh":"錯誤觀念；誤解","use":"a common／popular misconception that／about","why":"mis-＝錯誤；correct／dispel a misconception"},
+ {"o":"constraint","pos":"n.","zh":"限制；約束","use":"a constraint on + N；budget constraints","why":"限制不是要 correct 的東西；that 子句說的是看法"},
+ {"o":"provision","pos":"n.","zh":"條款；提供","use":"a provision that + 規定內容","why":"可接 that 子句，但條款不會 widespread，也不用導正"}
+]},
+{"id":"p791","key":"fragile ------- + is home to … bird species：棲地 → ecosystem","notes":[
+ {"o":"jurisdiction","pos":"n.","zh":"管轄權；管轄區","use":"have jurisdiction over + N","why":"管轄權是法律權限，不會 fragile，也不是鳥的棲地"},
+ {"o":"hierarchy","pos":"n.","zh":"階層制度","use":"a corporate hierarchy","why":"階層是組織層級，鳥類不會棲息在裡面"},
+ {"o":"ecosystem","pos":"n.","zh":"生態系統","use":"a fragile／marine ecosystem；protect the ecosystem","why":"eco- 字首：eco-friendly 環保的、ecology 生態"},
+ {"o":"infrastructure","pos":"n.","zh":"基礎設施","use":"transport／IT infrastructure","why":"文法可以，但基礎設施是人造系統，不是鳥類棲地"}
+]},
+{"id":"p792","key":"has no formal ------- with + 機構：兩機構之間的關係 → affiliation with","notes":[
+ {"o":"jurisdiction","pos":"n.","zh":"管轄權","use":"have jurisdiction over + 案件／地區","why":"搭配 over，不是 with；也不是兩校之間的關係"},
+ {"o":"affiliation","pos":"n.","zh":"隸屬關係；關聯","use":"affiliation with + 機構；be affiliated with","why":"have no affiliation with；形容詞 affiliated（附屬的）"},
+ {"o":"proficiency","pos":"n.","zh":"熟練；精通","use":"proficiency in + 語言／技能","why":"搭配 in + 技能，不表示機構之間的關係"},
+ {"o":"liability","pos":"n.","zh":"法律責任；負債","use":"liability for + 損害；accept no liability","why":"搭配 for + 損害，不表示機構之間的關係"}
+]},
+{"id":"p793","key":"strong ticket sales，錢還能 fund 明年活動：有剩餘 → a surplus of + 金額","notes":[
+ {"o":"backlog","pos":"n.","zh":"積壓的工作","use":"a backlog of orders／work","why":"a backlog of 後面接工作／訂單，不接金額"},
+ {"o":"surplus","pos":"n.","zh":"盈餘；過剩","use":"a surplus of + 金額；a budget／trade surplus","why":"end the year with a surplus；反義 deficit"},
+ {"o":"consensus","pos":"n.","zh":"共識","use":"reach a consensus on + 議題","why":"共識是一致的意見，不會是 8 萬美元"},
+ {"o":"deficit","pos":"n.","zh":"赤字；虧損","use":"a deficit of + 金額；a budget deficit","why":"文法可以，但意思相反：票賣得好、有餘款不是赤字"}
+]},
+{"id":"p794","key":"outlined her ------- of a company that…：對未來的構想 → vision","notes":[
+ {"o":"vision","pos":"n.","zh":"願景；遠見；視力","use":"a vision of／for + 未來；share a vision","why":"outline／realize a vision；形容詞 visionary"},
+ {"o":"turnover","pos":"n.","zh":"營業額；人員流動率","use":"annual turnover；staff turnover","why":"營業額是已發生的數字，不是對十年後的構想"},
+ {"o":"discretion","pos":"n.","zh":"裁量權；謹慎","use":"at the discretion of + 人；use one's discretion","why":"裁量權是決定的權力，不是「十年後公司的樣子」"},
+ {"o":"proficiency","pos":"n.","zh":"熟練；精通","use":"proficiency in + 語言／技能","why":"熟練是對技能（in + 技能），不是對公司未來的構想"}
+]},
+{"id":"p795","key":"reviews 是飯店自己寫的（造假）→ lost its -------：失去可信度 → credibility","notes":[
+ {"o":"credibility","pos":"n.","zh":"可信度；公信力","use":"lose／gain／damage credibility；形容詞 credible","why":"字根 cred＝相信：credible、credit、incredible"},
+ {"o":"accessibility","pos":"n.","zh":"易取得性；無障礙","use":"improve the accessibility of + 場所／網站","why":"文法可以，但假評論不影響網站好不好連、好不好用"},
+ {"o":"functionality","pos":"n.","zh":"功能（性）","use":"add new functionality to + 軟體","why":"文法可以，但假評論曝光不會讓網站少掉功能"},
+ {"o":"connectivity","pos":"n.","zh":"連線（能力）","use":"wireless／Internet connectivity","why":"文法可以，但連線是技術問題，和讀者的信任無關"}
+]},
+{"id":"p796","key":"the main ------- on：冠詞 + 形容詞後要名詞 → constraint on「對…的限制」","notes":[
+ {"o":"constrain","pos":"v.","zh":"限制；約束","use":"動詞：constrain + 成長／支出；be constrained by","why":"the main 後面要名詞，不能接原形動詞"},
+ {"o":"constrained","pos":"adj.／v.（過去分詞）","zh":"受限制的","use":"be constrained by + 預算／時間","why":"the main 後面要名詞；過去分詞後面沒有名詞"},
+ {"o":"constraint","pos":"n.","zh":"限制；約束","use":"名詞：a constraint on + N；time／budget constraints","why":"動詞 constrain + t → 名詞；介系詞用 on"},
+ {"o":"constraining","pos":"v.（-ing）","zh":"限制（著）","use":"現在分詞／動名詞：constraining + 受詞","why":"及物，後面要有受詞；the main 後要一般名詞"}
+]},
+{"id":"p797","key":"arranging airport transfers, hotel rooms…：後勤 → logistics","notes":[
+ {"o":"analytics","pos":"n.","zh":"數據分析","use":"data／web analytics；an analytics tool","why":"數據分析是看資料，不是安排接送、住宿、餐點"},
+ {"o":"credentials","pos":"n.（複數）","zh":"資格證明；資歷","use":"academic／professional credentials","why":"資格證明是學經歷文件，和安排交通食宿無關"},
+ {"o":"proceeds","pos":"n.（複數）","zh":"收益","use":"the proceeds from + 活動","why":"handle the proceeds 是管錢，和安排食宿不合"},
+ {"o":"logistics","pos":"n.","zh":"後勤安排；物流","use":"handle the logistics of + 活動；a logistics firm","why":"兩義都考：活動的後勤安排、貨運物流"}
+]},
+{"id":"p798","key":"studying its web -------：所有格後要名詞當 studying 的受詞 → analytics","notes":[
+ {"o":"analytics","pos":"n.","zh":"數據分析（資料）","use":"名詞：web／data／customer analytics","why":"字尾 -ics 是名詞：analytics、logistics、economics"},
+ {"o":"analytically","pos":"adv.","zh":"以分析的方式","use":"副詞：修飾動詞，think analytically","why":"副詞不能當 studying 的受詞"},
+ {"o":"analyze","pos":"v.","zh":"分析","use":"動詞：analyze + data／results／trends","why":"its web 後面要名詞，不能接原形動詞"},
+ {"o":"analytical","pos":"adj.","zh":"分析的；善於分析的","use":"形容詞：名詞前，analytical skills／tools","why":"形容詞後面沒有名詞；its web 後缺名詞當受詞"}
+]},
+{"id":"p799","key":"at the ------- of：冠詞和 of 之間要名詞 → at the discretion of","notes":[
+ {"o":"discreetly","pos":"adv.","zh":"謹慎低調地","use":"副詞：修飾動詞，handle + 事 + discreetly","why":"the 和 of 之間要名詞，副詞不行"},
+ {"o":"discretion","pos":"n.","zh":"裁量權；謹慎","use":"名詞：at the discretion of + 人＝由…裁量決定","why":"at one's discretion；use your discretion 自行判斷"},
+ {"o":"discreet","pos":"adj.","zh":"謹慎的；低調的","use":"形容詞：名詞前或 be 後，a discreet inquiry","why":"形容詞後面沒有名詞，不能放在 the 和 of 之間"},
+ {"o":"discretionary","pos":"adj.","zh":"可自行裁量的","use":"形容詞：名詞前，discretionary spending／bonus","why":"也是形容詞，後面要有名詞才能放在 the 後"}
+]},
+{"id":"p800","key":"an added ------- to pay early + 折讓 2%：鼓勵人去做 → an incentive to V","notes":[
+ {"o":"allegation","pos":"n.","zh":"指控","use":"an allegation that + 子句／of + 不當行為","why":"指控是未證實的說法；折扣不是在「指控」客戶"},
+ {"o":"constraint","pos":"n.","zh":"限制；約束","use":"a constraint on + N；budget constraints","why":"意思相反：折扣是鼓勵提早付款，不是限制"},
+ {"o":"incentive","pos":"n.","zh":"誘因；獎勵措施","use":"an incentive to V／for + 人；tax incentives","why":"give／offer + 人 + an incentive to V；added＝額外的"},
+ {"o":"liability","pos":"n.","zh":"法律責任；負債","use":"liability for + 損害","why":"責任／負債是負擔，折扣不是給客戶負擔"}
+]},
+{"id":"p801","key":"denied the ------- that + 子句：the 後要名詞當受詞，that 子句是同位語 → allegation","notes":[
+ {"o":"allegedly","pos":"adv.","zh":"據稱","use":"副詞：修飾動詞，He allegedly + V（據稱他…）","why":"副詞不能放在 the 後面當 denied 的受詞"},
+ {"o":"alleged","pos":"adj.／v.（過去分詞）","zh":"被指稱的；涉嫌的","use":"形容詞：名詞前，the alleged violation／theft","why":"the alleged 後面要有名詞，這裡直接接 that"},
+ {"o":"allegation","pos":"n.","zh":"指控","use":"名詞：an allegation that + 子句／of + N","why":"deny／make／investigate an allegation；常用複數"},
+ {"o":"allege","pos":"v.","zh":"指稱；宣稱","use":"動詞：allege that + 子句；be alleged to V","why":"冠詞 the 後面不能接原形動詞"}
+]},
+{"id":"p802","key":"the gradual ------- of dust … had caused：形容詞後、of 前要名詞當主詞","notes":[
+ {"o":"accumulation","pos":"n.","zh":"累積","use":"名詞：the accumulation of + dust／wealth／data","why":"字尾 -tion 是名詞；整段是 had caused 的主詞"},
+ {"o":"accumulate","pos":"v.","zh":"累積","use":"動詞：accumulate + 經驗／財富；Dust accumulates.","why":"the gradual 後面要名詞，不能接原形動詞"},
+ {"o":"accumulative","pos":"adj.","zh":"累積的","use":"形容詞：名詞前（較常用 cumulative effect）","why":"形容詞後面沒有名詞，不能放在 of 前當主詞"},
+ {"o":"accumulated","pos":"adj.／v.（過去分詞）","zh":"累積的；累積了","use":"形容詞：名詞前，accumulated savings／experience","why":"後面要有名詞（accumulated dust），不能直接接 of"}
+]},
+{"id":"p803","key":"The ------- of … is prohibited：The 和 of 之間要名詞當主詞 → retention","notes":[
+ {"o":"retention","pos":"n.","zh":"保留；留任","use":"名詞：the retention of + N；employee retention","why":"動詞 retain → 名詞 retention；data／customer retention"},
+ {"o":"retained","pos":"v.（過去式／過去分詞）","zh":"保留了；被保留的","use":"動詞：retain + 紀錄；be retained for + 期間","why":"The + 過去分詞後面要有名詞，不能直接接 of"},
+ {"o":"retain","pos":"v.","zh":"保留；留住","use":"動詞：retain + records／staff／customers","why":"冠詞 The 後面不能接原形動詞"},
+ {"o":"retentive","pos":"adj.","zh":"記憶力強的","use":"形容詞：名詞前，a retentive memory","why":"形容詞後面沒有名詞，不能當 is 的主詞"}
+]},
+{"id":"p804","key":"the ------- of unprocessed orders that had built up：累積未處理 → backlog","notes":[
+ {"o":"hierarchy","pos":"n.","zh":"階層制度","use":"a corporate hierarchy","why":"階層是組織層級，不會在當機期間 build up"},
+ {"o":"quota","pos":"n.","zh":"配額；限額","use":"meet／exceed a quota；a quota of + 數量","why":"配額是事先規定的上限，不是累積沒處理的訂單"},
+ {"o":"recession","pos":"n.","zh":"經濟衰退","use":"during a recession；an economic recession","why":"衰退是整體經濟狀況，不是一堆待處理的訂單"},
+ {"o":"backlog","pos":"n.","zh":"積壓的工作","use":"a backlog of orders／work／cases","why":"clear／reduce a backlog；build up＝累積"}
+]},
+{"id":"p805","key":"a wholly owned ------- of + 母公司：被完全持有的公司 → subsidiary","notes":[
+ {"o":"shareholder","pos":"n.（人）","zh":"股東","use":"a major shareholder of／in + 公司","why":"股東是持有別人股份的一方，不是被 wholly owned 的"},
+ {"o":"conglomerate","pos":"n.","zh":"企業集團","use":"a media／industrial conglomerate","why":"集團是旗下有多種事業的大企業，不是被持有的一方"},
+ {"o":"subsidiary","pos":"n.","zh":"子公司","use":"a subsidiary of + 母公司；parent company 母公司","why":"wholly owned subsidiary 全資子公司；sub-＝在下"},
+ {"o":"cofounder","pos":"n.（人）","zh":"共同創辦人","use":"a cofounder of + 公司","why":"創辦人是人；主詞 the delivery service 是公司"}
+]},
+{"id":"p806","key":"a loyal ------- of students and professors：一群常客 → clientele","notes":[
+ {"o":"payroll","pos":"n.","zh":"薪資名單","use":"be on the payroll","why":"學生和教授是來消費的客人，不是店裡領薪的員工"},
+ {"o":"jurisdiction","pos":"n.","zh":"管轄權","use":"have jurisdiction over + N","why":"管轄權是法律權限，不能用 loyal 形容"},
+ {"o":"portfolio","pos":"n.","zh":"投資組合；作品集","use":"an investment portfolio；a portfolio of work","why":"指資產／作品的組合，不用 loyal 形容一群客人"},
+ {"o":"clientele","pos":"n.","zh":"顧客群（集合名詞）","use":"a loyal／regular／wealthy clientele","why":"build／attract a clientele；個別顧客是 client"}
+]},
+{"id":"p807","key":"Through its ------- of：所有格 its 和 of 之間要名詞 → acquisition","notes":[
+ {"o":"acquisitive","pos":"adj.","zh":"熱衷收購的","use":"形容詞：名詞前，an acquisitive company","why":"its 和 of 之間要名詞；形容詞後面沒有名詞"},
+ {"o":"acquire","pos":"v.","zh":"收購；取得","use":"動詞：acquire + 公司／技能／資產","why":"所有格 its 後面不能接原形動詞"},
+ {"o":"acquired","pos":"v.（過去式／過去分詞）","zh":"收購了；習得的","use":"動詞：acquire a rival；newly acquired + N","why":"its + 過去分詞後面要有名詞，不能直接接 of"},
+ {"o":"acquisition","pos":"n.","zh":"收購；取得","use":"名詞：the acquisition of + 公司；make an acquisition","why":"mergers and acquisitions（M&A，併購）"}
+]},
+{"id":"p808","key":"paid on each share + Profits were strong：按股發給股東 → dividend","notes":[
+ {"o":"severance","pos":"n.","zh":"資遣（費）","use":"severance pay／package","why":"資遣費是付給離職員工的，不是按 share 發的"},
+ {"o":"deficit","pos":"n.","zh":"赤字；虧損","use":"a budget／trade deficit","why":"赤字是虧損缺口；獲利好不會去「提高赤字」"},
+ {"o":"dividend","pos":"n.","zh":"股息；紅利","use":"pay／declare a dividend；a dividend of + 金額","why":"raise／cut the dividend；per share＝每股"},
+ {"o":"collateral","pos":"n.","zh":"抵押品；擔保品","use":"use + 資產 + as collateral","why":"抵押品是貸款擔保，不是公司按股發給股東的錢"}
+]},
+{"id":"p809","key":"to the original -------：冠詞 + 形容詞 original 後要名詞 → specification","notes":[
+ {"o":"specification","pos":"n.","zh":"規格；明細","use":"名詞：形容詞後；meet the specifications","why":"常用複數 specifications（specs）；change to + N"},
+ {"o":"specify","pos":"v.","zh":"明確指定","use":"動詞：specify + N／that 子句","why":"the original 後面要名詞，不能接原形動詞"},
+ {"o":"specifically","pos":"adv.","zh":"明確地；特別地","use":"副詞：修飾動詞／形容詞，specifically designed for","why":"副詞不能放在 the original 後面當名詞"},
+ {"o":"specific","pos":"adj.","zh":"特定的；明確的","use":"形容詞：名詞前，specific instructions／details","why":"形容詞後面沒有名詞；original 後缺名詞"}
+]},
+{"id":"p810","key":"a ------- between 發票數量 and 實收數量：兩個數字對不上 → discrepancy","notes":[
+ {"o":"consensus","pos":"n.","zh":"共識","use":"reach a consensus on + 議題","why":"共識是人與人之間的一致意見，不是兩個數字的落差"},
+ {"o":"synergy","pos":"n.","zh":"綜效；協同效應","use":"synergy between + 兩個團隊／公司","why":"可接 between，但指合作的加乘效果，不是數字差異"},
+ {"o":"merger","pos":"n.","zh":"合併","use":"a merger between A and B（公司）","why":"可接 between，但合併的是公司，不是兩個數字"},
+ {"o":"discrepancy","pos":"n.","zh":"差異；不一致","use":"a discrepancy between A and B／in + 數字","why":"notice／find／explain a discrepancy；常和 invoice 連用"}
+]},
+{"id":"p811","key":"a ten percent ------- stake：投資換來的持股 → equity stake「股權」","notes":[
+ {"o":"surplus","pos":"n.","zh":"盈餘；過剩","use":"a budget／trade surplus","why":"沒有 surplus stake 的說法；盈餘不是持股比例"},
+ {"o":"liability","pos":"n.","zh":"負債；法律責任","use":"assets and liabilities","why":"負債是欠款；投資換到的不是 liability stake"},
+ {"o":"equity","pos":"n.","zh":"股權；權益","use":"an equity stake；private equity；equity financing","why":"a 10% (equity) stake in + 公司：stake＝持股，介系詞 in"},
+ {"o":"dividend","pos":"n.","zh":"股息","use":"pay／receive a dividend","why":"股息是持股後領的錢，不放在 stake 前表示持股"}
+]},
+{"id":"p812","key":"to confirm that it was worth the asking price：確認價值 → appraisal","notes":[
+ {"o":"acquisition","pos":"n.","zh":"收購；取得","use":"the acquisition of + 公司／資產","why":"文法可以，但「收購房子」不是用來確認它值多少"},
+ {"o":"deduction","pos":"n.","zh":"扣除（額）","use":"a tax deduction；a deduction from + 薪資","why":"扣除是從金額中減掉，不能用來確認房價"},
+ {"o":"provision","pos":"n.","zh":"提供；條款","use":"the provision of + 服務；a provision in a contract","why":"「提供房子」不合；銀行要做的是確認價值"},
+ {"o":"appraisal","pos":"n.","zh":"估價；評估；考核","use":"an appraisal of + 房產；a performance appraisal","why":"兩義都考：房產估價、績效考核；動詞 appraise"}
+]},
+{"id":"p813","key":"All ------- from the sale will be used to buy…：賣東西得到的錢 → proceeds","notes":[
+ {"o":"proceeds","pos":"n.（複數）","zh":"（活動、銷售的）收益","use":"the proceeds from／of + 銷售／活動","why":"恆用複數；All proceeds go to／will be donated to"},
+ {"o":"premises","pos":"n.（複數）","zh":"（店家、公司的）場所","use":"on the premises","why":"場所是地點，不會來自拍賣，也不能拿來買電腦"},
+ {"o":"credentials","pos":"n.（複數）","zh":"資格證明；資歷","use":"academic／professional credentials","why":"資格證明不是錢，不能用來買電腦"},
+ {"o":"dividends","pos":"n.（複數）","zh":"股息","use":"pay dividends to shareholders","why":"股息來自公司獲利、發給股東，不是來自二手書拍賣"}
+]},
+{"id":"p814","key":"new hires + During their first week：新人到職的課程 → onboarding program","notes":[
+ {"o":"onboarding","pos":"n.","zh":"新進人員到職培訓","use":"an onboarding program／process","why":"來自 on board（加入團隊）；近義 orientation"},
+ {"o":"incentive","pos":"n.","zh":"獎勵措施；誘因","use":"an incentive program（獎勵方案）","why":"獎勵方案的內容不會是公司政策、帳號、職場安全"},
+ {"o":"outreach","pos":"n.","zh":"外展；對外推廣服務","use":"a community outreach program","why":"外展是對外部社區的服務，對象不是新進員工"},
+ {"o":"audit","pos":"n.","zh":"稽核；審計","use":"conduct an audit of + 帳目","why":"稽核是檢查帳目，不是新人要完成的課程"}
+]},
+{"id":"p815","key":"during the ------- + households cut back on spending：不景氣 → recession","notes":[
+ {"o":"audit","pos":"n.","zh":"稽核；審計","use":"conduct an audit of + 帳目","why":"稽核是一家公司的查帳，不會讓許多家庭縮減開銷"},
+ {"o":"rollout","pos":"n.","zh":"推行；上市","use":"the rollout of + 新產品／系統","why":"新產品推行不會讓家庭只買必需品"},
+ {"o":"merger","pos":"n.","zh":"合併","use":"a merger with／between + 公司","why":"合併是兩家公司的事，不會造成家家戶戶節省開支"},
+ {"o":"recession","pos":"n.","zh":"經濟衰退","use":"during／in a recession；an economic recession","why":"cut back on＝縮減；近義 downturn、slump"}
+]},
+{"id":"p816","key":"includes a ------- that allows：a 後要名詞當受詞（that 是關係代名詞）→ provision","notes":[
+ {"o":"provide","pos":"v.","zh":"提供；規定","use":"動詞：provide A with B；provide that + 子句","why":"冠詞 a 後面不能接原形動詞"},
+ {"o":"provisional","pos":"adj.","zh":"暫時的；臨時的","use":"形容詞：名詞前，a provisional booking／license","why":"a + 形容詞後面要名詞，這裡直接接 that"},
+ {"o":"provision","pos":"n.","zh":"條款；提供；準備","use":"名詞：a provision in + 合約；the provision of + 服務","why":"合約情境＝條款（近義 clause）；make provision for"},
+ {"o":"provisionally","pos":"adv.","zh":"暫時地","use":"副詞：修飾動詞，be provisionally approved","why":"副詞不能放在 a 後面當 includes 的受詞"}
+]},
+{"id":"p817","key":"had ------- in tax law → 請 outside specialist：have expertise in + 領域","notes":[
+ {"o":"expertise","pos":"n.","zh":"專業知識；專長","use":"不可數：expertise in + 領域；technical expertise","why":"不加 a、不加 s；人是 expert，專業是 expertise"},
+ {"o":"liability","pos":"n.","zh":"法律責任；負債","use":"liability for + 損害","why":"「沒人有稅法責任」和請外部專家審約不合"},
+ {"o":"turnover","pos":"n.","zh":"營業額；人員流動率","use":"annual turnover；staff turnover","why":"營業額／流動率不是人在稅法方面具備的東西"},
+ {"o":"collateral","pos":"n.","zh":"抵押品；擔保品","use":"use + 資產 + as collateral","why":"抵押品是貸款擔保，不是人具備的知識"}
+]},
+{"id":"p818","key":"a surprise ------- of … inventory records：檢查紀錄 → an audit of","notes":[
+ {"o":"audit","pos":"n.／v.","zh":"稽核；查帳","use":"conduct／carry out an audit of + 帳目／紀錄","why":"an internal／external／surprise audit；人是 auditor"},
+ {"o":"surplus","pos":"n.","zh":"盈餘；過剩","use":"a budget surplus；a surplus of + N","why":"盈餘是多出來的錢／貨，不是總公司下令做的檢查"},
+ {"o":"merger","pos":"n.","zh":"合併","use":"a merger with／between + 公司","why":"合併的是公司，不是對庫存紀錄做的事"},
+ {"o":"patent","pos":"n.","zh":"專利","use":"apply for／hold a patent on + 發明","why":"專利是發明的權利，和清查庫存紀錄無關"}
+]},
+{"id":"p819","key":"has added new ------- to：形容詞 new 後要名詞當 added 的受詞 → functionality","notes":[
+ {"o":"functionality","pos":"n.","zh":"功能（性）","use":"名詞：形容詞後；add／offer new functionality","why":"字尾 -ity 是名詞；add A to B；近義 features"},
+ {"o":"functioned","pos":"v.（過去式／過去分詞）","zh":"運作了","use":"動詞（不及物）：function properly／as + N","why":"new 後面要名詞，不能接動詞過去式"},
+ {"o":"functionally","pos":"adv.","zh":"在功能上","use":"副詞：修飾形容詞，functionally identical","why":"副詞不能當 added 的受詞"},
+ {"o":"functional","pos":"adj.","zh":"可運作的；實用的","use":"形容詞：名詞前或 be 後，fully functional","why":"形容詞後面沒有名詞；new 後缺名詞當受詞"}
+]},
+{"id":"p820","key":"positions are eliminated → receive ------- pay：被裁員領的錢 → severance pay","notes":[
+ {"o":"liability","pos":"n.","zh":"負債；法律責任","use":"liability for + 損害；assets and liabilities","why":"沒有 liability pay 的說法；責任／負債不是員工領的錢"},
+ {"o":"severance","pos":"n.","zh":"資遣（費）","use":"severance pay；a severance package","why":"常和 layoff、restructuring、eliminate 一起出現"},
+ {"o":"turnover","pos":"n.","zh":"營業額；人員流動率","use":"annual turnover；staff turnover","why":"沒有 turnover pay 的說法；流動率是比率，不是款項"},
+ {"o":"surplus","pos":"n.","zh":"盈餘；過剩","use":"a budget／trade surplus","why":"盈餘是公司多出來的錢，不是依年資給的資遣費"}
+]},
+{"id":"p821","key":"the company's annual ------- on … has doubled：所有格 + 形容詞後要名詞當主詞","notes":[
+ {"o":"expenditure","pos":"n.","zh":"支出；經費","use":"名詞：expenditure on + 項目；capital expenditure","why":"介系詞 on（同 spending on）；主詞單數，動詞 has"},
+ {"o":"expended","pos":"v.（過去式／過去分詞）","zh":"花費了；被耗用的","use":"動詞：expend + 時間／精力 + on + N","why":"annual 後面要名詞當主詞，不能接過去分詞"},
+ {"o":"expend","pos":"v.","zh":"花費；耗費","use":"動詞：expend time／energy／resources on + N","why":"所有格 + 形容詞後面不能接原形動詞"},
+ {"o":"expendable","pos":"adj.","zh":"可消耗的；可捨棄的","use":"形容詞：名詞前，expendable supplies","why":"形容詞不能當 has doubled 的主詞"}
+]},
+{"id":"p822","key":"Because of the ------- of：冠詞 the 和 of 之間要名詞 → globalization","notes":[
+ {"o":"globalize","pos":"v.","zh":"使全球化","use":"動詞：globalize + 業務／生產","why":"冠詞 the 後面不能接原形動詞"},
+ {"o":"global","pos":"adj.","zh":"全球的","use":"形容詞：名詞前，global supply chains／markets","why":"形容詞後面沒有名詞，不能放在 the 和 of 之間"},
+ {"o":"globalization","pos":"n.","zh":"全球化","use":"名詞：the globalization of + trade／supply chains","why":"because of + 名詞；because + 子句，兩者常一起考"},
+ {"o":"globally","pos":"adv.","zh":"在全球","use":"副詞：修飾動詞，operate／sell globally","why":"副詞不能放在 the 和 of 之間當名詞"}
+]},
+{"id":"p823","key":"which includes narrow roads and a … bridge：道路、橋樑 → infrastructure","notes":[
+ {"o":"expenditure","pos":"n.","zh":"支出","use":"expenditure on + 項目","why":"支出是錢，不會「包含」道路和橋"},
+ {"o":"infrastructure","pos":"n.","zh":"基礎設施","use":"transport／IT／public infrastructure","why":"不可數；poor／aging infrastructure；動詞 upgrade"},
+ {"o":"hierarchy","pos":"n.","zh":"階層制度","use":"a corporate hierarchy","why":"階層是組織層級，不包含道路和橋"},
+ {"o":"legislation","pos":"n.","zh":"法律；立法","use":"pass／introduce legislation on + 議題","why":"transport legislation 是交通法規，不包含道路、橋樑"}
+]},
+{"id":"p824","key":"negotiating … to secure steel：向供應商議價取得原料 → procurement","notes":[
+ {"o":"emission","pos":"n.","zh":"排放","use":"the emission of + 氣體；carbon emissions","why":"文法可以，但「排放原料」和議價取得鋼材不合"},
+ {"o":"legislation","pos":"n.","zh":"法律；立法","use":"pass／introduce legislation","why":"立法是訂法律，不是向鋼廠議價買料"},
+ {"o":"severance","pos":"n.","zh":"資遣（費）","use":"severance pay／package","why":"資遣是對離職員工的補償，和原物料無關"},
+ {"o":"procurement","pos":"n.","zh":"採購","use":"the procurement of + 原料／設備；procurement costs","why":"動詞 procure＝secure／obtain；近義 purchasing、sourcing"}
+]},
+{"id":"p825","key":"the new ------- requiring：冠詞 + 形容詞後要名詞，requiring… 是修飾它的分詞片語","notes":[
+ {"o":"legislation","pos":"n.","zh":"法律；立法","use":"不可數名詞：new legislation；pass legislation","why":"不可數，不說 a legislation；一條法律用 a law"},
+ {"o":"legislate","pos":"v.","zh":"立法","use":"動詞：legislate for／against + N","why":"the new 後面要名詞，不能接原形動詞"},
+ {"o":"legislative","pos":"adj.","zh":"立法的","use":"形容詞：名詞前，legislative changes／body","why":"後面是分詞 requiring，沒有名詞可修飾"},
+ {"o":"legislatively","pos":"adv.","zh":"在立法上","use":"副詞：修飾動詞或分詞（少用）","why":"副詞不能放在 the new 後面當 for 的受詞"}
+]},
+{"id":"p826","key":"with interests in shipping, insurance, hotels…：跨多產業 → conglomerate","notes":[
+ {"o":"commodity","pos":"n.","zh":"大宗商品；原物料","use":"commodity prices；basic commodities","why":"商品是被買賣的東西，不會在各產業「有事業」"},
+ {"o":"subsidiary","pos":"n.","zh":"子公司","use":"a subsidiary of + 母公司","why":"子公司是被母公司持有的一方，不是橫跨多產業的大集團"},
+ {"o":"prototype","pos":"n.","zh":"原型；試作品","use":"build／test a prototype of + 產品","why":"原型是產品的試作品，紡織廠不會成長為原型"},
+ {"o":"conglomerate","pos":"n.","zh":"企業集團","use":"a media／industrial／multinational conglomerate","why":"interests in + 產業＝在…有事業；grow into + N"}
+]},
+{"id":"p827","key":"a working ------- … before the final version：量產前的試作品 → prototype","notes":[
+ {"o":"patent","pos":"n.","zh":"專利","use":"a patent on／for + 發明","why":"專利是權利文件，不能 working，也不能拿來測試"},
+ {"o":"benchmark","pos":"n.","zh":"基準；標竿","use":"set a benchmark for + N","why":"基準是比較的標準，不是量產前的試作品"},
+ {"o":"prototype","pos":"n.","zh":"原型；試作品","use":"a working prototype of + 產品；build a prototype","why":"和 final version、mass production 對比；proto-＝最初"},
+ {"o":"consignment","pos":"n.","zh":"託運的一批貨物","use":"a consignment of + 貨物","why":"a consignment of 是一批貨，不是量產前的試作版本"}
+]},
+{"id":"p828","key":"annual ------- passed ten million dollars，和 profits 對比 → turnover","notes":[
+ {"o":"turnover","pos":"n.","zh":"營業額；人員流動率","use":"annual turnover 營業額；staff turnover 流動率","why":"看上下文判斷：接金額＝營業額；談員工離職＝流動率"},
+ {"o":"collateral","pos":"n.","zh":"抵押品；擔保品","use":"use + 資產 + as collateral","why":"抵押品是貸款擔保，不會拿來和 profits 對比"},
+ {"o":"severance","pos":"n.","zh":"資遣（費）","use":"severance pay／package","why":"資遣費是付給離職員工的錢，不是每年的銷售額"},
+ {"o":"inflation","pos":"n.","zh":"通貨膨脹","use":"the rate of inflation","why":"通膨用百分比表示，不會「突破一千萬美元」"}
+]},
+{"id":"p829","key":"commitment to environmental -------：to 是介系詞，形容詞後要名詞 → sustainability","notes":[
+ {"o":"sustainability","pos":"n.","zh":"永續性","use":"名詞：形容詞後；sustainability goals／report","why":"commitment to + N／V-ing（to 是介系詞，不接原形）"},
+ {"o":"sustainable","pos":"adj.","zh":"永續的；可持續的","use":"形容詞：名詞前，sustainable energy／growth","why":"environmental 後面要名詞，不能以形容詞收尾"},
+ {"o":"sustainably","pos":"adv.","zh":"以永續的方式","use":"副詞：修飾動詞／分詞，sustainably sourced","why":"副詞不能當介系詞 to 的受詞"},
+ {"o":"sustain","pos":"v.","zh":"維持；支撐","use":"動詞：sustain + growth／damage／interest","why":"這個 to 是介系詞不是不定詞；形容詞後也不接動詞"}
+]},
+{"id":"p830","key":"independent ------- of the fund；委員會 review 每項決策：監督 → oversight","notes":[
+ {"o":"inflation","pos":"n.","zh":"通貨膨脹","use":"the rate of inflation","why":"通膨是物價上漲，委員會審查決策不是在提供通膨"},
+ {"o":"severance","pos":"n.","zh":"資遣（費）","use":"severance pay／package","why":"資遣費是給離職員工的錢，和審查投資決策無關"},
+ {"o":"collateral","pos":"n.","zh":"抵押品；擔保品","use":"provide／offer collateral for a loan","why":"provide collateral 文法通，但審查決策不是提供擔保品"},
+ {"o":"oversight","pos":"n.","zh":"監督；疏忽","use":"oversight of + 機構／資金；動詞 oversee","why":"兩義：independent oversight 監督；an oversight 疏忽"}
+]},
+{"id":"p831","key":"annual leave ------- increases：動詞 increases 前缺主詞的中心名詞 → entitlement","notes":[
+ {"o":"entitled","pos":"adj.／v.（過去分詞）","zh":"有權利的","use":"be entitled to + N／V（有權享有）","why":"不是名詞，不能當 increases 的主詞"},
+ {"o":"entitle","pos":"v.","zh":"給予權利","use":"動詞：entitle + 人 + to + N／V","why":"已有動詞 increases，主詞位置不能放原形動詞"},
+ {"o":"entitling","pos":"v.（-ing）","zh":"給予權利（的）","use":"現在分詞：N + entitling + 人 + to + 權利","why":"及物，後面要有受詞（人）；這裡缺的是名詞主詞"},
+ {"o":"entitlement","pos":"n.","zh":"應得的權利／額度","use":"名詞：leave／holiday entitlement；entitlement to + N","why":"名詞 + 名詞的複合名詞；單數主詞配 increases"}
+]},
+{"id":"p832","key":"held the ------- of ceramic tiles at the port：被海關扣住的一批貨 → consignment","notes":[
+ {"o":"jurisdiction","pos":"n.","zh":"管轄權","use":"have jurisdiction over + N","why":"管轄權是權限，不是能被扣在港口的貨物"},
+ {"o":"procurement","pos":"n.","zh":"採購","use":"the procurement of + 原料／設備","why":"指「採購」這個行為，不是實體貨物，不能扣在港口"},
+ {"o":"recession","pos":"n.","zh":"經濟衰退","use":"during a recession","why":"衰退是經濟狀況，不是一批瓷磚"},
+ {"o":"consignment","pos":"n.","zh":"託運的一批貨物","use":"a consignment of + 貨物；on consignment（寄售）","why":"近義 shipment；hold 在這裡是「扣留」"}
+]},
+{"id":"p833","key":"hackers + test its network for weaknesses：防駭、測網路 → cybersecurity","notes":[
+ {"o":"procurement","pos":"n.","zh":"採購","use":"a procurement specialist／officer","why":"採購專員負責買東西，不測試網路弱點"},
+ {"o":"logistics","pos":"n.","zh":"物流；後勤","use":"a logistics specialist／company","why":"物流專員管運送，不處理駭客入侵"},
+ {"o":"payroll","pos":"n.","zh":"薪資（名單）","use":"a payroll specialist／clerk","why":"薪資專員管發薪，不測試網路安全"},
+ {"o":"cybersecurity","pos":"n.","zh":"網路安全；資安","use":"a cybersecurity specialist／threat","why":"cyber-＝網路；相關字 data breach、phishing、firewall"}
+]},
+{"id":"p834","key":"one vote for every share … he or she owns：持有 share 的人 → shareholder","notes":[
+ {"o":"auditor","pos":"n.（人）","zh":"稽核員；審計員","use":"an independent／external auditor","why":"稽核員負責查帳，不因持股而有表決權"},
+ {"o":"subordinate","pos":"n.（人）","zh":"下屬","use":"one's subordinates","why":"下屬是職位關係，和持有股票無關"},
+ {"o":"contractor","pos":"n.（人）","zh":"承包商","use":"hire a contractor","why":"承包商是外聘廠商，不是持股投票的人"},
+ {"o":"shareholder","pos":"n.（人）","zh":"股東","use":"a major／minority shareholder；＝stockholder","why":"annual general meeting 股東常會；be entitled to + N"}
+]},
+{"id":"p835","key":"accepts no ------- for items stolen：告示免責句 accept no liability for","notes":[
+ {"o":"liability","pos":"n.","zh":"法律責任；負債","use":"accept／assume liability for + 損失；be liable for","why":"近義 accept no responsibility for；limited liability"},
+ {"o":"entitlement","pos":"n.","zh":"應得的權利","use":"entitlement to + N","why":"指「有權得到」的東西；停車場要說的是不負責"},
+ {"o":"collateral","pos":"n.","zh":"抵押品；擔保品","use":"accept + 資產 + as collateral","why":"accept collateral 是收擔保品，和物品失竊無關"},
+ {"o":"jurisdiction","pos":"n.","zh":"管轄權","use":"have jurisdiction over + N","why":"管轄權搭配 have … over，不是業者「接受」的東西"}
+]},
+{"id":"p836","key":"payment … is recorded in the -------：記錄每筆款項的帳本 → ledger","notes":[
+ {"o":"blueprint","pos":"n.","zh":"藍圖；計畫","use":"a blueprint for + 建築／計畫","why":"藍圖是設計圖，不會記錄收到的款項"},
+ {"o":"ledger","pos":"n.","zh":"總帳；帳本","use":"record／enter + 款項 + in the ledger","why":"a general ledger 總帳；相關字 bookkeeping、accounts"},
+ {"o":"payroll","pos":"n.","zh":"薪資名單","use":"be on the payroll","why":"薪資名單記的是付給員工的薪水，不是店裡收到的款項"},
+ {"o":"hierarchy","pos":"n.","zh":"階層制度","use":"a corporate hierarchy","why":"階層是組織層級，不能記錄款項"}
+]},
+{"id":"p837","key":"examine … financial records and confirm … accurate：查帳的人 → auditor","notes":[
+ {"o":"entrepreneur","pos":"n.（人）","zh":"創業家","use":"a successful entrepreneur","why":"創業家是自己開公司的人，不是受託查帳的人"},
+ {"o":"subordinate","pos":"n.（人）","zh":"下屬","use":"one's subordinates","why":"下屬要聽上司指示，和 independent、替客戶查帳不合"},
+ {"o":"shareholder","pos":"n.（人）","zh":"股東","use":"a major shareholder","why":"股東是持股的人，不是受聘檢查客戶帳目的人"},
+ {"o":"auditor","pos":"n.（人）","zh":"稽核員；審計員","use":"an independent／external／internal auditor","why":"動詞／名詞 audit；independent auditor 獨立審計人員"}
+]},
+{"id":"p838","key":"receive ------- for：及物動詞 receive 後要名詞當受詞 → reimbursement for","notes":[
+ {"o":"reimbursed","pos":"v.（過去式／過去分詞）","zh":"獲得償還的","use":"be reimbursed for + 費用（人當主詞）","why":"receive 後要名詞；用分詞要改成 be reimbursed for"},
+ {"o":"reimbursement","pos":"n.","zh":"報銷；償還款","use":"名詞：動詞後當受詞；request reimbursement","why":"receive reimbursement for＝be reimbursed for，都常考"},
+ {"o":"reimbursable","pos":"adj.","zh":"可報銷的","use":"形容詞：名詞前或 be 後，reimbursable expenses","why":"形容詞後面沒有名詞，不能當 receive 的受詞"},
+ {"o":"reimburse","pos":"v.","zh":"償還；報銷","use":"動詞：reimburse + 人 + for + 費用","why":"receive 後面不能再接原形動詞"}
+]},
+{"id":"p839","key":"courts have ------- over the claim：法院 + over → jurisdiction over","notes":[
+ {"o":"liability","pos":"n.","zh":"法律責任；負債","use":"liability for + 損害","why":"責任搭配 for；法院是審理者，不是負賠償責任的一方"},
+ {"o":"compliance","pos":"n.","zh":"遵守；合規","use":"compliance with + 規定","why":"搭配 with + 規定；法院不是「遵守」理賠案"},
+ {"o":"jurisdiction","pos":"n.","zh":"管轄權；管轄區","use":"have jurisdiction over + 案件／地區","why":"主詞常是 court／agency；under the jurisdiction of"},
+ {"o":"proficiency","pos":"n.","zh":"熟練；精通","use":"proficiency in + 語言／技能","why":"搭配 in + 技能，是人的能力，不是法院的權限"}
+]},
+{"id":"p840","key":"offered valuable ------- into why…：後接 into → insight into「對…的深入了解」","notes":[
+ {"o":"recognition","pos":"n.","zh":"認可；表彰","use":"in recognition of + N；gain recognition for","why":"搭配 of／for；調查結果不會提供「表彰」"},
+ {"o":"insight","pos":"n.","zh":"洞見；深入了解","use":"insight(s) into + N／wh- 子句；gain insight","why":"offer／provide／gain insight into；形容詞 insightful"},
+ {"o":"discretion","pos":"n.","zh":"裁量權；謹慎","use":"at the discretion of + 人","why":"裁量權是決定的權力，不是調查結果能提供的了解"},
+ {"o":"compliance","pos":"n.","zh":"遵守；合規","use":"compliance with + 規定","why":"搭配 with + 規定；調查結果不會提供「遵守」"}
+]},
+{"id":"p841","key":"Combining A with B produced a -------：結合後的加乘效果 → synergy","notes":[
+ {"o":"deficit","pos":"n.","zh":"赤字；虧損","use":"a budget／trade deficit","why":"赤字是負面結果，不會 lift 雙方的銷售"},
+ {"o":"discrepancy","pos":"n.","zh":"差異；不一致","use":"a discrepancy between A and B","why":"不一致是對不上的問題，不會帶動銷售成長"},
+ {"o":"synergy","pos":"n.","zh":"綜效；協同效應","use":"create／produce synergy between A and B","why":"syn-＝一起；1＋1＞2，常和 merger、partnership 連用"},
+ {"o":"backlog","pos":"n.","zh":"積壓的工作","use":"a backlog of orders／work","why":"積壓是待處理的負擔，不會提升兩家公司的銷售"}
+]},
+{"id":"p842","key":"demonstrate their ------- in + 軟體：測的是技能熟練度 → proficiency in","notes":[
+ {"o":"proficiency","pos":"n.","zh":"熟練；精通","use":"proficiency in + 語言／軟體；be proficient in","why":"demonstrate／require proficiency in；徵才廣告常見"},
+ {"o":"integrity","pos":"n.","zh":"誠信；正直","use":"a person of integrity；act with integrity","why":"誠信是品格，限時軟體測驗測不出來"},
+ {"o":"affiliation","pos":"n.","zh":"隸屬關係","use":"affiliation with + 機構","why":"搭配 with + 機構，不是可以用測驗展現的能力"},
+ {"o":"discretion","pos":"n.","zh":"謹慎；裁量權","use":"at the discretion of + 人","why":"謹慎／裁量權不是軟體操作能力，測驗測不出來"}
+]},
+{"id":"p843","key":"A senior ------- from head office + announce … plan：總公司高層 → executive","notes":[
+ {"o":"subordinate","pos":"n.（人）","zh":"下屬","use":"one's subordinates","why":"下屬是相對某位上司而言；代表總公司宣布計畫的是主管"},
+ {"o":"executive","pos":"n.（人）／adj.","zh":"高階主管","use":"a senior／top executive；chief executive officer","why":"senior executive 高階主管；形容詞：executive decision"},
+ {"o":"entrepreneur","pos":"n.（人）","zh":"創業家","use":"a successful entrepreneur","why":"創業家是自己創業的人，不是總公司派來的主管"},
+ {"o":"contractor","pos":"n.（人）","zh":"承包商","use":"hire a contractor","why":"承包商是外部廠商，不屬於 head office"}
+]},
+{"id":"p844","key":"the most important ------- … uses to judge：衡量好壞的指標 → metric","notes":[
+ {"o":"provision","pos":"n.","zh":"條款；提供","use":"a provision in + 合約","why":"條款是合約內容，平均送達時間不是條款"},
+ {"o":"metric","pos":"n.","zh":"衡量指標","use":"a key／performance metric；track metrics","why":"use + 指標 + to judge／measure；近義 indicator、KPI"},
+ {"o":"commodity","pos":"n.","zh":"大宗商品；原物料","use":"commodity prices","why":"商品是買賣的貨物，不能拿來判斷服務有沒有進步"},
+ {"o":"incentive","pos":"n.","zh":"誘因；獎勵措施","use":"an incentive to V","why":"誘因是鼓勵人的東西；送達時間是拿來衡量的數字"}
+]},
+{"id":"p845","key":"the 25-to-34 age -------, a group…：同位語 a group 說明空格 → demographic","notes":[
+ {"o":"demographic","pos":"n.／adj.","zh":"（人口統計的）族群","use":"a target／age demographic；demographic data","why":"reach／target a demographic；複數 demographics 人口統計資料"},
+ {"o":"commodity","pos":"n.","zh":"大宗商品；原物料","use":"commodity prices","why":"商品不是「一群人」，和同位語 a group 不合"},
+ {"o":"jurisdiction","pos":"n.","zh":"管轄權；管轄區","use":"have jurisdiction over + N","why":"管轄區是地區／權限，不是按年齡分的一群人"},
+ {"o":"hierarchy","pos":"n.","zh":"階層制度","use":"a corporate hierarchy","why":"階層是上下層級，不是按年齡劃分的消費族群"}
+]},
+{"id":"p846","key":"offered their house as ------- for the … loan：擔保品 → collateral","notes":[
+ {"o":"collateral","pos":"n.","zh":"抵押品；擔保品","use":"offer／put up + 資產 + as collateral for a loan","why":"不可數，as collateral 不加冠詞；could lose it 是線索"},
+ {"o":"turnover","pos":"n.","zh":"營業額；人員流動率","use":"annual turnover；staff turnover","why":"房子不能當「營業額」，和貸款擔保無關"},
+ {"o":"severance","pos":"n.","zh":"資遣（費）","use":"severance pay／package","why":"資遣費是給離職員工的錢，房子不能當資遣費"},
+ {"o":"inflation","pos":"n.","zh":"通貨膨脹","use":"the rate of inflation","why":"通膨是物價現象，房子不能「作為通膨」"}
+]},
+{"id":"p847","key":"the ------- who report directly to her：向她報告的人 → subordinates","notes":[
+ {"o":"shareholders","pos":"n.（複數，人）","zh":"股東","use":"shareholders of + 公司","why":"股東是持股的人，不向區域總監報告、接辦例行核准"},
+ {"o":"cofounders","pos":"n.（複數，人）","zh":"共同創辦人","use":"a cofounder of + 公司","why":"共同創辦人是公司最高層，不會向區域總監報告"},
+ {"o":"subordinates","pos":"n.（複數，人）","zh":"下屬","use":"delegate + 工作 + to subordinates；反義 superior","why":"report (directly) to + 上司；sub-＝在下"},
+ {"o":"entrepreneurs","pos":"n.（複數，人）","zh":"創業家","use":"a successful entrepreneur","why":"創業家是自己當老闆的人，不會向總監報告"}
+]},
+{"id":"p848","key":"visit local schools + community ------- program：走進社區服務 → outreach","notes":[
+ {"o":"severance","pos":"n.","zh":"資遣（費）","use":"severance pay／package","why":"資遣是對離職員工的補償，不是到學校教學的計畫"},
+ {"o":"outreach","pos":"n.","zh":"外展服務；對外推廣","use":"community outreach；an outreach program／effort","why":"動詞片語 reach out to + 對象 → 名詞 outreach"},
+ {"o":"payroll","pos":"n.","zh":"薪資名單","use":"be on the payroll","why":"薪資是發薪作業，和到學校教理財無關"},
+ {"o":"procurement","pos":"n.","zh":"採購","use":"the procurement of + 原料／設備","why":"採購是買東西，不是對社區提供服務"}
+]},
+{"id":"p849","key":"the ------- of directors：固定搭配 board of directors「董事會」","notes":[
+ {"o":"ledger","pos":"n.","zh":"總帳；帳本","use":"record + 款項 + in the ledger","why":"帳本是記帳用的，不能核准提案、開會"},
+ {"o":"quota","pos":"n.","zh":"配額；限額","use":"a quota of + 數量；meet a quota","why":"a quota of 接數量上限，不是由董事組成的機構"},
+ {"o":"board","pos":"n.","zh":"董事會；委員會","use":"the board of directors；a board member／meeting","why":"集合名詞，代名詞用 its；on the board＝擔任董事"},
+ {"o":"merger","pos":"n.","zh":"合併","use":"a merger with／between + 公司","why":"合併是公司交易，不是能核准提案的機構"}
+]},
+{"id":"p850","key":"主詞 the reservation system + 櫃檯無法辦入住：系統當機 → crashed","notes":[
+ {"o":"convened","pos":"v.（過去式／過去分詞）","zh":"召開；集合","use":"convene a meeting；The committee convened.","why":"主詞要是委員會／會議成員；系統不會「集會」"},
+ {"o":"escalated","pos":"v.（過去式／過去分詞）","zh":"升高；惡化","use":"Costs／Tensions escalated；escalate + 問題 + to + 主管","why":"主詞通常是衝突、成本、問題；「系統升高了」語意不通"},
+ {"o":"complied","pos":"v.（過去式／過去分詞）","zh":"遵守了","use":"comply with + 規定／要求","why":"文法可以，但系統「遵守了」不會讓櫃檯無法辦入住"},
+ {"o":"crashed","pos":"v.（過去式／過去分詞）","zh":"當機；墜毀；暴跌","use":"The system／computer／website crashed（不及物）","why":"系統停擺相關：go down、outage、malfunction"}
+]},
+{"id":"p851","key":"continue as an online-only title：紙本之後沒了 → cease publication「停刊」","notes":[
+ {"o":"expedite","pos":"v.","zh":"加速（處理）","use":"expedite + 訂單／流程／出貨","why":"文法可以，但「加快出版」和之後只剩網路版矛盾"},
+ {"o":"cease","pos":"v.","zh":"停止","use":"cease + N／V-ing／to V；cease operations／production","why":"cease publication／trading；比 stop 正式"},
+ {"o":"commence","pos":"v.","zh":"開始","use":"commence + N／V-ing；Work will commence on + 日期","why":"文法可以，但意思相反：紙本是要停，不是開始"},
+ {"o":"endorse","pos":"v.","zh":"背書；代言；支持","use":"endorse + 產品／候選人／提案","why":"文法可以，但「支持出版」和紙本停掉改網路版不合"}
+]},
+{"id":"p852","key":"防止對手 legally copying + applied for a ------- on：申請專利 → patent","notes":[
+ {"o":"prototype","pos":"n.","zh":"原型；試作品","use":"build a prototype of + 產品","why":"原型是「做」出來的，不是 apply for；也擋不了抄襲"},
+ {"o":"patent","pos":"n.／v.","zh":"專利","use":"apply for／file／hold a patent on／for + 發明","why":"a patent on + 發明；patent pending 專利申請中"},
+ {"o":"merger","pos":"n.","zh":"合併","use":"a merger with／between + 公司","why":"合併是公司之間的事，發明人不會為貨櫃申請合併"},
+ {"o":"ledger","pos":"n.","zh":"總帳；帳本","use":"record + 款項 + in the ledger","why":"帳本用來記帳，不能防止別人抄襲設計"}
+]},
+{"id":"p853","key":"in every other -------：every other 後要單數可數名詞 → in … respect「在…方面」","notes":[
+ {"o":"respect","pos":"n.／v.","zh":"方面；尊重","use":"名詞：in this／every／many respect(s)（在…方面）","why":"作「方面」是可數名詞；with respect to＝關於"},
+ {"o":"respectful","pos":"adj.","zh":"恭敬的；有禮的","use":"形容詞：be respectful of／to + 人","why":"every other 後面要名詞；形容詞後面沒有名詞"},
+ {"o":"respectfully","pos":"adv.","zh":"恭敬地","use":"副詞：修飾動詞，respectfully request／decline","why":"副詞不能當介系詞 in 的受詞"},
+ {"o":"respectable","pos":"adj.","zh":"體面的；相當不錯的","use":"形容詞：名詞前，a respectable firm／profit","why":"也是形容詞，後面沒有名詞；every other 後要名詞"}
+]},
+{"id":"p854","key":"遲交三週 was a clear ------- of the agreement → 買方可取消：a breach of + 合約","notes":[
+ {"o":"patent","pos":"n.","zh":"專利","use":"apply for／hold a patent on + 發明","why":"專利是發明的權利，遲交不會是「協議的專利」"},
+ {"o":"provision","pos":"n.","zh":"條款；提供","use":"a provision of／in + 合約（合約裡的條款）","why":"a provision of the agreement 文法通，但遲交不是條款"},
+ {"o":"breach","pos":"n.／v.","zh":"違反；破壞；外洩","use":"a breach of contract／trust；a data breach","why":"be in breach of + 合約；動詞 breach a contract"},
+ {"o":"surplus","pos":"n.","zh":"盈餘；過剩","use":"a budget surplus；a surplus of + N","why":"盈餘是多出來的錢／貨，遲交不是「協議的盈餘」"}
+]},
+{"id":"p855","key":"a ------- of six lenders … to share the risk：多家聯合 → syndicate","notes":[
+ {"o":"subsidiary","pos":"n.","zh":"子公司","use":"a subsidiary of + 母公司","why":"of 後面接母公司；六家銀行不是誰的子公司"},
+ {"o":"syndicate","pos":"n.","zh":"聯合組織；銀行團","use":"a syndicate of banks／lenders；form a syndicate","why":"a syndicated loan 聯貸；形容詞 syndicated"},
+ {"o":"hierarchy","pos":"n.","zh":"階層制度","use":"a corporate hierarchy","why":"階層是上下排序，不是為分擔風險而組成的團體"},
+ {"o":"commodity","pos":"n.","zh":"大宗商品；原物料","use":"commodity prices","why":"商品是被買賣的貨物，不能由六家銀行「組成」"}
+]},
+{"id":"p856","key":"be held ------- for：hold + 受詞 + 形容詞補語，被動後留下形容詞 → accountable","notes":[
+ {"o":"account","pos":"n.／v.","zh":"帳戶；說明；占","use":"名詞：a bank account；動詞：account for + 原因／比例","why":"held 後要形容詞補語；名詞說法是 hold + 人 + to account"},
+ {"o":"accountable","pos":"adj.","zh":"應負責的","use":"形容詞：be accountable for + 事／to + 人","why":"hold + 人 + accountable／responsible for + 事，被動常考"},
+ {"o":"accountability","pos":"n.","zh":"問責；責任","use":"名詞：accountability for + N；ensure accountability","why":"名詞當補語會變成「組長＝問責」，語意不通"},
+ {"o":"accountably","pos":"adv.","zh":"負責地","use":"副詞：修飾動詞（少用）","why":"held 後缺的是說明主詞狀態的補語，要用形容詞"}
+]},
+{"id":"p857","key":"one of the most ------- figures：most 和名詞 figures 之間要形容詞 → influential","notes":[
+ {"o":"influential","pos":"adj.","zh":"有影響力的","use":"形容詞：名詞前或 be 後；be influential in + N／V-ing","why":"one of the most + 形容詞 + 複數名詞"},
+ {"o":"influentially","pos":"adv.","zh":"有影響力地","use":"副詞：修飾動詞（少用）","why":"修飾名詞 figures 要用形容詞，副詞不行"},
+ {"o":"influence","pos":"n.／v.","zh":"影響（力）","use":"名詞：have an influence on + N；動詞：influence + N","why":"the most 和 figures 之間要形容詞，不是名詞或動詞"},
+ {"o":"influencer","pos":"n.（人）","zh":"有影響力的人；網紅","use":"可數名詞（人）：a social media influencer","why":"是名詞（人）；the most 和 figures 之間要形容詞"}
+]},
+{"id":"p858","key":"not technically ------- to add… + 地基撐不住：做不做得到 → feasible","notes":[
+ {"o":"intermittent","pos":"adj.","zh":"斷斷續續的","use":"intermittent rain／service／connection","why":"形容時有時無（訊號、降雨），和能不能加蓋無關"},
+ {"o":"prestigious","pos":"adj.","zh":"有聲望的","use":"a prestigious award／university／firm","why":"形容獎項、機構有名望，和地基承重無關"},
+ {"o":"dormant","pos":"adj.","zh":"休眠的；停用中的","use":"a dormant account／volcano；lie dormant","why":"形容帳戶、公司暫停活動，不表示做不做得到"},
+ {"o":"feasible","pos":"adj.","zh":"可行的","use":"It is feasible to V；a feasible plan","why":"technically／economically feasible；名詞 feasibility"}
+]},
+{"id":"p859","key":"Although … claim sounded -------, still asked：聽來合理但待查證 → plausible","notes":[
+ {"o":"plausible","pos":"adj.","zh":"看似合理的；可信的","use":"a plausible explanation／excuse；sound plausible","why":"Although 讓步：聽來可信卻仍要證據；反義 implausible"},
+ {"o":"contractual","pos":"adj.","zh":"合約（規定）的","use":"contractual obligations／terms","why":"形容義務、條款；說法「聽起來合約的」語意不通"},
+ {"o":"prevalent","pos":"adj.","zh":"普遍的；盛行的","use":"be prevalent among／in + 群體","why":"形容現象很普遍；單一次拋錨的說法談不上普遍"},
+ {"o":"intermittent","pos":"adj.","zh":"斷斷續續的","use":"intermittent rain／service","why":"形容時有時無的現象，不能形容說法可不可信"}
+]},
+{"id":"p860","key":"its ------- handling of：所有格和名詞 handling 之間要形容詞 → prompt","notes":[
+ {"o":"promptness","pos":"n.","zh":"迅速；準時","use":"名詞：the promptness of + 回覆／服務","why":"promptness handling 不成詞；handling 前要形容詞"},
+ {"o":"promptly","pos":"adv.","zh":"迅速地；準時地","use":"副詞：修飾動詞，respond／arrive promptly","why":"handling 後接 of，是名詞用法，要用形容詞修飾"},
+ {"o":"prompting","pos":"n.／v.（-ing）","zh":"促使；提醒","use":"prompt + 人 + to V；without prompting","why":"「促使的處理」語意不通；這裡要「迅速的」"},
+ {"o":"prompt","pos":"adj.／v.","zh":"迅速的；促使","use":"形容詞：名詞前，a prompt reply／response／payment","why":"所有格 + 形容詞 + 名詞：its prompt handling of"}
+]},
+{"id":"p861","key":"a ------- amount of：冠詞 a 和名詞 amount 之間要形容詞 → considerable","notes":[
+ {"o":"consideration","pos":"n.","zh":"考慮；考量因素","use":"名詞：take + N + into consideration","why":"consideration amount 不成詞；amount 前要形容詞"},
+ {"o":"considerable","pos":"adj.","zh":"相當大的；可觀的","use":"形容詞：名詞前，a considerable amount／number of","why":"別和 considerate（體貼的）混淆；副詞 considerably"},
+ {"o":"considerably","pos":"adv.","zh":"相當地；大幅地","use":"副詞：修飾動詞／比較級，considerably higher","why":"副詞不能修飾名詞 amount"},
+ {"o":"consider","pos":"v.","zh":"考慮；認為","use":"動詞：consider + V-ing／N；be considered + N／adj.","why":"冠詞 a 後面不能接原形動詞"}
+]},
+{"id":"p862","key":"such as accountants and lawyers，和 factory workers 對比 → white-collar","notes":[
+ {"o":"white-collar","pos":"adj.","zh":"白領的；辦公室工作的","use":"white-collar workers／jobs／professionals","why":"such as 的舉例定類別；than 帶出對比的另一方"},
+ {"o":"state-of-the-art","pos":"adj.","zh":"最先進的","use":"state-of-the-art equipment／facilities／technology","why":"形容設備、技術，不形容會計師這類人員"},
+ {"o":"blue-collar","pos":"adj.","zh":"藍領的；勞力工作的","use":"blue-collar workers／jobs","why":"指工廠、勞力工作，正是被拿來對比的 factory workers"},
+ {"o":"pharmaceutical","pos":"adj.","zh":"製藥的","use":"a pharmaceutical company／industry","why":"會計師、律師不是製藥業人員，舉例對不上"}
+]},
+{"id":"p863","key":"only -------; the final numbers…：和 final 相對 → preliminary","notes":[
+ {"o":"preliminary","pos":"adj.","zh":"初步的","use":"preliminary results／figures／findings／estimates","why":"分號後常是對比或補充；preliminary 對 final"},
+ {"o":"managerial","pos":"adj.","zh":"管理的；主管的","use":"managerial experience／skills／positions","why":"指管理職相關；和「最終數字待公布」無關"},
+ {"o":"dormant","pos":"adj.","zh":"休眠的；停用中的","use":"a dormant account；lie dormant","why":"形容暫停活動的帳戶／公司，和「最終數字待公布」無關"},
+ {"o":"complementary","pos":"adj.","zh":"互補的","use":"be complementary to + N；complementary skills","why":"互補要有兩方；和 final numbers 形不成對比"}
+]},
+{"id":"p864","key":"more ------- to a good night's sleep：形容詞 + to + 名詞 → conducive to","notes":[
+ {"o":"accountable","pos":"adj.","zh":"應負責的","use":"be accountable to + 人／for + 事","why":"to 後接「人」（對誰負責）；房間不會對睡眠負責"},
+ {"o":"conducive","pos":"adj.","zh":"有助於…的","use":"be conducive to + N／V-ing（to 是介系詞）","why":"an environment conducive to learning；主詞多是環境、條件"},
+ {"o":"feasible","pos":"adj.","zh":"可行的","use":"It is feasible to V；a feasible plan","why":"指計畫做得到；房間不會「對睡眠可行」"},
+ {"o":"prevalent","pos":"adj.","zh":"普遍的；盛行的","use":"be prevalent among／in + 群體／地區","why":"搭配 among／in；房間不會「對睡眠普遍」"}
+]},
+{"id":"p865","key":"成本月月漲 + no cheaper supplier（沒別的辦法）→ 漲價 seems inevitable","notes":[
+ {"o":"respective","pos":"adj.","zh":"各自的","use":"只放名詞前：their respective + 複數名詞","why":"只放在名詞前，不能放在 seems 後當補語"},
+ {"o":"renowned","pos":"adj.","zh":"著名的","use":"be renowned for + 特色／as + 身分","why":"文法可以，但「漲價似乎很有名」語意不通"},
+ {"o":"inevitable","pos":"adj.","zh":"不可避免的","use":"It is inevitable that…；an inevitable result","why":"seem／appear + 形容詞補語；副詞 inevitably"},
+ {"o":"ergonomic","pos":"adj.","zh":"符合人體工學的","use":"an ergonomic chair／keyboard／design","why":"形容椅子、設備的設計，不能形容「漲價」"}
+]},
+{"id":"p866","key":"not be commercially ------- and will have to close：撐不撐得下去 → viable","notes":[
+ {"o":"viable","pos":"adj.","zh":"可行的；能維持的","use":"commercially／economically／financially viable","why":"a viable option／alternative；名詞 viability"},
+ {"o":"intermittent","pos":"adj.","zh":"斷斷續續的","use":"intermittent rain／service","why":"時有時無是運作狀態，不能說明訂戶不足就得收掉"},
+ {"o":"accountable","pos":"adj.","zh":"應負責的","use":"be accountable for + 事／to + 人","why":"指人要負責；和訂戶不足就得結束營業無關"},
+ {"o":"exempt","pos":"adj.","zh":"免除的；豁免的","use":"be exempt from + 稅／規定","why":"be exempt from + 免除的事項；句中沒有免除的對象"}
+]},
+{"id":"p867","key":"for the ------- future：冠詞 the 和名詞 future 之間要形容詞 → foreseeable","notes":[
+ {"o":"foreseeable","pos":"adj.","zh":"可預見的","use":"形容詞：名詞前，for／in the foreseeable future","why":"for the foreseeable future＝短期內都會如此"},
+ {"o":"foreseeably","pos":"adv.","zh":"可預見地","use":"副詞：修飾動詞或形容詞（少用）","why":"副詞不能修飾名詞 future"},
+ {"o":"foresee","pos":"v.","zh":"預見；預料","use":"動詞：foresee + 問題／that 子句","why":"冠詞 the 後面不能接原形動詞"},
+ {"o":"foresight","pos":"n.","zh":"先見之明；遠見","use":"名詞：have the foresight to V","why":"the foresight future 不成詞；future 前要形容詞"}
+]},
+{"id":"p868","key":"their ------- projects：所有格和複數名詞之間要形容詞；各有一個 → respective","notes":[
+ {"o":"respectively","pos":"adv.","zh":"分別地；依序","use":"副詞：放句尾，A and B rose 5% and 8%, respectively","why":"副詞不能修飾名詞 projects；它通常放在句尾"},
+ {"o":"respect","pos":"n.／v.","zh":"尊重；方面","use":"名詞：respect for + 人；in this respect","why":"their respect projects 不成詞；名詞前要形容詞"},
+ {"o":"respectfully","pos":"adv.","zh":"恭敬地","use":"副詞：修飾動詞，respectfully request／disagree","why":"副詞不能修飾名詞；意思是恭敬，不是各自"},
+ {"o":"respective","pos":"adj.","zh":"各自的","use":"形容詞：只放名詞前，their respective + 複數名詞","why":"respective + 複數名詞；respectively 是副詞放句尾"}
+]},
+{"id":"p869","key":"is ------- for its seafood restaurants：遊客慕名而來 → be renowned for","notes":[
+ {"o":"conducive","pos":"adj.","zh":"有助於…的","use":"be conducive to + N","why":"搭配 to，不是 for；也不表示有名"},
+ {"o":"prevalent","pos":"adj.","zh":"普遍的；盛行的","use":"be prevalent among／in + N","why":"搭配 among／in，主詞是現象，不是城鎮"},
+ {"o":"deficient","pos":"adj.","zh":"缺乏的；不足的","use":"be deficient in + 養分／能力","why":"搭配 in，而且意思相反：缺乏不會吸引遊客"},
+ {"o":"renowned","pos":"adj.","zh":"著名的","use":"be renowned for + 特色／as + 身分","why":"同義：be famous／known／noted for；world-renowned"}
+]},
+{"id":"p870","key":"a ------- discount：冠詞 a 和名詞 discount 之間要形容詞 → substantial","notes":[
+ {"o":"substantiate","pos":"v.","zh":"證實","use":"動詞：substantiate + a claim／an allegation","why":"冠詞 a 後面不能接原形動詞"},
+ {"o":"substance","pos":"n.","zh":"物質；實質內容","use":"名詞：a chemical substance；lack substance","why":"substance discount 不成詞；discount 前要形容詞"},
+ {"o":"substantially","pos":"adv.","zh":"大幅地","use":"副詞：修飾動詞／比較級，increase substantially","why":"副詞不能修飾名詞 discount"},
+ {"o":"substantial","pos":"adj.","zh":"可觀的；大量的","use":"形容詞：名詞前，a substantial amount／increase","why":"近義 considerable、significant；a substantial discount"}
+]},
+{"id":"p871","key":"Rather than taking ------- action … gradually：兩者相反 → drastic","notes":[
+ {"o":"ergonomic","pos":"adj.","zh":"符合人體工學的","use":"an ergonomic chair／design","why":"形容設備設計，不形容關店這種 action"},
+ {"o":"dormant","pos":"adj.","zh":"休眠的；停用中的","use":"a dormant account；lie dormant","why":"休眠是「沒有活動」；關店這種行動剛好相反"},
+ {"o":"drastic","pos":"adj.","zh":"激烈的；大幅度的","use":"take drastic action／measures；drastic cuts","why":"Rather than A, B：A、B 相反 → drastic 對 gradually"},
+ {"o":"renowned","pos":"adj.","zh":"著名的","use":"be renowned for + N","why":"形容人、地方有名；關店不是「著名的行動」"}
+]},
+{"id":"p872","key":"improved the ------- of：the 和 of 之間要名詞當受詞 → accessibility","notes":[
+ {"o":"accessibility","pos":"n.","zh":"無障礙程度；易達性","use":"名詞：the accessibility of + 場所；web accessibility","why":"形容詞 accessible → 名詞 accessibility（-ibility）"},
+ {"o":"accessed","pos":"v.（過去式／過去分詞）","zh":"存取了；進入了","use":"動詞：access + 檔案／帳戶／資料","why":"the + 過去分詞後面要有名詞，不能直接接 of"},
+ {"o":"accessibly","pos":"adv.","zh":"容易取得地","use":"副詞：修飾動詞／分詞，accessibly priced","why":"副詞不能放在 the 和 of 之間當受詞"},
+ {"o":"accessible","pos":"adj.","zh":"可進入的；易取得的","use":"形容詞：be accessible to + 人／by + 交通方式","why":"形容詞後面沒有名詞，不能當 improved 的受詞"}
+]},
+{"id":"p873","key":"one strong in design, the other in finance：互相補足 → complementary","notes":[
+ {"o":"provisional","pos":"adj.","zh":"暫時的；臨時的","use":"a provisional booking／agreement／date","why":"「暫時的技能」和一人設計、一人財務的說明無關"},
+ {"o":"complimentary","pos":"adj.","zh":"免費贈送的；讚美的","use":"a complimentary breakfast／ticket","why":"只差一個字母：-i- 是贈送／讚美，技能不能「免費贈送」"},
+ {"o":"complementary","pos":"adj.","zh":"互補的","use":"complementary skills／roles；be complementary to + N","why":"記法：complement≈complete 補足；compliment 讚美"},
+ {"o":"intermittent","pos":"adj.","zh":"斷斷續續的","use":"intermittent rain／service","why":"時有時無的技能和「各有所長」的說明不合"}
+]},
+{"id":"p874","key":"has become increasingly -------：become + 形容詞補語，副詞 increasingly 修飾形容詞","notes":[
+ {"o":"prevail","pos":"v.","zh":"盛行；勝出","use":"動詞：prevail in／among + N；prevail over + 對手","why":"has become 後面不能再接原形動詞"},
+ {"o":"prevalent","pos":"adj.","zh":"普遍的；盛行的","use":"形容詞：be／become prevalent among／in + 群體","why":"連綴動詞 become／remain／seem + 形容詞"},
+ {"o":"prevalence","pos":"n.","zh":"普遍程度；盛行","use":"名詞：the prevalence of + N","why":"副詞 increasingly 不能修飾名詞；付款也不會「變成盛行率」"},
+ {"o":"prevalently","pos":"adv.","zh":"普遍地","use":"副詞：修飾動詞或形容詞（少用）","why":"become 後面要形容詞當補語，不能只放副詞"}
+]}
+]

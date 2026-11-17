@@ -1,0 +1,4252 @@
+[
+ {
+  "id": "p250",
+  "key": "questions ------- your order：兩個名詞中間缺介系詞 → regarding",
+  "notes": [
+   {
+    "o": "regard",
+    "pos": "v.／n.",
+    "zh": "看待；關心",
+    "use": "動詞：regard A as B；名詞：with regard to + N",
+    "why": "子句已有動詞 have，不能再放原形動詞；當名詞要 with regard to"
+   },
+   {
+    "o": "regardless",
+    "pos": "adv.",
+    "zh": "不管；不論",
+    "use": "regardless of + N（不論…）",
+    "why": "要有 of 才能接名詞，而且「不論訂單」語意不通"
+   },
+   {
+    "o": "regarding",
+    "pos": "prep.",
+    "zh": "關於",
+    "use": "介系詞：regarding + N（＝about／concerning）",
+    "why": "questions／information／inquiries regarding + N"
+   },
+   {
+    "o": "regarded",
+    "pos": "v.（過去式／過去分詞）",
+    "zh": "被視為",
+    "use": "be regarded as + N（被視為…）",
+    "why": "過去分詞表被動，後面不能再直接接受詞 your order"
+   }
+  ]
+ },
+ {
+  "id": "p251",
+  "key": "the ------- of：冠詞 the 和 of 中間要名詞 → construction",
+  "notes": [
+   {
+    "o": "constructive",
+    "pos": "adj.",
+    "zh": "有建設性的",
+    "use": "形容詞：名詞前，constructive feedback／criticism",
+    "why": "the 和 of 之間要名詞，形容詞後面沒有名詞可修飾"
+   },
+   {
+    "o": "constructively",
+    "pos": "adv.",
+    "zh": "有建設性地",
+    "use": "副詞：修飾動詞，work／respond constructively",
+    "why": "副詞不能放在 the 和 of 之間當名詞用"
+   },
+   {
+    "o": "construct",
+    "pos": "v.",
+    "zh": "建造",
+    "use": "動詞：construct + 建築物／橋；被動 be constructed",
+    "why": "冠詞 the 後面不能接原形動詞"
+   },
+   {
+    "o": "construction",
+    "pos": "n.",
+    "zh": "興建；工程",
+    "use": "名詞：the construction of + N；a construction site",
+    "why": "under construction「施工中」；during 是介系詞，後接名詞片語"
+   }
+  ]
+ },
+ {
+  "id": "p252",
+  "key": "such as 後面的舉例（冰箱、烤箱、洗碗機）決定空格的類別 → kitchen appliances",
+  "notes": [
+   {
+    "o": "briefcases",
+    "pos": "n.（複數）",
+    "zh": "公事包",
+    "use": "carry／open a briefcase（裝文件、筆電）",
+    "why": "公事包不是廚房用品，和冰箱、烤箱的舉例對不上"
+   },
+   {
+    "o": "certificates",
+    "pos": "n.（複數）",
+    "zh": "證書；證明",
+    "use": "a gift certificate（禮券）；a birth certificate",
+    "why": "證書是文件，不是 such as 列舉的電器"
+   },
+   {
+    "o": "ingredients",
+    "pos": "n.（複數）",
+    "zh": "食材；原料",
+    "use": "fresh ingredients；the ingredients for + 菜",
+    "why": "食材是蛋、麵粉這類吃的；冰箱、烤箱是機器"
+   },
+   {
+    "o": "appliances",
+    "pos": "n.（複數）",
+    "zh": "家電；電器",
+    "use": "kitchen／household／home appliances",
+    "why": "看到 refrigerator、oven、washer 就想到 appliance"
+   }
+  ]
+ },
+ {
+  "id": "p253",
+  "key": "Your ------- to…will end：所有格後要名詞；會到期的是事物 → subscription",
+  "notes": [
+   {
+    "o": "subscribe",
+    "pos": "v.",
+    "zh": "訂閱",
+    "use": "動詞：subscribe to + 雜誌／服務",
+    "why": "所有格 Your 後面不能接原形動詞"
+   },
+   {
+    "o": "subscribed",
+    "pos": "v.（過去式／過去分詞）",
+    "zh": "訂閱了",
+    "use": "動詞：have subscribed to + 雜誌／服務",
+    "why": "所有格後要名詞當主詞，不能放動詞過去式"
+   },
+   {
+    "o": "subscriber",
+    "pos": "n.（人）",
+    "zh": "訂閱者；訂戶",
+    "use": "名詞（人）：a subscriber to + 雜誌；可數",
+    "why": "人不會「到期」；後面 renew it 的 it 也是指事物"
+   },
+   {
+    "o": "subscription",
+    "pos": "n.",
+    "zh": "訂閱",
+    "use": "名詞：a subscription to + 雜誌／服務",
+    "why": "renew／cancel a subscription；介系詞固定用 to"
+   }
+  ]
+ },
+ {
+  "id": "p254",
+  "key": "such as 的舉例（番茄、蛋、起司）＋主詞 chef → fresh ingredients",
+  "notes": [
+   {
+    "o": "beverages",
+    "pos": "n.（複數）",
+    "zh": "飲料",
+    "use": "food and beverages；hot／cold beverages",
+    "why": "番茄、蛋、起司是吃的，不是喝的"
+   },
+   {
+    "o": "ingredients",
+    "pos": "n.（複數）",
+    "zh": "食材；原料",
+    "use": "fresh／local ingredients；the ingredients for + 菜",
+    "why": "chef、recipe、cook 的情境常配 ingredients"
+   },
+   {
+    "o": "receipts",
+    "pos": "n.（複數）",
+    "zh": "收據",
+    "use": "keep the receipt；a receipt for + 商品",
+    "why": "收據是付款證明，不能用番茄、蛋來舉例"
+   },
+   {
+    "o": "appliances",
+    "pos": "n.（複數）",
+    "zh": "家電；電器",
+    "use": "kitchen／household appliances",
+    "why": "電器是冰箱、烤箱這類機器，不是食物"
+   }
+  ]
+ },
+ {
+  "id": "p255",
+  "key": "Our biggest ------- opened：最高級後、動詞前要名詞當主詞 → competitor",
+  "notes": [
+   {
+    "o": "competitive",
+    "pos": "adj.",
+    "zh": "有競爭力的",
+    "use": "形容詞：competitive prices／salary／market",
+    "why": "biggest 後面要名詞當主詞，不能再接形容詞"
+   },
+   {
+    "o": "compete",
+    "pos": "v.",
+    "zh": "競爭",
+    "use": "動詞：compete with + 對手；compete for + 目標",
+    "why": "形容詞 biggest 後不能接動詞，句中也已有動詞 opened"
+   },
+   {
+    "o": "competitively",
+    "pos": "adv.",
+    "zh": "有競爭力地",
+    "use": "副詞：competitively priced（價格有競爭力）",
+    "why": "副詞不能當主詞"
+   },
+   {
+    "o": "competitor",
+    "pos": "n.（人／公司）",
+    "zh": "競爭對手",
+    "use": "名詞：a major／main competitor；可數",
+    "why": "competitor 是對手；competition 是「競爭；比賽」"
+   }
+  ]
+ },
+ {
+  "id": "p256",
+  "key": "hung（掛）＋passing the final exam：考過拿到、能掛牆上 → certificate",
+  "notes": [
+   {
+    "o": "occupation",
+    "pos": "n.",
+    "zh": "職業",
+    "use": "表格欄位 Occupation；a teacher by occupation",
+    "why": "職業是抽象概念，不能掛在牆上"
+   },
+   {
+    "o": "method",
+    "pos": "n.",
+    "zh": "方法",
+    "use": "a method of／for + V-ing；teaching methods",
+    "why": "有 teaching method 的說法，但「方法」不能掛在牆上"
+   },
+   {
+    "o": "certificate",
+    "pos": "n.",
+    "zh": "證書；證明",
+    "use": "a teaching certificate；a certificate of completion",
+    "why": "earn a certificate；gift certificate「禮券」"
+   },
+   {
+    "o": "attendance",
+    "pos": "n.",
+    "zh": "出席；出席人數",
+    "use": "attendance at + 會議；take attendance（點名）",
+    "why": "「出席」是抽象概念，不能掛在牆上，也和通過考試無關"
+   }
+  ]
+ },
+ {
+  "id": "p257",
+  "key": "空格後的 toward＋has continued（持續）→ the trend toward + N／V-ing",
+  "notes": [
+   {
+    "o": "outcome",
+    "pos": "n.",
+    "zh": "結果",
+    "use": "the outcome of + 會議／談判／選舉",
+    "why": "outcome 接 of，不接 toward；「結果」也不會持續發展"
+   },
+   {
+    "o": "trend",
+    "pos": "n.",
+    "zh": "趨勢",
+    "use": "a trend toward／in + N；a growing trend",
+    "why": "the trend toward + V-ing；market trends「市場趨勢」"
+   },
+   {
+    "o": "category",
+    "pos": "n.",
+    "zh": "類別",
+    "use": "a category of + N；fall into a category",
+    "why": "類別不接 toward，也不會「持續發展」"
+   },
+   {
+    "o": "venue",
+    "pos": "n.",
+    "zh": "場地；會場",
+    "use": "a venue for + 活動；a conference／wedding venue",
+    "why": "venue 是活動地點，接 for，不接 toward"
+   }
+  ]
+ },
+ {
+  "id": "p258",
+  "key": "a ------- of only $40 in her bank account：帳戶裡的金額 → balance",
+  "notes": [
+   {
+    "o": "duration",
+    "pos": "n.",
+    "zh": "持續時間",
+    "use": "the duration of + 活動／合約；for the duration of",
+    "why": "duration 講時間長短，不能接金額 $40"
+   },
+   {
+    "o": "receipt",
+    "pos": "n.",
+    "zh": "收據",
+    "use": "a receipt for + 商品；keep the receipt",
+    "why": "收據是付款憑證，不是帳戶裡剩下的錢"
+   },
+   {
+    "o": "balance",
+    "pos": "n.",
+    "zh": "餘額；結餘",
+    "use": "account balance；a balance of + 金額",
+    "why": "check your balance；outstanding balance「未付餘額」"
+   },
+   {
+    "o": "conclusion",
+    "pos": "n.",
+    "zh": "結論",
+    "use": "reach／come to a conclusion；in conclusion",
+    "why": "結論不能用金額表示，也不在銀行帳戶裡"
+   }
+  ]
+ },
+ {
+  "id": "p259",
+  "key": "fifty pages → a one-page -------：長文濃縮成重點 → summary",
+  "notes": [
+   {
+    "o": "summary",
+    "pos": "n.",
+    "zh": "摘要",
+    "use": "a summary of + 報告／重點；in summary",
+    "why": "a brief summary of + N；動詞是 summarize"
+   },
+   {
+    "o": "fare",
+    "pos": "n.",
+    "zh": "車資；票價",
+    "use": "bus／taxi／air fare；pay the fare",
+    "why": "fare 是交通費用，不能 write，也不接 main points"
+   },
+   {
+    "o": "category",
+    "pos": "n.",
+    "zh": "類別",
+    "use": "a category of + N；product categories",
+    "why": "類別不是「寫」出來的文件，也不用頁數計算"
+   },
+   {
+    "o": "extension",
+    "pos": "n.",
+    "zh": "延期；分機",
+    "use": "an extension of + 期限；extension 204（分機）",
+    "why": "延期／分機和「把報告重點寫成一頁」無關"
+   }
+  ]
+ },
+ {
+  "id": "p260",
+  "key": "動詞 meet + the ------- for + 報告：meet the deadline「趕上截止期限」",
+  "notes": [
+   {
+    "o": "deadline",
+    "pos": "n.",
+    "zh": "截止期限",
+    "use": "meet／miss／extend a deadline；the deadline for + N",
+    "why": "meet 也配 needs／requirements／expectations（滿足）"
+   },
+   {
+    "o": "pension",
+    "pos": "n.",
+    "zh": "退休金",
+    "use": "receive a pension；a pension plan",
+    "why": "退休金是「領」的，不說 meet，也和交報告無關"
+   },
+   {
+    "o": "agenda",
+    "pos": "n.",
+    "zh": "議程",
+    "use": "on the agenda；the agenda for + 會議",
+    "why": "議程是會議的討論事項，不和 meet、report 搭配"
+   },
+   {
+    "o": "layout",
+    "pos": "n.",
+    "zh": "版面配置；格局",
+    "use": "the layout of + 頁面／辦公室",
+    "why": "版面是 design／change，不說 meet the layout"
+   }
+  ]
+ },
+ {
+  "id": "p261",
+  "key": "to 不定詞說明職責：check financial records、tax report → accountant",
+  "notes": [
+   {
+    "o": "accountant",
+    "pos": "n.（人）",
+    "zh": "會計師",
+    "use": "hire an accountant；the accounting department",
+    "why": "financial records、tax、audit 出現就想到 accountant"
+   },
+   {
+    "o": "applicant",
+    "pos": "n.（人）",
+    "zh": "應徵者；申請人",
+    "use": "an applicant for + 職位；job applicants",
+    "why": "應徵者是來求職的人，不是受聘查帳、報稅的專業人員"
+   },
+   {
+    "o": "instructor",
+    "pos": "n.（人）",
+    "zh": "講師；教練",
+    "use": "a fitness／driving instructor",
+    "why": "講師負責教學，不處理財務紀錄和報稅"
+   },
+   {
+    "o": "editor",
+    "pos": "n.（人）",
+    "zh": "編輯",
+    "use": "a newspaper／magazine editor；動詞 edit + 文章",
+    "why": "編輯負責修改文稿，不處理財務紀錄和報稅"
+   }
+  ]
+ },
+ {
+  "id": "p262",
+  "key": "Speakers…give talks at＋three-day：有講者、有天數的活動 → conference",
+  "notes": [
+   {
+    "o": "survey",
+    "pos": "n.",
+    "zh": "調查；問卷",
+    "use": "conduct a survey；fill out a survey",
+    "why": "調查是「做／填」的，不是講者上台演講的場合"
+   },
+   {
+    "o": "brand",
+    "pos": "n.",
+    "zh": "品牌",
+    "use": "a brand name；brand awareness／loyalty",
+    "why": "品牌不是活動，不能 give talks at，也沒有天數"
+   },
+   {
+    "o": "conference",
+    "pos": "n.",
+    "zh": "研討會；大會",
+    "use": "attend／hold a conference；at a conference",
+    "why": "conference room／call；three-day 的 day 不加 s"
+   },
+   {
+    "o": "budget",
+    "pos": "n.",
+    "zh": "預算",
+    "use": "a marketing budget；within／over budget",
+    "why": "有 marketing budget 的說法，但預算不是演講的場合"
+   }
+  ]
+ },
+ {
+  "id": "p263",
+  "key": "job ------- is reviewed：動詞 is 前要名詞當主詞 → job performance",
+  "notes": [
+   {
+    "o": "performer",
+    "pos": "n.（人）",
+    "zh": "表演者；表現者",
+    "use": "名詞（人）：a top performer（表現最好的人）",
+    "why": "被考核的是「表現」這件事，不是人；沒有 job performer"
+   },
+   {
+    "o": "performed",
+    "pos": "v.（過去式／過去分詞）",
+    "zh": "執行了；表演了",
+    "use": "動詞：perform a task／one's duties",
+    "why": "is reviewed 前要名詞當主詞；考核的對象是「工作表現」"
+   },
+   {
+    "o": "perform",
+    "pos": "v.",
+    "zh": "執行；表現；表演",
+    "use": "動詞：perform a task；perform well",
+    "why": "已有動詞 is reviewed，主詞位置不能放原形動詞"
+   },
+   {
+    "o": "performance",
+    "pos": "n.",
+    "zh": "表現；績效；演出",
+    "use": "名詞：job performance；sales performance",
+    "why": "performance review／evaluation「績效考核」"
+   }
+  ]
+ },
+ {
+  "id": "p264",
+  "key": "first ------- …was to write a story：被指派去做的事 → assignment",
+  "notes": [
+   {
+    "o": "subscription",
+    "pos": "n.",
+    "zh": "訂閱",
+    "use": "a subscription to + 雜誌／服務",
+    "why": "訂閱是付費收看／收件，不會是「寫一篇報導」"
+   },
+   {
+    "o": "assignment",
+    "pos": "n.",
+    "zh": "任務；指派的工作",
+    "use": "a work／writing assignment；on assignment",
+    "why": "動詞 assign + 工作 + to + 人；be assigned to + 職務"
+   },
+   {
+    "o": "reception",
+    "pos": "n.",
+    "zh": "接待處；歡迎會",
+    "use": "at the reception desk；a welcome reception",
+    "why": "接待處／歡迎會不是「寫報導」這種工作"
+   },
+   {
+    "o": "discount",
+    "pos": "n.",
+    "zh": "折扣",
+    "use": "a discount on + 商品；offer a 10% discount",
+    "why": "折扣是價格優惠，和記者的工作內容無關"
+   }
+  ]
+ },
+ {
+  "id": "p265",
+  "key": "all his…papers and his laptop were inside：能裝東西 → briefcase",
+  "notes": [
+   {
+    "o": "certificate",
+    "pos": "n.",
+    "zh": "證書",
+    "use": "a certificate of completion；a gift certificate",
+    "why": "證書是一張文件，裡面不能裝筆電"
+   },
+   {
+    "o": "briefcase",
+    "pos": "n.",
+    "zh": "公事包",
+    "use": "carry a briefcase；leave + 物 + on the train",
+    "why": "briefcase／suitcase 可數；luggage／baggage 不可數"
+   },
+   {
+    "o": "itinerary",
+    "pos": "n.",
+    "zh": "行程表",
+    "use": "a travel itinerary；an itinerary for + 旅程",
+    "why": "行程表是一份文件，東西不能放在它「裡面」"
+   },
+   {
+    "o": "deposit",
+    "pos": "n.",
+    "zh": "押金；訂金；存款",
+    "use": "pay a deposit；a deposit of + 金額",
+    "why": "押金是一筆錢，不能裝文件和筆電"
+   }
+  ]
+ },
+ {
+  "id": "p266",
+  "key": "the largest ------- in：冠詞＋最高級形容詞後要名詞 → industry",
+  "notes": [
+   {
+    "o": "industrialize",
+    "pos": "v.",
+    "zh": "使工業化",
+    "use": "動詞：industrialize + 國家／地區",
+    "why": "形容詞 largest 後面不能接動詞"
+   },
+   {
+    "o": "industrial",
+    "pos": "adj.",
+    "zh": "工業的",
+    "use": "形容詞：名詞前，industrial area／waste／equipment",
+    "why": "largest 後還缺名詞，形容詞後面沒有名詞可修飾"
+   },
+   {
+    "o": "industrially",
+    "pos": "adv.",
+    "zh": "在工業上",
+    "use": "副詞：修飾形容詞／分詞，industrially produced",
+    "why": "副詞不能放在 the largest 後面當名詞"
+   },
+   {
+    "o": "industry",
+    "pos": "n.",
+    "zh": "產業；工業",
+    "use": "名詞：the tourism／auto industry；in the industry",
+    "why": "the + 最高級 + 名詞 + in + 範圍（in the region）"
+   }
+  ]
+ },
+ {
+  "id": "p267",
+  "key": "The swimming -------…has taught：動詞前要名詞，會「教」的是人 → instructor",
+  "notes": [
+   {
+    "o": "instructed",
+    "pos": "v.（過去式／過去分詞）",
+    "zh": "指示了；教導了",
+    "use": "動詞：instruct + 人 + to V；be instructed to V",
+    "why": "主詞會變成 swimming，「游泳」這件事不能教小朋友"
+   },
+   {
+    "o": "instructive",
+    "pos": "adj.",
+    "zh": "有教育意義的",
+    "use": "形容詞：an instructive lesson／experience",
+    "why": "形容詞不能當主詞，has taught 前要名詞（人）"
+   },
+   {
+    "o": "instructor",
+    "pos": "n.（人）",
+    "zh": "教練；講師",
+    "use": "名詞（人）：a swimming／fitness／driving instructor",
+    "why": "instructor 是人；instruction(s) 是「指示；說明」"
+   },
+   {
+    "o": "instruct",
+    "pos": "v.",
+    "zh": "指示；教導",
+    "use": "動詞：instruct + 人 + to V",
+    "why": "已有動詞 has taught，主詞位置不能放原形動詞"
+   }
+  ]
+ },
+ {
+  "id": "p268",
+  "key": "a generous ------- of $500：冠詞＋形容詞後要名詞，金額是事物 → donation",
+  "notes": [
+   {
+    "o": "donor",
+    "pos": "n.（人）",
+    "zh": "捐贈者",
+    "use": "名詞（人）：a blood donor；a generous donor",
+    "why": "donor 是人，不能 make，也不能接 of $500"
+   },
+   {
+    "o": "donation",
+    "pos": "n.",
+    "zh": "捐款；捐贈",
+    "use": "名詞：a donation of + 金額 + to + 機構",
+    "why": "make a donation to + 機構＝donate + 金額 + to + 機構"
+   },
+   {
+    "o": "donate",
+    "pos": "v.",
+    "zh": "捐贈",
+    "use": "動詞：donate + 金額／物品 + to + 機構",
+    "why": "形容詞 generous 後面不能接原形動詞"
+   },
+   {
+    "o": "donated",
+    "pos": "v.（過去式／過去分詞）",
+    "zh": "捐贈了；受贈的",
+    "use": "過去分詞當形容詞：donated books／items",
+    "why": "a generous 後缺名詞，分詞後面沒有名詞可修飾"
+   }
+  ]
+ },
+ {
+  "id": "p269",
+  "key": "a form of -------：介系詞 of 後面要名詞 → identification（身分證明）",
+  "notes": [
+   {
+    "o": "identifiable",
+    "pos": "adj.",
+    "zh": "可辨識的",
+    "use": "形容詞：easily identifiable；identifiable by + 特徵",
+    "why": "介系詞 of 後要名詞，形容詞後面沒有名詞"
+   },
+   {
+    "o": "identify",
+    "pos": "v.",
+    "zh": "辨識；確認",
+    "use": "動詞：identify + 人／問題／原因",
+    "why": "介系詞後不能接原形動詞"
+   },
+   {
+    "o": "identification",
+    "pos": "n.",
+    "zh": "身分證明",
+    "use": "名詞：photo identification；簡稱 ID",
+    "why": "a form of identification；show／present + ID"
+   },
+   {
+    "o": "identified",
+    "pos": "v.（過去式／過去分詞）",
+    "zh": "已確認的",
+    "use": "被動：be identified as + 身分",
+    "why": "介系詞 of 後要名詞，過去分詞不能當受詞"
+   }
+  ]
+ },
+ {
+  "id": "p270",
+  "key": "your ------- in：所有格後要名詞，後面的 in 是線索 → interest in + N",
+  "notes": [
+   {
+    "o": "interested",
+    "pos": "adj.",
+    "zh": "感興趣的",
+    "use": "形容詞：人 + be interested in + N／V-ing",
+    "why": "所有格 your 後要名詞，不能只放形容詞"
+   },
+   {
+    "o": "interesting",
+    "pos": "adj.",
+    "zh": "有趣的",
+    "use": "形容詞：修飾事物，an interesting job／idea",
+    "why": "所有格後缺名詞，形容詞後面沒有名詞可修飾"
+   },
+   {
+    "o": "interestingly",
+    "pos": "adv.",
+    "zh": "有趣的是",
+    "use": "副詞：放句首修飾全句，Interestingly, …",
+    "why": "副詞不能放在所有格後面當名詞用"
+   },
+   {
+    "o": "interest",
+    "pos": "n.",
+    "zh": "興趣；利息",
+    "use": "名詞：interest in + N；express／show interest in",
+    "why": "Thank you for your interest in + 職位／產品（信件開頭）"
+   }
+  ]
+ },
+ {
+  "id": "p271",
+  "key": "everyone in the local -------＋residents：當地所有居民 → community",
+  "notes": [
+   {
+    "o": "industry",
+    "pos": "n.",
+    "zh": "產業",
+    "use": "the tourism／food industry；in the industry",
+    "why": "產業裡是公司和從業人員，不包含小孩和年長居民"
+   },
+   {
+    "o": "committee",
+    "pos": "n.",
+    "zh": "委員會",
+    "use": "a committee member；serve on a committee",
+    "why": "委員會是少數成員組成的小組，不是全體居民"
+   },
+   {
+    "o": "economy",
+    "pos": "n.",
+    "zh": "經濟",
+    "use": "the local／global economy；boost the economy",
+    "why": "有 local economy 的說法，但這裡指的是居民這群人"
+   },
+   {
+    "o": "community",
+    "pos": "n.",
+    "zh": "社區；社群",
+    "use": "the local community；a community center",
+    "why": "residents、neighborhood 常和 community 一起出現"
+   }
+  ]
+ },
+ {
+  "id": "p272",
+  "key": "reached the ------- that：冠詞 the 後、that 子句前要名詞 → conclusion",
+  "notes": [
+   {
+    "o": "conclusive",
+    "pos": "adj.",
+    "zh": "決定性的；確鑿的",
+    "use": "形容詞：conclusive evidence／results",
+    "why": "the 後缺名詞，形容詞後面沒有名詞可修飾"
+   },
+   {
+    "o": "conclusively",
+    "pos": "adv.",
+    "zh": "確鑿地",
+    "use": "副詞：prove／show conclusively",
+    "why": "the 後面不能接副詞，reached 也缺受詞"
+   },
+   {
+    "o": "conclusion",
+    "pos": "n.",
+    "zh": "結論",
+    "use": "名詞：the conclusion that + 子句；in conclusion",
+    "why": "reach／come to／draw a conclusion「得出結論」"
+   },
+   {
+    "o": "conclude",
+    "pos": "v.",
+    "zh": "下結論；結束",
+    "use": "動詞：conclude that + 子句；conclude with + N",
+    "why": "冠詞 the 後面不能接原形動詞"
+   }
+  ]
+ },
+ {
+  "id": "p273",
+  "key": "receive the…prize at the awards -------：領獎場合 → ceremony",
+  "notes": [
+   {
+    "o": "district",
+    "pos": "n.",
+    "zh": "區域；地區",
+    "use": "a business／shopping／school district",
+    "why": "district 是地理區域，不是星期五晚上舉行的活動"
+   },
+   {
+    "o": "proposal",
+    "pos": "n.",
+    "zh": "提案；企劃",
+    "use": "submit／approve a proposal for + 計畫",
+    "why": "提案是文件，不是可以到場領獎的活動"
+   },
+   {
+    "o": "ceremony",
+    "pos": "n.",
+    "zh": "典禮；儀式",
+    "use": "an awards／opening／graduation ceremony",
+    "why": "attend／hold a ceremony；介系詞用 at the ceremony"
+   },
+   {
+    "o": "expense",
+    "pos": "n.",
+    "zh": "費用；開銷",
+    "use": "travel／living expenses；at one's own expense",
+    "why": "費用是金額，不是領獎的場合"
+   }
+  ]
+ },
+ {
+  "id": "p274",
+  "key": "in the same ------- as：the same 後面要名詞 → category",
+  "notes": [
+   {
+    "o": "categorical",
+    "pos": "adj.",
+    "zh": "斷然的；絕對的",
+    "use": "形容詞：a categorical denial（斷然否認）",
+    "why": "the same 後缺名詞，形容詞不能當 in 的受詞"
+   },
+   {
+    "o": "categorize",
+    "pos": "v.",
+    "zh": "分類",
+    "use": "動詞：categorize A as／into B",
+    "why": "the same 後面不能接原形動詞"
+   },
+   {
+    "o": "categorized",
+    "pos": "v.（過去式／過去分詞）",
+    "zh": "被分類的",
+    "use": "被動：be categorized as／into + 類別",
+    "why": "the same 後要名詞，過去分詞不能當 in 的受詞"
+   },
+   {
+    "o": "category",
+    "pos": "n.",
+    "zh": "類別",
+    "use": "名詞：a product category；fall into a category",
+    "why": "the same + 名詞 + as「和…一樣的」是固定句型"
+   }
+  ]
+ },
+ {
+  "id": "p275",
+  "key": "nobody's ------- because + 不可抗力：be + 人's fault「是某人的錯」",
+  "notes": [
+   {
+    "o": "balance",
+    "pos": "n.",
+    "zh": "餘額；平衡",
+    "use": "account balance；a balance of + 金額",
+    "why": "餘額是金額，和「延遲送達該怪誰」無關"
+   },
+   {
+    "o": "deposit",
+    "pos": "n.",
+    "zh": "押金；訂金；存款",
+    "use": "pay a deposit；make a deposit（存款）",
+    "why": "押金是一筆錢，延遲送達不會是「某人的押金」"
+   },
+   {
+    "o": "trend",
+    "pos": "n.",
+    "zh": "趨勢",
+    "use": "a trend toward／in + N；market trends",
+    "why": "趨勢不屬於某個人，也和暴風雨造成的延遲無關"
+   },
+   {
+    "o": "fault",
+    "pos": "n.",
+    "zh": "過錯；責任",
+    "use": "be + 人's fault（是…的錯）",
+    "why": "be at fault「有過失」；a fault in + 機器「故障」"
+   }
+  ]
+ },
+ {
+  "id": "p276",
+  "key": "complete the job ------- and email it：受詞位置要名詞 → application",
+  "notes": [
+   {
+    "o": "application",
+    "pos": "n.",
+    "zh": "申請；申請表",
+    "use": "名詞：a job／loan application；an application form",
+    "why": "complete／fill out／submit an application"
+   },
+   {
+    "o": "applicable",
+    "pos": "adj.",
+    "zh": "適用的",
+    "use": "形容詞：be applicable to + N；if applicable",
+    "why": "形容詞不能當 complete 的受詞；it 要指一份表格"
+   },
+   {
+    "o": "apply",
+    "pos": "v.",
+    "zh": "申請；應徵",
+    "use": "動詞：apply for + 職位；apply to + 公司／學校",
+    "why": "the job 後要名詞組成複合名詞，不能放原形動詞"
+   },
+   {
+    "o": "applied",
+    "pos": "v.（過去式／過去分詞）",
+    "zh": "申請了；應用的",
+    "use": "動詞：applied for + 職位",
+    "why": "受詞位置要名詞；apply 要接 for，沒有 job applied 的說法"
+   }
+  ]
+ },
+ {
+  "id": "p277",
+  "key": "後半句 make your copies（影印）→ 壞掉的機器是 photocopier",
+  "notes": [
+   {
+    "o": "dashboard",
+    "pos": "n.",
+    "zh": "儀表板",
+    "use": "a car dashboard；a sales dashboard（數據面板）",
+    "why": "儀表板不能用來影印，和 make copies 無關"
+   },
+   {
+    "o": "photocopier",
+    "pos": "n.",
+    "zh": "影印機",
+    "use": "use the photocopier；The photocopier is jammed.",
+    "why": "＝copier／copy machine；make a copy of + 文件"
+   },
+   {
+    "o": "briefcase",
+    "pos": "n.",
+    "zh": "公事包",
+    "use": "carry a briefcase（裝文件、筆電）",
+    "why": "公事包不能影印，壞了也不必到樓下 make copies"
+   },
+   {
+    "o": "spreadsheet",
+    "pos": "n.",
+    "zh": "試算表",
+    "use": "enter data into a spreadsheet",
+    "why": "試算表是電腦檔案，不在「三樓」，也不能影印"
+   }
+  ]
+ },
+ {
+  "id": "p278",
+  "key": "finish your ------- for the workshop：所有格後要名詞 → registration",
+  "notes": [
+   {
+    "o": "registers",
+    "pos": "v.（第三人稱單數）",
+    "zh": "登記；報名",
+    "use": "動詞：主詞（單數）+ registers for + 課程",
+    "why": "所有格後不能接動詞；當複數名詞是「收銀機」，語意不通"
+   },
+   {
+    "o": "register",
+    "pos": "v.／n.",
+    "zh": "報名；收銀機",
+    "use": "動詞：register for + 課程；名詞：cash register",
+    "why": "所有格後不能接動詞；名詞 register 是收銀機，語意不通"
+   },
+   {
+    "o": "registration",
+    "pos": "n.",
+    "zh": "報名；註冊",
+    "use": "名詞：registration for + 活動；registration fee／form",
+    "why": "complete／finish registration；介系詞和動詞一樣用 for"
+   },
+   {
+    "o": "registered",
+    "pos": "v.（過去式／過去分詞）",
+    "zh": "已登記的",
+    "use": "過去分詞當形容詞：registered mail／users",
+    "why": "所有格後缺名詞，分詞後面沒有名詞可修飾"
+   }
+  ]
+ },
+ {
+  "id": "p279",
+  "key": "free ------- to the airport＋a bus：到某地的交通 → transportation",
+  "notes": [
+   {
+    "o": "insurance",
+    "pos": "n.",
+    "zh": "保險",
+    "use": "travel／health insurance；insurance coverage",
+    "why": "保險不接 to the airport，也和每三十分鐘一班巴士無關"
+   },
+   {
+    "o": "accommodation",
+    "pos": "n.",
+    "zh": "住宿",
+    "use": "provide accommodation for + 人",
+    "why": "飯店會提供住宿，但住宿不能「到機場」，也不是巴士"
+   },
+   {
+    "o": "transportation",
+    "pos": "n.",
+    "zh": "交通；運輸",
+    "use": "transportation to + 地點；public transportation",
+    "why": "不可數；常和 shuttle bus／shuttle service 一起出現"
+   },
+   {
+    "o": "maintenance",
+    "pos": "n.",
+    "zh": "維護；保養",
+    "use": "regular maintenance；maintenance work／staff",
+    "why": "維護保養和搭巴士去機場無關"
+   }
+  ]
+ },
+ {
+  "id": "p280",
+  "key": "a special ------- on fruit：冠詞＋形容詞後面要名詞 → promotion",
+  "notes": [
+   {
+    "o": "promote",
+    "pos": "v.",
+    "zh": "促銷；升遷",
+    "use": "動詞：promote + 產品；be promoted to + 職位",
+    "why": "形容詞 special 後面不能接原形動詞"
+   },
+   {
+    "o": "promotion",
+    "pos": "n.",
+    "zh": "促銷活動；升遷",
+    "use": "名詞：a promotion on + 商品；a sales promotion",
+    "why": "run／offer a promotion；get a promotion「獲得升遷」"
+   },
+   {
+    "o": "promotional",
+    "pos": "adj.",
+    "zh": "促銷的",
+    "use": "形容詞：promotional offer／code／materials",
+    "why": "a special 後缺名詞，形容詞後面沒有名詞可修飾"
+   },
+   {
+    "o": "promoted",
+    "pos": "v.（過去式／過去分詞）",
+    "zh": "被升遷；被促銷",
+    "use": "被動：be promoted to + 職位",
+    "why": "a special 後要名詞，過去分詞不能當 running 的受詞"
+   }
+  ]
+ },
+ {
+  "id": "p281",
+  "key": "live on + 收入來源＋after he stops working（退休）→ pension",
+  "notes": [
+   {
+    "o": "label",
+    "pos": "n.",
+    "zh": "標籤",
+    "use": "a price／shipping label；read the label",
+    "why": "標籤不是錢，不能靠它生活（live on）"
+   },
+   {
+    "o": "assignment",
+    "pos": "n.",
+    "zh": "任務；指派的工作",
+    "use": "a work assignment；complete an assignment",
+    "why": "任務不是收入，停止工作後也不會再有任務"
+   },
+   {
+    "o": "pension",
+    "pos": "n.",
+    "zh": "退休金",
+    "use": "a company pension；a pension plan／fund",
+    "why": "live on + 收入「靠…生活」；retire、retirement 常同現"
+   },
+   {
+    "o": "deposit",
+    "pos": "n.",
+    "zh": "押金；訂金；存款",
+    "use": "pay a deposit；make a deposit（存款）",
+    "why": "押金／單筆存款不是退休後定期領的收入"
+   }
+  ]
+ },
+ {
+  "id": "p282",
+  "key": "the vast ------- of＋90 percent：絕大多數 → the vast majority of",
+  "notes": [
+   {
+    "o": "priority",
+    "pos": "n.",
+    "zh": "優先事項",
+    "use": "a top／high priority；give priority to + N",
+    "why": "優先事項不能指「九成的購物者」；也不說 vast priority"
+   },
+   {
+    "o": "structure",
+    "pos": "n.",
+    "zh": "結構；建築物",
+    "use": "the structure of + 組織／文章",
+    "why": "結構不能用 90 percent 說明，也不會「說」會再來"
+   },
+   {
+    "o": "duration",
+    "pos": "n.",
+    "zh": "持續時間",
+    "use": "the duration of + 活動／合約",
+    "why": "duration 是時間長度，of 後面要接活動，不是 shoppers"
+   },
+   {
+    "o": "majority",
+    "pos": "n.",
+    "zh": "大多數",
+    "use": "the majority of + 複數名詞；a majority vote",
+    "why": "vast／great／overwhelming majority；反義 minority"
+   }
+  ]
+ },
+ {
+  "id": "p283",
+  "key": "a two-day ------- of the deadline：冠詞＋複合形容詞後要名詞 → extension",
+  "notes": [
+   {
+    "o": "extend",
+    "pos": "v.",
+    "zh": "延長",
+    "use": "動詞：extend + 期限／合約／營業時間",
+    "why": "a two-day 後面不能接原形動詞，asked for 也要名詞受詞"
+   },
+   {
+    "o": "extensively",
+    "pos": "adv.",
+    "zh": "廣泛地",
+    "use": "副詞：travel／research extensively",
+    "why": "副詞不能當 asked for 的受詞"
+   },
+   {
+    "o": "extension",
+    "pos": "n.",
+    "zh": "延期；延長；分機",
+    "use": "名詞：an extension of + 期限；a deadline extension",
+    "why": "ask for／request／grant an extension"
+   },
+   {
+    "o": "extensive",
+    "pos": "adj.",
+    "zh": "廣泛的；大量的",
+    "use": "形容詞：extensive experience／research／damage",
+    "why": "a two-day 後缺名詞；extensive 是「廣泛的」，不是延長"
+   }
+  ]
+ },
+ {
+  "id": "p284",
+  "key": "requires some -------,：requires 缺受詞，some 後面要名詞 → assembly",
+  "notes": [
+   {
+    "o": "assemble",
+    "pos": "v.",
+    "zh": "組裝；集合",
+    "use": "動詞：assemble + 家具／機器；easy to assemble",
+    "why": "requires 後要名詞受詞，some 後不能接原形動詞"
+   },
+   {
+    "o": "assembles",
+    "pos": "v.（第三人稱單數）",
+    "zh": "組裝；集合",
+    "use": "動詞：主詞（單數）+ assembles + 產品",
+    "why": "句中已有動詞 requires，some 後不能再放動詞"
+   },
+   {
+    "o": "assembled",
+    "pos": "v.（過去式／過去分詞）",
+    "zh": "已組裝的",
+    "use": "過去分詞：fully assembled（已組裝完成）",
+    "why": "some 後缺名詞，分詞後面沒有名詞可修飾"
+   },
+   {
+    "o": "assembly",
+    "pos": "n.",
+    "zh": "組裝；裝配",
+    "use": "名詞：assembly line（生產線）；assembly instructions",
+    "why": "Some assembly required.（需自行組裝）是商品常見標示"
+   }
+  ]
+ },
+ {
+  "id": "p285",
+  "key": "master's ------- in business：a master's degree in + 科系「碩士學位」",
+  "notes": [
+   {
+    "o": "committee",
+    "pos": "n.",
+    "zh": "委員會",
+    "use": "a committee member；serve on a committee",
+    "why": "委員會不能 earn，也沒有 master's committee 的說法"
+   },
+   {
+    "o": "degree",
+    "pos": "n.",
+    "zh": "學位；程度",
+    "use": "a bachelor's／master's degree in + 科系",
+    "why": "earn／hold／have a degree；主修用 in，學校用 from"
+   },
+   {
+    "o": "lecture",
+    "pos": "n.",
+    "zh": "講座；演講",
+    "use": "give／attend a lecture on + 主題",
+    "why": "講座是 give／attend，不能 earn，主題也用 on 不用 in"
+   },
+   {
+    "o": "session",
+    "pos": "n.",
+    "zh": "場次；時段",
+    "use": "a training／morning session",
+    "why": "場次是參加（attend）的，不是從大學取得（earn）的資格"
+   }
+  ]
+ },
+ {
+  "id": "p286",
+  "key": "the largest monthly -------,：冠詞＋形容詞＋形容詞後面要名詞 → expense",
+  "notes": [
+   {
+    "o": "expensively",
+    "pos": "adv.",
+    "zh": "昂貴地",
+    "use": "副詞：expensively dressed／decorated",
+    "why": "the largest monthly 後要名詞，副詞不能放這裡"
+   },
+   {
+    "o": "expensive",
+    "pos": "adj.",
+    "zh": "昂貴的",
+    "use": "形容詞：an expensive item；be too expensive",
+    "why": "the largest monthly 後缺名詞，不能用形容詞收尾"
+   },
+   {
+    "o": "expend",
+    "pos": "v.",
+    "zh": "花費（時間、精力）",
+    "use": "動詞：expend + 時間／精力／資源 + on + N",
+    "why": "冠詞＋形容詞後面不能接原形動詞"
+   },
+   {
+    "o": "expense",
+    "pos": "n.",
+    "zh": "費用；開銷",
+    "use": "名詞：travel／living／monthly expenses；可數",
+    "why": "monthly 字尾是 -ly 但當形容詞（每月的），後面接名詞"
+   }
+  ]
+ },
+ {
+  "id": "p287",
+  "key": "has forty employees＋is led by：有員工、有主管的單位 → division（部門）",
+  "notes": [
+   {
+    "o": "proportion",
+    "pos": "n.",
+    "zh": "比例",
+    "use": "a large proportion of + N",
+    "why": "比例是數值，不會「有四十名員工」或「由人帶領」"
+   },
+   {
+    "o": "division",
+    "pos": "n.",
+    "zh": "部門；事業部",
+    "use": "the sales／marketing division；a division head",
+    "why": "同義 department；be led／headed by + 主管"
+   },
+   {
+    "o": "trend",
+    "pos": "n.",
+    "zh": "趨勢",
+    "use": "sales trends；a trend toward／in + N",
+    "why": "有 sales trend 的說法，但趨勢不會有員工、有主管"
+   },
+   {
+    "o": "figure",
+    "pos": "n.",
+    "zh": "數字；人物",
+    "use": "sales figures（銷售數字，常用複數）",
+    "why": "有 sales figures 的說法，但數字不會有員工、被人帶領"
+   }
+  ]
+ },
+ {
+  "id": "p288",
+  "key": "Under…return -------＋within thirty days：under + 規定 → policy",
+  "notes": [
+   {
+    "o": "layout",
+    "pos": "n.",
+    "zh": "版面配置；格局",
+    "use": "the layout of + 商店／頁面",
+    "why": "格局是空間配置，不會規定幾天內可以退貨"
+   },
+   {
+    "o": "policy",
+    "pos": "n.",
+    "zh": "政策；規定",
+    "use": "a return／refund／company policy",
+    "why": "under + policy／contract／law「依照…的規定」"
+   },
+   {
+    "o": "outcome",
+    "pos": "n.",
+    "zh": "結果",
+    "use": "the outcome of + 會議／談判",
+    "why": "結果不是規則，不能說「依照退貨結果」可以退貨"
+   },
+   {
+    "o": "majority",
+    "pos": "n.",
+    "zh": "大多數",
+    "use": "the majority of + 複數名詞",
+    "why": "「大多數」後面要接 of + 名詞，也不是退貨的規則"
+   }
+  ]
+ },
+ {
+  "id": "p289",
+  "key": "twenty years of ------- at：介系詞 of 後面要名詞 → employment",
+  "notes": [
+   {
+    "o": "employed",
+    "pos": "v.（過去式／過去分詞）",
+    "zh": "受雇的",
+    "use": "被動：be employed by／at + 公司",
+    "why": "介系詞 of 後要名詞，過去分詞不能當受詞"
+   },
+   {
+    "o": "employable",
+    "pos": "adj.",
+    "zh": "具備就業條件的",
+    "use": "形容詞：make graduates more employable",
+    "why": "介系詞 of 後要名詞，形容詞後面沒有名詞"
+   },
+   {
+    "o": "employment",
+    "pos": "n.",
+    "zh": "受雇；就業",
+    "use": "名詞：employment at／with + 公司；不可數",
+    "why": "years of + experience／service／employment"
+   },
+   {
+    "o": "employ",
+    "pos": "v.",
+    "zh": "雇用",
+    "use": "動詞：employ + 人（The firm employs 500 people.）",
+    "why": "介系詞後不能接原形動詞"
+   }
+  ]
+ },
+ {
+  "id": "p290",
+  "key": "was a good -------：冠詞＋形容詞後要名詞；主詞是「買卡車」這件事 → investment",
+  "notes": [
+   {
+    "o": "invested",
+    "pos": "v.（過去式／過去分詞）",
+    "zh": "投資了",
+    "use": "動詞：invested + 金額 + in + N",
+    "why": "a good 後缺名詞，不能放動詞過去式／過去分詞"
+   },
+   {
+    "o": "investor",
+    "pos": "n.（人）",
+    "zh": "投資人",
+    "use": "名詞（人）：a foreign／private investor",
+    "why": "主詞 Buying…是一件事，不能等於「人」"
+   },
+   {
+    "o": "invest",
+    "pos": "v.",
+    "zh": "投資",
+    "use": "動詞：invest + 金額 + in + N",
+    "why": "冠詞＋形容詞後面不能接原形動詞"
+   },
+   {
+    "o": "investment",
+    "pos": "n.",
+    "zh": "投資",
+    "use": "名詞：an investment in + N；make an investment",
+    "why": "a good／wise／sound investment「划算的投資」"
+   }
+  ]
+ },
+ {
+  "id": "p291",
+  "key": "job title、work history＋before applying：應徵用、寫經歷的文件 → résumé",
+  "notes": [
+   {
+    "o": "receipt",
+    "pos": "n.",
+    "zh": "收據",
+    "use": "keep the receipt；a receipt for + 商品",
+    "why": "收據記的是付款金額，不寫職稱和工作經歷"
+   },
+   {
+    "o": "résumé",
+    "pos": "n.",
+    "zh": "履歷",
+    "use": "submit／send a résumé；update one's résumé",
+    "why": "求職題常和 cover letter「求職信」、reference 一起出現"
+   },
+   {
+    "o": "itinerary",
+    "pos": "n.",
+    "zh": "行程表",
+    "use": "a travel itinerary；an itinerary for + 旅程",
+    "why": "行程表列的是時間和地點，不寫工作經歷"
+   },
+   {
+    "o": "agenda",
+    "pos": "n.",
+    "zh": "議程",
+    "use": "on the agenda；the agenda for + 會議",
+    "why": "議程列的是會議討論事項，不是個人經歷"
+   }
+  ]
+ },
+ {
+  "id": "p292",
+  "key": "for its yearly -------：所有格＋形容詞 yearly 後面要名詞 → maintenance",
+  "notes": [
+   {
+    "o": "maintain",
+    "pos": "v.",
+    "zh": "維護；維持",
+    "use": "動詞：maintain + 設備／品質／關係",
+    "why": "所有格＋形容詞後面不能接原形動詞"
+   },
+   {
+    "o": "maintains",
+    "pos": "v.（第三人稱單數）",
+    "zh": "維護；維持",
+    "use": "動詞：主詞（單數）+ maintains + 受詞",
+    "why": "介系詞 for 後要名詞片語，不能放動詞"
+   },
+   {
+    "o": "maintained",
+    "pos": "v.（過去式／過去分詞）",
+    "zh": "受到維護的",
+    "use": "過去分詞：well-maintained（保養良好的）",
+    "why": "its yearly 後缺名詞，分詞後面沒有名詞可修飾"
+   },
+   {
+    "o": "maintenance",
+    "pos": "n.",
+    "zh": "維護；保養",
+    "use": "名詞：routine／regular maintenance；不可數",
+    "why": "be closed for maintenance；yearly 是形容詞（每年的）"
+   }
+  ]
+ },
+ {
+  "id": "p293",
+  "key": "the ------- of the job interview：等來電才知道的是結果 → outcome",
+  "notes": [
+   {
+    "o": "outcome",
+    "pos": "n.",
+    "zh": "結果",
+    "use": "the outcome of + 面試／會議／談判",
+    "why": "同義 result；後面的介系詞用 of"
+   },
+   {
+    "o": "fuel",
+    "pos": "n.",
+    "zh": "燃料",
+    "use": "fuel costs／prices；run out of fuel",
+    "why": "面試沒有「燃料」，語意不通"
+   },
+   {
+    "o": "brand",
+    "pos": "n.",
+    "zh": "品牌",
+    "use": "a brand name；brand awareness",
+    "why": "面試沒有「品牌」，也不必等公司來電才知道"
+   },
+   {
+    "o": "shipment",
+    "pos": "n.",
+    "zh": "（一批）貨物；出貨",
+    "use": "a shipment of + 貨物；delay a shipment",
+    "why": "shipment of 後面接貨物，不接 job interview"
+   }
+  ]
+ },
+ {
+  "id": "p294",
+  "key": "accepted Ms. Chen's ------- to open：所有格後要名詞 → proposal to V",
+  "notes": [
+   {
+    "o": "propose",
+    "pos": "v.",
+    "zh": "提議",
+    "use": "動詞：propose + N／V-ing／that + 主詞 + 原形動詞",
+    "why": "所有格後面不能接原形動詞"
+   },
+   {
+    "o": "proposes",
+    "pos": "v.（第三人稱單數）",
+    "zh": "提議",
+    "use": "動詞：主詞（單數）+ proposes + N／that 子句",
+    "why": "句中已有動詞 accepted，所有格後不能放動詞"
+   },
+   {
+    "o": "proposed",
+    "pos": "v.（過去式／過去分詞）",
+    "zh": "提議的；擬議的",
+    "use": "過去分詞當形容詞：the proposed plan／budget",
+    "why": "所有格後缺名詞，accepted 也沒有受詞"
+   },
+   {
+    "o": "proposal",
+    "pos": "n.",
+    "zh": "提案；提議",
+    "use": "名詞：a proposal to V／for + N",
+    "why": "submit／accept／approve／reject a proposal"
+   }
+  ]
+ },
+ {
+  "id": "p295",
+  "key": "repair bill 的兩個項目：parts（零件）and labor（工資），以小時計費",
+  "notes": [
+   {
+    "o": "evidence",
+    "pos": "n.",
+    "zh": "證據",
+    "use": "evidence of + N／that + 子句；不可數",
+    "why": "證據不是修理帳單上按小時計費的項目"
+   },
+   {
+    "o": "interest",
+    "pos": "n.",
+    "zh": "利息；興趣",
+    "use": "interest in + N；an interest rate（利率）",
+    "why": "利息依利率和期間計算，不是「兩小時」的修理費"
+   },
+   {
+    "o": "labor",
+    "pos": "n.",
+    "zh": "勞力；人工",
+    "use": "parts and labor（零件和工資）；不可數",
+    "why": "labor costs「人力成本」；a labor shortage「缺工」"
+   },
+   {
+    "o": "literacy",
+    "pos": "n.",
+    "zh": "讀寫能力；素養",
+    "use": "computer／financial literacy",
+    "why": "讀寫能力不是修理帳單上的收費項目"
+   }
+  ]
+ },
+ {
+  "id": "p296",
+  "key": "The technology ------- created…new jobs：創造工作機會的是產業 → sector",
+  "notes": [
+   {
+    "o": "sector",
+    "pos": "n.",
+    "zh": "產業；領域",
+    "use": "the technology／financial／public sector",
+    "why": "同義 industry；the private sector「民間部門」"
+   },
+   {
+    "o": "ceremony",
+    "pos": "n.",
+    "zh": "典禮",
+    "use": "an awards／opening ceremony",
+    "why": "典禮是一場活動，不會在一年內創造數千個工作"
+   },
+   {
+    "o": "excursion",
+    "pos": "n.",
+    "zh": "短程旅遊",
+    "use": "go on an excursion to + 地點",
+    "why": "短程旅遊和科技、創造工作機會無關"
+   },
+   {
+    "o": "memo",
+    "pos": "n.",
+    "zh": "備忘錄；內部通知",
+    "use": "send／write a memo to + 員工",
+    "why": "memo 是公司內部文件，不會創造工作機會"
+   }
+  ]
+ },
+ {
+  "id": "p297",
+  "key": "the ------- of the rental agreement＋sign it：合約的條款 → terms",
+  "notes": [
+   {
+    "o": "outlets",
+    "pos": "n.（複數）",
+    "zh": "暢貨中心；插座",
+    "use": "an outlet store／mall；an electrical outlet",
+    "why": "合約裡沒有「暢貨中心／插座」可讀，語意不通"
+   },
+   {
+    "o": "trends",
+    "pos": "n.（複數）",
+    "zh": "趨勢",
+    "use": "market／sales trends",
+    "why": "趨勢是市場的變化，不是合約裡要讀的內容"
+   },
+   {
+    "o": "terms",
+    "pos": "n.（複數）",
+    "zh": "條款；條件",
+    "use": "the terms of + 合約；terms and conditions",
+    "why": "作「條款」解固定用複數；in terms of「就…而言」"
+   },
+   {
+    "o": "quarters",
+    "pos": "n.（複數）",
+    "zh": "季度；四分之一",
+    "use": "the first／last quarter；a quarterly report（季報）",
+    "why": "季度是時間（三個月），不是合約的內容"
+   }
+  ]
+ },
+ {
+  "id": "p298",
+  "key": "A ------- of six managers meets：由人組成、定期開會的團體 → committee",
+  "notes": [
+   {
+    "o": "committee",
+    "pos": "n.",
+    "zh": "委員會",
+    "use": "a committee of + 成員；be／serve on a committee",
+    "why": "集合名詞，動詞常用單數（meets）；a committee member"
+   },
+   {
+    "o": "layout",
+    "pos": "n.",
+    "zh": "版面配置；格局",
+    "use": "the layout of + 辦公室／頁面",
+    "why": "格局不是由人組成的，也不能開會（meet）"
+   },
+   {
+    "o": "wage",
+    "pos": "n.",
+    "zh": "工資",
+    "use": "an hourly wage；the minimum wage",
+    "why": "工資是錢，不會開會、做選擇"
+   },
+   {
+    "o": "summary",
+    "pos": "n.",
+    "zh": "摘要",
+    "use": "a summary of + 報告／會議",
+    "why": "摘要是文件，不會每個月開會做選擇"
+   }
+  ]
+ },
+ {
+  "id": "p299",
+  "key": "workers make car parts at the company's -------：工廠 → plant",
+  "notes": [
+   {
+    "o": "brand",
+    "pos": "n.",
+    "zh": "品牌",
+    "use": "a brand name；brand loyalty",
+    "why": "品牌不是地點，工人不能在「品牌」裡生產零件"
+   },
+   {
+    "o": "reception",
+    "pos": "n.",
+    "zh": "接待處；歡迎會",
+    "use": "at the reception desk；a welcome reception",
+    "why": "接待處是接待訪客的地方，不生產汽車零件"
+   },
+   {
+    "o": "lecture",
+    "pos": "n.",
+    "zh": "講座；演講",
+    "use": "give／attend a lecture on + 主題",
+    "why": "講座是活動，不是工人生產零件的地點"
+   },
+   {
+    "o": "plant",
+    "pos": "n.",
+    "zh": "工廠；植物",
+    "use": "a manufacturing／power plant；a plant manager",
+    "why": "＝factory；當動詞是「種植」，一字多義常考"
+   }
+  ]
+ },
+ {
+  "id": "p300",
+  "key": "chain＋open twenty new ------- in + 地點：連鎖店開的門市 → outlets",
+  "notes": [
+   {
+    "o": "wages",
+    "pos": "n.（複數）",
+    "zh": "工資",
+    "use": "an hourly wage；pay／raise wages",
+    "why": "工資是「付／調」的，不能 open，也不會開在機場"
+   },
+   {
+    "o": "outlets",
+    "pos": "n.（複數）",
+    "zh": "門市；銷售據點",
+    "use": "a retail outlet；open an outlet",
+    "why": "也指「暢貨中心」（outlet store）和「插座」"
+   },
+   {
+    "o": "memos",
+    "pos": "n.（複數）",
+    "zh": "備忘錄；內部通知",
+    "use": "send／write a memo to + 員工",
+    "why": "memo 是內部文件，連鎖店不會到機場「開」備忘錄"
+   },
+   {
+    "o": "layovers",
+    "pos": "n.（複數）",
+    "zh": "轉機停留",
+    "use": "a two-hour layover in + 城市",
+    "why": "airports 是陷阱：layover 是旅客轉機，店家不能 open"
+   }
+  ]
+ },
+ {
+  "id": "p301",
+  "key": "for the whole ------- of the flight：整段期間 → duration",
+  "notes": [
+   {
+    "o": "outcome",
+    "pos": "n.",
+    "zh": "結果",
+    "use": "the outcome of + 會議／談判",
+    "why": "「結果」不是一段時間，前面不能用 for the whole"
+   },
+   {
+    "o": "category",
+    "pos": "n.",
+    "zh": "類別",
+    "use": "a category of + N；product categories",
+    "why": "「類別」不是一段時間，前面不能用 for the whole"
+   },
+   {
+    "o": "duration",
+    "pos": "n.",
+    "zh": "持續時間；期間",
+    "use": "for the duration of + 活動；the duration of + 合約",
+    "why": "for the duration of + N＝throughout + N"
+   },
+   {
+    "o": "selection",
+    "pos": "n.",
+    "zh": "選擇；精選品項",
+    "use": "a wide selection of + 商品",
+    "why": "selection of 後面接可挑選的商品，不是一段飛行時間"
+   }
+  ]
+ },
+ {
+  "id": "p302",
+  "key": "search the online ------- to find 顧客資料：可搜尋、存資料的系統 → database",
+  "notes": [
+   {
+    "o": "anniversary",
+    "pos": "n.",
+    "zh": "週年紀念",
+    "use": "celebrate the 10th anniversary of + 公司",
+    "why": "週年紀念是日子／活動，不能 search 出顧客資料"
+   },
+   {
+    "o": "milestone",
+    "pos": "n.",
+    "zh": "里程碑",
+    "use": "reach a milestone；a major milestone",
+    "why": "里程碑是「達成」（reach）的，不能拿來搜尋資料"
+   },
+   {
+    "o": "database",
+    "pos": "n.",
+    "zh": "資料庫",
+    "use": "a customer database；search／update a database",
+    "why": "enter data into a database；常和 records 一起出現"
+   },
+   {
+    "o": "ceremony",
+    "pos": "n.",
+    "zh": "典禮",
+    "use": "an awards／opening ceremony",
+    "why": "典禮是活動，不能 search，也不存放顧客資料"
+   }
+  ]
+ },
+ {
+  "id": "p303",
+  "key": "improve their -------.：所有格後要名詞，當 improve 的受詞 → literacy",
+  "notes": [
+   {
+    "o": "literally",
+    "pos": "adv.",
+    "zh": "照字面地；確實",
+    "use": "副詞：translate literally（逐字翻譯）",
+    "why": "所有格 their 後要名詞，副詞不能當 improve 的受詞"
+   },
+   {
+    "o": "literary",
+    "pos": "adj.",
+    "zh": "文學的",
+    "use": "形容詞：literary works；a literary award",
+    "why": "所有格後缺名詞，形容詞後面沒有名詞可修飾"
+   },
+   {
+    "o": "literacy",
+    "pos": "n.",
+    "zh": "讀寫能力；素養",
+    "use": "名詞：literacy skills；computer／financial literacy",
+    "why": "字尾 -cy 是名詞：accuracy、efficiency、privacy"
+   },
+   {
+    "o": "literate",
+    "pos": "adj.",
+    "zh": "能讀寫的",
+    "use": "形容詞：be literate；computer-literate（懂電腦的）",
+    "why": "所有格 their 後要名詞，不能用形容詞收尾"
+   }
+  ]
+ },
+ {
+  "id": "p304",
+  "key": "checked the ------- of：冠詞 the 和 of 中間要名詞 → structure",
+  "notes": [
+   {
+    "o": "structurally",
+    "pos": "adv.",
+    "zh": "在結構上",
+    "use": "副詞：structurally sound（結構穩固的）",
+    "why": "副詞不能放在 the 和 of 之間當 checked 的受詞"
+   },
+   {
+    "o": "structure",
+    "pos": "n.",
+    "zh": "結構；建築物",
+    "use": "名詞：the structure of + 建築／組織",
+    "why": "同形也可當動詞；a salary／pricing structure「薪資／定價結構」"
+   },
+   {
+    "o": "structural",
+    "pos": "adj.",
+    "zh": "結構的",
+    "use": "形容詞：structural damage／problems／changes",
+    "why": "the 和 of 之間缺名詞，形容詞後面沒有名詞可修飾"
+   },
+   {
+    "o": "structured",
+    "pos": "v.（過去式／過去分詞）",
+    "zh": "有條理的",
+    "use": "過去分詞當形容詞：a structured program／interview",
+    "why": "the 後缺名詞，分詞不能當 checked 的受詞"
+   }
+  ]
+ },
+ {
+  "id": "p305",
+  "key": "that built our website＋has twenty employees：公司 → design firm",
+  "notes": [
+   {
+    "o": "fee",
+    "pos": "n.",
+    "zh": "費用",
+    "use": "a design／service／late fee；charge a fee",
+    "why": "有 design fee 的說法，但費用不能架網站、也沒有員工"
+   },
+   {
+    "o": "trend",
+    "pos": "n.",
+    "zh": "趨勢",
+    "use": "a design trend；a trend toward／in + N",
+    "why": "有 design trend 的說法，但趨勢不能架網站、沒有員工"
+   },
+   {
+    "o": "firm",
+    "pos": "n.",
+    "zh": "公司；事務所",
+    "use": "a law／design／consulting firm",
+    "why": "＝company；當形容詞是「堅定的；結實的」"
+   },
+   {
+    "o": "layout",
+    "pos": "n.",
+    "zh": "版面配置",
+    "use": "the layout of + 頁面；a page layout",
+    "why": "版面和設計有關，但版面沒有員工和辦公室"
+   }
+  ]
+ },
+ {
+  "id": "p306",
+  "key": "get permission from＋direct：請假要誰准？→ direct superior",
+  "notes": [
+   {
+    "o": "superior",
+    "pos": "n.（人）",
+    "zh": "上司；上級",
+    "use": "one's direct／immediate superior",
+    "why": "形容詞 be superior to「優於」：介系詞用 to，不用 than"
+   },
+   {
+    "o": "courier",
+    "pos": "n.（人）",
+    "zh": "快遞員；快遞公司",
+    "use": "send + 物 + by courier；a courier service",
+    "why": "快遞員負責送件，無權批准員工請假"
+   },
+   {
+    "o": "competitor",
+    "pos": "n.（人／公司）",
+    "zh": "競爭對手",
+    "use": "a major／main／direct competitor",
+    "why": "有 direct competitor 的說法，但請假不必對手同意"
+   },
+   {
+    "o": "tenant",
+    "pos": "n.（人）",
+    "zh": "房客；承租人",
+    "use": "tenant（房客）和 landlord（房東）相對",
+    "why": "房客是租房子的人，和員工請假無關"
+   }
+  ]
+ },
+ {
+  "id": "p307",
+  "key": "a legal ------- to give：冠詞＋形容詞後要名詞 → obligation to V",
+  "notes": [
+   {
+    "o": "obligated",
+    "pos": "v.（過去式／過去分詞）",
+    "zh": "有義務的",
+    "use": "be obligated to V（有義務做…）",
+    "why": "a legal 後缺名詞；要寫成 is legally obligated to 才對"
+   },
+   {
+    "o": "obligation",
+    "pos": "n.",
+    "zh": "義務；責任",
+    "use": "名詞：an obligation to V；a legal obligation",
+    "why": "have／be under an obligation to V「有義務做…」"
+   },
+   {
+    "o": "oblige",
+    "pos": "v.",
+    "zh": "迫使；使有義務",
+    "use": "常用被動：be obliged to V（不得不…）",
+    "why": "冠詞＋形容詞後面不能接原形動詞"
+   },
+   {
+    "o": "obligatory",
+    "pos": "adj.",
+    "zh": "義務的；強制的",
+    "use": "形容詞：It is obligatory to V（＝mandatory）",
+    "why": "a legal 後缺名詞，不能再用形容詞收尾"
+   }
+  ]
+ },
+ {
+  "id": "p308",
+  "key": "factories closed → -------…rose to ten percent：失業率上升",
+  "notes": [
+   {
+    "o": "merchandise",
+    "pos": "n.",
+    "zh": "商品",
+    "use": "sell／display merchandise；不可數",
+    "why": "商品不會因工廠關閉而「上升到百分之十」"
+   },
+   {
+    "o": "literacy",
+    "pos": "n.",
+    "zh": "讀寫能力；識字率",
+    "use": "the literacy rate；computer literacy",
+    "why": "識字率和工廠關閉沒有因果關係"
+   },
+   {
+    "o": "unemployment",
+    "pos": "n.",
+    "zh": "失業；失業率",
+    "use": "the unemployment rate；high unemployment",
+    "why": "rise／fall to + 數字；un- 是否定字首（employment 的反義）"
+   },
+   {
+    "o": "maintenance",
+    "pos": "n.",
+    "zh": "維護；保養",
+    "use": "regular maintenance；maintenance costs",
+    "why": "維護保養不用百分比表示，也不會因工廠關閉而上升"
+   }
+  ]
+ },
+ {
+  "id": "p309",
+  "key": "There is no ------- that：no 後面要名詞，that 子句說明內容 → evidence",
+  "notes": [
+   {
+    "o": "evidently",
+    "pos": "adv.",
+    "zh": "顯然",
+    "use": "副詞：修飾全句或動詞，Evidently, …",
+    "why": "There is no 後面要名詞，副詞不能放這裡"
+   },
+   {
+    "o": "evident",
+    "pos": "adj.",
+    "zh": "明顯的",
+    "use": "形容詞：It is evident that + 子句",
+    "why": "no 後缺名詞；形容詞要用 It is evident that 的句型"
+   },
+   {
+    "o": "evidenced",
+    "pos": "v.（過去式／過去分詞）",
+    "zh": "被證明",
+    "use": "as evidenced by + N（由…可以證明）",
+    "why": "There is no 後面要名詞，不能放過去分詞"
+   },
+   {
+    "o": "evidence",
+    "pos": "n.",
+    "zh": "證據",
+    "use": "名詞：evidence that + 子句；evidence of + N",
+    "why": "不可數：不加 s、不用 an；常考 There is no evidence that"
+   }
+  ]
+ },
+ {
+  "id": "p310",
+  "key": "A warning light on the car's -------：車上有警示燈的地方 → dashboard",
+  "notes": [
+   {
+    "o": "briefcase",
+    "pos": "n.",
+    "zh": "公事包",
+    "use": "carry a briefcase（裝文件、筆電）",
+    "why": "公事包不是車子的一部分，上面沒有警示燈"
+   },
+   {
+    "o": "transcript",
+    "pos": "n.",
+    "zh": "成績單；逐字稿",
+    "use": "an academic transcript；a transcript of + 演講",
+    "why": "成績單／逐字稿是文件，和汽車警示燈無關"
+   },
+   {
+    "o": "dashboard",
+    "pos": "n.",
+    "zh": "儀表板",
+    "use": "on the dashboard；a dashboard light",
+    "why": "也指軟體的「數據面板」：a sales dashboard"
+   },
+   {
+    "o": "receipt",
+    "pos": "n.",
+    "zh": "收據",
+    "use": "keep the receipt；a receipt for + 商品",
+    "why": "收據是文件，不是車子上的裝置"
+   }
+  ]
+ },
+ {
+  "id": "p311",
+  "key": "basic ------- of + 抽象名詞，such as 舉的是做法 → basic principles of",
+  "notes": [
+   {
+    "o": "receipts",
+    "pos": "n.（複數）",
+    "zh": "收據",
+    "use": "keep the receipt；a receipt for + 商品",
+    "why": "收據是文件，不能用「仔細聆聽、有禮貌」舉例"
+   },
+   {
+    "o": "principles",
+    "pos": "n.（複數）",
+    "zh": "原則",
+    "use": "the basic principles of + 領域",
+    "why": "別和 principal（校長；主要的）混淆，拼字只差字尾"
+   },
+   {
+    "o": "shipments",
+    "pos": "n.（複數）",
+    "zh": "（一批）貨物；出貨",
+    "use": "a shipment of + 貨物",
+    "why": "貨物不能用「仔細聆聽、有禮貌」舉例"
+   },
+   {
+    "o": "vehicles",
+    "pos": "n.（複數）",
+    "zh": "車輛",
+    "use": "a delivery／company vehicle",
+    "why": "車輛和顧客服務的做法無關"
+   }
+  ]
+ },
+ {
+  "id": "p312",
+  "key": "decides which stories to print、corrects them：編輯的工作 → editor",
+  "notes": [
+   {
+    "o": "tenant",
+    "pos": "n.（人）",
+    "zh": "房客；承租人",
+    "use": "tenant（房客）和 landlord（房東）相對",
+    "why": "房客是租屋的人，不決定報紙刊登什麼"
+   },
+   {
+    "o": "editor",
+    "pos": "n.（人）",
+    "zh": "編輯",
+    "use": "a newspaper／magazine editor；動詞 edit + 文章",
+    "why": "editor in chief「總編輯」；edition 是「版本」"
+   },
+   {
+    "o": "commuter",
+    "pos": "n.（人）",
+    "zh": "通勤者",
+    "use": "a commuter train；commute to work",
+    "why": "通勤者是搭車上班的人，不負責修改報導"
+   },
+   {
+    "o": "courier",
+    "pos": "n.（人）",
+    "zh": "快遞員；快遞公司",
+    "use": "send + 物 + by courier；a courier service",
+    "why": "快遞員負責送件，不決定刊登內容，也不改稿"
+   }
+  ]
+ },
+ {
+  "id": "p313",
+  "key": "------- goods such as food：名詞修飾 goods → consumer goods「消費品」",
+  "notes": [
+   {
+    "o": "tenant",
+    "pos": "n.（人）",
+    "zh": "房客；承租人",
+    "use": "tenant（房客）和 landlord（房東）相對",
+    "why": "沒有 tenant goods 的說法，食品、服飾和房客無關"
+   },
+   {
+    "o": "consumer",
+    "pos": "n.（人）",
+    "zh": "消費者",
+    "use": "consumer goods／prices／demand（放名詞前修飾）",
+    "why": "同字族：consume（動詞）、consumption（消費；消耗量）"
+   },
+   {
+    "o": "commuter",
+    "pos": "n.（人）",
+    "zh": "通勤者",
+    "use": "a commuter train；commute to work",
+    "why": "沒有 commuter goods 的說法，食品、服飾和通勤無關"
+   },
+   {
+    "o": "competitor",
+    "pos": "n.（人／公司）",
+    "zh": "競爭對手",
+    "use": "a major／main competitor",
+    "why": "食品、服飾泛指一般人買的消費品，不是「對手的貨」"
+   }
+  ]
+ },
+ {
+  "id": "p314",
+  "key": "such as money and staff：資金、人力的總稱 → have the resources to V",
+  "notes": [
+   {
+    "o": "appliances",
+    "pos": "n.（複數）",
+    "zh": "家電；電器",
+    "use": "kitchen／household appliances",
+    "why": "資金和人力不是電器"
+   },
+   {
+    "o": "statistics",
+    "pos": "n.（複數）",
+    "zh": "統計數據",
+    "use": "sales statistics；Statistics show that + 子句",
+    "why": "資金和人力不是統計數據"
+   },
+   {
+    "o": "resources",
+    "pos": "n.（複數）",
+    "zh": "資源",
+    "use": "have the resources to V；human resources（人資）",
+    "why": "financial／natural resources；作「資源」解多用複數"
+   },
+   {
+    "o": "fares",
+    "pos": "n.（複數）",
+    "zh": "車資；票價",
+    "use": "bus／taxi／air fare；pay the fare",
+    "why": "fare 是交通費，不能包含 staff（人力）"
+   }
+  ]
+ },
+ {
+  "id": "p315",
+  "key": "thirty ------- for the manager's job：職位的人選 → candidates",
+  "notes": [
+   {
+    "o": "commuters",
+    "pos": "n.（複數）",
+    "zh": "通勤者",
+    "use": "a commuter train；commute to work",
+    "why": "通勤者是搭車上班的人，不是職位的人選"
+   },
+   {
+    "o": "tenants",
+    "pos": "n.（複數）",
+    "zh": "房客；承租人",
+    "use": "tenant（房客）和 landlord（房東）相對",
+    "why": "房客是租屋的人，不接 for the manager's job"
+   },
+   {
+    "o": "consumers",
+    "pos": "n.（複數）",
+    "zh": "消費者",
+    "use": "consumer goods；meet consumers' needs",
+    "why": "消費者是買東西的人，不是職位的人選"
+   },
+   {
+    "o": "candidates",
+    "pos": "n.（複數）",
+    "zh": "人選；應徵者；候選人",
+    "use": "a candidate for + 職位；a qualified candidate",
+    "why": "the successful candidate「錄取者」；同義 applicant"
+   }
+  ]
+ },
+ {
+  "id": "p316",
+  "key": "A ------- of + 貨物＋left the factory by truck：一批貨 → shipment",
+  "notes": [
+   {
+    "o": "shipment",
+    "pos": "n.",
+    "zh": "（一批）貨物；出貨",
+    "use": "a shipment of + 貨物；動詞 ship + 貨 + to + 地點",
+    "why": "delay／receive／track a shipment"
+   },
+   {
+    "o": "fee",
+    "pos": "n.",
+    "zh": "費用",
+    "use": "a delivery／service fee；charge a fee",
+    "why": "費用是金額，不會「搭卡車離開工廠」"
+   },
+   {
+    "o": "ceremony",
+    "pos": "n.",
+    "zh": "典禮",
+    "use": "an awards／opening ceremony",
+    "why": "典禮是活動，不會用卡車運送、星期四送達"
+   },
+   {
+    "o": "summary",
+    "pos": "n.",
+    "zh": "摘要",
+    "use": "a summary of + 報告／會議",
+    "why": "summary of 後面接文件內容，不接 200 張椅子"
+   }
+  ]
+ },
+ {
+  "id": "p317",
+  "key": "Each ------- for the driver job：applicant for + 職位「應徵者」",
+  "notes": [
+   {
+    "o": "superior",
+    "pos": "n.（人）",
+    "zh": "上司；上級",
+    "use": "one's direct／immediate superior",
+    "why": "上司不接 for the job，也不是被要求資格條件的人"
+   },
+   {
+    "o": "applicant",
+    "pos": "n.（人）",
+    "zh": "應徵者；申請人",
+    "use": "an applicant for + 職位；job applicants",
+    "why": "apply for → applicant（人）／application（申請表）"
+   },
+   {
+    "o": "tenant",
+    "pos": "n.（人）",
+    "zh": "房客；承租人",
+    "use": "tenant（房客）和 landlord（房東）相對",
+    "why": "房客是租屋的人，不是來應徵司機的人"
+   },
+   {
+    "o": "consumer",
+    "pos": "n.（人）",
+    "zh": "消費者",
+    "use": "consumer goods／demand",
+    "why": "消費者是買東西的人，不需要駕駛紀錄和工作經驗"
+   }
+  ]
+ },
+ {
+  "id": "p318",
+  "key": "experience in office -------：介系詞 in 後要名詞 → administration",
+  "notes": [
+   {
+    "o": "administer",
+    "pos": "v.",
+    "zh": "管理；執行",
+    "use": "動詞：administer + 計畫／考試／資金",
+    "why": "介系詞 in 後要名詞，不能接原形動詞"
+   },
+   {
+    "o": "administrative",
+    "pos": "adj.",
+    "zh": "行政的",
+    "use": "形容詞：administrative assistant／work／staff",
+    "why": "形容詞要放名詞前（administrative work），不能收尾"
+   },
+   {
+    "o": "administratively",
+    "pos": "adv.",
+    "zh": "在行政上",
+    "use": "副詞：修飾形容詞，administratively complex",
+    "why": "副詞不能當介系詞 in 的受詞"
+   },
+   {
+    "o": "administration",
+    "pos": "n.",
+    "zh": "行政；管理",
+    "use": "名詞：office／business administration",
+    "why": "experience in + 領域；MBA 的 A 就是 Administration"
+   }
+  ]
+ },
+ {
+  "id": "p319",
+  "key": "ask your ------- to sign：所有格後要名詞，而且是能簽名的人 → supervisor",
+  "notes": [
+   {
+    "o": "supervise",
+    "pos": "v.",
+    "zh": "監督；管理",
+    "use": "動詞：supervise + 員工／工作",
+    "why": "所有格 your 後面不能接原形動詞"
+   },
+   {
+    "o": "supervisor",
+    "pos": "n.（人）",
+    "zh": "主管",
+    "use": "名詞（人）：one's immediate／direct supervisor",
+    "why": "ask + 人 + to V；supervision 是「監督」（不可數）"
+   },
+   {
+    "o": "supervisory",
+    "pos": "adj.",
+    "zh": "監督的；管理的",
+    "use": "形容詞：a supervisory role／position",
+    "why": "所有格後缺名詞，形容詞不能當 ask 的受詞"
+   },
+   {
+    "o": "supervised",
+    "pos": "v.（過去式／過去分詞）",
+    "zh": "受監督的",
+    "use": "被動：be supervised by + 主管",
+    "why": "所有格後要名詞，ask 的受詞不能是過去分詞"
+   }
+  ]
+ },
+ {
+  "id": "p320",
+  "key": "question-and-answer -------：固定搭配 Q&A session「問答時段」",
+  "notes": [
+   {
+    "o": "refund",
+    "pos": "n.",
+    "zh": "退款",
+    "use": "get／request a full refund",
+    "why": "退款是錢，不是讓來賓和講者交流的時段"
+   },
+   {
+    "o": "session",
+    "pos": "n.",
+    "zh": "場次；時段",
+    "use": "a training／morning session；a session on + 主題",
+    "why": "會議、訓練課程題常見；attend a session"
+   },
+   {
+    "o": "trend",
+    "pos": "n.",
+    "zh": "趨勢",
+    "use": "market trends；a trend toward／in + N",
+    "why": "趨勢不是下午舉行的活動，不能讓來賓和講者交流"
+   },
+   {
+    "o": "shipment",
+    "pos": "n.",
+    "zh": "（一批）貨物；出貨",
+    "use": "a shipment of + 貨物",
+    "why": "貨物和問答、講者無關"
+   }
+  ]
+ },
+ {
+  "id": "p321",
+  "key": "a clear ------- in service：冠詞＋形容詞後要名詞 → improvement in + N",
+  "notes": [
+   {
+    "o": "improvement",
+    "pos": "n.",
+    "zh": "改善；進步",
+    "use": "名詞：an improvement in + N；make improvements",
+    "why": "a significant／marked improvement in + N"
+   },
+   {
+    "o": "improving",
+    "pos": "v.（-ing）",
+    "zh": "正在改善",
+    "use": "現在分詞：be improving；an improving economy",
+    "why": "有名詞 improvement 可用時，a＋形容詞後不放 V-ing"
+   },
+   {
+    "o": "improve",
+    "pos": "v.",
+    "zh": "改善",
+    "use": "動詞：improve + 品質／服務／效率",
+    "why": "冠詞＋形容詞後面不能接原形動詞"
+   },
+   {
+    "o": "improved",
+    "pos": "v.（過去式／過去分詞）",
+    "zh": "改良過的",
+    "use": "過去分詞當形容詞：improved service／quality",
+    "why": "a clear 後缺名詞，分詞後面沒有名詞可修飾"
+   }
+  ]
+ },
+ {
+  "id": "p322",
+  "key": "practiced his sales -------：受詞位置要名詞 → presentation",
+  "notes": [
+   {
+    "o": "presented",
+    "pos": "v.（過去式／過去分詞）",
+    "zh": "提出了；呈現了",
+    "use": "動詞：present + N + to + 人",
+    "why": "practiced 的受詞要名詞；後面的 it 指的是一份簡報"
+   },
+   {
+    "o": "presently",
+    "pos": "adv.",
+    "zh": "目前；不久",
+    "use": "副詞：be presently available（＝currently）",
+    "why": "副詞不能當 practiced 的受詞"
+   },
+   {
+    "o": "presentation",
+    "pos": "n.",
+    "zh": "簡報；發表",
+    "use": "名詞：give／make a presentation on + 主題",
+    "why": "a sales presentation；a presentation to + 對象"
+   },
+   {
+    "o": "presentable",
+    "pos": "adj.",
+    "zh": "體面的；拿得出手的",
+    "use": "形容詞：look presentable（看起來體面）",
+    "why": "形容詞不能當 practiced 的受詞"
+   }
+  ]
+ },
+ {
+  "id": "p323",
+  "key": "including keyboards, screens, and printers：實體設備 → hardware",
+  "notes": [
+   {
+    "o": "software",
+    "pos": "n.",
+    "zh": "軟體",
+    "use": "install／update software；不可數",
+    "why": "鍵盤、螢幕、印表機是實體設備，不是程式"
+   },
+   {
+    "o": "literacy",
+    "pos": "n.",
+    "zh": "讀寫能力；素養",
+    "use": "computer literacy（電腦素養）",
+    "why": "有 computer literacy 的說法，但能力不能 replace"
+   },
+   {
+    "o": "maintenance",
+    "pos": "n.",
+    "zh": "維護；保養",
+    "use": "computer／regular maintenance",
+    "why": "有 computer maintenance 的說法，但維護不包含鍵盤、螢幕"
+   },
+   {
+    "o": "hardware",
+    "pos": "n.",
+    "zh": "硬體；五金",
+    "use": "computer hardware；a hardware store（五金行）",
+    "why": "hardware／software／equipment 都不可數，不加 s"
+   }
+  ]
+ },
+ {
+  "id": "p324",
+  "key": "a one-day ------- by boat to a small island：短程出遊 → excursion",
+  "notes": [
+   {
+    "o": "layover",
+    "pos": "n.",
+    "zh": "轉機停留",
+    "use": "a three-hour layover in + 城市",
+    "why": "layover 是轉機等候，用 in + 城市，不是搭船去小島"
+   },
+   {
+    "o": "ceremony",
+    "pos": "n.",
+    "zh": "典禮",
+    "use": "an awards／opening ceremony",
+    "why": "典禮不會「搭船前往」某地"
+   },
+   {
+    "o": "excursion",
+    "pos": "n.",
+    "zh": "短程旅遊",
+    "use": "an excursion to + 地點；go on an excursion",
+    "why": "同義 a day trip／an outing；旅遊行程題常見"
+   },
+   {
+    "o": "lecture",
+    "pos": "n.",
+    "zh": "講座；演講",
+    "use": "give／attend a lecture on + 主題",
+    "why": "講座接 on + 主題，不接 by boat to an island"
+   }
+  ]
+ },
+ {
+  "id": "p325",
+  "key": "Visitors…at the ------- desk：訪客報到的櫃台 → reception desk",
+  "notes": [
+   {
+    "o": "trend",
+    "pos": "n.",
+    "zh": "趨勢",
+    "use": "market trends；a trend toward／in + N",
+    "why": "趨勢不是櫃台，沒有 trend desk 的說法"
+   },
+   {
+    "o": "reception",
+    "pos": "n.",
+    "zh": "接待處；歡迎會",
+    "use": "the reception desk／area；at reception",
+    "why": "receptionist「接待人員」；a welcome reception「歡迎會」"
+   },
+   {
+    "o": "duration",
+    "pos": "n.",
+    "zh": "持續時間",
+    "use": "the duration of + 活動／合約",
+    "why": "時間長度不能修飾 desk，語意不通"
+   },
+   {
+    "o": "agenda",
+    "pos": "n.",
+    "zh": "議程",
+    "use": "on the agenda；the agenda for + 會議",
+    "why": "議程是會議討論事項，不是放包包、領訪客證的櫃台"
+   }
+  ]
+ },
+ {
+  "id": "p326",
+  "key": "is always the top -------.：冠詞＋形容詞 top 後要名詞 → priority",
+  "notes": [
+   {
+    "o": "prioritized",
+    "pos": "v.（過去式／過去分詞）",
+    "zh": "被列為優先的",
+    "use": "動詞：prioritize + 工作；被動 be prioritized",
+    "why": "the top 後缺名詞，分詞後面沒有名詞可修飾"
+   },
+   {
+    "o": "prioritize",
+    "pos": "v.",
+    "zh": "把…列為優先",
+    "use": "動詞：prioritize + 工作／任務",
+    "why": "冠詞＋形容詞後面不能接原形動詞"
+   },
+   {
+    "o": "prior",
+    "pos": "adj.",
+    "zh": "先前的；事先的",
+    "use": "形容詞：prior experience／notice；prior to + N",
+    "why": "the top 後缺名詞；prior 是「先前的」，不是「優先」"
+   },
+   {
+    "o": "priority",
+    "pos": "n.",
+    "zh": "優先事項",
+    "use": "名詞：a top／high priority；give priority to + N",
+    "why": "top／first／main priority；複數 priorities"
+   }
+  ]
+ },
+ {
+  "id": "p327",
+  "key": "free seven-day ------- before they decide to pay：試用 → trial",
+  "notes": [
+   {
+    "o": "trial",
+    "pos": "n.",
+    "zh": "試用；試驗",
+    "use": "a free trial；a trial period／version",
+    "why": "on a trial basis「以試用方式」；try 的名詞"
+   },
+   {
+    "o": "memo",
+    "pos": "n.",
+    "zh": "備忘錄；內部通知",
+    "use": "send／write a memo to + 員工",
+    "why": "memo 是內部文件，和免費使用健身房七天無關"
+   },
+   {
+    "o": "fare",
+    "pos": "n.",
+    "zh": "車資；票價",
+    "use": "bus／taxi／air fare；pay the fare",
+    "why": "fare 是交通費，和試用健身房無關"
+   },
+   {
+    "o": "deadline",
+    "pos": "n.",
+    "zh": "截止期限",
+    "use": "meet／miss a deadline；the deadline for + N",
+    "why": "期限是時間點，不能是「免費七天的」使用方式"
+   }
+  ]
+ },
+ {
+  "id": "p328",
+  "key": "helps the island's -------.：所有格 's 後要名詞當受詞 → economy",
+  "notes": [
+   {
+    "o": "economy",
+    "pos": "n.",
+    "zh": "經濟",
+    "use": "名詞：the local／global economy；boost the economy",
+    "why": "economics 是「經濟學」；economy class「經濟艙」"
+   },
+   {
+    "o": "economic",
+    "pos": "adj.",
+    "zh": "經濟（上）的",
+    "use": "形容詞：economic growth／policy／conditions",
+    "why": "所有格後缺名詞，形容詞後面沒有名詞可修飾"
+   },
+   {
+    "o": "economical",
+    "pos": "adj.",
+    "zh": "省錢的；節約的",
+    "use": "形容詞：an economical car；economical to run",
+    "why": "所有格後缺名詞；economical「省錢的」別和 economic 混淆"
+   },
+   {
+    "o": "economically",
+    "pos": "adv.",
+    "zh": "在經濟上；節省地",
+    "use": "副詞：修飾形容詞／動詞，economically important",
+    "why": "副詞不能當 helps 的受詞"
+   }
+  ]
+ },
+ {
+  "id": "p329",
+  "key": "a course in -------＋keep financial records（記帳）→ accounting",
+  "notes": [
+   {
+    "o": "maintenance",
+    "pos": "n.",
+    "zh": "維護；保養",
+    "use": "regular maintenance；maintenance work",
+    "why": "維護保養學的是修設備，不是記帳"
+   },
+   {
+    "o": "transportation",
+    "pos": "n.",
+    "zh": "交通；運輸",
+    "use": "public transportation；transportation to + 地點",
+    "why": "交通運輸和 keep financial records 無關"
+   },
+   {
+    "o": "accounting",
+    "pos": "n.",
+    "zh": "會計",
+    "use": "a course in accounting；the accounting department",
+    "why": "accountant「會計師」；keep records／accounts「記帳」"
+   },
+   {
+    "o": "construction",
+    "pos": "n.",
+    "zh": "興建；工程",
+    "use": "under construction；a construction site",
+    "why": "營建工程和 keep financial records 無關"
+   }
+  ]
+ },
+ {
+  "id": "p330",
+  "key": "show our ------- for：所有格後要名詞 → appreciation for + N",
+  "notes": [
+   {
+    "o": "appreciated",
+    "pos": "v.（過去式／過去分詞）",
+    "zh": "受到感謝的",
+    "use": "被動：Your help is greatly appreciated.",
+    "why": "所有格後要名詞，過去分詞不能當 show 的受詞"
+   },
+   {
+    "o": "appreciative",
+    "pos": "adj.",
+    "zh": "感謝的",
+    "use": "形容詞：be appreciative of + N",
+    "why": "所有格後缺名詞，形容詞不能當 show 的受詞"
+   },
+   {
+    "o": "appreciate",
+    "pos": "v.",
+    "zh": "感謝；欣賞",
+    "use": "動詞：appreciate + N／V-ing（不接 to V）",
+    "why": "所有格 our 後面不能接原形動詞"
+   },
+   {
+    "o": "appreciation",
+    "pos": "n.",
+    "zh": "感謝；欣賞",
+    "use": "名詞：appreciation for + N；in appreciation of + N",
+    "why": "show／express one's appreciation for + N"
+   }
+  ]
+ },
+ {
+  "id": "p331",
+  "key": "from shoes to handbags＋20 percent off：店內販售的商品 → merchandise",
+  "notes": [
+   {
+    "o": "merchandise",
+    "pos": "n.",
+    "zh": "商品",
+    "use": "sell／display merchandise；不可數，動詞用單數",
+    "why": "不加 s：All merchandise is…；同義 goods（複數形）"
+   },
+   {
+    "o": "labor",
+    "pos": "n.",
+    "zh": "勞力；人工",
+    "use": "labor costs；parts and labor",
+    "why": "勞力不是店裡賣的鞋子、手提包"
+   },
+   {
+    "o": "evidence",
+    "pos": "n.",
+    "zh": "證據",
+    "use": "evidence of + N／that + 子句；不可數",
+    "why": "證據不是商店販售、可以打八折的東西"
+   },
+   {
+    "o": "hardware",
+    "pos": "n.",
+    "zh": "硬體；五金",
+    "use": "computer hardware；a hardware store（五金行）",
+    "why": "硬體／五金不包含 shoes 和 handbags"
+   }
+  ]
+ },
+ {
+  "id": "p332",
+  "key": "a source of ------- for：介系詞 of 後面要名詞 → motivation",
+  "notes": [
+   {
+    "o": "motivate",
+    "pos": "v.",
+    "zh": "激勵",
+    "use": "動詞：motivate + 人 + to V",
+    "why": "介系詞 of 後不能接原形動詞"
+   },
+   {
+    "o": "motivational",
+    "pos": "adj.",
+    "zh": "激勵人心的",
+    "use": "形容詞：a motivational speaker／speech",
+    "why": "介系詞 of 後要名詞，形容詞後面沒有名詞可修飾"
+   },
+   {
+    "o": "motivation",
+    "pos": "n.",
+    "zh": "動力；動機",
+    "use": "名詞：motivation to V；motivation for + N",
+    "why": "a source of + income／information／motivation"
+   },
+   {
+    "o": "motivated",
+    "pos": "v.（過去式／過去分詞）",
+    "zh": "有動力的；積極的",
+    "use": "過去分詞當形容詞：highly motivated staff",
+    "why": "介系詞 of 後要名詞，過去分詞不能當受詞"
+   }
+  ]
+ },
+ {
+  "id": "p333",
+  "key": "send a ------- to set up the new network：安裝設備的人 → technician",
+  "notes": [
+   {
+    "o": "tenant",
+    "pos": "n.（人）",
+    "zh": "房客；承租人",
+    "use": "tenant（房客）和 landlord（房東）相對",
+    "why": "房客是租屋的人，網路公司不會派房客來架網路"
+   },
+   {
+    "o": "technician",
+    "pos": "n.（人）",
+    "zh": "技術人員；技師",
+    "use": "a computer／lab／service technician",
+    "why": "send a technician to install／repair + 設備"
+   },
+   {
+    "o": "candidate",
+    "pos": "n.（人）",
+    "zh": "人選；應徵者",
+    "use": "a candidate for + 職位",
+    "why": "應徵者是求職的人，不負責架設網路"
+   },
+   {
+    "o": "courier",
+    "pos": "n.（人）",
+    "zh": "快遞員；快遞公司",
+    "use": "send + 物 + by courier；a courier service",
+    "why": "快遞員只負責送件，不會架設（set up）網路"
+   }
+  ]
+ },
+ {
+  "id": "p334",
+  "key": "According to…------- from the HR office：部門發出的通知文件 → memo",
+  "notes": [
+   {
+    "o": "pension",
+    "pos": "n.",
+    "zh": "退休金",
+    "use": "live on a pension；a pension plan",
+    "why": "退休金是錢，不能當作 according to 的消息來源"
+   },
+   {
+    "o": "memo",
+    "pos": "n.",
+    "zh": "備忘錄；內部通知",
+    "use": "a memo from + 部門 + to + 員工",
+    "why": "全名 memorandum；send out／circulate a memo"
+   },
+   {
+    "o": "fare",
+    "pos": "n.",
+    "zh": "車資；票價",
+    "use": "bus／taxi／air fare；pay the fare",
+    "why": "fare 是交通費，不是人資部發出的通知"
+   },
+   {
+    "o": "shipment",
+    "pos": "n.",
+    "zh": "（一批）貨物；出貨",
+    "use": "a shipment of + 貨物",
+    "why": "貨物不會告知大樓提早關閉的消息"
+   }
+  ]
+ },
+ {
+  "id": "p335",
+  "key": "broken in ------- between A and B：固定片語 in transit「運送途中」",
+  "notes": [
+   {
+    "o": "consent",
+    "pos": "n.",
+    "zh": "同意",
+    "use": "give consent to + N；without one's consent",
+    "why": "「同意」和瓶子在工廠到商店之間破掉無關"
+   },
+   {
+    "o": "literacy",
+    "pos": "n.",
+    "zh": "讀寫能力",
+    "use": "computer／financial literacy",
+    "why": "讀寫能力和貨物在兩地之間破損無關"
+   },
+   {
+    "o": "duration",
+    "pos": "n.",
+    "zh": "持續時間",
+    "use": "for the duration of + 活動",
+    "why": "duration 是時間長度，「在持續時間中破掉」語意不通"
+   },
+   {
+    "o": "transit",
+    "pos": "n.",
+    "zh": "運送；運輸",
+    "use": "in transit（運送途中）；public transit（大眾運輸）",
+    "why": "be damaged／lost／delayed in transit"
+   }
+  ]
+ },
+ {
+  "id": "p336",
+  "key": "office ------- puts all the desks in…：桌子、房間怎麼擺 → layout",
+  "notes": [
+   {
+    "o": "deadline",
+    "pos": "n.",
+    "zh": "截止期限",
+    "use": "meet／miss a deadline；the deadline for + N",
+    "why": "期限是時間，不會決定桌子擺在哪裡"
+   },
+   {
+    "o": "transcript",
+    "pos": "n.",
+    "zh": "成績單；逐字稿",
+    "use": "an academic transcript；a transcript of + 會議",
+    "why": "成績單／逐字稿是文件，不會安排桌子的位置"
+   },
+   {
+    "o": "layout",
+    "pos": "n.",
+    "zh": "配置；格局；版面",
+    "use": "an office layout；the layout of + 頁面／商店",
+    "why": "近義 floor plan「平面圖」；動詞片語 lay out「擺放」"
+   },
+   {
+    "o": "fuel",
+    "pos": "n.",
+    "zh": "燃料",
+    "use": "fuel costs／prices；run out of fuel",
+    "why": "燃料和辦公桌的擺放無關"
+   }
+  ]
+ },
+ {
+  "id": "p337",
+  "key": "credit card ------- lists every purchase：列出消費的文件 → statement",
+  "notes": [
+   {
+    "o": "statement",
+    "pos": "n.",
+    "zh": "對帳單；聲明",
+    "use": "a bank／credit card／billing statement",
+    "why": "make／issue a statement「發表聲明」，兩個意思都考"
+   },
+   {
+    "o": "balance",
+    "pos": "n.",
+    "zh": "餘額；結餘",
+    "use": "account balance；a balance of + 金額",
+    "why": "有 credit card balance 的說法，但餘額是數字，不能「列出」消費"
+   },
+   {
+    "o": "itinerary",
+    "pos": "n.",
+    "zh": "行程表",
+    "use": "a travel itinerary；an itinerary for + 旅程",
+    "why": "行程表列的是行程，不列消費和應繳金額"
+   },
+   {
+    "o": "agenda",
+    "pos": "n.",
+    "zh": "議程",
+    "use": "on the agenda；the agenda for + 會議",
+    "why": "議程列的是討論事項，不列消費和應繳金額"
+   }
+  ]
+ },
+ {
+  "id": "p338",
+  "key": "applied for the ------- of + 職稱：apply for the position of",
+  "notes": [
+   {
+    "o": "reputation",
+    "pos": "n.",
+    "zh": "名聲",
+    "use": "a reputation for + N；build／earn a reputation",
+    "why": "名聲是 build／earn 來的，不能 apply for"
+   },
+   {
+    "o": "position",
+    "pos": "n.",
+    "zh": "職位；位置",
+    "use": "the position of + 職稱；fill a position",
+    "why": "an open position「職缺」；同義 job／post／opening"
+   },
+   {
+    "o": "proportion",
+    "pos": "n.",
+    "zh": "比例",
+    "use": "a large proportion of + N",
+    "why": "比例後面接群體，不接職稱，也不能應徵"
+   },
+   {
+    "o": "duration",
+    "pos": "n.",
+    "zh": "持續時間",
+    "use": "the duration of + 活動／合約",
+    "why": "持續時間不能 apply for，後面也不接職稱"
+   }
+  ]
+ },
+ {
+  "id": "p339",
+  "key": "building owner＋pay…rent：付房租給屋主的人 → tenant",
+  "notes": [
+   {
+    "o": "commuter",
+    "pos": "n.（人）",
+    "zh": "通勤者",
+    "use": "a commuter train；commute to work",
+    "why": "通勤者付的是車資，不是付房租給屋主"
+   },
+   {
+    "o": "tenant",
+    "pos": "n.（人）",
+    "zh": "房客；承租人",
+    "use": "tenant（房客）和 landlord（房東）相對",
+    "why": "rent、lease、landlord 出現就想到 tenant"
+   },
+   {
+    "o": "courier",
+    "pos": "n.（人）",
+    "zh": "快遞員；快遞公司",
+    "use": "send + 物 + by courier；a courier service",
+    "why": "快遞員負責送件，不付房租給屋主"
+   },
+   {
+    "o": "candidate",
+    "pos": "n.（人）",
+    "zh": "人選；應徵者",
+    "use": "a candidate for + 職位",
+    "why": "應徵者是求職的人，和繳房租無關"
+   }
+  ]
+ },
+ {
+  "id": "p340",
+  "key": "give us your ------- on + 對象：feedback on「對…的意見回饋」",
+  "notes": [
+   {
+    "o": "merchandise",
+    "pos": "n.",
+    "zh": "商品",
+    "use": "sell／display merchandise；不可數",
+    "why": "商品不是填表就能「給」的，也不接 on the speakers"
+   },
+   {
+    "o": "literacy",
+    "pos": "n.",
+    "zh": "讀寫能力",
+    "use": "computer／financial literacy",
+    "why": "讀寫能力不能 give，也不接 on the speakers"
+   },
+   {
+    "o": "labor",
+    "pos": "n.",
+    "zh": "勞力；人工",
+    "use": "labor costs；parts and labor",
+    "why": "勞力不是填表可以提供的意見"
+   },
+   {
+    "o": "feedback",
+    "pos": "n.",
+    "zh": "意見回饋",
+    "use": "give／provide feedback on + N；customer feedback",
+    "why": "不可數：不加 s、不用 a；positive／negative feedback"
+   }
+  ]
+ },
+ {
+  "id": "p341",
+  "key": "picked up…and delivered it：取件、送件的人 → courier",
+  "notes": [
+   {
+    "o": "candidate",
+    "pos": "n.（人）",
+    "zh": "人選；應徵者",
+    "use": "a candidate for + 職位",
+    "why": "應徵者是求職的人，不負責取件、送件"
+   },
+   {
+    "o": "tenant",
+    "pos": "n.（人）",
+    "zh": "房客；承租人",
+    "use": "tenant（房客）和 landlord（房東）相對",
+    "why": "房客是租屋的人，不負責取件、送件"
+   },
+   {
+    "o": "consumer",
+    "pos": "n.（人）",
+    "zh": "消費者",
+    "use": "consumer goods／demand",
+    "why": "消費者是買東西的人，不負責遞送合約"
+   },
+   {
+    "o": "courier",
+    "pos": "n.（人）",
+    "zh": "快遞員；快遞公司",
+    "use": "send + 物 + by courier；a courier service",
+    "why": "pick up「取件」↔ deliver／drop off「送達」"
+   }
+  ]
+ },
+ {
+  "id": "p342",
+  "key": "is the ------- of：冠詞 the 和 of 中間要名詞 → responsibility",
+  "notes": [
+   {
+    "o": "responsible",
+    "pos": "adj.",
+    "zh": "負責的",
+    "use": "形容詞：be responsible for + N／V-ing",
+    "why": "the 和 of 之間要名詞，形容詞後面沒有名詞可修飾"
+   },
+   {
+    "o": "responsibility",
+    "pos": "n.",
+    "zh": "責任；職責",
+    "use": "名詞：the responsibility of + 人；可數／不可數",
+    "why": "take responsibility for；job responsibilities"
+   },
+   {
+    "o": "responsive",
+    "pos": "adj.",
+    "zh": "回應迅速的",
+    "use": "形容詞：be responsive to + 顧客需求",
+    "why": "the 和 of 之間缺名詞；意思也是「回應迅速的」"
+   },
+   {
+    "o": "responsibly",
+    "pos": "adv.",
+    "zh": "負責地",
+    "use": "副詞：act／behave responsibly",
+    "why": "副詞不能放在 the 和 of 之間當名詞用"
+   }
+  ]
+ },
+ {
+  "id": "p343",
+  "key": "monthly pass＋daily trip to work：每天搭車上班的人 → commuters",
+  "notes": [
+   {
+    "o": "competitors",
+    "pos": "n.（複數）",
+    "zh": "競爭對手",
+    "use": "a major／main competitor",
+    "why": "競爭對手和買月票、每天上班無關"
+   },
+   {
+    "o": "candidates",
+    "pos": "n.（複數）",
+    "zh": "人選；應徵者",
+    "use": "a candidate for + 職位",
+    "why": "應徵者還在求職，沒有 daily trip to work"
+   },
+   {
+    "o": "tenants",
+    "pos": "n.（複數）",
+    "zh": "房客；承租人",
+    "use": "tenant（房客）和 landlord（房東）相對",
+    "why": "房客付的是房租，和買月票搭火車無關"
+   },
+   {
+    "o": "commuters",
+    "pos": "n.（複數）",
+    "zh": "通勤者",
+    "use": "rail／train commuters；a commuter train",
+    "why": "動詞 commute to work；名詞 a long commute「通勤路程」"
+   }
+  ]
+ },
+ {
+  "id": "p344",
+  "key": "the third ------- of the year＋July to September → quarter（季）",
+  "notes": [
+   {
+    "o": "majority",
+    "pos": "n.",
+    "zh": "大多數",
+    "use": "the majority of + 複數名詞",
+    "why": "「大多數」不用序數 third，也不是七到九月這段時間"
+   },
+   {
+    "o": "quarter",
+    "pos": "n.",
+    "zh": "季；四分之一",
+    "use": "in the first／third quarter；quarterly（每季的）",
+    "why": "財報題常考：quarterly report／sales「季報／季營收」"
+   },
+   {
+    "o": "shipment",
+    "pos": "n.",
+    "zh": "（一批）貨物；出貨",
+    "use": "a shipment of + 貨物",
+    "why": "貨物不是一年當中的一段時間"
+   },
+   {
+    "o": "category",
+    "pos": "n.",
+    "zh": "類別",
+    "use": "a category of + N；product categories",
+    "why": "類別不是時間，不能用 from July to September 說明"
+   }
+  ]
+ },
+ {
+  "id": "p345",
+  "key": "are out of -------＋more will arrive：固定片語 out of stock「缺貨」",
+  "notes": [
+   {
+    "o": "stock",
+    "pos": "n.",
+    "zh": "庫存；股票",
+    "use": "in stock（有貨）／out of stock（缺貨）",
+    "why": "近義 sold out；動詞 stock + 商品「備貨；販售」"
+   },
+   {
+    "o": "labor",
+    "pos": "n.",
+    "zh": "勞力；人工",
+    "use": "labor costs；parts and labor",
+    "why": "夾克不會「沒有勞力」，和下週到貨無關"
+   },
+   {
+    "o": "evidence",
+    "pos": "n.",
+    "zh": "證據",
+    "use": "evidence of + N／that + 子句；不可數",
+    "why": "夾克和「沒有證據」無關，語意不通"
+   },
+   {
+    "o": "transit",
+    "pos": "n.",
+    "zh": "運送；運輸",
+    "use": "in transit（運送途中）",
+    "why": "片語是 in transit，沒有 out of transit 的說法"
+   }
+  ]
+ },
+ {
+  "id": "p346",
+  "key": "such as water, electricity, and gas：水電瓦斯的總稱 → utilities",
+  "notes": [
+   {
+    "o": "appliances",
+    "pos": "n.（複數）",
+    "zh": "家電；電器",
+    "use": "kitchen／household appliances",
+    "why": "電器是冰箱、洗衣機這類機器，不是水、電、瓦斯"
+   },
+   {
+    "o": "statistics",
+    "pos": "n.（複數）",
+    "zh": "統計數據",
+    "use": "sales statistics；Statistics show that + 子句",
+    "why": "統計數據不是每個月要繳的費用"
+   },
+   {
+    "o": "utilities",
+    "pos": "n.（複數）",
+    "zh": "水電瓦斯（費）",
+    "use": "utility bills；pay for utilities",
+    "why": "租屋題常考：Rent includes utilities.（房租含水電）"
+   },
+   {
+    "o": "ingredients",
+    "pos": "n.（複數）",
+    "zh": "食材；原料",
+    "use": "fresh ingredients；the ingredients for + 菜",
+    "why": "食材是做菜的材料，不是水、電、瓦斯"
+   }
+  ]
+ },
+ {
+  "id": "p347",
+  "key": "has a four-hour ------- in Bangkok：中途轉機停留 → layover",
+  "notes": [
+   {
+    "o": "ceremony",
+    "pos": "n.",
+    "zh": "典禮",
+    "use": "an awards／opening ceremony",
+    "why": "航班不會「有典禮」，和等第二班飛機無關"
+   },
+   {
+    "o": "deadline",
+    "pos": "n.",
+    "zh": "截止期限",
+    "use": "meet／miss a deadline；the deadline for + N",
+    "why": "期限是時間點，航班不會在曼谷「有四小時的期限」"
+   },
+   {
+    "o": "memo",
+    "pos": "n.",
+    "zh": "備忘錄；內部通知",
+    "use": "send／write a memo to + 員工",
+    "why": "memo 是文件，和航班中途停留無關"
+   },
+   {
+    "o": "layover",
+    "pos": "n.",
+    "zh": "轉機停留",
+    "use": "a layover in + 城市；a four-hour layover",
+    "why": "同義 stopover；a connecting flight「轉接航班」"
+   }
+  ]
+ },
+ {
+  "id": "p348",
+  "key": "first item on today's meeting -------：議程上的項目 → agenda",
+  "notes": [
+   {
+    "o": "wage",
+    "pos": "n.",
+    "zh": "工資",
+    "use": "an hourly wage；the minimum wage",
+    "why": "工資是錢，上面不會有討論項目（item）"
+   },
+   {
+    "o": "reputation",
+    "pos": "n.",
+    "zh": "名聲",
+    "use": "a reputation for + N；a good reputation",
+    "why": "名聲不是清單，上面不會有 item"
+   },
+   {
+    "o": "excursion",
+    "pos": "n.",
+    "zh": "短程旅遊",
+    "use": "an excursion to + 地點；go on an excursion",
+    "why": "短程旅遊和會議的討論項目無關"
+   },
+   {
+    "o": "agenda",
+    "pos": "n.",
+    "zh": "議程",
+    "use": "an agenda item；set the agenda for + 會議",
+    "why": "介系詞用 on：be on the agenda（不用 in）"
+   }
+  ]
+ },
+ {
+  "id": "p349",
+  "key": "university＋official ------- of your grades：成績單 → transcript",
+  "notes": [
+   {
+    "o": "transcript",
+    "pos": "n.",
+    "zh": "成績單；逐字稿",
+    "use": "an official／academic transcript",
+    "why": "a transcript of + 演講／會議「逐字稿」也會考"
+   },
+   {
+    "o": "venue",
+    "pos": "n.",
+    "zh": "場地；會場",
+    "use": "a venue for + 活動；a conference venue",
+    "why": "場地是地點，不能郵寄，也不接 of your grades"
+   },
+   {
+    "o": "refund",
+    "pos": "n.",
+    "zh": "退款",
+    "use": "get／request a full refund",
+    "why": "退款是錢，不是記錄成績的正式文件"
+   },
+   {
+    "o": "vehicle",
+    "pos": "n.",
+    "zh": "車輛",
+    "use": "a delivery／company vehicle",
+    "why": "車輛不能郵寄，也和成績無關"
+   }
+  ]
+ },
+ {
+  "id": "p350",
+  "key": "A large ------- of our customers：冠詞＋形容詞後要名詞 → proportion",
+  "notes": [
+   {
+    "o": "proportion",
+    "pos": "n.",
+    "zh": "比例；部分",
+    "use": "名詞：a large／small proportion of + N",
+    "why": "a proportion of + 複數名詞，動詞跟著用複數（prefer）"
+   },
+   {
+    "o": "proportionally",
+    "pos": "adv.",
+    "zh": "按比例地",
+    "use": "副詞：increase／rise proportionally",
+    "why": "副詞不能放在 A large 後面當主詞"
+   },
+   {
+    "o": "proportionate",
+    "pos": "adj.",
+    "zh": "成比例的；相稱的",
+    "use": "形容詞：be proportionate to + N",
+    "why": "A large 後缺名詞，形容詞後面沒有名詞可修飾"
+   },
+   {
+    "o": "proportional",
+    "pos": "adj.",
+    "zh": "成比例的",
+    "use": "形容詞：be proportional to + N",
+    "why": "A large 後缺名詞，形容詞不能當主詞"
+   }
+  ]
+ },
+ {
+  "id": "p351",
+  "key": "built a good ------- for：冠詞＋形容詞後要名詞 → reputation for + N",
+  "notes": [
+   {
+    "o": "reputed",
+    "pos": "adj.",
+    "zh": "據說的；號稱的",
+    "use": "形容詞：be reputed to V（據說…）",
+    "why": "a good 後缺名詞，built 也沒有受詞"
+   },
+   {
+    "o": "reputedly",
+    "pos": "adv.",
+    "zh": "據說",
+    "use": "副詞：修飾全句或形容詞（＝reportedly）",
+    "why": "副詞不能當 built 的受詞"
+   },
+   {
+    "o": "reputable",
+    "pos": "adj.",
+    "zh": "聲譽良好的",
+    "use": "形容詞：a reputable company／dealer",
+    "why": "a good 後缺名詞，形容詞後面沒有名詞可修飾"
+   },
+   {
+    "o": "reputation",
+    "pos": "n.",
+    "zh": "名聲；聲譽",
+    "use": "名詞：a reputation for + N；a reputation as + 身分",
+    "why": "build／earn／have a reputation for + N"
+   }
+  ]
+ },
+ {
+  "id": "p352",
+  "key": "a day-by-day ------- showing our flights：行程表 → itinerary",
+  "notes": [
+   {
+    "o": "itinerary",
+    "pos": "n.",
+    "zh": "行程表",
+    "use": "a travel itinerary；an itinerary for + 旅程",
+    "why": "travel agent、flights、hotels 出現就想到 itinerary"
+   },
+   {
+    "o": "milestone",
+    "pos": "n.",
+    "zh": "里程碑",
+    "use": "reach a milestone；a major milestone",
+    "why": "里程碑是重大成就，不能 email，也不列班機和飯店"
+   },
+   {
+    "o": "layover",
+    "pos": "n.",
+    "zh": "轉機停留",
+    "use": "a layover in + 城市",
+    "why": "flights 是陷阱：轉機停留不是可以 email 的文件"
+   },
+   {
+    "o": "reception",
+    "pos": "n.",
+    "zh": "接待處；歡迎會",
+    "use": "the reception desk；a welcome reception",
+    "why": "接待處／歡迎會不是列出每日行程的文件"
+   }
+  ]
+ },
+ {
+  "id": "p353",
+  "key": "without their written -------：未經書面同意 → written consent",
+  "notes": [
+   {
+    "o": "consent",
+    "pos": "n.",
+    "zh": "同意；許可",
+    "use": "written consent；give consent to + N",
+    "why": "without consent；同義 permission／approval"
+   },
+   {
+    "o": "duration",
+    "pos": "n.",
+    "zh": "持續時間",
+    "use": "the duration of + 活動／合約",
+    "why": "持續時間不能是「書面的」，也和使用照片無關"
+   },
+   {
+    "o": "pension",
+    "pos": "n.",
+    "zh": "退休金",
+    "use": "live on a pension；a pension plan",
+    "why": "退休金和使用顧客照片無關"
+   },
+   {
+    "o": "literacy",
+    "pos": "n.",
+    "zh": "讀寫能力",
+    "use": "computer／financial literacy",
+    "why": "written 是陷阱：讀寫能力不是使用照片要取得的許可"
+   }
+  ]
+ },
+ {
+  "id": "p354",
+  "key": "important ------- in the company's…history：里程碑 → milestone",
+  "notes": [
+   {
+    "o": "deadline",
+    "pos": "n.",
+    "zh": "截止期限",
+    "use": "meet／miss a deadline；the deadline for + N",
+    "why": "賣出第一百萬支手機是成就，不是截止期限"
+   },
+   {
+    "o": "category",
+    "pos": "n.",
+    "zh": "類別",
+    "use": "a category of + N；product categories",
+    "why": "「賣出第一百萬支手機」這件事不是一個類別"
+   },
+   {
+    "o": "milestone",
+    "pos": "n.",
+    "zh": "里程碑",
+    "use": "reach／mark a milestone；a milestone in + 歷史",
+    "why": "an important／major／significant milestone"
+   },
+   {
+    "o": "memo",
+    "pos": "n.",
+    "zh": "備忘錄；內部通知",
+    "use": "send／write a memo to + 員工",
+    "why": "memo 是文件，「賣出手機」這件事不是一份備忘錄"
+   }
+  ]
+ },
+ {
+  "id": "p355",
+  "key": "------- has bigger buttons and clearer menus：介面 → interface",
+  "notes": [
+   {
+    "o": "database",
+    "pos": "n.",
+    "zh": "資料庫",
+    "use": "a customer database；search a database",
+    "why": "app 會用到資料庫，但資料庫存資料，沒有按鈕和選單"
+   },
+   {
+    "o": "excursion",
+    "pos": "n.",
+    "zh": "短程旅遊",
+    "use": "an excursion to + 地點；go on an excursion",
+    "why": "短程旅遊和 app 的按鈕、選單無關"
+   },
+   {
+    "o": "interface",
+    "pos": "n.",
+    "zh": "介面",
+    "use": "a user interface（UI）；an easy-to-use interface",
+    "why": "user-friendly「容易使用的」常和 interface 一起出現"
+   },
+   {
+    "o": "wage",
+    "pos": "n.",
+    "zh": "工資",
+    "use": "an hourly wage；the minimum wage",
+    "why": "工資是錢，和 app 的操作畫面無關"
+   }
+  ]
+ },
+ {
+  "id": "p356",
+  "key": "their food safety -------：所有格＋名詞後要名詞收尾 → certification",
+  "notes": [
+   {
+    "o": "certifiable",
+    "pos": "adj.",
+    "zh": "可認證的",
+    "use": "形容詞：放名詞前，表示「可被認證的」",
+    "why": "of their food safety 後要名詞收尾，不能用形容詞"
+   },
+   {
+    "o": "certified",
+    "pos": "v.（過去式／過去分詞）",
+    "zh": "有認證的；合格的",
+    "use": "過去分詞當形容詞：a certified accountant",
+    "why": "要放名詞前（certified staff），不能當 of 的受詞"
+   },
+   {
+    "o": "certification",
+    "pos": "n.",
+    "zh": "認證；證照",
+    "use": "名詞：food safety／professional certification",
+    "why": "proof of + 名詞；certificate 是拿到的那張「證書」"
+   },
+   {
+    "o": "certify",
+    "pos": "v.",
+    "zh": "認證；證明",
+    "use": "動詞：certify that + 子句；be certified as + N",
+    "why": "所有格 their…後要名詞，不能接原形動詞"
+   }
+  ]
+ },
+ {
+  "id": "p357",
+  "key": "According to recent -------,：形容詞 recent 後要名詞 → statistics",
+  "notes": [
+   {
+    "o": "statistics",
+    "pos": "n.（複數）",
+    "zh": "統計數據",
+    "use": "名詞：recent statistics；Statistics show that + 子句",
+    "why": "作「統計數據」當複數；作「統計學」當單數"
+   },
+   {
+    "o": "statistical",
+    "pos": "adj.",
+    "zh": "統計的",
+    "use": "形容詞：statistical data／analysis",
+    "why": "recent 後缺名詞，形容詞後面沒有名詞可修飾"
+   },
+   {
+    "o": "statistician",
+    "pos": "n.（人）",
+    "zh": "統計學家",
+    "use": "名詞（人）：a statistician；可數",
+    "why": "單數可數名詞前要有 a／the；「最近的統計學家」也不通"
+   },
+   {
+    "o": "statistically",
+    "pos": "adv.",
+    "zh": "在統計上",
+    "use": "副詞：statistically significant（統計上顯著）",
+    "why": "副詞不能當 According to 的受詞"
+   }
+  ]
+ },
+ {
+  "id": "p358",
+  "key": "but ------- lessons…help：名詞 lessons 前要形容詞 → individual",
+  "notes": [
+   {
+    "o": "individually",
+    "pos": "adv.",
+    "zh": "個別地",
+    "use": "副詞：be individually wrapped（個別包裝）",
+    "why": "副詞不能直接修飾名詞 lessons"
+   },
+   {
+    "o": "individualize",
+    "pos": "v.",
+    "zh": "使個人化",
+    "use": "動詞：individualize + 課程／服務",
+    "why": "lessons…help 已是主詞＋動詞，前面不能再放原形動詞"
+   },
+   {
+    "o": "individuality",
+    "pos": "n.",
+    "zh": "個性；特色",
+    "use": "名詞：express one's individuality",
+    "why": "名詞「個性」不能修飾 lessons，沒有這個複合名詞"
+   },
+   {
+    "o": "individual",
+    "pos": "adj.／n.",
+    "zh": "個別的；個人",
+    "use": "形容詞：individual lessons／needs",
+    "why": "和前面的 Group 對比；當名詞是「個人」（可數）"
+   }
+  ]
+ },
+ {
+  "id": "p359",
+  "key": "------- + 人 + with + 獎勵：reward A with B「用 B 獎勵 A」",
+  "notes": [
+   {
+    "o": "predicts",
+    "pos": "v.（第三人稱單數）",
+    "zh": "預測",
+    "use": "predict + 結果；predict that + 子句",
+    "why": "predict 接事情（sales、weather），不接「人 + with 假期」"
+   },
+   {
+    "o": "rewards",
+    "pos": "v.（第三人稱單數）",
+    "zh": "獎勵",
+    "use": "reward + 人 + with + 獎勵；reward + 人 + for + 表現",
+    "why": "名詞同形：a reward for + N；被動 be rewarded with"
+   },
+   {
+    "o": "postpones",
+    "pos": "v.（第三人稱單數）",
+    "zh": "延後",
+    "use": "postpone + 會議／活動 + until + 時間",
+    "why": "postpone 的受詞是活動，不能「延後業務員」"
+   },
+   {
+    "o": "assembles",
+    "pos": "v.（第三人稱單數）",
+    "zh": "組裝；召集",
+    "use": "assemble + 產品／團隊",
+    "why": "文法可以，但「用一週假期召集業務員」語意不通"
+   }
+  ]
+ },
+ {
+  "id": "p360",
+  "key": "radio station will ------- the concert live：播出 → broadcast",
+  "notes": [
+   {
+    "o": "invest",
+    "pos": "v.",
+    "zh": "投資",
+    "use": "invest in + N；invest + 金額 + in + N",
+    "why": "invest 的受詞是金錢／時間，還要接 in，不能接 concert"
+   },
+   {
+    "o": "enroll",
+    "pos": "v.",
+    "zh": "報名；註冊",
+    "use": "enroll in + 課程；enroll + 人 + in + 課程",
+    "why": "enroll 的對象是人和課程，電台不會「註冊」音樂會"
+   },
+   {
+    "o": "commute",
+    "pos": "v.",
+    "zh": "通勤",
+    "use": "commute to work；commute between A and B",
+    "why": "作「通勤」解是不及物，後面不能直接接 the concert"
+   },
+   {
+    "o": "broadcast",
+    "pos": "v.",
+    "zh": "播送；轉播",
+    "use": "broadcast + 節目 + live；be broadcast live",
+    "why": "過去式、過去分詞通常仍是 broadcast；也當名詞"
+   }
+  ]
+ },
+ {
+  "id": "p361",
+  "key": "have a strong ------- on：冠詞＋形容詞後要名詞 → influence on + N",
+  "notes": [
+   {
+    "o": "influencing",
+    "pos": "v.（-ing）",
+    "zh": "影響中",
+    "use": "V-ing：influencing + 受詞（不加 on）",
+    "why": "a strong 後要名詞 influence；V-ing 後面也不接 on"
+   },
+   {
+    "o": "influence",
+    "pos": "n.／v.",
+    "zh": "影響",
+    "use": "名詞：have an influence on + N",
+    "why": "名詞接 on；動詞直接接受詞，不加 on"
+   },
+   {
+    "o": "influenced",
+    "pos": "v.（過去式／過去分詞）",
+    "zh": "受影響的",
+    "use": "被動：be influenced by + N",
+    "why": "a strong 後缺名詞，分詞後面沒有名詞可修飾"
+   },
+   {
+    "o": "influential",
+    "pos": "adj.",
+    "zh": "有影響力的",
+    "use": "形容詞：an influential person；be influential in + N",
+    "why": "a strong 後缺名詞，不能再用形容詞收尾"
+   }
+  ]
+ },
+ {
+  "id": "p362",
+  "key": "give a ------- on + 主題：give a lecture on「發表關於…的講座」",
+  "notes": [
+   {
+    "o": "quarter",
+    "pos": "n.",
+    "zh": "季；四分之一",
+    "use": "in the first／third quarter",
+    "why": "季度是時間，不能 give，也不接 on modern art"
+   },
+   {
+    "o": "lecture",
+    "pos": "n.",
+    "zh": "講座；演講",
+    "use": "give／deliver／attend a lecture on + 主題",
+    "why": "同類搭配：give a talk／speech／presentation on + 主題"
+   },
+   {
+    "o": "shipment",
+    "pos": "n.",
+    "zh": "（一批）貨物；出貨",
+    "use": "a shipment of + 貨物",
+    "why": "shipment 接 of + 貨物，不接 on modern art"
+   },
+   {
+    "o": "refund",
+    "pos": "n.",
+    "zh": "退款",
+    "use": "give／get a refund；a full refund",
+    "why": "有 give a refund 的說法，但退款不接 on modern art"
+   }
+  ]
+ },
+ {
+  "id": "p363",
+  "key": "Hotel will ------- this year's sales conference：主辦會議 → host",
+  "notes": [
+   {
+    "o": "donate",
+    "pos": "v.",
+    "zh": "捐贈",
+    "use": "donate + 金額／物品 + to + 機構",
+    "why": "donate 接金錢或物品，不能「捐」一場會議"
+   },
+   {
+    "o": "enroll",
+    "pos": "v.",
+    "zh": "報名；註冊",
+    "use": "enroll in + 課程；enroll + 人 + in + 課程",
+    "why": "enroll 的對象是人和課程，飯店不會「註冊」一場會議"
+   },
+   {
+    "o": "host",
+    "pos": "v.",
+    "zh": "主辦；主持",
+    "use": "host + 會議／活動／晚宴",
+    "why": "名詞同形「主辦方；主持人」；近義 hold／organize"
+   },
+   {
+    "o": "commute",
+    "pos": "v.",
+    "zh": "通勤",
+    "use": "commute to work；commute between A and B",
+    "why": "作「通勤」解是不及物，後面不能直接接受詞"
+   }
+  ]
+ },
+ {
+  "id": "p364",
+  "key": "------- experience＋selling clothes and shoes：零售 → retail",
+  "notes": [
+   {
+    "o": "transportation",
+    "pos": "n.",
+    "zh": "交通；運輸",
+    "use": "public transportation；the transportation industry",
+    "why": "運輸業是載人載貨，不是在百貨公司賣衣服、鞋子"
+   },
+   {
+    "o": "retail",
+    "pos": "n.",
+    "zh": "零售",
+    "use": "retail experience／store／sales／price",
+    "why": "反義 wholesale「批發」；retailer 是「零售商」"
+   },
+   {
+    "o": "accounting",
+    "pos": "n.",
+    "zh": "會計",
+    "use": "the accounting department；accounting experience",
+    "why": "有 accounting experience 的說法，但會計是記帳，不是賣衣服"
+   },
+   {
+    "o": "construction",
+    "pos": "n.",
+    "zh": "興建；營建",
+    "use": "the construction industry；under construction",
+    "why": "有 construction experience 的說法，但營建不是賣衣服"
+   }
+  ]
+ },
+ {
+  "id": "p365",
+  "key": "workers stopped working…for higher pay：為加薪而停工 → strike",
+  "notes": [
+   {
+    "o": "milestone",
+    "pos": "n.",
+    "zh": "里程碑",
+    "use": "reach a milestone；a major milestone",
+    "why": "里程碑是重大成就，不會讓員工停工、航班取消"
+   },
+   {
+    "o": "receipt",
+    "pos": "n.",
+    "zh": "收據",
+    "use": "keep the receipt；a receipt for + 商品",
+    "why": "收據是文件，不是持續兩天的事件"
+   },
+   {
+    "o": "strike",
+    "pos": "n.",
+    "zh": "罷工",
+    "use": "go on strike；a strike for + 訴求",
+    "why": "be on strike「罷工中」；動詞 strike 是「打擊；襲擊」"
+   },
+   {
+    "o": "excursion",
+    "pos": "n.",
+    "zh": "短程旅遊",
+    "use": "an excursion to + 地點；a two-day excursion",
+    "why": "文法可以，但出遊不是為了加薪，也不會讓航班取消"
+   }
+  ]
+ },
+ {
+  "id": "p366",
+  "key": "buy on -------＋pay over twelve months：buy on credit「賒購；先買後付」",
+  "notes": [
+   {
+    "o": "balance",
+    "pos": "n.",
+    "zh": "餘額；結餘",
+    "use": "account balance；pay the balance（付清餘款）",
+    "why": "on balance 是「整體而言」，不是付款方式"
+   },
+   {
+    "o": "profit",
+    "pos": "n.",
+    "zh": "利潤",
+    "use": "make a profit；sell + 物 + at a profit",
+    "why": "profit 的介系詞是 at（at a profit），沒有 buy on profit"
+   },
+   {
+    "o": "stock",
+    "pos": "n.",
+    "zh": "庫存；股票",
+    "use": "in stock（有貨）／out of stock（缺貨）",
+    "why": "stock 配 in／out of，沒有 buy on stock 的說法"
+   },
+   {
+    "o": "credit",
+    "pos": "n.",
+    "zh": "信用；賒帳",
+    "use": "buy + 物 + on credit；a credit card",
+    "why": "store credit「購物金」；give + 人 + credit for「歸功」"
+   }
+  ]
+ },
+ {
+  "id": "p367",
+  "key": "------- with + 公司 ends＋sign a new one：會到期、要簽的 → contract",
+  "notes": [
+   {
+    "o": "reputation",
+    "pos": "n.",
+    "zh": "名聲",
+    "use": "a reputation for + N；a good reputation",
+    "why": "名聲不能 sign，也不會在三月到期"
+   },
+   {
+    "o": "contract",
+    "pos": "n.",
+    "zh": "合約",
+    "use": "a contract with + 公司；sign／renew a contract",
+    "why": "The contract ends／expires；同義 agreement"
+   },
+   {
+    "o": "deadline",
+    "pos": "n.",
+    "zh": "截止期限",
+    "use": "meet／miss a deadline；the deadline for + N",
+    "why": "期限不能 sign，也不說 deadline with + 公司"
+   },
+   {
+    "o": "session",
+    "pos": "n.",
+    "zh": "場次；時段",
+    "use": "a training／morning session",
+    "why": "有 a session with + 人 的說法，但場次不能 sign"
+   }
+  ]
+ },
+ {
+  "id": "p368",
+  "key": "a special ------- of $80 per night：每晚多少錢的價格 → rate（費率）",
+  "notes": [
+   {
+    "o": "trend",
+    "pos": "n.",
+    "zh": "趨勢",
+    "use": "market trends；a trend toward／in + N",
+    "why": "趨勢不能用「每晚 80 美元」表示"
+   },
+   {
+    "o": "rate",
+    "pos": "n.",
+    "zh": "費率；價格；比率",
+    "use": "a special／room／hourly rate；at a rate of + 金額",
+    "why": "group／discounted rate；interest rate「利率」"
+   },
+   {
+    "o": "shift",
+    "pos": "n.",
+    "zh": "輪班；班次",
+    "use": "the day／night shift；work a shift",
+    "why": "輪班是工作時段，不是飯店給房客的價格"
+   },
+   {
+    "o": "quarter",
+    "pos": "n.",
+    "zh": "季；四分之一",
+    "use": "in the first／third quarter",
+    "why": "季度是時間，不能是「每晚 80 美元」"
+   }
+  ]
+ },
+ {
+  "id": "p369",
+  "key": "works the evening -------＋4 p.m. until midnight：工作時段 → shift",
+  "notes": [
+   {
+    "o": "degree",
+    "pos": "n.",
+    "zh": "學位；程度",
+    "use": "a bachelor's／master's degree in + 科系",
+    "why": "學位是 earn／hold，不能 work，也沒有起訖時間"
+   },
+   {
+    "o": "quarter",
+    "pos": "n.",
+    "zh": "季；四分之一",
+    "use": "in the first／third quarter",
+    "why": "季度是三個月，不是下午四點到午夜的時段"
+   },
+   {
+    "o": "shift",
+    "pos": "n.",
+    "zh": "輪班；班次",
+    "use": "the day／evening／night shift",
+    "why": "動詞配 work：work a shift；動詞 shift 是「轉移」"
+   },
+   {
+    "o": "trend",
+    "pos": "n.",
+    "zh": "趨勢",
+    "use": "market trends；a trend toward／in + N",
+    "why": "趨勢不能 work，也沒有起訖時間"
+   }
+  ]
+ },
+ {
+  "id": "p370",
+  "key": "made a ------- of $5,000：冠詞 a 和 of 中間要名詞 → profit",
+  "notes": [
+   {
+    "o": "profit",
+    "pos": "n.",
+    "zh": "利潤；獲利",
+    "use": "名詞：a profit of + 金額；net profit（淨利）",
+    "why": "make／earn a profit；反義 loss「虧損」"
+   },
+   {
+    "o": "profited",
+    "pos": "v.（過去式／過去分詞）",
+    "zh": "獲利了",
+    "use": "動詞：profit from + N（從…獲利）",
+    "why": "冠詞 a 後面不能接動詞過去式"
+   },
+   {
+    "o": "profitable",
+    "pos": "adj.",
+    "zh": "有獲利的；賺錢的",
+    "use": "形容詞：a profitable business；be highly profitable",
+    "why": "a 和 of 之間缺名詞，形容詞後面沒有名詞可修飾"
+   },
+   {
+    "o": "profitably",
+    "pos": "adv.",
+    "zh": "有獲利地",
+    "use": "副詞：run／operate + 公司 + profitably",
+    "why": "副詞不能放在冠詞 a 後面當 made 的受詞"
+   }
+  ]
+ },
+ {
+  "id": "p371",
+  "key": "have free ------- to：形容詞 free 後要名詞當受詞 → access to + N",
+  "notes": [
+   {
+    "o": "accessed",
+    "pos": "v.（過去式／過去分詞）",
+    "zh": "被存取；被使用",
+    "use": "動詞：access + 檔案／系統（及物，不加 to）",
+    "why": "形容詞 free 後要名詞，不能接過去分詞"
+   },
+   {
+    "o": "accessibly",
+    "pos": "adv.",
+    "zh": "容易到達地",
+    "use": "副詞：修飾分詞，accessibly located",
+    "why": "副詞不能當 have 的受詞"
+   },
+   {
+    "o": "access",
+    "pos": "n.／v.",
+    "zh": "使用權；進入",
+    "use": "名詞：have／gain access to + N；不可數",
+    "why": "名詞接 to、不加 a；動詞直接接受詞（access the file）"
+   },
+   {
+    "o": "accessible",
+    "pos": "adj.",
+    "zh": "可進入的；易取得的",
+    "use": "形容詞：be accessible to + 人；accessible by bus",
+    "why": "free 後缺名詞，形容詞不能當 have 的受詞"
+   }
+  ]
+ },
+ {
+  "id": "p372",
+  "key": "a scheduling ------- with：scheduling conflict「行程撞期」",
+  "notes": [
+   {
+    "o": "agenda",
+    "pos": "n.",
+    "zh": "議程",
+    "use": "on the agenda；the agenda for + 會議",
+    "why": "議程是討論事項，不是「和客戶拜訪」相衝的原因"
+   },
+   {
+    "o": "conflict",
+    "pos": "n.",
+    "zh": "衝突；撞期",
+    "use": "a scheduling conflict；a conflict with + N",
+    "why": "動詞 conflict with + N「與…衝突」，介系詞一樣是 with"
+   },
+   {
+    "o": "outcome",
+    "pos": "n.",
+    "zh": "結果",
+    "use": "the outcome of + 會議／談判",
+    "why": "outcome 接 of，不接 with；也不是無法出席的原因"
+   },
+   {
+    "o": "summary",
+    "pos": "n.",
+    "zh": "摘要",
+    "use": "a summary of + 報告／會議",
+    "why": "summary 接 of，不接 with；也不是無法出席的原因"
+   }
+  ]
+ },
+ {
+  "id": "p373",
+  "key": "required before you move in＋will be returned：先付後退 → deposit",
+  "notes": [
+   {
+    "o": "pension",
+    "pos": "n.",
+    "zh": "退休金",
+    "use": "live on a pension；a pension plan",
+    "why": "退休金是退休後領的，不是入住前付、退租時退還"
+   },
+   {
+    "o": "donation",
+    "pos": "n.",
+    "zh": "捐款；捐贈",
+    "use": "make a donation to + 機構",
+    "why": "捐款是自願的，不會被要求（required），也不退還"
+   },
+   {
+    "o": "deposit",
+    "pos": "n.",
+    "zh": "押金；訂金；存款",
+    "use": "pay a deposit；a deposit of + 金額",
+    "why": "a security deposit「押金」；動詞 deposit + 錢「存入」"
+   },
+   {
+    "o": "profit",
+    "pos": "n.",
+    "zh": "利潤",
+    "use": "make a profit；net profit（淨利）",
+    "why": "利潤是賺到的錢，不是入住前要繳的款項"
+   }
+  ]
+ },
+ {
+  "id": "p374",
+  "key": "a long ------- about + 議題＋finally chose：討論很久才決定 → debate",
+  "notes": [
+   {
+    "o": "shipment",
+    "pos": "n.",
+    "zh": "（一批）貨物；出貨",
+    "use": "a shipment of + 貨物",
+    "why": "shipment 接 of + 貨物，不接 about + 議題"
+   },
+   {
+    "o": "refund",
+    "pos": "n.",
+    "zh": "退款",
+    "use": "get／request a refund for + 商品",
+    "why": "退款和選野餐地點無關，也不接 about where to…"
+   },
+   {
+    "o": "debate",
+    "pos": "n.",
+    "zh": "辯論；討論",
+    "use": "a debate about／on／over + 議題",
+    "why": "a heated debate「激烈辯論」；動詞 debate + 議題"
+   },
+   {
+    "o": "wage",
+    "pos": "n.",
+    "zh": "工資",
+    "use": "an hourly wage；the minimum wage",
+    "why": "工資是錢，不接 about where to hold…"
+   }
+  ]
+ }
+]

@@ -1,0 +1,4 @@
+[
+{"id":"p63","field":"notes.3.why","problem":"Claims a past participle cannot follow air, but participles can postmodify nouns; the real issue is meaning/slot","fix":"polluted 是形容詞「被污染的」，不是名詞「污染」，cut 缺受詞"},
+{"id":"p95","field":"notes.3.why","problem":"'字尾 -t 才是名詞' is a false suffix rule","fix":"常搭 make／file／receive a complaint"}
+]

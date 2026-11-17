@@ -548,6 +548,22 @@ button.opt:hover:not(:disabled) { border-color: var(--ink); background: var(--pa
 .opt.is-wrong { border-color: var(--again); background: var(--again-bg); }
 .opt.is-wrong .opt-l { background: var(--again); border-color: var(--again); color: #fff; }
 .opt.is-dim { opacity: .55; }
+/* 各選項解析：作答後接在每個選項底下 */
+.opt-b { display: flex; flex-direction: column; gap: 3px; min-width: 0; flex: 1; }
+.opts.has-x { grid-template-columns: 1fr; }
+.opts.has-x .opt { align-items: flex-start; }
+.opts.has-x .opt.is-dim { opacity: 1; }
+.opts.has-x .opt.is-dim .opt-l { opacity: .5; }
+.opt-mine { font-style: normal; font-size: 11px; font-weight: 700; color: #fff; background: var(--again); border-radius: 999px; padding: 1px 8px; margin-left: 8px; vertical-align: 2px; white-space: nowrap; }
+.ox { display: flex; flex-direction: column; gap: 2px; margin-top: 2px; font-size: 14px; line-height: 1.6; color: var(--text); }
+.ox-u { color: var(--ink); font-weight: 500; overflow-wrap: anywhere; }
+.ox-y { color: var(--muted); }
+.ox-y b { display: inline-block; font-size: 11px; font-weight: 700; line-height: 1.5; color: var(--again); border: 1px solid currentColor; border-radius: 4px; padding: 0 5px; margin-right: 6px; white-space: nowrap; }
+.ox-y.is-ans { color: var(--text); }
+.ox-y.is-ans b { color: var(--good); }
+.fb-key { font-size: 15px; line-height: 1.7; color: var(--text); }
+.fb-key b { display: inline-block; font-size: 12px; font-weight: 700; line-height: 1.6; color: #fff; background: var(--ink); border-radius: 6px; padding: 0 8px; margin-right: 8px; white-space: nowrap; }
+.fb-xp { font-size: 13px; padding: 5px 14px; background: #fff; }
 .opts-abc { grid-template-columns: repeat(3, 1fr); }
 .opts-abc .opt { justify-content: center; min-height: 72px; }
 .opts-abc .opt-l { width: 40px; height: 40px; font-size: 18px; }

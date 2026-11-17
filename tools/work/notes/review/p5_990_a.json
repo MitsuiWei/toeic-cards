@@ -1,0 +1,4 @@
+[
+ {"id":"p771","field":"notes.2.why","problem":"Overgeneral: adjectives can sometimes be subjects (the rich); the real reason is no noun for it to modify","fix":"wireless 後缺名詞；形容詞無名詞可修飾，不能直接接 is"},
+ {"id":"p821","field":"notes.3.why","problem":"Overgeneral: adjectives can sometimes be subjects (the poor); the real reason is no noun for it to modify","fix":"annual 後缺名詞；形容詞無名詞可修飾，不能直接接 has"}
+]

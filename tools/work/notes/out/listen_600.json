@@ -1,0 +1,2102 @@
+[
+ {
+  "id": "l600-001",
+  "key": "Which 問選哪一個 → 「我查一下」是合理的間接回答",
+  "notes": [
+   {
+    "o": "Yes, I bought it online.",
+    "trap": "Yes／No 陷阱",
+    "why": "Which 問句不能答 Yes，說的也是網購"
+   },
+   {
+    "o": "It comes in three colors.",
+    "trap": "答非所問",
+    "why": "three colors 是顏色，不是哪家門市"
+   },
+   {
+    "o": "Let me look it up on the computer.",
+    "trap": "",
+    "why": "沒直接答，但「我查一下」表示要先確認 → 合理"
+   }
+  ]
+ },
+ {
+  "id": "l600-002",
+  "key": "Who 問人 → 聽人名加部門，地點與時間刪掉",
+  "notes": [
+   {
+    "o": "In late December.",
+    "trap": "答非所問",
+    "why": "In late December 是時間，不是人"
+   },
+   {
+    "o": "At a restaurant near the office.",
+    "trap": "答非所問",
+    "why": "At a restaurant 是地點，不是人"
+   },
+   {
+    "o": "Kevin from the sales division.",
+    "trap": "",
+    "why": "Kevin 是主持人，from sales division 補充部門"
+   }
+  ]
+ },
+ {
+  "id": "l600-003",
+  "key": "Have you received 問收到沒 → 「她說今天寄」= 還沒收到",
+  "notes": [
+   {
+    "o": "By express train.",
+    "trap": "答非所問",
+    "why": "By express train 是交通方式，不是有沒有收到"
+   },
+   {
+    "o": "Ms. Lin said she'd send it today.",
+    "trap": "",
+    "why": "she'd send it today 表示還沒收到 → 間接回答"
+   },
+   {
+    "o": "Yes, the receipt is here.",
+    "trap": "相似音陷阱",
+    "why": "receipt 與 received 音近，但不是行程表"
+   }
+  ]
+ },
+ {
+  "id": "l600-004",
+  "key": "Aren't you 否定問句 → 照事實答 Yes／No 加行動",
+  "notes": [
+   {
+    "o": "Yes, I'll hand in the form today.",
+    "trap": "",
+    "why": "Yes 表示會申請，並說今天交表格"
+   },
+   {
+    "o": "It was a pleasant trip.",
+    "trap": "相關字陷阱",
+    "why": "trip 與 travel 相關，只說旅行感想"
+   },
+   {
+    "o": "At the baggage claim area.",
+    "trap": "一字多義陷阱",
+    "why": "baggage claim 的 claim 是「提領」，不是申請"
+   }
+  ]
+ },
+ {
+  "id": "l600-005",
+  "key": "陳述好消息 → 聽 great／congratulations 的回應",
+  "notes": [
+   {
+    "o": "That's great news for the whole team.",
+    "trap": "",
+    "why": "great news 回應利潤比預期高這個好消息"
+   },
+   {
+    "o": "Put it on a higher shelf.",
+    "trap": "重複字陷阱",
+    "why": "重複 higher，但說的是架子，不是利潤"
+   },
+   {
+    "o": "Yes, I expect him at noon.",
+    "trap": "相似音陷阱",
+    "why": "expect 與 expected 相近，但說的是等人"
+   }
+  ]
+ },
+ {
+  "id": "l600-006",
+  "key": "What time 問幾點 → 只聽時刻，reception 小心一字多義",
+  "notes": [
+   {
+    "o": "About two hundred guests.",
+    "trap": "答非所問",
+    "why": "two hundred guests 是人數，不是時間"
+   },
+   {
+    "o": "At the front desk.",
+    "trap": "一字多義陷阱",
+    "why": "front desk 是 reception 的「接待處」義"
+   },
+   {
+    "o": "It starts at seven.",
+    "trap": "",
+    "why": "starts at seven 是開始的時間"
+   }
+  ]
+ },
+ {
+  "id": "l600-007",
+  "key": "陳述有問題 → 聽「那就改…」的對策",
+  "notes": [
+   {
+    "o": "Then we should move it indoors.",
+    "trap": "",
+    "why": "Then 引出改到室內，因應下雨"
+   },
+   {
+    "o": "I'll have a sandwich, please.",
+    "trap": "相關字陷阱",
+    "why": "sandwich 與 picnic 相關，但沒回應下雨"
+   },
+   {
+    "o": "No, I prefer the train.",
+    "trap": "相似音陷阱",
+    "why": "train 與 rain 音近，且 No 不連貫"
+   }
+  ]
+ },
+ {
+  "id": "l600-008",
+  "key": "Would you mind 要聽 Not at all = 不介意 = 答應",
+  "notes": [
+   {
+    "o": "It's extension two oh five.",
+    "trap": "一字多義陷阱",
+    "why": "extension 是「分機」，不是「延期」"
+   },
+   {
+    "o": "Not at all, Friday will be fine.",
+    "trap": "",
+    "why": "Not at all 表示不介意，並說星期五可以"
+   },
+   {
+    "o": "Yes, the line is very long.",
+    "trap": "相似音陷阱",
+    "why": "line 與 deadline 相近，且 Yes 會變成介意"
+   }
+  ]
+ },
+ {
+  "id": "l600-009",
+  "key": "What 加 rate 問價格 → 聽金額加單位",
+  "notes": [
+   {
+    "o": "Ninety dollars a night.",
+    "trap": "",
+    "why": "Ninety dollars a night 是房價"
+   },
+   {
+    "o": "For three nights.",
+    "trap": "答非所問",
+    "why": "For three nights 是住幾晚，不是價格"
+   },
+   {
+    "o": "On the fifth floor.",
+    "trap": "答非所問",
+    "why": "On the fifth floor 是樓層，不是價格"
+   }
+  ]
+ },
+ {
+  "id": "l600-010",
+  "key": "Who 問該找誰 → 聽 Try／Ask 加人或部門",
+  "notes": [
+   {
+    "o": "Within three business days.",
+    "trap": "答非所問",
+    "why": "Within three days 是期限，不是對象"
+   },
+   {
+    "o": "It was ordered on Monday.",
+    "trap": "重複字陷阱",
+    "why": "重複 order，但說下單時間，不是找誰"
+   },
+   {
+    "o": "Try the customer service desk.",
+    "trap": "",
+    "why": "Try the customer service desk 是該找的對象"
+   }
+  ]
+ },
+ {
+  "id": "l600-011",
+  "key": "A or B 問句 → 聽選出的那一個，Yes／No 刪掉",
+  "notes": [
+   {
+    "o": "No, I haven't found it.",
+    "trap": "Yes／No 陷阱",
+    "why": "選擇問句不能答 No，且誤解 looking for"
+   },
+   {
+    "o": "A domestic one, please.",
+    "trap": "",
+    "why": "選了 domestic，符合 domestic or international"
+   },
+   {
+    "o": "At the airport gate.",
+    "trap": "答非所問",
+    "why": "At the gate 是地點，沒選國內或國際"
+   }
+  ]
+ },
+ {
+  "id": "l600-012",
+  "key": "What kind 問種類 → 聽具體物品，不是 Yes",
+  "notes": [
+   {
+    "o": "A passport or a driver's license.",
+    "trap": "",
+    "why": "A passport or a driver's license 是證件種類"
+   },
+   {
+    "o": "To the front gate.",
+    "trap": "答非所問",
+    "why": "To the front gate 是地點，不是證件"
+   },
+   {
+    "o": "Yes, I brought it.",
+    "trap": "Yes／No 陷阱",
+    "why": "What 問句不能答 Yes"
+   }
+  ]
+ },
+ {
+  "id": "l600-013",
+  "key": "Do I need to 問需不需要 → No 加替代作法也行",
+  "notes": [
+   {
+    "o": "The cash register is broken.",
+    "trap": "一字多義陷阱",
+    "why": "cash register 是「收銀機」，不是「報名」"
+   },
+   {
+    "o": "No, you can sign up at the door.",
+    "trap": "",
+    "why": "No 表示不用，現場報名即可"
+   },
+   {
+    "o": "It was very interesting.",
+    "trap": "語意不連貫",
+    "why": "用過去式談感想，沒回答要不要事先報名"
+   }
+  ]
+ },
+ {
+  "id": "l600-014",
+  "key": "Could you tell 是請求 → 聽 I'll 加做法 = 答應",
+  "notes": [
+   {
+    "o": "Take the stairs to the fifth floor.",
+    "trap": "相關字陷阱",
+    "why": "stairs 與 elevator 相關，沒回應請求"
+   },
+   {
+    "o": "Ten of them, I think.",
+    "trap": "相似音陷阱",
+    "why": "Ten 與 tenants 音近，答的是數量"
+   },
+   {
+    "o": "I'll put up a notice today.",
+    "trap": "",
+    "why": "I'll put up a notice 表示會貼公告 → 答應"
+   }
+  ]
+ },
+ {
+  "id": "l600-015",
+  "key": "陳述有問題 → 聽 Then 加對策",
+  "notes": [
+   {
+    "o": "I left it on the train.",
+    "trap": "重複字陷阱",
+    "why": "重複 train，但說東西忘在車上"
+   },
+   {
+    "o": "The training starts at nine.",
+    "trap": "相似音陷阱",
+    "why": "training 與 trains 音近，內容離題"
+   },
+   {
+    "o": "Then I'd better take a taxi.",
+    "trap": "",
+    "why": "Then 引出改搭計程車，因應誤點"
+   }
+  ]
+ },
+ {
+  "id": "l600-016",
+  "key": "Is there 問有沒有 → 聽 Yes 加具體設施",
+  "notes": [
+   {
+    "o": "It takes credit cards.",
+    "trap": "語意不連貫",
+    "why": "說刷卡，與有沒有大眾運輸無關"
+   },
+   {
+    "o": "I'd like to check in, please.",
+    "trap": "相關字陷阱",
+    "why": "check in 與 hotel 相關，沒回答問題"
+   },
+   {
+    "o": "Yes, there's a bus stop right outside.",
+    "trap": "",
+    "why": "Yes 回答有，並說門口有公車站"
+   }
+  ]
+ },
+ {
+  "id": "l600-017",
+  "key": "How 問方法 → 聽 Just／You can 加步驟",
+  "notes": [
+   {
+    "o": "It arrived two weeks ago.",
+    "trap": "答非所問",
+    "why": "two weeks ago 是時間，不是方法"
+   },
+   {
+    "o": "Just call the number on the back.",
+    "trap": "",
+    "why": "Just call the number 是啟用的方法"
+   },
+   {
+    "o": "Yes, I opened an account.",
+    "trap": "Yes／No 陷阱",
+    "why": "How 問句不能答 Yes"
+   }
+  ]
+ },
+ {
+  "id": "l600-018",
+  "key": "Does 問有沒有 → Yes 加具體地點",
+  "notes": [
+   {
+    "o": "The office closes at six.",
+    "trap": "重複字陷阱",
+    "why": "重複 office，但說關門時間"
+   },
+   {
+    "o": "I'm going on vacation.",
+    "trap": "相關字陷阱",
+    "why": "vacation 與海外相關，但沒回答問題"
+   },
+   {
+    "o": "Yes, we have one in Singapore.",
+    "trap": "",
+    "why": "Yes 回答有，並說在新加坡"
+   }
+  ]
+ },
+ {
+  "id": "l600-019",
+  "key": "Where 問位置 → 聽 next to／near 加地標",
+  "notes": [
+   {
+    "o": "Yes, it works very well.",
+    "trap": "Yes／No 陷阱",
+    "why": "Where 問句不能答 Yes"
+   },
+   {
+    "o": "It's next to the elevator.",
+    "trap": "",
+    "why": "next to the elevator 是影印機的位置"
+   },
+   {
+    "o": "About twenty copies, please.",
+    "trap": "重複字陷阱",
+    "why": "copies 與 photocopier 相關，說的是份數"
+   }
+  ]
+ },
+ {
+  "id": "l600-020",
+  "key": "How much 問價錢 → 「看方案」是合理的間接回答",
+  "notes": [
+   {
+    "o": "Every month, I think.",
+    "trap": "重複字陷阱",
+    "why": "重複 month，答的是頻率，不是金額"
+   },
+   {
+    "o": "It depends on the plan you choose.",
+    "trap": "",
+    "why": "沒給金額，但 depends on the plan 表示價格不一"
+   },
+   {
+    "o": "By credit card.",
+    "trap": "答非所問",
+    "why": "By credit card 是付款方式，不是金額"
+   }
+  ]
+ },
+ {
+  "id": "l600-021",
+  "key": "Could you 是請求 → Sure 加 I'll do it",
+  "notes": [
+   {
+    "o": "They're on the top shelf.",
+    "trap": "答非所問",
+    "why": "On the top shelf 是位置，沒回應請求"
+   },
+   {
+    "o": "Sure, I'll do it right now.",
+    "trap": "",
+    "why": "Sure 答應，並說現在就做"
+   },
+   {
+    "o": "Yes, I saw them yesterday.",
+    "trap": "語意不連貫",
+    "why": "說昨天看到文件，沒回應請求"
+   }
+  ]
+ },
+ {
+  "id": "l600-022",
+  "key": "附加問句 doesn't it → 聽 Yes 加同意的理由",
+  "notes": [
+   {
+    "o": "Yes, everyone says the food is excellent.",
+    "trap": "",
+    "why": "Yes 同意評價好，並補充菜很棒"
+   },
+   {
+    "o": "No, I didn't repeat it.",
+    "trap": "相似音陷阱",
+    "why": "repeat 與 reputation 音近，且過去式不合"
+   },
+   {
+    "o": "A table by the window.",
+    "trap": "相關字陷阱",
+    "why": "table 與 restaurant 相關，沒回答評價"
+   }
+  ]
+ },
+ {
+  "id": "l600-023",
+  "key": "Why don't we 是提議 → 聽 Good idea／Sure",
+  "notes": [
+   {
+    "o": "On the home page.",
+    "trap": "相關字陷阱",
+    "why": "home page 與 website 相關，沒回應提議"
+   },
+   {
+    "o": "Good idea, I know a good designer.",
+    "trap": "",
+    "why": "Good idea 贊成，並說認識設計師"
+   },
+   {
+    "o": "Because the bus was late.",
+    "trap": "語意不連貫",
+    "why": "把提議當問原因，bus 與主題無關"
+   }
+  ]
+ },
+ {
+  "id": "l600-024",
+  "key": "Why 問原因 → 沒有 Because 的原因子句也行",
+  "notes": [
+   {
+    "o": "My client moved our meeting to Friday.",
+    "trap": "",
+    "why": "沒用 Because，但說客戶改期 → 說明原因"
+   },
+   {
+    "o": "At gate twelve.",
+    "trap": "答非所問",
+    "why": "At gate twelve 是地點，不是原因"
+   },
+   {
+    "o": "A window seat, please.",
+    "trap": "相關字陷阱",
+    "why": "window seat 與 flight 相關，不是原因"
+   }
+  ]
+ },
+ {
+  "id": "l600-025",
+  "key": "Can you assure 要聽「保證」→ Yes 加 guarantee",
+  "notes": [
+   {
+    "o": "I'm sure it was expensive.",
+    "trap": "相似音陷阱",
+    "why": "sure 與 assure 相近，說的是價錢"
+   },
+   {
+    "o": "At the wrong address.",
+    "trap": "答非所問",
+    "why": "At the wrong address 是地點，不是保證"
+   },
+   {
+    "o": "Yes, we guarantee delivery by Friday.",
+    "trap": "",
+    "why": "Yes 答應保證，guarantee 是同義詞"
+   }
+  ]
+ },
+ {
+  "id": "l600-026",
+  "key": "附加問句 isn't he → 聽 Yes 加同意的理由",
+  "notes": [
+   {
+    "o": "Yes, he's never been late.",
+    "trap": "",
+    "why": "Yes 同意，never been late 呼應 punctual"
+   },
+   {
+    "o": "The meeting is at two o'clock.",
+    "trap": "答非所問",
+    "why": "會議時間與他準不準時無關"
+   },
+   {
+    "o": "By the three o'clock train.",
+    "trap": "答非所問",
+    "why": "By train 是交通方式，沒回應準時"
+   }
+  ]
+ },
+ {
+  "id": "l600-027",
+  "key": "How can I 問方法 → 聽 You can 加做法",
+  "notes": [
+   {
+    "o": "It's on Bank Street.",
+    "trap": "答非所問",
+    "why": "Bank Street 是地點，不是查詢方法"
+   },
+   {
+    "o": "A savings account, please.",
+    "trap": "重複字陷阱",
+    "why": "重複 account，答的是帳戶種類"
+   },
+   {
+    "o": "You can check it on our website.",
+    "trap": "",
+    "why": "on our website 是查餘額的方法"
+   }
+  ]
+ },
+ {
+  "id": "l600-028",
+  "key": "Can I 問能不能 → Yes 加做法",
+  "notes": [
+   {
+    "o": "In the furniture section.",
+    "trap": "相關字陷阱",
+    "why": "furniture section 與桌子相關，是地點"
+   },
+   {
+    "o": "Yes, just press the button on the side.",
+    "trap": "",
+    "why": "Yes 回答可以調整，並說按側邊按鈕"
+   },
+   {
+    "o": "It's two meters long.",
+    "trap": "相關字陷阱",
+    "why": "long 是長度，問的是高度能否調整"
+   }
+  ]
+ },
+ {
+  "id": "l600-029",
+  "key": "Could you quote 是請求 → 聽 Sure 加動作",
+  "notes": [
+   {
+    "o": "Please have a seat.",
+    "trap": "相關字陷阱",
+    "why": "have a seat 與 chairs 相關，沒回應請求"
+   },
+   {
+    "o": "That's a famous quote.",
+    "trap": "一字多義陷阱",
+    "why": "quote 是「名言」，不是「報價」"
+   },
+   {
+    "o": "Sure, I'll email it to you today.",
+    "trap": "",
+    "why": "Sure 答應報價，並說今天寄"
+   }
+  ]
+ },
+ {
+  "id": "l600-030",
+  "key": "Do you have 問有沒有 → Yes 加補充",
+  "notes": [
+   {
+    "o": "At the airport.",
+    "trap": "相關字陷阱",
+    "why": "airport 與護照相關，但是地點"
+   },
+   {
+    "o": "I passed the test.",
+    "trap": "相似音陷阱",
+    "why": "passed 與 passport 音近，說的是考試"
+   },
+   {
+    "o": "Yes, it's good for another five years.",
+    "trap": "",
+    "why": "Yes 回答有效，並說還有五年效期"
+   }
+  ]
+ },
+ {
+  "id": "l600-031",
+  "key": "A or B 問句 → 「會計師要用」= 要歸檔",
+  "notes": [
+   {
+    "o": "It's far away from here.",
+    "trap": "重複字陷阱",
+    "why": "重複 away，說的是距離"
+   },
+   {
+    "o": "Yes, I received them.",
+    "trap": "相似音陷阱",
+    "why": "received 與 receipts 相近，且 Yes 不合"
+   },
+   {
+    "o": "The accountant will need them later.",
+    "trap": "",
+    "why": "沒直接選，但之後還要用 → 該歸檔 → 間接回答"
+   }
+  ]
+ },
+ {
+  "id": "l600-032",
+  "key": "A or B 問句 → Either 就是兩個都可以",
+  "notes": [
+   {
+    "o": "The window is open.",
+    "trap": "重複字陷阱",
+    "why": "重複 window，說窗戶開著，沒選座位"
+   },
+   {
+    "o": "Yes, please have a seat.",
+    "trap": "Yes／No 陷阱",
+    "why": "選擇問句不能答 Yes，只重複 seat"
+   },
+   {
+    "o": "Either is fine with me.",
+    "trap": "",
+    "why": "Either is fine 表示兩個都可以，是合理選擇"
+   }
+  ]
+ },
+ {
+  "id": "l600-033",
+  "key": "How many 問人數 → 聽數字，plant 是工廠",
+  "notes": [
+   {
+    "o": "It opened in June.",
+    "trap": "答非所問",
+    "why": "opened in June 是時間，不是人數"
+   },
+   {
+    "o": "They need water every day.",
+    "trap": "一字多義陷阱",
+    "why": "plant 在此是「工廠」，不是「植物」"
+   },
+   {
+    "o": "Approximately five hundred.",
+    "trap": "",
+    "why": "Approximately five hundred 是約略人數"
+   }
+  ]
+ },
+ {
+  "id": "l600-034",
+  "key": "How 問通勤方式 → 聽 take／by 加交通工具",
+  "notes": [
+   {
+    "o": "The majority take the subway.",
+    "trap": "",
+    "why": "take the subway 是通勤的交通方式"
+   },
+   {
+    "o": "About forty minutes.",
+    "trap": "答非所問",
+    "why": "forty minutes 是 How long 的答案"
+   },
+   {
+    "o": "They start at nine o'clock.",
+    "trap": "答非所問",
+    "why": "start at nine 是上班時間，不是方式"
+   }
+  ]
+ },
+ {
+  "id": "l600-035",
+  "key": "A or B 問句 → 聽選了哪一個",
+  "notes": [
+   {
+    "o": "Yes, the mail has arrived.",
+    "trap": "Yes／No 陷阱",
+    "why": "選擇問句不能答 Yes，只重複 mail"
+   },
+   {
+    "o": "To the hiring manager.",
+    "trap": "答非所問",
+    "why": "To the hiring manager 是對象，沒選方式"
+   },
+   {
+    "o": "Email would be better.",
+    "trap": "",
+    "why": "Email would be better 選了電子郵件"
+   }
+  ]
+ },
+ {
+  "id": "l600-036",
+  "key": "When 問時間 → 「還在討論」= 時間未定",
+  "notes": [
+   {
+    "o": "They're still discussing it.",
+    "trap": "",
+    "why": "沒給時間，但還在討論表示尚未決定 → 間接回答"
+   },
+   {
+    "o": "Yes, I announced it.",
+    "trap": "Yes／No 陷阱",
+    "why": "When 問句不能答 Yes"
+   },
+   {
+    "o": "There are six members.",
+    "trap": "答非所問",
+    "why": "six members 是人數，不是時間"
+   }
+  ]
+ },
+ {
+  "id": "l600-037",
+  "key": "附加問句 haven't you → 聽 Yes 加細節",
+  "notes": [
+   {
+    "o": "In the supply room.",
+    "trap": "答非所問",
+    "why": "In the supply room 是地點，沒回答填好沒"
+   },
+   {
+    "o": "The glass is full.",
+    "trap": "相似音陷阱",
+    "why": "full 與 filled 音近，說的是杯子"
+   },
+   {
+    "o": "Yes, I handed it in this morning.",
+    "trap": "",
+    "why": "Yes 確認填好了，並說今天早上交出"
+   }
+  ]
+ },
+ {
+  "id": "l600-038",
+  "key": "Let's 是提議 → 聽 Sure 加時間 = 同意",
+  "notes": [
+   {
+    "o": "Sure, I'm free at two.",
+    "trap": "",
+    "why": "Sure 同意，並說兩點有空"
+   },
+   {
+    "o": "It's over there, on the left.",
+    "trap": "重複字陷阱",
+    "why": "over 與 go over 同字，說的是位置"
+   },
+   {
+    "o": "I'll have the chicken salad.",
+    "trap": "相關字陷阱",
+    "why": "chicken salad 與 lunch 相關，是點餐"
+   }
+  ]
+ },
+ {
+  "id": "l600-039",
+  "key": "Would you mind 要聽 Not at all = 願意",
+  "notes": [
+   {
+    "o": "I look forward to it.",
+    "trap": "重複字陷阱",
+    "why": "look forward 與 forwarding 同字，是「期待」"
+   },
+   {
+    "o": "Not at all, I'll send it right away.",
+    "trap": "",
+    "why": "Not at all 表示不介意，並說馬上寄"
+   },
+   {
+    "o": "He moved to a new address.",
+    "trap": "語意不連貫",
+    "why": "說他搬家，沒回應轉寄的請求"
+   }
+  ]
+ },
+ {
+  "id": "l600-040",
+  "key": "Which 問選哪個 → 「還沒決定」是間接回答",
+  "notes": [
+   {
+    "o": "Yes, I applied last week.",
+    "trap": "Yes／No 陷阱",
+    "why": "Which 問句不能答 Yes，也不是選人"
+   },
+   {
+    "o": "We haven't made a decision yet.",
+    "trap": "",
+    "why": "沒選出人，但 haven't decided 表示尚未決定"
+   },
+   {
+    "o": "In the human resources office.",
+    "trap": "答非所問",
+    "why": "In the HR office 是地點，不是人選"
+   }
+  ]
+ },
+ {
+  "id": "l600-041",
+  "key": "Could you show me 是請求 → Sure 加說明",
+  "notes": [
+   {
+    "o": "The interview is at three.",
+    "trap": "相似音陷阱",
+    "why": "interview 與 interface 音近"
+   },
+   {
+    "o": "Yes, the show was great.",
+    "trap": "一字多義陷阱",
+    "why": "show 是「表演」，不是「示範」"
+   },
+   {
+    "o": "Sure, it only takes a few minutes.",
+    "trap": "",
+    "why": "Sure 答應，並說只要幾分鐘"
+   }
+  ]
+ },
+ {
+  "id": "l600-042",
+  "key": "Why 問原因 → 沒有 Because 也要聽出理由",
+  "notes": [
+   {
+    "o": "There's construction work going on.",
+    "trap": "",
+    "why": "construction work 說明關閉的原因"
+   },
+   {
+    "o": "Behind the main building.",
+    "trap": "答非所問",
+    "why": "Behind the main building 是位置，不是原因"
+   },
+   {
+    "o": "It's five dollars an hour.",
+    "trap": "相關字陷阱",
+    "why": "five dollars 與停車相關，是費用"
+   }
+  ]
+ },
+ {
+  "id": "l600-043",
+  "key": "What 問內容 → 聽具體食材名稱",
+  "notes": [
+   {
+    "o": "Yes, it's the main dish.",
+    "trap": "重複字陷阱",
+    "why": "重複 main，但 What 問句不能答 Yes"
+   },
+   {
+    "o": "It's ten dollars a bowl.",
+    "trap": "答非所問",
+    "why": "ten dollars 是價錢，不是食材"
+   },
+   {
+    "o": "Tomatoes, onions, and chicken.",
+    "trap": "",
+    "why": "列出 Tomatoes, onions 等食材"
+   }
+  ]
+ },
+ {
+  "id": "l600-044",
+  "key": "Could you add 是請求 → Sure 加追問",
+  "notes": [
+   {
+    "o": "It's on sale today.",
+    "trap": "一字多義陷阱",
+    "why": "on sale 把 item 當成「商品」"
+   },
+   {
+    "o": "Sure, what would you like to discuss?",
+    "trap": "",
+    "why": "Sure 答應，並問要加什麼議題"
+   },
+   {
+    "o": "Yes, I added the numbers.",
+    "trap": "一字多義陷阱",
+    "why": "added 是「相加」，不是加議程"
+   }
+  ]
+ },
+ {
+  "id": "l600-045",
+  "key": "What caused 問原因 → 聽故障的具體原因",
+  "notes": [
+   {
+    "o": "A piece of paper got stuck inside.",
+    "trap": "",
+    "why": "paper got stuck 是故障的原因"
+   },
+   {
+    "o": "It's on the second floor.",
+    "trap": "答非所問",
+    "why": "on the second floor 是位置，不是原因"
+   },
+   {
+    "o": "Twenty color copies, please.",
+    "trap": "相關字陷阱",
+    "why": "color copies 與 printer 相關，不是原因"
+   }
+  ]
+ },
+ {
+  "id": "l600-046",
+  "key": "Do you have 問有沒有 → 聽 No 加補充物品",
+  "notes": [
+   {
+    "o": "The flight was two hours late.",
+    "trap": "語意不連貫",
+    "why": "說班機誤點，沒回答有沒有東西要申報"
+   },
+   {
+    "o": "No, I only have clothes and books.",
+    "trap": "",
+    "why": "No 表示沒有，並說只帶衣服和書"
+   },
+   {
+    "o": "Yes, the sky is clear today.",
+    "trap": "相似音陷阱",
+    "why": "clear 與 declare 音近，說的是天氣"
+   }
+  ]
+ },
+ {
+  "id": "l600-047",
+  "key": "Where 問交到哪 → 「全部線上」= 不用交到某處",
+  "notes": [
+   {
+    "o": "It was quite expensive.",
+    "trap": "相似音陷阱",
+    "why": "expensive 與 expense 音近，說的是價格"
+   },
+   {
+    "o": "Everything is done online now.",
+    "trap": "",
+    "why": "沒說地點，但 done online 表示線上提交 → 間接回答"
+   },
+   {
+    "o": "By the end of the month.",
+    "trap": "答非所問",
+    "why": "By the end of the month 是期限，不是地點"
+   }
+  ]
+ },
+ {
+  "id": "l600-048",
+  "key": "When 問時間 → 聽月份或日期",
+  "notes": [
+   {
+    "o": "The tenant upstairs.",
+    "trap": "相關字陷阱",
+    "why": "tenant 與 lease 相關，說的是人"
+   },
+   {
+    "o": "A two-bedroom apartment.",
+    "trap": "相關字陷阱",
+    "why": "two-bedroom 與租屋相關，說的是房型"
+   },
+   {
+    "o": "At the end of March.",
+    "trap": "",
+    "why": "At the end of March 是租約到期的時間"
+   }
+  ]
+ },
+ {
+  "id": "l600-049",
+  "key": "A or B 問句 → 聽 morning 或 afternoon 哪一個",
+  "notes": [
+   {
+    "o": "It starts at ten in the morning.",
+    "trap": "",
+    "why": "starts at ten in the morning 選了上午"
+   },
+   {
+    "o": "In the training room.",
+    "trap": "重複字陷阱",
+    "why": "重複 training，說的是地點"
+   },
+   {
+    "o": "Good afternoon, everyone.",
+    "trap": "重複字陷阱",
+    "why": "重複 afternoon，但只是打招呼，沒選時段"
+   }
+  ]
+ },
+ {
+  "id": "l600-050",
+  "key": "否定問句 Shouldn't we → 聽 You're right 同意",
+  "notes": [
+   {
+    "o": "You're right, the others can wait.",
+    "trap": "",
+    "why": "You're right 同意，並說其他的可以晚點做"
+   },
+   {
+    "o": "It's in the center of town.",
+    "trap": "相似音陷阱",
+    "why": "center 與 concentrate 音近，說的是地點"
+   },
+   {
+    "o": "On the first floor.",
+    "trap": "重複字陷阱",
+    "why": "重複 first，說的是樓層"
+   }
+  ]
+ },
+ {
+  "id": "l600-051",
+  "key": "Can you help 是請求 → Sure 加動作 = 答應",
+  "notes": [
+   {
+    "o": "Sure, let me get my tools.",
+    "trap": "",
+    "why": "Sure 答應幫忙，並說去拿工具"
+   },
+   {
+    "o": "The assembly is at ten.",
+    "trap": "一字多義陷阱",
+    "why": "assembly 在此是「集會」，不是「組裝」"
+   },
+   {
+    "o": "I read that book last year.",
+    "trap": "重複字陷阱",
+    "why": "重複 book，說讀過書，沒回應請求"
+   }
+  ]
+ },
+ {
+  "id": "l600-052",
+  "key": "Please don't hesitate 是客套 → 回 Thank you 加 I will",
+  "notes": [
+   {
+    "o": "Thank you, I will.",
+    "trap": "",
+    "why": "Thank you, I will 表示感謝並會照做"
+   },
+   {
+    "o": "No, he didn't call me.",
+    "trap": "重複字陷阱",
+    "why": "重複 call，但說的是另一個人"
+   },
+   {
+    "o": "The answer is on page ten.",
+    "trap": "相關字陷阱",
+    "why": "answer 與 questions 相關，沒回應"
+   }
+  ]
+ },
+ {
+  "id": "l600-053",
+  "key": "How was 問情況 → 聽評價加內容",
+  "notes": [
+   {
+    "o": "It went well, and I got good feedback.",
+    "trap": "",
+    "why": "went well 回答面談結果，並補充回饋"
+   },
+   {
+    "o": "In her office at two.",
+    "trap": "答非所問",
+    "why": "In her office at two 是地點時間，不是情況"
+   },
+   {
+    "o": "The show starts at eight.",
+    "trap": "一字多義陷阱",
+    "why": "show 是「表演」，performance 在此是「工作表現」"
+   }
+  ]
+ },
+ {
+  "id": "l600-054",
+  "key": "Is ... included 問含不含 → Yes 加補充",
+  "notes": [
+   {
+    "o": "Yes, it's complimentary for all guests.",
+    "trap": "",
+    "why": "Yes 回答含早餐，並說免費"
+   },
+   {
+    "o": "A table for two, please.",
+    "trap": "相關字陷阱",
+    "why": "a table for two 與用餐相關，沒回答含不含"
+   },
+   {
+    "o": "On the tenth floor.",
+    "trap": "答非所問",
+    "why": "On the tenth floor 是地點，不是含不含"
+   }
+  ]
+ },
+ {
+  "id": "l600-055",
+  "key": "Why don't we 是提議 → 說沒預算也是回應",
+  "notes": [
+   {
+    "o": "It's in the storage room.",
+    "trap": "語意不連貫",
+    "why": "說放在儲藏室，沒回應投資的提議"
+   },
+   {
+    "o": "We don't have the budget right now.",
+    "trap": "",
+    "why": "沒預算 → 委婉表示不贊成，是合理回應"
+   },
+   {
+    "o": "He works at a bank.",
+    "trap": "相關字陷阱",
+    "why": "bank 與 invest 相關，沒回應提議"
+   }
+  ]
+ },
+ {
+  "id": "l600-056",
+  "key": "How long 加 guarantee 問保固期間 → 聽 years",
+  "notes": [
+   {
+    "o": "It's two hundred dollars.",
+    "trap": "答非所問",
+    "why": "two hundred dollars 是價錢，不是期間"
+   },
+   {
+    "o": "Two years from the date of purchase.",
+    "trap": "",
+    "why": "Two years 是保固的期間"
+   },
+   {
+    "o": "In the kitchen section.",
+    "trap": "答非所問",
+    "why": "In the kitchen section 是地點，不是期間"
+   }
+  ]
+ },
+ {
+  "id": "l600-057",
+  "key": "陳述要辦事 → 聽服務人員的回應",
+  "notes": [
+   {
+    "o": "It's two hundred meters away.",
+    "trap": "重複字陷阱",
+    "why": "重複 two hundred，說的是距離"
+   },
+   {
+    "o": "I'll count the chairs.",
+    "trap": "相似音陷阱",
+    "why": "count 與 account 音近，說的是數椅子"
+   },
+   {
+    "o": "Certainly, may I see your bank card?",
+    "trap": "",
+    "why": "Certainly 接受，並請對方出示金融卡辦理"
+   }
+  ]
+ },
+ {
+  "id": "l600-058",
+  "key": "Have you sent 問寄了沒 → 「還在等簽名」= 還沒寄",
+  "notes": [
+   {
+    "o": "I'm still waiting for the manager's signature.",
+    "trap": "",
+    "why": "還在等簽名表示還沒寄 → 間接回答"
+   },
+   {
+    "o": "He's a new client.",
+    "trap": "重複字陷阱",
+    "why": "重複 client，沒回答寄了沒"
+   },
+   {
+    "o": "For two years, I think.",
+    "trap": "答非所問",
+    "why": "For two years 是期間，不是寄了沒"
+   }
+  ]
+ },
+ {
+  "id": "l600-059",
+  "key": "What ... feature 問功能 → 聽 It can 加動作",
+  "notes": [
+   {
+    "o": "It can track your daily expenses.",
+    "trap": "",
+    "why": "It can track 說明軟體的功能"
+   },
+   {
+    "o": "On my office computer.",
+    "trap": "答非所問",
+    "why": "On my office computer 是位置，不是功能"
+   },
+   {
+    "o": "About thirty dollars.",
+    "trap": "答非所問",
+    "why": "About thirty dollars 是價錢，不是功能"
+   }
+  ]
+ },
+ {
+  "id": "l600-060",
+  "key": "How long 問停留多久 → 聽時間長度",
+  "notes": [
+   {
+    "o": "About three hours.",
+    "trap": "",
+    "why": "About three hours 是轉機停留的時間"
+   },
+   {
+    "o": "By plane, of course.",
+    "trap": "相關字陷阱",
+    "why": "By plane 與轉機相關，是交通方式"
+   },
+   {
+    "o": "Twice a year.",
+    "trap": "答非所問",
+    "why": "Twice a year 是頻率，不是長度"
+   }
+  ]
+ },
+ {
+  "id": "l600-061",
+  "key": "A or B 問句 → 聽 cash 或 credit card",
+  "notes": [
+   {
+    "o": "It's thirty dollars.",
+    "trap": "答非所問",
+    "why": "thirty dollars 是金額，沒選付款方式"
+   },
+   {
+    "o": "Yes, I would.",
+    "trap": "Yes／No 陷阱",
+    "why": "選擇問句不能答 Yes，沒選哪一種"
+   },
+   {
+    "o": "By credit card, please.",
+    "trap": "",
+    "why": "By credit card 選了刷卡"
+   }
+  ]
+ },
+ {
+  "id": "l600-062",
+  "key": "Why 問原因 → To 加動詞也是原因",
+  "notes": [
+   {
+    "o": "Every Tuesday night.",
+    "trap": "答非所問",
+    "why": "Every Tuesday night 是時間，不是原因"
+   },
+   {
+    "o": "To get a professional certificate.",
+    "trap": "",
+    "why": "To get a certificate 說明上課的目的"
+   },
+   {
+    "o": "At the community college.",
+    "trap": "相關字陷阱",
+    "why": "community college 與課程相關，是地點"
+   }
+  ]
+ },
+ {
+  "id": "l600-063",
+  "key": "Why 問原因 → 聽 Because 加理由",
+  "notes": [
+   {
+    "o": "Because the manager is away on business.",
+    "trap": "",
+    "why": "Because 說明延期的原因"
+   },
+   {
+    "o": "Until next Thursday.",
+    "trap": "答非所問",
+    "why": "Until next Thursday 是延到何時，不是原因"
+   },
+   {
+    "o": "In the large conference room.",
+    "trap": "答非所問",
+    "why": "In the conference room 是地點，不是原因"
+   }
+  ]
+ },
+ {
+  "id": "l600-064",
+  "key": "Does ... include 問含不含 → Yes 加內容",
+  "notes": [
+   {
+    "o": "It's a two-bedroom apartment.",
+    "trap": "相關字陷阱",
+    "why": "two-bedroom 與租屋相關，沒回答含不含"
+   },
+   {
+    "o": "Yes, water and electricity are both included.",
+    "trap": "",
+    "why": "Yes 回答含水電，並列出水費和電費"
+   },
+   {
+    "o": "I'd like to rent a car.",
+    "trap": "重複字陷阱",
+    "why": "重複 rent，說的是租車"
+   }
+  ]
+ },
+ {
+  "id": "l600-065",
+  "key": "Where 問地點 → 「看邀請函」是間接回答",
+  "notes": [
+   {
+    "o": "The location is on the invitation.",
+    "trap": "",
+    "why": "沒直說地點，但「寫在邀請函上」→ 間接回答"
+   },
+   {
+    "o": "The best new employee.",
+    "trap": "相關字陷阱",
+    "why": "best new employee 與 award 相關，是獎項"
+   },
+   {
+    "o": "On Saturday evening.",
+    "trap": "答非所問",
+    "why": "On Saturday evening 是時間，不是地點"
+   }
+  ]
+ },
+ {
+  "id": "l600-066",
+  "key": "Could you 是請求 → 說自己要離開 = 委婉拒絕",
+  "notes": [
+   {
+    "o": "In the room at the end of the hall.",
+    "trap": "答非所問",
+    "why": "In the room 是地點，沒回應請求"
+   },
+   {
+    "o": "I visited them last week.",
+    "trap": "相似音陷阱",
+    "why": "visited 與 revise 音近，沒回應請求"
+   },
+   {
+    "o": "I'm leaving for the airport in ten minutes.",
+    "trap": "",
+    "why": "十分鐘後要離開 → 沒時間改 → 委婉拒絕"
+   }
+  ]
+ },
+ {
+  "id": "l600-067",
+  "key": "Is ... anonymous 問是否匿名 → Yes 加說明",
+  "notes": [
+   {
+    "o": "Most employees were satisfied.",
+    "trap": "相關字陷阱",
+    "why": "satisfied 是調查結果，沒回答是否匿名"
+   },
+   {
+    "o": "Yes, you don't need to write your name.",
+    "trap": "",
+    "why": "Yes 回答匿名，不用寫名字"
+   },
+   {
+    "o": "By the end of the week.",
+    "trap": "答非所問",
+    "why": "By the end of the week 是期限，不是匿名"
+   }
+  ]
+ },
+ {
+  "id": "l600-068",
+  "key": "附加問句 doesn't it → 聽 Yes 加細節",
+  "notes": [
+   {
+    "o": "Near the exit.",
+    "trap": "相似音陷阱",
+    "why": "exit 與 exhibit 音近，說的是地點"
+   },
+   {
+    "o": "I opened it already.",
+    "trap": "重複字陷阱",
+    "why": "opened 與 opens 相近，且是過去式"
+   },
+   {
+    "o": "Yes, on Monday morning.",
+    "trap": "",
+    "why": "Yes 確認下週開幕，並說星期一早上"
+   }
+  ]
+ },
+ {
+  "id": "l600-069",
+  "key": "Did we exceed 問有沒有 → Yes 加數字，quarter 是季",
+  "notes": [
+   {
+    "o": "Yes, by almost ten percent.",
+    "trap": "",
+    "why": "Yes 回答超過，並說超過約百分之十"
+   },
+   {
+    "o": "The sale ends on Sunday.",
+    "trap": "重複字陷阱",
+    "why": "sale 與 sales 相近，說的是特賣結束"
+   },
+   {
+    "o": "A quarter past three.",
+    "trap": "一字多義陷阱",
+    "why": "a quarter 在此是「十五分鐘」，不是「季」"
+   }
+  ]
+ },
+ {
+  "id": "l600-070",
+  "key": "Where 問地點 → 聽 In／near／at 加位置",
+  "notes": [
+   {
+    "o": "In the lobby, near the main entrance.",
+    "trap": "",
+    "why": "In the lobby 是報到櫃檯的位置"
+   },
+   {
+    "o": "It costs fifty dollars.",
+    "trap": "答非所問",
+    "why": "costs fifty dollars 是費用，不是地點"
+   },
+   {
+    "o": "From nine to eleven.",
+    "trap": "答非所問",
+    "why": "From nine to eleven 是時間，不是地點"
+   }
+  ]
+ },
+ {
+  "id": "l600-071",
+  "key": "Would you like me to 是提議 → Yes, please 加細節",
+  "notes": [
+   {
+    "o": "I've already read that book.",
+    "trap": "一字多義陷阱",
+    "why": "book 在此是「書」，不是「訂位」"
+   },
+   {
+    "o": "The table is too heavy to move.",
+    "trap": "重複字陷阱",
+    "why": "重複 table，說的是搬桌子"
+   },
+   {
+    "o": "Yes, please, for six people at seven.",
+    "trap": "",
+    "why": "Yes, please 接受提議，並補充人數時間"
+   }
+  ]
+ },
+ {
+  "id": "l600-072",
+  "key": "陳述行程衝突 → 聽改時間的對策",
+  "notes": [
+   {
+    "o": "Yes, it was a great afternoon.",
+    "trap": "重複字陷阱",
+    "why": "重複 afternoon，說的是過去的事"
+   },
+   {
+    "o": "Then let's meet on Friday instead.",
+    "trap": "",
+    "why": "Then 提出改星期五，因應衝突"
+   },
+   {
+    "o": "The train is on schedule.",
+    "trap": "重複字陷阱",
+    "why": "重複 schedule，說的是火車準點"
+   }
+  ]
+ },
+ {
+  "id": "l600-073",
+  "key": "附加問句 aren't they → 聽 Yes 加比較理由",
+  "notes": [
+   {
+    "o": "Yes, much cheaper than the other store.",
+    "trap": "",
+    "why": "Yes 同意合理，並說比別家便宜"
+   },
+   {
+    "o": "For a good reason.",
+    "trap": "相似音陷阱",
+    "why": "reason 與 reasonable 相近，沒表態"
+   },
+   {
+    "o": "The first prize is a trip.",
+    "trap": "相似音陷阱",
+    "why": "prize 與 prices 音近，說的是獎品"
+   }
+  ]
+ },
+ {
+  "id": "l600-074",
+  "key": "What 問優先事項 → 聽 -ing 的具體工作",
+  "notes": [
+   {
+    "o": "Finishing the client's order on time.",
+    "trap": "",
+    "why": "Finishing the order 是最優先的工作"
+   },
+   {
+    "o": "Yes, every week.",
+    "trap": "Yes／No 陷阱",
+    "why": "What 問句不能答 Yes"
+   },
+   {
+    "o": "On the top shelf.",
+    "trap": "重複字陷阱",
+    "why": "重複 top，說的是位置"
+   }
+  ]
+ },
+ {
+  "id": "l600-075",
+  "key": "Who 問人 → 「你得問 Ms. Chen」是間接回答",
+  "notes": [
+   {
+    "o": "It's on sale this week.",
+    "trap": "相關字陷阱",
+    "why": "on sale 與 purchase 相關，沒說是誰"
+   },
+   {
+    "o": "You'd have to ask Ms. Chen.",
+    "trap": "",
+    "why": "自己不清楚，但指向 Ms. Chen → 間接回答"
+   },
+   {
+    "o": "Last Tuesday afternoon.",
+    "trap": "答非所問",
+    "why": "Last Tuesday 是時間，不是人"
+   }
+  ]
+ },
+ {
+  "id": "l600-076",
+  "key": "Did you enroll 問報名了沒 → Yes 加補充",
+  "notes": [
+   {
+    "o": "In room two oh five.",
+    "trap": "答非所問",
+    "why": "In room 205 是地點，沒回答報名了沒"
+   },
+   {
+    "o": "My computer is very slow.",
+    "trap": "重複字陷阱",
+    "why": "重複 computer，說電腦很慢"
+   },
+   {
+    "o": "Yes, the classes start next week.",
+    "trap": "",
+    "why": "Yes 回答已報名，並說下週開課"
+   }
+  ]
+ },
+ {
+  "id": "l600-077",
+  "key": "A or B 問句 → 「六個月合約」= 臨時的",
+  "notes": [
+   {
+    "o": "He's in a good position.",
+    "trap": "一字多義陷阱",
+    "why": "position 在此是「處境」，不是「職位」"
+   },
+   {
+    "o": "The temperature is fine.",
+    "trap": "相似音陷阱",
+    "why": "temperature 與 temporary 音近"
+   },
+   {
+    "o": "It's a six-month contract.",
+    "trap": "",
+    "why": "沒直選，但六個月合約表示是臨時的 → 間接回答"
+   }
+  ]
+ },
+ {
+  "id": "l600-078",
+  "key": "When 問截止日 → 只聽星期加時刻",
+  "notes": [
+   {
+    "o": "Yes, I proposed it.",
+    "trap": "Yes／No 陷阱",
+    "why": "When 問句不能答 Yes，proposed 是「提議」"
+   },
+   {
+    "o": "In the meeting room upstairs.",
+    "trap": "答非所問",
+    "why": "In the meeting room 是地點，不是時間"
+   },
+   {
+    "o": "This Friday at five o'clock.",
+    "trap": "",
+    "why": "This Friday at five 是截止時間"
+   }
+  ]
+ },
+ {
+  "id": "l600-079",
+  "key": "How can I get 問方法 → 聽 Ask／Use 加做法",
+  "notes": [
+   {
+    "o": "Yes, the customers were happy.",
+    "trap": "Yes／No 陷阱",
+    "why": "How 問句不能答 Yes，重複 customer"
+   },
+   {
+    "o": "Ask your supervisor for a password.",
+    "trap": "",
+    "why": "Ask your supervisor 是取得權限的方法"
+   },
+   {
+    "o": "It was updated last week.",
+    "trap": "相關字陷阱",
+    "why": "updated 與資料庫相關，不是取得方法"
+   }
+  ]
+ },
+ {
+  "id": "l600-080",
+  "key": "Did ... get 問升職了沒 → 「明天公布」= 還不知道",
+  "notes": [
+   {
+    "o": "He's in a meeting now.",
+    "trap": "時態或主詞不合",
+    "why": "主詞 He 與 Ms. Park 不合，也離題"
+   },
+   {
+    "o": "The decision will be announced tomorrow.",
+    "trap": "",
+    "why": "明天才公布 → 目前還不知道 → 間接回答"
+   },
+   {
+    "o": "It's twenty percent off.",
+    "trap": "一字多義陷阱",
+    "why": "20% off 把 promotion 當成「促銷」"
+   }
+  ]
+ },
+ {
+  "id": "l600-081",
+  "key": "When 問到貨時間 → 「我查一下」是合理回應",
+  "notes": [
+   {
+    "o": "Ten boxes of paper.",
+    "trap": "答非所問",
+    "why": "Ten boxes 是數量，不是時間"
+   },
+   {
+    "o": "By truck, I believe.",
+    "trap": "答非所問",
+    "why": "By truck 是運送方式，不是時間"
+   },
+   {
+    "o": "Let me check the tracking number.",
+    "trap": "",
+    "why": "沒給時間，但要查追蹤號碼 → 間接回答"
+   }
+  ]
+ },
+ {
+  "id": "l600-082",
+  "key": "Whose 問所屬 → 「剛才 Kim 坐那」暗示是他的",
+  "notes": [
+   {
+    "o": "It's made of leather.",
+    "trap": "答非所問",
+    "why": "made of leather 是材質，不是屬於誰"
+   },
+   {
+    "o": "I think Mr. Kim was sitting there.",
+    "trap": "",
+    "why": "暗示 Kim 先生坐過 → 公事包可能是他的"
+   },
+   {
+    "o": "Yes, please have a seat.",
+    "trap": "Yes／No 陷阱",
+    "why": "Whose 問句不能答 Yes"
+   }
+  ]
+ },
+ {
+  "id": "l600-083",
+  "key": "否定問句 Isn't there → Yes 表示有，並介紹",
+  "notes": [
+   {
+    "o": "Yes, this model is fifty dollars cheaper.",
+    "trap": "",
+    "why": "Yes 表示有，並說這款便宜五十元"
+   },
+   {
+    "o": "I'd like a receipt, please.",
+    "trap": "語意不連貫",
+    "why": "要收據是結帳時的話，沒回答有沒有"
+   },
+   {
+    "o": "It opens at ten.",
+    "trap": "語意不連貫",
+    "why": "說開門時間，沒回答有沒有更便宜的"
+   }
+  ]
+ },
+ {
+  "id": "l600-084",
+  "key": "Is there a charge 問收不收費 → No 加免費",
+  "notes": [
+   {
+    "o": "It arrived yesterday.",
+    "trap": "答非所問",
+    "why": "arrived yesterday 是到貨時間，不是收費"
+   },
+   {
+    "o": "No, shipping is free on all orders.",
+    "trap": "",
+    "why": "No 表示不收費，並說免運費"
+   },
+   {
+    "o": "Mr. Wu is in charge.",
+    "trap": "一字多義陷阱",
+    "why": "in charge 是「負責」，不是「收費」"
+   }
+  ]
+ },
+ {
+  "id": "l600-085",
+  "key": "Who 問人 → 聽人名加單位",
+  "notes": [
+   {
+    "o": "At nine thirty tomorrow morning.",
+    "trap": "答非所問",
+    "why": "At nine thirty 是時間，不是人"
+   },
+   {
+    "o": "Ms. Chen from the marketing team.",
+    "trap": "",
+    "why": "Ms. Chen 是人，並說明所屬團隊"
+   },
+   {
+    "o": "It was a very nice present.",
+    "trap": "相似音陷阱",
+    "why": "present 與 presentation 音近，是禮物"
+   }
+  ]
+ },
+ {
+  "id": "l600-086",
+  "key": "A or B 問句 → 聽 downtown 或 airport 哪一個",
+  "notes": [
+   {
+    "o": "It's downtown, across from the central station.",
+    "trap": "",
+    "why": "downtown 選了市中心，並補充位置"
+   },
+   {
+    "o": "The flight leaves at noon.",
+    "trap": "相關字陷阱",
+    "why": "flight 與 airport 相關，沒選地點"
+   },
+   {
+    "o": "Yes, it's a large office.",
+    "trap": "Yes／No 陷阱",
+    "why": "選擇問句不能答 Yes，重複 office"
+   }
+  ]
+ },
+ {
+  "id": "l600-087",
+  "key": "Could you donate 是請求 → Sure 加做法",
+  "notes": [
+   {
+    "o": "Sure, I have some books to give.",
+    "trap": "",
+    "why": "Sure 答應，並說有書可以捐"
+   },
+   {
+    "o": "Thanks, but I already ate.",
+    "trap": "語意不連貫",
+    "why": "說已吃過，沒回應捐東西的請求"
+   },
+   {
+    "o": "Yes, she's a kind person.",
+    "trap": "語意不連貫",
+    "why": "說別人的個性，沒回應請求"
+   }
+  ]
+ },
+ {
+  "id": "l600-088",
+  "key": "When 問時間 → 聽 before／by／at 加時間",
+  "notes": [
+   {
+    "o": "He usually comes before noon.",
+    "trap": "",
+    "why": "before noon 是來收件的時間"
+   },
+   {
+    "o": "It weighs two kilograms.",
+    "trap": "答非所問",
+    "why": "weighs two kilograms 是重量，不是時間"
+   },
+   {
+    "o": "To the head office.",
+    "trap": "答非所問",
+    "why": "To the head office 是寄送地點，不是時間"
+   }
+  ]
+ },
+ {
+  "id": "l600-089",
+  "key": "Who 問人 → 聽名字加 in charge",
+  "notes": [
+   {
+    "o": "It starts at ten at night.",
+    "trap": "答非所問",
+    "why": "starts at ten 是時間，不是人"
+   },
+   {
+    "o": "No, I work during the day.",
+    "trap": "Yes／No 陷阱",
+    "why": "Who 問句不能答 No"
+   },
+   {
+    "o": "Mr. Lopez is in charge of it.",
+    "trap": "",
+    "why": "Mr. Lopez 是人，in charge of 表示負責"
+   }
+  ]
+ },
+ {
+  "id": "l600-090",
+  "key": "Are ... flexible 問有沒有彈性 → Yes 加時段",
+  "notes": [
+   {
+    "o": "It works very well.",
+    "trap": "一字多義陷阱",
+    "why": "works 是「運作」，不是「上班」"
+   },
+   {
+    "o": "It took three hours.",
+    "trap": "重複字陷阱",
+    "why": "重複 hours，說花了三小時"
+   },
+   {
+    "o": "Yes, you can start anytime between eight and ten.",
+    "trap": "",
+    "why": "Yes 回答有彈性，並說八到十點皆可"
+   }
+  ]
+ },
+ {
+  "id": "l600-091",
+  "key": "否定問句 Haven't you → No 表示還沒見過",
+  "notes": [
+   {
+    "o": "The instructions are in the box.",
+    "trap": "相似音陷阱",
+    "why": "instructions 與 instructor 相近，是說明書"
+   },
+   {
+    "o": "Yes, it's brand new.",
+    "trap": "重複字陷阱",
+    "why": "重複 new，但說的是東西，不是人"
+   },
+   {
+    "o": "No, I missed the first class.",
+    "trap": "",
+    "why": "No 表示還沒見過，原因是沒去第一堂課"
+   }
+  ]
+ },
+ {
+  "id": "l600-092",
+  "key": "Is ... still 問還在不在 → 「去年調走」= 不在了",
+  "notes": [
+   {
+    "o": "It's on the fourth floor.",
+    "trap": "答非所問",
+    "why": "On the fourth floor 是位置，不是還在不在"
+   },
+   {
+    "o": "Yes, I counted them twice.",
+    "trap": "相似音陷阱",
+    "why": "counted 與 accounting 音近，且離題"
+   },
+   {
+    "o": "He transferred to sales last year.",
+    "trap": "",
+    "why": "去年已調去業務部 → 不在會計部 → 間接回答"
+   }
+  ]
+ },
+ {
+  "id": "l600-093",
+  "key": "Have you read 問看過沒 → Not yet 加補充",
+  "notes": [
+   {
+    "o": "We moved in last year.",
+    "trap": "重複字陷阱",
+    "why": "moved 與 move 相近，說的是去年搬家"
+   },
+   {
+    "o": "Not yet, but I'll look at it tonight.",
+    "trap": "",
+    "why": "Not yet 回答還沒看，並說今晚會看"
+   },
+   {
+    "o": "In the top drawer.",
+    "trap": "答非所問",
+    "why": "In the top drawer 是位置，不是看過沒"
+   }
+  ]
+ },
+ {
+  "id": "l600-094",
+  "key": "What 問規定內容 → 聽 You can 加條件",
+  "notes": [
+   {
+    "o": "You can return items within thirty days.",
+    "trap": "",
+    "why": "within thirty days 說明退貨規定"
+   },
+   {
+    "o": "I'll be back at three.",
+    "trap": "一字多義陷阱",
+    "why": "be back 是「回來」，不是「退貨」"
+   },
+   {
+    "o": "Yes, I returned it.",
+    "trap": "Yes／No 陷阱",
+    "why": "What 問句不能答 Yes"
+   }
+  ]
+ },
+ {
+  "id": "l600-095",
+  "key": "A or B 問句 → 聽 air 或 sea，加理由更完整",
+  "notes": [
+   {
+    "o": "By air, since the customer needs it quickly.",
+    "trap": "",
+    "why": "By air 選了空運，並說明理由"
+   },
+   {
+    "o": "Yes, I can see it.",
+    "trap": "相似音陷阱",
+    "why": "see 與 sea 同音，且選擇問句不能答 Yes"
+   },
+   {
+    "o": "The air conditioner is on.",
+    "trap": "重複字陷阱",
+    "why": "重複 air，說的是冷氣"
+   }
+  ]
+ },
+ {
+  "id": "l600-096",
+  "key": "What do you think of 問意見 → 聽形容詞",
+  "notes": [
+   {
+    "o": "It feels much more spacious.",
+    "trap": "",
+    "why": "feels more spacious 是對格局的看法"
+   },
+   {
+    "o": "No, I didn't think of it.",
+    "trap": "重複字陷阱",
+    "why": "重複 think of，且 What 不能答 No"
+   },
+   {
+    "o": "On the third floor.",
+    "trap": "答非所問",
+    "why": "On the third floor 是位置，不是意見"
+   }
+  ]
+ },
+ {
+  "id": "l600-097",
+  "key": "Is ... still 問是否仍在途中 → Yes 加預計時間",
+  "notes": [
+   {
+    "o": "I packed it myself.",
+    "trap": "相似音陷阱",
+    "why": "packed 與 package 相近，說的是打包"
+   },
+   {
+    "o": "Yes, it should arrive tomorrow.",
+    "trap": "",
+    "why": "Yes 回答還在途中，並說明天會到"
+   },
+   {
+    "o": "The train was crowded.",
+    "trap": "相關字陷阱",
+    "why": "train 與 transit 相關，說的是擁擠"
+   }
+  ]
+ },
+ {
+  "id": "l600-098",
+  "key": "A or B 問句 → 聽 basic 或 additional 哪一個",
+  "notes": [
+   {
+    "o": "It's in addition to my salary.",
+    "trap": "相似音陷阱",
+    "why": "addition 與 additional 相近，說的是薪水"
+   },
+   {
+    "o": "Yes, I'm planning a trip.",
+    "trap": "重複字陷阱",
+    "why": "planning 與 plan 相近，且選擇問句不能答 Yes"
+   },
+   {
+    "o": "The basic plan is enough for me.",
+    "trap": "",
+    "why": "The basic plan 選了基本方案"
+   }
+  ]
+ },
+ {
+  "id": "l600-099",
+  "key": "Will ... be here before noon 問會不會到 → 「剛打來」暗示快到",
+  "notes": [
+   {
+    "o": "It's a technical problem.",
+    "trap": "相似音陷阱",
+    "why": "technical 與 technician 相近，沒回答到不到"
+   },
+   {
+    "o": "Yes, I had lunch already.",
+    "trap": "相關字陷阱",
+    "why": "lunch 與 noon 相關，沒回答人何時到"
+   },
+   {
+    "o": "He just called from the parking lot.",
+    "trap": "",
+    "why": "剛從停車場來電 → 快到了 → 間接回答"
+   }
+  ]
+ },
+ {
+  "id": "l600-100",
+  "key": "How much 問金額 → 聽金額或月數",
+  "notes": [
+   {
+    "o": "It has two bedrooms.",
+    "trap": "答非所問",
+    "why": "two bedrooms 是房間數，不是押金"
+   },
+   {
+    "o": "Two months of rent.",
+    "trap": "",
+    "why": "Two months of rent 是押金的金額"
+   },
+   {
+    "o": "On the first of each month.",
+    "trap": "答非所問",
+    "why": "first of each month 是日期，不是金額"
+   }
+  ]
+ }
+]

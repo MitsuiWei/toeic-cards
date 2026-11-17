@@ -1,0 +1,14 @@
+[
+ {"id": "r600-06.3", "field": "notes.1.why", "problem": "The paraphrase is confusing: 「除非收到才不寄」 is roughly what the Unless sentence does mean, so saying 'it is not that' muddles the point; Unless would mean a new one ships only if the old one is NOT received.",
+  "fix": "文法可以，但語意變成「沒收到舊機才寄新機」，不合理"},
+ {"id": "r600-15.3", "field": "notes.1.why", "problem": "Intransitivity is not the reason: 'enroll' is also intransitive in 'To enroll, visit...'; 'To occur, visit...' is grammatical and fails only on meaning.",
+  "fix": "文法可以，但語意不通：occur 是「發生」，不是報名"},
+ {"id": "r600-17.3", "field": "notes.0.why", "problem": "'build a market' is a normal collocation and a market could employ 300 people; the option fails only because a frozen-meal maker needs a production facility.",
+  "fix": "build a market 文法可以，但做冷凍餐要蓋的是工廠"},
+ {"id": "r600-18.1", "field": "notes.0.zh", "problem": "'appreciated' means 'valued/thanked' (被感謝的); '感激的' is the meaning of 'appreciative', so the gloss swaps the two words.",
+  "fix": "(p.p.) 被感謝的、受重視的"},
+ {"id": "r600-18.3", "field": "notes.3.zh", "problem": "'週底' is not standard Taiwan usage for 'the end of the week'.",
+  "fix": "請在本週結束前付清餘額"},
+ {"id": "r600-27.1", "field": "notes.2.why", "problem": "The Chinese paraphrase is backwards: 「除非晚到才要通知」 (only if late, notify) is the correct If meaning; 'Unless you plan to arrive after 10' means notify us only if you are NOT arriving late.",
+  "fix": "文法可以，但語意變成「不晚到才要通知」，相反"}
+]

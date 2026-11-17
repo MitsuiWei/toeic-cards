@@ -1,0 +1,2852 @@
+[
+ {
+  "id": "r400-01",
+  "qs": [
+   {
+    "n": 1,
+    "key": "主旨題：看開頭 We sent your desk lamp this morning",
+    "notes": [
+     {
+      "o": "To say that an order has been sent",
+      "zh": "通知訂單已寄出",
+      "use": "",
+      "why": "文中 'We sent your desk lamp this morning'"
+     },
+     {
+      "o": "To advertise a new lamp",
+      "zh": "宣傳新檯燈",
+      "use": "",
+      "why": "文中沒有推銷新檯燈，只談已買的那一盞"
+     },
+     {
+      "o": "To cancel an order",
+      "zh": "取消訂單",
+      "use": "",
+      "why": "文中沒有取消訂單，商品已寄出"
+     },
+     {
+      "o": "To ask for a payment",
+      "zh": "要求付款",
+      "use": "",
+      "why": "文中沒有要求付款，只說收據附在信中"
+     }
+    ]
+   },
+   {
+    "n": 2,
+    "key": "細節題：找 Thursday → We will deliver it ... on Thursday",
+    "notes": [
+     {
+      "o": "This morning",
+      "zh": "今天早上",
+      "use": "",
+      "why": "'this morning' 是寄出的時間，不是送達"
+     },
+     {
+      "o": "On Tuesday",
+      "zh": "星期二",
+      "use": "",
+      "why": "文中沒提到 Tuesday"
+     },
+     {
+      "o": "On Thursday",
+      "zh": "星期四",
+      "use": "",
+      "why": "文中 'deliver it to your home on Thursday'"
+     },
+     {
+      "o": "In seven days",
+      "zh": "七天後",
+      "use": "",
+      "why": "'seven days' 是損壞時聯絡商店的期限"
+     }
+    ]
+   },
+   {
+    "n": 3,
+    "key": "細節題：找 damaged → replace it or give you a full refund",
+    "notes": [
+     {
+      "o": "Repair it at Mr. Wu's home",
+      "zh": "到府修理",
+      "use": "",
+      "why": "文中沒說要到府修理，是換貨或退款"
+     },
+     {
+      "o": "Give a discount on the next order",
+      "zh": "下次訂單打折",
+      "use": "",
+      "why": "文中沒提到折扣，是 'full refund'"
+     },
+     {
+      "o": "Send another receipt",
+      "zh": "再寄一張收據",
+      "use": "",
+      "why": "收據已附在信中，損壞時不是補寄收據"
+     },
+     {
+      "o": "Send a new one or give the money back",
+      "zh": "寄新的或退錢",
+      "use": "",
+      "why": "文中 'replace it or give you a full refund'"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "r400-02",
+  "qs": [
+   {
+    "n": 1,
+    "key": "主旨題：開頭 The printer ... is not working",
+    "notes": [
+     {
+      "o": "A new elevator in the building",
+      "zh": "大樓新電梯",
+      "use": "",
+      "why": "電梯只用來說明二樓印表機位置"
+     },
+     {
+      "o": "A meeting with Ms. Park",
+      "zh": "與 Ms. Park 開會",
+      "use": "",
+      "why": "文中沒有開會，Ms. Park 只是聯絡人"
+     },
+     {
+      "o": "A change in office hours",
+      "zh": "上班時間改變",
+      "use": "",
+      "why": "文中沒提到上班時間"
+     },
+     {
+      "o": "A printer that is broken",
+      "zh": "壞掉的印表機",
+      "use": "",
+      "why": "文中 'The printer on the third floor is not working'"
+     }
+    ]
+   },
+   {
+    "n": 2,
+    "key": "細節題：找 please use the printer on the second floor",
+    "notes": [
+     {
+      "o": "On the third floor",
+      "zh": "三樓",
+      "use": "",
+      "why": "三樓的印表機壞了，不能用"
+     },
+     {
+      "o": "On the second floor",
+      "zh": "二樓",
+      "use": "",
+      "why": "文中 'use the printer on the second floor'"
+     },
+     {
+      "o": "In the IT department",
+      "zh": "資訊部門",
+      "use": "",
+      "why": "IT department 是印大量文件時的聯絡單位"
+     },
+     {
+      "o": "In Ms. Park's office",
+      "zh": "Ms. Park 的辦公室",
+      "use": "",
+      "why": "文中沒說印表機在她辦公室"
+     }
+    ]
+   },
+   {
+    "n": 3,
+    "key": "字義題：do not try to repair it yourself → 不要自己修",
+    "notes": [
+     {
+      "o": "clean",
+      "zh": "(v.) 清潔",
+      "use": "",
+      "why": "語意不合：公告談的是故障，不是清潔"
+     },
+     {
+      "o": "fix",
+      "zh": "(v.) 修理",
+      "use": "",
+      "why": "repair = fix，指修好壞掉的機器"
+     },
+     {
+      "o": "buy",
+      "zh": "(v.) 購買",
+      "use": "",
+      "why": "語意不合：公告沒有要大家買印表機"
+     },
+     {
+      "o": "move",
+      "zh": "(v.) 搬移",
+      "use": "",
+      "why": "語意不合：公告沒說要搬印表機"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "r400-03",
+  "qs": [
+   {
+    "n": 1,
+    "key": "主旨題：開頭 Annual Summer Sale、all shoes are 30% off",
+    "notes": [
+     {
+      "o": "A shoe repair service",
+      "zh": "鞋子修理服務",
+      "use": "",
+      "why": "文中是特價活動，不是修鞋服務"
+     },
+     {
+      "o": "A job at a shoe store",
+      "zh": "鞋店的工作",
+      "use": "",
+      "why": "文中沒有徵人資訊"
+     },
+     {
+      "o": "The opening of a new store",
+      "zh": "新店開幕",
+      "use": "",
+      "why": "文中沒提到開幕，是 'Summer Sale'"
+     },
+     {
+      "o": "A sale at a shoe store",
+      "zh": "鞋店的特賣",
+      "use": "",
+      "why": "文中 'all shoes are 30% off'"
+     }
+    ]
+   },
+   {
+    "n": 2,
+    "key": "細節題：找 Bags ... 10% discount",
+    "notes": [
+     {
+      "o": "30%",
+      "zh": "百分之三十",
+      "use": "",
+      "why": "30% 是鞋子的折扣，不是包包"
+     },
+     {
+      "o": "10%",
+      "zh": "百分之十",
+      "use": "",
+      "why": "文中 'Bags are also on sale at a 10% discount'"
+     },
+     {
+      "o": "50%",
+      "zh": "百分之五十",
+      "use": "",
+      "why": "文中沒有 50%"
+     },
+     {
+      "o": "7%",
+      "zh": "百分之七",
+      "use": "",
+      "why": "7 是活動到 July 7，不是折扣"
+     }
+    ]
+   },
+   {
+    "n": 3,
+    "key": "細節題：找 come early 前面的原因 The quantity is limited",
+    "notes": [
+     {
+      "o": "The store closes at noon",
+      "zh": "店家中午關門",
+      "use": "",
+      "why": "文中營業到 9 P.M.，不是中午"
+     },
+     {
+      "o": "Early shoppers get a free bag",
+      "zh": "早到送免費包包",
+      "use": "",
+      "why": "文中沒提到贈品"
+     },
+     {
+      "o": "The number of sale items is limited",
+      "zh": "特價品數量有限",
+      "use": "",
+      "why": "文中 'The quantity is limited, so come early'"
+     },
+     {
+      "o": "The sale is only for one day",
+      "zh": "活動只有一天",
+      "use": "",
+      "why": "文中是 July 1 to July 7，共七天"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "r400-04",
+  "qs": [
+   {
+    "n": 1,
+    "key": "細節題：第一句 My flight is late ... about 2 P.M.",
+    "notes": [
+     {
+      "o": "To ask about the weather",
+      "zh": "詢問天氣",
+      "use": "",
+      "why": "天氣只是班機延誤的原因，不是目的"
+     },
+     {
+      "o": "To say that she will arrive late",
+      "zh": "說她會晚到",
+      "use": "",
+      "why": "文中 'My flight is late'，約 2 P.M. 到公司"
+     },
+     {
+      "o": "To book a flight",
+      "zh": "訂機票",
+      "use": "",
+      "why": "文中沒有訂機票，她已在航班上"
+     },
+     {
+      "o": "To invite him to lunch",
+      "zh": "邀請吃午餐",
+      "use": "",
+      "why": "文中沒提到午餐"
+     }
+    ]
+   },
+   {
+    "n": 2,
+    "key": "推論題：Can you move it to 3 P.M.? → Tom: Sure",
+    "notes": [
+     {
+      "o": "2 P.M.",
+      "zh": "下午兩點",
+      "use": "",
+      "why": "2 P.M. 是 Dana 到公司的時間，不是會議"
+     },
+     {
+      "o": "9 A.M.",
+      "zh": "上午九點",
+      "use": "",
+      "why": "9 A.M. 是訊息時間，不是會議"
+     },
+     {
+      "o": "1 P.M.",
+      "zh": "下午一點",
+      "use": "",
+      "why": "1 P.M. 是原訂時間，Dana 要改期"
+     },
+     {
+      "o": "3 P.M.",
+      "zh": "下午三點",
+      "use": "",
+      "why": "Dana 'move it to 3 P.M.'，Tom 回 'Sure'"
+     }
+    ]
+   },
+   {
+    "n": 3,
+    "key": "推論題：最後一句 I will call her now",
+    "notes": [
+     {
+      "o": "Go to the airport",
+      "zh": "去機場",
+      "use": "",
+      "why": "文中沒說他要去機場，Dana 才在機場"
+     },
+     {
+      "o": "Call Ms. Ito",
+      "zh": "打給 Ms. Ito",
+      "use": "",
+      "why": "文中 'I will call her now'，her 指 Ms. Ito"
+     },
+     {
+      "o": "Book a new flight",
+      "zh": "訂新班機",
+      "use": "",
+      "why": "文中沒提到訂班機"
+     },
+     {
+      "o": "Cancel the meeting",
+      "zh": "取消會議",
+      "use": "",
+      "why": "Dana 說 'No, please don't'，是改時間"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "r400-05",
+  "qs": [
+   {
+    "n": 1,
+    "key": "細節題：看 Items 清單 Printer paper、Blue pens",
+    "notes": [
+     {
+      "o": "A printer and pens",
+      "zh": "印表機和筆",
+      "use": "",
+      "why": "清單是 'Printer paper'（紙），不是印表機"
+     },
+     {
+      "o": "Pens and notebooks",
+      "zh": "筆和筆記本",
+      "use": "",
+      "why": "清單沒有筆記本"
+     },
+     {
+      "o": "Boxes and a desk",
+      "zh": "箱子和書桌",
+      "use": "",
+      "why": "清單沒有書桌，boxes 是紙的包裝單位"
+     },
+     {
+      "o": "Paper and pens",
+      "zh": "紙和筆",
+      "use": "",
+      "why": "清單 'Printer paper' 和 'Blue pens'"
+     }
+    ]
+   },
+   {
+    "n": 2,
+    "key": "細節題：找 Delivery fee",
+    "notes": [
+     {
+      "o": "$55",
+      "zh": "55 美元",
+      "use": "",
+      "why": "$55 是 Total amount 總金額"
+     },
+     {
+      "o": "$40",
+      "zh": "40 美元",
+      "use": "",
+      "why": "$40 是紙的價格"
+     },
+     {
+      "o": "$5",
+      "zh": "5 美元",
+      "use": "",
+      "why": "文中 'Delivery fee: $5'"
+     },
+     {
+      "o": "$10",
+      "zh": "10 美元",
+      "use": "",
+      "why": "$10 是藍筆的價格"
+     }
+    ]
+   },
+   {
+    "n": 3,
+    "key": "NOT 題：其他三項都有出現，找沒出現的",
+    "notes": [
+     {
+      "o": "The order number",
+      "zh": "訂單編號",
+      "use": "",
+      "why": "有：'Order number: 4521'"
+     },
+     {
+      "o": "The delivery date",
+      "zh": "送達日期",
+      "use": "",
+      "why": "有：'Delivery date: May 6'"
+     },
+     {
+      "o": "The total amount",
+      "zh": "總金額",
+      "use": "",
+      "why": "有：'Total amount: $55'"
+     },
+     {
+      "o": "The customer's address",
+      "zh": "客戶地址",
+      "use": "",
+      "why": "表單沒列地址，這是唯一沒出現的"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "r400-06",
+  "qs": [
+   {
+    "n": 1,
+    "key": "主旨題：開頭 I stayed at the Lakeside Hotel for three nights",
+    "notes": [
+     {
+      "o": "A taxi company",
+      "zh": "計程車公司",
+      "use": "",
+      "why": "計程車只是接待員幫忙訂的"
+     },
+     {
+      "o": "A stay at a hotel",
+      "zh": "住飯店的經驗",
+      "use": "",
+      "why": "文中 'I stayed at the Lakeside Hotel'"
+     },
+     {
+      "o": "A train trip",
+      "zh": "火車旅行",
+      "use": "",
+      "why": "火車站只是說明飯店位置"
+     },
+     {
+      "o": "A meal at a restaurant",
+      "zh": "餐廳用餐",
+      "use": "",
+      "why": "早餐只是其中一點抱怨"
+     }
+    ]
+   },
+   {
+    "n": 2,
+    "key": "細節題：找 The receptionist helped me book a taxi",
+    "notes": [
+     {
+      "o": "Booked a taxi",
+      "zh": "訂計程車",
+      "use": "",
+      "why": "文中 'helped me book a taxi to the airport'"
+     },
+     {
+      "o": "Made breakfast",
+      "zh": "做早餐",
+      "use": "",
+      "why": "文中沒說接待員做早餐"
+     },
+     {
+      "o": "Cleaned the room",
+      "zh": "打掃房間",
+      "use": "",
+      "why": "文中沒說接待員打掃，只說房間乾淨"
+     },
+     {
+      "o": "Carried the bags",
+      "zh": "搬行李",
+      "use": "",
+      "why": "文中沒提到搬行李"
+     }
+    ]
+   },
+   {
+    "n": 3,
+    "key": "NOT 題：找 My only complaint is the breakfast",
+    "notes": [
+     {
+      "o": "The staff",
+      "zh": "員工",
+      "use": "",
+      "why": "文中 'the staff was very friendly'，他喜歡"
+     },
+     {
+      "o": "The breakfast",
+      "zh": "早餐",
+      "use": "",
+      "why": "文中 'My only complaint is the breakfast'"
+     },
+     {
+      "o": "The room",
+      "zh": "房間",
+      "use": "",
+      "why": "文中 'My room was clean and quiet'，他喜歡"
+     },
+     {
+      "o": "The location",
+      "zh": "地點",
+      "use": "",
+      "why": "文中 'near the train station'，是優點"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "r400-07",
+  "qs": [
+   {
+    "n": 1,
+    "key": "主旨題：開頭 the departure time has changed",
+    "notes": [
+     {
+      "o": "A lost ticket",
+      "zh": "遺失機票",
+      "use": "",
+      "why": "文中沒提到遺失機票"
+     },
+     {
+      "o": "A new café at the airport",
+      "zh": "機場新咖啡廳",
+      "use": "",
+      "why": "咖啡廳只是補充免費飲料的地點"
+     },
+     {
+      "o": "A change to a flight",
+      "zh": "航班的變動",
+      "use": "",
+      "why": "文中 'departure time has changed'、gate 也改了"
+     },
+     {
+      "o": "A cheaper flight to Tokyo",
+      "zh": "較便宜的班機",
+      "use": "",
+      "why": "文中沒提到票價"
+     }
+    ]
+   },
+   {
+    "n": 2,
+    "key": "細節題：找 changed from Gate 12 to Gate 5",
+    "notes": [
+     {
+      "o": "Gate 5",
+      "zh": "5 號登機門",
+      "use": "",
+      "why": "文中 'from Gate 12 to Gate 5'"
+     },
+     {
+      "o": "Gate 12",
+      "zh": "12 號登機門",
+      "use": "",
+      "why": "Gate 12 是舊登機門"
+     },
+     {
+      "o": "Gate 3",
+      "zh": "3 號登機門",
+      "use": "",
+      "why": "文中沒有 Gate 3，3:00 P.M. 是舊時間"
+     },
+     {
+      "o": "Gate 4",
+      "zh": "4 號登機門",
+      "use": "",
+      "why": "文中沒有 Gate 4，4:30 是新起飛時間"
+     }
+    ]
+   },
+   {
+    "n": 3,
+    "key": "細節題：找 free beverage → beverage = drink",
+    "notes": [
+     {
+      "o": "A drink",
+      "zh": "飲料",
+      "use": "",
+      "why": "文中 'a free beverage'，beverage 就是飲料"
+     },
+     {
+      "o": "A taxi ride",
+      "zh": "計程車",
+      "use": "",
+      "why": "文中沒提到免費計程車"
+     },
+     {
+      "o": "A new ticket",
+      "zh": "新機票",
+      "use": "",
+      "why": "文中沒提到換新機票，只要出示現有機票"
+     },
+     {
+      "o": "A meal",
+      "zh": "餐點",
+      "use": "",
+      "why": "文中只說 beverage，不是 meal"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "r400-08",
+  "qs": [
+   {
+    "n": 1,
+    "key": "主旨題：開頭 meeting will move to Tuesday",
+    "notes": [
+     {
+      "o": "To ask about holiday plans",
+      "zh": "詢問假期計畫",
+      "use": "",
+      "why": "Monday is a holiday 只是改期的原因"
+     },
+     {
+      "o": "To welcome new staff",
+      "zh": "歡迎新員工",
+      "use": "",
+      "why": "文中沒提到新員工"
+     },
+     {
+      "o": "To report February sales",
+      "zh": "回報二月業績",
+      "use": "",
+      "why": "二月業績是要大家帶來的資料，不是目的"
+     },
+     {
+      "o": "To announce a change of meeting day",
+      "zh": "宣布改開會日",
+      "use": "",
+      "why": "文中 'will move to Tuesday'"
+     }
+    ]
+   },
+   {
+    "n": 2,
+    "key": "細節題：找 move to Tuesday、start at 10 A.M.",
+    "notes": [
+     {
+      "o": "Tuesday at 10 A.M.",
+      "zh": "週二上午十點",
+      "use": "",
+      "why": "文中 'move to Tuesday' 和 'start at 10 A.M.'"
+     },
+     {
+      "o": "Monday at 10 A.M.",
+      "zh": "週一上午十點",
+      "use": "",
+      "why": "週一是舊日期，因假日改到週二"
+     },
+     {
+      "o": "Tuesday at 2 P.M.",
+      "zh": "週二下午兩點",
+      "use": "",
+      "why": "時間是 10 A.M.，不是 2 P.M."
+     },
+     {
+      "o": "Friday at 10 A.M.",
+      "zh": "週五上午十點",
+      "use": "",
+      "why": "Friday 是回覆能否出席的期限"
+     }
+    ]
+   },
+   {
+    "n": 3,
+    "key": "字義題：sales figures for February → 銷售的數字",
+    "notes": [
+     {
+      "o": "pictures",
+      "zh": "(n.) 圖片",
+      "use": "",
+      "why": "語意不合：要帶的是銷售資料"
+     },
+     {
+      "o": "people",
+      "zh": "(n.) 人",
+      "use": "",
+      "why": "語意不合：figures 在此不是人"
+     },
+     {
+      "o": "numbers",
+      "zh": "(n.) 數字",
+      "use": "",
+      "why": "figures 在此指數據，sales figures 即銷售數字"
+     },
+     {
+      "o": "shapes",
+      "zh": "(n.) 形狀",
+      "use": "",
+      "why": "語意不合：與銷售資料無關"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "r400-09",
+  "qs": [
+   {
+    "n": 1,
+    "key": "主旨題：開頭 Sweet Morning Bakery opened last Saturday",
+    "notes": [
+     {
+      "o": "A new shop in town",
+      "zh": "鎮上的新店",
+      "use": "",
+      "why": "文中 'Bakery opened last Saturday on Lake Street'"
+     },
+     {
+      "o": "A hotel restaurant",
+      "zh": "飯店餐廳",
+      "use": "",
+      "why": "飯店只是 Ms. Diaz 以前的工作"
+     },
+     {
+      "o": "A baking class",
+      "zh": "烘焙課",
+      "use": "",
+      "why": "文中沒提到上課"
+     },
+     {
+      "o": "A farm that sells fruit",
+      "zh": "賣水果的農場",
+      "use": "",
+      "why": "農場只是供應水果和牛奶的來源"
+     }
+    ]
+   },
+   {
+    "n": 2,
+    "key": "細節題：找 open every day except Monday",
+    "notes": [
+     {
+      "o": "On Sundays",
+      "zh": "星期日",
+      "use": "",
+      "why": "文中 every day except Monday，週日有開"
+     },
+     {
+      "o": "On holidays",
+      "zh": "假日",
+      "use": "",
+      "why": "文中沒提到假日休息"
+     },
+     {
+      "o": "On Mondays",
+      "zh": "星期一",
+      "use": "",
+      "why": "文中 'every day except Monday'"
+     },
+     {
+      "o": "On Saturdays",
+      "zh": "星期六",
+      "use": "",
+      "why": "Saturday 是開幕的日子，不是休息日"
+     }
+    ]
+   },
+   {
+    "n": 3,
+    "key": "推論題：'I want to support local farmers' → 想幫在地農民",
+    "notes": [
+     {
+      "o": "She is new to baking",
+      "zh": "她剛接觸烘焙",
+      "use": "",
+      "why": "文中她有十年飯店烘焙經驗"
+     },
+     {
+      "o": "She grows her own fruit",
+      "zh": "她自己種水果",
+      "use": "",
+      "why": "文中是向在地農場買 fruit and milk"
+     },
+     {
+      "o": "She wants to help farmers in her area",
+      "zh": "她想幫在地農民",
+      "use": "",
+      "why": "文中 'I want to support local farmers'"
+     },
+     {
+      "o": "She plans to open a hotel",
+      "zh": "她打算開飯店",
+      "use": "",
+      "why": "她以前在飯店工作，沒說要開飯店"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "r400-10",
+  "qs": [
+   {
+    "n": 1,
+    "key": "主旨題：Thank you for opening a savings account",
+    "notes": [
+     {
+      "o": "To say that his card was lost",
+      "zh": "說他的卡遺失",
+      "use": "",
+      "why": "文中沒有卡遺失，卡還沒寄到"
+     },
+     {
+      "o": "To offer him a loan",
+      "zh": "提供貸款",
+      "use": "",
+      "why": "文中沒提到貸款"
+     },
+     {
+      "o": "To give information about his new account",
+      "zh": "提供新帳戶資訊",
+      "use": "",
+      "why": "文中 'opening a savings account'，說明卡與密碼"
+     },
+     {
+      "o": "To ask him to pay a fee",
+      "zh": "要他付費用",
+      "use": "",
+      "why": "文中沒有要求付費"
+     }
+    ]
+   },
+   {
+    "n": 2,
+    "key": "細節題：找 bank card will arrive by mail",
+    "notes": [
+     {
+      "o": "By e-mail",
+      "zh": "用電子郵件",
+      "use": "",
+      "why": "文中是 by mail，不是 e-mail"
+     },
+     {
+      "o": "By mail",
+      "zh": "郵寄",
+      "use": "",
+      "why": "文中 'will arrive by mail within five days'"
+     },
+     {
+      "o": "From a bank machine",
+      "zh": "從提款機",
+      "use": "",
+      "why": "文中沒提到提款機"
+     },
+     {
+      "o": "From Ms. Ford in person",
+      "zh": "Ms. Ford 當面給",
+      "use": "",
+      "why": "文中沒有當面交給，卡是郵寄的"
+     }
+    ]
+   },
+   {
+    "n": 3,
+    "key": "字義題：keep your account secure → 保護帳戶安全",
+    "notes": [
+     {
+      "o": "busy",
+      "zh": "(adj.) 忙碌的",
+      "use": "",
+      "why": "語意不合：帳戶不是忙碌"
+     },
+     {
+      "o": "new",
+      "zh": "(adj.) 新的",
+      "use": "",
+      "why": "語意不合：secure 不是新舊"
+     },
+     {
+      "o": "open",
+      "zh": "(adj.) 開放的",
+      "use": "",
+      "why": "語意相反：不讓別人知道密碼才安全"
+     },
+     {
+      "o": "safe",
+      "zh": "(adj.) 安全的",
+      "use": "",
+      "why": "secure = safe，指帳戶受到保護"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "r400-11",
+  "qs": [
+   {
+    "n": 1,
+    "key": "細節題：標題 Now Hiring: Receptionist",
+    "notes": [
+     {
+      "o": "A nurse",
+      "zh": "護理師",
+      "use": "",
+      "why": "診所徵的不是護理師，是 receptionist"
+     },
+     {
+      "o": "A cleaner",
+      "zh": "清潔人員",
+      "use": "",
+      "why": "文中沒有徵清潔人員"
+     },
+     {
+      "o": "A computer teacher",
+      "zh": "電腦老師",
+      "use": "",
+      "why": "只要求 basic computer skills，不是教電腦"
+     },
+     {
+      "o": "A receptionist",
+      "zh": "櫃台接待員",
+      "use": "",
+      "why": "文中 'seeking a full-time receptionist'"
+     }
+    ]
+   },
+   {
+    "n": 2,
+    "key": "NOT 題：Tasks 只列三項，找沒列的",
+    "notes": [
+     {
+      "o": "Welcoming visitors",
+      "zh": "歡迎訪客",
+      "use": "",
+      "why": "有：'welcome visitors'"
+     },
+     {
+      "o": "Answering the phone",
+      "zh": "接電話",
+      "use": "",
+      "why": "有：'answer the phone'"
+     },
+     {
+      "o": "Arranging appointments",
+      "zh": "安排預約",
+      "use": "",
+      "why": "有：'arrange appointments'"
+     },
+     {
+      "o": "Cleaning the office",
+      "zh": "打掃辦公室",
+      "use": "",
+      "why": "Tasks 沒有打掃，這是唯一沒出現的"
+     }
+    ]
+   },
+   {
+    "n": 3,
+    "key": "細節題：找 by May 15 → send your résumé",
+    "notes": [
+     {
+      "o": "Call the clinic",
+      "zh": "打電話給診所",
+      "use": "",
+      "why": "文中沒要求打電話，要寄履歷"
+     },
+     {
+      "o": "Start the job",
+      "zh": "開始上班",
+      "use": "",
+      "why": "上班是 June 1，不是 May 15"
+     },
+     {
+      "o": "Come for an interview",
+      "zh": "來面試",
+      "use": "",
+      "why": "面試是之後 'We will contact you'"
+     },
+     {
+      "o": "Send a résumé",
+      "zh": "寄履歷",
+      "use": "",
+      "why": "文中 'send your résumé to Ms. Gomez by May 15'"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "r400-12",
+  "qs": [
+   {
+    "n": 1,
+    "key": "主旨題：開頭 The east elevator will be closed",
+    "notes": [
+     {
+      "o": "To say that an elevator will be closed",
+      "zh": "電梯將關閉",
+      "use": "",
+      "why": "文中 'The east elevator will be closed'"
+     },
+     {
+      "o": "To announce new stairs",
+      "zh": "宣布新樓梯",
+      "use": "",
+      "why": "stairs 只是替代方式，不是新設施"
+     },
+     {
+      "o": "To welcome new neighbors",
+      "zh": "歡迎新鄰居",
+      "use": "",
+      "why": "文中沒提到新鄰居"
+     },
+     {
+      "o": "To ask people to move out",
+      "zh": "要求住戶搬走",
+      "use": "",
+      "why": "文中沒要求搬家，只是電梯維修"
+     }
+    ]
+   },
+   {
+    "n": 2,
+    "key": "細節題：from 9 A.M. to 3 P.M. → 算時間",
+    "notes": [
+     {
+      "o": "Two days",
+      "zh": "兩天",
+      "use": "",
+      "why": "只關 Friday, April 12 一天"
+     },
+     {
+      "o": "Three hours",
+      "zh": "三小時",
+      "use": "",
+      "why": "9 A.M. 到 3 P.M. 不是三小時"
+     },
+     {
+      "o": "Six hours",
+      "zh": "六小時",
+      "use": "",
+      "why": "'from 9 A.M. to 3 P.M.' 共六小時"
+     },
+     {
+      "o": "Nine hours",
+      "zh": "九小時",
+      "use": "",
+      "why": "9 是開始的時間，不是時數"
+     }
+    ]
+   },
+   {
+    "n": 3,
+    "key": "字義題：During this period → 這段時間",
+    "notes": [
+     {
+      "o": "place",
+      "zh": "(n.) 地點",
+      "use": "",
+      "why": "語意不合：9 A.M. 到 3 P.M. 是時間"
+     },
+     {
+      "o": "rule",
+      "zh": "(n.) 規定",
+      "use": "",
+      "why": "語意不合：period 不是規定"
+     },
+     {
+      "o": "time",
+      "zh": "(n.) 時間",
+      "use": "",
+      "why": "period 在此指一段時間"
+     },
+     {
+      "o": "price",
+      "zh": "(n.) 價格",
+      "use": "",
+      "why": "語意不合：與價格無關"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "r400-13",
+  "qs": [
+   {
+    "n": 1,
+    "key": "主旨題：開頭 to confirm your reservation",
+    "notes": [
+     {
+      "o": "To advertise a new hotel",
+      "zh": "宣傳新飯店",
+      "use": "",
+      "why": "文中是確認訂房，不是廣告"
+     },
+     {
+      "o": "To ask for a payment",
+      "zh": "要求付款",
+      "use": "",
+      "why": "文中只列價格，沒有要求付款"
+     },
+     {
+      "o": "To confirm a hotel booking",
+      "zh": "確認飯店訂房",
+      "use": "",
+      "why": "文中 'to confirm your reservation'"
+     },
+     {
+      "o": "To cancel a reservation",
+      "zh": "取消訂房",
+      "use": "",
+      "why": "取消只是說明規定，不是目的"
+     }
+    ]
+   },
+   {
+    "n": 2,
+    "key": "細節題：from October 8 to October 10 + two nights",
+    "notes": [
+     {
+      "o": "One",
+      "zh": "一晚",
+      "use": "",
+      "why": "文中 'for two nights'"
+     },
+     {
+      "o": "Two",
+      "zh": "兩晚",
+      "use": "",
+      "why": "文中 'for two nights, from October 8 to October 10'"
+     },
+     {
+      "o": "Three",
+      "zh": "三晚",
+      "use": "",
+      "why": "10 月 8 日到 10 日是兩晚，不是三晚"
+     },
+     {
+      "o": "Eight",
+      "zh": "八晚",
+      "use": "",
+      "why": "8 是入住日期，不是晚數"
+     }
+    ]
+   },
+   {
+    "n": 3,
+    "key": "細節題：找 cancel → at least 24 hours in advance",
+    "notes": [
+     {
+      "o": "Send a letter",
+      "zh": "寄信",
+      "use": "",
+      "why": "文中沒要求寄信，只說 tell us"
+     },
+     {
+      "o": "Call after 3 P.M.",
+      "zh": "三點後打電話",
+      "use": "",
+      "why": "3 P.M. 是入住時間，與取消無關"
+     },
+     {
+      "o": "Pay $90",
+      "zh": "付 90 美元",
+      "use": "",
+      "why": "$90 是一晚房價，不是取消要做的事"
+     },
+     {
+      "o": "Tell the hotel at least one day before",
+      "zh": "至少提前一天告知",
+      "use": "",
+      "why": "'at least 24 hours in advance' = 至少一天前"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "r400-14",
+  "qs": [
+   {
+    "n": 1,
+    "key": "細節題：第一句 sent the wrong ink",
+    "notes": [
+     {
+      "o": "A report is missing",
+      "zh": "報告不見了",
+      "use": "",
+      "why": "文中 Ben 要印報告，沒說不見"
+     },
+     {
+      "o": "The printer is broken",
+      "zh": "印表機壞了",
+      "use": "",
+      "why": "印表機沒壞，是墨水送錯"
+     },
+     {
+      "o": "The supplier is closed",
+      "zh": "供應商休息",
+      "use": "",
+      "why": "文中供應商有回應並道歉"
+     },
+     {
+      "o": "The wrong ink was sent",
+      "zh": "寄錯墨水",
+      "use": "",
+      "why": "文中 'sent the wrong ink'"
+     }
+    ]
+   },
+   {
+    "n": 2,
+    "key": "細節題：找 deliver the right ink tomorrow morning",
+    "notes": [
+     {
+      "o": "This afternoon",
+      "zh": "今天下午",
+      "use": "",
+      "why": "文中是明天，不是今天下午"
+     },
+     {
+      "o": "Tomorrow morning",
+      "zh": "明天早上",
+      "use": "",
+      "why": "文中 'deliver the right ink tomorrow morning'"
+     },
+     {
+      "o": "Next week",
+      "zh": "下週",
+      "use": "",
+      "why": "文中沒說下週"
+     },
+     {
+      "o": "Tomorrow night",
+      "zh": "明天晚上",
+      "use": "",
+      "why": "文中是 morning，不是 night"
+     }
+    ]
+   },
+   {
+    "n": 3,
+    "key": "推論題：Ben 要印報告 → 用 marketing department 的印表機",
+    "notes": [
+     {
+      "o": "Wait for the delivery",
+      "zh": "等送貨",
+      "use": "",
+      "why": "Ben 今天就要印，不能等明天"
+     },
+     {
+      "o": "Print his report in another department",
+      "zh": "到別的部門印報告",
+      "use": "",
+      "why": "文中 'use the printer in the marketing department'"
+     },
+     {
+      "o": "Buy ink at a store",
+      "zh": "去店裡買墨水",
+      "use": "",
+      "why": "文中沒提到去店裡買"
+     },
+     {
+      "o": "Call the supplier",
+      "zh": "打給供應商",
+      "use": "",
+      "why": "Amy 已經聯絡過供應商"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "r400-15",
+  "qs": [
+   {
+    "n": 1,
+    "key": "細節題：找 Admission: $8 for adults",
+    "notes": [
+     {
+      "o": "$8",
+      "zh": "8 美元",
+      "use": "",
+      "why": "文中 'Admission: $8 for adults'"
+     },
+     {
+      "o": "$12",
+      "zh": "12 美元",
+      "use": "",
+      "why": "12 是 under 12 的年齡，不是票價"
+     },
+     {
+      "o": "$3",
+      "zh": "3 美元",
+      "use": "",
+      "why": "文中沒有 $3，Room 3 是演講地點"
+     },
+     {
+      "o": "It is free",
+      "zh": "免費",
+      "use": "",
+      "why": "免費的是 12 歲以下兒童和導覽"
+     }
+    ]
+   },
+   {
+    "n": 2,
+    "key": "推論題：Talk by the author Paul Grant",
+    "notes": [
+     {
+      "o": "An art teacher",
+      "zh": "美術老師",
+      "use": "",
+      "why": "美術課是另一場，沒說他教課"
+     },
+     {
+      "o": "A museum cashier",
+      "zh": "博物館收銀員",
+      "use": "",
+      "why": "文中沒說他是收銀員"
+     },
+     {
+      "o": "A writer",
+      "zh": "作家",
+      "use": "",
+      "why": "'Talk by the author Paul Grant'，author 即作家"
+     },
+     {
+      "o": "A tour guide",
+      "zh": "導覽員",
+      "use": "",
+      "why": "導覽是另一場，沒說是他"
+     }
+    ]
+   },
+   {
+    "n": 3,
+    "key": "細節題：找 please reserve a place online",
+    "notes": [
+     {
+      "o": "Come after lunch",
+      "zh": "午餐後再來",
+      "use": "",
+      "why": "導覽是 10:30，在午餐前"
+     },
+     {
+      "o": "Go to Room 3",
+      "zh": "去 3 號房",
+      "use": "",
+      "why": "Room 3 是演講地點，不是導覽"
+     },
+     {
+      "o": "Reserve a place online",
+      "zh": "線上預約名額",
+      "use": "",
+      "why": "文中 'please reserve a place online'"
+     },
+     {
+      "o": "Buy a tour ticket",
+      "zh": "買導覽票",
+      "use": "",
+      "why": "文中 'The guided tour is free'，不用買票"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "r400-16",
+  "qs": [
+   {
+    "n": 1,
+    "key": "主旨題：開頭 Blue Wave Speaker，It is small and portable",
+    "notes": [
+     {
+      "o": "A mobile phone",
+      "zh": "手機",
+      "use": "",
+      "why": "文中沒提到手機"
+     },
+     {
+      "o": "A music video",
+      "zh": "音樂影片",
+      "use": "",
+      "why": "影片是用來學習使用方法，不是主題"
+     },
+     {
+      "o": "A small speaker",
+      "zh": "小型喇叭",
+      "use": "",
+      "why": "文中評論 'Blue Wave Speaker'，'small and portable'"
+     },
+     {
+      "o": "A travel bag",
+      "zh": "旅行袋",
+      "use": "",
+      "why": "bag 只是用來放喇叭"
+     }
+    ]
+   },
+   {
+    "n": 2,
+    "key": "細節題：找 The only negative point is the manual",
+    "notes": [
+     {
+      "o": "It is easy to understand",
+      "zh": "很好懂",
+      "use": "",
+      "why": "文中 'It is not detailed'，不好懂"
+     },
+     {
+      "o": "It was not in the box",
+      "zh": "盒子裡沒有",
+      "use": "",
+      "why": "文中沒說沒附說明書"
+     },
+     {
+      "o": "It does not give enough information",
+      "zh": "資訊不夠詳細",
+      "use": "",
+      "why": "文中 'It is not detailed'，所以要看影片"
+     },
+     {
+      "o": "It is too long",
+      "zh": "太長",
+      "use": "",
+      "why": "文中是不夠詳細，不是太長"
+     }
+    ]
+   },
+   {
+    "n": 3,
+    "key": "字義題：small and portable, carry it in my bag",
+    "notes": [
+     {
+      "o": "hard to find",
+      "zh": "難找到",
+      "use": "",
+      "why": "語意不合：他每天帶著走"
+     },
+     {
+      "o": "nice to look at",
+      "zh": "外觀好看",
+      "use": "",
+      "why": "文中沒談外觀"
+     },
+     {
+      "o": "easy to break",
+      "zh": "容易壞",
+      "use": "",
+      "why": "文中沒說容易壞"
+     },
+     {
+      "o": "easy to carry",
+      "zh": "容易攜帶",
+      "use": "",
+      "why": "'carry it in my bag every day'，portable = 好帶"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "r400-17",
+  "qs": [
+   {
+    "n": 1,
+    "key": "細節題：找 will be 20 years old! To celebrate",
+    "notes": [
+     {
+      "o": "A new manager is coming",
+      "zh": "新經理要來",
+      "use": "",
+      "why": "文中沒提到新經理"
+     },
+     {
+      "o": "Sales were good this year",
+      "zh": "今年業績好",
+      "use": "",
+      "why": "文中沒提到業績"
+     },
+     {
+      "o": "A new restaurant is opening",
+      "zh": "新餐廳開幕",
+      "use": "",
+      "why": "餐廳只是辦派對的地點"
+     },
+     {
+      "o": "It will be 20 years old",
+      "zh": "公司滿二十年",
+      "use": "",
+      "why": "文中 'will be 20 years old' 'To celebrate'"
+     }
+    ]
+   },
+   {
+    "n": 2,
+    "key": "推論題：Dinner and beverages are free",
+    "notes": [
+     {
+      "o": "Only managers can go",
+      "zh": "只有主管能去",
+      "use": "",
+      "why": "文中 'All employees are invited'"
+     },
+     {
+      "o": "Employees do not need to pay for food",
+      "zh": "員工不用付餐費",
+      "use": "",
+      "why": "文中 'Dinner and beverages are free'"
+     },
+     {
+      "o": "It will be held in the morning",
+      "zh": "在早上舉行",
+      "use": "",
+      "why": "文中是 6 P.M.，不是早上"
+     },
+     {
+      "o": "It is far from the office",
+      "zh": "離公司很遠",
+      "use": "",
+      "why": "文中餐廳在 'next to our office'"
+     }
+    ]
+   },
+   {
+    "n": 3,
+    "key": "細節題：找 by September 10 → respond to Ms. Ortiz",
+    "notes": [
+     {
+      "o": "Pay for dinner",
+      "zh": "付晚餐錢",
+      "use": "",
+      "why": "晚餐免費，不用付錢"
+     },
+     {
+      "o": "Buy a ticket",
+      "zh": "買票",
+      "use": "",
+      "why": "文中沒提到票"
+     },
+     {
+      "o": "Bring beverages",
+      "zh": "帶飲料",
+      "use": "",
+      "why": "飲料免費提供，不用自備"
+     },
+     {
+      "o": "Reply to Ms. Ortiz",
+      "zh": "回覆 Ms. Ortiz",
+      "use": "",
+      "why": "文中 'respond to Ms. Ortiz'，respond = 回覆"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "r400-18",
+  "qs": [
+   {
+    "n": 1,
+    "key": "主旨題：標題 Software update on Saturday",
+    "notes": [
+     {
+      "o": "A change in office hours",
+      "zh": "上班時間改變",
+      "use": "",
+      "why": "文中沒提到上班時間"
+     },
+     {
+      "o": "A new employee",
+      "zh": "新員工",
+      "use": "",
+      "why": "文中沒提到新員工"
+     },
+     {
+      "o": "A software update",
+      "zh": "軟體更新",
+      "use": "",
+      "why": "文中 'install new software on all office computers'"
+     },
+     {
+      "o": "A lost computer",
+      "zh": "電腦遺失",
+      "use": "",
+      "why": "文中沒提到遺失"
+     }
+    ]
+   },
+   {
+    "n": 2,
+    "key": "推論題：starts at 8 A.M. + take about four hours",
+    "notes": [
+     {
+      "o": "On Monday morning",
+      "zh": "週一早上",
+      "use": "",
+      "why": "週一是有問題時才找 help desk"
+     },
+     {
+      "o": "At 8 A.M. on Saturday",
+      "zh": "週六早上八點",
+      "use": "",
+      "why": "8 A.M. 是開始時間，不是結束"
+     },
+     {
+      "o": "On Friday evening",
+      "zh": "週五晚上",
+      "use": "",
+      "why": "週五是下班前存檔關機"
+     },
+     {
+      "o": "Around noon on Saturday",
+      "zh": "週六中午左右",
+      "use": "",
+      "why": "8 A.M. 加 about four hours，約中午"
+     }
+    ]
+   },
+   {
+    "n": 3,
+    "key": "細節題：找 Before you leave on Friday",
+    "notes": [
+     {
+      "o": "Turn off their computers",
+      "zh": "關掉電腦",
+      "use": "",
+      "why": "文中 'save your files and turn off your computer'"
+     },
+     {
+      "o": "Change their e-mail password",
+      "zh": "改電子郵件密碼",
+      "use": "",
+      "why": "文中沒提到改密碼"
+     },
+     {
+      "o": "Install the software",
+      "zh": "安裝軟體",
+      "use": "",
+      "why": "安裝由 IT 部門做，員工不用裝"
+     },
+     {
+      "o": "Call the help desk",
+      "zh": "打給服務台",
+      "use": "",
+      "why": "help desk 是週一有問題時才找"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "r400-19",
+  "qs": [
+   {
+    "n": 1,
+    "key": "主旨題：標題 New Bus Route to the Airport",
+    "notes": [
+     {
+      "o": "A new airport",
+      "zh": "新機場",
+      "use": "",
+      "why": "新的是公車路線，不是機場"
+     },
+     {
+      "o": "A train station closing",
+      "zh": "火車站關閉",
+      "use": "",
+      "why": "Central Station 只是公車發車處"
+     },
+     {
+      "o": "Higher parking fees",
+      "zh": "停車費漲價",
+      "use": "",
+      "why": "文中沒提到停車費"
+     },
+     {
+      "o": "A new bus service",
+      "zh": "新公車服務",
+      "use": "",
+      "why": "文中 'a new bus route will run ... airport'"
+     }
+    ]
+   },
+   {
+    "n": 2,
+    "key": "細節題：找 depart from Central Station every 20 minutes",
+    "notes": [
+     {
+      "o": "Every hour",
+      "zh": "每小時",
+      "use": "",
+      "why": "文中是 every 20 minutes"
+     },
+     {
+      "o": "Every 20 minutes",
+      "zh": "每 20 分鐘",
+      "use": "",
+      "why": "文中 'every 20 minutes'"
+     },
+     {
+      "o": "Every 10 minutes",
+      "zh": "每 10 分鐘",
+      "use": "",
+      "why": "文中沒有 10 分鐘"
+     },
+     {
+      "o": "Every 40 minutes",
+      "zh": "每 40 分鐘",
+      "use": "",
+      "why": "40 分鐘是車程，不是間隔"
+     }
+    ]
+   },
+   {
+    "n": 3,
+    "key": "細節題：找 The city hopes ... reduce traffic",
+    "notes": [
+     {
+      "o": "Give drivers more jobs",
+      "zh": "給司機更多工作",
+      "use": "",
+      "why": "文中沒提到工作機會"
+     },
+     {
+      "o": "Lower the amount of traffic",
+      "zh": "減少車流量",
+      "use": "",
+      "why": "文中 'reduce traffic on the airport road'"
+     },
+     {
+      "o": "Make bus fares cheaper",
+      "zh": "讓車費變便宜",
+      "use": "",
+      "why": "文中只列票價，沒說要降價"
+     },
+     {
+      "o": "Bring more visitors to the city",
+      "zh": "吸引更多遊客",
+      "use": "",
+      "why": "文中沒提到遊客"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "r400-20",
+  "qs": [
+   {
+    "n": 1,
+    "key": "主旨題：標題 New Parking Rules",
+    "notes": [
+     {
+      "o": "New rules for parking",
+      "zh": "停車新規定",
+      "use": "",
+      "why": "文中 'New Parking Rules'"
+     },
+     {
+      "o": "A new store at the mall",
+      "zh": "商場新店",
+      "use": "",
+      "why": "文中沒提到新店"
+     },
+     {
+      "o": "A sale at the mall",
+      "zh": "商場特賣",
+      "use": "",
+      "why": "文中沒提到特賣"
+     },
+     {
+      "o": "A job for cashiers",
+      "zh": "收銀員職缺",
+      "use": "",
+      "why": "cashier 只是出示收據的對象"
+     }
+    ]
+   },
+   {
+    "n": 2,
+    "key": "細節題：找 with a shopping receipt can park free for two hours",
+    "notes": [
+     {
+      "o": "By paying $2",
+      "zh": "付 2 美元",
+      "use": "",
+      "why": "$2 是兩小時後每小時的費用"
+     },
+     {
+      "o": "By parking near Gate B",
+      "zh": "停在 B 門附近",
+      "use": "",
+      "why": "Gate B 是機車專用區"
+     },
+     {
+      "o": "By arriving before 8 A.M.",
+      "zh": "早上八點前到",
+      "use": "",
+      "why": "8 A.M. 是開放時間，不是免費條件"
+     },
+     {
+      "o": "By showing a shopping receipt",
+      "zh": "出示購物收據",
+      "use": "",
+      "why": "文中 'with a shopping receipt can park free'"
+     }
+    ]
+   },
+   {
+    "n": 3,
+    "key": "NOT 題：找 Vehicles cannot stay ... overnight",
+    "notes": [
+     {
+      "o": "Leave a vehicle in the lot all night",
+      "zh": "整晚把車留在停車場",
+      "use": "",
+      "why": "文中 'cannot stay in the parking lot overnight'"
+     },
+     {
+      "o": "Park a motorcycle",
+      "zh": "停機車",
+      "use": "",
+      "why": "可以，但要用 Gate B 附近專區"
+     },
+     {
+      "o": "Pay the cashier at the exit",
+      "zh": "向出口收銀員付費",
+      "use": "",
+      "why": "可以，出口有收銀員處理收據"
+     },
+     {
+      "o": "Park for more than two hours",
+      "zh": "停超過兩小時",
+      "use": "",
+      "why": "可以，超過後每小時 $2"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "r400-21",
+  "qs": [
+   {
+    "n": 1,
+    "key": "單字：invite you to an interview → 邀請你面試",
+    "notes": [
+     {
+      "o": "attend",
+      "zh": "(v.) 參加",
+      "use": "",
+      "why": "attend 後面直接接活動，不接 you 再加 to"
+     },
+     {
+      "o": "invite",
+      "zh": "(v.) 邀請",
+      "use": "invite + 人 + to + 活動",
+      "why": "文中 invite you to an interview 語意通順"
+     },
+     {
+      "o": "deliver",
+      "zh": "(v.) 遞送",
+      "use": "",
+      "why": "語意不合：不是遞送面試"
+     },
+     {
+      "o": "remind",
+      "zh": "(v.) 提醒",
+      "use": "",
+      "why": "remind 不接 to an interview，也不符合邀請語意"
+     }
+    ]
+   },
+   {
+    "n": 2,
+    "key": "時態／語態：面試還沒發生，about 30 minutes → 未來式",
+    "notes": [
+     {
+      "o": "took",
+      "zh": "(過去式) 花了",
+      "use": "",
+      "why": "面試在 May 14，還沒發生，不用過去式"
+     },
+     {
+      "o": "has taken",
+      "zh": "(完成式) 已花了",
+      "use": "",
+      "why": "現在完成式表示已發生，與未來面試不合"
+     },
+     {
+      "o": "will take",
+      "zh": "(未來式) 將花",
+      "use": "will + 原形動詞",
+      "why": "面試在未來，用 will take 說明時長"
+     },
+     {
+      "o": "taking",
+      "zh": "(-ing) 花",
+      "use": "",
+      "why": "taking 不是完整動詞，句子缺動詞"
+     }
+    ]
+   },
+   {
+    "n": 3,
+    "key": "句子插入：信的結尾，要求確認時間 → 呼應 look forward",
+    "notes": [
+     {
+      "o": "Your first day of work is May 14.",
+      "zh": "你的上班第一天是 5 月 14 日",
+      "use": "",
+      "why": "與前文矛盾：5 月 14 日是面試日"
+     },
+     {
+      "o": "Please reply to this e-mail to confirm the time.",
+      "zh": "請回覆此信確認時間",
+      "use": "",
+      "why": "承接面試時間，下一句 look forward 也通順"
+     },
+     {
+      "o": "The sales job is no longer open.",
+      "zh": "這份業務工作已不再開放",
+      "use": "",
+      "why": "與前文矛盾：信中正邀請她面試"
+     },
+     {
+      "o": "We were happy to meet you last week.",
+      "zh": "我們上週很高興見到你",
+      "use": "",
+      "why": "與前文矛盾：還沒見過面，才說 look forward"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "r400-22",
+  "qs": [
+   {
+    "n": 1,
+    "key": "單字：old equipment 當受詞 → replace some old equipment",
+    "notes": [
+     {
+      "o": "replace",
+      "zh": "(v.) 更換",
+      "use": "replace + 受詞",
+      "why": "文中 Workers need to replace some old equipment 通順"
+     },
+     {
+      "o": "remain",
+      "zh": "(v.) 保持",
+      "use": "",
+      "why": "remain 不接受詞，不能接 some old equipment"
+     },
+     {
+      "o": "respond",
+      "zh": "(v.) 回應",
+      "use": "",
+      "why": "respond 要加 to，且語意不合"
+     },
+     {
+      "o": "participate",
+      "zh": "(v.) 參加",
+      "use": "",
+      "why": "participate 要加 in，且語意不合"
+     }
+    ]
+   },
+   {
+    "n": 2,
+    "key": "連接詞：前句說停電、後句說別來 → 結果，用 So",
+    "notes": [
+     {
+      "o": "Or",
+      "zh": "(conj.) 或者",
+      "use": "",
+      "why": "文法可以，但語意不通：前後不是二選一"
+     },
+     {
+      "o": "So",
+      "zh": "(adv.) 所以",
+      "use": "So, + 祈使句",
+      "why": "停電是原因，不要來是結果"
+     },
+     {
+      "o": "Because",
+      "zh": "(conj.) 因為",
+      "use": "",
+      "why": "Because 引導子句，後面不能接 please 祈使句"
+     },
+     {
+      "o": "But",
+      "zh": "(conj.) 但是",
+      "use": "",
+      "why": "文法可以，但語意不通：前後不是轉折"
+     }
+    ]
+   },
+   {
+    "n": 3,
+    "key": "單字：關電腦 → 防止損壞，prevent damage",
+    "notes": [
+     {
+      "o": "prevent",
+      "zh": "(v.) 防止",
+      "use": "prevent + damage",
+      "why": "prevent damage 是常見搭配，語意通順"
+     },
+     {
+      "o": "perform",
+      "zh": "(v.) 執行",
+      "use": "",
+      "why": "語意不合：不會 perform damage"
+     },
+     {
+      "o": "present",
+      "zh": "(v.) 呈現",
+      "use": "",
+      "why": "語意不合：present damage 不是此意"
+     },
+     {
+      "o": "propose",
+      "zh": "(v.) 提議",
+      "use": "",
+      "why": "語意不合：propose damage 不通"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "r400-23",
+  "qs": [
+   {
+    "n": 1,
+    "key": "時態：Before this 指上班之前 + for five years → 過去式",
+    "notes": [
+     {
+      "o": "will work",
+      "zh": "(未來式) 將工作",
+      "use": "",
+      "why": "Before this 指過去，不是未來"
+     },
+     {
+      "o": "working",
+      "zh": "(-ing) 工作",
+      "use": "",
+      "why": "working 不是完整動詞，句子缺動詞"
+     },
+     {
+      "o": "worked",
+      "zh": "(過去式) 工作",
+      "use": "worked + for + 時間",
+      "why": "他過去在銀行工作五年，用過去式"
+     },
+     {
+      "o": "works",
+      "zh": "(現在式) 工作",
+      "use": "",
+      "why": "現在式與 Before this 的過去時間不合"
+     }
+    ]
+   },
+   {
+    "n": 2,
+    "key": "單字：give him a ___ of the office → 導覽",
+    "notes": [
+     {
+      "o": "tour",
+      "zh": "(n.) 導覽",
+      "use": "a tour of + 地點",
+      "why": "give sb a tour of + 地點 指帶人參觀"
+     },
+     {
+      "o": "fare",
+      "zh": "(n.) 車資",
+      "use": "",
+      "why": "語意不合：fare 是交通費用"
+     },
+     {
+      "o": "sample",
+      "zh": "(n.) 樣品",
+      "use": "",
+      "why": "語意不合：sample 是樣本"
+     },
+     {
+      "o": "loan",
+      "zh": "(n.) 貸款",
+      "use": "",
+      "why": "語意不合：loan 是貸款"
+     }
+    ]
+   },
+   {
+    "n": 3,
+    "key": "詞性：Please 後接原形動詞 + him → assist him",
+    "notes": [
+     {
+      "o": "assistant",
+      "zh": "(n.) 助理",
+      "use": "",
+      "why": "名詞，Please 後面要接動詞"
+     },
+     {
+      "o": "assisted",
+      "zh": "(過去式) 協助",
+      "use": "",
+      "why": "Please 後面要用原形動詞，不用過去式"
+     },
+     {
+      "o": "assistance",
+      "zh": "(n.) 協助",
+      "use": "",
+      "why": "名詞，不能直接接受詞 him"
+     },
+     {
+      "o": "assist",
+      "zh": "(v.) 協助",
+      "use": "Please + 原形動詞",
+      "why": "Please + 原形動詞，assist him 是請協助他"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "r400-24",
+  "qs": [
+   {
+    "n": 1,
+    "key": "單字：a car for only $40 a day → 租車",
+    "notes": [
+     {
+      "o": "retire",
+      "zh": "(v.) 退休",
+      "use": "",
+      "why": "語意不合：車不能 retire"
+     },
+     {
+      "o": "attend",
+      "zh": "(v.) 參加",
+      "use": "",
+      "why": "語意不合：attend 後面不接 a car"
+     },
+     {
+      "o": "depart",
+      "zh": "(v.) 出發",
+      "use": "",
+      "why": "depart 是不及物動詞，不接 a car"
+     },
+     {
+      "o": "rent",
+      "zh": "(v.) 租用",
+      "use": "rent + a car",
+      "why": "文中是租車公司，rent a car 租車"
+     }
+    ]
+   },
+   {
+    "n": 2,
+    "key": "語態：Every car is ___ by our staff → 被動",
+    "notes": [
+     {
+      "o": "checks",
+      "zh": "(v.) 檢查（第三人稱）",
+      "use": "",
+      "why": "is 後面不能接 checks"
+     },
+     {
+      "o": "checking",
+      "zh": "(-ing) 檢查",
+      "use": "",
+      "why": "is checking 是主動，車不會自己檢查"
+     },
+     {
+      "o": "checked",
+      "zh": "(p.p.) 被檢查",
+      "use": "be + p.p. + by",
+      "why": "is + 過去分詞，by our staff 表被動"
+     },
+     {
+      "o": "check",
+      "zh": "(原形) 檢查",
+      "use": "",
+      "why": "is 後面不能接原形動詞"
+     }
+    ]
+   },
+   {
+    "n": 3,
+    "key": "連接詞：免付保險費 ← 保險已含在價格內 → 原因",
+    "notes": [
+     {
+      "o": "so",
+      "zh": "(conj.) 所以",
+      "use": "",
+      "why": "文法可以，但因果顛倒：保險已含才不用付"
+     },
+     {
+      "o": "or",
+      "zh": "(conj.) 或",
+      "use": "",
+      "why": "文法可以，但語意不通：不是二選一"
+     },
+     {
+      "o": "but",
+      "zh": "(conj.) 但是",
+      "use": "",
+      "why": "文法可以，但語意不通：後句不是轉折"
+     },
+     {
+      "o": "because",
+      "zh": "(conj.) 因為",
+      "use": "結果, because + 原因",
+      "why": "後句 it is included 是不用付的原因"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "r400-25",
+  "qs": [
+   {
+    "n": 1,
+    "key": "時態：bought 與 after only one week → 過去式",
+    "notes": [
+     {
+      "o": "stopped",
+      "zh": "(過去式) 停了",
+      "use": "stop working",
+      "why": "stopped working 表示壞掉了，與 bought 同為過去"
+     },
+     {
+      "o": "stops",
+      "zh": "(現在式) 停",
+      "use": "",
+      "why": "現在式與 bought、after one week 的過去時間不合"
+     },
+     {
+      "o": "will stop",
+      "zh": "(未來式) 將停",
+      "use": "",
+      "why": "問題已發生，不是未來"
+     },
+     {
+      "o": "stopping",
+      "zh": "(-ing) 停",
+      "use": "",
+      "why": "stopping 不是完整動詞，句子缺動詞"
+     }
+    ]
+   },
+   {
+    "n": 2,
+    "key": "單字：We would like to ___ for this problem → 為此道歉",
+    "notes": [
+     {
+      "o": "apply",
+      "zh": "(v.) 申請",
+      "use": "",
+      "why": "apply for 通常接職位或許可，不接 problem"
+     },
+     {
+      "o": "apologize",
+      "zh": "(v.) 道歉",
+      "use": "apologize for + N",
+      "why": "apologize for + 事情，與 sorry 呼應"
+     },
+     {
+      "o": "subscribe",
+      "zh": "(v.) 訂閱",
+      "use": "",
+      "why": "語意不合：subscribe 要加 to"
+     },
+     {
+      "o": "participate",
+      "zh": "(v.) 參加",
+      "use": "",
+      "why": "語意不合：participate 要加 in"
+     }
+    ]
+   },
+   {
+    "n": 3,
+    "key": "連接詞：兩個選項 → send a new one or refund，用 or",
+    "notes": [
+     {
+      "o": "or",
+      "zh": "(conj.) 或者",
+      "use": "A, or B",
+      "why": "You have two options，用 or 連接兩個選項"
+     },
+     {
+      "o": "until",
+      "zh": "(conj.) 直到",
+      "use": "",
+      "why": "語意不合：until 表時間持續"
+     },
+     {
+      "o": "because",
+      "zh": "(conj.) 因為",
+      "use": "",
+      "why": "語意不合：兩個選項不是因果"
+     },
+     {
+      "o": "so",
+      "zh": "(conj.) 所以",
+      "use": "",
+      "why": "語意不合：兩個選項不是結果"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "r400-26",
+  "qs": [
+   {
+    "n": 1,
+    "key": "單字：open again at our ___ time, 8 A.M. → 平常的",
+    "notes": [
+     {
+      "o": "annual",
+      "zh": "(adj.) 每年的",
+      "use": "",
+      "why": "語意不合：開店時間不是每年一次"
+     },
+     {
+      "o": "frequent",
+      "zh": "(adj.) 頻繁的",
+      "use": "",
+      "why": "語意不合：frequent 指次數多"
+     },
+     {
+      "o": "entire",
+      "zh": "(adj.) 整個的",
+      "use": "",
+      "why": "語意不合：不是整個時間"
+     },
+     {
+      "o": "regular",
+      "zh": "(adj.) 平常的",
+      "use": "our regular + N",
+      "why": "regular time 指平常的營業時間"
+     }
+    ]
+   },
+   {
+    "n": 2,
+    "key": "句子插入：前句 close early at 6 P.M. → 提醒提早購物",
+    "notes": [
+     {
+      "o": "We will stay open until midnight that day.",
+      "zh": "當天營業到午夜",
+      "use": "",
+      "why": "與前句矛盾：前句說 6 P.M. 就關門"
+     },
+     {
+      "o": "Please finish your shopping before then.",
+      "zh": "請在那之前完成購物",
+      "use": "",
+      "why": "承接 close early at 6 P.M.，提醒顧客"
+     },
+     {
+      "o": "The meeting will be in Room 2.",
+      "zh": "會議在二號會議室",
+      "use": "",
+      "why": "與賣場公告無關"
+     },
+     {
+      "o": "Thank you for returning the item.",
+      "zh": "謝謝你退回商品",
+      "use": "",
+      "why": "文中沒有退貨相關內容"
+     }
+    ]
+   },
+   {
+    "n": 3,
+    "key": "單字：Thank you for your ___ this year → 支持",
+    "notes": [
+     {
+      "o": "damage",
+      "zh": "(n.) 損害",
+      "use": "",
+      "why": "語意不合：不會感謝顧客的損害"
+     },
+     {
+      "o": "pollution",
+      "zh": "(n.) 污染",
+      "use": "",
+      "why": "語意不合：與感謝無關"
+     },
+     {
+      "o": "support",
+      "zh": "(n.) 支持",
+      "use": "thank you for your + N",
+      "why": "Thank you for your support 是常用感謝語"
+     },
+     {
+      "o": "complaint",
+      "zh": "(n.) 抱怨",
+      "use": "",
+      "why": "語意不合：不會感謝抱怨"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "r400-27",
+  "qs": [
+   {
+    "n": 1,
+    "key": "單字：sorry to ___ you on your day off → 打擾",
+    "notes": [
+     {
+      "o": "disturb",
+      "zh": "(v.) 打擾",
+      "use": "sorry to disturb you",
+      "why": "在休假日聯絡對方，用 disturb"
+     },
+     {
+      "o": "develop",
+      "zh": "(v.) 發展",
+      "use": "",
+      "why": "語意不合：develop you 不通"
+     },
+     {
+      "o": "deliver",
+      "zh": "(v.) 遞送",
+      "use": "",
+      "why": "語意不合：不是遞送人"
+     },
+     {
+      "o": "display",
+      "zh": "(v.) 展示",
+      "use": "",
+      "why": "語意不合：display you 不通"
+     }
+    ]
+   },
+   {
+    "n": 2,
+    "key": "主詞動詞一致：He 為第三人稱單數 → needs",
+    "notes": [
+     {
+      "o": "need",
+      "zh": "(原形) 需要",
+      "use": "",
+      "why": "主詞 He 是單數，動詞要加 s"
+     },
+     {
+      "o": "needs",
+      "zh": "(第三人稱單數) 需要",
+      "use": "He + V-s",
+      "why": "He + needs，現在式第三人稱單數"
+     },
+     {
+      "o": "to need",
+      "zh": "(不定詞) 需要",
+      "use": "",
+      "why": "to need 不是完整動詞，句子缺動詞"
+     },
+     {
+      "o": "needing",
+      "zh": "(-ing) 需要",
+      "use": "",
+      "why": "needing 不是完整動詞，句子缺動詞"
+     }
+    ]
+   },
+   {
+    "n": 3,
+    "key": "連接詞：假設有副本 → 請寄給我，用 If",
+    "notes": [
+     {
+      "o": "But",
+      "zh": "(conj.) 但是",
+      "use": "",
+      "why": "文法可以，但語意不通：前句問檔案在哪，不是轉折"
+     },
+     {
+      "o": "So",
+      "zh": "(conj.) 所以",
+      "use": "",
+      "why": "文法可以，但語意不通：沒有因果關係"
+     },
+     {
+      "o": "Or",
+      "zh": "(conj.) 或者",
+      "use": "",
+      "why": "文法可以，但語意不通：句意不是二選一"
+     },
+     {
+      "o": "If",
+      "zh": "(conj.) 如果",
+      "use": "If + 子句, 祈使句",
+      "why": "If you have a copy 表條件，後接 please 祈使句"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "r400-28",
+  "qs": [
+   {
+    "n": 1,
+    "key": "單字：The ___ show that most workers... → 調查結果",
+    "notes": [
+     {
+      "o": "results",
+      "zh": "(n.) 結果",
+      "use": "the results show that",
+      "why": "survey results 調查結果，與複數 show 一致"
+     },
+     {
+      "o": "fares",
+      "zh": "(n.) 車資",
+      "use": "",
+      "why": "語意不合：與調查無關"
+     },
+     {
+      "o": "wages",
+      "zh": "(n.) 薪資",
+      "use": "",
+      "why": "語意不合：調查說的是開會看法"
+     },
+     {
+      "o": "goods",
+      "zh": "(n.) 商品",
+      "use": "",
+      "why": "語意不合：調查不是商品"
+     }
+    ]
+   },
+   {
+    "n": 2,
+    "key": "詞形：they 為複數主詞 + too many meetings → attend",
+    "notes": [
+     {
+      "o": "to attend",
+      "zh": "(不定詞) 參加",
+      "use": "",
+      "why": "to attend 不是完整動詞，句子缺動詞"
+     },
+     {
+      "o": "attends",
+      "zh": "(第三人稱單數) 參加",
+      "use": "",
+      "why": "主詞 they 是複數，不加 s"
+     },
+     {
+      "o": "attending",
+      "zh": "(-ing) 參加",
+      "use": "",
+      "why": "attending 不是完整動詞，句子缺動詞"
+     },
+     {
+      "o": "attend",
+      "zh": "(原形) 參加",
+      "use": "they + 原形動詞",
+      "why": "they + attend，現在式複數主詞用原形"
+     }
+    ]
+   },
+   {
+    "n": 3,
+    "key": "單字：send the topics before → 縮短時間 → reduce",
+    "notes": [
+     {
+      "o": "remind",
+      "zh": "(v.) 提醒",
+      "use": "",
+      "why": "語意不合：remind the time 不通"
+     },
+     {
+      "o": "reduce",
+      "zh": "(v.) 減少",
+      "use": "reduce + the time",
+      "why": "reduce the time 減少時間，語意通順"
+     },
+     {
+      "o": "respond",
+      "zh": "(v.) 回應",
+      "use": "",
+      "why": "respond 要加 to，且語意不合"
+     },
+     {
+      "o": "retire",
+      "zh": "(v.) 退休",
+      "use": "",
+      "why": "語意不合：不接 the time"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "r400-29",
+  "qs": [
+   {
+    "n": 1,
+    "key": "詞性：Thank you for 後面接 -ing → subscribing",
+    "notes": [
+     {
+      "o": "subscribing",
+      "zh": "(v.-ing) 訂閱",
+      "use": "thank you for + V-ing",
+      "why": "for 是介系詞，後面接動名詞"
+     },
+     {
+      "o": "subscribe",
+      "zh": "(原形) 訂閱",
+      "use": "",
+      "why": "介系詞 for 後不能接原形動詞"
+     },
+     {
+      "o": "subscribed",
+      "zh": "(過去式) 訂閱",
+      "use": "",
+      "why": "介系詞 for 後不能接過去式"
+     },
+     {
+      "o": "subscribes",
+      "zh": "(第三人稱單數) 訂閱",
+      "use": "",
+      "why": "介系詞 for 後不能接第三人稱單數動詞"
+     }
+    ]
+   },
+   {
+    "n": 2,
+    "key": "語態：news 被寄到信箱 → 被動 is sent",
+    "notes": [
+     {
+      "o": "is sent",
+      "zh": "(被動) 被寄送",
+      "use": "be + p.p. + to",
+      "why": "news 是被寄出，is sent to 表被動"
+     },
+     {
+      "o": "sent",
+      "zh": "(過去式) 寄",
+      "use": "",
+      "why": "every Monday 表習慣，且缺少被動的 is"
+     },
+     {
+      "o": "is sending",
+      "zh": "(現在進行式) 在寄",
+      "use": "",
+      "why": "is sending 是主動，news 不會自己寄"
+     },
+     {
+      "o": "sends",
+      "zh": "(現在式) 寄",
+      "use": "",
+      "why": "sends 是主動，news 不會自己寄"
+     }
+    ]
+   },
+   {
+    "n": 3,
+    "key": "單字：After that, the ___ is $5 per month → 費用",
+    "notes": [
+     {
+      "o": "fare",
+      "zh": "(n.) 車資",
+      "use": "",
+      "why": "fare 指交通費，不用於訂閱費"
+     },
+     {
+      "o": "loan",
+      "zh": "(n.) 貸款",
+      "use": "",
+      "why": "語意不合：訂閱不是貸款"
+     },
+     {
+      "o": "fee",
+      "zh": "(n.) 費用",
+      "use": "the fee is + 金額",
+      "why": "$5 per month 是訂閱費，用 fee"
+     },
+     {
+      "o": "wage",
+      "zh": "(n.) 薪資",
+      "use": "",
+      "why": "語意不合：wage 是工資"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "r400-30",
+  "qs": [
+   {
+    "n": 1,
+    "key": "單字：did not have a ___, but got a table → 訂位",
+    "notes": [
+     {
+      "o": "reservation",
+      "zh": "(n.) 訂位",
+      "use": "have a reservation",
+      "why": "沒訂位，但五分鐘就有位子"
+     },
+     {
+      "o": "description",
+      "zh": "(n.) 描述",
+      "use": "",
+      "why": "語意不合：和找座位無關"
+     },
+     {
+      "o": "departure",
+      "zh": "(n.) 出發",
+      "use": "",
+      "why": "語意不合：與用餐無關"
+     },
+     {
+      "o": "destination",
+      "zh": "(n.) 目的地",
+      "use": "",
+      "why": "語意不合：餐廳不是目的地"
+     }
+    ]
+   },
+   {
+    "n": 2,
+    "key": "時態：last Friday、ordered → 過去式",
+    "notes": [
+     {
+      "o": "arrived",
+      "zh": "(過去式) 抵達",
+      "use": "V-ed + after we ordered",
+      "why": "last Friday 是過去，用 arrived"
+     },
+     {
+      "o": "will arrive",
+      "zh": "(未來式) 將抵達",
+      "use": "",
+      "why": "last Friday 是過去，不用 will"
+     },
+     {
+      "o": "arriving",
+      "zh": "(-ing) 抵達",
+      "use": "",
+      "why": "arriving 不是完整動詞，句子缺動詞"
+     },
+     {
+      "o": "arrives",
+      "zh": "(現在式) 抵達",
+      "use": "",
+      "why": "現在式與 last Friday 的過去時間不合"
+     }
+    ]
+   },
+   {
+    "n": 3,
+    "key": "連接詞：價格偏高 → 還是會再來 → 轉折，用 However",
+    "notes": [
+     {
+      "o": "For example",
+      "zh": "(片語) 例如",
+      "use": "",
+      "why": "語意不合：後句不是舉例"
+     },
+     {
+      "o": "Therefore",
+      "zh": "(adv.) 因此",
+      "use": "",
+      "why": "文法可以，但語意不通：價高不是回去的原因"
+     },
+     {
+      "o": "However",
+      "zh": "(adv.) 然而",
+      "use": "However, + 句子",
+      "why": "價格高、仍想回去，是轉折"
+     },
+     {
+      "o": "Because",
+      "zh": "(conj.) 因為",
+      "use": "",
+      "why": "Because 引導子句，不能接逗號後主句"
+     }
+    ]
+   }
+  ]
+ }
+]

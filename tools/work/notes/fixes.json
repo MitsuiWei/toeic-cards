@@ -1,0 +1,269 @@
+{
+ "l400-007": {
+  "notes.0.trap": "答非所問"
+ },
+ "l400-011": {
+  "key": "Would you mind 是請求 → Not at all／No problem 都表示答應"
+ },
+ "l400-017": {
+  "notes.2.why": "newspaper 含 paper，但看報紙與沒紙無關"
+ },
+ "l400-022": {
+  "notes.1.o": "At City Hall.",
+  "notes.1.why": "At City Hall 是地點，不是人數"
+ },
+ "l400-025": {
+  "notes.0.trap": "一字多義陷阱"
+ },
+ "l400-048": {
+  "notes.1.trap": "一字多義陷阱"
+ },
+ "l400-078": {
+  "key": "否定問句 Isn't → 照事實答：關門答 Yes，有開答 No"
+ },
+ "l600-056": {
+  "key": "How long 加 warranty 問保固期間 → 聽 years"
+ },
+ "l800-050": {
+  "key": "Who 問人；「我以為是你」＝我沒被指派，以為由你去"
+ },
+ "p130": {
+  "notes.0.use": "bus fare／taxi fare／airfare；pay the fare"
+ },
+ "p131": {
+  "notes.1.use": "美式用複數：book accommodations；hotel accommodations"
+ },
+ "p133": {
+  "notes.2.use": "bus fare／taxi fare／airfare；pay the fare"
+ },
+ "p139": {
+  "notes.3.why": "capable 形容人有能力；門票不會「有能力」"
+ },
+ "p167": {
+  "notes.3.why": "「退休」義不接受詞；retire the award 不通"
+ },
+ "p174": {
+  "notes.3.why": "「退休」義不接受詞；retire the form 不通"
+ },
+ "p179": {
+  "notes.3.why": "「退休」義不接受詞；retire pizza 不通"
+ },
+ "p185": {
+  "notes.2.why": "「退休」義不接受詞，也和訂機位無關"
+ },
+ "p191": {
+  "notes.2.why": "受詞要是人（hire new staff），name 不能被雇用"
+ },
+ "p200": {
+  "notes.3.why": "「退休」義不接受詞；retire a photo 不通"
+ },
+ "p201": {
+  "notes.1.why": "remain = stay；seated 是形容詞（分詞），符合 remain + 形容詞"
+ },
+ "p223": {
+  "notes.3.why": "飯店房門掛牌 Do Not Disturb「請勿打擾」"
+ },
+ "p227": {
+  "notes.2.why": "主詞要是公司或人；票價不會「雇用」人"
+ },
+ "p228": {
+  "notes.0.use": "bus fare／taxi fare／airfare：搭交通工具的費用"
+ },
+ "p233": {
+  "notes.1.why": "及物 retire 是「停用、淘汰」，和用新價格更新不合"
+ },
+ "p234": {
+  "notes.0.why": "「退休」義不接受詞；retire a table 不通"
+ },
+ "p239": {
+  "notes.2.why": "受詞要是人；問題不會「邀請」排隊人潮"
+ },
+ "p259": {
+  "notes.1.use": "bus fare／taxi fare／airfare；pay the fare"
+ },
+ "p279": {
+  "notes.1.use": "provide accommodations for + 人（美式常用複數）"
+ },
+ "p285": {
+  "notes.2.why": "講座是 give／attend 的活動，不是 earn 得到的學位"
+ },
+ "p288": {
+  "notes.3.why": "語意不通：「大多數」是人數比例，不是退貨規定"
+ },
+ "p297": {
+  "notes.2.why": "作「條款」解多用複數 terms；in terms of「就…而言」"
+ },
+ "p314": {
+  "notes.3.use": "bus fare／taxi fare／airfare；pay the fare"
+ },
+ "p321": {
+  "notes.1.why": "a clear 後要名詞；分詞 improving 後面沒有名詞可修飾"
+ },
+ "p327": {
+  "notes.2.use": "bus fare／taxi fare／airfare；pay the fare"
+ },
+ "p334": {
+  "notes.2.use": "bus fare／taxi fare／airfare；pay the fare"
+ },
+ "p365": {
+  "notes.2.why": "be on strike「罷工中」；動詞 strike 也可表「罷工」"
+ },
+ "p366": {
+  "notes.1.why": "sell at a profit 才用 at；沒有 buy on profit 的說法"
+ },
+ "p371": {
+  "notes.1.use": "副詞（少見）；一般說 easily accessible（容易到達）"
+ },
+ "p402": {
+  "notes.1.why": "文法可以，但指數量多；「大量的原則」語意不通"
+ },
+ "p421": {
+  "notes.2.why": "enroll 美式接 in + 課程（英式才有 on），且語意與專心無關"
+ },
+ "p46": {
+  "notes.1.use": "美式多用複數 hotel accommodations；accommodations for + 人"
+ },
+ "p471": {
+  "notes.0.why": "enroll 美式接 in（英式才有 on），語意也與講者說明無關"
+ },
+ "p493": {
+  "notes.2.why": "同義 warranty；美式說 under warranty（保固期內）"
+ },
+ "p613": {
+  "notes.0.why": "inadequacy lighting 不成複合名詞；修飾 lighting 要用形容詞"
+ },
+ "p62": {
+  "notes.3.use": "美式多用複數 hotel accommodations；accommodations for + 人"
+ },
+ "p63": {
+  "notes.3.why": "polluted 是形容詞「被污染的」，不是名詞「污染」，cut 缺受詞"
+ },
+ "p642": {
+  "notes.3.why": "be 動詞後缺補語，要形容詞；make sure (that) + 子句"
+ },
+ "p771": {
+  "notes.2.why": "wireless 後缺名詞；形容詞無名詞可修飾，不能直接接 is"
+ },
+ "p821": {
+  "notes.3.why": "annual 後缺名詞；形容詞無名詞可修飾，不能直接接 has"
+ },
+ "p83": {
+  "notes.1.use": "名詞：hotel accommodation；美式多用複數 accommodations"
+ },
+ "p880": {
+  "notes.2.why": "comprehensive 是「全面的」；「可理解的」是 comprehensible"
+ },
+ "p890": {
+  "notes.1.why": "conducive 後常接 to；修飾 problem 語意不合"
+ },
+ "p914": {
+  "notes.3.why": "主要修飾數字；修飾 failed 語意不通"
+ },
+ "p917": {
+  "notes.3.why": "主要修飾數字；修飾 approved 語意不通"
+ },
+ "p919": {
+  "notes.3.why": "to 後面要原形動詞，形容詞不能當動詞"
+ },
+ "p927": {
+  "notes.1.why": "to 後面要原形動詞，形容詞不能當動詞"
+ },
+ "p931": {
+  "notes.0.why": "be used to 後面要原形動詞，形容詞不行"
+ },
+ "p934": {
+  "notes.0.why": "plans to 後要原形動詞；形容詞不能當動詞"
+ },
+ "p941": {
+  "notes.1.why": "in order to 後要原形動詞，形容詞不行"
+ },
+ "p95": {
+  "notes.3.why": "make／file／receive a complaint；complain 加 t 才是名詞"
+ },
+ "p978": {
+  "notes.2.why": "to 後面要原形動詞，形容詞不能當動詞"
+ },
+ "p980": {
+  "notes.3.why": "表目的的 to 後要原形動詞，形容詞不行"
+ },
+ "p982": {
+  "notes.2.why": "hopes to 後要原形動詞，形容詞不能當動詞"
+ },
+ "p985": {
+  "notes.3.why": "be forced to 後要原形動詞，形容詞不行"
+ },
+ "p997": {
+  "notes.2.why": "plans to 後要原形動詞，形容詞不能當動詞"
+ },
+ "r400-03.3": {
+  "key": "細節題：找 come early 前面的原因 Quantities are limited",
+  "notes.2.why": "文中 'Quantities are limited, so come early'"
+ },
+ "r400-04.1": {
+  "notes.2.why": "文中沒有訂機票，Dana 只是說班機延誤"
+ },
+ "r400-04.3": {
+  "notes.0.why": "文中沒說他要去機場，只說 Dana 的班機延誤"
+ },
+ "r400-06.3": {
+  "key": "細節題：問不喜歡什麼 → 找 My only complaint is the breakfast"
+ },
+ "r400-16.2": {
+  "key": "細節題：找 My only complaint is the manual"
+ },
+ "r400-20.3": {
+  "key": "細節題：問禁止什麼 → 找 Vehicles cannot stay ... overnight",
+  "notes.2.why": "文中只說在出口向 cashier 出示收據，沒有禁止這件事"
+ },
+ "r400-24.1": {
+  "notes.2.why": "depart 指出發離開（可接地點），不能接 a car"
+ },
+ "r400-27.3": {
+  "notes.0.why": "兩個完整句只用逗號連接不合文法，句意也不是轉折",
+  "notes.1.why": "兩個完整句只用逗號連接不合文法，也沒有因果關係",
+  "notes.2.why": "兩個完整句只用逗號連接不合文法，句意也不是二選一"
+ },
+ "r600-03.2": {
+  "notes.3.why": "主動式缺受詞，時程表不會自己附加，要用被動"
+ },
+ "r600-06.2": {
+  "key": "單字：一年的___ → 免費更換 → 保固 warranty",
+  "notes.2.o": "warranty",
+  "notes.2.use": "come with a one-year warranty"
+ },
+ "r600-06.3": {
+  "notes.1.why": "文法可以，但語意變成「沒收到舊機才寄新機」，不合理"
+ },
+ "r600-10.3": {
+  "notes.2.o": "A two-year warranty",
+  "notes.2.why": "'a two-year warranty'，有提到"
+ },
+ "r600-15.3": {
+  "notes.1.why": "文法可以，但語意不通：occur 是「發生」，不是報名"
+ },
+ "r600-17.3": {
+  "notes.0.why": "build a market 文法可以，但做冷凍餐要蓋的是工廠"
+ },
+ "r600-18.1": {
+  "notes.0.why": "appreciated 是分詞，our 後缺名詞當 express 的受詞",
+  "notes.0.zh": "(v. 過去式／p.p.) 感激了；受重視的"
+ },
+ "r600-18.3": {
+  "notes.3.zh": "請在本週結束前付清餘額"
+ },
+ "r600-22.2": {
+  "notes.2.why": "文中 'a $1,000 prize' 加兩天有薪假"
+ },
+ "r600-27.1": {
+  "notes.2.why": "文法可以，但語意變成「不晚到才要通知」，相反"
+ },
+ "r800-22.3": {
+  "notes.3.why": "文法可以，但道歉針對造成的麻煩，非泛指「情況」"
+ },
+ "r800-23.3": {
+  "notes.1.why": "Whether 是「是否／不論」，放句首語意不通"
+ },
+ "r990-30.2": {
+  "notes.3.why": "語意不通：deter 是「阻止（人）做某事」，設備不會被阻止"
+ }
+}

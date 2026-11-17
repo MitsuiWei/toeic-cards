@@ -1,0 +1,14 @@
+[
+ {
+  "id": "p402",
+  "field": "notes.1.why",
+  "problem": "'Abundant' can modify singular nouns (an abundant supply/harvest, as the use line itself shows); the real reason is meaning, not singular number.",
+  "fix": "文法可以，但指數量多；「大量的原則」語意不通"
+ },
+ {
+  "id": "p493",
+  "field": "notes.2.why",
+  "problem": "'Under guarantee' is chiefly British; American English says 'under warranty'.",
+  "fix": "同義 warranty；美式說 under warranty（保固期內）"
+ }
+]

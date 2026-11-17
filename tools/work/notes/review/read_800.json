@@ -1,0 +1,4 @@
+[
+{"id":"r800-22.3","field":"notes.3.why","problem":"Empty explanation: 'not a fixed collocation' gives no reason; 'apologize for the circumstances' is in fact usable.","fix":"文法可以，但道歉針對造成的麻煩，非泛指「情況」"},
+{"id":"r800-23.3","field":"notes.1.why","problem":"Whether does not require 'or not'; that rule is false.","fix":"Whether 是「是否／不論」，放句首語意不通"}
+]

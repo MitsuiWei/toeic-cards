@@ -1,0 +1,68 @@
+[
+ {
+  "id": "p131",
+  "field": "notes.1.use",
+  "problem": "In American English the lodging sense is normally plural ('book accommodations', 'hotel accommodations'); singular uncountable 'accommodation' is British.",
+  "fix": "美式用複數：book accommodations；hotel accommodations"
+ },
+ {
+  "id": "p139",
+  "field": "notes.3.why",
+  "problem": "'capable' can stand alone (a capable manager; She is very capable), so a missing 'of' is not the reason; it fails because tickets cannot have ability.",
+  "fix": "capable 形容人有能力；門票不會「有能力」"
+ },
+ {
+  "id": "p167",
+  "field": "notes.3.why",
+  "problem": "'retire' is not always intransitive (retire a product／system／jersey); only the 退休 sense takes no object.",
+  "fix": "「退休」義不接受詞；retire the award 不通"
+ },
+ {
+  "id": "p174",
+  "field": "notes.3.why",
+  "problem": "'retire' is not always intransitive (retire a product／system); only the 退休 sense takes no object.",
+  "fix": "「退休」義不接受詞；retire the form 不通"
+ },
+ {
+  "id": "p179",
+  "field": "notes.3.why",
+  "problem": "'retire' is not always intransitive (retire a product／system); only the 退休 sense takes no object.",
+  "fix": "「退休」義不接受詞；retire pizza 不通"
+ },
+ {
+  "id": "p185",
+  "field": "notes.2.why",
+  "problem": "'retire' is not always intransitive (retire a product／system); only the 退休 sense takes no object.",
+  "fix": "「退休」義不接受詞，也和訂機位無關"
+ },
+ {
+  "id": "p200",
+  "field": "notes.3.why",
+  "problem": "'retire' is not always intransitive (retire a product／system); only the 退休 sense takes no object.",
+  "fix": "「退休」義不接受詞；retire a photo 不通"
+ },
+ {
+  "id": "p223",
+  "field": "notes.3.why",
+  "problem": "門牌 means a house-number plate in Taiwan; the Do Not Disturb sign is a door hanger (房門掛牌).",
+  "fix": "飯店房門掛牌 Do Not Disturb「請勿打擾」"
+ },
+ {
+  "id": "p227",
+  "field": "notes.2.why",
+  "problem": "'hire' can be used without an object (We're hiring.), so 'must have an object' is false; it fails because fares cannot hire anyone.",
+  "fix": "主詞要是公司或人；票價不會「雇用」人"
+ },
+ {
+  "id": "p233",
+  "field": "notes.1.why",
+  "problem": "'retire our website' is real English (take it out of service), so 'retire takes no object' is false here; it fails on meaning.",
+  "fix": "及物 retire 是「停用、淘汰」，和用新價格更新不合"
+ },
+ {
+  "id": "p234",
+  "field": "notes.0.why",
+  "problem": "'retire' is not always intransitive (retire a product／system); only the 退休 sense takes no object.",
+  "fix": "「退休」義不接受詞；retire a table 不通"
+ }
+]

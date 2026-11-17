@@ -1,0 +1,14 @@
+[
+ {
+  "id": "r600-03.2",
+  "field": "notes.3.why",
+  "problem": "'attach to' is a valid pattern; real fault is missing object / active voice",
+  "fix": "主動式缺受詞，時程表不會自己附加，要用被動"
+ },
+ {
+  "id": "r600-18.1",
+  "field": "notes.0.why",
+  "problem": "possessive can precede a participle adjective; real fault is no noun follows",
+  "fix": "appreciated 是分詞，our 後缺名詞當 express 的受詞"
+ }
+]

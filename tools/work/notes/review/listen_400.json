@@ -1,0 +1,20 @@
+[
+ {
+  "id": "l400-007",
+  "field": "notes.0.trap",
+  "problem": "At the bus stop is a place reply to a Yes/No question and has no topical link to reservations, so 相關字 is the wrong label",
+  "fix": "答非所問"
+ },
+ {
+  "id": "l400-025",
+  "field": "notes.0.trap",
+  "problem": "work repeats the word of 'working' with a different sense (上班 vs 運作); it is not a sound-alike",
+  "fix": "一字多義陷阱"
+ },
+ {
+  "id": "l400-078",
+  "field": "key",
+  "problem": "For a negative question 'Isn't ... closed?' confirming closed is Yes and open is No; key says not-open = No, which is backwards",
+  "fix": "否定問句 Isn't → 照事實答：關門答 Yes，有開答 No"
+ }
+]

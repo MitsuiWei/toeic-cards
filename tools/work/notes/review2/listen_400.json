@@ -1,0 +1,20 @@
+[
+ {
+  "id": "l400-011",
+  "field": "key",
+  "problem": "'Not at all 才是答應' is overgeneralised: Americans routinely agree to 'Would you mind…?' with 'No problem', 'Sure' or 'Of course not', so he would wrongly eliminate those replies.",
+  "fix": "Would you mind 是請求 → Not at all／No problem 都表示答應"
+ },
+ {
+  "id": "l400-017",
+  "field": "notes.2.why",
+  "problem": "Claims Yes cannot respond to a statement, which is false ('The printer is out of paper.' 'Yes, I noticed.' is natural); the reply fails only on content.",
+  "fix": "newspaper 含 paper，但看報紙與沒紙無關"
+ },
+ {
+  "id": "l400-048",
+  "field": "notes.1.trap",
+  "problem": "broken/break is not a topic-associated word; it plays on a different sense of break (休息 vs 打破), i.e. a multiple-meaning trap.",
+  "fix": "一字多義陷阱"
+ }
+]

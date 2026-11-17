@@ -1,0 +1,8 @@
+[
+ {"id": "r400-06.3", "field": "key", "problem": "This is a detail question asking what he disliked (answer is stated in the text), not a NOT question where you eliminate the three that appear; the label teaches the wrong strategy.",
+  "fix": "細節題：問不喜歡什麼 → 找 My only complaint is the breakfast"},
+ {"id": "r400-20.3", "field": "key", "problem": "This is a detail question about a stated prohibition, not a NOT question (which-is-not-mentioned); the label teaches the wrong strategy.",
+  "fix": "細節題：問禁止什麼 → 找 Vehicles cannot stay ... overnight"},
+ {"id": "r400-24.1", "field": "notes.2.why", "problem": "'depart' is not strictly intransitive; American English commonly uses it with a place object (depart the airport), so the rule is overgeneralised.",
+  "fix": "depart 指出發離開（可接地點），不能接 a car"}
+]

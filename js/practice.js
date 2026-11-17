@@ -408,12 +408,40 @@
       '<div class="prac-bar"><i style="width:' + pct + '%"></i></div>' +
       (sess.padded && sess.idx === 0 ? '<p class="note">這一級你學過的字還不夠出滿一回，其中 ' + sess.padded + ' 題用的是還沒學的字。</p>' : '');
   }
-  function optsHtml(opts, ans, chosen, qi, hideText) {
+  /* ---------- 各選項解析 ----------
+     題庫裡 k = 解題關鍵，n = 每個選項一筆（順序和選項 o 一樣）：
+       單字填空 n[i] = [詞性, 中文, 常考用法, 為什麼對／錯]
+       短文閱讀 n[i] = [中文, 用法（可空）, 為什麼對／錯]
+       聽力應答 n[i] = [陷阱類型（正解是空字串）, 為什麼對／錯]
+     設定「作答後的各選項解析」選「先收起來」時，要按「看解析」才展開（記在這一回的 sess.xp 裡）。
+     還沒有解析的舊題目退回顯示原本的一段說明 ex。 */
+  function xpOn(key) { return T.state().settings.explain !== 'fold' || !!(sess && sess.xp && sess.xp[key]); }
+  function noteHtml(kind, n, isAns) {
+    if (!n) return '';
+    var h = '', y = n[n.length - 1];
+    if (kind === 'p5') {
+      h = '<span class="ox-m">' + (/^[a-z]+\.$/.test(n[0]) ? '(' + esc(n[0]) + ') ' : esc(n[0]) + '　') + esc(n[1]) + '</span>' +
+        (n[2] ? '<span class="ox-u">' + esc(n[2]) + '</span>' : '');
+    } else if (kind === 'read') {
+      h = '<span class="ox-m">' + esc(n[0]) + '</span>' + (n[1] ? '<span class="ox-u">' + esc(n[1]) + '</span>' : '');
+    }
+    var label = isAns ? (kind === 'p5' ? '常考' : '正解') : (kind === 'listen' ? n[0] : '這題');
+    return '<span class="ox">' + h + '<span class="ox-y' + (isAns ? ' is-ans' : '') + '"><b>' + esc(label) + '</b>' + esc(y) + '</span></span>';
+  }
+  /* 回饋框裡的「解題關鍵」；收起來時改成一顆「看解析」按鈕；沒有新解析的題目顯示舊的說明 */
+  function keyHtml(x, key, force) {
+    if (!x.n) return x.ex ? '<p class="fb-ex">' + esc(x.ex) + '</p>' : '';
+    if (!force && !xpOn(key)) return '<button type="button" class="tool-btn fb-xp" data-act="xp" data-xp="' + key + '">看解析</button>';
+    return '<p class="fb-key"><b>解題關鍵</b>' + esc(x.k) + '</p>';
+  }
+  function optsHtml(opts, ans, chosen, qi, hideText, notes, kind) {
     var answered = chosen !== null && chosen !== undefined;
-    return '<div class="opts' + (hideText ? ' opts-abc' : '') + '">' + opts.map(function (o, i) {
-      if (answered) {                                        // 作答後：不能再選，但裡面的字可以點
+    return '<div class="opts' + (hideText ? ' opts-abc' : '') + (answered && notes ? ' has-x' : '') + '">' + opts.map(function (o, i) {
+      if (answered) {                                        // 作答後：不能再選，但裡面的字可以點；下面接這個選項的解析
         return '<div class="opt' + (i === ans ? ' is-correct' : i === chosen ? ' is-wrong' : ' is-dim') + '"' + (/\s/.test(o) ? exAttr(o) : '') + '>' +
-          '<span class="opt-l">' + L[i] + '</span><span class="opt-t" lang="en">' + tw(o) + '</span></div>';
+          '<span class="opt-l">' + L[i] + '</span><span class="opt-b"><span class="opt-t" lang="en">' + tw(o) +
+          (notes && i === chosen && i !== ans ? '<em class="opt-mine">你選的</em>' : '') + '</span>' +
+          (notes ? noteHtml(kind, notes[i], i === ans) : '') + '</span></div>';
       }
       return '<button class="opt" data-opt="' + i + '"' + (qi !== undefined ? ' data-q="' + qi + '"' : '') + '>' +
         '<span class="opt-l">' + L[i] + '</span>' + (hideText ? '' : '<span class="opt-t">' + esc(o) + '</span>') + '</button>';
@@ -432,13 +460,14 @@
     var parts = it.q.split(BLANK);
     var q = tw(parts[0]) + (answered ? '<mark>' + tw(it.o[it.a]) + '</mark>' : '<span class="blank"></span>') + tw(parts[1] || '');
     var h = '<div class="prac-tag">' + (it.t === 'f' ? '詞性題' : '單字題') + '</div>' +
-      '<div class="prac-q" lang="en"' + exAttr(it.q.replace(BLANK, it.o[it.a]), it.zh) + '>' + q + '</div>' + optsHtml(it.o, it.a, sess.chosen);
+      '<div class="prac-q" lang="en"' + exAttr(it.q.replace(BLANK, it.o[it.a]), it.zh) + '>' + q + '</div>' +
+      optsHtml(it.o, it.a, sess.chosen, undefined, false, answered && xpOn('q') ? it.n : null, 'p5');
     if (answered) {
       var ok = sess.chosen === it.a;
       h += '<div class="fb ' + (ok ? 'is-ok' : 'is-no') + '">' +
         '<p class="fb-head">' + (ok ? '答對了' : '答錯了，答案是 ' + esc(it.o[it.a])) + '</p>' +
         '<button class="speakable fb-say" data-say="' + esc(it.q.replace(BLANK, it.o[it.a])) + '">聽這一句' + T.SPK + '</button>' +
-        '<p class="fb-zh">' + esc(it.zh) + '</p><p class="fb-ex">' + esc(it.ex) + '</p>' +
+        '<p class="fb-zh">' + esc(it.zh) + '</p>' + keyHtml(it, 'q') +
         '<p class="fb-wordline">' + wordInfo(it.wid) + '</p>' +
         (sess.note ? '<p class="fb-note">' + esc(sess.note) + '</p>' : '') + '</div>' +
         nextBtn(sess.idx + 1 < sess.items.length ? '下一題' : '看這一回成績');
@@ -465,13 +494,15 @@
     b.querySelector('span').textContent = sess.playing ? '播放中…' : (sess.played ? '再聽一次' : '播放題目');
   }
   /* 聽力原文：問句和三個回答。點字 = 查意思並存；點喇叭 = 再聽一次 */
-  function scriptHtml(it, chosen) {
+  function scriptHtml(it, chosen, notes) {
     return '<div class="script"><p class="script-q" lang="en"' + exAttr(it.q, it.zq) + '>' + tw(it.q) +
       ' <button type="button" class="speakable say-btn" data-say="' + esc(it.q) + '" aria-label="再聽一次問句">' + T.SPK + '</button></p>' +
       '<p class="script-zh">' + esc(it.zq) + '</p></div>' +
-      '<div class="opts">' + it.o.map(function (o, i) {
+      '<div class="opts' + (notes ? ' has-x' : '') + '">' + it.o.map(function (o, i) {
         var cls = 'opt opt-script' + (i === it.a ? ' is-correct' : i === chosen ? ' is-wrong' : ' is-dim');
-        return '<div class="' + cls + '"' + exAttr(o, it.zo[i]) + '><span class="opt-l">' + L[i] + '</span><span class="opt-t"><span lang="en">' + tw(o) + '</span><small>' + esc(it.zo[i]) + '</small></span>' +
+        return '<div class="' + cls + '"' + exAttr(o, it.zo[i]) + '><span class="opt-l">' + L[i] + '</span><span class="opt-b"><span class="opt-t"><span lang="en">' + tw(o) + '</span>' +
+          (notes && i === chosen && i !== it.a ? '<em class="opt-mine">你選的</em>' : '') + '<small>' + esc(it.zo[i]) + '</small></span>' +
+          (notes ? noteHtml('listen', notes[i], i === it.a) : '') + '</span>' +
           '<button type="button" class="speakable say-btn" data-say="' + esc(o) + '" aria-label="再聽一次這個回答">' + T.SPK + '</button></div>';
       }).join('') + '</div>';
   }
@@ -482,8 +513,8 @@
       '<p class="note">會先唸問句，再唸 A、B、C 三個回答。選最適合的回答。作答後會顯示原文，原文裡的字可以點。</p></div>';
     if (!answered) return h + optsHtml(it.o, it.a, null, undefined, true);
     var ok = sess.chosen === it.a;
-    h += scriptHtml(it, sess.chosen);
-    h += '<div class="fb ' + (ok ? 'is-ok' : 'is-no') + '"><p class="fb-head">' + (ok ? '答對了' : '答錯了，答案是 ' + L[it.a]) + '</p><p class="fb-ex">' + esc(it.ex) + '</p></div>' +
+    h += scriptHtml(it, sess.chosen, xpOn('q') ? it.n : null);
+    h += '<div class="fb ' + (ok ? 'is-ok' : 'is-no') + '"><p class="fb-head">' + (ok ? '答對了' : '答錯了，答案是 ' + L[it.a]) + '</p>' + keyHtml(it, 'q') + '</div>' +
       nextBtn(sess.idx + 1 < sess.items.length ? '下一題' : '看這一回成績');
     return h;
   }
@@ -499,8 +530,9 @@
     var h = passageHtml(it);
     it.qs.forEach(function (q, i) {
       var ch = sess.readChosen[i];
-      h += '<div class="rq"><p class="rq-q" lang="en"' + (it.p === 6 ? '' : exAttr(q.q)) + '>' + (it.p === 6 ? '空格 (' + (i + 1) + ')' : (i + 1) + '. ' + tw(q.q)) + '</p>' + optsHtml(q.o, q.a, ch, i);
-      if (ch !== null) h += '<div class="fb ' + (ch === q.a ? 'is-ok' : 'is-no') + '"><p class="fb-head">' + (ch === q.a ? '答對了' : '答錯了，答案是 ' + esc(q.o[q.a])) + '</p><p class="fb-ex">' + esc(q.ex) + '</p></div>';
+      h += '<div class="rq"><p class="rq-q" lang="en"' + (it.p === 6 ? '' : exAttr(q.q)) + '>' + (it.p === 6 ? '空格 (' + (i + 1) + ')' : (i + 1) + '. ' + tw(q.q)) + '</p>' +
+        optsHtml(q.o, q.a, ch, i, false, ch !== null && xpOn('q' + i) ? q.n : null, 'read');
+      if (ch !== null) h += '<div class="fb ' + (ch === q.a ? 'is-ok' : 'is-no') + '"><p class="fb-head">' + (ch === q.a ? '答對了' : '答錯了，答案是 ' + esc(q.o[q.a])) + '</p>' + keyHtml(q, 'q' + i) + '</div>';
       h += '</div>';
     });
     if (allDone) {
@@ -617,12 +649,12 @@
       sum = '<span class="wq-tag">單字填空</span><span class="wq-q" lang="en">' + esc(it.q.replace(BLANK, '____')) + '</span>';
       var pp = it.q.split(BLANK);
       body = '<p class="wq-sent" lang="en"' + exAttr(it.q.replace(BLANK, it.o[it.a]), it.zh) + '>' + tw(pp[0]) + '<mark>' + tw(it.o[it.a]) + '</mark>' + tw(pp[1] || '') + '</p>' +
-        optsHtml(it.o, it.a, e.ch) +
+        optsHtml(it.o, it.a, e.ch, undefined, false, it.n, 'p5') +
         '<button class="speakable fb-say" data-say="' + esc(it.q.replace(BLANK, it.o[it.a])) + '">聽這一句' + T.SPK + '</button>' +
-        '<p class="fb-zh">' + esc(it.zh) + '</p><p class="fb-ex">' + esc(it.ex) + '</p><p class="fb-wordline">' + wordInfo(it.wid) + '</p>';
+        '<p class="fb-zh">' + esc(it.zh) + '</p>' + keyHtml(it, 'q', true) + '<p class="fb-wordline">' + wordInfo(it.wid) + '</p>';
     } else if (e.type === 'listen') {
       sum = '<span class="wq-tag">聽力應答</span><span class="wq-q" lang="en">' + esc(it.q) + '</span>';
-      body = scriptHtml(it, e.ch) + '<p class="fb-ex">' + esc(it.ex) + '</p>';
+      body = scriptHtml(it, e.ch, it.n) + keyHtml(it, 'q', true);
     } else {
       var psg = '<details class="read-zh"><summary>看這篇短文</summary><div class="passage-text" lang="en">' + passageBody(it, null, true) + '</div></details>';
       if (e.qi < 0) {
@@ -631,7 +663,7 @@
       } else {
         var q = it.qs[e.qi];
         sum = '<span class="wq-tag">閱讀 Part ' + it.p + '</span><span class="wq-q" lang="en">' + (it.p === 6 ? esc(it.ti) + '：空格 (' + (e.qi + 1) + ')' : esc(q.q)) + '</span>';
-        body = psg + (it.p === 7 ? '<p class="wq-sent" lang="en"' + exAttr(q.q) + '>' + tw(q.q) + '</p>' : '') + optsHtml(q.o, q.a, e.ch) + '<p class="fb-ex">' + esc(q.ex) + '</p>';
+        body = psg + (it.p === 7 ? '<p class="wq-sent" lang="en"' + exAttr(q.q) + '>' + tw(q.q) + '</p>' : '') + optsHtml(q.o, q.a, e.ch, undefined, false, q.n, 'read') + keyHtml(q, 'q', true);
       }
     }
     var times = e.type === 'read' ? '做過 ' + r[0] + ' 次' : '做 ' + r[0] + ' 次・錯 ' + (r[0] - r[1]) + ' 次';
@@ -733,7 +765,7 @@
     if (sess.chosen === null) return;
     T.stopSpeech();
     if (sess.idx + 1 >= sess.items.length) { sess.done = true; render(); return; }
-    sess.idx++; sess.chosen = null; sess.note = ''; sess.played = false; sess.playing = false;
+    sess.idx++; sess.chosen = null; sess.note = ''; sess.played = false; sess.playing = false; sess.xp = {};
     render();
     root.scrollIntoView({ block: 'start' });
     if (sess.type === 'listen') playListen();
@@ -769,6 +801,7 @@
     else if (a === 'next') next();
     else if (a === 'again') start(sess.type, sess.wrongOnly);
     else if (a === 'play') playListen();
+    else if (a === 'xp') { if (sess) { sess.xp = sess.xp || {}; sess.xp[act.getAttribute('data-xp')] = true; render(); } }
     else if (a === 'wrong') openWrong();
     else if (a === 'wrong-home') { page = null; render(); }
     else if (a === 'wrong-more') { wLimit += 30; render(); }

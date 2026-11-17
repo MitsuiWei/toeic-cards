@@ -1,0 +1,4252 @@
+[
+ {
+  "id": "p875",
+  "key": "主詞是 invoices、後句 send payment → outstanding 取「未付清」義，不是「傑出」",
+  "notes": [
+   {
+    "o": "prospective",
+    "pos": "adj.",
+    "zh": "潛在的；未來的",
+    "use": "prospective clients／buyers／employees（通常放名詞前）",
+    "why": "修飾「可能成為…的人」，發票談不上「潛在」"
+   },
+   {
+    "o": "accountable",
+    "pos": "adj.",
+    "zh": "應負責的",
+    "use": "be accountable for + 事／to + 人；hold 人 accountable",
+    "why": "主詞要是人或組織，發票不會「負責」"
+   },
+   {
+    "o": "outstanding",
+    "pos": "adj.",
+    "zh": "未付清的；傑出的",
+    "use": "outstanding balance／invoice／debt（未付）",
+    "why": "修飾帳款＝unpaid；修飾人或表現才是「傑出」"
+   },
+   {
+    "o": "intuitive",
+    "pos": "adj.",
+    "zh": "直覺的；易上手的",
+    "use": "intuitive interface／design／software",
+    "why": "形容介面、設計好上手，和付款無關"
+   }
+  ]
+ },
+ {
+  "id": "p876",
+  "key": "a highly ------- portfolio：highly 修飾形容詞，再修飾名詞 → diversified",
+  "notes": [
+   {
+    "o": "diversify",
+    "pos": "v.",
+    "zh": "使多樣化；分散",
+    "use": "動詞：diversify + 投資／產品線；diversify into + 新領域",
+    "why": "冠詞 a 和名詞之間不能放原形動詞"
+   },
+   {
+    "o": "diversity",
+    "pos": "n.",
+    "zh": "多樣性",
+    "use": "名詞：a diversity of + 複數名詞；workplace diversity",
+    "why": "highly 是副詞，不能修飾名詞"
+   },
+   {
+    "o": "diversified",
+    "pos": "adj.（過去分詞）",
+    "zh": "多樣化的；分散的",
+    "use": "形容詞：名詞前，可被 highly／well 修飾",
+    "why": "a diversified portfolio／company；highly + 形容詞"
+   },
+   {
+    "o": "diversification",
+    "pos": "n.",
+    "zh": "多樣化；分散投資",
+    "use": "名詞：diversification of + N；product diversification",
+    "why": "名詞；highly 後面要的是形容詞"
+   }
+  ]
+ },
+ {
+  "id": "p877",
+  "key": "without reading the manual →「不用學、一看就會用」= intuitive",
+  "notes": [
+   {
+    "o": "intermittent",
+    "pos": "adj.",
+    "zh": "斷斷續續的",
+    "use": "intermittent rain／outages／connection problems",
+    "why": "文法可以，但語意不通：時好時壞不會讓人更快學會"
+   },
+   {
+    "o": "arbitrary",
+    "pos": "adj.",
+    "zh": "任意的；武斷的",
+    "use": "an arbitrary decision／rule／limit",
+    "why": "形容決定或規定沒有根據，不是指好不好用"
+   },
+   {
+    "o": "intuitive",
+    "pos": "adj.",
+    "zh": "直覺的；易上手的",
+    "use": "intuitive interface／app／design；intuitive to use",
+    "why": "軟體、介面 + intuitive，近義 user-friendly"
+   },
+   {
+    "o": "deficient",
+    "pos": "adj.",
+    "zh": "不足的；有缺陷的",
+    "use": "be deficient in + 項目",
+    "why": "文法可以，但語意相反：有缺陷不會幾分鐘就上手"
+   }
+  ]
+ },
+ {
+  "id": "p878",
+  "key": "every shopper would notice them →「顯眼的」位置 = prominent",
+  "notes": [
+   {
+    "o": "negligent",
+    "pos": "adj.",
+    "zh": "疏忽的；失職的",
+    "use": "be negligent in + V-ing／N；a negligent driver",
+    "why": "形容人或行為失職，不形容位置"
+   },
+   {
+    "o": "confidential",
+    "pos": "adj.",
+    "zh": "機密的",
+    "use": "confidential information／documents／data",
+    "why": "形容資訊、文件；要人人看到，語意正好相反"
+   },
+   {
+    "o": "consecutive",
+    "pos": "adj.",
+    "zh": "連續的",
+    "use": "three consecutive days；the third consecutive year",
+    "why": "指一個接一個不中斷，單一位置談不上連續"
+   },
+   {
+    "o": "prominent",
+    "pos": "adj.",
+    "zh": "顯眼的；著名的",
+    "use": "a prominent position／place；a prominent figure（名人）",
+    "why": "副詞：prominently displayed「擺在顯眼處」"
+   }
+  ]
+ },
+ {
+  "id": "p879",
+  "key": "two hundred ------- clients：數量詞和名詞之間 → 形容詞 prospective",
+  "notes": [
+   {
+    "o": "prospective",
+    "pos": "adj.",
+    "zh": "潛在的；可能成為的",
+    "use": "形容詞：名詞前；prospective clients／buyers／employees",
+    "why": "prospective client＝potential client"
+   },
+   {
+    "o": "prospectus",
+    "pos": "n.",
+    "zh": "說明書；簡章",
+    "use": "名詞：a company／fund／school prospectus",
+    "why": "名詞，指一份文件；放在 clients 前語意不通"
+   },
+   {
+    "o": "prospectively",
+    "pos": "adv.",
+    "zh": "預期地；著眼未來地",
+    "use": "副詞：修飾動詞或形容詞（少用）",
+    "why": "副詞不能修飾名詞 clients"
+   },
+   {
+    "o": "prospect",
+    "pos": "n.",
+    "zh": "前景；潛在客戶",
+    "use": "名詞：prospects for + N；a sales prospect",
+    "why": "名詞；修飾 clients 要用形容詞形 prospective"
+   }
+  ]
+ },
+ {
+  "id": "p880",
+  "key": "a ------- review of：冠詞和名詞之間 → 形容詞 comprehensive",
+  "notes": [
+   {
+    "o": "comprehensively",
+    "pos": "adv.",
+    "zh": "全面地",
+    "use": "副詞：修飾動詞；comprehensively review／cover",
+    "why": "副詞不能修飾名詞 review（a 後面的 review 是名詞）"
+   },
+   {
+    "o": "comprehension",
+    "pos": "n.",
+    "zh": "理解（力）",
+    "use": "名詞：reading／listening comprehension",
+    "why": "名詞，意思是「理解力」；名詞前要形容詞"
+   },
+   {
+    "o": "comprehensive",
+    "pos": "adj.",
+    "zh": "全面的；詳盡的",
+    "use": "形容詞：名詞前；a comprehensive review／guide／plan",
+    "why": "意思是「全面」，和 comprehend「理解」無關"
+   },
+   {
+    "o": "comprehend",
+    "pos": "v.",
+    "zh": "理解",
+    "use": "動詞：comprehend + 內容（正式，＝understand）",
+    "why": "冠詞 a 後面不能接原形動詞"
+   }
+  ]
+ },
+ {
+  "id": "p881",
+  "key": "it is ------- that + 主詞 + 原形 attend → 表「必要」的形容詞 imperative",
+  "notes": [
+   {
+    "o": "conducive",
+    "pos": "adj.",
+    "zh": "有助益的",
+    "use": "be conducive to + N／V-ing",
+    "why": "固定接 to + N，這裡後面是 that 子句"
+   },
+   {
+    "o": "prospective",
+    "pos": "adj.",
+    "zh": "潛在的；未來的",
+    "use": "prospective clients／buyers（通常放名詞前）",
+    "why": "通常放名詞前，不當 it is … that 的補語"
+   },
+   {
+    "o": "imperative",
+    "pos": "adj.",
+    "zh": "必要的；極重要的",
+    "use": "it is imperative that + S +（should）原形 V",
+    "why": "同型：essential／vital／crucial that + 原形 V"
+   },
+   {
+    "o": "accountable",
+    "pos": "adj.",
+    "zh": "應負責的",
+    "use": "be accountable for + 事／to + 人",
+    "why": "主詞要是負責的人或單位，不是虛主詞 it"
+   }
+  ]
+ },
+ {
+  "id": "p882",
+  "key": "lay（lie 的過去式）+ 形容詞；後面 revive「重啟」→ lie dormant「擱置不動」",
+  "notes": [
+   {
+    "o": "prevalent",
+    "pos": "adj.",
+    "zh": "普遍的；盛行的",
+    "use": "be prevalent in／among + 地區／族群",
+    "why": "指現象很常見，和後面的 revive（重啟）接不上"
+   },
+   {
+    "o": "foremost",
+    "pos": "adj.",
+    "zh": "最重要的；首要的",
+    "use": "the foremost expert／authority；first and foremost",
+    "why": "表示地位第一，不表示「擱著沒動」的狀態"
+   },
+   {
+    "o": "dormant",
+    "pos": "adj.",
+    "zh": "休眠的；停擺的",
+    "use": "lie／remain dormant；a dormant account（靜止戶）",
+    "why": "lie dormant；lie 三態 lie–lay–lain"
+   },
+   {
+    "o": "deficient",
+    "pos": "adj.",
+    "zh": "不足的；有缺陷的",
+    "use": "be deficient in + 項目",
+    "why": "指缺少某樣東西，和 for five years、revive 不合"
+   }
+  ]
+ },
+ {
+  "id": "p883",
+  "key": "in business for … sixty years →「歷史悠久、地位穩固」= established",
+  "notes": [
+   {
+    "o": "established",
+    "pos": "adj.",
+    "zh": "歷史悠久的；有地位的",
+    "use": "an established company／brand；well-established",
+    "why": "well-established／long-established + 公司／品牌"
+   },
+   {
+    "o": "preliminary",
+    "pos": "adj.",
+    "zh": "初步的",
+    "use": "preliminary results／findings／discussions",
+    "why": "指剛開始的階段，和 sixty years 相反"
+   },
+   {
+    "o": "underlying",
+    "pos": "adj.",
+    "zh": "根本的；潛在的",
+    "use": "the underlying cause／problem／assumption",
+    "why": "修飾 cause、problem 等，不形容製造商"
+   },
+   {
+    "o": "foreseeable",
+    "pos": "adj.",
+    "zh": "可預見的",
+    "use": "in／for the foreseeable future；foreseeable risks",
+    "why": "修飾 future、risk，不形容製造商"
+   }
+  ]
+ },
+ {
+  "id": "p884",
+  "key": "Award + 同位語 the highest honor →「享有聲望的」獎 = prestigious award",
+  "notes": [
+   {
+    "o": "prestigious",
+    "pos": "adj.",
+    "zh": "有聲望的；享譽的",
+    "use": "prestigious award／university／firm",
+    "why": "a prestigious award／prize／institution"
+   },
+   {
+    "o": "feasible",
+    "pos": "adj.",
+    "zh": "可行的",
+    "use": "a feasible plan／solution；it is feasible to V",
+    "why": "形容計畫、方案做不做得到，不形容獎項"
+   },
+   {
+    "o": "deficient",
+    "pos": "adj.",
+    "zh": "不足的；有缺陷的",
+    "use": "be deficient in + 項目",
+    "why": "負面字，和 the highest honor 矛盾"
+   },
+   {
+    "o": "arbitrary",
+    "pos": "adj.",
+    "zh": "任意的；武斷的",
+    "use": "an arbitrary decision／rule／limit",
+    "why": "形容決定沒有根據，不形容獎項"
+   }
+  ]
+ },
+ {
+  "id": "p885",
+  "key": "security system + 幾秒偵測、自動攔阻的描述 →「精密先進的」= sophisticated",
+  "notes": [
+   {
+    "o": "prospective",
+    "pos": "adj.",
+    "zh": "潛在的；未來的",
+    "use": "prospective clients／buyers／employees",
+    "why": "修飾「可能成為…的人」，不形容已安裝的系統"
+   },
+   {
+    "o": "negligent",
+    "pos": "adj.",
+    "zh": "疏忽的；失職的",
+    "use": "be negligent in + V-ing／N；a negligent driver",
+    "why": "形容人失職；語意也和偵測能力強相反"
+   },
+   {
+    "o": "sophisticated",
+    "pos": "adj.",
+    "zh": "精密的；先進的",
+    "use": "sophisticated system／technology／equipment",
+    "why": "形容設備＝精密；形容人＝見多識廣"
+   },
+   {
+    "o": "managerial",
+    "pos": "adj.",
+    "zh": "管理上的",
+    "use": "managerial skills／experience／position",
+    "why": "修飾和主管工作有關的名詞，不形容安全系統"
+   }
+  ]
+ },
+ {
+  "id": "p886",
+  "key": "her ------- performance：所有格和名詞之間 → 形容詞 exceptional",
+  "notes": [
+   {
+    "o": "except",
+    "pos": "prep.／conj.",
+    "zh": "除了…之外",
+    "use": "介系詞：except (for) + N；except that + 子句",
+    "why": "介系詞要放在名詞片語前，不能夾在 her 和名詞中間"
+   },
+   {
+    "o": "exceptionally",
+    "pos": "adv.",
+    "zh": "格外地；非常",
+    "use": "副詞：修飾形容詞或副詞；exceptionally well／high",
+    "why": "副詞不能修飾名詞 performance"
+   },
+   {
+    "o": "exception",
+    "pos": "n.",
+    "zh": "例外",
+    "use": "名詞：make an exception；with the exception of",
+    "why": "名詞；修飾 performance 要用形容詞形"
+   },
+   {
+    "o": "exceptional",
+    "pos": "adj.",
+    "zh": "傑出的；例外的",
+    "use": "形容詞：名詞前；exceptional performance／service",
+    "why": "exceptional＝outstanding，不是只有「例外」"
+   }
+  ]
+ },
+ {
+  "id": "p887",
+  "key": "both A and B 要對等：technical 是形容詞 → 空格也要形容詞 managerial",
+  "notes": [
+   {
+    "o": "manage",
+    "pos": "v.",
+    "zh": "管理；設法做到",
+    "use": "動詞：manage + 團隊／專案；manage to V",
+    "why": "are 後面不能接原形動詞，也和 technical 不對等"
+   },
+   {
+    "o": "management",
+    "pos": "n.",
+    "zh": "管理；管理階層",
+    "use": "名詞：senior management；time management",
+    "why": "名詞，和形容詞 technical 不對等"
+   },
+   {
+    "o": "managerial",
+    "pos": "adj.",
+    "zh": "管理上的",
+    "use": "形容詞：managerial skills／experience／position",
+    "why": "both A and B、A and B 前後詞性一致"
+   },
+   {
+    "o": "manager",
+    "pos": "n.（人）",
+    "zh": "經理",
+    "use": "名詞（人）：可數，單數前要有 a／the",
+    "why": "指人，skills 不會「是經理」；也和形容詞不對等"
+   }
+  ]
+ },
+ {
+  "id": "p888",
+  "key": "a ------- reason：冠詞和名詞之間 → 形容詞 legitimate（-ate 結尾不一定是動詞）",
+  "notes": [
+   {
+    "o": "legitimately",
+    "pos": "adv.",
+    "zh": "正當地；合法地",
+    "use": "副詞：修飾動詞或形容詞；legitimately claim",
+    "why": "副詞不能修飾名詞 reason"
+   },
+   {
+    "o": "legitimate",
+    "pos": "adj.",
+    "zh": "正當的；合法的",
+    "use": "形容詞：a legitimate reason／concern／business",
+    "why": "同類 -ate 形容詞：accurate、adequate、appropriate"
+   },
+   {
+    "o": "legitimize",
+    "pos": "v.",
+    "zh": "使合法化",
+    "use": "動詞：legitimize + 行為／做法",
+    "why": "冠詞 a 後面不能接原形動詞"
+   },
+   {
+    "o": "legitimacy",
+    "pos": "n.",
+    "zh": "正當性；合法性",
+    "use": "名詞（不可數）：the legitimacy of + N",
+    "why": "不可數名詞不接 a；名詞前也要形容詞"
+   }
+  ]
+ },
+ {
+  "id": "p889",
+  "key": "since … gave no reason →「沒有根據、隨意決定的」= arbitrary",
+  "notes": [
+   {
+    "o": "prospective",
+    "pos": "adj.",
+    "zh": "潛在的；未來的",
+    "use": "prospective clients／buyers（通常放名詞前）",
+    "why": "通常放名詞前修飾人，不當 seemed 的補語"
+   },
+   {
+    "o": "arbitrary",
+    "pos": "adj.",
+    "zh": "任意的；武斷的",
+    "use": "an arbitrary decision／rule／limit",
+    "why": "arbitrary rule／decision＝沒有理由根據"
+   },
+   {
+    "o": "diversified",
+    "pos": "adj.",
+    "zh": "多樣化的；分散的",
+    "use": "a diversified portfolio／company",
+    "why": "文法可以，但語意不通：多樣化和「沒給理由」無關"
+   },
+   {
+    "o": "accountable",
+    "pos": "adj.",
+    "zh": "應負責的",
+    "use": "be accountable for + 事／to + 人",
+    "why": "主詞要是人或組織，服裝規定不會「負責」"
+   }
+  ]
+ },
+ {
+  "id": "p890",
+  "key": "Rather than simply replacing … → 找「根本的」問題 = underlying",
+  "notes": [
+   {
+    "o": "accomplished",
+    "pos": "adj.",
+    "zh": "技藝高超的",
+    "use": "an accomplished pianist／writer／speaker",
+    "why": "形容人造詣高，不形容 problem"
+   },
+   {
+    "o": "conducive",
+    "pos": "adj.",
+    "zh": "有助益的",
+    "use": "be conducive to + N／V-ing",
+    "why": "要接 to，通常不放名詞前；語意也不合"
+   },
+   {
+    "o": "prestigious",
+    "pos": "adj.",
+    "zh": "有聲望的；享譽的",
+    "use": "prestigious award／university／firm",
+    "why": "正面字，形容獎項或機構，不形容 problem"
+   },
+   {
+    "o": "underlying",
+    "pos": "adj.",
+    "zh": "根本的；潛在的",
+    "use": "the underlying cause／problem／issue",
+    "why": "underlying cause＝root cause「根本原因」"
+   }
+  ]
+ },
+ {
+  "id": "p891",
+  "key": "a ------- answer about：冠詞和名詞之間 → 形容詞 definitive",
+  "notes": [
+   {
+    "o": "define",
+    "pos": "v.",
+    "zh": "下定義；界定",
+    "use": "動詞：define + 用語／範圍；be defined as",
+    "why": "冠詞 a 後面不能接原形動詞"
+   },
+   {
+    "o": "definitively",
+    "pos": "adv.",
+    "zh": "明確地；決定性地",
+    "use": "副詞：修飾動詞；answer／prove definitively",
+    "why": "副詞不能修飾名詞 answer（give 的受詞）"
+   },
+   {
+    "o": "definitive",
+    "pos": "adj.",
+    "zh": "明確的；最終的",
+    "use": "形容詞：a definitive answer／decision／guide",
+    "why": "a definitive answer＝最終、不會再改的答覆"
+   },
+   {
+    "o": "definition",
+    "pos": "n.",
+    "zh": "定義",
+    "use": "名詞：the definition of + N；by definition",
+    "why": "名詞，意思是「定義」；名詞前要形容詞"
+   }
+  ]
+ },
+ {
+  "id": "p892",
+  "key": "------- year + 結算日、spending reports → 固定搭配 fiscal year",
+  "notes": [
+   {
+    "o": "managerial",
+    "pos": "adj.",
+    "zh": "管理上的",
+    "use": "managerial skills／experience／position",
+    "why": "不和 year 搭配；年度結算要用會計用語"
+   },
+   {
+    "o": "fiscal",
+    "pos": "adj.",
+    "zh": "會計的；財政的",
+    "use": "fiscal year／quarter／policy",
+    "why": "fiscal year（FY）＝financial year「會計年度」"
+   },
+   {
+    "o": "dormant",
+    "pos": "adj.",
+    "zh": "休眠的；停擺的",
+    "use": "lie／remain dormant；a dormant account",
+    "why": "形容帳戶、計畫停擺，不修飾 year"
+   },
+   {
+    "o": "intuitive",
+    "pos": "adj.",
+    "zh": "直覺的；易上手的",
+    "use": "intuitive interface／design／software",
+    "why": "形容介面好上手，不修飾 year"
+   }
+  ]
+ },
+ {
+  "id": "p893",
+  "key": "Under the lease（依租約）→ 權利來自合約 = contractual right",
+  "notes": [
+   {
+    "o": "contractual",
+    "pos": "adj.",
+    "zh": "合約上的",
+    "use": "contractual right／obligation／terms",
+    "why": "contractual obligation「合約義務」也常出現"
+   },
+   {
+    "o": "fiscal",
+    "pos": "adj.",
+    "zh": "會計的；財政的",
+    "use": "fiscal year／quarter／policy",
+    "why": "和預算、稅收有關，不是租約給的權利"
+   },
+   {
+    "o": "managerial",
+    "pos": "adj.",
+    "zh": "管理上的",
+    "use": "managerial skills／experience／position",
+    "why": "和主管職務有關，房客的續約權不是管理權"
+   },
+   {
+    "o": "pharmaceutical",
+    "pos": "adj.",
+    "zh": "製藥的",
+    "use": "pharmaceutical company／industry／products",
+    "why": "藥品產業用字，和租約無關"
+   }
+  ]
+ },
+ {
+  "id": "p894",
+  "key": "prove + 形容詞 + to 人；結果是順利接手 → 正面字 invaluable「極寶貴」",
+  "notes": [
+   {
+    "o": "arbitrary",
+    "pos": "adj.",
+    "zh": "任意的；武斷的",
+    "use": "an arbitrary decision／rule／limit",
+    "why": "負面字，形容決定沒根據，和順利接手矛盾"
+   },
+   {
+    "o": "negligent",
+    "pos": "adj.",
+    "zh": "疏忽的；失職的",
+    "use": "be negligent in + V-ing／N",
+    "why": "形容人失職，主詞 notes 是物"
+   },
+   {
+    "o": "intermittent",
+    "pos": "adj.",
+    "zh": "斷斷續續的",
+    "use": "intermittent rain／outages／connection problems",
+    "why": "形容時有時無的現象，和 to his successor 接不上"
+   },
+   {
+    "o": "invaluable",
+    "pos": "adj.",
+    "zh": "極寶貴的；無價的",
+    "use": "prove／be invaluable to + 人；invaluable in + V-ing",
+    "why": "in- 不是否定：invaluable＝extremely valuable"
+   }
+  ]
+ },
+ {
+  "id": "p895",
+  "key": "an ------- effect on：冠詞和名詞之間 → 形容詞 adverse",
+  "notes": [
+   {
+    "o": "adverse",
+    "pos": "adj.",
+    "zh": "不利的；負面的",
+    "use": "形容詞：名詞前；adverse effect／impact／weather",
+    "why": "have an adverse effect on＝adversely affect"
+   },
+   {
+    "o": "adversary",
+    "pos": "n.（人）",
+    "zh": "對手；敵手",
+    "use": "名詞（人）：可數；a tough adversary",
+    "why": "指人（對手），放在 effect 前語意不通"
+   },
+   {
+    "o": "adversely",
+    "pos": "adv.",
+    "zh": "不利地",
+    "use": "副詞：adversely affect／impact + N",
+    "why": "副詞不能修飾名詞 effect"
+   },
+   {
+    "o": "adversity",
+    "pos": "n.",
+    "zh": "逆境",
+    "use": "名詞：face／overcome adversity",
+    "why": "名詞（逆境）；名詞前要用形容詞 adverse"
+   }
+  ]
+ },
+ {
+  "id": "p896",
+  "key": "was ------- in several areas：be 動詞後當補語說明狀態 → 形容詞 deficient",
+  "notes": [
+   {
+    "o": "deficient",
+    "pos": "adj.",
+    "zh": "不足的；有缺陷的",
+    "use": "形容詞：be 動詞後；be deficient in + 項目",
+    "why": "be deficient in；名詞是 a deficiency in + N"
+   },
+   {
+    "o": "deficiently",
+    "pos": "adv.",
+    "zh": "不足地",
+    "use": "副詞：修飾動詞（很少用）",
+    "why": "was 後面沒有動詞或形容詞可修飾，副詞不能當補語"
+   },
+   {
+    "o": "deficit",
+    "pos": "n.",
+    "zh": "赤字；虧損",
+    "use": "名詞：a budget／trade deficit",
+    "why": "be + 名詞＝主詞等於它，照明不等於「赤字」"
+   },
+   {
+    "o": "deficiency",
+    "pos": "n.",
+    "zh": "不足；缺陷",
+    "use": "名詞：a deficiency in／of + N",
+    "why": "be + 名詞＝主詞等於它，照明不等於「缺陷」"
+   }
+  ]
+ },
+ {
+  "id": "p897",
+  "key": "to have been -------：be 動詞後缺補語，形容 drivers → 形容詞 negligent",
+  "notes": [
+   {
+    "o": "negligence",
+    "pos": "n.",
+    "zh": "疏忽；過失",
+    "use": "名詞（不可數）：due to negligence；negligence in + V-ing",
+    "why": "be + 名詞＝主詞等於它，drivers 不等於「疏忽」"
+   },
+   {
+    "o": "neglect",
+    "pos": "v.／n.",
+    "zh": "忽略；疏於照顧",
+    "use": "動詞：neglect + 職責／to V；名詞：neglect of duty",
+    "why": "have been 後不接原形動詞；當名詞也不等於 drivers"
+   },
+   {
+    "o": "negligently",
+    "pos": "adv.",
+    "zh": "疏忽地",
+    "use": "副詞：修飾動詞；act／drive negligently",
+    "why": "been 後面沒有動詞可修飾，副詞不能當補語"
+   },
+   {
+    "o": "negligent",
+    "pos": "adj.",
+    "zh": "疏忽的；失職的",
+    "use": "形容詞：be 動詞後；be negligent in + V-ing",
+    "why": "別混：negligible 是「微不足道的」"
+   }
+  ]
+ },
+ {
+  "id": "p898",
+  "key": "Instead of … perfect solution → 與「完美」相對的「務實」= pragmatic",
+  "notes": [
+   {
+    "o": "pragmatic",
+    "pos": "adj.",
+    "zh": "務實的",
+    "use": "a pragmatic decision／approach／solution",
+    "why": "a pragmatic approach：重實際效果，不求完美"
+   },
+   {
+    "o": "prevalent",
+    "pos": "adj.",
+    "zh": "普遍的；盛行的",
+    "use": "be prevalent in／among + 地區／族群",
+    "why": "形容現象很常見，不形容某一個決定"
+   },
+   {
+    "o": "deficient",
+    "pos": "adj.",
+    "zh": "不足的；有缺陷的",
+    "use": "be deficient in + 項目",
+    "why": "負面字，和省錢的好決定矛盾"
+   },
+   {
+    "o": "dormant",
+    "pos": "adj.",
+    "zh": "休眠的；停擺的",
+    "use": "lie／remain dormant；a dormant account",
+    "why": "指停擺不動，決定動手修機器正好相反"
+   }
+  ]
+ },
+ {
+  "id": "p899",
+  "key": "of great ------- importance：great 和名詞之間 → 再放形容詞 strategic",
+  "notes": [
+   {
+    "o": "strategist",
+    "pos": "n.（人）",
+    "zh": "策略家",
+    "use": "名詞（人）：可數；a marketing strategist",
+    "why": "指人，放在 importance 前語意不通"
+   },
+   {
+    "o": "strategy",
+    "pos": "n.",
+    "zh": "策略",
+    "use": "名詞：a marketing／pricing strategy",
+    "why": "名詞；修飾 importance 要用形容詞形 strategic"
+   },
+   {
+    "o": "strategic",
+    "pos": "adj.",
+    "zh": "策略上的；戰略的",
+    "use": "形容詞：strategic importance／planning／location",
+    "why": "be of + 形容詞 + importance＝be important"
+   },
+   {
+    "o": "strategically",
+    "pos": "adv.",
+    "zh": "策略上地",
+    "use": "副詞：strategically located／important",
+    "why": "副詞不能修飾名詞 importance"
+   }
+  ]
+ },
+ {
+  "id": "p900",
+  "key": "are only -------：be 動詞後當補語（only 是副詞）→ 形容詞 provisional",
+  "notes": [
+   {
+    "o": "provision",
+    "pos": "n.",
+    "zh": "供應；條款",
+    "use": "名詞：the provision of + 服務；a provision in a contract",
+    "why": "be + 名詞＝主詞等於它，dates 不等於「供應／條款」"
+   },
+   {
+    "o": "provisionally",
+    "pos": "adv.",
+    "zh": "暫時地",
+    "use": "副詞：修飾動詞；be provisionally booked／approved",
+    "why": "are 後面沒有形容詞或分詞可修飾，副詞不能當補語"
+   },
+   {
+    "o": "provide",
+    "pos": "v.",
+    "zh": "提供",
+    "use": "動詞：provide 人 with 物；provide 物 for／to 人",
+    "why": "be 動詞 are 後面不能接原形動詞"
+   },
+   {
+    "o": "provisional",
+    "pos": "adj.",
+    "zh": "暫定的；臨時的",
+    "use": "形容詞：a provisional date／booking／agreement",
+    "why": "provisional＝tentative；線索是 may change"
+   }
+  ]
+ },
+ {
+  "id": "p901",
+  "key": "remarks + gave … new ideas → 能帶來啟發的「有見地的」= insightful",
+  "notes": [
+   {
+    "o": "contractual",
+    "pos": "adj.",
+    "zh": "合約上的",
+    "use": "contractual right／obligation／terms",
+    "why": "修飾合約規定的權利義務，演講談話不是合約內容"
+   },
+   {
+    "o": "ergonomic",
+    "pos": "adj.",
+    "zh": "符合人體工學的",
+    "use": "ergonomic chair／keyboard／design",
+    "why": "形容椅子、鍵盤等實體設計，不形容 remarks"
+   },
+   {
+    "o": "insightful",
+    "pos": "adj.",
+    "zh": "有見地的",
+    "use": "insightful remarks／comments／analysis",
+    "why": "名詞 insight into + N「對…的深入了解」"
+   },
+   {
+    "o": "dormant",
+    "pos": "adj.",
+    "zh": "休眠的；停擺的",
+    "use": "lie／remain dormant；a dormant account",
+    "why": "指停擺不活動，不形容談話內容"
+   }
+  ]
+ },
+ {
+  "id": "p902",
+  "key": "a ------- step against：冠詞和名詞之間 → 形容詞 preemptive",
+  "notes": [
+   {
+    "o": "preempt",
+    "pos": "v.",
+    "zh": "搶先阻止；先發制人",
+    "use": "動詞：preempt + 問題／對手的行動",
+    "why": "冠詞 a 後面不能接原形動詞"
+   },
+   {
+    "o": "preemption",
+    "pos": "n.",
+    "zh": "先發制人；優先權",
+    "use": "名詞：the preemption of + N（正式）",
+    "why": "名詞；修飾 step 要用形容詞形 preemptive"
+   },
+   {
+    "o": "preemptive",
+    "pos": "adj.",
+    "zh": "預防性的；先發制人的",
+    "use": "形容詞：a preemptive step／measure／action",
+    "why": "-ive 多為形容詞字尾；take preemptive measures"
+   },
+   {
+    "o": "preemptively",
+    "pos": "adv.",
+    "zh": "預先地；先發制人地",
+    "use": "副詞：修飾動詞；act／order preemptively",
+    "why": "副詞不能修飾名詞 step"
+   }
+  ]
+ },
+ {
+  "id": "p903",
+  "key": "keyboards + reduce strain on the wrists →「符合人體工學」= ergonomic",
+  "notes": [
+   {
+    "o": "preliminary",
+    "pos": "adj.",
+    "zh": "初步的",
+    "use": "preliminary results／findings／discussions",
+    "why": "修飾結果、討論等早期階段，不形容鍵盤"
+   },
+   {
+    "o": "ergonomic",
+    "pos": "adj.",
+    "zh": "符合人體工學的",
+    "use": "ergonomic chair／keyboard／design",
+    "why": "ergonomic chair／desk：辦公設備情境常見"
+   },
+   {
+    "o": "managerial",
+    "pos": "adj.",
+    "zh": "管理上的",
+    "use": "managerial skills／experience／position",
+    "why": "和主管工作有關，不形容鍵盤"
+   },
+   {
+    "o": "fiscal",
+    "pos": "adj.",
+    "zh": "會計的；財政的",
+    "use": "fiscal year／quarter／policy",
+    "why": "和預算、會計年度有關，不形容鍵盤"
+   }
+  ]
+ },
+ {
+  "id": "p904",
+  "key": "dropping for a few minutes every hour →「時斷時續」= intermittent",
+  "notes": [
+   {
+    "o": "intermittent",
+    "pos": "adj.",
+    "zh": "斷斷續續的",
+    "use": "intermittent service／rain／outages",
+    "why": "intermittent connection；副詞 intermittently"
+   },
+   {
+    "o": "exempt",
+    "pos": "adj.",
+    "zh": "免除的；豁免的",
+    "use": "be exempt from + 稅／規定",
+    "why": "指免受稅或規定約束，和斷線無關"
+   },
+   {
+    "o": "prospective",
+    "pos": "adj.",
+    "zh": "潛在的；未來的",
+    "use": "prospective clients／buyers／employees",
+    "why": "修飾「可能成為…的人」，不形容網路品質"
+   },
+   {
+    "o": "accomplished",
+    "pos": "adj.",
+    "zh": "技藝高超的",
+    "use": "an accomplished pianist／writer／speaker",
+    "why": "形容人造詣高，不形容網路服務"
+   }
+  ]
+ },
+ {
+  "id": "p905",
+  "key": "had never drawn so many visitors →「前所未有的」= unprecedented",
+  "notes": [
+   {
+    "o": "negligent",
+    "pos": "adj.",
+    "zh": "疏忽的；失職的",
+    "use": "be negligent in + V-ing／N",
+    "why": "形容人失職，不形容 demand"
+   },
+   {
+    "o": "ergonomic",
+    "pos": "adj.",
+    "zh": "符合人體工學的",
+    "use": "ergonomic chair／keyboard／design",
+    "why": "形容實體設計，不形容 demand"
+   },
+   {
+    "o": "dormant",
+    "pos": "adj.",
+    "zh": "休眠的；停擺的",
+    "use": "lie／remain dormant；a dormant account",
+    "why": "指停擺不活動，和訪客創新高相反"
+   },
+   {
+    "o": "unprecedented",
+    "pos": "adj.",
+    "zh": "前所未有的；空前的",
+    "use": "unprecedented demand／growth／levels",
+    "why": "un- + precedent（先例）＝沒有先例"
+   }
+  ]
+ },
+ {
+  "id": "p906",
+  "key": "allergy tablets、drugstores → 做藥的公司 = pharmaceutical firm",
+  "notes": [
+   {
+    "o": "preemptive",
+    "pos": "adj.",
+    "zh": "預防性的；先發制人的",
+    "use": "a preemptive step／measure／action",
+    "why": "修飾 measure、action 等行動，不說明公司行業"
+   },
+   {
+    "o": "contractual",
+    "pos": "adj.",
+    "zh": "合約上的",
+    "use": "contractual right／obligation／terms",
+    "why": "修飾權利、義務、條款，不說明公司行業"
+   },
+   {
+    "o": "arbitrary",
+    "pos": "adj.",
+    "zh": "任意的；武斷的",
+    "use": "an arbitrary decision／rule／limit",
+    "why": "形容決定沒有根據，不說明公司行業"
+   },
+   {
+    "o": "pharmaceutical",
+    "pos": "adj.",
+    "zh": "製藥的",
+    "use": "pharmaceutical firm／company／industry",
+    "why": "同家族：pharmacy 藥局、pharmacist 藥劑師"
+   }
+  ]
+ },
+ {
+  "id": "p907",
+  "key": "not available … two years ago →「最新、最先進」= state-of-the-art",
+  "notes": [
+   {
+    "o": "intermittent",
+    "pos": "adj.",
+    "zh": "斷斷續續的",
+    "use": "intermittent service／rain／outages",
+    "why": "形容時有時無的現象，不形容儀器"
+   },
+   {
+    "o": "deficient",
+    "pos": "adj.",
+    "zh": "不足的；有缺陷的",
+    "use": "be deficient in + 項目",
+    "why": "負面字，和新落成、兩年前還沒有的設備相反"
+   },
+   {
+    "o": "white-collar",
+    "pos": "adj.",
+    "zh": "白領的",
+    "use": "white-collar workers／jobs",
+    "why": "修飾人或工作類型，不形容儀器"
+   },
+   {
+    "o": "state-of-the-art",
+    "pos": "adj.",
+    "zh": "最先進的",
+    "use": "state-of-the-art equipment／facilities／technology",
+    "why": "連字號複合形容詞放名詞前；近義 cutting-edge"
+   }
+  ]
+ },
+ {
+  "id": "p908",
+  "key": "country's ------- authorities on + 領域：專家「首屈一指」= foremost",
+  "notes": [
+   {
+    "o": "exempt",
+    "pos": "adj.",
+    "zh": "免除的；豁免的",
+    "use": "be exempt from + 稅／規定",
+    "why": "指免受規定約束，不形容專家的地位"
+   },
+   {
+    "o": "preliminary",
+    "pos": "adj.",
+    "zh": "初步的",
+    "use": "preliminary results／findings／discussions",
+    "why": "修飾早期階段的結果、討論，不形容專家"
+   },
+   {
+    "o": "underlying",
+    "pos": "adj.",
+    "zh": "根本的；潛在的",
+    "use": "the underlying cause／problem／assumption",
+    "why": "修飾 cause、problem 等，不形容專家"
+   },
+   {
+    "o": "foremost",
+    "pos": "adj.",
+    "zh": "最重要的；首屈一指的",
+    "use": "the foremost authority／expert on + 領域",
+    "why": "an authority on + 領域＝權威；近義 leading"
+   }
+  ]
+ },
+ {
+  "id": "p909",
+  "key": "highly ------- chef + 得獎經歷 → 形容人「造詣高」= accomplished",
+  "notes": [
+   {
+    "o": "fiscal",
+    "pos": "adj.",
+    "zh": "會計的；財政的",
+    "use": "fiscal year／quarter／policy",
+    "why": "和預算、會計年度有關，不形容廚師"
+   },
+   {
+    "o": "contractual",
+    "pos": "adj.",
+    "zh": "合約上的",
+    "use": "contractual right／obligation／terms",
+    "why": "修飾權利、義務、條款，不形容人的能力"
+   },
+   {
+    "o": "accomplished",
+    "pos": "adj.",
+    "zh": "技藝高超的；有成就的",
+    "use": "an accomplished chef／musician／speaker",
+    "why": "highly accomplished + 人；名詞 accomplishment"
+   },
+   {
+    "o": "provisional",
+    "pos": "adj.",
+    "zh": "暫定的；臨時的",
+    "use": "a provisional date／booking／agreement",
+    "why": "指暫定、之後可能更改，和得獎經歷無關"
+   }
+  ]
+ },
+ {
+  "id": "p910",
+  "key": "factories in twelve countries →「跨國的」= multinational",
+  "notes": [
+   {
+    "o": "intuitive",
+    "pos": "adj.",
+    "zh": "直覺的；易上手的",
+    "use": "intuitive interface／design／software",
+    "why": "形容介面、設計好上手，和在多國設廠無關"
+   },
+   {
+    "o": "multinational",
+    "pos": "adj.",
+    "zh": "跨國的",
+    "use": "a multinational company／corporation／firm",
+    "why": "multi-（多）+ national；也當名詞「跨國企業」"
+   },
+   {
+    "o": "provisional",
+    "pos": "adj.",
+    "zh": "暫定的；臨時的",
+    "use": "a provisional date／booking／agreement",
+    "why": "指暫定，和在十二國設廠無關"
+   },
+   {
+    "o": "negligent",
+    "pos": "adj.",
+    "zh": "疏忽的；失職的",
+    "use": "be negligent in + V-ing／N",
+    "why": "文法可以，但語意不通：失職和設廠、出差無關"
+   }
+  ]
+ },
+ {
+  "id": "p911",
+  "key": "even if the main office is damaged → 備份放「辦公室以外」= offsite",
+  "notes": [
+   {
+    "o": "unanimously",
+    "pos": "adv.",
+    "zh": "全體一致地",
+    "use": "unanimously approve／agree／vote",
+    "why": "修飾表決、同意類動詞，不修飾 stored"
+   },
+   {
+    "o": "onsite",
+    "pos": "adv.／adj.",
+    "zh": "在現場；在公司內",
+    "use": "work onsite；onsite parking／training",
+    "why": "文法可以，但語意相反：放在辦公室內會一起受損"
+   },
+   {
+    "o": "respectively",
+    "pos": "adv.",
+    "zh": "分別；依序",
+    "use": "A and B …, respectively（對應前面兩組項目）",
+    "why": "前面沒有兩組一一對應的項目"
+   },
+   {
+    "o": "offsite",
+    "pos": "adv.／adj.",
+    "zh": "在異地；不在公司內",
+    "use": "be stored offsite；offsite storage／meeting",
+    "why": "on-site ↔ off-site 成對記；offsite backup"
+   }
+  ]
+ },
+ {
+  "id": "p912",
+  "key": "動詞 + 人 + from + 規定 → exempt A from B「讓 A 免受 B 約束」",
+  "notes": [
+   {
+    "o": "comply",
+    "pos": "v.",
+    "zh": "遵守",
+    "use": "comply with + 規定（不及物）",
+    "why": "不及物，不能直接接受詞 small retailers"
+   },
+   {
+    "o": "authorize",
+    "pos": "v.",
+    "zh": "授權；批准",
+    "use": "authorize 人 to V；authorize + 付款／變更",
+    "why": "授權是 authorize 人 to V，不和 from + 規定搭配"
+   },
+   {
+    "o": "exempt",
+    "pos": "v.",
+    "zh": "使免除；豁免",
+    "use": "exempt 人 from + 義務；形容詞 be exempt from",
+    "why": "動詞、形容詞同形；tax-exempt「免稅的」"
+   },
+   {
+    "o": "entitle",
+    "pos": "v.",
+    "zh": "給予權利",
+    "use": "entitle 人 to + N／to V；be entitled to",
+    "why": "entitle 人後面接 to，不接 from"
+   }
+  ]
+ },
+ {
+  "id": "p913",
+  "key": "主詞 + has adjusted + 受詞已完整，句尾空格 → 副詞 accordingly",
+  "notes": [
+   {
+    "o": "according",
+    "pos": "prep.（+ to）",
+    "zh": "根據",
+    "use": "according to + N（要和 to 連用）",
+    "why": "後面沒有 to + 名詞，不能單獨放句尾"
+   },
+   {
+    "o": "accord",
+    "pos": "n.／v.",
+    "zh": "協議；符合",
+    "use": "名詞：reach an accord；動詞：accord with + N",
+    "why": "句子已有動詞和受詞，句尾沒有名詞或動詞的位置"
+   },
+   {
+    "o": "accordingly",
+    "pos": "adv.",
+    "zh": "相應地；因此",
+    "use": "副詞：句尾修飾動詞；adjust／act／plan accordingly",
+    "why": "放句尾＝相應地；放句首加逗號＝因此"
+   },
+   {
+    "o": "accordance",
+    "pos": "n.",
+    "zh": "依照；一致",
+    "use": "名詞：in accordance with + 規定",
+    "why": "幾乎只用在 in accordance with，不單獨放句尾"
+   }
+  ]
+ },
+ {
+  "id": "p914",
+  "key": "lasted … six months, but … failed → 久談後的「最終」結果 = ultimately",
+  "notes": [
+   {
+    "o": "respectively",
+    "pos": "adv.",
+    "zh": "分別；依序",
+    "use": "A and B …, respectively（對應前面兩組項目）",
+    "why": "前面沒有兩組一一對應的項目可「分別」"
+   },
+   {
+    "o": "exclusively",
+    "pos": "adv.",
+    "zh": "僅；專門",
+    "use": "be sold／available exclusively + 介系詞片語",
+    "why": "表示「只限於」，修飾 failed 語意不通"
+   },
+   {
+    "o": "ultimately",
+    "pos": "adv.",
+    "zh": "最終；最後",
+    "use": "ultimately + 動詞；句首 Ultimately, …",
+    "why": "ultimately＝in the end／eventually"
+   },
+   {
+    "o": "approximately",
+    "pos": "adv.",
+    "zh": "大約",
+    "use": "approximately + 數字／數量",
+    "why": "後面要接數字或數量，這裡是動詞 failed"
+   }
+  ]
+ },
+ {
+  "id": "p915",
+  "key": "兩個主詞對兩個數字 + 前後逗號的插入位置 → 副詞 respectively「分別」",
+  "notes": [
+   {
+    "o": "respective",
+    "pos": "adj.",
+    "zh": "各自的",
+    "use": "形容詞：their respective + 複數名詞",
+    "why": "形容詞後面要有名詞，這裡前後都是逗號"
+   },
+   {
+    "o": "respectable",
+    "pos": "adj.",
+    "zh": "體面的；相當不錯的",
+    "use": "形容詞：a respectable company／salary",
+    "why": "形容詞後面沒有名詞可修飾，意思也不是「分別」"
+   },
+   {
+    "o": "respect",
+    "pos": "n.／v.",
+    "zh": "尊重；方面",
+    "use": "名詞：respect for + 人；in this respect",
+    "why": "句子已完整，逗號之間沒有名詞或動詞的位置"
+   },
+   {
+    "o": "respectively",
+    "pos": "adv.",
+    "zh": "分別；依序",
+    "use": "副詞：A and B … X and Y, respectively",
+    "why": "respective 後面接名詞；respectively 放逗號後"
+   }
+  ]
+ },
+ {
+  "id": "p916",
+  "key": "will be sold ------- through：被動已完整，後接介系詞片語 → 副詞 exclusively",
+  "notes": [
+   {
+    "o": "exclusive",
+    "pos": "adj.",
+    "zh": "獨家的；專屬的",
+    "use": "形容詞：an exclusive offer／right；exclusive to + 對象",
+    "why": "形容詞要修飾名詞，後面是介系詞片語 through …"
+   },
+   {
+    "o": "exclusion",
+    "pos": "n.",
+    "zh": "排除",
+    "use": "名詞：the exclusion of + N",
+    "why": "被動 be sold 後面不再接名詞當受詞"
+   },
+   {
+    "o": "exclude",
+    "pos": "v.",
+    "zh": "排除",
+    "use": "動詞：exclude A from B",
+    "why": "will be sold 已是完整動詞，不能再放原形動詞"
+   },
+   {
+    "o": "exclusively",
+    "pos": "adv.",
+    "zh": "僅；獨家地",
+    "use": "副詞：sold／available exclusively at／through + 通路",
+    "why": "exclusively＝only；available exclusively online"
+   }
+  ]
+ },
+ {
+  "id": "p917",
+  "key": "not a single director objected → 沒人反對 = unanimously「一致」",
+  "notes": [
+   {
+    "o": "unanimously",
+    "pos": "adv.",
+    "zh": "全體一致地",
+    "use": "unanimously approve／agree／vote／elect",
+    "why": "形容詞 unanimous：a unanimous decision／vote"
+   },
+   {
+    "o": "particularly",
+    "pos": "adv.",
+    "zh": "特別；尤其",
+    "use": "particularly + 形容詞／副詞；particularly in + 地方",
+    "why": "表示程度或強調，不表示「沒有人反對」"
+   },
+   {
+    "o": "respectively",
+    "pos": "adv.",
+    "zh": "分別；依序",
+    "use": "A and B …, respectively（對應前面兩組項目）",
+    "why": "前面沒有兩組一一對應的項目可「分別」"
+   },
+   {
+    "o": "approximately",
+    "pos": "adv.",
+    "zh": "大約",
+    "use": "approximately + 數字／數量",
+    "why": "後面要接數字或數量，不修飾 approved"
+   }
+  ]
+ },
+ {
+  "id": "p918",
+  "key": "主詞 rates + depending on the season → 價格「上下波動」= fluctuate",
+  "notes": [
+   {
+    "o": "convene",
+    "pos": "v.",
+    "zh": "召開；集會",
+    "use": "convene a meeting；the board convenes",
+    "why": "主詞是開會的人或委員會，房價不會「開會」"
+   },
+   {
+    "o": "fluctuate",
+    "pos": "v.",
+    "zh": "波動；起伏",
+    "use": "價格／匯率 + fluctuate；fluctuate between A and B",
+    "why": "不及物動詞；名詞 fluctuations in prices"
+   },
+   {
+    "o": "liaise",
+    "pos": "v.",
+    "zh": "聯絡；協調",
+    "use": "liaise with + 人／部門",
+    "why": "主詞要是人，而且後面接 with"
+   },
+   {
+    "o": "accrue",
+    "pos": "v.",
+    "zh": "累積；孳生",
+    "use": "interest／benefits accrue；accrue vacation days",
+    "why": "指利息、假期逐漸累積，不是隨季節上下變動"
+   }
+  ]
+ },
+ {
+  "id": "p919",
+  "key": "hired to ------- + 受詞 the … program：不定詞 to 後 → 原形 administer",
+  "notes": [
+   {
+    "o": "administer",
+    "pos": "v.",
+    "zh": "管理；執行",
+    "use": "動詞：administer a program／fund／test",
+    "why": "administer a program／a test／a survey"
+   },
+   {
+    "o": "administration",
+    "pos": "n.",
+    "zh": "管理；行政部門",
+    "use": "名詞：business administration；administration of + N",
+    "why": "名詞後面不能直接接受詞 the … program"
+   },
+   {
+    "o": "administrator",
+    "pos": "n.（人）",
+    "zh": "管理人員；行政人員",
+    "use": "名詞（人）：a system／office administrator",
+    "why": "指人；名詞後面不能直接接受詞 the … program"
+   },
+   {
+    "o": "administrative",
+    "pos": "adj.",
+    "zh": "行政的",
+    "use": "形容詞：administrative assistant／staff／costs",
+    "why": "後面已有 the，形容詞不能放在冠詞前面"
+   }
+  ]
+ },
+ {
+  "id": "p920",
+  "key": "will ------- + 受詞 the wire transfer：助動詞後 → 原形動詞 initiate",
+  "notes": [
+   {
+    "o": "initially",
+    "pos": "adv.",
+    "zh": "起初",
+    "use": "副詞：修飾動詞或整句；Initially, …",
+    "why": "will 後面還缺主要動詞，副詞不能當動詞"
+   },
+   {
+    "o": "initiation",
+    "pos": "n.",
+    "zh": "開始；啟動",
+    "use": "名詞：the initiation of + N",
+    "why": "助動詞 will 後面要原形動詞，不能接名詞"
+   },
+   {
+    "o": "initiate",
+    "pos": "v.",
+    "zh": "開始；啟動",
+    "use": "動詞：initiate a transfer／process／discussion",
+    "why": "initiate＝start（正式）；-ate 常是動詞字尾"
+   },
+   {
+    "o": "initiative",
+    "pos": "n.",
+    "zh": "主動性；新措施",
+    "use": "名詞：take the initiative；a new initiative",
+    "why": "-ive 結尾但是名詞；will 後面不能接名詞"
+   }
+  ]
+ },
+ {
+  "id": "p921",
+  "key": "hired to ------- + 受詞 the work：不定詞 to 後 → 原形動詞 coordinate",
+  "notes": [
+   {
+    "o": "coordinate",
+    "pos": "v.",
+    "zh": "協調；統籌",
+    "use": "動詞：coordinate + 工作／活動；coordinate with + 人",
+    "why": "coordinate the work／efforts／schedule"
+   },
+   {
+    "o": "coordinator",
+    "pos": "n.（人）",
+    "zh": "協調人；統籌人員",
+    "use": "名詞（人）：an event／project coordinator",
+    "why": "指人；名詞後面不能直接接受詞 the work"
+   },
+   {
+    "o": "coordination",
+    "pos": "n.",
+    "zh": "協調",
+    "use": "名詞：coordination between／among + 部門",
+    "why": "名詞後面不能直接接受詞 the work"
+   },
+   {
+    "o": "coordinated",
+    "pos": "v.（過去式／過去分詞）",
+    "zh": "協調了；協調一致的",
+    "use": "過去式；或形容詞 a coordinated effort",
+    "why": "不定詞 to 後面要原形，不能用 -ed 形"
+   }
+  ]
+ },
+ {
+  "id": "p922",
+  "key": "動詞 + 資料 + to + 第三方（privacy policy）→ disclose A to B「透露」",
+  "notes": [
+   {
+    "o": "curtail",
+    "pos": "v.",
+    "zh": "削減；縮短",
+    "use": "curtail spending／services／hours",
+    "why": "受詞是開支、服務等要縮減的事，不接 to + 人"
+   },
+   {
+    "o": "confiscate",
+    "pos": "v.",
+    "zh": "沒收",
+    "use": "confiscate + 物品 + from + 人",
+    "why": "沒收是「從某人那裡拿走」，接 from 不接 to"
+   },
+   {
+    "o": "disclose",
+    "pos": "v.",
+    "zh": "透露；揭露",
+    "use": "disclose + 資訊 + to + 人；disclose that + 子句",
+    "why": "disclose information／details；名詞 disclosure"
+   },
+   {
+    "o": "subsidize",
+    "pos": "v.",
+    "zh": "補助；補貼",
+    "use": "subsidize + 費用／產業",
+    "why": "受詞是費用或受補助的對象，不是 details"
+   }
+  ]
+ },
+ {
+  "id": "p923",
+  "key": "will ------- + 受詞，and 後面對等的 report 也是原形 → 原形動詞 oversee",
+  "notes": [
+   {
+    "o": "overseer",
+    "pos": "n.（人）",
+    "zh": "監督者",
+    "use": "名詞（人）：可數，單數前要有 a／the",
+    "why": "助動詞 will 後面不能接名詞"
+   },
+   {
+    "o": "overseen",
+    "pos": "v.（過去分詞）",
+    "zh": "被監督；已監督",
+    "use": "過去分詞：have overseen；be overseen by + 人",
+    "why": "will 後面要原形；過去分詞前要有 have 或 be"
+   },
+   {
+    "o": "oversee",
+    "pos": "v.",
+    "zh": "監督",
+    "use": "動詞：oversee + 工程／專案／團隊",
+    "why": "oversee–oversaw–overseen；近義 supervise"
+   },
+   {
+    "o": "oversight",
+    "pos": "n.",
+    "zh": "監督；疏忽",
+    "use": "名詞：oversight of + N；due to an oversight",
+    "why": "名詞，will 後面不能接；接受詞也要有 of"
+   }
+  ]
+ },
+ {
+  "id": "p924",
+  "key": "light 對 rich：清爽「襯托」濃郁 → complement（不是 compliment「稱讚」）",
+  "notes": [
+   {
+    "o": "complement",
+    "pos": "v.",
+    "zh": "襯托；與…相配",
+    "use": "complement + 風味／服裝／設計；名詞 a complement to",
+    "why": "complement（互補）≠ compliment（稱讚），拼字常考"
+   },
+   {
+    "o": "designate",
+    "pos": "v.",
+    "zh": "指定；指派",
+    "use": "designate A as B；a designated area",
+    "why": "指定某人或某地作某用途，風味談不上被指定"
+   },
+   {
+    "o": "incur",
+    "pos": "v.",
+    "zh": "招致（費用、損失）",
+    "use": "incur costs／expenses／fees／losses",
+    "why": "受詞是費用、損失等負面結果，不是 flavors"
+   },
+   {
+    "o": "expedite",
+    "pos": "v.",
+    "zh": "加快",
+    "use": "expedite a process／delivery／shipment",
+    "why": "受詞是流程、出貨，風味不能被「加快」"
+   }
+  ]
+ },
+ {
+  "id": "p925",
+  "key": "tend to ------- + 受詞 + as：tend to 後接原形動詞 → perceive A as B",
+  "notes": [
+   {
+    "o": "perception",
+    "pos": "n.",
+    "zh": "看法；認知",
+    "use": "名詞：public／customer perception of + N",
+    "why": "tend to 後面要原形動詞；名詞也不能直接接受詞"
+   },
+   {
+    "o": "perceptive",
+    "pos": "adj.",
+    "zh": "觀察敏銳的",
+    "use": "形容詞：a perceptive comment／observer",
+    "why": "tend to 後面要原形動詞，形容詞前要有 be"
+   },
+   {
+    "o": "perceptibly",
+    "pos": "adv.",
+    "zh": "可察覺地；明顯地",
+    "use": "副詞：修飾動詞；rise／change perceptibly",
+    "why": "tend to 後面缺動詞，副詞不能當動詞"
+   },
+   {
+    "o": "perceive",
+    "pos": "v.",
+    "zh": "認為；察覺",
+    "use": "動詞：perceive A as B；be perceived as／to be",
+    "why": "同型：regard／view／see A as B"
+   }
+  ]
+ },
+ {
+  "id": "p926",
+  "key": "fail to ------- with：fail to 後接原形動詞，with 是它的搭配 → comply with",
+  "notes": [
+   {
+    "o": "compliant",
+    "pos": "adj.",
+    "zh": "遵守的；符合的",
+    "use": "形容詞：be compliant with + 規定",
+    "why": "形容詞前要有 be 動詞（fail to be compliant）"
+   },
+   {
+    "o": "compliance",
+    "pos": "n.",
+    "zh": "遵守；合規",
+    "use": "名詞：in compliance with + 規定",
+    "why": "fail to 後面要原形動詞，不能接名詞"
+   },
+   {
+    "o": "compliantly",
+    "pos": "adv.",
+    "zh": "順從地",
+    "use": "副詞：修飾動詞（很少用）",
+    "why": "fail to 後面缺動詞，副詞不能當動詞"
+   },
+   {
+    "o": "comply",
+    "pos": "v.",
+    "zh": "遵守",
+    "use": "動詞（不及物）：comply with + 規定／要求",
+    "why": "近義：adhere to／abide by／conform to + 規定"
+   }
+  ]
+ },
+ {
+  "id": "p927",
+  "key": "to ------- + 受詞 the damage：表目的的不定詞 → 原形動詞 assess",
+  "notes": [
+   {
+    "o": "assess",
+    "pos": "v.",
+    "zh": "評估",
+    "use": "動詞：assess the damage／the situation／needs",
+    "why": "assess the damage；近義 evaluate"
+   },
+   {
+    "o": "assessable",
+    "pos": "adj.",
+    "zh": "可評估的；應課稅的",
+    "use": "形容詞：assessable income（應稅所得）",
+    "why": "後面已有 the，形容詞不能放在冠詞前面"
+   },
+   {
+    "o": "assessor",
+    "pos": "n.（人）",
+    "zh": "評估人員；估價員",
+    "use": "名詞（人）：可數；a tax／insurance assessor",
+    "why": "指人；名詞後面不能直接接受詞 the damage"
+   },
+   {
+    "o": "assessment",
+    "pos": "n.",
+    "zh": "評估",
+    "use": "名詞：an assessment of + N",
+    "why": "名詞要用 of 才能接 the damage"
+   }
+  ]
+ },
+ {
+  "id": "p928",
+  "key": "動詞 + 人 + from + V-ing → deter A from V-ing「使 A 打消念頭」",
+  "notes": [
+   {
+    "o": "deterred",
+    "pos": "v.（過去分詞）",
+    "zh": "使卻步；嚇阻",
+    "use": "deter 人 from + V-ing",
+    "why": "同型：prevent／discourage／keep 人 from V-ing"
+   },
+   {
+    "o": "solicited",
+    "pos": "v.（過去分詞）",
+    "zh": "徵求；請求",
+    "use": "solicit + 意見／捐款 + from + 人",
+    "why": "受詞是意見、捐款；from 後面是來源，不是 V-ing"
+   },
+   {
+    "o": "entitled",
+    "pos": "v.（過去分詞）",
+    "zh": "給予權利",
+    "use": "entitle 人 to + N／to V",
+    "why": "entitle 人後面接 to，不接 from V-ing"
+   },
+   {
+    "o": "subsidized",
+    "pos": "v.（過去分詞）",
+    "zh": "補助；補貼",
+    "use": "subsidize + 費用／產業",
+    "why": "不接 from V-ing；高停車費也不會「補助」人"
+   }
+  ]
+ },
+ {
+  "id": "p929",
+  "key": "Although … hesitant at first → 主要子句要相反：「欣然接受」= embrace",
+  "notes": [
+   {
+    "o": "embraced",
+    "pos": "v.（過去分詞）",
+    "zh": "欣然接受；採用",
+    "use": "embrace + 新科技／改變／想法",
+    "why": "embrace change／new technology（原義「擁抱」）"
+   },
+   {
+    "o": "impeded",
+    "pos": "v.（過去分詞）",
+    "zh": "阻礙；妨礙",
+    "use": "impede progress／traffic／growth",
+    "why": "文法可以，但和後面 use it every day 矛盾"
+   },
+   {
+    "o": "forfeited",
+    "pos": "v.（過去分詞）",
+    "zh": "喪失；被沒收",
+    "use": "forfeit a deposit／right",
+    "why": "受詞是訂金、權利；也和 use it every day 矛盾"
+   },
+   {
+    "o": "depreciated",
+    "pos": "v.（過去分詞）",
+    "zh": "貶值；折舊",
+    "use": "資產／貨幣 + depreciate (in value)",
+    "why": "指資產價值下跌，和員工使用系統無關"
+   }
+  ]
+ },
+ {
+  "id": "p930",
+  "key": "three years … finally + 受詞 certification → 努力後「取得」= attain",
+  "notes": [
+   {
+    "o": "attained",
+    "pos": "v.（過去式）",
+    "zh": "取得；達到",
+    "use": "attain a goal／certification／level",
+    "why": "attain＝經過努力才得到；近義 obtain、earn"
+   },
+   {
+    "o": "elicited",
+    "pos": "v.（過去式）",
+    "zh": "引出（回應）",
+    "use": "elicit a response／information from + 人",
+    "why": "受詞是從別人身上引出的回應、資訊，不是證照"
+   },
+   {
+    "o": "convened",
+    "pos": "v.（過去式）",
+    "zh": "召開；集會",
+    "use": "convene a meeting／committee",
+    "why": "受詞是會議、委員會，不是證照"
+   },
+   {
+    "o": "incurred",
+    "pos": "v.（過去式）",
+    "zh": "招致（費用、損失）",
+    "use": "incur costs／expenses／fees／losses",
+    "why": "受詞是費用、損失等負面結果，證照是好結果"
+   }
+  ]
+ },
+ {
+  "id": "p931",
+  "key": "物 + be used to + 原形 V「被用來…」（≠ 人 be used to V-ing）→ regulate",
+  "notes": [
+   {
+    "o": "regulatory",
+    "pos": "adj.",
+    "zh": "監管的；管理的",
+    "use": "形容詞：regulatory agency／requirements",
+    "why": "後面已有 the，形容詞不能放在冠詞前面"
+   },
+   {
+    "o": "regulator",
+    "pos": "n.",
+    "zh": "調節器；主管機關",
+    "use": "名詞：a voltage regulator；industry regulators",
+    "why": "名詞後面不能直接接受詞 the temperature"
+   },
+   {
+    "o": "regulation",
+    "pos": "n.",
+    "zh": "法規；調節",
+    "use": "名詞：safety regulations；regulation of + N",
+    "why": "名詞要用 of 才能接 the temperature"
+   },
+   {
+    "o": "regulate",
+    "pos": "v.",
+    "zh": "調節；管制",
+    "use": "動詞：regulate the temperature／industry／flow",
+    "why": "be used to V 被用來；be used to V-ing 習慣於"
+   }
+  ]
+ },
+ {
+  "id": "p932",
+  "key": "加付費用 + within three business days →「加快處理」= expedite",
+  "notes": [
+   {
+    "o": "impede",
+    "pos": "v.",
+    "zh": "阻礙；妨礙",
+    "use": "impede progress／traffic／growth",
+    "why": "文法可以，但語意相反：加錢不是為了拖慢"
+   },
+   {
+    "o": "forfeit",
+    "pos": "v.",
+    "zh": "喪失；被沒收",
+    "use": "forfeit a deposit／right",
+    "why": "主詞是失去東西的人，辦事處不會「喪失」你的申請"
+   },
+   {
+    "o": "withhold",
+    "pos": "v.",
+    "zh": "扣留；不給",
+    "use": "withhold payment／information／tax",
+    "why": "文法可以，但語意相反：扣住就不會三天完成"
+   },
+   {
+    "o": "expedite",
+    "pos": "v.",
+    "zh": "加快（處理）",
+    "use": "expedite a process／delivery／shipment",
+    "why": "expedited shipping／service「加急」也常出現"
+   }
+  ]
+ },
+ {
+  "id": "p933",
+  "key": "動詞 + suggestions + from + 人 → solicit A from B「向 B 徵求 A」",
+  "notes": [
+   {
+    "o": "solicit",
+    "pos": "v.",
+    "zh": "徵求；請求",
+    "use": "solicit feedback／suggestions／donations from + 人",
+    "why": "solicit feedback／opinions／bids（徵求投標）"
+   },
+   {
+    "o": "confiscate",
+    "pos": "v.",
+    "zh": "沒收",
+    "use": "confiscate + 違禁品 + from + 人",
+    "why": "文法可以，但語意不通：建議不是可沒收的物品"
+   },
+   {
+    "o": "terminate",
+    "pos": "v.",
+    "zh": "終止",
+    "use": "terminate a contract／employment／service",
+    "why": "受詞是合約、服務，「終止建議」語意不通"
+   },
+   {
+    "o": "reimburse",
+    "pos": "v.",
+    "zh": "報銷；償還",
+    "use": "reimburse 人 for + 費用；reimburse + 費用",
+    "why": "受詞是人或費用，不是 suggestions"
+   }
+  ]
+ },
+ {
+  "id": "p934",
+  "key": "plans to ------- + 受詞 the … demand：不定詞 to 後 → 原形動詞 exploit",
+  "notes": [
+   {
+    "o": "exploitative",
+    "pos": "adj.",
+    "zh": "剝削的",
+    "use": "形容詞：exploitative practices／working conditions",
+    "why": "後面已有 the，形容詞不能放在冠詞前面"
+   },
+   {
+    "o": "exploiter",
+    "pos": "n.（人）",
+    "zh": "剝削者；利用者",
+    "use": "名詞（人）：可數，單數前要有 a／the",
+    "why": "指人；名詞後面不能直接接受詞 the … demand"
+   },
+   {
+    "o": "exploit",
+    "pos": "v.",
+    "zh": "善用；剝削",
+    "use": "動詞：exploit an opportunity／demand／resources",
+    "why": "商業語境多是中性的「善加利用」，不一定是剝削"
+   },
+   {
+    "o": "exploitation",
+    "pos": "n.",
+    "zh": "利用；剝削",
+    "use": "名詞：the exploitation of + N",
+    "why": "名詞要用 of 才能接 the … demand"
+   }
+  ]
+ },
+ {
+  "id": "p935",
+  "key": "a portion of … salary for income tax → 從薪資「預扣」稅款 = withhold",
+  "notes": [
+   {
+    "o": "mediate",
+    "pos": "v.",
+    "zh": "調解",
+    "use": "mediate between A and B；mediate a dispute",
+    "why": "受詞是爭議，不是薪資"
+   },
+   {
+    "o": "depreciate",
+    "pos": "v.",
+    "zh": "貶值；折舊",
+    "use": "資產／貨幣 + depreciate (in value)",
+    "why": "指資產價值下跌，和扣稅、繳給稅務機關無關"
+   },
+   {
+    "o": "withhold",
+    "pos": "v.",
+    "zh": "預扣；扣留",
+    "use": "withhold tax／payment／information (from + 人)",
+    "why": "withholding tax「預扣稅」；三態 -held -held"
+   },
+   {
+    "o": "disseminate",
+    "pos": "v.",
+    "zh": "散布；傳播",
+    "use": "disseminate information／findings",
+    "why": "受詞是資訊，不是薪資"
+   }
+  ]
+ },
+ {
+  "id": "p936",
+  "key": "動詞 + 部門 + into + 新編制 → restructure A into B「把 A 重組成 B」",
+  "notes": [
+   {
+    "o": "reimburse",
+    "pos": "v.",
+    "zh": "報銷；償還",
+    "use": "reimburse 人 for + 費用",
+    "why": "受詞是人或費用，不接 into + 新編制"
+   },
+   {
+    "o": "restructure",
+    "pos": "v.",
+    "zh": "重組；改組",
+    "use": "restructure a company／division／debt",
+    "why": "re-（重新）+ structure；同型 reorganize A into B"
+   },
+   {
+    "o": "withhold",
+    "pos": "v.",
+    "zh": "扣留；不給",
+    "use": "withhold payment／information／tax",
+    "why": "是扣住不給，不接 into + 新編制"
+   },
+   {
+    "o": "elicit",
+    "pos": "v.",
+    "zh": "引出（回應）",
+    "use": "elicit a response／information from + 人",
+    "why": "受詞是回應、資訊，不是部門"
+   }
+  ]
+ },
+ {
+  "id": "p937",
+  "key": "動詞 + A + with + B，找 discrepancies → reconcile A with B「核對」",
+  "notes": [
+   {
+    "o": "subsidize",
+    "pos": "v.",
+    "zh": "補助；補貼",
+    "use": "subsidize + 費用／產業",
+    "why": "受詞是費用或受補助對象，不接 with + 紀錄"
+   },
+   {
+    "o": "deter",
+    "pos": "v.",
+    "zh": "使卻步；嚇阻",
+    "use": "deter 人 from + V-ing",
+    "why": "受詞是人，後面接 from V-ing"
+   },
+   {
+    "o": "entitle",
+    "pos": "v.",
+    "zh": "給予權利",
+    "use": "entitle 人 to + N／to V",
+    "why": "受詞是人，後面接 to"
+   },
+   {
+    "o": "reconcile",
+    "pos": "v.",
+    "zh": "核對；使一致",
+    "use": "reconcile A with B；reconcile accounts",
+    "why": "會計用語；名詞 reconciliation「對帳」"
+   }
+  ]
+ },
+ {
+  "id": "p938",
+  "key": "figures from … into a single report → compile A into B「彙整成」",
+  "notes": [
+   {
+    "o": "compiling",
+    "pos": "v.（-ing）",
+    "zh": "彙整；編纂",
+    "use": "compile data／a list／a report；compile A into B",
+    "why": "compile data／statistics；spend + 時間 + V-ing"
+   },
+   {
+    "o": "forfeiting",
+    "pos": "v.（-ing）",
+    "zh": "喪失；被沒收",
+    "use": "forfeit a deposit／right",
+    "why": "受詞是訂金、權利，不接 into + 報告"
+   },
+   {
+    "o": "exempting",
+    "pos": "v.（-ing）",
+    "zh": "使免除",
+    "use": "exempt 人 from + 義務",
+    "why": "後面接 from + 義務，不接 into"
+   },
+   {
+    "o": "deterring",
+    "pos": "v.（-ing）",
+    "zh": "使卻步；嚇阻",
+    "use": "deter 人 from + V-ing",
+    "why": "受詞是人，數字不能被「嚇阻」"
+   }
+  ]
+ },
+ {
+  "id": "p939",
+  "key": "are ------- to + 名詞（paid vacation）→ be entitled to「有權享有」",
+  "notes": [
+   {
+    "o": "exempted",
+    "pos": "v.（過去分詞）",
+    "zh": "被免除",
+    "use": "be exempted from + 義務／費用",
+    "why": "後面要接 from；是免除義務，不是享有福利"
+   },
+   {
+    "o": "entitled",
+    "pos": "v.（過去分詞）",
+    "zh": "有權享有",
+    "use": "be entitled to + N／to V",
+    "why": "這裡 to 是介系詞接名詞；近義 be eligible for"
+   },
+   {
+    "o": "deterred",
+    "pos": "v.（過去分詞）",
+    "zh": "被嚇阻；卻步",
+    "use": "be deterred from + V-ing",
+    "why": "後面要接 from V-ing，不接 to + 名詞"
+   },
+   {
+    "o": "designated",
+    "pos": "v.（過去分詞）",
+    "zh": "被指定",
+    "use": "be designated as + 身分／for + 用途",
+    "why": "指被指定作某身分或用途，和享有休假無關"
+   }
+  ]
+ },
+ {
+  "id": "p940",
+  "key": "受詞 a sense of cooperation（正面的氣氛）→「培養」= foster",
+  "notes": [
+   {
+    "o": "confiscate",
+    "pos": "v.",
+    "zh": "沒收",
+    "use": "confiscate + 違禁品 + from + 人",
+    "why": "受詞是實體物品，合作意識不能被「沒收」"
+   },
+   {
+    "o": "incur",
+    "pos": "v.",
+    "zh": "招致（費用、損失）",
+    "use": "incur costs／expenses／fees／losses",
+    "why": "受詞是費用、損失等負面結果"
+   },
+   {
+    "o": "forfeit",
+    "pos": "v.",
+    "zh": "喪失；被沒收",
+    "use": "forfeit a deposit／right",
+    "why": "語意相反：辦聚餐不是為了「失去」合作意識"
+   },
+   {
+    "o": "foster",
+    "pos": "v.",
+    "zh": "培養；促進",
+    "use": "foster cooperation／relationships／growth",
+    "why": "foster a sense of + N；近義 promote、cultivate"
+   }
+  ]
+ },
+ {
+  "id": "p941",
+  "key": "In order to ------- + 受詞 the … space → 原形動詞 utilize",
+  "notes": [
+   {
+    "o": "utility",
+    "pos": "n.",
+    "zh": "公用事業；效用",
+    "use": "名詞：utility bills；public utilities",
+    "why": "in order to 後面要原形動詞，不能接名詞"
+   },
+   {
+    "o": "utilitarian",
+    "pos": "adj.",
+    "zh": "實用的；功利的",
+    "use": "形容詞：a utilitarian design／building",
+    "why": "後面已有 the，形容詞不能放在冠詞前面"
+   },
+   {
+    "o": "utilization",
+    "pos": "n.",
+    "zh": "利用；使用",
+    "use": "名詞：the utilization of + N",
+    "why": "名詞要用 of 才能接 the warehouse space"
+   },
+   {
+    "o": "utilize",
+    "pos": "v.",
+    "zh": "利用",
+    "use": "動詞：utilize space／resources／technology",
+    "why": "-ize 是動詞字尾；utilize＝use（較正式）"
+   }
+  ]
+ },
+ {
+  "id": "p942",
+  "key": "several … into a single …：多合一 → consolidate A into B「合併」",
+  "notes": [
+   {
+    "o": "depreciate",
+    "pos": "v.",
+    "zh": "貶值；折舊",
+    "use": "資產／貨幣 + depreciate (in value)",
+    "why": "指價值下跌，不接 into a single package"
+   },
+   {
+    "o": "disseminate",
+    "pos": "v.",
+    "zh": "散布；傳播",
+    "use": "disseminate information／findings",
+    "why": "語意相反：是往外散布，不是合而為一"
+   },
+   {
+    "o": "consolidate",
+    "pos": "v.",
+    "zh": "合併；整合；鞏固",
+    "use": "consolidate A into B；consolidate debts／orders",
+    "why": "consolidate shipments／debts；另一義「鞏固」"
+   },
+   {
+    "o": "exempt",
+    "pos": "v.",
+    "zh": "使免除",
+    "use": "exempt 人 from + 義務",
+    "why": "後面接 from，不接 into"
+   }
+  ]
+ },
+ {
+  "id": "p943",
+  "key": "受詞 printer problems + 打電話前先自己處理 →「排除故障」= troubleshoot",
+  "notes": [
+   {
+    "o": "troubleshoot",
+    "pos": "v.",
+    "zh": "排除故障；找出問題",
+    "use": "troubleshoot problems／a printer／a network",
+    "why": "troubleshooting guide／tips「故障排除」"
+   },
+   {
+    "o": "incur",
+    "pos": "v.",
+    "zh": "招致（費用、損失）",
+    "use": "incur costs／expenses／fees／losses",
+    "why": "受詞是費用、損失；手冊也不會幫人「招致」問題"
+   },
+   {
+    "o": "entail",
+    "pos": "v.",
+    "zh": "牽涉；必然需要",
+    "use": "事 + entail + N／V-ing（主詞是工作、計畫）",
+    "why": "主詞要是工作或計畫，不是 customers"
+   },
+   {
+    "o": "solicit",
+    "pos": "v.",
+    "zh": "徵求；請求",
+    "use": "solicit feedback／suggestions／donations",
+    "why": "受詞是意見、捐款，不是故障問題"
+   }
+  ]
+ },
+ {
+  "id": "p944",
+  "key": "is trying to ------- on：try to 後接原形動詞 → economize on「節省」",
+  "notes": [
+   {
+    "o": "economy",
+    "pos": "n.",
+    "zh": "經濟；節約",
+    "use": "名詞：the global economy；fuel economy",
+    "why": "try to 後面要原形動詞，不能接名詞"
+   },
+   {
+    "o": "economical",
+    "pos": "adj.",
+    "zh": "省錢的；經濟實惠的",
+    "use": "形容詞：an economical car／way to V",
+    "why": "形容詞前要有 be 動詞（try to be economical）"
+   },
+   {
+    "o": "economically",
+    "pos": "adv.",
+    "zh": "經濟上；節省地",
+    "use": "副詞：economically viable／priced",
+    "why": "try to 後面缺動詞，副詞不能當動詞"
+   },
+   {
+    "o": "economize",
+    "pos": "v.",
+    "zh": "節省；節約",
+    "use": "動詞（不及物）：economize on + 費用／資源",
+    "why": "economic 經濟的 ≠ economical 省錢的"
+   }
+  ]
+ },
+ {
+  "id": "p945",
+  "key": "受詞 expectations + selling out → surpass expectations「超出預期」",
+  "notes": [
+   {
+    "o": "incurred",
+    "pos": "v.（過去式）",
+    "zh": "招致（費用、損失）",
+    "use": "incur costs／expenses／fees／losses",
+    "why": "受詞是費用、損失，不是 expectations"
+   },
+   {
+    "o": "mediated",
+    "pos": "v.（過去式）",
+    "zh": "調解",
+    "use": "mediate between A and B；mediate a dispute",
+    "why": "受詞是爭議，不是 expectations"
+   },
+   {
+    "o": "reimbursed",
+    "pos": "v.（過去式）",
+    "zh": "報銷；償還",
+    "use": "reimburse 人 for + 費用",
+    "why": "受詞是人或費用，不是 expectations"
+   },
+   {
+    "o": "surpassed",
+    "pos": "v.（過去式）",
+    "zh": "超過；勝過",
+    "use": "surpass expectations／a record／a target",
+    "why": "同義 exceed expectations；相反 fall short of"
+   }
+  ]
+ },
+ {
+  "id": "p946",
+  "key": "ask + 人 + to + 原形 V；後面 between them → 動詞 mediate between",
+  "notes": [
+   {
+    "o": "mediation",
+    "pos": "n.",
+    "zh": "調解",
+    "use": "名詞：through mediation；mediation between A and B",
+    "why": "ask 人 to 後面要原形動詞，不能接名詞"
+   },
+   {
+    "o": "mediator",
+    "pos": "n.（人）",
+    "zh": "調解人",
+    "use": "名詞（人）：act as a mediator",
+    "why": "指人；to 後面要原形動詞，不能接名詞"
+   },
+   {
+    "o": "mediate",
+    "pos": "v.",
+    "zh": "調解；斡旋",
+    "use": "動詞：mediate between A and B；mediate a dispute",
+    "why": "mediate between + 雙方；ask 人 to V"
+   },
+   {
+    "o": "mediated",
+    "pos": "v.（過去式／過去分詞）",
+    "zh": "調解了",
+    "use": "過去式；被動 be mediated by + 人",
+    "why": "不定詞 to 後面要原形，不能用 -ed 形"
+   }
+  ]
+ },
+ {
+  "id": "p947",
+  "key": "Security staff + not permitted 的物品 →「沒收」= confiscate",
+  "notes": [
+   {
+    "o": "authorize",
+    "pos": "v.",
+    "zh": "授權；批准",
+    "use": "authorize 人 to V；authorize + 付款／變更",
+    "why": "語意相反：禁帶物品不會被「批准」"
+   },
+   {
+    "o": "confiscate",
+    "pos": "v.",
+    "zh": "沒收",
+    "use": "confiscate + 違禁品 (+ from + 人)",
+    "why": "主詞常是警衛、海關；被動 be confiscated"
+   },
+   {
+    "o": "subsidize",
+    "pos": "v.",
+    "zh": "補助；補貼",
+    "use": "subsidize + 費用／產業",
+    "why": "受詞是費用或受補助對象，不是瓶罐"
+   },
+   {
+    "o": "disseminate",
+    "pos": "v.",
+    "zh": "散布；傳播",
+    "use": "disseminate information／findings",
+    "why": "受詞是資訊，不是實體瓶罐"
+   }
+  ]
+ },
+ {
+  "id": "p948",
+  "key": "受詞 the parking brake + before … move → 先「鬆開」煞車 = disengage",
+  "notes": [
+   {
+    "o": "reiterate",
+    "pos": "v.",
+    "zh": "重申",
+    "use": "reiterate + 立場／要求；reiterate that + 子句",
+    "why": "受詞是說過的話或立場，不是煞車"
+   },
+   {
+    "o": "dispatch",
+    "pos": "v.",
+    "zh": "派遣；發送",
+    "use": "dispatch + 人／貨物 + to + 地點",
+    "why": "受詞是人或貨物，煞車不能被「派遣」"
+   },
+   {
+    "o": "disengage",
+    "pos": "v.",
+    "zh": "鬆開；使脫離",
+    "use": "disengage the brake／clutch／lock",
+    "why": "engage（接合、啟動）↔ disengage（鬆開、解除）"
+   },
+   {
+    "o": "disclose",
+    "pos": "v.",
+    "zh": "透露；揭露",
+    "use": "disclose + 資訊 + to + 人",
+    "why": "受詞是資訊，不是煞車"
+   }
+  ]
+ },
+ {
+  "id": "p949",
+  "key": "For + 名詞 + to V（for 帶出不定詞的主詞）→ to 後原形動詞 succeed",
+  "notes": [
+   {
+    "o": "success",
+    "pos": "n.",
+    "zh": "成功",
+    "use": "名詞：achieve success；a great success",
+    "why": "不定詞 to 後面要原形動詞，不能接名詞"
+   },
+   {
+    "o": "successfully",
+    "pos": "adv.",
+    "zh": "成功地",
+    "use": "副詞：修飾動詞；successfully complete／launch",
+    "why": "to 後面缺動詞，副詞不能當動詞"
+   },
+   {
+    "o": "successful",
+    "pos": "adj.",
+    "zh": "成功的",
+    "use": "形容詞：be successful in + V-ing；a successful launch",
+    "why": "形容詞前要有 be（to be successful）"
+   },
+   {
+    "o": "succeed",
+    "pos": "v.",
+    "zh": "成功；接任",
+    "use": "動詞：succeed in + N／V-ing；succeed + 人（接任）",
+    "why": "succeed in + V-ing，不接 to V；另一義「接任」"
+   }
+  ]
+ },
+ {
+  "id": "p950",
+  "key": "主詞 costs + sharply + rising steel prices → 成本「攀升」= escalate",
+  "notes": [
+   {
+    "o": "escalated",
+    "pos": "v.（過去分詞）",
+    "zh": "攀升；升高",
+    "use": "costs／prices／tensions + escalate",
+    "why": "escalating costs「節節上升的成本」"
+   },
+   {
+    "o": "depreciated",
+    "pos": "v.（過去分詞）",
+    "zh": "貶值；折舊",
+    "use": "資產／貨幣 + depreciate (in value)",
+    "why": "指資產價值下跌，方向和 rising prices 相反"
+   },
+   {
+    "o": "convened",
+    "pos": "v.（過去分詞）",
+    "zh": "召開；集會",
+    "use": "convene a meeting；the board convenes",
+    "why": "主詞是開會的人或委員會，不是 costs"
+   },
+   {
+    "o": "complied",
+    "pos": "v.（過去分詞）",
+    "zh": "遵守",
+    "use": "comply with + 規定",
+    "why": "主詞是守規定的人或公司，而且要接 with"
+   }
+  ]
+ },
+ {
+  "id": "p951",
+  "key": "to ------- + how 子句（當受詞）：表目的的不定詞 → 原形動詞 illustrate",
+  "notes": [
+   {
+    "o": "illustrate",
+    "pos": "v.",
+    "zh": "說明；舉例說明",
+    "use": "動詞：illustrate + N／how 子句／that 子句",
+    "why": "illustrate a point；illustrate how／that …"
+   },
+   {
+    "o": "illustrative",
+    "pos": "adj.",
+    "zh": "作為例證的",
+    "use": "形容詞：an illustrative example；be illustrative of",
+    "why": "表目的的 to 後要原形動詞；形容詞也不接 how 子句"
+   },
+   {
+    "o": "illustration",
+    "pos": "n.",
+    "zh": "插圖；例證",
+    "use": "名詞：an illustration of + N",
+    "why": "名詞要用 of 才能接 how 子句"
+   },
+   {
+    "o": "illustrator",
+    "pos": "n.（人）",
+    "zh": "插畫家",
+    "use": "名詞（人）：可數；a freelance illustrator",
+    "why": "指人；to 後面要原形動詞，不能接名詞"
+   }
+  ]
+ },
+ {
+  "id": "p952",
+  "key": "by closing two of its five offices → 用關閉據點來「縮編」= downsize",
+  "notes": [
+   {
+    "o": "fluctuate",
+    "pos": "v.",
+    "zh": "波動；起伏",
+    "use": "價格／匯率 + fluctuate",
+    "why": "主詞是價格、數字，公司不會「決定波動」"
+   },
+   {
+    "o": "liaise",
+    "pos": "v.",
+    "zh": "聯絡；協調",
+    "use": "liaise with + 人／部門",
+    "why": "要接 with + 對象；關閉辦事處也不是聯絡"
+   },
+   {
+    "o": "accrue",
+    "pos": "v.",
+    "zh": "累積；孳生",
+    "use": "interest／benefits accrue；accrue vacation days",
+    "why": "指利息、假期逐漸累積，和關閉辦事處無關"
+   },
+   {
+    "o": "downsize",
+    "pos": "v.",
+    "zh": "縮編；裁員",
+    "use": "公司 + downsize；downsize the workforce",
+    "why": "可不接受詞；名詞 downsizing「縮編」"
+   }
+  ]
+ },
+ {
+  "id": "p953",
+  "key": "主詞 budget + was ------- to + 部門 → reallocate A to B「重新分配」",
+  "notes": [
+   {
+    "o": "escalated",
+    "pos": "v.（過去分詞）",
+    "zh": "升高；向上呈報",
+    "use": "costs escalate；escalate + 問題 + to + 主管",
+    "why": "接 to 時是把問題往上呈報，預算不是問題"
+   },
+   {
+    "o": "reallocated",
+    "pos": "v.（過去分詞）",
+    "zh": "重新分配",
+    "use": "reallocate + 預算／資源 + to + 部門／用途",
+    "why": "allocate／reallocate funds、resources、budget"
+   },
+   {
+    "o": "entitled",
+    "pos": "v.（過去分詞）",
+    "zh": "有權享有",
+    "use": "人 + be entitled to + N／to V",
+    "why": "主詞要是人，預算不會「有權享有」"
+   },
+   {
+    "o": "exempted",
+    "pos": "v.（過去分詞）",
+    "zh": "被免除",
+    "use": "be exempted from + 義務／費用",
+    "why": "後面要接 from，不接 to"
+   }
+  ]
+ },
+ {
+  "id": "p954",
+  "key": "受詞 a late fee，主詞是要付錢的人 → incur a fee「產生須付的費用」",
+  "notes": [
+   {
+    "o": "solicit",
+    "pos": "v.",
+    "zh": "徵求；請求",
+    "use": "solicit feedback／suggestions／donations",
+    "why": "受詞是意見、捐款，房客不會「徵求」罰款"
+   },
+   {
+    "o": "endorse",
+    "pos": "v.",
+    "zh": "背書；支持；代言",
+    "use": "endorse a check／a proposal／a product",
+    "why": "受詞是支票、提案、產品，不是費用"
+   },
+   {
+    "o": "incur",
+    "pos": "v.",
+    "zh": "招致（費用、損失）",
+    "use": "incur a fee／costs／expenses／a penalty",
+    "why": "主詞是付錢的一方；過去式 incurred（重複 r）"
+   },
+   {
+    "o": "mediate",
+    "pos": "v.",
+    "zh": "調解",
+    "use": "mediate between A and B；mediate a dispute",
+    "why": "受詞是爭議，不是費用"
+   }
+  ]
+ },
+ {
+  "id": "p955",
+  "key": "受詞是一項做法 + arguing that it would improve →「主張、倡導」= advocate",
+  "notes": [
+   {
+    "o": "advocated",
+    "pos": "v.（過去分詞）",
+    "zh": "主張；倡導",
+    "use": "advocate + N／V-ing；advocate for + N",
+    "why": "名詞同形：an advocate of／for + N「倡導者」"
+   },
+   {
+    "o": "impeded",
+    "pos": "v.（過去分詞）",
+    "zh": "阻礙；妨礙",
+    "use": "impede progress／traffic／growth",
+    "why": "文法可以，但和 arguing it would improve 矛盾"
+   },
+   {
+    "o": "liquidated",
+    "pos": "v.（過去分詞）",
+    "zh": "清算；變現",
+    "use": "liquidate assets／a company／inventory",
+    "why": "受詞是資產、公司、庫存，不是工時制度"
+   },
+   {
+    "o": "incurred",
+    "pos": "v.（過去分詞）",
+    "zh": "招致（費用、損失）",
+    "use": "incur costs／expenses／fees／losses",
+    "why": "受詞是費用、損失，不是一項制度"
+   }
+  ]
+ },
+ {
+  "id": "p956",
+  "key": "主詞 committee + 時間地點、後面沒受詞 → 不及物「開會」= convene",
+  "notes": [
+   {
+    "o": "fluctuate",
+    "pos": "v.",
+    "zh": "波動；起伏",
+    "use": "價格／匯率 + fluctuate",
+    "why": "主詞是價格、數字，委員會不會「波動」"
+   },
+   {
+    "o": "deviate",
+    "pos": "v.",
+    "zh": "偏離",
+    "use": "deviate from + 計畫／標準／路線",
+    "why": "要接 from + 偏離的對象，這裡沒有"
+   },
+   {
+    "o": "convene",
+    "pos": "v.",
+    "zh": "開會；召開",
+    "use": "委員會 + convene；convene a meeting",
+    "why": "及物、不及物都可：The board convenes／convene a meeting"
+   },
+   {
+    "o": "accrue",
+    "pos": "v.",
+    "zh": "累積；孳生",
+    "use": "interest／benefits accrue；accrue vacation days",
+    "why": "指利息、假期逐漸累積，不是委員會的動作"
+   }
+  ]
+ },
+ {
+  "id": "p957",
+  "key": "受詞 a wide range of topics, from A to B →「涵蓋」= encompass",
+  "notes": [
+   {
+    "o": "expedite",
+    "pos": "v.",
+    "zh": "加快",
+    "use": "expedite a process／delivery／shipment",
+    "why": "受詞是流程、出貨，不是 topics"
+   },
+   {
+    "o": "attain",
+    "pos": "v.",
+    "zh": "取得；達到",
+    "use": "attain a goal／certification／level",
+    "why": "受詞是目標、資格，不是 topics"
+   },
+   {
+    "o": "encompass",
+    "pos": "v.",
+    "zh": "涵蓋；包含",
+    "use": "encompass a wide range of + 複數名詞",
+    "why": "近義 cover、include；線索 a wide range of"
+   },
+   {
+    "o": "deter",
+    "pos": "v.",
+    "zh": "使卻步；嚇阻",
+    "use": "deter 人 from + V-ing",
+    "why": "受詞是人，不是 topics"
+   }
+  ]
+ },
+ {
+  "id": "p958",
+  "key": "動詞 + information + to + 大眾 → disseminate A to B「向 B 傳播 A」",
+  "notes": [
+   {
+    "o": "solicit",
+    "pos": "v.",
+    "zh": "徵求；請求",
+    "use": "solicit + 意見／資訊 + from + 人",
+    "why": "徵求是 from + 人；這裡是 to residents（往外發）"
+   },
+   {
+    "o": "disseminate",
+    "pos": "v.",
+    "zh": "散布；傳播",
+    "use": "disseminate information／findings to + 對象",
+    "why": "近義 spread、distribute、circulate（較正式）"
+   },
+   {
+    "o": "reconcile",
+    "pos": "v.",
+    "zh": "核對；使一致",
+    "use": "reconcile A with B；reconcile accounts",
+    "why": "後面接 with + 對照的資料，不是 to + 人"
+   },
+   {
+    "o": "withhold",
+    "pos": "v.",
+    "zh": "扣留；不給",
+    "use": "withhold + 資訊／款項 + from + 人",
+    "why": "接 from + 人；語意也相反（扣住不給）"
+   }
+  ]
+ },
+ {
+  "id": "p959",
+  "key": "is expected to -------：to 後接原形動詞 → appreciate in value「增值」",
+  "notes": [
+   {
+    "o": "appreciably",
+    "pos": "adv.",
+    "zh": "明顯地；相當地",
+    "use": "副詞：修飾動詞；increase／differ appreciably",
+    "why": "to 後面缺動詞，副詞不能當動詞"
+   },
+   {
+    "o": "appreciative",
+    "pos": "adj.",
+    "zh": "感激的；賞識的",
+    "use": "形容詞：be appreciative of + N",
+    "why": "形容詞前要有 be；意思也是「感激的」"
+   },
+   {
+    "o": "appreciation",
+    "pos": "n.",
+    "zh": "感謝；增值",
+    "use": "名詞：in appreciation of；appreciation in value",
+    "why": "be expected to 後面要原形動詞，不能接名詞"
+   },
+   {
+    "o": "appreciate",
+    "pos": "v.",
+    "zh": "增值；感謝；賞識",
+    "use": "動詞：appreciate in value（不及物）；appreciate + N",
+    "why": "「增值」義不及物；反義 depreciate「貶值」"
+   }
+  ]
+ },
+ {
+  "id": "p960",
+  "key": "can ------- + 受詞 payments：助動詞後 → 原形動詞 authorize",
+  "notes": [
+   {
+    "o": "authoritative",
+    "pos": "adj.",
+    "zh": "權威的",
+    "use": "形容詞：an authoritative source／guide",
+    "why": "助動詞 can 後面要原形動詞，不能接形容詞"
+   },
+   {
+    "o": "authority",
+    "pos": "n.",
+    "zh": "權力；主管機關",
+    "use": "名詞：have the authority to V；local authorities",
+    "why": "助動詞 can 後面不能接名詞"
+   },
+   {
+    "o": "authorize",
+    "pos": "v.",
+    "zh": "批准；授權",
+    "use": "動詞：authorize a payment；authorize 人 to V",
+    "why": "-ize 是動詞字尾；be authorized to V"
+   },
+   {
+    "o": "authorization",
+    "pos": "n.",
+    "zh": "批准；授權（書）",
+    "use": "名詞：written／prior authorization",
+    "why": "助動詞 can 後面不能接名詞"
+   }
+  ]
+ },
+ {
+  "id": "p961",
+  "key": "staff shortage + closing two hours earlier → 時間「縮短」= curtail",
+  "notes": [
+   {
+    "o": "extend",
+    "pos": "v.",
+    "zh": "延長；擴大",
+    "use": "extend hours／a deadline／a contract",
+    "why": "文法可以，但語意相反：提早關門是縮短不是延長"
+   },
+   {
+    "o": "curtail",
+    "pos": "v.",
+    "zh": "縮減；縮短",
+    "use": "curtail hours／spending／services",
+    "why": "近義 cut back、reduce；反義 extend"
+   },
+   {
+    "o": "disclose",
+    "pos": "v.",
+    "zh": "透露；揭露",
+    "use": "disclose + 資訊 + to + 人",
+    "why": "文法可以，但和 closing two hours earlier 接不上"
+   },
+   {
+    "o": "accrue",
+    "pos": "v.",
+    "zh": "累積；孳生",
+    "use": "interest／benefits accrue；accrue vacation days",
+    "why": "指逐漸累積增加，和提早關門相反"
+   }
+  ]
+ },
+ {
+  "id": "p962",
+  "key": "described … 是分詞修飾主詞，句子缺主要動詞；主詞複數 → exemplify",
+  "notes": [
+   {
+    "o": "exemplary",
+    "pos": "adj.",
+    "zh": "模範的；值得效法的",
+    "use": "形容詞：exemplary service／conduct／employee",
+    "why": "句子缺動詞，形容詞不能當主要動詞"
+   },
+   {
+    "o": "exemplify",
+    "pos": "v.",
+    "zh": "是…的典範；例示",
+    "use": "動詞：exemplify + 特質／精神／承諾",
+    "why": "-ify 是動詞字尾（clarify、simplify、verify）"
+   },
+   {
+    "o": "exemplification",
+    "pos": "n.",
+    "zh": "例證；示範",
+    "use": "名詞：an exemplification of + N",
+    "why": "句子缺動詞，名詞不能當主要動詞"
+   },
+   {
+    "o": "example",
+    "pos": "n.",
+    "zh": "例子；榜樣",
+    "use": "名詞：an example of + N；set an example",
+    "why": "句子缺動詞，名詞不能當主要動詞"
+   }
+  ]
+ },
+ {
+  "id": "p963",
+  "key": "主詞 cars + by 20 percent + 買家寧願買二手 → 價值「下跌」= depreciate",
+  "notes": [
+   {
+    "o": "appreciate",
+    "pos": "v.",
+    "zh": "增值；感謝",
+    "use": "appreciate in value；appreciate + N",
+    "why": "文法可以，但語意相反：會增值就不必改買二手車"
+   },
+   {
+    "o": "convene",
+    "pos": "v.",
+    "zh": "召開；集會",
+    "use": "convene a meeting；the board convenes",
+    "why": "主詞是開會的人或委員會，不是 cars"
+   },
+   {
+    "o": "comply",
+    "pos": "v.",
+    "zh": "遵守",
+    "use": "comply with + 規定",
+    "why": "要接 with + 規定，不接 by + 百分比"
+   },
+   {
+    "o": "depreciate",
+    "pos": "v.",
+    "zh": "貶值；折舊",
+    "use": "資產 + depreciate (in value) by + 幅度",
+    "why": "appreciate ↔ depreciate 成對記；名詞 depreciation"
+   }
+  ]
+ },
+ {
+  "id": "p964",
+  "key": "check + by signing your name on the back → 支票背面簽名 = endorse",
+  "notes": [
+   {
+    "o": "withhold",
+    "pos": "v.",
+    "zh": "扣留；不給",
+    "use": "withhold payment／information／tax",
+    "why": "是扣住不給，和簽名後交給櫃員存入相反"
+   },
+   {
+    "o": "reimburse",
+    "pos": "v.",
+    "zh": "報銷；償還",
+    "use": "reimburse 人 for + 費用",
+    "why": "受詞是人或費用；簽名也不是「償還」的方式"
+   },
+   {
+    "o": "reconcile",
+    "pos": "v.",
+    "zh": "核對；使一致",
+    "use": "reconcile A with B；reconcile accounts",
+    "why": "要有兩份資料互相比對，簽名不是核對"
+   },
+   {
+    "o": "endorse",
+    "pos": "v.",
+    "zh": "背書；支持；代言",
+    "use": "endorse a check／a proposal／a product",
+    "why": "三個義都考：支票背書、支持提案、名人代言"
+   }
+  ]
+ },
+ {
+  "id": "p965",
+  "key": "days of paid leave + for every month they work → 逐月「累積」= accrue",
+  "notes": [
+   {
+    "o": "disclose",
+    "pos": "v.",
+    "zh": "透露；揭露",
+    "use": "disclose + 資訊 + to + 人",
+    "why": "受詞是資訊，不是休假天數"
+   },
+   {
+    "o": "mediate",
+    "pos": "v.",
+    "zh": "調解",
+    "use": "mediate between A and B；mediate a dispute",
+    "why": "受詞是爭議，不是休假天數"
+   },
+   {
+    "o": "accrue",
+    "pos": "v.",
+    "zh": "累積；孳生",
+    "use": "accrue leave／vacation days；interest accrues",
+    "why": "accrued interest「應計利息」；及物、不及物都可"
+   },
+   {
+    "o": "deter",
+    "pos": "v.",
+    "zh": "使卻步；嚇阻",
+    "use": "deter 人 from + V-ing",
+    "why": "受詞是人，後面接 from V-ing"
+   }
+  ]
+ },
+ {
+  "id": "p966",
+  "key": "受詞 the risk + 每晚備份的做法 → 把風險「降低」= mitigate the risk",
+  "notes": [
+   {
+    "o": "solicit",
+    "pos": "v.",
+    "zh": "徵求；請求",
+    "use": "solicit feedback／suggestions／donations",
+    "why": "受詞是意見、捐款，不是 risk"
+   },
+   {
+    "o": "mitigate",
+    "pos": "v.",
+    "zh": "減輕；降低",
+    "use": "mitigate the risk／impact／damage",
+    "why": "近義 reduce、minimize、lessen"
+   },
+   {
+    "o": "escalate",
+    "pos": "v.",
+    "zh": "升高；惡化",
+    "use": "costs／tensions + escalate；escalate a conflict",
+    "why": "文法可以，但語意相反：備份不是為了提高風險"
+   },
+   {
+    "o": "incur",
+    "pos": "v.",
+    "zh": "招致（費用、損失）",
+    "use": "incur costs／expenses／fees／losses",
+    "why": "文法可以，但語意相反：備份不是為了招來風險"
+   }
+  ]
+ },
+ {
+  "id": "p967",
+  "key": "Without maintenance + 主詞 surface + costly repairs →「惡化」= deteriorate",
+  "notes": [
+   {
+    "o": "fluctuate",
+    "pos": "v.",
+    "zh": "波動；起伏",
+    "use": "價格／匯率 + fluctuate",
+    "why": "指上下起伏；沒保養的路面只會單向變差"
+   },
+   {
+    "o": "comply",
+    "pos": "v.",
+    "zh": "遵守",
+    "use": "comply with + 規定",
+    "why": "主詞是守規定的人或公司，而且要接 with"
+   },
+   {
+    "o": "escalate",
+    "pos": "v.",
+    "zh": "升高；惡化",
+    "use": "costs／tensions／conflicts + escalate",
+    "why": "主詞是成本、衝突（程度升高），不是實體路面"
+   },
+   {
+    "o": "deteriorate",
+    "pos": "v.",
+    "zh": "惡化；變差",
+    "use": "狀況／品質／健康／路面 + deteriorate",
+    "why": "不及物；近義 worsen；名詞 deterioration"
+   }
+  ]
+ },
+ {
+  "id": "p968",
+  "key": "was introduced to ------- + 受詞 communication：表目的 → 原形動詞 facilitate",
+  "notes": [
+   {
+    "o": "facility",
+    "pos": "n.",
+    "zh": "設施；場所",
+    "use": "名詞：a manufacturing facility；sports facilities",
+    "why": "表目的的 to 後要原形動詞；意思也是「設施」"
+   },
+   {
+    "o": "facilitator",
+    "pos": "n.（人）",
+    "zh": "引導者；主持人",
+    "use": "名詞（人）：a workshop facilitator",
+    "why": "指人；名詞後面不能直接接受詞 communication"
+   },
+   {
+    "o": "facilitation",
+    "pos": "n.",
+    "zh": "促進",
+    "use": "名詞：the facilitation of + N",
+    "why": "名詞要用 of 才能接 communication"
+   },
+   {
+    "o": "facilitate",
+    "pos": "v.",
+    "zh": "促進；使便利",
+    "use": "動詞：facilitate communication／discussion／a process",
+    "why": "facilitate＝make easier；主詞常是工具、制度"
+   }
+  ]
+ },
+ {
+  "id": "p969",
+  "key": "動詞 + responses + from + 人 → elicit A from B「從 B 引出 A」",
+  "notes": [
+   {
+    "o": "confiscate",
+    "pos": "v.",
+    "zh": "沒收",
+    "use": "confiscate + 違禁品 + from + 人",
+    "why": "文法可以，但語意不通：回答不是可沒收的物品"
+   },
+   {
+    "o": "subsidize",
+    "pos": "v.",
+    "zh": "補助；補貼",
+    "use": "subsidize + 費用／產業",
+    "why": "受詞是費用或受補助對象，不是 responses"
+   },
+   {
+    "o": "elicit",
+    "pos": "v.",
+    "zh": "引出（回應、資訊）",
+    "use": "elicit a response／information／feedback from + 人",
+    "why": "別混：illicit（adj. 違法的）拼字、發音相近"
+   },
+   {
+    "o": "withhold",
+    "pos": "v.",
+    "zh": "扣留；不給",
+    "use": "withhold + 資訊／款項 + from + 人",
+    "why": "文法可以，但語意相反：提問是為了得到回答"
+   }
+  ]
+ },
+ {
+  "id": "p970",
+  "key": "may ------- + 受詞 this agreement：助動詞後 → 原形動詞 terminate",
+  "notes": [
+   {
+    "o": "termination",
+    "pos": "n.",
+    "zh": "終止",
+    "use": "名詞：termination of a contract／employment",
+    "why": "助動詞 may 後面不能接名詞"
+   },
+   {
+    "o": "terminate",
+    "pos": "v.",
+    "zh": "終止",
+    "use": "動詞：terminate a contract／an agreement",
+    "why": "合約情境必背；-ate 常是動詞字尾"
+   },
+   {
+    "o": "terminal",
+    "pos": "n.／adj.",
+    "zh": "航廈；終端機；末期的",
+    "use": "名詞：an airport terminal；形容詞：terminal illness",
+    "why": "助動詞 may 後面要原形動詞"
+   },
+   {
+    "o": "terminally",
+    "pos": "adv.",
+    "zh": "末期地",
+    "use": "副詞：terminally ill（病重末期）",
+    "why": "may 後面缺動詞，副詞不能當動詞"
+   }
+  ]
+ },
+ {
+  "id": "p971",
+  "key": "動詞 + 人力 + to V（任務）→ deploy「調派（人員、資源）」",
+  "notes": [
+   {
+    "o": "deterred",
+    "pos": "v.（過去式）",
+    "zh": "使卻步；嚇阻",
+    "use": "deter 人 from + V-ing",
+    "why": "接 from V-ing；語意也相反（是派去，不是嚇阻）"
+   },
+   {
+    "o": "depreciated",
+    "pos": "v.（過去式）",
+    "zh": "貶值；折舊",
+    "use": "資產／貨幣 + depreciate (in value)",
+    "why": "指資產價值下跌，受詞不會是技術人員"
+   },
+   {
+    "o": "deployed",
+    "pos": "v.（過去式）",
+    "zh": "調派；部署",
+    "use": "deploy staff／resources (to + 地點／to V)",
+    "why": "近義 dispatch；資訊用語 deploy software「部署」"
+   },
+   {
+    "o": "reconciled",
+    "pos": "v.（過去式）",
+    "zh": "核對；使一致",
+    "use": "reconcile A with B；reconcile accounts",
+    "why": "後面接 with + 對照的資料，不是 to V"
+   }
+  ]
+ },
+ {
+  "id": "p972",
+  "key": "has decided to ------- + 受詞：decide to 後 → 原形動詞 subsidize",
+  "notes": [
+   {
+    "o": "subsidiary",
+    "pos": "n.／adj.",
+    "zh": "子公司；附屬的",
+    "use": "名詞：a subsidiary of + 母公司",
+    "why": "decide to 後面要原形動詞；意思也是「子公司」"
+   },
+   {
+    "o": "subsidize",
+    "pos": "v.",
+    "zh": "補助；補貼",
+    "use": "動詞：subsidize + 費用／產業；be subsidized by",
+    "why": "-ize 是動詞字尾；名詞 subsidy「補助金」"
+   },
+   {
+    "o": "subsidization",
+    "pos": "n.",
+    "zh": "補助（行為）",
+    "use": "名詞：the subsidization of + N",
+    "why": "名詞要用 of 才能接後面的 train passes"
+   },
+   {
+    "o": "subsidy",
+    "pos": "n.",
+    "zh": "補助金；津貼",
+    "use": "名詞：a government subsidy；subsidies for + N",
+    "why": "decide to 後面要原形動詞，不能接名詞"
+   }
+  ]
+ },
+ {
+  "id": "p973",
+  "key": "Rather than hiring its own …；動詞 + 業務 + to + 外部公司 → outsource A to B",
+  "notes": [
+   {
+    "o": "entitle",
+    "pos": "v.",
+    "zh": "給予權利",
+    "use": "entitle 人 to + N／to V",
+    "why": "受詞要是人，payroll processing 不是"
+   },
+   {
+    "o": "attribute",
+    "pos": "v.",
+    "zh": "歸因於",
+    "use": "attribute + 結果 + to + 原因",
+    "why": "to 後面要是原因，外部公司不是「原因」"
+   },
+   {
+    "o": "confiscate",
+    "pos": "v.",
+    "zh": "沒收",
+    "use": "confiscate + 違禁品 + from + 人",
+    "why": "接 from + 人，不是 to + 公司"
+   },
+   {
+    "o": "outsource",
+    "pos": "v.",
+    "zh": "外包",
+    "use": "outsource + 業務 + to + 外部公司",
+    "why": "反義 in-house「公司內部自己做」"
+   }
+  ]
+ },
+ {
+  "id": "p974",
+  "key": "主詞 Construction + in early March，對照後面 be finished →「開始」= commence",
+  "notes": [
+   {
+    "o": "liaise",
+    "pos": "v.",
+    "zh": "聯絡；協調",
+    "use": "liaise with + 人／部門",
+    "why": "主詞要是人，而且後面接 with"
+   },
+   {
+    "o": "convene",
+    "pos": "v.",
+    "zh": "召開；集會",
+    "use": "convene a meeting；the board convenes",
+    "why": "主詞是開會的人或委員會，不是工程"
+   },
+   {
+    "o": "accrue",
+    "pos": "v.",
+    "zh": "累積；孳生",
+    "use": "interest／benefits accrue；accrue vacation days",
+    "why": "指利息、假期逐漸累積，不是工程動工"
+   },
+   {
+    "o": "commence",
+    "pos": "v.",
+    "zh": "開始",
+    "use": "工程／會議 + commence；commence + N／V-ing",
+    "why": "commence＝begin（正式）；名詞 commencement"
+   }
+  ]
+ },
+ {
+  "id": "p975",
+  "key": "to ------- fuel use and shorten …：and 連接兩個原形動詞 → optimize",
+  "notes": [
+   {
+    "o": "optimally",
+    "pos": "adv.",
+    "zh": "最佳地",
+    "use": "副詞：修飾動詞；perform／function optimally",
+    "why": "表目的的 to 後面缺動詞，副詞不能當動詞"
+   },
+   {
+    "o": "optimize",
+    "pos": "v.",
+    "zh": "使最佳化",
+    "use": "動詞：optimize + 效率／路線／用量",
+    "why": "-ize 是動詞字尾；and 前後對等（optimize、shorten）"
+   },
+   {
+    "o": "optimization",
+    "pos": "n.",
+    "zh": "最佳化",
+    "use": "名詞：the optimization of + N",
+    "why": "名詞要用 of 才能接 fuel use，也和 shorten 不對等"
+   },
+   {
+    "o": "optimal",
+    "pos": "adj.",
+    "zh": "最佳的",
+    "use": "形容詞：optimal conditions／performance",
+    "why": "表目的要動詞；形容詞和後面的 shorten 不對等"
+   }
+  ]
+ },
+ {
+  "id": "p976",
+  "key": "------- from the approved route：空格後是 from → deviate from「偏離」",
+  "notes": [
+   {
+    "o": "deviate",
+    "pos": "v.",
+    "zh": "偏離",
+    "use": "deviate from + 路線／計畫／標準",
+    "why": "deviate from the plan／schedule／norm"
+   },
+   {
+    "o": "comply",
+    "pos": "v.",
+    "zh": "遵守",
+    "use": "comply with + 規定",
+    "why": "接 with 不接 from；not to comply 語意也相反"
+   },
+   {
+    "o": "economize",
+    "pos": "v.",
+    "zh": "節省；節約",
+    "use": "economize on + 費用／資源",
+    "why": "接 on 不接 from"
+   },
+   {
+    "o": "liaise",
+    "pos": "v.",
+    "zh": "聯絡；協調",
+    "use": "liaise with + 人／部門",
+    "why": "接 with + 人，不接 from + 路線"
+   }
+  ]
+ },
+ {
+  "id": "p977",
+  "key": "has been ------- as + 用途 → be designated as「被指定為」",
+  "notes": [
+   {
+    "o": "liquidated",
+    "pos": "v.（過去分詞）",
+    "zh": "被清算；變現",
+    "use": "liquidate assets／a company／inventory",
+    "why": "受詞是資產、公司、庫存，和 as + 用途接不上"
+   },
+   {
+    "o": "reimbursed",
+    "pos": "v.（過去分詞）",
+    "zh": "獲得報銷",
+    "use": "人 + be reimbursed for + 費用",
+    "why": "主詞要是人或費用，area 不能被「報銷」"
+   },
+   {
+    "o": "deterred",
+    "pos": "v.（過去分詞）",
+    "zh": "被嚇阻；卻步",
+    "use": "人 + be deterred from + V-ing",
+    "why": "主詞要是人，後面接 from V-ing"
+   },
+   {
+    "o": "designated",
+    "pos": "v.（過去分詞）",
+    "zh": "被指定",
+    "use": "be designated as + 身分／用途",
+    "why": "a designated smoking／parking area「指定區」"
+   }
+  ]
+ },
+ {
+  "id": "p978",
+  "key": "easier for 人 to ------- … and find：to 後原形，和 find 對等 → navigate",
+  "notes": [
+   {
+    "o": "navigate",
+    "pos": "v.",
+    "zh": "瀏覽；導航",
+    "use": "動詞：navigate a website／menu／city",
+    "why": "easy to navigate「（網站）好找、好操作」"
+   },
+   {
+    "o": "navigator",
+    "pos": "n.（人）",
+    "zh": "領航員",
+    "use": "名詞（人）：可數，單數前要有 a／the",
+    "why": "指人；to 後面要原形動詞，不能接名詞"
+   },
+   {
+    "o": "navigable",
+    "pos": "adj.",
+    "zh": "可通航的；易瀏覽的",
+    "use": "形容詞：a navigable river／website",
+    "why": "後面已有 the，形容詞不能放在冠詞前面"
+   },
+   {
+    "o": "navigation",
+    "pos": "n.",
+    "zh": "導航；瀏覽",
+    "use": "名詞：site navigation；a navigation system",
+    "why": "名詞要用 of 才能接 the online catalog"
+   }
+  ]
+ },
+ {
+  "id": "p979",
+  "key": "擋路的箱子 + 受詞 access + must be removed →「妨礙」= impede",
+  "notes": [
+   {
+    "o": "solicit",
+    "pos": "v.",
+    "zh": "徵求；請求",
+    "use": "solicit feedback／suggestions／donations",
+    "why": "受詞是意見、捐款，不是 access"
+   },
+   {
+    "o": "facilitate",
+    "pos": "v.",
+    "zh": "促進；使便利",
+    "use": "facilitate communication／access／a process",
+    "why": "文法可以，但語意相反：會方便通行就不必移走"
+   },
+   {
+    "o": "impede",
+    "pos": "v.",
+    "zh": "阻礙；妨礙",
+    "use": "impede access／progress／traffic",
+    "why": "近義 obstruct、hinder、block"
+   },
+   {
+    "o": "subsidize",
+    "pos": "v.",
+    "zh": "補助；補貼",
+    "use": "subsidize + 費用／產業",
+    "why": "受詞是費用或受補助對象，不是 access"
+   }
+  ]
+ },
+ {
+  "id": "p980",
+  "key": "was created to ------- + 受詞 a response：表目的的 to → 原形動詞 formulate",
+  "notes": [
+   {
+    "o": "formulation",
+    "pos": "n.",
+    "zh": "擬定；配方",
+    "use": "名詞：the formulation of + 政策／計畫",
+    "why": "名詞要用 of 才能接 a response"
+   },
+   {
+    "o": "formula",
+    "pos": "n.",
+    "zh": "公式；配方",
+    "use": "名詞：a formula for + N",
+    "why": "表目的的 to 後要原形動詞；名詞不能直接接受詞"
+   },
+   {
+    "o": "formulate",
+    "pos": "v.",
+    "zh": "擬定；制定",
+    "use": "動詞：formulate a plan／policy／strategy",
+    "why": "formulate a plan／response；近義 devise、draw up"
+   },
+   {
+    "o": "formulaic",
+    "pos": "adj.",
+    "zh": "公式化的；老套的",
+    "use": "形容詞：a formulaic plot／response",
+    "why": "後面已有 a，形容詞不能放在冠詞前面"
+   }
+  ]
+ },
+ {
+  "id": "p981",
+  "key": "主詞是自己先出錢的員工 + at a rate of … → be reimbursed「獲得報銷」",
+  "notes": [
+   {
+    "o": "reimbursed",
+    "pos": "v.（過去分詞）",
+    "zh": "獲得報銷；被償還",
+    "use": "人 + be reimbursed for + 費用",
+    "why": "reimburse 人 for + 費用；名詞 reimbursement"
+   },
+   {
+    "o": "convened",
+    "pos": "v.（過去分詞）",
+    "zh": "被召集",
+    "use": "convene a meeting／committee",
+    "why": "被召集的是會議、委員會；和每公里費率無關"
+   },
+   {
+    "o": "deterred",
+    "pos": "v.（過去分詞）",
+    "zh": "被嚇阻；卻步",
+    "use": "人 + be deterred from + V-ing",
+    "why": "後面要接 from V-ing；和每公里費率無關"
+   },
+   {
+    "o": "disclosed",
+    "pos": "v.（過去分詞）",
+    "zh": "被透露",
+    "use": "資訊 + be disclosed to + 人",
+    "why": "主詞要是資訊，員工不能被「透露」"
+   }
+  ]
+ },
+ {
+  "id": "p982",
+  "key": "hopes to ------- + 受詞 her … following：hope to 後 → 原形動詞 monetize",
+  "notes": [
+   {
+    "o": "monetize",
+    "pos": "v.",
+    "zh": "使變現；用…賺錢",
+    "use": "動詞：monetize a website／content／an audience",
+    "why": "-ize 是動詞字尾；following 在這裡是名詞「粉絲」"
+   },
+   {
+    "o": "monetization",
+    "pos": "n.",
+    "zh": "變現",
+    "use": "名詞：the monetization of + N",
+    "why": "名詞要用 of 才能接 her … following"
+   },
+   {
+    "o": "monetary",
+    "pos": "adj.",
+    "zh": "金錢的；貨幣的",
+    "use": "形容詞：monetary policy／value／reward",
+    "why": "後面已有 her，形容詞不能放在所有格前面"
+   },
+   {
+    "o": "monetarily",
+    "pos": "adv.",
+    "zh": "金錢上",
+    "use": "副詞：修飾動詞或形容詞",
+    "why": "hope to 後面缺動詞，副詞不能當動詞"
+   }
+  ]
+ },
+ {
+  "id": "p983",
+  "key": "her earlier promise：之前說過、現在再說一次 →「重申」= reiterate",
+  "notes": [
+   {
+    "o": "accrued",
+    "pos": "v.（過去式）",
+    "zh": "累積；孳生",
+    "use": "accrue leave／interest；interest accrues",
+    "why": "受詞是利息、假期，不是 promise"
+   },
+   {
+    "o": "attained",
+    "pos": "v.（過去式）",
+    "zh": "取得；達到",
+    "use": "attain a goal／certification／level",
+    "why": "受詞是目標、資格，承諾不是「達到」的對象"
+   },
+   {
+    "o": "impeded",
+    "pos": "v.（過去式）",
+    "zh": "阻礙；妨礙",
+    "use": "impede progress／traffic／access",
+    "why": "受詞是進展、通行；也不會在結語妨礙自己的承諾"
+   },
+   {
+    "o": "reiterated",
+    "pos": "v.（過去式）",
+    "zh": "重申",
+    "use": "reiterate a promise／position；reiterate that + 子句",
+    "why": "re-（再）；近義 repeat、restate（較正式）"
+   }
+  ]
+ },
+ {
+  "id": "p984",
+  "key": "受詞 traffic congestion 是負面問題 →「減輕、紓解」= alleviate",
+  "notes": [
+   {
+    "o": "alleviate",
+    "pos": "v.",
+    "zh": "減輕；紓解",
+    "use": "alleviate congestion／pain／concerns／a shortage",
+    "why": "近義 ease、relieve；受詞都是負面事物"
+   },
+   {
+    "o": "foster",
+    "pos": "v.",
+    "zh": "培養；促進",
+    "use": "foster cooperation／relationships／growth",
+    "why": "文法可以，但語意相反：不會去「助長」塞車"
+   },
+   {
+    "o": "accrue",
+    "pos": "v.",
+    "zh": "累積；孳生",
+    "use": "interest／benefits accrue；accrue vacation days",
+    "why": "指逐漸累積增加，和紓解塞車相反"
+   },
+   {
+    "o": "endorse",
+    "pos": "v.",
+    "zh": "背書；支持；代言",
+    "use": "endorse a check／a proposal／a product",
+    "why": "受詞是提案、產品、支票，不是塞車"
+   }
+  ]
+ },
+ {
+  "id": "p985",
+  "key": "was forced to ------- + 受詞 its … inventory：to 後 → 原形動詞 liquidate",
+  "notes": [
+   {
+    "o": "liquidity",
+    "pos": "n.",
+    "zh": "流動性；周轉能力",
+    "use": "名詞（不可數）：liquidity problems／crisis",
+    "why": "be forced to 後面要原形動詞，不能接名詞"
+   },
+   {
+    "o": "liquidation",
+    "pos": "n.",
+    "zh": "清算；出清",
+    "use": "名詞：go into liquidation；a liquidation sale",
+    "why": "名詞要用 of 才能接 its … inventory"
+   },
+   {
+    "o": "liquidate",
+    "pos": "v.",
+    "zh": "清算；變現",
+    "use": "動詞：liquidate assets／inventory／a company",
+    "why": "liquidate assets「資產變現」；-ate 常是動詞字尾"
+   },
+   {
+    "o": "liquid",
+    "pos": "adj.／n.",
+    "zh": "液體（的）；易變現的",
+    "use": "形容詞：liquid assets；名詞：a clear liquid",
+    "why": "後面已有 its，形容詞不能放在所有格前面"
+   }
+  ]
+ },
+ {
+  "id": "p986",
+  "key": "------- closely with + 人：不及物動詞 + with → liaise with「聯繫協調」",
+  "notes": [
+   {
+    "o": "deviate",
+    "pos": "v.",
+    "zh": "偏離",
+    "use": "deviate from + 計畫／標準／路線",
+    "why": "接 from，不接 with + 人"
+   },
+   {
+    "o": "fluctuate",
+    "pos": "v.",
+    "zh": "波動；起伏",
+    "use": "價格／匯率 + fluctuate",
+    "why": "主詞是價格、數字，不是人"
+   },
+   {
+    "o": "oversee",
+    "pos": "v.",
+    "zh": "監督",
+    "use": "oversee + 工程／專案／團隊（及物）",
+    "why": "及物動詞，要直接接受詞，不加 with"
+   },
+   {
+    "o": "liaise",
+    "pos": "v.",
+    "zh": "聯絡；協調",
+    "use": "liaise (closely) with + 人／部門",
+    "why": "名詞 liaison；同型 work／collaborate closely with"
+   }
+  ]
+ },
+ {
+  "id": "p987",
+  "key": "主詞是職位、受詞是工作內容 frequent travel →「必然需要」= entail",
+  "notes": [
+   {
+    "o": "reimburses",
+    "pos": "v.（第三人稱單數）",
+    "zh": "報銷；償還",
+    "use": "reimburse 人 for + 費用",
+    "why": "主詞要是付錢的公司或人，職位不會「報銷」"
+   },
+   {
+    "o": "deters",
+    "pos": "v.（第三人稱單數）",
+    "zh": "使卻步；嚇阻",
+    "use": "deter 人 from + V-ing",
+    "why": "受詞要是人，不是 travel"
+   },
+   {
+    "o": "mediates",
+    "pos": "v.（第三人稱單數）",
+    "zh": "調解",
+    "use": "mediate between A and B；mediate a dispute",
+    "why": "受詞是爭議，不是 travel"
+   },
+   {
+    "o": "entails",
+    "pos": "v.（第三人稱單數）",
+    "zh": "牽涉；必然需要",
+    "use": "工作／計畫 + entail + N／V-ing",
+    "why": "The job entails + N；近義 involve、require"
+   }
+  ]
+ },
+ {
+  "id": "p988",
+  "key": "sixty applicants → only five + final interview →「決選名單」= shortlist",
+  "notes": [
+   {
+    "o": "ledger",
+    "pos": "n.",
+    "zh": "帳簿；分類帳",
+    "use": "record + 交易 + in a ledger；general ledger",
+    "why": "記的是帳目，不是應徵者"
+   },
+   {
+    "o": "shortlist",
+    "pos": "n.",
+    "zh": "決選名單",
+    "use": "be (placed) on the shortlist for + 職位／獎項",
+    "why": "也當動詞：be shortlisted for + 職位／獎項"
+   },
+   {
+    "o": "dividend",
+    "pos": "n.",
+    "zh": "股利；股息",
+    "use": "pay／declare a dividend",
+    "why": "是公司發給股東的錢，不是名單"
+   },
+   {
+    "o": "backlog",
+    "pos": "n.",
+    "zh": "積壓的工作",
+    "use": "a backlog of orders／work；clear a backlog",
+    "why": "指積壓未處理的工作，不是挑選出來的名單"
+   }
+  ]
+ },
+ {
+  "id": "p989",
+  "key": "主詞是投資（bond fund）、受詞 a return →「產生（收益）」= yield",
+  "notes": [
+   {
+    "o": "solicit",
+    "pos": "v.",
+    "zh": "徵求；請求",
+    "use": "solicit feedback／suggestions／donations",
+    "why": "受詞是意見、捐款；基金不會「徵求」報酬"
+   },
+   {
+    "o": "exempt",
+    "pos": "v.",
+    "zh": "使免除",
+    "use": "exempt 人 from + 義務",
+    "why": "要有 from + 義務，受詞也不是 return"
+   },
+   {
+    "o": "yield",
+    "pos": "v.",
+    "zh": "產生（收益、結果）",
+    "use": "yield a return／profit／results",
+    "why": "名詞同形：a high yield「高殖利率」"
+   },
+   {
+    "o": "deter",
+    "pos": "v.",
+    "zh": "使卻步；嚇阻",
+    "use": "deter 人 from + V-ing",
+    "why": "受詞是人，後面接 from V-ing"
+   }
+  ]
+ },
+ {
+  "id": "p990",
+  "key": "raised prices to ------- the higher cost → 用漲價「抵消」成本 = offset",
+  "notes": [
+   {
+    "o": "offset",
+    "pos": "v.",
+    "zh": "抵消；彌補",
+    "use": "offset + 成本／損失／漲幅",
+    "why": "三態同形 offset–offset–offset；offset costs／losses"
+   },
+   {
+    "o": "incur",
+    "pos": "v.",
+    "zh": "招致（費用、損失）",
+    "use": "incur costs／expenses／fees／losses",
+    "why": "文法可以，但語意不通：漲價不是為了「產生」成本"
+   },
+   {
+    "o": "solicit",
+    "pos": "v.",
+    "zh": "徵求；請求",
+    "use": "solicit feedback／suggestions／donations",
+    "why": "受詞是意見、捐款，不是 cost"
+   },
+   {
+    "o": "escalate",
+    "pos": "v.",
+    "zh": "升高；惡化",
+    "use": "costs／tensions + escalate",
+    "why": "文法可以，但語意相反：漲價不是要讓成本更高"
+   }
+  ]
+ },
+ {
+  "id": "p991",
+  "key": "動詞 + 人 + to + 地點 → dispatch A to B「派 A 到 B」",
+  "notes": [
+   {
+    "o": "entitled",
+    "pos": "v.（過去式）",
+    "zh": "給予權利",
+    "use": "entitle 人 to + 權利／to V",
+    "why": "to 後面要是權利或福利，不是地點"
+   },
+   {
+    "o": "dispatched",
+    "pos": "v.（過去式）",
+    "zh": "派遣；發送",
+    "use": "dispatch + 人／貨物 + to + 地點",
+    "why": "也指出貨：dispatch an order；近義 send"
+   },
+   {
+    "o": "depreciated",
+    "pos": "v.（過去式）",
+    "zh": "貶值；折舊",
+    "use": "資產／貨幣 + depreciate (in value)",
+    "why": "指資產價值下跌，受詞不會是 guards"
+   },
+   {
+    "o": "attributed",
+    "pos": "v.（過去式）",
+    "zh": "歸因於",
+    "use": "attribute + 結果 + to + 原因",
+    "why": "to 後面要是原因，不是地點"
+   }
+  ]
+ },
+ {
+  "id": "p992",
+  "key": "sudden ------- in bookings + 要加聘人手 → a surge in + N「激增」",
+  "notes": [
+   {
+    "o": "deduction",
+    "pos": "n.",
+    "zh": "扣除（額）",
+    "use": "a tax deduction；a deduction from + 薪資",
+    "why": "指從金額中扣掉，和 in bookings 接不上"
+   },
+   {
+    "o": "surge",
+    "pos": "n.",
+    "zh": "激增；急升",
+    "use": "a surge in demand／bookings／prices",
+    "why": "同型：an increase／a rise／a drop in + N"
+   },
+   {
+    "o": "merger",
+    "pos": "n.",
+    "zh": "合併",
+    "use": "a merger with + 公司；a merger between A and B",
+    "why": "指公司合併，和 in bookings 接不上"
+   },
+   {
+    "o": "recession",
+    "pos": "n.",
+    "zh": "經濟衰退",
+    "use": "an economic recession；during a recession",
+    "why": "指整體景氣衰退；語意也和加聘人手相反"
+   }
+  ]
+ },
+ {
+  "id": "p993",
+  "key": "the right to open a store using the company's name →「加盟權」= franchise",
+  "notes": [
+   {
+    "o": "quota",
+    "pos": "n.",
+    "zh": "配額；額度",
+    "use": "a sales quota；meet／fill a quota",
+    "why": "指限定或要達成的數量，不是開店的權利"
+   },
+   {
+    "o": "dividend",
+    "pos": "n.",
+    "zh": "股利；股息",
+    "use": "pay／declare a dividend",
+    "why": "是公司發給股東的錢，不是買來的"
+   },
+   {
+    "o": "franchise",
+    "pos": "n.",
+    "zh": "加盟權；加盟店",
+    "use": "buy／own／operate a franchise",
+    "why": "franchisee 加盟主；franchisor 授權總部"
+   },
+   {
+    "o": "surplus",
+    "pos": "n.",
+    "zh": "盈餘；過剩",
+    "use": "a budget／trade surplus；a surplus of + N",
+    "why": "指多出來的量，不能讓人取得開店權"
+   }
+  ]
+ },
+ {
+  "id": "p994",
+  "key": "------- + how 子句，要等 figures 才知道 →「評估、判斷」= gauge",
+  "notes": [
+   {
+    "o": "foster",
+    "pos": "v.",
+    "zh": "培養；促進",
+    "use": "foster cooperation／relationships／growth",
+    "why": "受詞是要培養的合作、關係，不是 how 子句"
+   },
+   {
+    "o": "reimburse",
+    "pos": "v.",
+    "zh": "報銷；償還",
+    "use": "reimburse 人 for + 費用",
+    "why": "受詞是人或費用，不是 how 子句"
+   },
+   {
+    "o": "gauge",
+    "pos": "v.",
+    "zh": "評估；判斷；測量",
+    "use": "gauge + 反應／興趣／how 子句",
+    "why": "gauge reaction／interest；發音 /ɡeɪdʒ/"
+   },
+   {
+    "o": "curtail",
+    "pos": "v.",
+    "zh": "縮減；縮短",
+    "use": "curtail spending／services／hours",
+    "why": "受詞是開支、服務，不是 how 子句"
+   }
+  ]
+ },
+ {
+  "id": "p995",
+  "key": "buys in such large quantities + when negotiating →「談判籌碼」= leverage",
+  "notes": [
+   {
+    "o": "inflation",
+    "pos": "n.",
+    "zh": "通貨膨脹",
+    "use": "the rate of inflation；rising inflation",
+    "why": "指物價普遍上漲，不是公司議價時「擁有」的東西"
+   },
+   {
+    "o": "leverage",
+    "pos": "n.",
+    "zh": "影響力；談判籌碼",
+    "use": "have／gain leverage over／with + 對象",
+    "why": "不可數；也當動詞 leverage + 資源「善用」"
+   },
+   {
+    "o": "severance",
+    "pos": "n.",
+    "zh": "資遣（費）",
+    "use": "severance pay／package",
+    "why": "指離職時領的錢，和議價無關"
+   },
+   {
+    "o": "liability",
+    "pos": "n.",
+    "zh": "責任；負債",
+    "use": "liability for + 損害；assets and liabilities",
+    "why": "文法可以，但語意相反：採購量大是優勢不是負擔"
+   }
+  ]
+ },
+ {
+  "id": "p996",
+  "key": "do not use … + cannot be carried over → 逾期就「喪失」= forfeit",
+  "notes": [
+   {
+    "o": "forfeit",
+    "pos": "v.",
+    "zh": "喪失；被沒收",
+    "use": "forfeit a deposit／points／the right to V",
+    "why": "主詞是失去的一方：forfeit the deposit「訂金不退」"
+   },
+   {
+    "o": "redeem",
+    "pos": "v.",
+    "zh": "兌換；贖回",
+    "use": "redeem points／a coupon／a voucher for + 物",
+    "why": "文法可以，但語意相反：沒用就是沒兌換"
+   },
+   {
+    "o": "reimburse",
+    "pos": "v.",
+    "zh": "報銷；償還",
+    "use": "reimburse 人 for + 費用",
+    "why": "受詞是人或費用；會員不會「報銷」點數"
+   },
+   {
+    "o": "accrue",
+    "pos": "v.",
+    "zh": "累積；孳生",
+    "use": "accrue points／leave；interest accrues",
+    "why": "文法可以，但語意相反：不能保留就不是累積"
+   }
+  ]
+ },
+ {
+  "id": "p997",
+  "key": "plans to ------- + 受詞 a new system：不定詞 to 後 → 原形動詞 institute",
+  "notes": [
+   {
+    "o": "institute",
+    "pos": "v.／n.",
+    "zh": "建立（制度）；學院",
+    "use": "動詞：institute a system／policy／program",
+    "why": "institute 也是動詞＝introduce、establish（正式）"
+   },
+   {
+    "o": "institutionally",
+    "pos": "adv.",
+    "zh": "制度上",
+    "use": "副詞：修飾動詞或形容詞",
+    "why": "plan to 後面缺動詞，副詞不能當動詞"
+   },
+   {
+    "o": "institutional",
+    "pos": "adj.",
+    "zh": "機構的；制度的",
+    "use": "形容詞：institutional investors／reform",
+    "why": "後面已有 a，形容詞不能放在冠詞前面"
+   },
+   {
+    "o": "institution",
+    "pos": "n.",
+    "zh": "機構；制度",
+    "use": "名詞：a financial／educational institution",
+    "why": "plan to 後面要原形動詞，不能接名詞"
+   }
+  ]
+ },
+ {
+  "id": "p998",
+  "key": "動詞 + A（drop）+ to + B（closure 是原因）→ attribute A to B「歸因於」",
+  "notes": [
+   {
+    "o": "dispatch",
+    "pos": "v.",
+    "zh": "派遣；發送",
+    "use": "dispatch + 人／貨物 + to + 地點",
+    "why": "受詞是人或貨物，drop（下滑）不能被「派遣」"
+   },
+   {
+    "o": "reallocate",
+    "pos": "v.",
+    "zh": "重新分配",
+    "use": "reallocate + 預算／資源 + to + 部門",
+    "why": "受詞是預算、資源，drop 不是可分配的東西"
+   },
+   {
+    "o": "attribute",
+    "pos": "v.",
+    "zh": "歸因於",
+    "use": "attribute A to B；被動 be attributed to",
+    "why": "attribute the drop／increase／success to + 原因"
+   },
+   {
+    "o": "entitle",
+    "pos": "v.",
+    "zh": "給予權利",
+    "use": "entitle 人 to + 權利；be entitled to",
+    "why": "受詞要是人，不能是 drop"
+   }
+  ]
+ },
+ {
+  "id": "p999",
+  "key": "活動結束後 + 受詞是人 + to find out … → 向人「聽取匯報」= debrief",
+  "notes": [
+   {
+    "o": "exempt",
+    "pos": "v.",
+    "zh": "使免除",
+    "use": "exempt 人 from + 義務",
+    "why": "要有 from + 義務；也和 to find out 無關"
+   },
+   {
+    "o": "confiscate",
+    "pos": "v.",
+    "zh": "沒收",
+    "use": "confiscate + 違禁品 + from + 人",
+    "why": "受詞是物品，不是 staff"
+   },
+   {
+    "o": "debrief",
+    "pos": "v.",
+    "zh": "聽取匯報",
+    "use": "debrief + 人 (on + 事)；a debriefing session",
+    "why": "brief 人＝事前說明；debrief 人＝事後聽取回報"
+   },
+   {
+    "o": "subsidize",
+    "pos": "v.",
+    "zh": "補助；補貼",
+    "use": "subsidize + 費用／產業",
+    "why": "補助的是費用；也和 to find out 無關"
+   }
+  ]
+ }
+]

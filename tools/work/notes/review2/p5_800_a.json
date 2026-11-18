@@ -1,0 +1,14 @@
+[
+ {"id": "p601", "field": "notes.3.why",
+  "problem": "Overgeneralised: deduct does not require a from-phrase ('Taxes are deducted automatically', 'deduct $50' are fine); the option fails on meaning.",
+  "fix": "語意不通：deduct 的受詞是金額，職涯不會「扣除」三十年"},
+ {"id": "p615", "field": "notes.0.why",
+  "problem": "False rule: compatible can stand alone ('The two systems are compatible'); 'was declared compatible' is grammatical and fails only on meaning.",
+  "fix": "文法可以，但語意不通：compatible 指設備／系統相容，和虧損、停飛無關"},
+ {"id": "p615", "field": "notes.2.why",
+  "problem": "False rule: eligible often stands alone ('Only full-time staff are eligible'); 'was declared eligible' is grammatical and fails only on meaning.",
+  "fix": "文法可以，但語意不通：連年虧損不會讓公司被宣告「有資格」"},
+ {"id": "p616", "field": "notes.1.why",
+  "problem": "False rule: eligible does not have to take for + N ('are eligible' alone is normal); the option fails on meaning, not grammar.",
+  "fix": "文法可以，但語意不通：免費換新的原因是瑕疵，不是「有資格」"}
+]

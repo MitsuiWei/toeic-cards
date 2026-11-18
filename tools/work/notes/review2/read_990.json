@@ -1,0 +1,10 @@
+[
+ {"id": "r990-08.1", "field": "key", "problem": "The design is the subject before 'foremost strength' ('The ergonomic design is the desk's foremost strength'), not after it, so the key sends the learner to the wrong spot.",
+  "fix": "細節題：greatest ≈ foremost → 主詞 'The ergonomic design'"},
+ {"id": "r990-21.1", "field": "notes.0.use", "problem": "The passive pattern 'be + p.p. + by' belongs to the answer 'will be met'; shown under 'are meeting' (be + V-ing) it mislabels this option.",
+  "fix": ""},
+ {"id": "r990-25.1", "field": "notes.2.why", "problem": "'withhold' does collocate with forecasts ('the company withheld its forecast' = declined to publish it); the option fails on meaning, not collocation.",
+  "fix": "withhold a forecast 指不公布預測，此處語意不通"},
+ {"id": "r990-26.3", "field": "notes.1.why", "problem": "A noun can follow 'are' as a complement ('Guests are customers'); 'entitlement' fails because 'guests are an entitlement' makes no sense, not because nouns cannot follow be.",
+  "fix": "be 後可接名詞，但「房客＝權利」語意不通"}
+]

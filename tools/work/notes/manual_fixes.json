@@ -66,5 +66,27 @@
  },
  "p334": {
   "notes.2.use": "bus fare／taxi fare／airfare；pay the fare"
+ },
+ "p971": {
+  "notes.0.why": "deter 不接 to V；語意也相反（是派去，不是嚇阻）"
+ },
+ "r800-02.2": {
+  "notes.2.zh": "延到下週",
+  "notes.2.why": "文中說改到當天下午，不是延到下週",
+  "notes.2.o": "Postpone them until next week"
+ },
+ "r800-07.2": {
+  "notes.0.o": "A tax return and a signed agreement",
+  "notes.0.why": "文中 'tax return' 與 'signed copy' 兩項",
+  "notes.0.zh": "報稅單與簽名的合約"
+ },
+ "r990-13.1": {
+  "key": "細節題：turnover 31% + 'rigid shift schedules' → 降離職"
+ },
+ "l990-072": {
+  "notes.1.o": "Please step forward when your name is called."
+ },
+ "l800-042": {
+  "key": "Would you like to … to me? 是主動提議幫忙；接受就說 help"
  }
 }

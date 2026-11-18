@@ -1,0 +1,62 @@
+[
+ {
+  "id": "p892",
+  "field": "notes.1.why",
+  "problem": "'financial year' is the British term; equating it with 'fiscal year' without a label suggests it is standard American usage",
+  "fix": "fiscal year（FY）「會計年度」；英式說 financial year"
+ },
+ {
+  "id": "p927",
+  "field": "notes.1.use",
+  "problem": "'assessable income' is an Australian/Commonwealth tax term; American English says 'taxable income', so it is a poor model collocation",
+  "fix": "形容詞（少用）；「應稅所得」美式說 taxable income"
+ },
+ {
+  "id": "p937",
+  "field": "notes.1.why",
+  "problem": "Overgeneralised: deter does not require a person as object ('deter crime/theft' is very common)",
+  "fix": "嚇阻的是人或行為（deter crime），不接 with + 紀錄"
+ },
+ {
+  "id": "p938",
+  "field": "notes.3.why",
+  "problem": "Overgeneralised: deter does not require a person as object ('deter theft' is standard)",
+  "fix": "嚇阻的是人或行為（deter theft），數字不能被嚇阻"
+ },
+ {
+  "id": "p957",
+  "field": "notes.3.why",
+  "problem": "Overgeneralised: deter's object need not be a person ('deter crime'); the real problem is meaning",
+  "fix": "嚇阻的是人或行為（deter crime），不是 topics"
+ },
+ {
+  "id": "p965",
+  "field": "notes.3.why",
+  "problem": "Overgeneralised: deter's object need not be a person and from V-ing is optional ('deter crime')",
+  "fix": "嚇阻的是人或行為（deter crime），不是休假天數"
+ },
+ {
+  "id": "p977",
+  "field": "notes.2.why",
+  "problem": "Overgeneralised: 'be deterred' does not require a human subject or a from V-ing phrase ('Crime was deterred'; 'They were not deterred')",
+  "fix": "被嚇阻的是人或行為，不接 as + 用途"
+ },
+ {
+  "id": "p981",
+  "field": "notes.2.why",
+  "problem": "False rule: passive 'be deterred' does not need from V-ing ('were not deterred by the price' is standard)",
+  "fix": "be deterred from V-ing／by + 原因；和每公里費率無關"
+ },
+ {
+  "id": "p987",
+  "field": "notes.1.why",
+  "problem": "'deter travel' is grammatical ('high fares deter travel'); the option fails on meaning, not because the object must be a person",
+  "fix": "文法可以，但語意相反：這職位需要出差，不是阻止出差"
+ },
+ {
+  "id": "p989",
+  "field": "notes.3.why",
+  "problem": "Overgeneralised: deter's object need not be a person and from V-ing is optional ('deter crime')",
+  "fix": "嚇阻的是人或行為（deter crime），不是 return"
+ }
+]

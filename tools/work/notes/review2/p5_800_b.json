@@ -1,0 +1,104 @@
+[
+ {
+  "id": "p673",
+  "field": "notes.0.use",
+  "problem": "'thrive on' takes what someone flourishes because of (pressure, challenges), not an environment; only 'thrive in' takes the setting",
+  "fix": "thrive in + 環境；thrive on + 挑戰；a thriving business"
+ },
+ {
+  "id": "p699",
+  "field": "notes.1.use",
+  "problem": "'thrive on' takes what someone flourishes because of (pressure, challenges), not an environment; only 'thrive in' takes the setting",
+  "fix": "thrive in + 環境；thrive on + 挑戰；a thriving business"
+ },
+ {
+  "id": "p700",
+  "field": "notes.3.use",
+  "problem": "'thrive on' takes what someone flourishes because of (pressure, challenges), not an environment; only 'thrive in' takes the setting",
+  "fix": "thrive in + 環境；thrive on + 挑戰；a thriving business"
+ },
+ {
+  "id": "p719",
+  "field": "notes.2.use",
+  "problem": "'thrive on' takes what someone flourishes because of (pressure, challenges), not an environment; only 'thrive in' takes the setting",
+  "fix": "thrive in + 環境；thrive on + 挑戰；a thriving business"
+ },
+ {
+  "id": "p730",
+  "field": "notes.0.use",
+  "problem": "'thrive on' takes what someone flourishes because of (pressure, challenges), not an environment; only 'thrive in' takes the setting",
+  "fix": "thrive in + 環境；thrive on + 挑戰；a thriving business"
+ },
+ {
+  "id": "p734",
+  "field": "notes.3.use",
+  "problem": "'thrive on' takes what someone flourishes because of (pressure, challenges), not an environment; only 'thrive in' takes the setting",
+  "fix": "thrive in + 環境；thrive on + 挑戰；a thriving business"
+ },
+ {
+  "id": "p655",
+  "field": "notes.0.why",
+  "problem": "Overgeneralised: eligible often describes things too (eligible purchases, items not eligible for return), so 'only describes people' misleads",
+  "fix": "語意不通：指「符合資格的」，推不出不必離開大樓"
+ },
+ {
+  "id": "p665",
+  "field": "notes.3.use",
+  "problem": "'dismiss a meeting' is not idiomatic American English; you adjourn or end a meeting, and dismiss a class or group of people",
+  "fix": "dismiss an employee／a claim／a class（下課）"
+ },
+ {
+  "id": "p677",
+  "field": "notes.3.use",
+  "problem": "'dismiss a meeting' is not idiomatic American English; you adjourn or end a meeting, and dismiss a class or group of people",
+  "fix": "dismiss an employee／a claim／a class（下課）"
+ },
+ {
+  "id": "p686",
+  "field": "notes.1.use",
+  "problem": "'dismiss a meeting' is not idiomatic American English; you adjourn or end a meeting, and dismiss a class or group of people",
+  "fix": "dismiss an employee／a claim／a class（下課）"
+ },
+ {
+  "id": "p708",
+  "field": "notes.2.use",
+  "problem": "'dismiss a meeting' is not idiomatic American English; you adjourn or end a meeting, and dismiss a class or group of people",
+  "fix": "dismiss an employee／a claim／a class（下課）"
+ },
+ {
+  "id": "p709",
+  "field": "notes.2.use",
+  "problem": "'dismiss a meeting' is not idiomatic American English; you adjourn or end a meeting, and dismiss a class or group of people",
+  "fix": "dismiss an employee／a claim／a class（下課）"
+ },
+ {
+  "id": "p747",
+  "field": "notes.3.use",
+  "problem": "'dismiss a meeting' is not idiomatic American English; you adjourn or end a meeting, and dismiss a class or group of people",
+  "fix": "dismiss an employee／a claim／a class（下課）"
+ },
+ {
+  "id": "p665",
+  "field": "notes.3.why",
+  "problem": "Lists 'meeting' as a typical object of dismiss, which is not idiomatic (meetings are adjourned)",
+  "fix": "受詞要是員工、提議或申訴，不是收據"
+ },
+ {
+  "id": "p686",
+  "field": "notes.1.why",
+  "problem": "Lists 'meeting' as a typical object of dismiss, which is not idiomatic (meetings are adjourned)",
+  "fix": "受詞要是員工、提議或申訴，不是客房"
+ },
+ {
+  "id": "p709",
+  "field": "notes.2.why",
+  "problem": "Lists 'meeting' as a typical object of dismiss, which is not idiomatic (meetings are adjourned)",
+  "fix": "受詞要是員工、提議或申訴，不是通行證"
+ },
+ {
+  "id": "p747",
+  "field": "notes.3.why",
+  "problem": "Lists 'meeting' as a typical object of dismiss, which is not idiomatic (meetings are adjourned)",
+  "fix": "受詞要是員工、提議或申訴，不是 sales"
+ }
+]

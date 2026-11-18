@@ -1,0 +1,8 @@
+[
+ {"id": "r800-28.2", "field": "notes.0.zh", "problem": "'民意調查' is the public-opinion/political sense; a customer poll here is an opinion survey of customers, so the gloss maps to the wrong sense.",
+  "fix": "(n.) 意見調查；民調"},
+ {"id": "r800-29.2", "field": "notes.1.why", "problem": "'have' is itself the base form, so 'must 後接原形' is a false reason; 'must have labeled' is grammatical (past deduction) and fails on voice and meaning.",
+  "fix": "must have + p.p. 是推測過去；且容器是被標示，要被動"},
+ {"id": "r800-29.3", "field": "notes.1.why", "problem": "The gloss reverses unless: 'worn unless you handle' means worn when you are NOT handling them; 「除非處理才要戴」 actually describes the correct meaning and reinforces the classic 除非 misreading.",
+  "fix": "語意相反：unless = if not，變成「不處理時才要戴」"}
+]

@@ -1,6 +1,6 @@
 {
  "r800-21": {
-  "text": "To: Henry Clark\nFrom: Member Services, Business Insight Weekly\nSubject: Your subscription ends soon\nCustomer number: 20417\n\nDear Mr. Clark,\n\nYour subscription to Business Insight Weekly will end on June 30. To continue receiving the publication without interruption, please [1] ------- your subscription before that date.\n\nAs a loyal reader, you are [2] ------- for an exclusive rate of $79 per year, a saving of 20 percent on the regular price. You will also keep full access to our online library, which contains more than ten years of articles and market analysis.\n\nThe process is simple. Visit our website, enter the customer number shown above, and choose a payment method. [3] -------, you may call a customer representative at 555-0199 on weekdays between 9:00 A.M. and 5:00 P.M.\n\nThank you for your continued support.\n\nMember Services",
+  "text": "To: Henry Clark\nFrom: Member Services, Business Insight Weekly\nSubject: Your subscription ends soon\n\nDear Mr. Clark,\n\nYour subscription to Business Insight Weekly will end on June 30. To continue receiving the publication without interruption, please [1] ------- your subscription before that date.\n\nAs a loyal reader, you are [2] ------- for an exclusive rate of $79 per year, 20 percent off the regular price. You will also keep full access to our online library, which contains more than ten years of articles and market analysis.\n\nThe process is simple. Visit our website, enter the customer number shown above, and choose a payment method. [3] -------, you may call a customer representative at 555-0199 on weekdays between 9:00 A.M. and 5:00 P.M.\n\nThank you for your continued support.\n\nMember Services",
   "zh": "收件人：Henry Clark\n寄件人：Business Insight Weekly 會員服務部\n主旨：您的訂閱即將到期\n客戶編號：20417\n\nClark 先生您好：\n\n您訂閱的 Business Insight Weekly 將於 6 月 30 日到期。為了讓您不間斷地收到本刊，請在該日期之前續訂。\n\n身為忠實讀者，您有資格享有每年 79 美元的專屬優惠價，比原價省下 20%。您也可以繼續完整使用我們的線上資料庫，裡面收錄了十多年來的文章和市場分析。\n\n手續很簡單：請上我們的網站，輸入上方所示的客戶編號，再選擇付款方式即可。或者，您也可以在週一至週五上午 9 點至下午 5 點之間，撥 555-0199 與客服代表聯絡。\n\n感謝您長期的支持。\n\n會員服務部"
  },
  "r400-03": {
@@ -102,5 +102,53 @@
  "l600-087": {
   "q": "Could you donate something to our charity auction?",
   "zh_q": "你可以捐點東西給我們的慈善拍賣會嗎？"
+ },
+ "r800-07": {
+  "text": "Northgate Bank\n18 Fulton Street\n\nApril 9\n\nMr. Samuel Reyes\n52 Orchard Lane\n\nDear Mr. Reyes,\n\nWe are pleased to inform you that your mortgage application has been approved. Based on our analysis of your financial records, Northgate Bank can offer you a loan of $240,000 over a span of 20 years.\n\nBefore we can proceed, we need two further documents: a copy of your most recent tax return and a signed copy of the enclosed agreement. Please read clause 7 carefully, as it specifies the fee for late payments. Monthly installments will be taken automatically from your Northgate checking account on the fifth day of each month.\n\nThis offer is valid until May 9. To clarify any details, please visit your local branch or call our mortgage representative, Ms. Julia Novak, at 555-0178.\n\nSincerely,\nPeter Lang\nLoan Department",
+  "qs.1.answer": "A tax return and a signed agreement"
+ },
+ "r800-22": {
+  "text": "NOTICE: Parking Lot B Closed August 3 to 7\nPosted July 27\n\nParking Lot B, behind the main building, [1] ------- from Monday, August 3, to Friday, August 7, while the surface is repaired and new lines are painted. For safety reasons, entry to the area will be restricted to construction personnel.\n\nDuring this period, employees who normally use Lot B should park in Lot D on Franklin Street. A free shuttle bus will run between Lot D and the main entrance every fifteen minutes from 7:00 A.M. to 7:00 P.M. [2] -------\n\nPlease ensure that your vehicle is moved by 8:00 P.M. on Sunday, August 2. Any vehicles remaining after that time will be removed at the owner's expense.\n\nWe apologize for the [3] ------- and thank you for your cooperation. For further information, call extension 250.\n\nFacilities Department"
+ },
+ "r800-25": {
+  "text": "Bennett & Shaw Accounting: Let Us Handle the Numbers\n\nRunning a small business leaves little time for paperwork. If you are looking for a reliable partner, Bennett & Shaw can help. Our firm [1] ------- in accounting services for companies with fewer than 50 employees, from restaurants to design studios.\n\nOur team will prepare your invoices, process your payroll, and produce clear financial reports every month. Every client is assigned a [2] ------- accountant, so you will always speak with someone who knows your business well.\n\nOur fees are fixed and agreed upon in advance. [3] ------- That means no surprises when our invoice arrives.\n\nCall 555-0164 today to arrange a free one-hour meeting, or visit one of our three branches downtown."
+ },
+ "r800-26": {
+  "text": "Orbis Freight Appoints New Managing Director\n\nOrbis Freight announced today that Laura Jennings will [1] ------- the role of managing director on January 1. She replaces Richard Dunn, who is retiring after 22 years with the corporation.\n\nMs. Jennings joined Orbis eight years ago as a regional sales manager and [2] ------- the company's European operations since 2021. Under her leadership, revenue in that region has risen by 35 percent.\n\n\"Laura understands both our customers and our personnel,\" said Mr. Dunn. \"I am confident that the company will continue to thrive.\"\n\nIn her new role, Ms. Jennings intends to place greater [3] ------- on digital tracking services, which allow clients to follow their shipments at every stage of the journey.\n\nMs. Jennings will address employees at headquarters on January 4."
+ },
+ "r800-02": {
+  "qs.1.distractors.0": "Postpone them until next week"
+ },
+ "r990-03": {
+  "text": "Shareholders Back Castell–Rhine Merger\n\nHARBOR CITY — Shareholders of Castell Logistics voted on Tuesday to approve a merger with Rhine Cargo, a smaller rival that specializes in refrigerated transport. The board had unanimously endorsed the deal in May, and more than 80 percent of the votes cast were in favor.\n\nUnder the terms disclosed last month, Rhine Cargo will become a subsidiary of Castell and will keep its own name for the foreseeable future. Castell's chairperson, Helen Navarro, said the two firms' networks are complementary: Castell is strong in long-distance road freight, while Rhine leads in cold-storage delivery within the region. She expects the resulting synergy to yield annual savings of about $12 million, chiefly by consolidating warehouses.\n\nNot everyone is convinced. Some analysts warn that integrating two separate tracking systems will entail considerable expense and could offset much of the projected savings during the first two years.\n\nThe transaction still requires clearance from regulators and is expected to close in early December. Rhine's chief executive, Paul Derrick, will remain in his post."
+ },
+ "r990-11": {
+  "text": "To: Olivia Grant, Fenwick Pharmaceutical Group\nFrom: Marco Bellini, Events Manager, Pinecrest Lodge\nSubject: Provisional booking for your leadership retreat\n\nDear Ms. Grant,\n\nThank you for your inquiry about holding your leadership retreat at Pinecrest Lodge from May 14 to 16. I am pleased to confirm that I have placed a provisional hold on 24 guest rooms and the Lakeview meeting hall.\n\nOur lodge caters almost exclusively to a corporate clientele, and its setting, forty minutes from the nearest town, is conducive to focused discussion. The hall has state-of-the-art projection equipment, and breakfast and lunch are included in the quoted rate of $210 per person per night. Dinner can be arranged at an additional charge.\n\nPlease note that the hold will lapse on March 31 unless we have received a signed agreement and a deposit of 25 percent. The deposit is refundable in full for cancellations made before April 20; after that date it is forfeited.\n\nYou mentioned that some participants have limited mobility. All ground-floor rooms meet current accessibility standards, and I will gladly set those rooms aside for the guests concerned once you tell me how many are needed.\n\nKind regards,\nMarco Bellini"
+ },
+ "r990-13": {
+  "text": "MEMO\n\nTo: Customer Support team leaders\nFrom: Anita Rao, Vice President of Human Resources\nDate: September 8\nSubject: Pilot of flexible scheduling\n\nStaff turnover in Customer Support reached 31 percent last year, nearly double the company average. Exit interviews indicate that rigid shift schedules, rather than pay, are the underlying cause. The executive team has therefore authorized a six-month pilot of flexible scheduling, commencing October 1.\n\nUnder the pilot, agents may choose their own start time between 7:00 and 10:00 A.M., provided that each team maintains its required coverage. Team leaders will coordinate the schedules and will have full discretion to resolve conflicts within their respective teams.\n\nWe will gauge the results using three metrics: staff retention, average response time, and customer satisfaction scores. If response times deteriorate by more than 10 percent, the pilot will be suspended.\n\nIt is a common misconception that flexibility lowers productivity. Evidence from our Dublin subsidiary, where a similar program has operated since last year, suggests the opposite. Nevertheless, please report any adverse effects to me promptly.\n\nA briefing for team leaders will be held on September 22 in the boardroom."
+ },
+ "r990-25": {
+  "text": "Halden Stores Posts Stronger Second Quarter\n\nHalden Stores, the home-furnishings retailer, reported yesterday that second-quarter revenue rose 9 percent to $412 million, [1] ------- analysts' forecasts for the third consecutive quarter.\n\nChief executive Nora Fielding attributed the result to a surge in online orders and to the firm's decision last year to consolidate its two distribution centers, which reduced delivery costs. Profit margins, [2] -------, narrowed slightly as inflation pushed up the cost of imported lumber.\n\nThe company said it does not intend to raise prices in the foreseeable future. Instead, it will seek to offset higher material costs by buying more of its products from domestic suppliers.\n\n[3] ------- The board has approved a dividend of 45 cents per share, up from 40 cents a year earlier, payable on September 15.\n\nHalden's shares closed 3 percent higher following the announcement. The retailer, which operates 140 stores, expects revenue for the full fiscal year to grow by between 6 and 8 percent."
+ },
+ "r990-28": {
+  "text": "Riverside Charity Run Set for May 9\n\nHollis & Byrne Insurance is proud to sponsor the twelfth annual Riverside Charity Run, which will take place on Saturday, May 9. The run has become a prominent event on the city's calendar, [1] ------- more than 2,000 participants last year.\n\nAll [2] ------- from registration fees will go to the Riverside Literacy Project, an outreach program that provides free reading classes for adults.\n\nEmployees who wish to take part may register through the staff portal until April 24. The company will subsidize the $30 entry fee in full, and participants are entitled to leave work two hours early on the Friday before the race.\n\nVolunteers are also needed to hand out water along the route and to direct runners at the finish line. [3] ------- A short briefing will be given at 7:00 A.M. on the day of the race.\n\nThe renowned marathon runner Carla Voss, who has endorsed the run since its first year, will present the medals. For further details, contact Peter Aldana in Human Resources at extension 2215."
+ },
+ "l990-027": {
+  "q": "Don't you think the new incentive program will improve staff retention?"
+ },
+ "l990-043": {
+  "q": "You'll coordinate with the Singapore office on the logistics, won't you?"
+ },
+ "l990-028": {
+  "q": "I'm afraid the shipment from our overseas supplier is stuck in customs."
+ },
+ "l990-072": {
+  "distractors.1": "Please step forward when your name is called.",
+  "zh_distractors.1": "叫到名字時請往前站。"
+ },
+ "l800-042": {
+  "q": "Would you like to delegate some of your workload to me?",
+  "zh_q": "你要不要把一部分工作交給我？"
  }
 }

@@ -6,11 +6,11 @@ W = '/home/claude/work'
 qf_path = W + '/quiz/fixes.json'; mf_path = W + '/notes/manual_fixes.json'
 qf = json.load(open(qf_path, encoding='utf-8')); mf = json.load(open(mf_path, encoding='utf-8'))
 raw = {}
-for lv in (400, 600):
+for lv in (400, 600, 800, 990):
     for i, x in enumerate(json.load(open(W + '/quiz/out/read_%d.json' % lv, encoding='utf-8'))): raw['r%d-%02d' % (lv, i + 1)] = x
     for i, x in enumerate(json.load(open(W + '/quiz/out/listen_%d.json' % lv, encoding='utf-8'))): raw['l%d-%03d' % (lv, i + 1)] = x
 cur = {}
-for name in ('read_400', 'read_600', 'listen_400', 'listen_600'):
+for name in ('read_400', 'read_600', 'read_800', 'read_990', 'listen_400', 'listen_600', 'listen_800', 'listen_990'):
     for x in json.load(open(W + '/notes/cur/%s.json' % name, encoding='utf-8')):
         if 'qs' in x:
             for q in x['qs']: cur['%s.%d' % (x['id'], q['n'])] = q
@@ -29,6 +29,24 @@ P = {
  'l400-022': ([('At the city hall.', 'At City Hall.'), ('At the city hall', 'At City Hall')], [], {}),
  'l600-056': ([('guarantee', 'warranty')], [], {}),
  'l600-087': ([('charity sale', 'charity auction')], [('慈善義賣', '慈善拍賣會')], {}),
+ # 800／990 分（11/19 第二輪查核）
+ 'r800-07': ([('tax statement', 'tax return')], [], {}),
+ 'r800-21': ([('a saving of 20 percent on the regular price', '20 percent off the regular price')], [], {}),
+ 'r800-22': ([('restricted to the construction personnel', 'restricted to construction personnel')], [], {}),
+ 'r800-25': ([('agreed in advance', 'agreed upon in advance')], [], {}),
+ 'r800-26': ([('at the headquarters', 'at headquarters')], [], {}),
+ 'r800-02': ([('Cancel them until next week', 'Postpone them until next week')], [], {}),
+ 'r990-03': ([('projected saving during', 'projected savings during')], [], {}),
+ 'r990-11': ([('managerial retreat', 'leadership retreat')], [], {}),
+ 'r990-13': ([('rigid shift patterns', 'rigid shift schedules'), ('a similar scheme', 'a similar program')], [], {}),
+ 'r990-25': ([('imported timber', 'imported lumber')], [], {}),
+ 'r990-28': ([("in the city's calendar", "on the city's calendar")], [], {}),
+ 'l990-027': ([('incentive scheme', 'incentive program')], [], {}),
+ 'l990-043': ([('liaise with', 'coordinate with')], [], {}),
+ 'l990-028': ([('the consignment from', 'the shipment from')], [], {}),
+ 'l990-072': ([('Go forward two blocks and turn left.', 'Please step forward when your name is called.')], [('往前走兩個街區再左轉。', '叫到名字時請往前站。')], {}),
+ 'l800-042': ([('Would you like me to delegate some of your workload?', 'Would you like to delegate some of your workload to me?')],
+              [('要不要我把你的一部分工作分派給別人？', '你要不要把一部分工作交給我？')], {}),
 }
 def rep(s, pairs):
     for a, b in pairs: s = s.replace(a, b)
@@ -67,8 +85,10 @@ for pid, (en, zh, wmap) in P.items():
         for k, d in enumerate(src['distractors']):
             new = rep(d, en)
             if new != d: fx['distractors.%d' % k] = new
-        for fld in ('zh_q',):
+        for fld in ('zh_q', 'zh_answer'):
             if zh and rep(src[fld], zh) != src[fld]: fx[fld] = rep(src[fld], zh)
+        for k, d in enumerate(src.get('zh_distractors', [])):
+            if zh and rep(d, zh) != d: fx['zh_distractors.%d' % k] = rep(d, zh)
         c = cur[pid]; nf = {}
         if rep(c['key'], en) != c['key']: nf['key'] = rep(c['key'], en)
         for i, n in enumerate(c['notes']):

@@ -27,7 +27,7 @@
 ## 2. 工作慣例
 
 - **先給使用者看畫面，他說「上線」才 commit / push。** 使用者自己沒有本機 repo，commit 和 push 都由這邊做。
-- 每次上線把 `sw.js` 的 `VERSION` 加一（目前 `toeic-cards-v15`），舊快取才會被換掉。上線後告訴使用者新的版本號和 commit。
+- 每次上線把 `sw.js` 的 `VERSION` 加一（目前 `toeic-cards-v16`），舊快取才會被換掉。上線後告訴使用者新的版本號和 commit。
 - commit 訊息最後要加兩行署名（系統會給當次該用的內容，照抄即可）。
 - 所有中文一律繁體、台灣用語；不可以出現簡體字。
 - 題目必須原創，不可抄多益官方或任何出版社的試題。
@@ -61,6 +61,7 @@
 | v13 | `5b061c9` | 11/13 | 點字改成先看意思，按「存起來」才存 |
 | v14 | `68bdc9d` | 11/17 | 各選項解析（設定可收起來）；400／600 分第二輪查核、11 題原文修正 |
 | v15 | `d670118` | 11/18 | 多益落點測驗（40 題適性）、統計頁依平常練習估分 |
+| v16 | （見 git log） | 11/19 | 800／990 分第二輪解析查核、16 題原文改成較道地的美式說法 |
 
 ### 使用者做過的選擇（改功能前先看，不要改回去）
 
@@ -191,8 +192,8 @@ python3 /home/claude/scripts/quiz_build.py                                  會�
 
 - 寫解析的說明書：`notes/BRIEF_COMMON.md` 加上 `BRIEF_P5.md`／`BRIEF_READ.md`／`BRIEF_LISTEN.md`；第一輪查核的說明書：`BRIEF_REVIEW.md`；第二輪（以美籍英文老師的角度抓不自然的英文、台灣學生常見誤解）：`BRIEF_REVIEW2.md`，結果在 `review2/`，不採用的寫進 `review2/rejected.json`。`apply_review.py` 依序套 review/ → review2/ → manual_fixes.json，後面的蓋過前面的。
 - 流程：寫解析 → 格式檢查 → 另一個不知情的查核者逐題抓「講錯的規則、對不上原文、沒給理由」→ 我看過每一筆再套用（不同意的寫進 `review/rejected.json`，自己改寫的放 `manual_fixes.json`）。第一輪 1,760 題共修正 40 處。
-- 第二輪（`BRIEF_REVIEW2.md`，美籍英文老師的角度）目前只做了 400／600 分：P5 500 題、閱讀 60 篇、聽力 200 題，採用 32 處，另外自己補了同類的 11 處（accommodation 美式用複數、airfare 拼法、hire／invite 的主詞）。800／990 分還沒做第二輪。
-- 第二輪也挑出題目本身不自然的英文（the city hall、guarantee→warranty、The quantity is limited 之類），11 題的原文改在 `work/quiz/fixes.json`，對應的解析改在 `manual_fixes.json`；做法見 `notes/wording_fixes.py`。改題目原文時要注意：解析是用選項文字（`o`）對應選項的，選項改了 `o` 也要改，否則建置會印「解析和選項對不上」；新出現的字要確認小字典或字表裡有。
+- 第二輪（`BRIEF_REVIEW2.md`，美籍英文老師的角度）四個級別都做完了：400／600 分（11/17）採用 32 處、自己補同類 11 處；800／990 分（11/19）採用 53 處、自己補 4 處（例如 thrive on 接挑戰不接環境、dismiss 不搭 meeting、deter 的受詞不一定是人、eligible 可以單獨用）。
+- 第二輪也挑出題目本身不自然的英文（the city hall、guarantee→warranty、The quantity is limited、incentive scheme→program、tax statement→tax return 之類），共 27 題的原文改在 `work/quiz/fixes.json`，對應的解析改在 `manual_fixes.json`；做法見 `notes/wording_fixes.py`。改題目原文時要注意：解析是用選項文字（`o`）對應選項的，選項改了 `o` 也要改，否則建置會印「解析和選項對不上」；新出現的字要確認小字典或字表裡有。
 - 要改某一條解析：在 `notes/manual_fixes.json` 加 `{"題號": {"key": "…", "notes.2.why": "…"}}`（notes 的索引是 `notes/out` 原始檔裡的順序；閱讀的題號是 `r600-07.2`），跑 `apply_review.py` 再跑 `quiz_build.py`。
 
 - 改單一題目：寫進 `work/quiz/fixes.json`（`{"題號": "drop"}` 或 `{"題號": {"欄位路徑": 新值}}`），再跑 `quiz_build.py`。選項順序用題號當亂數種子，重建不會變。
@@ -224,13 +225,12 @@ node /home/claude/scripts/sim_place.js          用估分模型本身模擬落�
 ## 8. 已知限制與還沒做的事
 
 - 小字典的中文沒有逐筆核對；約 90 個複合字（check-in 之類）沒有音標。
-- 各選項解析查核過一輪（400／600 分兩輪），但不保證每一句都對；使用者回報時用 `notes/manual_fixes.json` 修。
+- 各選項解析查核過兩輪，但不保證每一句都對；使用者回報時用 `notes/manual_fixes.json` 修。
 - 題庫盲測主要能抓到「答案標錯」，「另一個選項也說得通」不保證抓乾淨；使用者回報怪題時用 `fixes.json` 修。
 - 只有練習頁的英文字可以點；單字卡例句裡的字不能點（小字典只涵蓋題庫用字）。
 - 同步的實際上傳路徑（`sync.js` 的 `flushNow`／`pushFull`）在沙盒裡沒辦法連 Firebase 實測，只測過合併邏輯；自選單字的跨裝置同步上線後值得請使用者實際驗一次。
 - 落點分數的難度參數是假設的，沒有真實考生資料可以校正；聽力只有 Part 2。若使用者之後有真實多益成績，可以拿來比對、調整 `score.js` 的 `B`。落點測驗結果的跨裝置同步（`place`／`placeCleared`）也只測過合併邏輯。
 - 沙盒連不到 `mitsuiwei.github.io`，沒辦法自己確認線上版，要請使用者看。
-- 第二輪解析查核（美籍英文老師角度）800／990 分還沒做；做的話照 `notes/BRIEF_REVIEW2.md`，分批、注意用量。
 - 使用者問過「圖像記憶法」怎麼結合，當時回覆了研究依據並問他指的是哪一種，還沒有後續（想過的方向：單字卡加「我的聯想」欄位）。
 
 ## 9. 產生大量內容時的教訓

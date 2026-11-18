@@ -1,0 +1,12 @@
+[
+ {"id": "l990-006", "field": "key", "problem": "'Listen for a progressive-tense verb' is a made-up cue; a How answer can be in any tense (We'll switch carriers, By renegotiating...)", "fix": "How 問方法 → 聽具體作法；刪掉 ship、set off 等音近字"},
+ {"id": "l990-006", "field": "notes.2.trap", "problem": "'set off' is not a sense of any word in the question; it only sounds like 'offset', so 一字多義 is the wrong label", "fix": "相似音陷阱"},
+ {"id": "l990-010", "field": "notes.0.why", "problem": "The quoted phrase 'By the end of week' is ungrammatical; it must be 'by the end of the week' (or business shorthand 'by end of week')", "fix": "By the end of the week 是期限，不是原因"},
+ {"id": "l990-011", "field": "key", "problem": "The pattern 'Isn't supposed to' drops the subject, a typical Chinese-influenced error; the question form is 'Isn't [the audit] supposed to'", "fix": "Isn't…supposed to 確認預定；回延期＝不是週一"},
+ {"id": "l990-032", "field": "notes.1.trap", "problem": "The distractor is built on 'closes' echoing 'disclose', so it is a sound trap, not a plain non-sequitur", "fix": "相似音陷阱"},
+ {"id": "l990-032", "field": "notes.1.why", "problem": "The line misses that 'closes' sounds like 'disclose' in the question, which is what makes the option tempting", "fix": "closes 與 disclose 發音相近，講營業時間"},
+ {"id": "l990-056", "field": "notes.0.trap", "problem": "'station' echoes 'workstation' in the question; the trap is the repeated sound, not a plain non-sequitur", "fix": "重複字陷阱"},
+ {"id": "l990-056", "field": "notes.0.why", "problem": "The line misses the 'station' / 'workstation' echo that the distractor relies on", "fix": "station 是 workstation 的一部分，講火車站"},
+ {"id": "l990-066", "field": "notes.0.trap", "problem": "'line' is not a separate sense of a word in the question, only part of 'timeline' (the sibling 'time' option is labelled 重複字), so 一字多義 is wrong", "fix": "重複字陷阱"},
+ {"id": "l990-095", "field": "key", "problem": "'Isn't mandatory' drops the dummy subject 'it', reinforcing the common learner error 'Is necessary to...'", "fix": "Isn't it mandatory 確認規定；Yes＋補充細節"}
+]

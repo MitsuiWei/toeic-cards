@@ -1,0 +1,7 @@
+[
+ {"id": "l800-015", "field": "notes.1.trap", "problem": "'line' is not a separate sense of a word in the question; it only echoes the end of 'deadline', so 一字多義 is the wrong label", "fix": "相似音陷阱"},
+ {"id": "l800-057", "field": "notes.0.why", "problem": "Claiming Yes cannot answer a statement is a false rule; natives often reply 'Yes, I know' to a statement, and this rule would make him discard good answers", "fix": "the later one 沒有指涉對象，沒回應電梯停用"},
+ {"id": "l800-063", "field": "notes.2.trap", "problem": "The real trap is the homophone 'weighs' / 'way' (more efficient way), not a plain non-sequitur", "fix": "相似音陷阱"},
+ {"id": "l800-063", "field": "notes.2.why", "problem": "The line misses that 'weighs' sounds exactly like 'way' in the question, which is what the distractor is built on", "fix": "weighs 與 way 同音，講體重，與庫存無關"},
+ {"id": "l800-078", "field": "notes.0.why", "problem": "'Ambitious' about a timeline means too tight / overly optimistic, not 太有野心 (the sense used for people)", "fix": "ambitious 形容時程＝太趕、太樂觀 → 暗示不實際"}
+]

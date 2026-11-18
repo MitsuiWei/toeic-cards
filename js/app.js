@@ -60,6 +60,10 @@
     s.pday = s.pday || {};
     // 自選單字（在練習題裡點一下存下來、字表以外的字）
     s.custom = s.custom || {};
+    // 落點測驗結果：place[開始時間] = { t, L, R, S: [下限, 中間, 上限]（聽力、閱讀、總分；沒測聽力時 L、S 是 null）,
+    //   m: { listen: [答對, 題數], p5: [...], read: [...] }, lv: 建議練的級別 }。placeCleared：清除進度的時間，之前的結果不算
+    s.place = s.place || {};
+    s.placeCleared = s.placeCleared || 0;
     return s;
   }
   /* 自選單字：state.custom[id] = { w, kk, ip, d: ['詞性|中文', …], ex, zh, hl: [起, 迄], t, del }
@@ -109,7 +113,7 @@
     return true;
   }
   // 還沒推到雲端的變更
-  var pending = { ids: {}, settings: false, logFrom: state.log.length, practice: {}, pdays: {}, custom: {} };
+  var pending = { ids: {}, settings: false, logFrom: state.log.length, practice: {}, pdays: {}, custom: {}, place: {}, placeCleared: false };
   function persist() {
     try { localStorage.setItem(STORE_KEY, JSON.stringify(state)); }
     catch (e) { toast('無法儲存進度：瀏覽器儲存空間不可用'); }
@@ -120,13 +124,14 @@
     if (pending.logFrom > state.log.length) pending.logFrom = state.log.length;
     var ids = Object.keys(pending.ids);
     var entries = state.log.slice(pending.logFrom);
-    var pr = Object.keys(pending.practice), pd = Object.keys(pending.pdays), cu = Object.keys(pending.custom);
-    if (ids.length || pending.settings || entries.length || pr.length || pd.length || cu.length) {
-      Sync.noteChange({ ids: ids, settings: pending.settings, daily: true, log: entries, practice: pr, pdays: pd, custom: cu });
+    var pr = Object.keys(pending.practice), pd = Object.keys(pending.pdays), cu = Object.keys(pending.custom), pl = Object.keys(pending.place);
+    if (ids.length || pending.settings || entries.length || pr.length || pd.length || cu.length || pl.length || pending.placeCleared) {
+      Sync.noteChange({ ids: ids, settings: pending.settings, daily: true, log: entries, practice: pr, pdays: pd, custom: cu, place: pl, placeCleared: pending.placeCleared });
     }
     clearPending();
   }
-  function clearPending() { pending = { ids: {}, settings: false, logFrom: state.log.length, practice: {}, pdays: {}, custom: {} }; }
+  function clearPending() { pending = { ids: {}, settings: false, logFrom: state.log.length, practice: {}, pdays: {}, custom: {}, place: {}, placeCleared: false }; }
+  function notePlace(key) { pending.place[key] = true; }
   function notePractice(type, id) { pending.practice[type + '|' + id] = true; pending.pdays[todayKey()] = true; }
   function todayKey(t) {
     var d = new Date(t || Date.now());
@@ -685,6 +690,7 @@
     var sp = t.closest('.speakable[data-say-text]');
     if (sp) { speak(sp.getAttribute('data-say-text'), sp); return; }
     if (t.closest('[data-goto="wrong"]')) { state.view = 'practice'; stopSpeech(); save(); renderViews(); if (window.Practice) Practice.openWrong(); return; }
+    if (t.closest('[data-goto="place"]')) { state.view = 'practice'; stopSpeech(); save(); renderViews(); if (window.Practice) Practice.openPlace(); window.scrollTo(0, 0); return; }
     if (t.closest('[data-stat-close]')) { statSel = null; renderStats(); return; }
     if (t.id === 'statMore') { statSel.limit += 100; renderStatWords(); return; }
     var gb = t.closest('[data-stat-g]');
@@ -727,15 +733,17 @@
   }
 
   /* ---------- 事件 ---------- */
+  function switchLevel(lv) {
+    state.level = lvOf(String(lv));
+    current = null; revealed = false; openItem = null; browseLimit = 80; forceAhead = false;
+    if (screen) screen = null;
+    if (window.Practice) Practice.reset();          // 練習的一回會結束；落點測驗不受級別影響，不會被清掉
+    $('#counts').hidden = false; $('#studyTools').hidden = false;
+    save(); renderAll();
+  }
   $all('.tab').forEach(function (t) {
     t.addEventListener('click', function () {
-      var lv = t.getAttribute('data-level');
-      state.level = lvOf(lv);
-      current = null; revealed = false; openItem = null; browseLimit = 80; forceAhead = false;
-      if (screen) screen = null;
-      if (window.Practice) Practice.reset();
-      $('#counts').hidden = false; $('#studyTools').hidden = false;
-      save(); renderAll();
+      switchLevel(t.getAttribute('data-level'));
     });
   });
   $('#view-stats').addEventListener('click', statClick);
@@ -841,7 +849,9 @@
         state.settingsUpdated = now; pending.settings = true; pending.logFrom = 0;
         ['p5', 'read', 'listen'].forEach(function (tp) { Object.keys(state.practice[tp]).forEach(function (id) { pending.practice[tp + '|' + id] = true; }); });
         Object.keys(state.pday).forEach(function (k) { state.pday[k].t = now; pending.pdays[k] = true; });
-        if (window.Practice) Practice.reset();
+        Object.keys(state.place).forEach(function (k) { pending.place[k] = true; });
+        pending.placeCleared = true;
+        if (window.Practice) Practice.reset(true);
         save(); renderAll(); toast('已匯入備份');
       } catch (err) { toast('這個檔案不是有效的備份'); }
     };
@@ -866,7 +876,8 @@
     // 練習成績也歸零（留下時間戳，雲端才會跟著歸零）
     ['p5', 'read', 'listen'].forEach(function (tp) { Object.keys(state.practice[tp]).forEach(function (id) { state.practice[tp][id] = [0, 0, now, 0]; pending.practice[tp + '|' + id] = true; }); });
     Object.keys(state.pday).forEach(function (k) { state.pday[k] = { t: now }; pending.pdays[k] = true; });
-    if (window.Practice) Practice.reset();
+    state.place = {}; state.placeCleared = now; pending.placeCleared = true;      // 落點測驗結果也清掉
+    if (window.Practice) Practice.reset(true);
     undoStack = []; current = null; save(); renderAll(); toast('進度已清除（雲端的紀錄檔會保留，進度會歸零）');
   });
 
@@ -964,8 +975,23 @@
       });
       Object.keys(state.pday).forEach(function (k) { if (!remote.pday[k]) dWins.push(k); });
     }
+    var plWins = [], plClearWins = false;
+    if (remote.placeCleared !== undefined || remote.place) {
+      var rc = remote.placeCleared || 0;
+      if (rc > state.placeCleared) {
+        state.placeCleared = rc; changed = true;
+        Object.keys(state.place).forEach(function (k) { if ((state.place[k].t || 0) <= rc) delete state.place[k]; });
+      } else if (state.placeCleared > rc) plClearWins = true;
+      var rpl = remote.place || {};
+      Object.keys(rpl).forEach(function (k) {
+        var r = rpl[k]; if (!r || typeof r !== 'object' || (r.t || 0) <= state.placeCleared) return;
+        if (!state.place[k]) { state.place[k] = r; changed = true; }
+      });
+      Object.keys(state.place).forEach(function (k) { if (!rpl[k]) plWins.push(k); });
+    }
     if (changed) persist();
-    return { changed: changed, localWinIds: localWin, settingsLocalWins: settingsLocalWins, practiceLocalWins: pWins, pdayLocalWins: dWins, customLocalWins: cWins };
+    return { changed: changed, localWinIds: localWin, settingsLocalWins: settingsLocalWins, practiceLocalWins: pWins, pdayLocalWins: dWins, customLocalWins: cWins,
+             placeLocalWins: plWins, placeClearedLocalWins: plClearWins };
   }
   function fmtTime(t) { var d = new Date(t); return pad(d.getHours()) + ':' + pad(d.getMinutes()); }
   function renderSync() {
@@ -1008,6 +1034,7 @@
       lvLabel: lvLabel, words: function () { return WORDS; }, baseCount: BASE_N,
       customId: customId, addCustom: addCustom, removeCustom: removeCustom, prioritize: prioritize,
       speak: speak, speakSeq: speakSeq, stopSpeech: stopSpeech, canSpeak: function () { return !!synth; },
+      notePlace: notePlace, switchLevel: switchLevel, level: function () { return state.level; },
       phonHtml: phonHtml, SPK: SPK,
       renderTabs: renderTabs, isActive: function () { return state.view === 'practice'; }
     });

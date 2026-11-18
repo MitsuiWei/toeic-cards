@@ -48,7 +48,8 @@ git push origin main
 | `css/style.css` | 樣式。刷刷庫配色；桌機是左側直排分頁＋棕框，≤720px 改成上方 6 格分頁列 |
 | `js/srs.js` | 排程（SM-2／Anki 式）：學習步驟 1 分 → 10 分 → 1 天；`buildQueue`、`apply`、`previews`、`fmtDue` |
 | `js/app.js` | 主程式：狀態、單字卡、單字庫、統計、設定、匯入匯出、同步合併、自選單字 |
-| `js/practice.js` | 練習頁：三種題型、錯題分析、點字查意思並存單字 |
+| `js/practice.js` | 練習頁：三種題型、錯題分析、點字查意思並存單字、落點測驗與平常練習估分 |
+| `js/score.js` | 落點分數估計（`window.ToeicScore`，純計算，Node 也能 require） |
 | `js/sync.js` | Firebase Auth（Google）＋ Firestore 同步 |
 | `js/firebase-config.js` | Firebase 專案設定（瀏覽器端金鑰，本來就是公開的；已限制 HTTP referrer） |
 | `data/words.js` | `window.WORDS`：1000 個字 `{id, w, lv, kk, ip, d:[[詞性, 中文]], ex, zh, hl:[起, 迄]}` |
@@ -85,12 +86,15 @@ practice[題型][題號] = [作答次數, 累計答對題數, 最後作答時間
 pday[YYYY-MM-DD]    = {p5:[題數, 答對], read:[…], listen:[…], t}
 custom[id]          = {w, kk, ip, d:['詞性|中文'], ex, zh, hl:[起, 迄], t, del}     自選單字，id = 'c_' + 原形
                       d 用字串陣列是因為 Firestore 不能存巢狀陣列；del = 1 是刪除記號
+place[開始時間]      = {t, L, R, S:[下限, 中間, 上限], m:{listen:[答對, 題數], p5:[…], read:[…]}, lv}
+                      落點測驗結果。L 聽力、R 閱讀、S 總分；沒有語音時只測閱讀，L、S 是 null；lv 是建議練的級別
+placeCleared        = 清除進度的時間；t 不大於它的結果一律不算（雲端合併取較大值，用來讓「清除」跨裝置生效）
 settings, settingsUpdated, daily, level, view, log
 ```
 
 - 字表的字 id 是數字（1–1000），自選的是字串 `c_xxx`；從 DOM 讀 id 一律用 `idOf()`，級別用 `lvOf()`（值可能是數字、`'my'`、`'all'`）。
 - 自選單字接在 `WORDS` 陣列後面（`lv:'my'`、`custom:true`），由 `rebuildCustom()` 依 `state.custom` 重建。
-- 同步是「每筆資料看時間戳，新的贏」：recs 看 `last`，practice 看第 3 欄，pday 和 custom 看 `t`，settings 看 `settingsUpdated`。`mergeRemote()` 要先合併 custom 再合併 recs。
+- 同步是「每筆資料看時間戳，新的贏」：recs 看 `last`，practice 看第 3 欄，pday 和 custom 看 `t`，settings 看 `settingsUpdated`；place 是只增不改的聯集，placeCleared 取較大值。`mergeRemote()` 要先合併 custom 再合併 recs。
 - Firestore 用 `set(..., {merge:true})` 深層合併，所以要「清掉」的欄位必須明確寫成 0（例如 `pri: 0`、`del: 0`），不能靠刪 key。
 - 複習紀錄另外放 `toeicCards/{uid}/log/{YYYY-MM}`。
 
@@ -101,6 +105,9 @@ settings, settingsUpdated, daily, level, view, log
 - 統計：今日、連續天數、各級進度、未來 7 天、12 週熱力圖、最常忘的字；點「複習中／學習中／已會／還沒學」或各級那一列會列出單字。
 - 練習：單字填空（預設只出學過的字，不夠用沒學的補）、短文閱讀、聽力應答（Web Speech 唸題目與選項）。答錯的單字填空會把那個字排回單字卡。
 - 各選項解析：作答後每個選項底下顯示解析（`practice.js` 的 `noteHtml()`、`keyHtml()`、`optsHtml()`），回饋框有「解題關鍵」。設定 `settings.explain` = `show`（直接顯示）或 `fold`（先收起來，按「看解析」才展開，展開狀態記在 `sess.xp`，換題就收回去）。錯題分析裡點開的題目一律顯示。
+- 落點測驗（`practice.js` 的 `pt`、`startPlace()`／`nextPlace()`／`commitPlace()`／`finishPlace()`）：聽力 15 → 單字填空 16 → 短文 3 篇。每題用 `ToeicScore.bestLevel()` 挑「以目前估計資訊量最大」的級別，同級裡沒做過的題先出。作答時不顯示對錯，交卷後看結果頁（總分／聽力／閱讀區間、各題型答對率、弱點用錯題分析的 `CATS` 分類、建議級別按鈕 `T.switchLevel()`、答錯的題用 `wrongItemHtml()`）。每題照樣 `record()` 進練習紀錄，單字填空答錯照樣 `sendBack()`。切級別不會中斷測驗（`Practice.reset()` 不清 `pt`，`reset(true)` 才清）。聽力只播一次，聲音沒出來可以重播一次。
+- 估分模型（`js/score.js`）：3PL，`b` 依級別假設 400→175、600→275、800→375、990→455（單科分數），`a` = 0.025，猜對機率四選一 1/4、聽力 1/3；在 5–495 的格點上算 EAP，區間是 ±1 標準差，總分標準差平方和開根號。這些參數沒有校正過，是粗估；用模型本身模擬 40 題的誤差大約 ±45 分（總分）。
+- 平常練習估分（`practiceEst()`）：每題只看「第一次就答對」（作答次數 = 答對次數才算對），兩科各取最近 60 題，各至少 10 題才顯示。顯示在統計頁上方（`estHtml()`）和練習首頁的落點測驗卡片。
 - 錯題分析：依題型統計「最近一次作答」的答對率、標出最弱的一類並給提示、列出錯題與當時選的選項、只重做錯題。
 - 點字查意思、存單字：`practice.js` 的 `tw()` 把英文字包成 `<span class="tw">`；`pickWord()` 查 `GLOSS` 並跳出小卡，**點字本身不會存**，要按小卡上的「存起來」（`onPopClick` 的 `save`）才存：字表內的字 `prioritize()`，字表外的字 `addCustom()`。接在稱謂或人名後面的大寫字視為專有名詞。`ALT` 表處理拼法撞到字表的字（minutes、found）。
 - 鍵盤：空白鍵翻面、1–4 評分、P／S 發音、Z 復原；練習頁 1–4／A–D 作答、Enter 下一題、R 重聽、Esc 關小卡。
@@ -153,6 +160,7 @@ node /home/claude/scripts/test_prac3.js 400     練習三種題型（可換級�
 node /home/claude/scripts/test_wrong.js         統計點進去看單字、錯題分析、重做錯題
 node /home/claude/scripts/test_tap.js           點字查意思、按「存起來」才存、自選分頁、同步合併（含 320 寬）
 node /home/claude/scripts/test_notes.js 400     各選項解析、「先收起來」設定、錯題分析裡的解析（可換級別）
+node /home/claude/scripts/test_place.js         落點測驗全流程（模擬約 500 分的考生）、結果頁、建議級別、統計頁估分、中途結束、沒有語音、合併與清除
 node /home/claude/scripts/test_legacy.js        舊格式練習紀錄的相容性
 node /home/claude/scripts/test2.js              排程與單字卡流程
 node /home/claude/scripts/test_phon.js          音標顯示
@@ -168,6 +176,7 @@ node /home/claude/scripts/test_ahead.js         休息畫面快捷鍵（test_ahe
 - 題庫盲測主要能抓到「答案標錯」，「另一個選項也說得通」不保證抓乾淨；使用者回報怪題時用 `fixes.json` 修。
 - 只有練習頁的英文字可以點；單字卡例句裡的字不能點（小字典只涵蓋題庫用字）。
 - 同步的實際上傳路徑（`sync.js` 的 `flushNow`／`pushFull`）在沙盒裡沒辦法連 Firebase 實測，只測過合併邏輯；自選單字的跨裝置同步上線後值得請使用者實際驗一次。
+- 落點分數的難度參數是假設的，沒有真實考生資料可以校正；聽力只有 Part 2。若使用者之後有真實多益成績，可以拿來比對、調整 `score.js` 的 `B`。落點測驗結果的跨裝置同步（`place`／`placeCleared`）也只測過合併邏輯。
 - 沙盒連不到 `mitsuiwei.github.io`，沒辦法自己確認線上版，要請使用者看。
 - 使用者問過「圖像記憶法」怎麼結合，當時回覆了研究依據並問他指的是哪一種，還沒有後續（想過的方向：單字卡加「我的聯想」欄位）。
 

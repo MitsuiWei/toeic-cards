@@ -346,11 +346,16 @@
       if (type === 'listen') playListen();
     });
   }
-  function reset() { if (sess) T.stopSpeech(); sess = null; }
+  function reset(hard) {
+    if (sess) T.stopSpeech();
+    sess = null;
+    if (hard && pt) { T.stopSpeech(); pt = null; }
+  }
 
   /* ---------- 畫面 ---------- */
   function render() {
     if (!root || !T) return;
+    if (pt) { root.innerHTML = placeHtml(); return; }
     if (!sess) {
       if (page === 'wrong-loading') { root.innerHTML = '<div class="empty">載入題庫中…</div>'; return; }
       root.innerHTML = page === 'wrong' ? wrongHtml() : homeHtml();
@@ -364,9 +369,9 @@
 
   function homeHtml() {
     if (T.levelFilter() === 'my') {
-      return '<div class="empty"><strong>「自選」沒有專屬的題庫</strong>這裡放的是你在練習題裡點一下存下來的字。要做練習題，請切到 400、600、800、990 或「全部」。</div>';
+      return placeCardHtml() + '<div class="empty"><strong>「自選」沒有專屬的題庫</strong>這裡放的是你在練習題裡點一下存下來的字。要做練習題，請切到 400、600、800、990 或「全部」。</div>';
     }
-    var h = '<p class="prac-lead">目前練習範圍：<b>' + esc(T.levelName()) + '</b>（切換級別就換題庫）。做過的題目和成績會記下來，答錯的之後會再出。' +
+    var h = placeCardHtml() + '<p class="prac-lead">目前練習範圍：<b>' + esc(T.levelName()) + '</b>（切換級別就換題庫）。做過的題目和成績會記下來，答錯的之後會再出。' +
       '<br><b>看到不認識的英文字，直接點它</b>：會顯示音標和中文；想背的話再按小卡上的「存起來」，就會排進單字卡。</p><div class="prac-modes">';
     TYPES.forEach(function (tp) {
       var s = summary(tp), unit = tp === 'read' ? '篇' : '題';
@@ -388,7 +393,7 @@
     h += '<div class="prac-scope"><span>單字填空出題範圍</span>' +
       '<button class="chip' + (sc === 'learned' ? ' is-on' : '') + '" data-scope="learned">只出我學過的字</button>' +
       '<button class="chip' + (sc === 'all' ? ' is-on' : '') + '" data-scope="all">這一級全部</button></div>' +
-      '<p class="note">「學過的字」是指單字卡裡已經背過或標成已會的字；不夠 10 題時會用還沒學的字補滿。題目是仿多益題型的原創練習題，不是真題，不能拿來估分數。</p>';
+      '<p class="note">「學過的字」是指單字卡裡已經背過或標成已會的字；不夠 10 題時會用還沒學的字補滿。題目是仿多益題型的原創練習題，不是真題；落點分數是用這些題目粗估的，僅供參考。</p>';
     return h;
   }
   function topHtml() {
@@ -773,6 +778,7 @@
 
   function onClick(e) {
     var t = e.target;
+    if (placeClick(t)) return;
     var word = t.closest('.tw');
     if (word) { pickWord(word); return; }
     var st = t.closest('[data-start]');
@@ -813,6 +819,7 @@
   }
   function onKey(e) {
     if (popState && e.key === 'Escape') { closePop(); return; }
+    if (T && T.isActive() && pt && placeKey(e)) return;
     if (!T || !T.isActive() || !sess || sess.loading) return;
     var tag = (e.target.tagName || '').toLowerCase();
     if (tag === 'input' || tag === 'select' || tag === 'textarea' || e.metaKey || e.ctrlKey || e.altKey) return;
@@ -829,13 +836,342 @@
     if (i >= 0 && k.length === 1) { e.preventDefault(); answer(i); }
   }
 
+
+  /* ---------- 多益落點測驗＋平常練習估分 ----------
+     估分的模型在 js/score.js（ToeicScore）。
+     測驗：聽力 15 題 → 單字填空 16 題 → 短文 3 篇（9 題），共 40 題。每一題都挑「以目前的估計來說資訊量最大」的級別
+     （答對就往難的級別出、答錯就往簡單的出），同一級裡優先出沒做過的題。作答時不顯示對錯，做完一起看。
+     每一題照樣記進練習紀錄（錯題分析看得到）；單字填空答錯一樣把那個字排回單字卡。
+     pt = null 沒在測；{ phase: 'intro' } 說明頁；{ phase: 'run', … } 作答中；{ phase: 'done', res } 看結果 */
+  var S = window.ToeicScore;
+  var pt = null;
+  var PT_PARTS = [{ type: 'listen', n: 15 }, { type: 'p5', n: 16 }, { type: 'read', n: 3 }];
+  var GUESS = { p5: 0.25, read: 0.25, listen: 1 / 3 };
+  var LV_NAME = { 400: '衝 400 分', 600: '衝 600 分', 800: '衝 800 分', 990: '衝 990 分' };
+  function places() {
+    var s = T.state(), cut = s.placeCleared || 0;
+    return Object.keys(s.place || {}).map(function (k) { return s.place[k]; })
+      .filter(function (x) { return x && (x.t || 0) > cut; })
+      .sort(function (a, b) { return b.t - a.t; });
+  }
+  function md(t) { var d = new Date(t); return (d.getMonth() + 1) + '/' + d.getDate(); }
+  function bandTxt(b) { return '約 ' + b[1] + ' 分（' + b[0] + '–' + b[2] + '）'; }
+
+  /* 平常練習的估計：每一題取「第一次就答對」（全部作答都對才算；重做才答對的不算），兩科各取最近 60 題 */
+  var EST_N = 60, EST_MIN = 10;
+  function practiceEst() {
+    var obs = { L: [], R: [] };
+    TYPES.forEach(function (type) {
+      var p = pr(type);
+      Object.keys(p).forEach(function (id) {
+        var r = p[id]; if (!r || !r[0]) return;
+        var lv = lvOf(type, id); if (!S.B[lv]) return;
+        if (type === 'read') {
+          var k = r[0] === 1 ? r[3] : Math.floor(r[1] / r[0]);
+          for (var j = 0; j < 3; j++) obs.R.push({ lv: lv, c: GUESS.read, ok: j < k, t: r[2] });
+        } else {
+          (type === 'listen' ? obs.L : obs.R).push({ lv: lv, c: GUESS[type], ok: r[1] >= r[0], t: r[2] });
+        }
+      });
+    });
+    var out = {};
+    ['L', 'R'].forEach(function (k) {
+      var o = obs[k].sort(function (a, b) { return b.t - a.t; }).slice(0, EST_N);
+      out[k] = o.length >= EST_MIN ? S.estimate(o) : null;
+      out['n' + k] = o.length;
+    });
+    return out;
+  }
+  function estLine() {
+    var e = practiceEst();
+    if (e.L && e.R) return { txt: bandTxt(S.total(e.L, e.R)), sub: '聽力 ' + bandTxt(S.band(e.L)) + '・閱讀 ' + bandTxt(S.band(e.R)), e: e };
+    var need = [];
+    if (!e.L) need.push('聽力再做 ' + (EST_MIN - e.nL) + ' 題');
+    if (!e.R) need.push('閱讀（單字填空或短文）再做 ' + (EST_MIN - e.nR) + ' 題');
+    return { txt: '', sub: (e.R ? '閱讀 ' + bandTxt(S.band(e.R)) + '。' : e.L ? '聽力 ' + bandTxt(S.band(e.L)) + '。' : '') + '要估總分：' + need.join('、'), e: e };
+  }
+  /* 統計頁上方的估計分數 */
+  function estHtml() {
+    var l = estLine(), last = places()[0];
+    return '<div class="pt-est"><p class="pt-est-h">估計多益分數</p>' +
+      (l.txt ? '<p class="pt-est-big">' + l.txt + '</p>' : '') + '<p class="pt-est-sub">' + esc(l.sub) + '</p>' +
+      (last ? '<p class="pt-est-sub">上次落點測驗（' + md(last.t) + '）：' + (last.S ? bandTxt(last.S) : '閱讀 ' + bandTxt(last.R)) + '</p>' : '') +
+      '<p class="note">依平常練習每一題第一次作答的結果估計（兩科各取最近 ' + EST_N + ' 題），題目越多越準。這是粗估，不是官方分數；聽力目前只有 Part 2 應答題。</p>' +
+      '<button class="tool-btn" data-goto="place">' + (last ? '再做一次落點測驗' : '做落點測驗（約 15 分鐘）') + '</button></div>';
+  }
+  /* 練習首頁的卡片 */
+  function placeCardHtml() {
+    var last = places()[0], l = estLine();
+    var stat = last ? '上次（' + md(last.t) + '）：' + (last.S ? bandTxt(last.S) : '閱讀 ' + bandTxt(last.R)) : '還沒測過';
+    if (l.txt) stat += '　平常練習估計：' + l.txt;
+    return '<button class="prac-mode prac-place" data-act="pt-intro">' +
+      '<span class="prac-mode-name">多益落點測驗</span>' +
+      '<span class="prac-mode-desc">約 40 題、15 分鐘。題目會依你答對答錯調整難度，做完估一個多益分數區間，並建議該練哪一級。</span>' +
+      '<span class="prac-mode-stat">' + esc(stat) + '</span></button>';
+  }
+
+  function openPlace() { reset(); page = null; if (!pt || pt.phase !== 'run') pt = { phase: 'intro' }; render(); }
+  function startPlace() {
+    var noL = !T.canSpeak();
+    var need = TYPES.filter(function (t) { return !data(t) && !(noL && t === 'listen'); });
+    pt = { phase: 'loading' }; render();
+    var left = need.length;
+    function go() {
+      if (!pt || pt.phase !== 'loading') return;
+      pt = { phase: 'run', noL: noL, parts: PT_PARTS.filter(function (x) { return !(noL && x.type === 'listen'); }),
+             pi: 0, k: 0, used: {}, obs: { L: [], R: [] }, ans: [], sent: 0, t0: Date.now() };
+      pt.total = pt.parts.reduce(function (a, x) { return a + (x.type === 'read' ? x.n * 3 : x.n); }, 0);
+      pt.doneQ = 0;
+      nextPlace();
+    }
+    if (!left) go();
+    else need.forEach(function (t) { load(t, function () { if (--left === 0) go(); }); });
+  }
+  /* 同一級裡：沒做過的先（隨機），再來是最久沒做的；這一級用完了就找最近的級別 */
+  function pickPlace(type, lv) {
+    var p = pr(type), order = S.LEVELS.slice().sort(function (a, b) { return Math.abs(a - lv) - Math.abs(b - lv); });
+    for (var i = 0; i < order.length; i++) {
+      var c = data(type).filter(function (it) { return it.lv === order[i] && !pt.used[it.id]; });
+      if (!c.length) continue;
+      var fresh = c.filter(function (it) { return !(p[it.id] && p[it.id][0]); });
+      if (fresh.length) return fresh[Math.floor(Math.random() * fresh.length)];
+      c.sort(function (a, b) { return p[a.id][2] - p[b.id][2]; });
+      return c[0];
+    }
+    return null;
+  }
+  function nextPlace() {
+    T.stopSpeech();
+    while (pt.pi < pt.parts.length && pt.k >= pt.parts[pt.pi].n) { pt.pi++; pt.k = 0; }
+    if (pt.pi >= pt.parts.length) { finishPlace(); render(); root.scrollIntoView({ block: 'start' }); return; }
+    var type = pt.parts[pt.pi].type, sec = type === 'listen' ? 'L' : 'R';
+    var lv = S.bestLevel(S.estimate(pt.obs[sec]), GUESS[type]);
+    var it = pickPlace(type, lv);
+    if (!it) { pt.k = pt.parts[pt.pi].n; nextPlace(); return; }
+    pt.used[it.id] = true;
+    pt.it = it; pt.type = type; pt.sel = null; pt.rsel = [null, null, null]; pt.playing = false; pt.played = false; pt.replays = 0;
+    render();
+    root.scrollIntoView({ block: 'start' });
+    if (type === 'listen') playPlace();
+  }
+  function playPlace() {
+    if (!pt || pt.type !== 'listen') return;
+    var tok = pt.tok = (pt.tok || 0) + 1;              // 換題後，上一題的播放結束通知不要算到這一題
+    pt.playing = true; renderPlay();
+    T.speakSeq(listenItems(pt.it), function () { if (pt && pt.tok === tok && pt.playing) { pt.playing = false; pt.played = true; renderPlay(); } });
+  }
+  function renderPlay() {
+    var b = root.querySelector('.pt-play'); if (!b) return;
+    b.innerHTML = playLabel();
+    var r = root.querySelector('[data-act="pt-replay"]'); if (r) r.hidden = !pt.played || pt.replays > 0;
+  }
+  function playLabel() { return T.SPK + '<span>' + (pt.playing ? '播放中…' : pt.played ? '播完了，請作答' : '準備播放') + '</span>'; }
+  function commitPlace() {
+    var it = pt.it, type = pt.type;
+    if (type === 'read') {
+      if (pt.rsel.some(function (c) { return c === null; })) return;
+      var score = 0;
+      it.qs.forEach(function (q, i) {
+        var ok = pt.rsel[i] === q.a; if (ok) score++;
+        pt.obs.R.push({ lv: it.lv, c: GUESS.read, ok: ok });
+        pt.ans.push({ type: 'read', it: it, qi: i, ch: pt.rsel[i], ok: ok });
+      });
+      record('read', it.id, score, 3, pt.rsel.join(''));
+      pt.doneQ += 3;
+    } else {
+      if (pt.sel === null) return;
+      var ok = pt.sel === it.a;
+      pt.obs[type === 'listen' ? 'L' : 'R'].push({ lv: it.lv, c: GUESS[type], ok: ok });
+      pt.ans.push({ type: type, it: it, ch: pt.sel, ok: ok });
+      if (type === 'p5' && !ok && sendBack(it.wid)) pt.sent++;
+      record(type, it.id, ok ? 1 : 0, 1, pt.sel);
+      pt.doneQ++;
+    }
+    pt.k++;
+    nextPlace();
+  }
+  function finishPlace() {
+    T.stopSpeech();
+    var L = pt.obs.L.length ? S.estimate(pt.obs.L) : null, R = S.estimate(pt.obs.R);
+    var m = {};
+    pt.ans.forEach(function (a) { var x = m[a.type] = m[a.type] || [0, 0]; x[1]++; if (a.ok) x[0]++; });
+    var tot = L ? S.total(L, R) : null;
+    var res = { t: pt.t0, L: L ? S.band(L) : null, R: S.band(R), S: tot, m: m, lv: S.suggest(tot ? tot[1] : S.band(R)[1] * 2) };
+    var s = T.state(), key = String(pt.t0);
+    s.place = s.place || {}; s.place[key] = res;
+    T.notePlace(key); T.save(); T.renderTabs();
+    pt = { phase: 'done', res: res, ans: pt.ans, sent: pt.sent, est: { R: R } };
+  }
+
+  function placeHtml() {
+    if (pt.phase === 'loading') return '<div class="empty">載入題庫中…</div>';
+    if (pt.phase === 'intro') return placeIntroHtml();
+    if (pt.phase === 'done') return placeDoneHtml();
+    var part = pt.parts[pt.pi], names = { listen: '聽力', p5: '單字填空', read: '短文閱讀' };
+    var label = names[part.type] + ' ' + (pt.k + 1) + ' / ' + part.n + (part.type === 'read' ? ' 篇' : '');
+    var h = '<div class="prac-top"><b>落點測驗</b><span>' + label + '</span><button class="link-btn" data-act="pt-quit">結束測驗</button></div>' +
+      '<div class="prac-bar"><i style="width:' + Math.round(pt.doneQ / pt.total * 100) + '%"></i></div>';
+    var it = pt.it;
+    if (pt.type === 'listen') {
+      h += '<div class="listen-box"><div class="listen-play pt-play' + (pt.playing ? ' is-playing' : '') + '">' + playLabel() + '</div>' +
+        '<p class="note">和正式考試一樣只播一次：先唸問句，再唸 A、B、C 三個回答。' +
+        '<button class="link-btn pt-replay" data-act="pt-replay"' + (pt.played && !pt.replays ? '' : ' hidden') + '>沒聽到聲音？重播一次</button></p></div>' +
+        ptOpts(it.o.length, null, null, true);
+    } else if (pt.type === 'p5') {
+      var parts = it.q.split(BLANK);
+      h += '<div class="prac-q" lang="en">' + esc(parts[0]) + '<span class="blank"></span>' + esc(parts[1] || '') + '</div>' + ptOpts(it.o.length, it.o, null);
+    } else {
+      h += '<div class="passage"><div class="passage-head"><span class="kind">' + (KIND[it.k] || '短文') + '</span><b>' + esc(it.ti) + '</b></div>' +
+        '<div class="passage-text" lang="en">' + esc(it.tx).replace(/\[(\d)\] -------/g, '<span class="pblank">($1)</span>') + '</div></div>';
+      it.qs.forEach(function (q, i) {
+        h += '<div class="rq"><p class="rq-q" lang="en">' + (it.p === 6 ? '空格 (' + (i + 1) + ')' : (i + 1) + '. ' + esc(q.q)) + '</p>' + ptOpts(q.o.length, q.o, i) + '</div>';
+      });
+    }
+    var ready = pt.type === 'read' ? pt.rsel.every(function (c) { return c !== null; }) : pt.sel !== null;
+    var lastQ = pt.pi === pt.parts.length - 1 && pt.k === part.n - 1;
+    h += '<button class="reveal prac-next" data-act="pt-next"' + (ready ? '' : ' disabled') + '>' + (lastQ ? '交卷看結果' : '下一題') + ' <kbd>Enter</kbd></button>';
+    return h;
+  }
+  function ptOpts(n, opts, qi, abc) {
+    var h = '<div class="opts' + (abc ? ' opts-abc' : '') + '">';
+    for (var i = 0; i < n; i++) {
+      var on = qi === null || qi === undefined ? pt.sel === i : pt.rsel[qi] === i;
+      h += '<button class="opt' + (on ? ' is-sel' : '') + '" data-popt="' + i + '"' + (qi !== null && qi !== undefined ? ' data-pq="' + qi + '"' : '') + ' aria-pressed="' + on + '">' +
+        '<span class="opt-l">' + L[i] + '</span>' + (opts ? '<span class="opt-t" lang="en">' + esc(opts[i]) + '</span>' : '') + '</button>';
+    }
+    return h + '</div>';
+  }
+  function placeIntroHtml() {
+    var hist = places().slice(0, 5), noL = !T.canSpeak();
+    var h = '<div class="prac-top"><b>多益落點測驗</b><span></span><button class="link-btn" data-act="pt-home">回練習首頁</button></div>' +
+      '<div class="pt-intro"><ul class="pt-steps">' +
+      (noL ? '' : '<li><b>聽力 15 題</b>（Part 2 應答）：和正式考試一樣只播一次</li>') +
+      '<li><b>單字填空 16 題</b>（Part 5）</li><li><b>短文 3 篇、9 題</b>（Part 6、7）</li></ul>' +
+      '<p>題目從四個級別裡挑：答對就出難一點、答錯就出簡單一點，所以每個人做到的題目不一樣。作答時不會顯示對錯，做完再一起看結果和解析。全程大約 15 分鐘。</p>' +
+      (noL ? '<p class="pt-warn">這個瀏覽器不支援語音，這次只測閱讀，只會估閱讀分數。</p>' : '<p>聽力會出聲音，請先戴上耳機或打開聲音。</p>') +
+      '<p class="note">做過的題目會記進練習紀錄，答錯的會出現在錯題分析；單字填空答錯的字會排回單字卡。中途結束不會算分數。<br>這是用本站的原創題粗估，不是官方分數：題目沒有用真實考生的成績校正過，聽力也只有 Part 2，實際分數可能差更多。</p>' +
+      '<button class="reveal" data-act="pt-start">開始測驗</button></div>';
+    if (hist.length) {
+      h += '<h2 class="stat-h">之前的結果</h2><div class="pt-hist">' + hist.map(function (x) {
+        return '<div class="pt-hist-row"><span>' + md(x.t) + '</span><b>' + (x.S ? '約 ' + x.S[1] + ' 分' : '只測閱讀') + '</b><span>' +
+          (x.L ? '聽力 ' + x.L[1] + '・' : '') + '閱讀 ' + x.R[1] + '</span></div>';
+      }).join('') + '</div>';
+    }
+    return h;
+  }
+  /* 結果頁的弱點：把這次答的題按錯題分析的分類統計 */
+  function placeCats(ans) {
+    var cats = {};
+    ans.forEach(function (a) {
+      var key = a.type === 'read' ? (a.it.p === 6 ? 'r6' : 'r7' + qKind(a.it.qs[a.qi].q)) : (a.type === 'p5' ? 'p' : 'l') + a.it.t;
+      var x = cats[key] = cats[key] || { n: 0, c: 0 }; x.n++; if (a.ok) x.c++;
+    });
+    return cats;
+  }
+  function placeDoneHtml() {
+    var r = pt.res, h = '<div class="prac-top"><b>落點測驗結果</b><span>' + md(r.t) + '</span><button class="link-btn" data-act="pt-home">回練習首頁</button></div>';
+    h += '<div class="pt-score">' + (r.S
+      ? '<p class="pt-cap">估計多益總分</p><p class="pt-big">約 <b>' + r.S[1] + '</b> 分</p><p class="pt-range">大約落在 ' + r.S[0] + '–' + r.S[2] + ' 分之間</p>'
+      : '<p class="pt-cap">這次只測閱讀</p><p class="pt-big">閱讀約 <b>' + r.R[1] + '</b> 分</p><p class="pt-range">大約落在 ' + r.R[0] + '–' + r.R[2] + ' 分之間（滿分 495）</p>') + '</div>';
+    if (r.S) h += '<div class="stat-row pt-sub"><div class="stat"><b>約 ' + r.L[1] + '</b><span>聽力（' + r.L[0] + '–' + r.L[2] + '）</span></div>' +
+      '<div class="stat"><b>約 ' + r.R[1] + '</b><span>閱讀（' + r.R[0] + '–' + r.R[2] + '）</span></div></div>';
+    // 各題型答對率
+    h += '<h2 class="stat-h">各題型答對率</h2><div class="prac-table">';
+    ['listen', 'p5', 'read'].forEach(function (tp) {
+      var x = r.m[tp]; if (!x) return;
+      var p = x[0] / x[1];
+      h += '<div class="prac-row"><span class="prac-row-name">' + NAMES[tp] + '</span>' +
+        '<div class="lb-bar"><i class="' + (p >= 0.8 ? 'seg-review' : p >= 0.6 ? 'seg-mid' : 'seg-learning') + '" style="width:' + Math.max(p * 100, 2) + '%"></i></div>' +
+        '<span class="lb-num">' + x[0] + ' / ' + x[1] + '・' + pct(x[0], x[1]) + '</span></div>';
+    });
+    h += '</div><p class="note">題目難度會隨你的表現調整，答對率大約五到七成是正常的，重點看分數。</p>';
+    // 弱點
+    var cats = placeCats(pt.ans), rows = CATS.filter(function (c) { return cats[c[0]]; });
+    var weak = null;
+    rows.forEach(function (c) {
+      var x = cats[c[0]];
+      if (x.n >= 3 && c[3] && x.c < x.n && (!weak || x.c / x.n < cats[weak[0]].c / cats[weak[0]].n)) weak = c;
+    });
+    h += '<h2 class="stat-h">弱點</h2>';
+    if (weak) {
+      var wx = cats[weak[0]];
+      h += '<div class="wa-weak"><p class="wa-weak-h">這次最弱：' + NAMES[weak[1]] + '的「' + esc(weak[2]) + '」，答對 ' + wx.c + ' / ' + wx.n + '</p><p>' + esc(weak[3]) + '</p></div>';
+    } else h += '<p class="note">這次每一類（至少 3 題的）都沒有明顯偏低。</p>';
+    h += '<div class="wa-cats">';
+    var lastGroup = '';
+    rows.forEach(function (c) {
+      var x = cats[c[0]], p = x.c / x.n;
+      if (c[1] !== lastGroup) { h += '<p class="wa-group">' + NAMES[c[1]] + '</p>'; lastGroup = c[1]; }
+      h += '<div class="wa-row' + (weak === c ? ' is-weak' : '') + (x.n < 3 ? ' is-few' : '') + '"><span class="wa-name">' + esc(c[2]) + '</span>' +
+        '<div class="lb-bar"><i class="' + (p >= 0.8 ? 'seg-review' : p >= 0.6 ? 'seg-mid' : 'seg-learning') + '" style="width:' + Math.max(p * 100, 2) + '%"></i></div>' +
+        '<span class="lb-num">' + x.c + ' / ' + x.n + '</span></div>';
+    });
+    h += '</div><p class="note">每一類只有幾題，看大方向就好；題數少於 3 題的顏色較淡。</p>';
+    // 建議練哪一級
+    var cur = T.level(), on = String(cur) === String(r.lv);
+    h += '<h2 class="stat-h">建議練習</h2><div class="pt-suggest"><p>建議先練「<b>' + LV_NAME[r.lv] + '</b>」的單字和題目：' +
+      (r.lv === 990 ? '你已經在高分區，用最難的一級補細節。' : '這一級比你目前的程度高一點，答對率大約五到七成，最能進步。') + '</p>' +
+      (on ? '<p class="note">你現在就在這一級。</p>'
+          : '<button class="tool-btn" data-act="pt-level" data-lv="' + r.lv + '">切到「' + LV_NAME[r.lv] + '」</button><p class="note">單字卡和練習都會換到這一級，之後也可以在上面的分頁切換。</p>') + '</div>';
+    // 答錯的題
+    var miss = pt.ans.filter(function (a) { return !a.ok; });
+    h += '<h2 class="stat-h">這次答錯的題目（' + miss.length + ' 題）</h2>';
+    if (!miss.length) h += '<p class="note">全部答對。</p>';
+    else {
+      h += '<div class="wq-list">' + miss.map(function (a) {
+        return wrongItemHtml({ type: a.type, it: a.it, qi: a.type === 'read' ? a.qi : undefined, ch: a.ch, r: pr(a.type)[a.it.id] || [1, 0, 0, 0] });
+      }).join('') + '</div><p class="note">點一題可以看你選的（紅色）、正確答案（綠色）和各選項解析，裡面的英文字可以點。' +
+        (pt.sent ? '單字填空答錯的 ' + pt.sent + ' 個字已經排回單字卡。' : '') + '這些題目也會出現在錯題分析。</p>';
+    }
+    h += '<p class="note pt-caveat">這個分數是用本站的原創題、依題目級別假設的難度估出來的，不是官方分數；題目沒有用真實考生的成績校正過，聽力也只有 Part 2 應答題（正式考試還有照片、對話和獨白）。區間是統計上大約七成把握的範圍，實際分數可能差得更多，拿來看進步的方向比較準。</p>' +
+      '<div class="btn-row"><button class="tool-btn" data-act="pt-home">回練習首頁</button><button class="tool-btn" data-act="wrong">看錯題分析</button></div>';
+    return h;
+  }
+  function placeClick(t) {
+    var act = t.closest('[data-act]'), a = act ? act.getAttribute('data-act') : '';
+    if (a === 'pt-intro') { openPlace(); return true; }
+    if (!pt) return false;
+    if (a === 'pt-start') { startPlace(); return true; }
+    if (a === 'pt-home') { T.stopSpeech(); pt = null; render(); return true; }
+    if (a === 'pt-quit') {
+      if (confirm('測驗還沒做完，確定要結束嗎？做過的題目會留在練習紀錄裡，但這次不會算分數。')) { T.stopSpeech(); pt = null; render(); }
+      return true;
+    }
+    if (a === 'pt-next') { commitPlace(); return true; }
+    if (a === 'pt-replay') { if (pt.played && !pt.replays) { pt.replays++; playPlace(); } return true; }
+    if (a === 'pt-level') { var lv = act.getAttribute('data-lv'); T.switchLevel(lv); T.toast('已切到「' + LV_NAME[lv] + '」'); return true; }
+    if (a === 'wrong' && pt.phase === 'done') { pt = null; openWrong(); return true; }
+    var o = t.closest('[data-popt]');
+    if (o && pt.phase === 'run') {
+      var i = Number(o.getAttribute('data-popt')), q = o.getAttribute('data-pq');
+      if (q === null) pt.sel = i; else pt.rsel[Number(q)] = i;
+      render();
+      return true;
+    }
+    if (pt.phase === 'done') return false;              // 結果頁裡的錯題（點字、發音、展開）交給一般的處理
+    return !!t.closest('#pracRoot');
+  }
+  function placeKey(e) {
+    if (pt.phase !== 'run') return false;
+    var tag = (e.target.tagName || '').toLowerCase();
+    if (tag === 'input' || tag === 'select' || tag === 'textarea' || e.metaKey || e.ctrlKey || e.altKey) return false;
+    var k = e.key;
+    if (k === 'Enter') { e.preventDefault(); commitPlace(); return true; }
+    if (pt.type === 'read') return false;
+    var i = '1234'.indexOf(k);
+    if (i < 0) i = 'abcd'.indexOf(k.toLowerCase());
+    if (i >= 0 && k.length === 1 && i < pt.it.o.length) { e.preventDefault(); pt.sel = i; render(); return true; }
+    return false;
+  }
+
   /* 統計頁用 */
   function statsHtml() {
-    if (T.levelFilter() === 'my') return '<p class="note">「自選」沒有專屬的題庫；切到其他級別或「全部」可以看練習成績。</p>';
+    var est = estHtml();
+    if (T.levelFilter() === 'my') return est + '<p class="note">「自選」沒有專屬的題庫；切到其他級別或「全部」可以看練習成績。</p>';
     var s = T.state(), d = s.pday[T.todayKey()] || {};
     var tn = 0, tc = 0;
     TYPES.forEach(function (tp) { if (d[tp]) { tn += d[tp][0]; tc += d[tp][1]; } });
-    var h = '<p class="prac-today">今天練習 <b>' + tn + '</b> 題' + (tn ? '，答對率 <b>' + pct(tc, tn) + '</b>' : '') + '</p><div class="prac-table">';
+    var h = est + '<p class="prac-today">今天練習 <b>' + tn + '</b> 題' + (tn ? '，答對率 <b>' + pct(tc, tn) + '</b>' : '') + '</p><div class="prac-table">';
     TYPES.forEach(function (tp) {
       var sm = summary(tp), unit = tp === 'read' ? '篇' : '題';
       h += '<div class="prac-row"><span class="prac-row-name">' + NAMES[tp] + '</span>' +
@@ -848,5 +1184,6 @@
       '<button class="tool-btn" data-goto="wrong">錯題分析' + (wq ? '（還沒訂正 ' + wq + ' 題）' : '') + '</button>';
   }
 
-  window.Practice = { init: init, render: render, reset: reset, statsHtml: statsHtml, openWrong: openWrong };
+  window.Practice = { init: init, render: render, reset: reset, statsHtml: statsHtml, openWrong: openWrong, openPlace: openPlace,
+                      _pt: function () { return pt; } };   // 測試腳本用
 })();

@@ -1,0 +1,82 @@
+[
+ {
+  "id": 47,
+  "field": "p",
+  "problem": "The note calls the a in 'ma-' a 字首 (prefix/word-initial), but material starts with m and has no prefix 'a'; misleading term.",
+  "fix": {
+   "s": "ma·te·ri·al",
+   "st": 1,
+   "n": "er 後接母音，在此唸 /ɪr/（同 here）；ma 的 a 不重讀，弱化成 /ə/"
+  }
+ },
+ {
+  "id": 63,
+  "field": "p",
+  "problem": "'字首 o' is wrong: pollution starts with p, the reduced o is inside the first syllable 'pol', not a prefix.",
+  "fix": {
+   "s": "pol·lu·tion",
+   "st": 1,
+   "n": "-tion 唸 /ʃən/；pol 的 o 不重讀，弱化成 /ə/"
+  }
+ },
+ {
+  "id": 70,
+  "field": "p",
+  "problem": "'字首 o' is wrong: solution starts with s, the reduced o is in the first syllable 'so', not a prefix.",
+  "fix": {
+   "s": "so·lu·tion",
+   "st": 1,
+   "n": "-tion 唸 /ʃən/；重讀 u 唸長音 /u/；so 的 o 弱化成 /ə/"
+  }
+ },
+ {
+  "id": 76,
+  "field": "p",
+  "problem": "'字首 a' is wrong: career starts with c, the reduced a is in the first syllable 'ca', not a prefix.",
+  "fix": {
+   "s": "ca·reer",
+   "st": 1,
+   "n": "eer 唸 /ɪr/；ca 的 a 不重讀，弱化成 /ə/"
+  }
+ },
+ {
+  "id": 153,
+  "field": "p",
+  "problem": "'字首 a' is wrong: traditional starts with t, the reduced a is in the first syllable 'tra', not a prefix.",
+  "fix": {
+   "s": "tra·di·tion·al",
+   "st": 1,
+   "n": "-tion 唸 /ʃən/；tra 的 a 不重讀，弱化成 /ə/"
+  }
+ },
+ {
+  "id": 90,
+  "field": "p",
+  "problem": "Labels -league as an exception, but it is regular (ea /i/, final gue with silent ue, exactly like 'league'); stressed o is not mentioned.",
+  "fix": {
+   "s": "col·league",
+   "st": 0,
+   "n": "重讀 o 在閉音節唸 /ɑ/；ea 唸 /i/，字尾 ue 不發音（同 league）"
+  }
+ },
+ {
+  "id": 116,
+  "field": "p",
+  "problem": "'字首 dis 弱讀 /dɪ/' tells the learner the letters dis sound /dɪ/, i.e. that s is silent; the s is pronounced and joins the next syllable (/dɪˈspleɪ/).",
+  "fix": {
+   "s": "dis·play",
+   "st": 1,
+   "n": "ay 唸長音 /eɪ/；字首 dis 不重讀唸 /dɪs/，s 和後面的 pl 連讀"
+  }
+ },
+ {
+  "id": 223,
+  "field": "p",
+  "problem": "'字首 dis 弱讀 /dɪ/' implies a silent s; the s is pronounced and joins the next syllable (/dɪˈstɝb/).",
+  "fix": {
+   "s": "dis·turb",
+   "st": 1,
+   "n": "ur 唸 /ɝ/；字首 dis 不重讀唸 /dɪs/，s 和後面的 t 連讀"
+  }
+ }
+]

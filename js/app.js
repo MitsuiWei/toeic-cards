@@ -173,21 +173,79 @@
   function phonText(w, mode) {
     mode = mode || state.settings.phonetic;
     if (mode === 'none') return '';
+    if (mode !== 'ipa') mode = 'kk';
     var v = mode === 'ipa' ? w.ip : w.kk;
     if (!v) return '';
     var a = mode === 'ipa' ? '/' : '[', b = mode === 'ipa' ? '/' : ']';
     if (typeof v === 'string') return a + v + b;
     return v.map(function (x) { return x[0] + ' ' + a + x[1] + b; }).join('　');
   }
-  function phonHtml(w, cls) {
-    var mode = state.settings.phonetic;
+  // 單字庫、練習頁用：設定是自然發音或字根字首時，這些地方一律顯示 KK
+  function phonHtml(w, cls, mode) {
+    mode = mode || state.settings.phonetic;
     if (mode === 'none') return '';
+    if (mode !== 'ipa') mode = 'kk';
     var v = mode === 'ipa' ? w.ip : w.kk;
     if (!v) return '';
     var a = mode === 'ipa' ? '/' : '[', b = mode === 'ipa' ? '/' : ']';
     var inner = typeof v === 'string' ? esc(a + v + b)
       : v.map(function (x) { return '<i>' + esc(x[0]) + '</i>' + esc(a + x[1] + b); }).join('<span class="phon-sep"></span>');
     return '<span class="phon ' + (cls || '') + '" lang="en">' + inner + '</span>';
+  }
+
+  /* ---------- 單字卡的提示行（設定「單字提示」）----------
+     一次只顯示一種：KK、IPA、自然發音（data/aids.js 的 p）、字根字首（r）或不顯示。
+     字根字首會透露意思，所以只在翻面後出現，翻面前先顯示 KK；沒有拆解的字顯示 KK 加一行小字。
+     點提示行可以臨時換成下一種（只對這張卡有效，設定不變）。aids.js 在需要時才載入。 */
+  var AID_ORDER = ['kk', 'ipa', 'phonics', 'roots'];
+  var AID_NAME = { kk: 'KK 音標', ipa: 'IPA 音標', phonics: '自然發音', roots: '字根字首' };
+  var aidOverride = null;                              // { id, mode }：這張卡臨時換的提示
+  var aidsLoading = false;
+  function loadAids() {
+    if (window.TOEIC_AIDS || aidsLoading) return;
+    aidsLoading = true;
+    var sc = document.createElement('script');
+    sc.src = 'data/aids.js';
+    sc.onload = function () { aidsLoading = false; if (current && byId[current.id]) renderCard(byId[current.id]); };
+    sc.onerror = function () { aidsLoading = false; };
+    document.head.appendChild(sc);
+  }
+  function aidMode(w) { return aidOverride && aidOverride.id === w.id ? aidOverride.mode : state.settings.phonetic; }
+  function phonicsHtml(p) {
+    var k = 0, syl = p.s.split(/([·-])/).map(function (x) {
+      if (x === '·') return '<i>·</i>';
+      if (x === '-') return '-';
+      var h = k === p.st ? '<b>' + esc(x) + '</b>' : esc(x); k++; return h;
+    }).join('');
+    return '<span class="aid-tag">自然發音</span><span class="aid-syl" lang="en">' + syl + '</span><span class="aid-rule">' + esc(p.n) + '</span>';
+  }
+  function rootsHtml(r) {
+    return '<span class="aid-tag">字根字首</span><span class="aid-parts">' + r.p.map(function (x) {
+      return '<span class="aid-part"><b lang="en">' + esc(x[0]) + '</b><small>' + esc(x[1]) + '</small></span>';
+    }).join('<span class="aid-plus">＋</span>') + '</span><span class="aid-rule">' + esc(r.m) + '</span>';
+  }
+  function aidHtml(w) {
+    var mode = aidMode(w);
+    if (mode === 'none') return '';
+    var A = window.TOEIC_AIDS, a = A && A[w.id], inner = '', note = '', rich = false;
+    if ((mode === 'phonics' || mode === 'roots') && !A) loadAids();
+    if (mode === 'phonics' && a && a.p) { inner = phonicsHtml(a.p); rich = true; }
+    else if (mode === 'roots' && a && a.r && revealed) { inner = rootsHtml(a.r); rich = true; }
+    else {
+      inner = phonHtml(w, '', mode === 'ipa' ? 'ipa' : 'kk');
+      if (A && mode === 'phonics') note = '這個字沒有自然發音拆解';
+      if (A && mode === 'roots') note = a && a.r ? '翻面後看字根字首' : '這個字沒有可靠的字根拆法';
+    }
+    return '<button type="button" class="aid-line' + (rich ? ' is-rich' : '') + '" data-aid="' + mode + '" aria-label="' + AID_NAME[mode] + '，點一下換下一種提示">' +
+      inner + (note ? '<span class="aid-note">' + note + '</span>' : '') + '</button>';
+  }
+  function cycleAid() {
+    if (!current) return;
+    var w = byId[current.id], i = AID_ORDER.indexOf(aidMode(w));
+    var next = AID_ORDER[(i + 1) % AID_ORDER.length];
+    aidOverride = { id: w.id, mode: next };
+    renderCard(w);
+    toast(AID_NAME[next] + '（只換這張卡，預設在設定改）');
   }
 
   /* ---------- 發音 ---------- */
@@ -378,7 +436,7 @@
     var front = $('#cardFront'), back = $('#cardBack');
     var badge = state.level === 'all' ? '<span class="level-badge" data-level="' + w.lv + '">' + lvLabel(w.lv) + '</span>' : '';
     var wordBtn = '<div class="word-line"><button class="speakable word" data-say="word" aria-label="唸單字 ' + esc(w.w) + '">' + esc(w.w) + SPK + '</button>' +
-      '<span class="pos">' + esc(posText(w.d[0])) + '</span></div>' + phonHtml(w, 'phon-line');
+      '<span class="pos">' + esc(posText(w.d[0])) + '</span></div>' + aidHtml(w);
     var meanings = '<div class="meaning-list">' + w.d.map(function (d) {
       return '<div class="meaning"><span class="pos">' + esc(posText(d)) + '</span>' + esc(d[1]) + '</div>';
     }).join('') + '</div>';
@@ -423,6 +481,7 @@
   function rate(rating) {
     if (!current || !revealed) return;
     var id = current.id;
+    aidOverride = null;
     var before = rec(id);
     undoStack.push({ id: id, prev: JSON.parse(JSON.stringify(before)), daily: JSON.parse(JSON.stringify(state.daily)), logLen: state.log.length });
     if (undoStack.length > 50) undoStack.shift();
@@ -776,6 +835,7 @@
     if (e.target.id === 'moreNewBtn') { rollDay(); state.daily.extraNew = (state.daily.extraNew || 0) + 10; save(); current = null; renderAll(); }
   });
   $('#card').addEventListener('click', function (e) {
+    if (e.target.closest('.aid-line')) { cycleAid(); return; }
     var b = e.target.closest('.speakable'); if (!b || !current) return;
     var w = byId[current.id];
     speak(b.getAttribute('data-say') === 'word' ? w.w : w.ex, b);

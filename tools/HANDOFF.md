@@ -11,7 +11,7 @@
 ```
 我要繼續開發多益單字卡網站（GitHub repo MitsuiWei/toeic-cards，GitHub Pages：https://mitsuiwei.github.io/toeic-cards/）。
 請先把這個 repo 加進對話（要能 push），clone 下來，執行 sh tools/setup.sh 還原開發環境，
-然後完整讀過 tools/HANDOFF.md 再開始；裡面有工作慣例、技術細節、資料格式、建置與測試方式、版本紀錄和還沒做的事。
+然後完整讀過 tools/HANDOFF.md（工作慣例、建置與測試、版本紀錄、還沒做的事）和 tools/SPEC.md（規格書：功能、架構、資料格式、演算法）再開始。
 讀完先用三五句話告訴我目前版本和你理解的狀態，等我交代下一件事。
 ```
 
@@ -27,7 +27,7 @@
 ## 2. 工作慣例
 
 - **先給使用者看畫面，他說「上線」才 commit / push。** 使用者自己沒有本機 repo，commit 和 push 都由這邊做。
-- 每次上線把 `sw.js` 的 `VERSION` 加一（目前 `toeic-cards-v16`），舊快取才會被換掉。上線後告訴使用者新的版本號和 commit。
+- 每次上線把 `sw.js` 的 `VERSION` 加一（目前 `toeic-cards-v17`），舊快取才會被換掉。上線後告訴使用者新的版本號和 commit。
 - commit 訊息最後要加兩行署名（系統會給當次該用的內容，照抄即可）。
 - 所有中文一律繁體、台灣用語；不可以出現簡體字。
 - 題目必須原創，不可抄多益官方或任何出版社的試題。
@@ -62,6 +62,7 @@
 | v14 | `68bdc9d` | 11/17 | 各選項解析（設定可收起來）；400／600 分第二輪查核、11 題原文修正 |
 | v15 | `d670118` | 11/18 | 多益落點測驗（40 題適性）、統計頁依平常練習估分 |
 | v16 | `f8d1523` | 11/19 | 800／990 分第二輪解析查核、16 題原文改成較道地的美式說法 |
+| v17 | （見 git log） | 11/19 | 單字卡提示行：KK／IPA／自然發音／字根字首一次一種、點一下臨時切換；加入規格書 `tools/SPEC.md` |
 
 ### 使用者做過的選擇（改功能前先看，不要改回去）
 
@@ -69,6 +70,7 @@
 - 點字：點一下只顯示意思，要按「存起來」才存（v12 原本點一下就存，他要求改掉）。
 - 各選項解析的深度：「意思＋常考用法＋為什麼錯」，再加一行「解題關鍵」；三種題型都要；設定可選「直接顯示／先收起來」。
 - 落點測驗：測驗＋平常練習都估分；自動調難度、約 40 題；結果要有總分區間、聽力閱讀分開、各題型答對率和弱點、建議級別。
+- 單字提示：一次只顯示一種（他覺得多了畫面會亂），在設定選；預設 KK；字根字首翻面後才顯示；沒有拆解的字退回 KK 加小字；點那一行可以臨時換下一種。
 
 ## 3. 開發環境還原
 
@@ -92,67 +94,21 @@ git push origin main
 
 如果 `tools/` 裡的腳本或原始資料有改，記得一併複製回 `tools/scripts`、`tools/work` 再 commit。
 
-## 4. 網站檔案
+## 4. 網站檔案與資料格式
 
-| 檔案 | 內容 |
-|---|---|
-| `index.html` | 頁面骨架：級別分頁（400／600／800／990／自選／全部）＋六個檢視（學習、練習、單字庫、統計、設定、說明） |
-| `css/style.css` | 樣式。刷刷庫配色；桌機是左側直排分頁＋棕框，≤720px 改成上方 6 格分頁列 |
-| `js/srs.js` | 排程（SM-2／Anki 式）：學習步驟 1 分 → 10 分 → 1 天；`buildQueue`、`apply`、`previews`、`fmtDue` |
-| `js/app.js` | 主程式：狀態、單字卡、單字庫、統計、設定、匯入匯出、同步合併、自選單字 |
-| `js/practice.js` | 練習頁：三種題型、錯題分析、點字查意思並存單字、落點測驗與平常練習估分 |
-| `js/score.js` | 落點分數估計（`window.ToeicScore`，純計算，Node 也能 require） |
-| `js/sync.js` | Firebase Auth（Google）＋ Firestore 同步 |
-| `js/firebase-config.js` | Firebase 專案設定（瀏覽器端金鑰，本來就是公開的；已限制 HTTP referrer） |
-| `data/words.js` | `window.WORDS`：1000 個字 `{id, w, lv, kk, ip, d:[[詞性, 中文]], ex, zh, hl:[起, 迄]}` |
-| `data/quiz_p5.js` | 單字填空 1000 題（每個字一題） |
-| `data/quiz_read.js` | 短文閱讀 120 篇（每級 30 篇：20 篇 Part 7 ＋ 10 篇 Part 6，每篇 3 題） |
-| `data/quiz_listen.js` | 聽力應答 400 題（每級 100 題） |
-| `data/quiz_meta.js` | 各題型各級題數 |
-| `data/gloss.js` | 題庫小字典：題目裡出現的字的原形、音標、中文（點字時才載入） |
-| `sw.js` | 離線快取（stale-while-revalidate），新版啟用後頁面自動重新整理 |
+都寫在規格書 `tools/SPEC.md`：檔案與模組關係（第 3 節）、網站資料檔格式（第 9 節）、localStorage／Firestore 狀態與同步規則（第 10 節）。改了格式要同時改規格書。
 
-題庫和小字典都是「進到練習頁／第一次點字」才用 `<script>` 動態載入。
+開發時最容易踩到的幾點：
 
-### 資料格式
-
-```
-QUIZ_P5     {id:'p'+wid, wid, lv, t:'v'|'f', q:'… ------- …', o:[4], a, zh, k, n}
-QUIZ_READ   {id:'r400-01', lv, p:6|7, k, ti, tx, zh, w:[wid], qs:[{q, o:[4], a, k, n}×3]}   Part 6 空格寫成 "[1] -------"
-QUIZ_LISTEN {id:'l400-001', lv, t, q, o:[3], a, zq, zo:[3], k, n}
-  k = 解題關鍵（一行）；n = 各選項解析，順序和 o 一樣：
-    單字填空 n[i] = [詞性, 中文, 常考用法, 為什麼對／錯]
-    短文閱讀 n[i] = [中文, 用法（可空）, 為什麼對／錯]
-    聽力應答 n[i] = [陷阱類型（正解是空字串）, 為什麼對／錯]
-  沒有 k／n 的題目才會有舊的一段說明 ex（程式會退回顯示它）；目前 1,760 題都有 k／n。
-GLOSS       {f:{變化形: 原形}, w:{原形: [KK, IPA, '詞性|中文', …]}, n:{專有名詞: 1}, c:{原形: 顯示用大小寫}}
-```
-
-### 狀態（localStorage 與 Firestore `toeicCards/{uid}`）
-
-```
-recs[id]            = {st:'new'|'learning'|'relearning'|'review'|'known'|'suspended', step, iv, ef, due, reps, lapses, last, pri?}
-                      pri = 在練習題點過「要背」的時間，新字佇列裡 pri 的排最前面（取消時設成 0）
-practice[題型][題號] = [作答次數, 累計答對題數, 最後作答時間, 最後一次答對題數, 最後一次選的選項字串]
-                      題型 p5 / read / listen；閱讀的最後一欄是三題的選項，例如 "203"
-pday[YYYY-MM-DD]    = {p5:[題數, 答對], read:[…], listen:[…], t}
-custom[id]          = {w, kk, ip, d:['詞性|中文'], ex, zh, hl:[起, 迄], t, del}     自選單字，id = 'c_' + 原形
-                      d 用字串陣列是因為 Firestore 不能存巢狀陣列；del = 1 是刪除記號
-place[開始時間]      = {t, L, R, S:[下限, 中間, 上限], m:{listen:[答對, 題數], p5:[…], read:[…]}, lv}
-                      落點測驗結果。L 聽力、R 閱讀、S 總分；沒有語音時只測閱讀，L、S 是 null；lv 是建議練的級別
-placeCleared        = 清除進度的時間；t 不大於它的結果一律不算（雲端合併取較大值，用來讓「清除」跨裝置生效）
-settings, settingsUpdated, daily, level, view, log
-```
-
-- 字表的字 id 是數字（1–1000），自選的是字串 `c_xxx`；從 DOM 讀 id 一律用 `idOf()`，級別用 `lvOf()`（值可能是數字、`'my'`、`'all'`）。
+- 字表的字 id 是數字（0–999），自選的是字串 `c_xxx`；從 DOM 讀 id 一律用 `idOf()`，級別用 `lvOf()`（值可能是數字、`'my'`、`'all'`）。
 - 自選單字接在 `WORDS` 陣列後面（`lv:'my'`、`custom:true`），由 `rebuildCustom()` 依 `state.custom` 重建。
-- 同步是「每筆資料看時間戳，新的贏」：recs 看 `last`，practice 看第 3 欄，pday 和 custom 看 `t`，settings 看 `settingsUpdated`；place 是只增不改的聯集，placeCleared 取較大值。`mergeRemote()` 要先合併 custom 再合併 recs。
-- Firestore 用 `set(..., {merge:true})` 深層合併，所以要「清掉」的欄位必須明確寫成 0（例如 `pri: 0`、`del: 0`），不能靠刪 key。
-- 複習紀錄另外放 `toeicCards/{uid}/log/{YYYY-MM}`。
+- `mergeRemote()` 要先合併 custom 再合併 recs。Firestore 用 `set(..., {merge:true})` 深層合併，要「清掉」的欄位必須明確寫成 0（例如 `pri: 0`、`del: 0`），不能靠刪 key；Firestore 不能存巢狀陣列。
+- 題庫、小字典、`aids.js` 都是用到才用 `<script>` 動態載入；新增資料檔要加進 `sw.js` 的 `SHELL`。
 
-## 5. 功能現況
+## 5. 程式導覽（功能在哪個函式）
 
-- 單字卡：四鍵評分、學習步驟、復原、先挑掉已會的字、看英想中／看中想英、例句挖空、新卡自動發音、KK／IPA 音標。
+- 單字卡：四鍵評分、學習步驟、復原、先挑掉已會的字、看英想中／看中想英、例句挖空、新卡自動發音（`app.js` 的 `renderCard()`、`reveal()`、`rate()`）。
+- 單字卡提示行（`app.js` 的 `aidHtml()`、`phonicsHtml()`、`rootsHtml()`、`cycleAid()`、`loadAids()`）：設定 `settings.phonetic` = kk／ipa／phonics／roots／none，一次一種；字根字首只在 `revealed` 後顯示；沒有資料的字退回 KK 加小字；點提示行 `cycleAid()` 臨時換下一種，存在 `aidOverride`（只對這張卡，`rate()` 時清掉）。單字庫和練習頁的小卡用 `phonHtml()`，非 IPA 一律顯示 KK。內容在 `data/aids.js`，由 `scripts/aids_build.py` 從 `work/aids/out/*.json` ＋ `work/aids/fixes.json` 產生。
 - 單字庫：搜尋、依狀態篩選、標已會／停用／重置；自選的字可以移除。
 - 統計：今日、連續天數、各級進度、未來 7 天、12 週熱力圖、最常忘的字；點「複習中／學習中／已會／還沒學」或各級那一列會列出單字。
 - 練習：單字填空（預設只出學過的字，不夠用沒學的補）、短文閱讀、聽力應答（Web Speech 唸題目與選項）。答錯的單字填空會把那個字排回單字卡。
@@ -201,6 +157,17 @@ python3 /home/claude/scripts/quiz_build.py                                  會�
 - 新增題目時，題庫裡出現的新字也要補進小字典，否則點了會顯示「沒有收錄」。
 - 出題與盲測的說明書：`work/quiz/BRIEF_*.md`、`work/qa_blind/BRIEF.md`、`work/gloss/BRIEF.md`。
 - 題庫 1,760 題都做過一次「不看答案重做再比對」；小字典只抽查過約 300 筆。
+單字卡提示（自然發音、字根字首）是第三條線，原始檔在 `tools/work/aids/`：
+
+```
+python3 /home/claude/work/aids/validate.py in/400.json out/400.json        格式檢查（音節拿掉 · 要等於原字、重音索引、字數、疑似簡體字）
+python3 /home/claude/work/aids/review_check.py in/400.json out/400.json review/400.json   查核結果的格式檢查
+python3 /home/claude/scripts/aids_build.py                                 out/*.json + fixes.json → site/data/aids.js
+```
+
+- 寫的說明書 `aids/BRIEF.md`，查核的說明書 `aids/BRIEF_REVIEW.md`（美籍英文老師角度，最重要的是抓假字源）。`in/*.json` 是字表匯出（id、單字、KK、IPA、意思）。
+- 要改某一個字：在 `aids/fixes.json` 加 `{"<id>": {"p": {...}}}` 或 `{"<id>": {"r": {...} 或 null}}`（整個欄位覆蓋，null 表示拿掉字根拆解），再跑 `aids_build.py`。
+
 - `phon_build.py` 是 1000 字表音標的產生器（需要 WikiPron 資料，沒有放進來）；`parse.py`／`build.py`／`final.py` 是當初從 PDF 抽字表用的，一般用不到。
 
 ## 7. 測試
@@ -212,6 +179,7 @@ node /home/claude/scripts/test_prac3.js 400     練習三種題型（可換級�
 node /home/claude/scripts/test_wrong.js         統計點進去看單字、錯題分析、重做錯題
 node /home/claude/scripts/test_tap.js           點字查意思、按「存起來」才存、自選分頁、同步合併（含 320 寬）
 node /home/claude/scripts/test_notes.js 400     各選項解析、「先收起來」設定、錯題分析裡的解析（可換級別）
+node /home/claude/scripts/test_aids.js          單字卡提示行：自然發音、字根字首（翻面前不顯示）、退回 KK、點一下切換、看中文想英文
 node /home/claude/scripts/test_place.js         落點測驗全流程（模擬約 500 分的考生）、結果頁、建議級別、統計頁估分、中途結束、沒有語音、合併與清除
 node /home/claude/scripts/test_legacy.js        舊格式練習紀錄的相容性
 node /home/claude/scripts/test2.js              排程與單字卡流程

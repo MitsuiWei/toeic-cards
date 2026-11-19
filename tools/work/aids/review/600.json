@@ -1,0 +1,48 @@
+[
+ {
+  "id": 317,
+  "field": "r",
+  "problem": "'-cant' is not an English suffix; applicant is applic- (from apply) + the person suffix -ant, as in accountant (261), so '-cant(人)' teaches a fake suffix.",
+  "fix": {
+   "p": [
+    [
+     "applic",
+     "申請"
+    ],
+    [
+     "-ant",
+     "人"
+    ]
+   ],
+   "m": "apply 申請＋人 → 申請人"
+  }
+ },
+ {
+  "id": 330,
+  "field": "p",
+  "problem": "The note says 'ci' before a vowel is read /ʃ/, but here the i is still pronounced (/priʃi/, ci is its own syllable); the -cial/-cious rule where i disappears does not apply.",
+  "fix": {
+   "s": "ap·pre·ci·a·tion",
+   "st": 3,
+   "n": "c 在 i＋母音前唸 /ʃ/，i 仍唸 /i/；-tion 前的 a 重讀唸 /eɪ/"
+  }
+ },
+ {
+  "id": 366,
+  "field": "r",
+  "problem": "'-it' is the Latin past-participle ending, not an English noun suffix (submit, admit, commit are verbs; credit itself is also a verb), so '-it(名詞)' teaches a false Part 5 rule.",
+  "fix": null
+ },
+ {
+  "id": 383,
+  "field": "r",
+  "problem": "'un(一)' clashes with the negative prefix un- the learner just saw in unemployment (308), and '-ique' is not an English adjective suffix (technique, boutique are nouns), so the split confuses more than it helps.",
+  "fix": null
+ },
+ {
+  "id": 392,
+  "field": "r",
+  "problem": "'-estic' is a Latin ending (-esticus) presented as an English suffix; no such suffix exists, so the split is forced.",
+  "fix": null
+ }
+]

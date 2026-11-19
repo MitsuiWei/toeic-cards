@@ -1,0 +1,256 @@
+[
+ {
+  "id": 782,
+  "field": "p",
+  "problem": "Split follows the KK stress mark; an American dictionary (Merriam-Webster style) divides it in·i·tia·tive.",
+  "fix": {
+   "s": "in·i·tia·tive",
+   "st": 1,
+   "n": "ti 在母音前唸 /ʃ/；-ive 唸 /ɪv/，e 不發音"
+  }
+ },
+ {
+  "id": 799,
+  "field": "p",
+  "problem": "Split follows the KK stress mark; an American dictionary (Merriam-Webster style) divides it dis·cre·tion.",
+  "fix": {
+   "s": "dis·cre·tion",
+   "st": 1,
+   "n": "-tion 唸 /ʃən/；cre 的 e 唸短音 /ɛ/（不同於 discreet）"
+  }
+ },
+ {
+  "id": 810,
+  "field": "p",
+  "problem": "Split follows the KK stress mark; an American dictionary (Merriam-Webster style) divides it dis·crep·an·cy. The note must then name the stressed syllable crep.",
+  "fix": {
+   "s": "dis·crep·an·cy",
+   "st": 1,
+   "n": "重音 crep 的 e 唸短音 /ɛ/；cy 的 c 唸軟音 /s/"
+  }
+ },
+ {
+  "id": 884,
+  "field": "p",
+  "problem": "Split follows the KK stress mark; an American dictionary (Merriam-Webster style) divides it pres·ti·gious. The note must then name the stressed syllable ti.",
+  "fix": {
+   "s": "pres·ti·gious",
+   "st": 1,
+   "n": "-gious 唸 /dʒəs/；重音 ti 的 i 唸短音 /ɪ/"
+  }
+ },
+ {
+  "id": 920,
+  "field": "p",
+  "problem": "Split follows the KK stress mark; an American dictionary (Merriam-Webster style) divides it in·i·ti·ate.",
+  "fix": {
+   "s": "in·i·ti·ate",
+   "st": 1,
+   "n": "ti 在母音前唸 /ʃ/；動詞 -ate 唸 /eɪt/"
+  }
+ },
+ {
+  "id": 947,
+  "field": "p",
+  "problem": "Split follows the KK stress mark; an American dictionary (Merriam-Webster style) divides it con·fis·cate.",
+  "fix": {
+   "s": "con·fis·cate",
+   "st": 0,
+   "n": "動詞 -ate 唸 /eɪt/；非重音的 i 輕讀 /ə/"
+  }
+ },
+ {
+  "id": 951,
+  "field": "p",
+  "problem": "Split follows the KK stress mark; an American dictionary (Merriam-Webster style) divides it il·lus·trate.",
+  "fix": {
+   "s": "il·lus·trate",
+   "st": 0,
+   "n": "動詞 -ate 唸 /eɪt/；非重音的 u 輕讀成 /ə/"
+  }
+ },
+ {
+  "id": 991,
+  "field": "p",
+  "problem": "Split follows the KK stress mark; an American dictionary (Merriam-Webster style) divides it dis·patch. The note must then name the syllable patch.",
+  "fix": {
+   "s": "dis·patch",
+   "st": 1,
+   "n": "-tch 唸 /tʃ/；閉音節 patch 的 a 唸 /æ/"
+  }
+ },
+ {
+  "id": 876,
+  "field": "p",
+  "problem": "'字尾 -ied 唸 /aɪd/' is stated as a general rule but is false for studied, carried, married (/id/); it holds only for -fied/-plied type words.",
+  "fix": {
+   "s": "di·ver·si·fied",
+   "st": 1,
+   "n": "er 唸 /ɝ/；-fied 唸 /faɪd/（-fy 唸 /faɪ/ 再加 -ed）"
+  }
+ },
+ {
+  "id": 817,
+  "field": "p",
+  "problem": "'法語字尾 -ise 唸 /iz/' is stated as a general rule, but other French-origin words in this list (enterprise, franchise) say /aɪz/; it is true only for this word.",
+  "fix": {
+   "s": "ex·per·tise",
+   "st": 2,
+   "n": "-ise 在這裡唸 /iz/（不唸 /aɪz/），重音在最後的 tise"
+  }
+ },
+ {
+  "id": 778,
+  "field": "r",
+  "problem": "-us is just the Latin noun ending of sensus, presented as if it were an English noun suffix; keep sensus whole as the root.",
+  "fix": {
+   "p": [
+    [
+     "con-",
+     "共同"
+    ],
+    [
+     "sensus",
+     "感覺、看法"
+    ]
+   ],
+   "m": "大家共同的感覺 → 共識"
+  }
+ },
+ {
+  "id": 806,
+  "field": "r",
+  "problem": "-ele is not an English suffix (French -èle from Latin -ela, found in no other common word); labelling it a plain noun suffix invites false generalization.",
+  "fix": {
+   "p": [
+    [
+     "client",
+     "客戶"
+    ],
+    [
+     "-ele",
+     "法語名詞字尾"
+    ]
+   ],
+   "m": "客戶的總稱 → 顧客群"
+  }
+ },
+ {
+  "id": 809,
+  "field": "r",
+  "problem": "Wrong base: specification is the noun of the verb specify (like justify → justification), not adjective specific + -ation; -ation does not attach to adjectives.",
+  "fix": {
+   "p": [
+    [
+     "specif",
+     "具體說明"
+    ],
+    [
+     "-ication",
+     "名詞"
+    ]
+   ],
+   "m": "specify 具體說明＋名詞 → 規格、詳細說明"
+  }
+ },
+ {
+  "id": 817,
+  "field": "r",
+  "problem": "In English -ise is normally the verb suffix (= -ize, organise, advertise); labelling it a plain noun suffix misleads. Here it is a French noun ending.",
+  "fix": {
+   "p": [
+    [
+     "expert",
+     "專家"
+    ],
+    [
+     "-ise",
+     "法語名詞字尾"
+    ]
+   ],
+   "m": "專家的本事 → 專門知識、技能"
+  }
+ },
+ {
+  "id": 906,
+  "field": "r",
+  "problem": "-eutical is not an English suffix (it is Greek -eut- + -ic + -al); the real adjective suffix is -ical on the stem pharmaceut-.",
+  "fix": {
+   "p": [
+    [
+     "pharmaceut",
+     "製藥、用藥"
+    ],
+    [
+     "-ical",
+     "…的"
+    ]
+   ],
+   "m": "製藥（同 pharmacy 藥房）＋的 → 製藥的"
+  }
+ },
+ {
+  "id": 908,
+  "field": "r",
+  "problem": "Folk etymology: foremost is Old English formest (superlative of forma 'first'); its spelling was later reshaped to look like fore + most.",
+  "fix": null
+ },
+ {
+  "id": 924,
+  "field": "r",
+  "problem": "The card lists complement as a verb, but -ment is labelled only 名詞; the learner should see that this noun is used as a verb.",
+  "fix": {
+   "p": [
+    [
+     "comple",
+     "填滿"
+    ],
+    [
+     "-ment",
+     "名詞（轉動詞）"
+    ]
+   ],
+   "m": "填滿補齊之物 → 補足、為…增色"
+  }
+ },
+ {
+  "id": 968,
+  "field": "r",
+  "problem": "-itate is not a suffix (hesitate, imitate, meditate do not mean 使…); the word is facilit(y) + the verb suffix -ate.",
+  "fix": {
+   "p": [
+    [
+     "facilit",
+     "容易、便利"
+    ],
+    [
+     "-ate",
+     "動詞：使…"
+    ]
+   ],
+   "m": "facility 便利＋使… → 使便利、促進"
+  }
+ },
+ {
+  "id": 978,
+  "field": "r",
+  "problem": "-igate is not a suffix; the 'drive' meaning belongs to the root ig (Latin agere), followed by the verb suffix -ate (investigate, irrigate have no 'drive').",
+  "fix": {
+   "p": [
+    [
+     "nav",
+     "船"
+    ],
+    [
+     "ig",
+     "駕駛、推動"
+    ],
+    [
+     "-ate",
+     "動詞"
+    ]
+   ],
+   "m": "駕船航行 → 導航；應對"
+  }
+ }
+]

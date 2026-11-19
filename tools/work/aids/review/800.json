@@ -1,0 +1,164 @@
+[
+ {
+  "id": 503,
+  "field": "r",
+  "problem": "Weak link: Latin factor 'doer' to 'one of the causes' is not clear, and 'fact = 做' clashes with fact = 事實 for this learner.",
+  "fix": null
+ },
+ {
+  "id": 507,
+  "field": "r",
+  "problem": "Weak link: trans- does not mean 完成; Latin transigere 'drive through, settle' does not lead clearly to 交易.",
+  "fix": null
+ },
+ {
+  "id": 522,
+  "field": "r",
+  "problem": "Weak link: warrant is not a word this learner knows, so warrant + -y does not help him reach 保固.",
+  "fix": null
+ },
+ {
+  "id": 541,
+  "field": "r",
+  "problem": "Weak link: ob- + ject 'thrown before' needs a historical leap to get to 目標; it is too opaque for this learner.",
+  "fix": null
+ },
+ {
+  "id": 551,
+  "field": "r",
+  "problem": "-ce is not an English suffix, and 'stan' is not a root form; the clean split is circum- + stance.",
+  "fix": {
+   "p": [
+    [
+     "circum-",
+     "周圍"
+    ],
+    [
+     "stance",
+     "站立"
+    ]
+   ],
+   "m": "站在周圍的事物 → 情況、條件"
+  }
+ },
+ {
+  "id": 558,
+  "field": "r",
+  "problem": "Weak link: authority comes from Latin auctoritas; 作者／源頭 → 權威、當局 is a forced connection the learner cannot use.",
+  "fix": null
+ },
+ {
+  "id": 572,
+  "field": "r",
+  "problem": "Root ag means 做／行動 (agere), not 代理; '代理' is an invented root meaning.",
+  "fix": {
+   "p": [
+    [
+     "ag",
+     "做；行動"
+    ],
+    [
+     "-ency",
+     "名詞"
+    ]
+   ],
+   "m": "替人行動、辦事的機構 → 代理機構"
+  }
+ },
+ {
+  "id": 599,
+  "field": "p",
+  "problem": "Merriam-Webster divides the word mea·sure (like plea·sure, trea·sure), not meas·ure; mea·sure also matches the note's -sure /ʒɚ/.",
+  "fix": {
+   "s": "mea·sure",
+   "st": 0,
+   "n": "ea 唸短音 /ɛ/；-sure 唸 /ʒɚ/"
+  }
+ },
+ {
+  "id": 604,
+  "field": "r",
+  "problem": "Weak link: 'extern' is not an English word for this learner, so the split adds nothing beyond 'ex = 外'.",
+  "fix": null
+ },
+ {
+  "id": 622,
+  "field": "r",
+  "problem": "Weak link: suf- 'under' + fic 'make' → 足夠 is opaque; '從底下補做到夠' is an invented bridge.",
+  "fix": null
+ },
+ {
+  "id": 623,
+  "field": "r",
+  "problem": "Too opaque: amb + it are unrecognizable roots, and Roman vote-canvassing '四處走動拉票' takes a historical leap to reach 有野心的.",
+  "fix": null
+ },
+ {
+  "id": 646,
+  "field": "p",
+  "problem": "'u 在 r 前唸 /ʊ/' is false as a general rule (ur normally says /ɝ/, as in hurdle); here it is /ʊr/ only because r is followed by a vowel.",
+  "fix": {
+   "s": "du·ra·ble",
+   "st": 0,
+   "n": "u 後面 r 再接母音時唸 /ʊr/，不是 /ɝ/；-able 弱化唸 /əbəl/"
+  }
+ },
+ {
+  "id": 658,
+  "field": "p",
+  "problem": "'ex 唸 /ɪk/' teaches the learner to drop the /s/: x is /ks/, and its /s/ joins pl as /spl/ (ɪkˋsplɔr).",
+  "fix": {
+   "s": "ex·plore",
+   "st": 1,
+   "n": "x 唸 /ks/，s 跟後面 pl 連成 /spl/；ore 唸 /ɔr/（同 more）"
+  }
+ },
+ {
+  "id": 663,
+  "field": "r",
+  "problem": "Opaque root: vey < Latin via 'road' is not recognizable, and '一起上路' does not lead clearly to 傳達.",
+  "fix": null
+ },
+ {
+  "id": 664,
+  "field": "r",
+  "problem": "Opaque root: cruit < French croître 'grow' is obscure, and '重新長出新兵力' is too much of a stretch to help.",
+  "fix": null
+ },
+ {
+  "id": 676,
+  "field": "r",
+  "problem": "-ment is labelled 名詞 although the entry is a verb (a trap for Part 5), and im + ple 'fill' → 實施 is a weak link; better null.",
+  "fix": null
+ },
+ {
+  "id": 693,
+  "field": "r",
+  "problem": "Opaque split: red- + eem (Latin redimere = red- + emere 'buy') leaves fragments that mean nothing to this learner.",
+  "fix": null
+ },
+ {
+  "id": 703,
+  "field": "r",
+  "problem": "False prefix: the ac- is not Latin ad- or an intensive; acknowledge blends Middle English aknow (Old English on- + know) with knowledge, and the c is a later respelling.",
+  "fix": null
+ },
+ {
+  "id": 711,
+  "field": "r",
+  "problem": "Too opaque: ac- + com- + mod 'measure' + -ate (Latin accommodare 'make fit') does not lead clearly to 容納／提供住宿.",
+  "fix": null
+ },
+ {
+  "id": 735,
+  "field": "r",
+  "problem": "Opaque root: trieve < Old French trouver 'find' is not recognizable, so the split does not help.",
+  "fix": null
+ },
+ {
+  "id": 736,
+  "field": "r",
+  "problem": "Weak link: Latin monitor 'one who warns' → 監視器／監控 is not clear, and monit is not a root the learner can reuse.",
+  "fix": null
+ }
+]

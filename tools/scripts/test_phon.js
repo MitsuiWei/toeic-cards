@@ -69,9 +69,7 @@ const frontWord = async p => (await p.textContent('#cardFront .word')).trim();
   // phonetic modes
   await p.click('[data-view="settings"]');
   await p.selectOption('select[name="direction"]', 'en');
-  await p.selectOption('select[name="phonetic"]', 'ipa');
-  await p.click('[data-view="study"]'); await p.waitForTimeout(60);
-  console.log('11. ipa:', await p.textContent('#cardFront .phon'));
+  console.log('11. ipa option removed:', !(await p.$('select[name="phonetic"] option[value="ipa"]')));
   await p.click('[data-view="settings"]'); await p.selectOption('select[name="phonetic"]', 'none');
   await p.click('[data-view="study"]'); await p.waitForTimeout(60);
   console.log('    none → phon exists:', !!(await p.$('#cardFront .phon')));

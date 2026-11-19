@@ -31,6 +31,9 @@
     voice: ''
   };
 
+  // 舊設定相容：v18 起單字提示拿掉 IPA（使用者要求），存過 ipa 的一律改成 KK（另一台還沒更新的裝置同步過來也一樣）
+  function normSettings(st) { if (st.phonetic === 'ipa') st.phonetic = 'kk'; return st; }
+
   var state = load();
   rebuildCustom();
   var undoStack = [];
@@ -48,7 +51,7 @@
     s.v = 1;
     s.recs = s.recs || {};
     s.log = s.log || [];
-    s.settings = Object.assign({}, DEFAULT_SETTINGS, s.settings || {});
+    s.settings = normSettings(Object.assign({}, DEFAULT_SETTINGS, s.settings || {}));
     s.level = s.level || 400;
     s.view = s.view || 'study';
     s.daily = s.daily || { day: todayKey(), newCount: 0, extraNew: 0 };
@@ -194,11 +197,11 @@
   }
 
   /* ---------- 單字卡的提示行（設定「單字提示」）----------
-     一次只顯示一種：KK、IPA、自然發音（data/aids.js 的 p）、字根字首（r）或不顯示。
+     一次只顯示一種：KK、自然發音（data/aids.js 的 p）、字根字首（r）或不顯示（v18 依使用者要求拿掉 IPA）。
      字根字首會透露意思，所以只在翻面後出現，翻面前先顯示 KK；沒有拆解的字顯示 KK 加一行小字。
      點提示行可以臨時換成下一種（只對這張卡有效，設定不變）。aids.js 在需要時才載入。 */
-  var AID_ORDER = ['kk', 'ipa', 'phonics', 'roots'];
-  var AID_NAME = { kk: 'KK 音標', ipa: 'IPA 音標', phonics: '自然發音', roots: '字根字首' };
+  var AID_ORDER = ['kk', 'phonics', 'roots'];
+  var AID_NAME = { kk: 'KK 音標', phonics: '自然發音', roots: '字根字首' };
   var aidOverride = null;                              // { id, mode }：這張卡臨時換的提示
   var aidsLoading = false;
   function loadAids() {
@@ -232,7 +235,7 @@
     if (mode === 'phonics' && a && a.p) { inner = phonicsHtml(a.p); rich = true; }
     else if (mode === 'roots' && a && a.r && revealed) { inner = rootsHtml(a.r); rich = true; }
     else {
-      inner = phonHtml(w, '', mode === 'ipa' ? 'ipa' : 'kk');
+      inner = phonHtml(w, '', 'kk');
       if (A && mode === 'phonics') note = '這個字沒有自然發音拆解';
       if (A && mode === 'roots') note = a && a.r ? '翻面後看字根字首' : '這個字沒有可靠的字根拆法';
     }
@@ -999,7 +1002,7 @@
     }
     if (remote.settings) {
       var ru = remote.settingsUpdated || 0, lu = state.settingsUpdated || 0;
-      if (ru > lu) { state.settings = Object.assign({}, DEFAULT_SETTINGS, remote.settings); state.settingsUpdated = ru; changed = true; }
+      if (ru > lu) { state.settings = normSettings(Object.assign({}, DEFAULT_SETTINGS, remote.settings)); state.settingsUpdated = ru; changed = true; }
       else if (lu > ru) settingsLocalWins = true;
     }
     if (remote.daily && remote.daily.day === todayKey()) {

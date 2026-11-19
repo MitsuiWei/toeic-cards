@@ -57,7 +57,8 @@ const fakeSpeech = () => {
     need('cycle to kk', await p.$eval('.aid-line', e => e.getAttribute('data-aid') === 'kk'));
     need('setting unchanged after cycle', await p.evaluate(() => ToeicDebug.state().settings.phonetic === 'roots'));
     await p.click('.aid-line'); await p.waitForTimeout(80);
-    need('cycle to ipa', await p.$eval('.aid-line', (e, ip) => e.getAttribute('data-aid') === 'ipa' && e.textContent.includes(ip), IP));
+    need('cycle to phonics', await p.$eval('.aid-line', e => e.getAttribute('data-aid') === 'phonics' && e.classList.contains('is-rich')));
+    need('no ipa option', !(await p.$('select[name="phonetic"] option[value="ipa"]')));
     // 評分後恢復設定
     await p.keyboard.press('3'); await p.waitForTimeout(200);
     const second = await cardWord();
@@ -85,6 +86,20 @@ const fakeSpeech = () => {
     const backAid = await p.$eval('#cardBack .aid-line', e => e.getAttribute('data-aid')).catch(() => null);
     need('zh direction: aid on back', backAid === 'roots');
     if (name === 'phone') await shot('4-zh-back');
+    await ctx.close();
+  }
+  // 舊設定是 ipa → 載入後改成 kk
+  {
+    const ctx = await b.newContext({ viewport: { width: 390, height: 844 } });
+    await ctx.addInitScript(fakeSpeech);
+    await ctx.addInitScript(() => { if (!localStorage.getItem('toeic-cards-v1')) localStorage.setItem('toeic-cards-v1', JSON.stringify({ recs: {}, settings: { phonetic: 'ipa' }, log: [] })); });
+    const p = await ctx.newPage();
+    p.on('pageerror', e => errs.push('ipa-migrate: ' + e.message));
+    await p.goto(SITE); await p.waitForTimeout(300);
+    const v = await p.evaluate(() => ToeicDebug.state().settings.phonetic);
+    if (v !== 'kk') errs.push('ipa-migrate: setting is ' + v);
+    const m = await p.evaluate(() => { ToeicDebug.mergeRemote({ settings: { phonetic: 'ipa' }, settingsUpdated: Date.now() + 5000 }); return ToeicDebug.state().settings.phonetic; });
+    if (m !== 'kk') errs.push('ipa-migrate: remote ipa merged as ' + m);
     await ctx.close();
   }
   // 沒有資料的字：退回 KK 加小字

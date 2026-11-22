@@ -295,10 +295,66 @@
   var cancelBusyAt = 0, seqId = 0;
   function stopSpeech() {
     seqId++;                       // 讓還在排隊的句子不再接著唸
+    if (kara) kara.stop();
     if (!synth) return;
     if (synth.speaking || synth.pending) cancelBusyAt = Date.now();
     synth.cancel();
     clearSpeaking();
+  }
+
+  /* ---------- 逐字標示（唸到哪個字，那個字就亮起來）----------
+     karaHtml(text, a0, a1)：把句子切成一個字一個 <span class="kw" data-c="在句中的位置">；[a0, a1) 是答案的位置，會加粗。
+     元素裡有 .kw 時，speakSeq 會自動逐字標示：
+       1. 瀏覽器有送 boundary 事件（iOS／macOS Safari、用本機語音的 Chrome）→ 照事件的 charIndex 標，最準。
+       2. 沒送（Android Chrome、Chrome 的 Google 線上語音）→ 依字長和語速估時間，會有一點誤差。
+     先用估的開始跑，一收到 boundary 事件就改用事件。 */
+  function karaHtml(text, a0, a1) {
+    var out = '', last = 0, re = /\S+/g, m;
+    while ((m = re.exec(text))) {
+      var ans = a1 > a0 && m.index < a1 && m.index + m[0].length > a0;
+      out += esc(text.slice(last, m.index)) + '<span class="kw' + (ans ? ' kw-ans' : '') + '" data-c="' + m.index + '">' + esc(m[0]) + '</span>';
+      last = m.index + m[0].length;
+    }
+    return out + esc(text.slice(last));
+  }
+  var kara = null;
+  function karaStart(u, el, rate) {
+    var spans = [].slice.call(el.querySelectorAll('.kw'));
+    if (!spans.length) return;
+    var starts = spans.map(function (s) { return Number(s.getAttribute('data-c')); });
+    var cur = -1, timers = [], byEvent = false, me;
+    function set(i) {
+      if (i === cur) return;
+      if (spans[cur]) spans[cur].classList.remove('is-now');
+      cur = i;
+      if (spans[i]) spans[i].classList.add('is-now');
+    }
+    function clearTimers() { timers.forEach(clearTimeout); timers = []; }
+    me = { stop: function () { clearTimers(); set(-1); if (kara === me) kara = null; } };
+    if (kara) kara.stop();
+    kara = me;
+    u.addEventListener('start', function () {
+      if (kara !== me || byEvent) return;
+      // 估計每個字的時間：字母數 × 62ms ＋ 字間 70ms；逗號、句號後多停一下。除以語速
+      var t = 0;
+      spans.forEach(function (s, i) {
+        var w = s.textContent, ms = w.replace(/[^A-Za-z0-9]/g, '').length * 62 + 70;
+        if (/[,;:]$/.test(w)) ms += 220; else if (/[.!?]["')]*$/.test(w)) ms += 380;
+        timers.push(setTimeout(function () { if (!byEvent) set(i); }, t / rate));
+        t += ms;
+      });
+      // 保險：有些瀏覽器偶爾不送 end 事件，超過估計時間很久就自己收掉
+      timers.push(setTimeout(me.stop, t / rate * 2.5 + 3000));
+    });
+    u.addEventListener('boundary', function (e) {
+      if (kara !== me || (e.name && e.name !== 'word')) return;
+      if (!byEvent) { byEvent = true; clearTimers(); }
+      var i = 0;
+      while (i + 1 < starts.length && starts[i + 1] <= e.charIndex) i++;
+      set(i);
+    });
+    u.addEventListener('end', me.stop);
+    u.addEventListener('error', me.stop);
   }
   /* items: [{text, el, pause}]，pause 是唸完後停頓的毫秒數；onDone 在整串唸完或中斷時呼叫 */
   function speakSeq(items, onDone) {
@@ -314,6 +370,7 @@
       u.rate = parseFloat(state.settings.rate) || 1;
       var v = pickVoice();
       if (v) u.voice = v;
+      if (it.el && it.el.querySelector && it.el.querySelector('.kw')) karaStart(u, it.el, u.rate);
       u.onstart = function () { clearSpeaking(); if (it.el) { it.el.classList.add('is-speaking'); speakingEl = it.el; } };
       u.onend = function () { clearSpeaking(); if (it.pause) setTimeout(next, it.pause); else next(); };
       u.onerror = function () { clearSpeaking(); if (my === seqId && onDone) onDone(); };
@@ -1098,7 +1155,7 @@
       customId: customId, addCustom: addCustom, removeCustom: removeCustom, prioritize: prioritize,
       speak: speak, speakSeq: speakSeq, stopSpeech: stopSpeech, canSpeak: function () { return !!synth; },
       notePlace: notePlace, switchLevel: switchLevel, level: function () { return state.level; },
-      phonHtml: phonHtml, SPK: SPK,
+      phonHtml: phonHtml, SPK: SPK, karaHtml: karaHtml,
       renderTabs: renderTabs, isActive: function () { return state.view === 'practice'; }
     });
   }

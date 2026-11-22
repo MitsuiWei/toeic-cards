@@ -459,6 +459,14 @@
       ' <span class="fb-def">' + esc(w.d.map(function (d) { return '(' + d[0] + ') ' + d[1]; }).join('　')) + '</span>';
   }
 
+  /* 作答後的「英文句子＋中文翻譯」：點英文或中文都會唸英文，唸到哪個字那個字就亮起來（app.js 的 karaHtml／karaStart） */
+  function sentHtml(it) {
+    var pre = it.q.split(BLANK)[0], ans = it.o[it.a], full = it.q.replace(BLANK, ans);
+    return '<button type="button" class="speakable fb-sent" data-say="' + esc(full) + '" aria-label="聽這一句">' +
+      '<span class="fb-en" lang="en">' + T.karaHtml(full, pre.length, pre.length + ans.length) + T.SPK + '</span>' +
+      '<span class="fb-zh">' + esc(it.zh) + '</span></button>';
+  }
+
   /* 單字填空 */
   function p5Html(it) {
     var answered = sess.chosen !== null;
@@ -471,8 +479,7 @@
       var ok = sess.chosen === it.a;
       h += '<div class="fb ' + (ok ? 'is-ok' : 'is-no') + '">' +
         '<p class="fb-head">' + (ok ? '答對了' : '答錯了，答案是 ' + esc(it.o[it.a])) + '</p>' +
-        '<button class="speakable fb-say" data-say="' + esc(it.q.replace(BLANK, it.o[it.a])) + '">聽這一句' + T.SPK + '</button>' +
-        '<p class="fb-zh">' + esc(it.zh) + '</p>' + keyHtml(it, 'q') +
+        sentHtml(it) + keyHtml(it, 'q') +
         '<p class="fb-wordline">' + wordInfo(it.wid) + '</p>' +
         (sess.note ? '<p class="fb-note">' + esc(sess.note) + '</p>' : '') + '</div>' +
         nextBtn(sess.idx + 1 < sess.items.length ? '下一題' : '看這一回成績');
@@ -655,8 +662,7 @@
       var pp = it.q.split(BLANK);
       body = '<p class="wq-sent" lang="en"' + exAttr(it.q.replace(BLANK, it.o[it.a]), it.zh) + '>' + tw(pp[0]) + '<mark>' + tw(it.o[it.a]) + '</mark>' + tw(pp[1] || '') + '</p>' +
         optsHtml(it.o, it.a, e.ch, undefined, false, it.n, 'p5') +
-        '<button class="speakable fb-say" data-say="' + esc(it.q.replace(BLANK, it.o[it.a])) + '">聽這一句' + T.SPK + '</button>' +
-        '<p class="fb-zh">' + esc(it.zh) + '</p>' + keyHtml(it, 'q', true) + '<p class="fb-wordline">' + wordInfo(it.wid) + '</p>';
+        sentHtml(it) + keyHtml(it, 'q', true) + '<p class="fb-wordline">' + wordInfo(it.wid) + '</p>';
     } else if (e.type === 'listen') {
       sum = '<span class="wq-tag">聽力應答</span><span class="wq-q" lang="en">' + esc(it.q) + '</span>';
       body = scriptHtml(it, e.ch, it.n) + keyHtml(it, 'q', true);

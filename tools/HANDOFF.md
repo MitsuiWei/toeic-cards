@@ -27,7 +27,7 @@
 ## 2. 工作慣例
 
 - **先給使用者看畫面，他說「上線」才 commit / push。** 使用者自己沒有本機 repo，commit 和 push 都由這邊做。
-- 每次上線把 `sw.js` 的 `VERSION` 加一（目前 `toeic-cards-v18`），舊快取才會被換掉。上線後告訴使用者新的版本號和 commit。
+- 每次上線把 `sw.js` 的 `VERSION` 加一（目前 `toeic-cards-v19`），舊快取才會被換掉。上線後告訴使用者新的版本號和 commit。
 - commit 訊息最後要加兩行署名（系統會給當次該用的內容，照抄即可）。
 - 所有中文一律繁體、台灣用語；不可以出現簡體字。
 - 題目必須原創，不可抄多益官方或任何出版社的試題。
@@ -64,6 +64,7 @@
 | v16 | `f8d1523` | 11/19 | 800／990 分第二輪解析查核、16 題原文改成較道地的美式說法 |
 | v17 | `7a04630` | 11/19 | 單字卡提示行：KK／IPA／自然發音／字根字首一次一種、點一下臨時切換；加入規格書 `tools/SPEC.md` |
 | v18 | `09facad` | 11/19 | 單字提示拿掉 IPA，只留 KK／自然發音／字根字首（＋不顯示） |
+| v19 | （見 git log） | 11/22 | 單字填空作答後：英文句子在上、中文在下，點了唸英文並逐字標示 |
 
 ### 使用者做過的選擇（改功能前先看，不要改回去）
 
@@ -109,6 +110,7 @@ git push origin main
 ## 5. 程式導覽（功能在哪個函式）
 
 - 單字卡：四鍵評分、學習步驟、復原、先挑掉已會的字、看英想中／看中想英、例句挖空、新卡自動發音（`app.js` 的 `renderCard()`、`reveal()`、`rate()`）。
+- 逐字標示（`app.js` 的 `karaHtml()`、`karaStart()`；`practice.js` 的 `sentHtml()`）：`karaHtml(text, a0, a1)` 把句子切成 `<span class="kw" data-c="位置">`；`speakSeq()` 發現要唸的元素裡有 `.kw` 就自動逐字加 `is-now`。先用估的時間跑，一收到 boundary 事件就改用事件；`stopSpeech()` 會一併停掉。要在別的地方（例如單字卡例句）加逐字標示，只要用 `karaHtml()` 產生內容、照常呼叫 `speak(text, el)`。測試用的假語音要用 `dispatchEvent` 送 start／boundary／end 才測得到。
 - 單字卡提示行（`app.js` 的 `aidHtml()`、`phonicsHtml()`、`rootsHtml()`、`cycleAid()`、`loadAids()`）：設定 `settings.phonetic` = kk／phonics／roots／none，一次一種（舊值 ipa 由 `normSettings()` 改成 kk）；字根字首只在 `revealed` 後顯示；沒有資料的字退回 KK 加小字；點提示行 `cycleAid()` 臨時換下一種，存在 `aidOverride`（只對這張卡，`rate()` 時清掉）。單字庫和練習頁的小卡用 `phonHtml()`，一律顯示 KK。內容在 `data/aids.js`，由 `scripts/aids_build.py` 從 `work/aids/out/*.json` ＋ `work/aids/fixes.json` 產生。
 - 單字庫：搜尋、依狀態篩選、標已會／停用／重置；自選的字可以移除。
 - 統計：今日、連續天數、各級進度、未來 7 天、12 週熱力圖、最常忘的字；點「複習中／學習中／已會／還沒學」或各級那一列會列出單字。
@@ -180,6 +182,7 @@ node /home/claude/scripts/test_prac3.js 400     練習三種題型（可換級�
 node /home/claude/scripts/test_wrong.js         統計點進去看單字、錯題分析、重做錯題
 node /home/claude/scripts/test_tap.js           點字查意思、按「存起來」才存、自選分頁、同步合併（含 320 寬）
 node /home/claude/scripts/test_notes.js 400     各選項解析、「先收起來」設定、錯題分析裡的解析（可換級別）
+node /home/claude/scripts/test_kara.js          單字填空作答後的句子：英文在上中文在下、點了唸英文、逐字標示（有／沒有 boundary 事件）、錯題分析
 node /home/claude/scripts/test_aids.js          單字卡提示行：自然發音、字根字首（翻面前不顯示）、退回 KK、點一下切換、看中文想英文
 node /home/claude/scripts/test_place.js         落點測驗全流程（模擬約 500 分的考生）、結果頁、建議級別、統計頁估分、中途結束、沒有語音、合併與清除
 node /home/claude/scripts/test_legacy.js        舊格式練習紀錄的相容性

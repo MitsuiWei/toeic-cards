@@ -1013,3 +1013,14 @@ button.opt:hover:not(:disabled) { border-color: var(--ink); background: var(--pa
   .aid-part b { font-size: 17px; }
   .aid-rule { font-size: 13px; }
 }
+
+/* ===== 作答後的句子：英文在上、中文在下，點了唸英文並逐字標示 ===== */
+.fb-sent { display: flex; flex-direction: column; gap: 4px; width: calc(100% + 12px); padding: 6px; margin: 0 -6px; white-space: normal; cursor: pointer; }
+.fb-sent.is-speaking { background: rgba(255, 255, 255, .55); box-shadow: inset 0 0 0 1.5px var(--orange); }
+.fb-en { font-family: "Noto Sans", "Segoe UI", "Helvetica Neue", Arial, sans-serif; font-size: 17px; line-height: 1.7; color: var(--ink); }
+.fb-sent .fb-zh { display: block; }
+.kw { border-radius: 5px; transition: background-color .14s ease, box-shadow .14s ease, color .14s ease; }
+.kw-ans { font-weight: 700; color: var(--orange); }
+.kw.is-now { background: #FFD666; box-shadow: 0 0 0 3px #FFD666; color: var(--ink); }
+@media (prefers-reduced-motion: reduce) { .kw { transition: none; } }
+@media (max-width: 720px) { .fb-en { font-size: 16px; } }

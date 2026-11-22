@@ -1,0 +1,1702 @@
+[
+ {
+  "id": "g400-01",
+  "key": "助動詞 do／does／did（含 not）後面一律接原形動詞",
+  "notes": [
+   {
+    "o": "send",
+    "pos": "原形動詞",
+    "zh": "寄送",
+    "use": "did not + 原形；時態由 did 表現",
+    "why": "did 已經表示過去，後面動詞回到原形"
+   },
+   {
+    "o": "sent",
+    "pos": "過去式",
+    "zh": "寄送了",
+    "use": "主詞 + V-ed（肯定句才用）",
+    "why": "did 已表過去，動詞不能再用過去式"
+   },
+   {
+    "o": "sending",
+    "pos": "現在分詞",
+    "zh": "正在寄送",
+    "use": "be 動詞 + V-ing",
+    "why": "did not 後面不能接 V-ing"
+   },
+   {
+    "o": "sends",
+    "pos": "第三人稱單數",
+    "zh": "寄送",
+    "use": "he／she／it + V-s（現在式肯定句）",
+    "why": "did not 後面不能接加 -s 的動詞"
+   }
+  ]
+ },
+ {
+  "id": "g400-02",
+  "key": "主詞是物品（被送）＋ yesterday → 過去式被動 was／were + p.p.",
+  "notes": [
+   {
+    "o": "were delivered",
+    "pos": "過去式被動",
+    "zh": "被送達了",
+    "use": "was／were + p.p.：主詞是被動作的對象",
+    "why": "printers 不會自己送貨；複數主詞配 were"
+   },
+   {
+    "o": "delivered",
+    "pos": "過去式主動",
+    "zh": "送達了",
+    "use": "主詞（人）+ delivered + 受詞",
+    "why": "印表機不能主動送貨，且後面缺受詞"
+   },
+   {
+    "o": "are delivering",
+    "pos": "現在進行式",
+    "zh": "正在送",
+    "use": "am／is／are + V-ing",
+    "why": "時間是 yesterday，且是主動"
+   },
+   {
+    "o": "will deliver",
+    "pos": "未來式",
+    "zh": "將會送",
+    "use": "will + 原形；配 tomorrow、next week",
+    "why": "yesterday 是過去，不能用 will"
+   }
+  ]
+ },
+ {
+  "id": "g400-03",
+  "key": "看時間詞：next + 時間 → 未來式 will + 原形",
+  "notes": [
+   {
+    "o": "will have",
+    "pos": "未來式",
+    "zh": "將會有",
+    "use": "will + 原形；配 next、tomorrow",
+    "why": "next Tuesday 是未來的時間"
+   },
+   {
+    "o": "had",
+    "pos": "過去式",
+    "zh": "有過",
+    "use": "主詞 + V-ed；配 yesterday、last",
+    "why": "next Tuesday 是未來，不能用過去式"
+   },
+   {
+    "o": "has had",
+    "pos": "現在完成式",
+    "zh": "已經有過",
+    "use": "have／has + p.p.；配 since、for",
+    "why": "完成式不能配 next Tuesday"
+   },
+   {
+    "o": "having",
+    "pos": "現在分詞",
+    "zh": "有",
+    "use": "be 動詞 + V-ing",
+    "why": "句子沒有其他動詞，不能只放 V-ing"
+   }
+  ]
+ },
+ {
+  "id": "g400-04",
+  "key": "is 後面＋ right now → 現在進行式 be + V-ing",
+  "notes": [
+   {
+    "o": "discussing",
+    "pos": "現在分詞",
+    "zh": "正在討論",
+    "use": "am／is／are + V-ing + 受詞",
+    "why": "right now 表示正在進行"
+   },
+   {
+    "o": "discuss",
+    "pos": "原形動詞",
+    "zh": "討論",
+    "use": "助動詞（can、will）+ 原形",
+    "why": "is 後面不能直接接原形動詞"
+   },
+   {
+    "o": "discussed",
+    "pos": "過去分詞",
+    "zh": "被討論",
+    "use": "is + p.p. = 被動，後面通常沒有受詞",
+    "why": "後面有受詞 the schedule，不是被動"
+   },
+   {
+    "o": "discusses",
+    "pos": "第三人稱單數",
+    "zh": "討論",
+    "use": "he／she + V-s，前面不加 be 動詞",
+    "why": "is 和 discusses 不能連用"
+   }
+  ]
+ },
+ {
+  "id": "g400-05",
+  "key": "情態助動詞 must／can／should 後面接原形動詞",
+  "notes": [
+   {
+    "o": "wear",
+    "pos": "原形動詞",
+    "zh": "配戴",
+    "use": "must + 原形動詞",
+    "why": "情態助動詞後一律原形，不加 to"
+   },
+   {
+    "o": "wearing",
+    "pos": "現在分詞",
+    "zh": "正在配戴",
+    "use": "be 動詞 + V-ing",
+    "why": "must 後面不能接 V-ing"
+   },
+   {
+    "o": "wore",
+    "pos": "過去式",
+    "zh": "穿戴了",
+    "use": "主詞 + V-ed",
+    "why": "must 後面不能接過去式"
+   },
+   {
+    "o": "to wear",
+    "pos": "不定詞",
+    "zh": "去配戴",
+    "use": "have to／need to + 原形",
+    "why": "must 後面不加 to（have to 才有 to）"
+   }
+  ]
+ },
+ {
+  "id": "g400-06",
+  "key": "want 後面接 to + 原形：want to V",
+  "notes": [
+   {
+    "o": "to finish",
+    "pos": "不定詞",
+    "zh": "去完成",
+    "use": "want／plan／hope／decide + to V",
+    "why": "want to V「想要做…」"
+   },
+   {
+    "o": "finish",
+    "pos": "原形動詞",
+    "zh": "完成",
+    "use": "助動詞後才直接接原形",
+    "why": "wants 後面不能直接接原形動詞"
+   },
+   {
+    "o": "finishing",
+    "pos": "動名詞",
+    "zh": "完成",
+    "use": "enjoy／finish／avoid + V-ing",
+    "why": "want 後面接 to V，不接 V-ing"
+   },
+   {
+    "o": "finished",
+    "pos": "過去式／過去分詞",
+    "zh": "完成了",
+    "use": "主詞 + V-ed；have + p.p.",
+    "why": "wants 已經是動詞，不能再接過去式"
+   }
+  ]
+ },
+ {
+  "id": "g400-07",
+  "key": "enjoy 後面接動名詞：enjoy V-ing",
+  "notes": [
+   {
+    "o": "talking",
+    "pos": "動名詞",
+    "zh": "談話",
+    "use": "enjoy／finish／avoid／mind + V-ing",
+    "why": "enjoy 後面固定接 V-ing"
+   },
+   {
+    "o": "talk",
+    "pos": "原形動詞",
+    "zh": "談話",
+    "use": "助動詞（can、will）+ 原形",
+    "why": "enjoy 後面不能接原形動詞"
+   },
+   {
+    "o": "to talk",
+    "pos": "不定詞",
+    "zh": "去談話",
+    "use": "want／hope／plan + to V",
+    "why": "enjoy 後面不接 to V"
+   },
+   {
+    "o": "talked",
+    "pos": "過去式",
+    "zh": "談過",
+    "use": "主詞 + V-ed",
+    "why": "enjoy 已經是動詞，不能再接過去式"
+   }
+  ]
+ },
+ {
+  "id": "g400-08",
+  "key": "A of B 當主詞，動詞跟 A 走：The price（單數）→ is",
+  "notes": [
+   {
+    "o": "is",
+    "pos": "be 動詞（單數）",
+    "zh": "是",
+    "use": "單數主詞 + is",
+    "why": "真正主詞是 price（單數），不是 laptops"
+   },
+   {
+    "o": "are",
+    "pos": "be 動詞（複數）",
+    "zh": "是",
+    "use": "複數主詞 + are",
+    "why": "laptops 只是 of 後的修飾，主詞是 price"
+   },
+   {
+    "o": "be",
+    "pos": "原形 be",
+    "zh": "是",
+    "use": "助動詞（will、must）+ be",
+    "why": "前面沒有助動詞，不能用原形 be"
+   },
+   {
+    "o": "being",
+    "pos": "現在分詞",
+    "zh": "是",
+    "use": "be 動詞 + being；或當動名詞",
+    "why": "句子缺主要動詞，being 不能當動詞"
+   }
+  ]
+ },
+ {
+  "id": "g400-09",
+  "key": "last year 是明確的過去時間 → 簡單過去式",
+  "notes": [
+   {
+    "o": "opened",
+    "pos": "過去式",
+    "zh": "開設了",
+    "use": "主詞 + V-ed；配 last、ago、yesterday",
+    "why": "last year → 過去式"
+   },
+   {
+    "o": "opens",
+    "pos": "第三人稱單數",
+    "zh": "開設",
+    "use": "現在式：習慣或事實",
+    "why": "last year 是過去，不用現在式"
+   },
+   {
+    "o": "will open",
+    "pos": "未來式",
+    "zh": "將開設",
+    "use": "will + 原形；配 next、tomorrow",
+    "why": "last year 是過去，不用未來式"
+   },
+   {
+    "o": "has opened",
+    "pos": "現在完成式",
+    "zh": "已開設",
+    "use": "have／has + p.p.；不配明確過去時間",
+    "why": "完成式不能和 last year 連用"
+   }
+  ]
+ },
+ {
+  "id": "g400-10",
+  "key": "主詞是物（午餐被供應）＋ every day → 現在式被動 is + p.p.",
+  "notes": [
+   {
+    "o": "is served",
+    "pos": "現在式被動",
+    "zh": "被供應",
+    "use": "am／is／are + p.p.：主詞被動作",
+    "why": "lunch 是被供應的東西，每天 → 現在式"
+   },
+   {
+    "o": "serves",
+    "pos": "現在式主動",
+    "zh": "供應",
+    "use": "主詞（人／餐廳）+ serves + 受詞",
+    "why": "午餐不會主動供應，且缺受詞"
+   },
+   {
+    "o": "served",
+    "pos": "過去式／過去分詞",
+    "zh": "供應了",
+    "use": "主詞 + V-ed；或 be + p.p.",
+    "why": "every day 是習慣，且單獨 served 缺 be"
+   },
+   {
+    "o": "is serving",
+    "pos": "現在進行式",
+    "zh": "正在供應",
+    "use": "am／is／are + V-ing + 受詞",
+    "why": "主動語態不合，且缺受詞"
+   }
+  ]
+ },
+ {
+  "id": "g400-11",
+  "key": "主詞 customers 是複數 → 現在式動詞用原形，不加 -s",
+  "notes": [
+   {
+    "o": "complain",
+    "pos": "現在式（複數）",
+    "zh": "抱怨",
+    "use": "複數主詞 + 原形；complain about + 事",
+    "why": "customers 複數，動詞不加 -s"
+   },
+   {
+    "o": "complains",
+    "pos": "第三人稱單數",
+    "zh": "抱怨",
+    "use": "he／she／it／單數名詞 + V-s",
+    "why": "主詞是複數，不能加 -s"
+   },
+   {
+    "o": "complaining",
+    "pos": "現在分詞",
+    "zh": "正在抱怨",
+    "use": "be 動詞 + V-ing",
+    "why": "前面沒有 be 動詞，句子缺動詞"
+   },
+   {
+    "o": "to complain",
+    "pos": "不定詞",
+    "zh": "去抱怨",
+    "use": "want／need + to V",
+    "why": "to V 不能當句子的主要動詞"
+   }
+  ]
+ },
+ {
+  "id": "g400-12",
+  "key": "tomorrow → 未來式 will + 原形",
+  "notes": [
+   {
+    "o": "will present",
+    "pos": "未來式",
+    "zh": "將介紹",
+    "use": "will + 原形",
+    "why": "tomorrow 是未來"
+   },
+   {
+    "o": "presented",
+    "pos": "過去式",
+    "zh": "介紹了",
+    "use": "主詞 + V-ed；配 yesterday",
+    "why": "tomorrow 不能配過去式"
+   },
+   {
+    "o": "has presented",
+    "pos": "現在完成式",
+    "zh": "已介紹",
+    "use": "have／has + p.p.",
+    "why": "完成式不能配 tomorrow"
+   },
+   {
+    "o": "presenting",
+    "pos": "現在分詞",
+    "zh": "正在介紹",
+    "use": "be 動詞 + V-ing",
+    "why": "前面沒有 be 動詞，句子缺動詞"
+   }
+  ]
+ },
+ {
+  "id": "g400-13",
+  "key": "when + 過去式（rang），另一件「當時正在做」→ 過去進行式",
+  "notes": [
+   {
+    "o": "was making",
+    "pos": "過去進行式",
+    "zh": "當時正在打",
+    "use": "was／were + V-ing ＋ when + 過去式",
+    "why": "過去某一刻正在進行的動作"
+   },
+   {
+    "o": "is making",
+    "pos": "現在進行式",
+    "zh": "正在打",
+    "use": "am／is／are + V-ing",
+    "why": "rang 是過去，不能用現在進行式"
+   },
+   {
+    "o": "makes",
+    "pos": "現在式",
+    "zh": "打（電話）",
+    "use": "習慣、事實",
+    "why": "rang 是過去，時態不一致"
+   },
+   {
+    "o": "will make",
+    "pos": "未來式",
+    "zh": "將打",
+    "use": "will + 原形",
+    "why": "rang 是過去，不能用未來式"
+   }
+  ]
+ },
+ {
+  "id": "g400-14",
+  "key": "can 是情態助動詞 → 後面接原形，不受主詞單複數影響",
+  "notes": [
+   {
+    "o": "check",
+    "pos": "原形動詞",
+    "zh": "查詢",
+    "use": "can + 原形動詞",
+    "why": "情態助動詞後永遠是原形"
+   },
+   {
+    "o": "checks",
+    "pos": "第三人稱單數",
+    "zh": "查詢",
+    "use": "he／she + V-s（無助動詞時）",
+    "why": "can 後面不加 -s"
+   },
+   {
+    "o": "checked",
+    "pos": "過去式",
+    "zh": "查過",
+    "use": "主詞 + V-ed",
+    "why": "can 後面不能接過去式"
+   },
+   {
+    "o": "checking",
+    "pos": "現在分詞",
+    "zh": "正在查",
+    "use": "be 動詞 + V-ing",
+    "why": "can 後面不能接 V-ing"
+   }
+  ]
+ },
+ {
+  "id": "g400-15",
+  "key": "空格後有 by + 人（動作者）→ 被動 be + p.p.",
+  "notes": [
+   {
+    "o": "is given",
+    "pos": "現在式被動",
+    "zh": "被頒發",
+    "use": "be + p.p. + by + 動作者",
+    "why": "award 是被頒的；every December → 現在式"
+   },
+   {
+    "o": "gives",
+    "pos": "現在式主動",
+    "zh": "頒發",
+    "use": "主詞（人）+ gives + 受詞",
+    "why": "獎項不會頒發東西，且缺受詞"
+   },
+   {
+    "o": "giving",
+    "pos": "現在分詞",
+    "zh": "頒發",
+    "use": "be 動詞 + V-ing",
+    "why": "前面沒有 be 動詞，句子缺動詞"
+   },
+   {
+    "o": "has given",
+    "pos": "現在完成式主動",
+    "zh": "已頒發",
+    "use": "have／has + p.p. + 受詞",
+    "why": "主動語態，不能接 by + 動作者"
+   }
+  ]
+ },
+ {
+  "id": "g400-16",
+  "key": "幾點幾分（時刻）→ at",
+  "notes": [
+   {
+    "o": "at",
+    "pos": "介系詞",
+    "zh": "在（時刻）",
+    "use": "at + 時刻：at 9:00、at noon",
+    "why": "時刻用 at"
+   },
+   {
+    "o": "in",
+    "pos": "介系詞",
+    "zh": "在（月／年）",
+    "use": "in + 月份／年份／早上：in May、in the morning",
+    "why": "in 不接時刻"
+   },
+   {
+    "o": "on",
+    "pos": "介系詞",
+    "zh": "在（日期）",
+    "use": "on + 星期／日期：on Monday、on May 5",
+    "why": "on 不接時刻"
+   },
+   {
+    "o": "for",
+    "pos": "介系詞",
+    "zh": "持續（一段時間）",
+    "use": "for + 一段時間：for two hours",
+    "why": "9:00 是時間點，不是一段時間"
+   }
+  ]
+ },
+ {
+  "id": "g400-17",
+  "key": "月份、年份、季節 → in",
+  "notes": [
+   {
+    "o": "in",
+    "pos": "介系詞",
+    "zh": "在（月份）",
+    "use": "in + 月份／年份／季節：in March、in 2027",
+    "why": "月份用 in"
+   },
+   {
+    "o": "at",
+    "pos": "介系詞",
+    "zh": "在（時刻）",
+    "use": "at + 時刻：at 3:00",
+    "why": "at 不接月份"
+   },
+   {
+    "o": "on",
+    "pos": "介系詞",
+    "zh": "在（某日）",
+    "use": "on + 星期／日期：on March 3",
+    "why": "只有月份沒有日期，不用 on"
+   },
+   {
+    "o": "since",
+    "pos": "介系詞",
+    "zh": "自從",
+    "use": "since + 過去時間點，主句用完成式",
+    "why": "句子是未來式，不能用 since"
+   }
+  ]
+ },
+ {
+  "id": "g400-18",
+  "key": "一次完成的動作＋期限 → by；持續到某時才用 until",
+  "notes": [
+   {
+    "o": "by",
+    "pos": "介系詞",
+    "zh": "在…之前（期限）",
+    "use": "by + 期限：submit／finish by Friday",
+    "why": "submit 是一次完成的動作，配 by"
+   },
+   {
+    "o": "until",
+    "pos": "介系詞",
+    "zh": "直到",
+    "use": "持續動作 + until：stay／wait until 5",
+    "why": "submit 不是持續的動作，語意不合"
+   },
+   {
+    "o": "at",
+    "pos": "介系詞",
+    "zh": "在（時刻）",
+    "use": "at + 時刻：at 5:00",
+    "why": "星期不用 at"
+   },
+   {
+    "o": "during",
+    "pos": "介系詞",
+    "zh": "在…期間",
+    "use": "during + 活動或期間：during the meeting",
+    "why": "Friday 是期限，不是活動期間"
+   }
+  ]
+ },
+ {
+  "id": "g400-19",
+  "key": "stay／wait／work 等持續動作＋終點 → until",
+  "notes": [
+   {
+    "o": "until",
+    "pos": "介系詞",
+    "zh": "直到",
+    "use": "持續動作 + until + 時間：stay open until 8",
+    "why": "stay open 是持續狀態，到 8 點結束"
+   },
+   {
+    "o": "by",
+    "pos": "介系詞",
+    "zh": "在…之前",
+    "use": "一次完成的動作 + by + 期限",
+    "why": "stay open 是持續狀態，不配期限 by"
+   },
+   {
+    "o": "at",
+    "pos": "介系詞",
+    "zh": "在（時刻）",
+    "use": "at + 時刻：open at 9",
+    "why": "stay open at 8 不表示「開到八點」"
+   },
+   {
+    "o": "since",
+    "pos": "介系詞",
+    "zh": "自從",
+    "use": "since + 過去時間，主句用完成式",
+    "why": "句子是未來式，語意也不合"
+   }
+  ]
+ },
+ {
+  "id": "g400-20",
+  "key": "活動名詞（會議、簡報）表示「在…期間」→ during",
+  "notes": [
+   {
+    "o": "during",
+    "pos": "介系詞",
+    "zh": "在…期間",
+    "use": "during + 活動或期間：during the meeting",
+    "why": "後面是活動名詞，表示整段期間"
+   },
+   {
+    "o": "between",
+    "pos": "介系詞",
+    "zh": "在兩者之間",
+    "use": "between A and B",
+    "why": "後面沒有兩個對象"
+   },
+   {
+    "o": "among",
+    "pos": "介系詞",
+    "zh": "在…之中",
+    "use": "among + 三者以上的人或物",
+    "why": "presentation 不是一群人或物"
+   },
+   {
+    "o": "since",
+    "pos": "介系詞",
+    "zh": "自從",
+    "use": "since + 過去時間，主句用完成式",
+    "why": "祈使句不能配 since"
+   }
+  ]
+ },
+ {
+  "id": "g400-21",
+  "key": "完成式 + 一段時間（ten years）→ for；時間點才用 since",
+  "notes": [
+   {
+    "o": "for",
+    "pos": "介系詞",
+    "zh": "持續（多久）",
+    "use": "for + 一段時間：for ten years",
+    "why": "ten years 是一段時間長度"
+   },
+   {
+    "o": "since",
+    "pos": "介系詞",
+    "zh": "自從",
+    "use": "since + 時間點：since 2016",
+    "why": "since 要接時間點，不接時間長度"
+   },
+   {
+    "o": "during",
+    "pos": "介系詞",
+    "zh": "在…期間",
+    "use": "during + 特定期間：during the summer",
+    "why": "during 不接單純的「幾年」長度"
+   },
+   {
+    "o": "at",
+    "pos": "介系詞",
+    "zh": "在（時刻）",
+    "use": "at + 時刻：at noon",
+    "why": "ten years 不是時刻"
+   }
+  ]
+ },
+ {
+  "id": "g400-22",
+  "key": "有「日」的日期或星期 → on",
+  "notes": [
+   {
+    "o": "on",
+    "pos": "介系詞",
+    "zh": "在（某日）",
+    "use": "on + 日期／星期：on May 15、on Friday",
+    "why": "有具體日期用 on"
+   },
+   {
+    "o": "in",
+    "pos": "介系詞",
+    "zh": "在（月份）",
+    "use": "in + 月份：in May",
+    "why": "有「15 日」就不用 in"
+   },
+   {
+    "o": "at",
+    "pos": "介系詞",
+    "zh": "在（時刻）",
+    "use": "at + 時刻：at 10:00",
+    "why": "日期不用 at"
+   },
+   {
+    "o": "during",
+    "pos": "介系詞",
+    "zh": "在…期間",
+    "use": "during + 活動或期間",
+    "why": "May 15 是某一天，不是期間"
+   }
+  ]
+ },
+ {
+  "id": "g400-23",
+  "key": "價格「恢復原價」只能發生在特賣「之後」→ after",
+  "notes": [
+   {
+    "o": "after",
+    "pos": "介系詞",
+    "zh": "在…之後",
+    "use": "after + 名詞：after the sale／meeting",
+    "why": "特賣結束後才恢復原價"
+   },
+   {
+    "o": "during",
+    "pos": "介系詞",
+    "zh": "在…期間",
+    "use": "during + 活動或期間",
+    "why": "文法可以，但特賣期間不會恢復原價"
+   },
+   {
+    "o": "among",
+    "pos": "介系詞",
+    "zh": "在…之中",
+    "use": "among + 三者以上的人或物",
+    "why": "sale 不是一群人或物"
+   },
+   {
+    "o": "since",
+    "pos": "介系詞",
+    "zh": "自從",
+    "use": "since + 過去時間，主句用完成式",
+    "why": "句子是未來式，不能用 since"
+   }
+  ]
+ },
+ {
+  "id": "g400-24",
+  "key": "樓層 → on：on the third floor",
+  "notes": [
+   {
+    "o": "on",
+    "pos": "介系詞",
+    "zh": "在（樓層）",
+    "use": "on + the 序數 + floor",
+    "why": "樓層固定用 on"
+   },
+   {
+    "o": "in",
+    "pos": "介系詞",
+    "zh": "在…裡面",
+    "use": "in + 空間：in the room、in Taipei",
+    "why": "樓層不用 in"
+   },
+   {
+    "o": "at",
+    "pos": "介系詞",
+    "zh": "在（某地點）",
+    "use": "at + 地點：at the front desk",
+    "why": "樓層不用 at"
+   },
+   {
+    "o": "by",
+    "pos": "介系詞",
+    "zh": "在…旁邊",
+    "use": "by + 地點：by the window",
+    "why": "「在三樓旁邊」語意不通"
+   }
+  ]
+ },
+ {
+  "id": "g400-25",
+  "key": "交通方式、名詞前沒冠詞 → by：by bus／train／car",
+  "notes": [
+   {
+    "o": "by",
+    "pos": "介系詞",
+    "zh": "搭乘（交通工具）",
+    "use": "by + 交通工具（不加冠詞）",
+    "why": "by bus、by train、by car 都不加 the"
+   },
+   {
+    "o": "on",
+    "pos": "介系詞",
+    "zh": "在（大眾交通工具）上",
+    "use": "on + the／a + bus／train",
+    "why": "on 要加冠詞：on the bus"
+   },
+   {
+    "o": "with",
+    "pos": "介系詞",
+    "zh": "用；和…一起",
+    "use": "with + 工具／人：with a pen",
+    "why": "交通方式不用 with"
+   },
+   {
+    "o": "in",
+    "pos": "介系詞",
+    "zh": "在（小車）裡",
+    "use": "in + a／the + car／taxi",
+    "why": "in 要加冠詞，且 bus 習慣用 on"
+   }
+  ]
+ },
+ {
+  "id": "g400-26",
+  "key": "空格後是原因（停電）→ because + 子句",
+  "notes": [
+   {
+    "o": "because",
+    "pos": "連接詞",
+    "zh": "因為",
+    "use": "結果 + because + 原因子句",
+    "why": "停電是提早打烊的原因"
+   },
+   {
+    "o": "so",
+    "pos": "連接詞",
+    "zh": "所以",
+    "use": "原因, so + 結果",
+    "why": "文法可以，但停電不是打烊的結果"
+   },
+   {
+    "o": "but",
+    "pos": "連接詞",
+    "zh": "但是",
+    "use": "A, but + 相反的 B",
+    "why": "前後沒有轉折關係"
+   },
+   {
+    "o": "or",
+    "pos": "連接詞",
+    "zh": "或者",
+    "use": "A or B：二選一",
+    "why": "前後不是二選一"
+   }
+  ]
+ },
+ {
+  "id": "g400-27",
+  "key": "空格後只有名詞（the heavy rain），沒有動詞 → 介系詞 because of",
+  "notes": [
+   {
+    "o": "because of",
+    "pos": "介系詞片語",
+    "zh": "因為",
+    "use": "because of + 名詞",
+    "why": "後面是名詞片語，不是子句"
+   },
+   {
+    "o": "because",
+    "pos": "連接詞",
+    "zh": "因為",
+    "use": "because + 主詞 + 動詞",
+    "why": "the heavy rain 沒有動詞，不是子句"
+   },
+   {
+    "o": "so",
+    "pos": "連接詞",
+    "zh": "所以",
+    "use": "原因, so + 結果子句",
+    "why": "後面不是子句，語意也不對"
+   },
+   {
+    "o": "although",
+    "pos": "連接詞",
+    "zh": "雖然",
+    "use": "although + 主詞 + 動詞",
+    "why": "後面沒有子句，且不是讓步關係"
+   }
+  ]
+ },
+ {
+  "id": "g400-28",
+  "key": "前面是原因（沒紙），後面是結果（去買）→ so",
+  "notes": [
+   {
+    "o": "so",
+    "pos": "連接詞",
+    "zh": "所以",
+    "use": "原因, so + 結果子句",
+    "why": "沒紙 → 去買，是因果"
+   },
+   {
+    "o": "because",
+    "pos": "連接詞",
+    "zh": "因為",
+    "use": "結果 + because + 原因",
+    "why": "文法可以，但「去買紙」不是沒紙的原因"
+   },
+   {
+    "o": "but",
+    "pos": "連接詞",
+    "zh": "但是",
+    "use": "A, but + 相反的 B",
+    "why": "前後不是轉折關係"
+   },
+   {
+    "o": "or",
+    "pos": "連接詞",
+    "zh": "或者",
+    "use": "A or B：二選一",
+    "why": "前後不是二選一"
+   }
+  ]
+ },
+ {
+  "id": "g400-29",
+  "key": "小（缺點）vs. 乾淨舒適（優點）→ 轉折 but",
+  "notes": [
+   {
+    "o": "but",
+    "pos": "連接詞",
+    "zh": "但是",
+    "use": "A, but + 相反的 B",
+    "why": "缺點 → 優點，前後相反"
+   },
+   {
+    "o": "so",
+    "pos": "連接詞",
+    "zh": "所以",
+    "use": "原因, so + 結果",
+    "why": "文法可以，但飯店小不會造成房間乾淨"
+   },
+   {
+    "o": "because",
+    "pos": "連接詞",
+    "zh": "因為",
+    "use": "結果 + because + 原因",
+    "why": "文法可以，但房間乾淨不是飯店小的原因"
+   },
+   {
+    "o": "if",
+    "pos": "連接詞",
+    "zh": "如果",
+    "use": "If + 條件子句, + 結果",
+    "why": "飯店小是事實，不是假設條件，語意不通"
+   }
+  ]
+ },
+ {
+  "id": "g400-30",
+  "key": "貴（應該沒人）vs. 客滿 → 讓步 Although + 子句",
+  "notes": [
+   {
+    "o": "Although",
+    "pos": "連接詞",
+    "zh": "雖然",
+    "use": "Although + 子句, + 主要子句（不再加 but）",
+    "why": "前後意思相反，用讓步"
+   },
+   {
+    "o": "Because",
+    "pos": "連接詞",
+    "zh": "因為",
+    "use": "Because + 原因子句, + 結果",
+    "why": "文法可以，但「貴所以客滿」不合常理"
+   },
+   {
+    "o": "If",
+    "pos": "連接詞",
+    "zh": "如果",
+    "use": "If + 條件子句, + 結果",
+    "why": "文法可以，但這是事實，不是假設條件"
+   },
+   {
+    "o": "So",
+    "pos": "連接詞",
+    "zh": "所以",
+    "use": "原因, so + 結果（放兩子句中間）",
+    "why": "So 是對等連接詞，不能造出「So 子句, 主句」"
+   }
+  ]
+ },
+ {
+  "id": "g400-31",
+  "key": "「電腦不能開機」是假設情況 → if + 子句",
+  "notes": [
+   {
+    "o": "if",
+    "pos": "連接詞",
+    "zh": "如果",
+    "use": "祈使句 + if + 條件子句",
+    "why": "表示「萬一發生」的條件"
+   },
+   {
+    "o": "but",
+    "pos": "連接詞",
+    "zh": "但是",
+    "use": "A, but + 相反的 B",
+    "why": "前後沒有轉折關係"
+   },
+   {
+    "o": "so",
+    "pos": "連接詞",
+    "zh": "所以",
+    "use": "原因, so + 結果",
+    "why": "so 若當「以便」，意思變成打電話讓電腦不開機，不合理"
+   },
+   {
+    "o": "because of",
+    "pos": "介系詞片語",
+    "zh": "因為",
+    "use": "because of + 名詞",
+    "why": "後面是子句，不能用 because of"
+   }
+  ]
+ },
+ {
+  "id": "g400-32",
+  "key": "空格後是子句（she arrives）→ 要連接詞；表「…的時候」用 when",
+  "notes": [
+   {
+    "o": "when",
+    "pos": "連接詞",
+    "zh": "當…時",
+    "use": "主句 + when + 子句（未來用現在式）",
+    "why": "when 後的子句用現在式表未來"
+   },
+   {
+    "o": "during",
+    "pos": "介系詞",
+    "zh": "在…期間",
+    "use": "during + 名詞",
+    "why": "後面是子句，介系詞不能接"
+   },
+   {
+    "o": "so",
+    "pos": "連接詞",
+    "zh": "所以",
+    "use": "原因, so + 結果",
+    "why": "抵達機場不是打電話的結果"
+   },
+   {
+    "o": "but",
+    "pos": "連接詞",
+    "zh": "但是",
+    "use": "A, but + 相反的 B",
+    "why": "前後沒有轉折關係"
+   }
+  ]
+ },
+ {
+  "id": "g400-33",
+  "key": "空格後是子句（he was busy），且意思相反 → although",
+  "notes": [
+   {
+    "o": "although",
+    "pos": "連接詞",
+    "zh": "雖然",
+    "use": "主句 + although + 子句",
+    "why": "很忙卻全部回完，前後相反"
+   },
+   {
+    "o": "because of",
+    "pos": "介系詞片語",
+    "zh": "因為",
+    "use": "because of + 名詞",
+    "why": "後面是子句，不能用介系詞"
+   },
+   {
+    "o": "if",
+    "pos": "連接詞",
+    "zh": "如果",
+    "use": "主句 + if + 條件子句",
+    "why": "這是過去的事實，不是假設條件，語意不通"
+   },
+   {
+    "o": "during",
+    "pos": "介系詞",
+    "zh": "在…期間",
+    "use": "during + 名詞",
+    "why": "後面是子句，介系詞不能接"
+   }
+  ]
+ },
+ {
+  "id": "g400-34",
+  "key": "看到 either → 固定搭配 either A or B",
+  "notes": [
+   {
+    "o": "or",
+    "pos": "連接詞",
+    "zh": "或者",
+    "use": "either A or B：兩者擇一",
+    "why": "either 一定配 or"
+   },
+   {
+    "o": "and",
+    "pos": "連接詞",
+    "zh": "和",
+    "use": "both A and B",
+    "why": "and 配 both，不配 either"
+   },
+   {
+    "o": "nor",
+    "pos": "連接詞",
+    "zh": "也不",
+    "use": "neither A nor B",
+    "why": "nor 配 neither，不配 either"
+   },
+   {
+    "o": "but",
+    "pos": "連接詞",
+    "zh": "但是",
+    "use": "not A but B",
+    "why": "either 不和 but 搭配"
+   }
+  ]
+ },
+ {
+  "id": "g400-35",
+  "key": "關燈要在離開「之前」做 → before + 子句",
+  "notes": [
+   {
+    "o": "before",
+    "pos": "連接詞",
+    "zh": "在…之前",
+    "use": "主句 + before + 子句",
+    "why": "先關燈，再離開"
+   },
+   {
+    "o": "because",
+    "pos": "連接詞",
+    "zh": "因為",
+    "use": "結果 + because + 原因",
+    "why": "文法可以，但離開不是關燈的理由"
+   },
+   {
+    "o": "until",
+    "pos": "連接詞",
+    "zh": "直到",
+    "use": "持續動作 + until + 子句",
+    "why": "關燈不是持續動作，語意不通"
+   },
+   {
+    "o": "so",
+    "pos": "連接詞",
+    "zh": "所以",
+    "use": "原因, so + 結果",
+    "why": "離開不是關燈的結果"
+   }
+  ]
+ },
+ {
+  "id": "g400-36",
+  "key": "空格後是名詞（ID card）→ 所有格 your + 名詞",
+  "notes": [
+   {
+    "o": "your",
+    "pos": "所有格",
+    "zh": "你的",
+    "use": "your + 名詞",
+    "why": "名詞前用所有格"
+   },
+   {
+    "o": "you",
+    "pos": "主格／受格",
+    "zh": "你",
+    "use": "當主詞或受詞，後面不接名詞",
+    "why": "you 不能直接修飾名詞"
+   },
+   {
+    "o": "yours",
+    "pos": "所有格代名詞",
+    "zh": "你的（東西）",
+    "use": "單獨使用 = your + 名詞，後面不接名詞",
+    "why": "yours 後面不能再接 ID card"
+   },
+   {
+    "o": "yourself",
+    "pos": "反身代名詞",
+    "zh": "你自己",
+    "use": "主詞和受詞同一人：help yourself",
+    "why": "yourself 不能放名詞前修飾"
+   }
+  ]
+ },
+ {
+  "id": "g400-37",
+  "key": "動詞 help 後面當受詞 → 受格 him",
+  "notes": [
+   {
+    "o": "him",
+    "pos": "受格",
+    "zh": "他",
+    "use": "動詞／介系詞 + 受格",
+    "why": "help 的受詞用受格"
+   },
+   {
+    "o": "he",
+    "pos": "主格",
+    "zh": "他",
+    "use": "當主詞，放動詞前",
+    "why": "受詞位置不能用主格"
+   },
+   {
+    "o": "his",
+    "pos": "所有格",
+    "zh": "他的",
+    "use": "his + 名詞",
+    "why": "後面沒有名詞，不能用 his"
+   },
+   {
+    "o": "himself",
+    "pos": "反身代名詞",
+    "zh": "他自己",
+    "use": "主詞和受詞同一人才用",
+    "why": "主詞是 you（祈使句），不是他"
+   }
+  ]
+ },
+ {
+  "id": "g400-38",
+  "key": "空格後是名詞（headquarters）→ 所有格 its（不是 it's）",
+  "notes": [
+   {
+    "o": "its",
+    "pos": "所有格",
+    "zh": "它的",
+    "use": "its + 名詞（指公司、團隊等）",
+    "why": "its = 它的；it's = it is"
+   },
+   {
+    "o": "it's",
+    "pos": "縮寫",
+    "zh": "它是",
+    "use": "it's = it is／it has",
+    "why": "「它是總部」放這裡文法不通"
+   },
+   {
+    "o": "it",
+    "pos": "主格／受格",
+    "zh": "它",
+    "use": "當主詞或受詞",
+    "why": "it 不能直接修飾名詞"
+   },
+   {
+    "o": "itself",
+    "pos": "反身代名詞",
+    "zh": "它自己",
+    "use": "主詞和受詞同一個才用",
+    "why": "後面有名詞，要所有格"
+   }
+  ]
+ },
+ {
+  "id": "g400-39",
+  "key": "空格後沒有名詞，對照 Kevin's → 所有格代名詞 mine",
+  "notes": [
+   {
+    "o": "mine",
+    "pos": "所有格代名詞",
+    "zh": "我的（東西）",
+    "use": "單獨使用 = my + 名詞",
+    "why": "mine = my laptop，和 Kevin's 對應"
+   },
+   {
+    "o": "my",
+    "pos": "所有格",
+    "zh": "我的",
+    "use": "my + 名詞",
+    "why": "後面沒有名詞，my 不能單獨用"
+   },
+   {
+    "o": "me",
+    "pos": "受格",
+    "zh": "我",
+    "use": "動詞／介系詞 + me",
+    "why": "文法可以，但筆電不是「我」本人"
+   },
+   {
+    "o": "I",
+    "pos": "主格",
+    "zh": "我",
+    "use": "當主詞，放動詞前",
+    "why": "be 動詞後不用 I，語意也不對"
+   }
+  ]
+ },
+ {
+  "id": "g400-40",
+  "key": "句尾強調「親自、自己」→ 反身代名詞 herself",
+  "notes": [
+   {
+    "o": "herself",
+    "pos": "反身代名詞",
+    "zh": "她自己",
+    "use": "句尾強調親自做：do it herself",
+    "why": "強調沒找人幫忙，自己修"
+   },
+   {
+    "o": "her",
+    "pos": "受格／所有格",
+    "zh": "她；她的",
+    "use": "動詞 + her；her + 名詞",
+    "why": "受詞已是 printer，後面也沒名詞"
+   },
+   {
+    "o": "hers",
+    "pos": "所有格代名詞",
+    "zh": "她的（東西）",
+    "use": "單獨使用 = her + 名詞",
+    "why": "放句尾不能表示「親自」"
+   },
+   {
+    "o": "she",
+    "pos": "主格",
+    "zh": "她",
+    "use": "當主詞，放動詞前",
+    "why": "這裡不是主詞的位置"
+   }
+  ]
+ },
+ {
+  "id": "g400-41",
+  "key": "空格後是動詞 met → 要主格；Ms. Patel and I = we",
+  "notes": [
+   {
+    "o": "we",
+    "pos": "主格",
+    "zh": "我們",
+    "use": "當主詞，放動詞前",
+    "why": "met 前缺主詞，用主格"
+   },
+   {
+    "o": "us",
+    "pos": "受格",
+    "zh": "我們",
+    "use": "動詞／介系詞 + us",
+    "why": "主詞位置不能用受格"
+   },
+   {
+    "o": "our",
+    "pos": "所有格",
+    "zh": "我們的",
+    "use": "our + 名詞",
+    "why": "後面是動詞，不是名詞"
+   },
+   {
+    "o": "ours",
+    "pos": "所有格代名詞",
+    "zh": "我們的（東西）",
+    "use": "單獨使用 = our + 名詞",
+    "why": "「我們的東西」不能見廠長"
+   }
+  ]
+ },
+ {
+  "id": "g400-42",
+  "key": "call 後面當受詞（指 the clients）→ 受格 them",
+  "notes": [
+   {
+    "o": "them",
+    "pos": "受格",
+    "zh": "他們",
+    "use": "call + 人 + back",
+    "why": "受詞位置用受格"
+   },
+   {
+    "o": "they",
+    "pos": "主格",
+    "zh": "他們",
+    "use": "當主詞，放動詞前",
+    "why": "受詞位置不能用主格"
+   },
+   {
+    "o": "their",
+    "pos": "所有格",
+    "zh": "他們的",
+    "use": "their + 名詞",
+    "why": "後面沒有名詞"
+   },
+   {
+    "o": "theirs",
+    "pos": "所有格代名詞",
+    "zh": "他們的（東西）",
+    "use": "單獨使用 = their + 名詞",
+    "why": "要回電的是客戶本人，不是東西"
+   }
+  ]
+ },
+ {
+  "id": "g400-43",
+  "key": "先行詞是人（The woman）＋空格後缺主詞 → who",
+  "notes": [
+   {
+    "o": "who",
+    "pos": "關係代名詞",
+    "zh": "…的人",
+    "use": "人 + who + 動詞",
+    "why": "先行詞是人，後面缺主詞"
+   },
+   {
+    "o": "which",
+    "pos": "關係代名詞",
+    "zh": "…的（事物）",
+    "use": "事物 + which + 子句",
+    "why": "which 只指事物，不指人"
+   },
+   {
+    "o": "whose",
+    "pos": "關係代名詞（所有格）",
+    "zh": "…的（某人的）",
+    "use": "先行詞 + whose + 名詞",
+    "why": "whose 後要接名詞，這裡是動詞"
+   },
+   {
+    "o": "what",
+    "pos": "關係代名詞",
+    "zh": "…的東西",
+    "use": "what = the thing that，前面不放先行詞",
+    "why": "前面已有先行詞 the woman"
+   }
+  ]
+ },
+ {
+  "id": "g400-44",
+  "key": "先行詞是物（The printer），子句缺受詞 → which",
+  "notes": [
+   {
+    "o": "which",
+    "pos": "關係代名詞",
+    "zh": "…的（事物）",
+    "use": "事物 + which + 子句",
+    "why": "先行詞是物，bought 缺受詞"
+   },
+   {
+    "o": "who",
+    "pos": "關係代名詞",
+    "zh": "…的人",
+    "use": "人 + who + 子句",
+    "why": "印表機不是人"
+   },
+   {
+    "o": "whose",
+    "pos": "關係代名詞（所有格）",
+    "zh": "…的（某人的）",
+    "use": "先行詞 + whose + 名詞",
+    "why": "whose 後要接名詞，這裡是 we"
+   },
+   {
+    "o": "where",
+    "pos": "關係副詞",
+    "zh": "在…的地方",
+    "use": "地點 + where + 完整子句",
+    "why": "印表機不是地點，且 bought 缺受詞"
+   }
+  ]
+ },
+ {
+  "id": "g400-45",
+  "key": "看到 than → 比較級；短形容詞加 -er",
+  "notes": [
+   {
+    "o": "larger",
+    "pos": "比較級",
+    "zh": "比較大",
+    "use": "短形容詞 + -er + than",
+    "why": "than 前用比較級"
+   },
+   {
+    "o": "large",
+    "pos": "原級",
+    "zh": "大的",
+    "use": "be + 形容詞；as large as",
+    "why": "後面有 than，要用比較級"
+   },
+   {
+    "o": "largest",
+    "pos": "最高級",
+    "zh": "最大的",
+    "use": "the + -est（三者以上）",
+    "why": "than 不和最高級連用"
+   },
+   {
+    "o": "more large",
+    "pos": "錯誤比較級",
+    "zh": "（錯誤形式）",
+    "use": "more + 長形容詞：more expensive",
+    "why": "large 是短字，比較級是 larger"
+   }
+  ]
+ },
+ {
+  "id": "g400-46",
+  "key": "the ___ + 長形容詞 + in 範圍 → 最高級 the most",
+  "notes": [
+   {
+    "o": "most",
+    "pos": "最高級",
+    "zh": "最…",
+    "use": "the most + 長形容詞 + in／of 範圍",
+    "why": "the + in our store → 最高級"
+   },
+   {
+    "o": "more",
+    "pos": "比較級",
+    "zh": "更…",
+    "use": "more + 長形容詞 + than",
+    "why": "沒有 than，也不是兩者比較"
+   },
+   {
+    "o": "much",
+    "pos": "副詞／限定詞",
+    "zh": "很多；…得多",
+    "use": "much + 比較級：much better",
+    "why": "沒有 the much popular；much 多修飾比較級"
+   },
+   {
+    "o": "many",
+    "pos": "限定詞",
+    "zh": "很多",
+    "use": "many + 複數名詞",
+    "why": "many 不修飾形容詞"
+   }
+  ]
+ },
+ {
+  "id": "g400-47",
+  "key": "空格後是複數可數名詞（complaints）→ many",
+  "notes": [
+   {
+    "o": "many",
+    "pos": "限定詞",
+    "zh": "很多",
+    "use": "many + 複數可數名詞",
+    "why": "complaints 是複數可數"
+   },
+   {
+    "o": "much",
+    "pos": "限定詞",
+    "zh": "很多",
+    "use": "much + 不可數名詞：much time",
+    "why": "much 不接複數名詞"
+   },
+   {
+    "o": "a little",
+    "pos": "限定詞",
+    "zh": "一點",
+    "use": "a little + 不可數名詞",
+    "why": "a little 不接複數名詞"
+   },
+   {
+    "o": "every",
+    "pos": "限定詞",
+    "zh": "每一個",
+    "use": "every + 單數名詞",
+    "why": "every 後面要單數名詞"
+   }
+  ]
+ },
+ {
+  "id": "g400-48",
+  "key": "time 是不可數名詞（配 is）→ much",
+  "notes": [
+   {
+    "o": "much",
+    "pos": "限定詞",
+    "zh": "很多",
+    "use": "much + 不可數名詞，多用於否定句",
+    "why": "time 不可數，not much「不多」"
+   },
+   {
+    "o": "many",
+    "pos": "限定詞",
+    "zh": "很多",
+    "use": "many + 複數可數名詞",
+    "why": "time 不可數，不能用 many"
+   },
+   {
+    "o": "few",
+    "pos": "限定詞",
+    "zh": "很少",
+    "use": "few + 複數可數名詞",
+    "why": "few 不接不可數名詞"
+   },
+   {
+    "o": "every",
+    "pos": "限定詞",
+    "zh": "每一個",
+    "use": "every + 單數可數名詞",
+    "why": "time 指時間時不可數"
+   }
+  ]
+ },
+ {
+  "id": "g400-49",
+  "key": "空格後是複數可數名詞（minutes）→ a few",
+  "notes": [
+   {
+    "o": "a few",
+    "pos": "限定詞",
+    "zh": "幾個",
+    "use": "a few + 複數可數名詞",
+    "why": "in a few minutes「幾分鐘後」"
+   },
+   {
+    "o": "a little",
+    "pos": "限定詞",
+    "zh": "一點",
+    "use": "a little + 不可數名詞",
+    "why": "minutes 可數，不能用 a little"
+   },
+   {
+    "o": "much",
+    "pos": "限定詞",
+    "zh": "很多",
+    "use": "much + 不可數名詞",
+    "why": "minutes 可數，不能用 much"
+   },
+   {
+    "o": "every",
+    "pos": "限定詞",
+    "zh": "每一個",
+    "use": "every + 單數名詞",
+    "why": "every 後面要單數名詞"
+   }
+  ]
+ },
+ {
+  "id": "g400-50",
+  "key": "空格後是單數可數名詞（order）＋ it → every",
+  "notes": [
+   {
+    "o": "every",
+    "pos": "限定詞",
+    "zh": "每一個",
+    "use": "every + 單數名詞（動詞用單數）",
+    "why": "order 單數，後面 it 也指單數"
+   },
+   {
+    "o": "all",
+    "pos": "限定詞",
+    "zh": "所有的",
+    "use": "all + 複數名詞／不可數名詞",
+    "why": "all 不接單數可數名詞 order"
+   },
+   {
+    "o": "many",
+    "pos": "限定詞",
+    "zh": "很多",
+    "use": "many + 複數可數名詞",
+    "why": "order 是單數，不能用 many"
+   },
+   {
+    "o": "few",
+    "pos": "限定詞",
+    "zh": "很少",
+    "use": "few + 複數可數名詞",
+    "why": "order 是單數，不能用 few"
+   }
+  ]
+ }
+]

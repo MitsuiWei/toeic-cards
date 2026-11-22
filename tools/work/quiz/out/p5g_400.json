@@ -1,0 +1,602 @@
+[
+ {
+  "gid": "g400-01",
+  "type": "verb",
+  "q": "Mr. Wu did not ------- the invoice to the client last week.",
+  "answer": "send",
+  "distractors": [
+   "sent",
+   "sending",
+   "sends"
+  ],
+  "zh": "吳先生上週沒有把發票寄給客戶。"
+ },
+ {
+  "gid": "g400-02",
+  "type": "verb",
+  "q": "The new printers ------- to the second floor yesterday afternoon.",
+  "answer": "were delivered",
+  "distractors": [
+   "delivered",
+   "are delivering",
+   "will deliver"
+  ],
+  "zh": "新的印表機昨天下午被送到了二樓。"
+ },
+ {
+  "gid": "g400-03",
+  "type": "verb",
+  "q": "Our team ------- a meeting with the client next Tuesday.",
+  "answer": "will have",
+  "distractors": [
+   "had",
+   "has had",
+   "having"
+  ],
+  "zh": "我們團隊下週二將和客戶開會。"
+ },
+ {
+  "gid": "g400-04",
+  "type": "verb",
+  "q": "Mr. Park is ------- the shipping schedule with the warehouse staff right now.",
+  "answer": "discussing",
+  "distractors": [
+   "discuss",
+   "discussed",
+   "discusses"
+  ],
+  "zh": "朴先生現在正在和倉庫人員討論出貨時程。"
+ },
+ {
+  "gid": "g400-05",
+  "type": "verb",
+  "q": "All visitors must ------- a name badge while they are in the factory.",
+  "answer": "wear",
+  "distractors": [
+   "wearing",
+   "wore",
+   "to wear"
+  ],
+  "zh": "所有訪客在工廠內都必須配戴名牌。"
+ },
+ {
+  "gid": "g400-06",
+  "type": "verb",
+  "q": "The manager wants ------- the new staff training program before July.",
+  "answer": "to finish",
+  "distractors": [
+   "finish",
+   "finishing",
+   "finished"
+  ],
+  "zh": "經理想在七月前完成新進員工訓練計畫。"
+ },
+ {
+  "gid": "g400-07",
+  "type": "verb",
+  "q": "Many of our employees enjoy ------- with customers at the front desk.",
+  "answer": "talking",
+  "distractors": [
+   "talk",
+   "to talk",
+   "talked"
+  ],
+  "zh": "我們很多員工喜歡在櫃檯和客人聊天。"
+ },
+ {
+  "gid": "g400-08",
+  "type": "verb",
+  "q": "The price of the new laptops ------- higher than we expected.",
+  "answer": "is",
+  "distractors": [
+   "are",
+   "be",
+   "being"
+  ],
+  "zh": "新筆電的價格比我們預期的高。"
+ },
+ {
+  "gid": "g400-09",
+  "type": "verb",
+  "q": "The company ------- a new branch office in Taichung last year.",
+  "answer": "opened",
+  "distractors": [
+   "opens",
+   "will open",
+   "has opened"
+  ],
+  "zh": "這家公司去年在台中開了一間新的分公司。"
+ },
+ {
+  "gid": "g400-10",
+  "type": "verb",
+  "q": "Lunch ------- in the cafeteria from noon to 1:30 every day.",
+  "answer": "is served",
+  "distractors": [
+   "serves",
+   "served",
+   "is serving"
+  ],
+  "zh": "午餐每天中午到一點半在員工餐廳供應。"
+ },
+ {
+  "gid": "g400-11",
+  "type": "verb",
+  "q": "Our customers often ------- about the long wait at the service counter.",
+  "answer": "complain",
+  "distractors": [
+   "complains",
+   "complaining",
+   "to complain"
+  ],
+  "zh": "我們的顧客常抱怨服務櫃台要等很久。"
+ },
+ {
+  "gid": "g400-12",
+  "type": "verb",
+  "q": "The marketing director ------- the new product at the trade show tomorrow.",
+  "answer": "will present",
+  "distractors": [
+   "presented",
+   "has presented",
+   "presenting"
+  ],
+  "zh": "行銷總監明天將在商展上介紹新產品。"
+ },
+ {
+  "gid": "g400-13",
+  "type": "verb",
+  "q": "Ms. Lin ------- a phone call when the fire alarm rang.",
+  "answer": "was making",
+  "distractors": [
+   "is making",
+   "makes",
+   "will make"
+  ],
+  "zh": "火災警報響起時，林小姐正在講電話。"
+ },
+ {
+  "gid": "g400-14",
+  "type": "verb",
+  "q": "Customers can ------- the status of their orders online 24 hours a day.",
+  "answer": "check",
+  "distractors": [
+   "checks",
+   "checked",
+   "checking"
+  ],
+  "zh": "顧客可以全天候在網路上查詢訂單狀態。"
+ },
+ {
+  "gid": "g400-15",
+  "type": "verb",
+  "q": "The annual sales award ------- by the company president every December.",
+  "answer": "is given",
+  "distractors": [
+   "gives",
+   "giving",
+   "has given"
+  ],
+  "zh": "年度業績獎每年十二月由公司總裁頒發。"
+ },
+ {
+  "gid": "g400-16",
+  "type": "prep",
+  "q": "The new bakery on Main Street opens ------- 9:00 A.M. on weekdays.",
+  "answer": "at",
+  "distractors": [
+   "in",
+   "on",
+   "for"
+  ],
+  "zh": "緬因街上新開的麵包店平日早上九點開門。"
+ },
+ {
+  "gid": "g400-17",
+  "type": "prep",
+  "q": "The company's annual shareholders' meeting will be held ------- March this year.",
+  "answer": "in",
+  "distractors": [
+   "at",
+   "on",
+   "since"
+  ],
+  "zh": "公司今年的年度股東會將在三月舉行。"
+ },
+ {
+  "gid": "g400-18",
+  "type": "prep",
+  "q": "Please submit your travel expenses to the accounting department ------- Friday.",
+  "answer": "by",
+  "distractors": [
+   "until",
+   "at",
+   "during"
+  ],
+  "zh": "請在週五前把差旅費用交給會計部。"
+ },
+ {
+  "gid": "g400-19",
+  "type": "prep",
+  "q": "To serve more customers, the shop will stay open ------- 8 P.M. this Friday.",
+  "answer": "until",
+  "distractors": [
+   "by",
+   "at",
+   "since"
+  ],
+  "zh": "為了服務更多顧客，這家店本週五會營業到晚上八點。"
+ },
+ {
+  "gid": "g400-20",
+  "type": "prep",
+  "q": "Please turn off your mobile phones ------- the presentation in the main hall.",
+  "answer": "during",
+  "distractors": [
+   "between",
+   "among",
+   "since"
+  ],
+  "zh": "在大廳進行簡報期間，請關閉手機。"
+ },
+ {
+  "gid": "g400-21",
+  "type": "prep",
+  "q": "Mr. Kim has worked at the Seoul branch ------- ten years.",
+  "answer": "for",
+  "distractors": [
+   "since",
+   "during",
+   "at"
+  ],
+  "zh": "金先生已經在首爾分公司工作十年了。"
+ },
+ {
+  "gid": "g400-22",
+  "type": "prep",
+  "q": "Our new store in Tainan will open ------- May 15.",
+  "answer": "on",
+  "distractors": [
+   "in",
+   "at",
+   "during"
+  ],
+  "zh": "我們台南的新店將於五月十五日開幕。"
+ },
+ {
+  "gid": "g400-23",
+  "type": "prep",
+  "q": "The prices of these jackets will go back to normal ------- the holiday sale.",
+  "answer": "after",
+  "distractors": [
+   "during",
+   "among",
+   "since"
+  ],
+  "zh": "這些夾克的價格在假期特賣後會恢復原價。"
+ },
+ {
+  "gid": "g400-24",
+  "type": "prep",
+  "q": "The meeting room is ------- the third floor of the building.",
+  "answer": "on",
+  "distractors": [
+   "in",
+   "at",
+   "by"
+  ],
+  "zh": "會議室在大樓的三樓。"
+ },
+ {
+  "gid": "g400-25",
+  "type": "prep",
+  "q": "Most of the employees at our Taipei office come to work ------- bus.",
+  "answer": "by",
+  "distractors": [
+   "on",
+   "with",
+   "in"
+  ],
+  "zh": "我們台北辦公室的大部分員工搭公車上班。"
+ },
+ {
+  "gid": "g400-26",
+  "type": "conj",
+  "q": "The store closed early yesterday ------- there was a power failure.",
+  "answer": "because",
+  "distractors": [
+   "so",
+   "but",
+   "or"
+  ],
+  "zh": "這家店昨天提早打烊，因為停電了。"
+ },
+ {
+  "gid": "g400-27",
+  "type": "conj",
+  "q": "The flight to Tokyo was delayed for two hours ------- the heavy rain.",
+  "answer": "because of",
+  "distractors": [
+   "because",
+   "so",
+   "although"
+  ],
+  "zh": "飛往東京的班機因為大雨延誤了兩小時。"
+ },
+ {
+  "gid": "g400-28",
+  "type": "conj",
+  "q": "The printer was out of paper, ------- Mr. Davis went to buy some.",
+  "answer": "so",
+  "distractors": [
+   "because",
+   "but",
+   "or"
+  ],
+  "zh": "印表機沒紙了，所以戴維斯先生去買了一些。"
+ },
+ {
+  "gid": "g400-29",
+  "type": "conj",
+  "q": "The hotel is small, ------- the rooms are very clean and comfortable.",
+  "answer": "but",
+  "distractors": [
+   "so",
+   "because",
+   "if"
+  ],
+  "zh": "這家飯店很小，但房間很乾淨又舒適。"
+ },
+ {
+  "gid": "g400-30",
+  "type": "conj",
+  "q": "------- the restaurant is expensive, it is always full of customers.",
+  "answer": "Although",
+  "distractors": [
+   "Because",
+   "If",
+   "So"
+  ],
+  "zh": "雖然這家餐廳很貴，卻總是客滿。"
+ },
+ {
+  "gid": "g400-31",
+  "type": "conj",
+  "q": "Please call the help desk ------- your computer does not start.",
+  "answer": "if",
+  "distractors": [
+   "but",
+   "so",
+   "because of"
+  ],
+  "zh": "如果你的電腦無法開機，請打電話給服務台。"
+ },
+ {
+  "gid": "g400-32",
+  "type": "conj",
+  "q": "Ms. Garcia will call you ------- she arrives at the airport.",
+  "answer": "when",
+  "distractors": [
+   "during",
+   "so",
+   "but"
+  ],
+  "zh": "賈西亞小姐抵達機場時會打電話給你。"
+ },
+ {
+  "gid": "g400-33",
+  "type": "conj",
+  "q": "Mr. Hill answered all the customer e-mails ------- he was very busy.",
+  "answer": "although",
+  "distractors": [
+   "because of",
+   "if",
+   "during"
+  ],
+  "zh": "希爾先生雖然很忙，還是回覆了所有客戶的電子郵件。"
+ },
+ {
+  "gid": "g400-34",
+  "type": "conj",
+  "q": "You can pay either by credit card ------- in cash at the front desk.",
+  "answer": "or",
+  "distractors": [
+   "and",
+   "nor",
+   "but"
+  ],
+  "zh": "您可以在櫃台用信用卡或現金付款。"
+ },
+ {
+  "gid": "g400-35",
+  "type": "conj",
+  "q": "Please turn off the lights ------- you leave the office.",
+  "answer": "before",
+  "distractors": [
+   "because",
+   "until",
+   "so"
+  ],
+  "zh": "離開辦公室之前請關燈。"
+ },
+ {
+  "gid": "g400-36",
+  "type": "pron",
+  "q": "Please bring ------- ID card to the training session tomorrow.",
+  "answer": "your",
+  "distractors": [
+   "you",
+   "yours",
+   "yourself"
+  ],
+  "zh": "明天請帶你的識別證來參加訓練課程。"
+ },
+ {
+  "gid": "g400-37",
+  "type": "pron",
+  "q": "Mr. Ortiz is new here, so please help ------- with the copy machine.",
+  "answer": "him",
+  "distractors": [
+   "he",
+   "his",
+   "himself"
+  ],
+  "zh": "歐提茲先生是新來的，請幫他操作影印機。"
+ },
+ {
+  "gid": "g400-38",
+  "type": "pron",
+  "q": "The company moved ------- headquarters from Taipei to Kaohsiung last year.",
+  "answer": "its",
+  "distractors": [
+   "it's",
+   "it",
+   "itself"
+  ],
+  "zh": "這家公司去年把總部從台北遷到了高雄。"
+ },
+ {
+  "gid": "g400-39",
+  "type": "pron",
+  "q": "The black laptop on the desk is not Kevin's; it is -------.",
+  "answer": "mine",
+  "distractors": [
+   "my",
+   "me",
+   "I"
+  ],
+  "zh": "桌上那台黑色筆電不是凱文的，是我的。"
+ },
+ {
+  "gid": "g400-40",
+  "type": "pron",
+  "q": "Ms. Adams fixed the broken printer -------, so she did not call a technician.",
+  "answer": "herself",
+  "distractors": [
+   "her",
+   "hers",
+   "she"
+  ],
+  "zh": "亞當斯小姐自己修好了壞掉的印表機，所以沒有叫技師。"
+ },
+ {
+  "gid": "g400-41",
+  "type": "pron",
+  "q": "Ms. Patel and I visited the factory, and ------- met the plant manager.",
+  "answer": "we",
+  "distractors": [
+   "us",
+   "our",
+   "ours"
+  ],
+  "zh": "帕特爾小姐和我參觀了工廠，我們也見了廠長。"
+ },
+ {
+  "gid": "g400-42",
+  "type": "pron",
+  "q": "The clients called this morning, so Mr. Hall will call ------- back after lunch.",
+  "answer": "them",
+  "distractors": [
+   "they",
+   "their",
+   "theirs"
+  ],
+  "zh": "客戶今天早上來過電話，所以霍爾先生午餐後會回電給他們。"
+ },
+ {
+  "gid": "g400-43",
+  "type": "other",
+  "q": "The woman ------- answered the phone is our new receptionist.",
+  "answer": "who",
+  "distractors": [
+   "which",
+   "whose",
+   "what"
+  ],
+  "zh": "接電話的那位女士是我們新來的接待員。"
+ },
+ {
+  "gid": "g400-44",
+  "type": "other",
+  "q": "The printer ------- we bought last month is already broken.",
+  "answer": "which",
+  "distractors": [
+   "who",
+   "whose",
+   "where"
+  ],
+  "zh": "我們上個月買的印表機已經壞了。"
+ },
+ {
+  "gid": "g400-45",
+  "type": "other",
+  "q": "The new office on Park Road is ------- than the old one.",
+  "answer": "larger",
+  "distractors": [
+   "large",
+   "largest",
+   "more large"
+  ],
+  "zh": "公園路上的新辦公室比舊的大。"
+ },
+ {
+  "gid": "g400-46",
+  "type": "other",
+  "q": "This is the ------- popular product in our online store.",
+  "answer": "most",
+  "distractors": [
+   "more",
+   "much",
+   "many"
+  ],
+  "zh": "這是我們網路商店裡最受歡迎的產品。"
+ },
+ {
+  "gid": "g400-47",
+  "type": "other",
+  "q": "We did not receive ------- complaints about the new service.",
+  "answer": "many",
+  "distractors": [
+   "much",
+   "a little",
+   "every"
+  ],
+  "zh": "我們沒有收到很多關於新服務的抱怨。"
+ },
+ {
+  "gid": "g400-48",
+  "type": "other",
+  "q": "There is not ------- time left before the meeting starts.",
+  "answer": "much",
+  "distractors": [
+   "many",
+   "few",
+   "every"
+  ],
+  "zh": "離會議開始沒剩多少時間了。"
+ },
+ {
+  "gid": "g400-49",
+  "type": "other",
+  "q": "Ms. Kato is at lunch now, but she will be back in ------- minutes.",
+  "answer": "a few",
+  "distractors": [
+   "a little",
+   "much",
+   "every"
+  ],
+  "zh": "加藤小姐現在去吃午餐了，但幾分鐘後就會回來。"
+ },
+ {
+  "gid": "g400-50",
+  "type": "other",
+  "q": "The manager checks ------- order before it leaves the warehouse.",
+  "answer": "every",
+  "distractors": [
+   "all",
+   "many",
+   "few"
+  ],
+  "zh": "經理會在每一張訂單出倉庫前檢查它。"
+ }
+]

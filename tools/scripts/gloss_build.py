@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 """把題庫小字典合併成網站用的 data/gloss.js，並用 CMUdict 補上音標（和單字卡同一套轉換）。
 用法：python3 gloss_build.py
-輸入：/home/claude/work/gloss/out/gloss_{1..4}.json、/home/claude/work/gloss/fixes.json（人工修正，可無）
+輸入：/home/claude/work/gloss/out/gloss_{1..5}.json、/home/claude/work/gloss/fixes.json（人工修正，可無）
 輸出：site/data/gloss.js
   window.GLOSS = {
     f: { 變化形: 原形 },                         只列和原形不同的
@@ -21,8 +21,9 @@ G = '/home/claude/work/gloss'
 SITE = '/home/claude/work/site'
 listw = set(open(os.path.join(G, 'in', 'list_words.txt'), encoding='utf-8').read().split('\n'))
 entries = []
-for i in (1, 2, 3, 4):
-    entries += json.load(open(os.path.join(G, 'out', 'gloss_%d.json' % i), encoding='utf-8'))
+for i in (1, 2, 3, 4, 5):          # 5 = 之後補的（文法題用到的字），格式相同，手寫
+    gp = os.path.join(G, 'out', 'gloss_%d.json' % i)
+    if os.path.exists(gp): entries += json.load(open(gp, encoding='utf-8'))
 fixes = {}
 fp = os.path.join(G, 'fixes.json')
 if os.path.exists(fp): fixes = json.load(open(fp, encoding='utf-8'))
@@ -62,7 +63,7 @@ for l in sorted(defs):
 # 顯示時要大寫的原形（月份、星期、國籍語言、I、縮寫）
 MONTHS = ['january', 'february', 'march', 'april', 'may', 'june', 'july', 'august', 'september', 'october', 'november', 'december']
 DAYS = ['monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday', 'sunday']
-NAT = ['english', 'european', 'italian', 'korean', 'japanese', 'chinese', 'american', 'french', 'german', 'spanish', 'asian', 'british', 'canadian', 'australian', 'taiwanese', 'indian', 'mexican', 'thai', 'vietnamese']
+NAT = ['english', 'european', 'italian', 'korean', 'japanese', 'chinese', 'american', 'french', 'german', 'spanish', 'asian', 'british', 'canadian', 'australian', 'taiwanese', 'indian', 'mexican', 'thai', 'vietnamese', 'portuguese']
 UPPER = ['ceo', 'hr', 'id', 'pdf', 'qr', 'ok', 'tv', 'atm', 'vip', 'usb', 'gps', 'faq', 'it', 'pc', 'cv', 'pr', 'diy', 'ai']
 TITLE = ['mr', 'mrs', 'ms', 'dr', 'ltd', 'inc']
 disp = {}

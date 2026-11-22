@@ -150,5 +150,30 @@
  "l800-042": {
   "q": "Would you like to delegate some of your workload to me?",
   "zh_q": "你要不要把一部分工作交給我？"
+ },
+ "g990-07": {
+  "q": "The contract, ------- by both parties last Tuesday, will go into effect at the start of the next fiscal quarter."
+ },
+ "g990-42": {
+  "zh": "公司鼓勵實習生先獨力完成第一項作業，再向資深同事求助。"
+ },
+ "g800-42": {
+  "zh": "兩位區域經理彼此很少直接聯絡，因此常造成延誤。"
+ },
+ "g800-44": {
+  "zh": "顧客可以選擇對自己最方便的付款方式。"
+ },
+ "g600-40": {
+  "distractors.2": "mine"
+ },
+ "g600-34": {
+  "q": "The office printer is out of toner; -------, the sales report will be printed tomorrow morning instead of today.",
+  "zh": "辦公室印表機沒碳粉了，因此業務報告今天不印，改到明天早上列印。"
+ },
+ "g400-16": {
+  "zh": "主街上新開的麵包店平日早上九點開門。"
+ },
+ "g600-14": {
+  "zh": "我們最資深的技術人員之一每天早上在工廠開工前檢查設備。"
  }
 }

@@ -1,0 +1,602 @@
+[
+ {
+  "gid": "g600-01",
+  "type": "verb",
+  "q": "Ms. Lin ------- in the accounting department since she joined the company in 2020.",
+  "answer": "has worked",
+  "distractors": [
+   "worked",
+   "is working",
+   "will work"
+  ],
+  "zh": "林小姐自 2020 年進公司以來，一直在會計部工作。"
+ },
+ {
+  "gid": "g600-02",
+  "type": "verb",
+  "q": "The quarterly report ------- by the finance team before the board meeting next Thursday.",
+  "answer": "must be reviewed",
+  "distractors": [
+   "must review",
+   "must reviewing",
+   "must be reviewing"
+  ],
+  "zh": "季報必須在下週四董事會之前由財務團隊審閱完畢。"
+ },
+ {
+  "gid": "g600-03",
+  "type": "verb",
+  "q": "Several customers said the new online ordering system was -------, so the company simplified it.",
+  "answer": "confusing",
+  "distractors": [
+   "confused",
+   "confuse",
+   "confusion"
+  ],
+  "zh": "好幾位顧客說新的線上訂購系統令人困惑，所以公司把它簡化了。"
+ },
+ {
+  "gid": "g600-04",
+  "type": "verb",
+  "q": "Employees who are ------- in joining the mentoring program should contact Human Resources by Friday.",
+  "answer": "interested",
+  "distractors": [
+   "interesting",
+   "interest",
+   "interests"
+  ],
+  "zh": "有興趣參加導師計畫的員工應在週五前聯絡人資部。"
+ },
+ {
+  "gid": "g600-05",
+  "type": "verb",
+  "q": "Thank you for ------- the customer satisfaction survey last week.",
+  "answer": "completing",
+  "distractors": [
+   "complete",
+   "completed",
+   "to complete"
+  ],
+  "zh": "感謝您上週填寫顧客滿意度調查。"
+ },
+ {
+  "gid": "g600-06",
+  "type": "verb",
+  "q": "If the shipment ------- on time tomorrow, we will begin assembly on Wednesday.",
+  "answer": "arrives",
+  "distractors": [
+   "will arrive",
+   "arrived",
+   "would arrive"
+  ],
+  "zh": "如果貨明天準時到，我們週三就會開始組裝。"
+ },
+ {
+  "gid": "g600-07",
+  "type": "verb",
+  "q": "The list of approved vendors ------- updated every January by the purchasing department.",
+  "answer": "is",
+  "distractors": [
+   "are",
+   "be",
+   "being"
+  ],
+  "zh": "核可供應商名單每年一月由採購部更新。"
+ },
+ {
+  "gid": "g600-08",
+  "type": "verb",
+  "q": "The company plans ------- a new branch office in Kaohsiung early next year.",
+  "answer": "to open",
+  "distractors": [
+   "opening",
+   "opened",
+   "open"
+  ],
+  "zh": "公司計畫明年初在高雄開設新的分公司。"
+ },
+ {
+  "gid": "g600-09",
+  "type": "verb",
+  "q": "The manager suggested ------- the training session until after the product launch.",
+  "answer": "postponing",
+  "distractors": [
+   "to postpone",
+   "postpone",
+   "postponed"
+  ],
+  "zh": "經理建議把訓練課程延到產品上市之後。"
+ },
+ {
+  "gid": "g600-10",
+  "type": "verb",
+  "q": "Mr. Chen ------- the contract with the new supplier two days ago.",
+  "answer": "signed",
+  "distractors": [
+   "has signed",
+   "signs",
+   "will sign"
+  ],
+  "zh": "陳先生兩天前和新供應商簽了合約。"
+ },
+ {
+  "gid": "g600-11",
+  "type": "verb",
+  "q": "All orders ------- after 3 p.m. will be shipped the next business day.",
+  "answer": "placed",
+  "distractors": [
+   "placing",
+   "are placed",
+   "places"
+  ],
+  "zh": "下午三點以後下的訂單，將於下一個營業日出貨。"
+ },
+ {
+  "gid": "g600-12",
+  "type": "verb",
+  "q": "Three new warehouses ------- in the region since 2022.",
+  "answer": "have been built",
+  "distractors": [
+   "have built",
+   "were built",
+   "are building"
+  ],
+  "zh": "自 2022 年以來，這個地區已經蓋了三座新倉庫。"
+ },
+ {
+  "gid": "g600-13",
+  "type": "verb",
+  "q": "The winners of the sales contest ------- at the company dinner next Friday.",
+  "answer": "will be announced",
+  "distractors": [
+   "announced",
+   "will announce",
+   "have been announced"
+  ],
+  "zh": "業績競賽的得主將在下週五的公司晚宴上公布。"
+ },
+ {
+  "gid": "g600-14",
+  "type": "verb",
+  "q": "One of our most experienced technicians ------- the equipment every morning before the factory opens.",
+  "answer": "inspects",
+  "distractors": [
+   "inspect",
+   "inspecting",
+   "have inspected"
+  ],
+  "zh": "我們一位最資深的技術人員每天早上在工廠開工前檢查設備。"
+ },
+ {
+  "gid": "g600-15",
+  "type": "verb",
+  "q": "The power went out while Ms. Park ------- her presentation to the clients.",
+  "answer": "was giving",
+  "distractors": [
+   "gives",
+   "is giving",
+   "has given"
+  ],
+  "zh": "朴小姐正在向客戶做簡報時停電了。"
+ },
+ {
+  "gid": "g600-16",
+  "type": "prep",
+  "q": "Please submit your expense reports ------- five business days of returning from your trip.",
+  "answer": "within",
+  "distractors": [
+   "during",
+   "among",
+   "since"
+  ],
+  "zh": "請在出差回來後五個工作天內繳交費用報告。"
+ },
+ {
+  "gid": "g600-17",
+  "type": "prep",
+  "q": "The museum's gift shop is busy ------- the year, not just during the holiday season.",
+  "answer": "throughout",
+  "distractors": [
+   "among",
+   "between",
+   "along"
+  ],
+  "zh": "博物館的禮品店一整年都很忙，不只是節慶期間。"
+ },
+ {
+  "gid": "g600-18",
+  "type": "prep",
+  "q": "The new manager is already popular ------- the younger employees in the sales department.",
+  "answer": "among",
+  "distractors": [
+   "between",
+   "along",
+   "across"
+  ],
+  "zh": "新經理已經很受業務部年輕員工的歡迎。"
+ },
+ {
+  "gid": "g600-19",
+  "type": "prep",
+  "q": "The flight to Singapore was delayed ------- heavy fog at the airport.",
+  "answer": "due to",
+  "distractors": [
+   "according to",
+   "instead of",
+   "in spite of"
+  ],
+  "zh": "飛往新加坡的班機因機場濃霧而延誤。"
+ },
+ {
+  "gid": "g600-20",
+  "type": "prep",
+  "q": "Most customers prefer to shop online on weekends, ------- the latest market survey.",
+  "answer": "according to",
+  "distractors": [
+   "due to",
+   "regardless of",
+   "on behalf of"
+  ],
+  "zh": "根據最新的市場調查，大多數顧客偏好在週末上網購物。"
+ },
+ {
+  "gid": "g600-21",
+  "type": "prep",
+  "q": "The new parking regulations will take effect ------- July 1.",
+  "answer": "on",
+  "distractors": [
+   "in",
+   "at",
+   "for"
+  ],
+  "zh": "新的停車規定將於 7 月 1 日生效。"
+ },
+ {
+  "gid": "g600-22",
+  "type": "prep",
+  "q": "During the holiday sale, the store will remain open ------- 9 p.m. every night.",
+  "answer": "until",
+  "distractors": [
+   "by",
+   "since",
+   "within"
+  ],
+  "zh": "假日特賣期間，店家每晚營業到晚上九點。"
+ },
+ {
+  "gid": "g600-23",
+  "type": "prep",
+  "q": "Ms. Wu is responsible ------- training all new employees in the customer service department.",
+  "answer": "for",
+  "distractors": [
+   "to",
+   "of",
+   "with"
+  ],
+  "zh": "吳小姐負責訓練客服部所有新進員工。"
+ },
+ {
+  "gid": "g600-24",
+  "type": "prep",
+  "q": "The conference room is located ------- the second floor, next to the elevators.",
+  "answer": "on",
+  "distractors": [
+   "in",
+   "at",
+   "to"
+  ],
+  "zh": "會議室位於二樓，在電梯旁邊。"
+ },
+ {
+  "gid": "g600-25",
+  "type": "prep",
+  "q": "Our online sales increased ------- 15 percent over the previous quarter.",
+  "answer": "by",
+  "distractors": [
+   "at",
+   "in",
+   "for"
+  ],
+  "zh": "我們的線上銷售額比上一季增加了 15%。"
+ },
+ {
+  "gid": "g600-26",
+  "type": "conj",
+  "q": "------- the bad weather, the outdoor product launch went ahead as planned.",
+  "answer": "Despite",
+  "distractors": [
+   "Although",
+   "However",
+   "Because"
+  ],
+  "zh": "儘管天氣惡劣，戶外產品發表會仍照計畫舉行。"
+ },
+ {
+  "gid": "g600-27",
+  "type": "conj",
+  "q": "------- the train was delayed for an hour, Mr. Kim arrived at the meeting on time.",
+  "answer": "Although",
+  "distractors": [
+   "Despite",
+   "Because of",
+   "Nevertheless"
+  ],
+  "zh": "雖然火車誤點一小時，金先生還是準時到了會議。"
+ },
+ {
+  "gid": "g600-28",
+  "type": "conj",
+  "q": "The company canceled the year-end party ------- low attendance at last year's event.",
+  "answer": "because of",
+  "distractors": [
+   "because",
+   "so",
+   "although"
+  ],
+  "zh": "由於去年活動出席率低，公司取消了尾牙。"
+ },
+ {
+  "gid": "g600-29",
+  "type": "conj",
+  "q": "Ms. Tsai could not attend the workshop ------- she had a meeting with an important client.",
+  "answer": "because",
+  "distractors": [
+   "because of",
+   "despite",
+   "unless"
+  ],
+  "zh": "蔡小姐無法參加研習會，因為她要和一位重要客戶開會。"
+ },
+ {
+  "gid": "g600-30",
+  "type": "conj",
+  "q": "Your order will be shipped ------- your payment has been confirmed.",
+  "answer": "once",
+  "distractors": [
+   "unless",
+   "during",
+   "despite"
+  ],
+  "zh": "您的付款一經確認，訂單就會出貨。"
+ },
+ {
+  "gid": "g600-31",
+  "type": "conj",
+  "q": "Employees cannot enter the server room ------- they have a valid security badge.",
+  "answer": "unless",
+  "distractors": [
+   "although",
+   "despite",
+   "therefore"
+  ],
+  "zh": "員工除非持有有效的門禁卡，否則不能進入機房。"
+ },
+ {
+  "gid": "g600-32",
+  "type": "conj",
+  "q": "The technician will call you ------- the repairs on your laptop are finished.",
+  "answer": "as soon as",
+  "distractors": [
+   "as well as",
+   "such as",
+   "as far as"
+  ],
+  "zh": "您的筆電一修好，技術人員就會打電話給您。"
+ },
+ {
+  "gid": "g600-33",
+  "type": "conj",
+  "q": "Mr. Lee answered several e-mails ------- he was waiting for his flight at the airport.",
+  "answer": "while",
+  "distractors": [
+   "during",
+   "unless",
+   "so"
+  ],
+  "zh": "李先生在機場候機時回了好幾封電子郵件。"
+ },
+ {
+  "gid": "g600-34",
+  "type": "conj",
+  "q": "The office printer is out of toner; -------, the sales report will be printed tomorrow morning.",
+  "answer": "therefore",
+  "distractors": [
+   "however",
+   "because",
+   "although"
+  ],
+  "zh": "辦公室印表機沒碳粉了，因此業務報告將於明天早上列印。"
+ },
+ {
+  "gid": "g600-35",
+  "type": "conj",
+  "q": "The new accounting software is expensive. -------, it will save the company a great deal of time.",
+  "answer": "However",
+  "distractors": [
+   "Despite",
+   "Although",
+   "Therefore"
+  ],
+  "zh": "新的會計軟體很貴。然而，它能幫公司省下大量時間。"
+ },
+ {
+  "gid": "g600-36",
+  "type": "pron",
+  "q": "The two departments will need to work closely with ------- to finish the project by June.",
+  "answer": "each other",
+  "distractors": [
+   "themselves",
+   "their",
+   "theirs"
+  ],
+  "zh": "這兩個部門需要彼此密切合作，才能在六月前完成專案。"
+ },
+ {
+  "gid": "g600-37",
+  "type": "pron",
+  "q": "Ms. Huang prepared the entire budget proposal on ------- own.",
+  "answer": "her",
+  "distractors": [
+   "she",
+   "hers",
+   "herself"
+  ],
+  "zh": "黃小姐獨自完成了整份預算提案。"
+ },
+ {
+  "gid": "g600-38",
+  "type": "pron",
+  "q": "If these office chairs are too small for you, we can exchange them for larger -------.",
+  "answer": "ones",
+  "distractors": [
+   "one",
+   "it",
+   "them"
+  ],
+  "zh": "如果這些辦公椅對您來說太小，我們可以幫您換成大一點的。"
+ },
+ {
+  "gid": "g600-39",
+  "type": "pron",
+  "q": "------- who register for the seminar before May 1 will receive a 20 percent discount.",
+  "answer": "Those",
+  "distractors": [
+   "They",
+   "Them",
+   "Their"
+  ],
+  "zh": "在 5 月 1 日前報名研討會的人可享八折優惠。"
+ },
+ {
+  "gid": "g600-40",
+  "type": "pron",
+  "q": "Please send the signed forms to Mr. Ito or ------- by Friday afternoon.",
+  "answer": "me",
+  "distractors": [
+   "I",
+   "my",
+   "myself"
+  ],
+  "zh": "請在週五下午前把簽好的表格寄給伊藤先生或我。"
+ },
+ {
+  "gid": "g600-41",
+  "type": "pron",
+  "q": "Mr. Patel's proposal was approved, but ------- was rejected because it was over budget.",
+  "answer": "ours",
+  "distractors": [
+   "us",
+   "our",
+   "ourselves"
+  ],
+  "zh": "帕特爾先生的提案通過了，但我們的因為超出預算被退回。"
+ },
+ {
+  "gid": "g600-42",
+  "type": "pron",
+  "q": "With the new online system, employees can now book meeting rooms ------- without contacting the front desk.",
+  "answer": "themselves",
+  "distractors": [
+   "them",
+   "their",
+   "they"
+  ],
+  "zh": "有了新的線上系統，員工現在可以自己預約會議室，不必聯絡櫃檯。"
+ },
+ {
+  "gid": "g600-43",
+  "type": "other",
+  "q": "We are looking for a supplier ------- products meet international safety standards.",
+  "answer": "whose",
+  "distractors": [
+   "who",
+   "which",
+   "what"
+  ],
+  "zh": "我們正在找產品符合國際安全標準的供應商。"
+ },
+ {
+  "gid": "g600-44",
+  "type": "other",
+  "q": "The hotel ------- the conference will be held is only ten minutes from the airport.",
+  "answer": "where",
+  "distractors": [
+   "which",
+   "what",
+   "who"
+  ],
+  "zh": "舉辦會議的那家飯店距離機場只有十分鐘。"
+ },
+ {
+  "gid": "g600-45",
+  "type": "other",
+  "q": "Please tell me ------- you need for the presentation, and I will order it today.",
+  "answer": "what",
+  "distractors": [
+   "that",
+   "where",
+   "whose"
+  ],
+  "zh": "請告訴我你簡報需要什麼，我今天就訂。"
+ },
+ {
+  "gid": "g600-46",
+  "type": "other",
+  "q": "The new laptop is just as ------- as the previous model, but it costs much less.",
+  "answer": "light",
+  "distractors": [
+   "lighter",
+   "lightest",
+   "lightly"
+  ],
+  "zh": "新筆電和上一款一樣輕，但價格便宜很多。"
+ },
+ {
+  "gid": "g600-47",
+  "type": "other",
+  "q": "Thanks to the holiday promotion, this year's sales were much ------- than we had expected.",
+  "answer": "higher",
+  "distractors": [
+   "high",
+   "highest",
+   "highly"
+  ],
+  "zh": "多虧假期促銷，今年的業績比我們預期的高出許多。"
+ },
+ {
+  "gid": "g600-48",
+  "type": "other",
+  "q": "------- the sales manager nor the marketing director was able to attend the client meeting.",
+  "answer": "Neither",
+  "distractors": [
+   "Either",
+   "Both",
+   "Not"
+  ],
+  "zh": "業務經理和行銷總監都無法出席客戶會議。"
+ },
+ {
+  "gid": "g600-49",
+  "type": "other",
+  "q": "The leadership training program is open to ------- full-time and part-time employees.",
+  "answer": "both",
+  "distractors": [
+   "either",
+   "neither",
+   "each"
+  ],
+  "zh": "這個領導力培訓課程開放給全職和兼職員工參加。"
+ },
+ {
+  "gid": "g600-50",
+  "type": "other",
+  "q": "At the end of the three-day workshop, ------- participant will receive a certificate of completion.",
+  "answer": "each",
+  "distractors": [
+   "all",
+   "most",
+   "many"
+  ],
+  "zh": "三天的研習會結束時，每位學員都會拿到結業證書。"
+ }
+]

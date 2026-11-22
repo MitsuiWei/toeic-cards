@@ -86,6 +86,7 @@ meta = {'p5': {}, 'read': {}, 'listen': {}}
 missing = []
 
 # ---------- 單字填空 ----------
+GCAT = {'verb': 'gv', 'prep': 'gp', 'conj': 'gc', 'pron': 'gn', 'other': 'go'}
 p5 = []
 for lv in LEVELS:
     n = 0
@@ -109,8 +110,27 @@ for lv in LEVELS:
         n += len(qa)
         json.dump(qa, open(os.path.join(QA, 'q_p5_%d_%s.json' % (lv, tag)), 'w', encoding='utf-8'), ensure_ascii=False, indent=0)
         json.dump(key, open(os.path.join(KEYS, 'key_p5_%d_%s.json' % (lv, tag)), 'w', encoding='utf-8'))
+    # 文法題（work/gram/split.py 產生的 p5g_<級別>.json）：沒有對應的單字（沒有 wid），題號 g<級別>-NN，t = gv／gp／gc／gn／go
+    raw = load('p5g_%d.json' % lv)
+    if raw is not None:
+        qa, key = [], {}
+        nsrc = load_notes('p5g_%d.json' % lv)
+        for it in raw:
+            id_ = it['gid']
+            it = apply_fix(id_, it)
+            if it is None: continue
+            o, a = shuffled(id_, it['answer'], it['distractors'])
+            row = {'id': id_, 'lv': lv, 't': GCAT[it['type']], 'q': it['q'].strip(), 'o': o, 'a': a, 'zh': it['zh'].strip()}
+            nn = notes_for(id_, nsrc, o, ('pos', 'zh', 'use', 'why'))
+            if nn: row['k'], row['n'] = nn; has_notes['p5'] += 1
+            else: print('文法題沒有解析：', id_)
+            p5.append(row)
+            qa.append({'id': id_, 'q': it['q'].strip(), 'options': o}); key[id_] = a
+        n += len(qa)
+        json.dump(qa, open(os.path.join(QA, 'q_p5g_%d.json' % lv), 'w', encoding='utf-8'), ensure_ascii=False, indent=0)
+        json.dump(key, open(os.path.join(KEYS, 'key_p5g_%d.json' % lv), 'w', encoding='utf-8'))
     meta['p5'][str(lv)] = n
-p5.sort(key=lambda x: x['wid'])
+p5.sort(key=lambda x: (x.get('wid', 10 ** 6), x['id']))
 
 # ---------- 短文閱讀 ----------
 read = []
@@ -172,7 +192,7 @@ for lv in LEVELS:
         json.dump(key, open(os.path.join(KEYS, 'key_listen_%d.json' % lv), 'w', encoding='utf-8'))
 
 d = os.path.join(SITE, 'data')
-open(os.path.join(d, 'quiz_p5.js'), 'w', encoding='utf-8').write('// 單字填空題庫（Part 5 風格，原創）：id, wid=目標單字, lv, t=v 單字題/f 詞性題, q, o=選項, a=答案索引, zh, k=解題關鍵, n=各選項解析 [詞性, 中文, 用法, 為什麼]（沒有解析的題目是 ex）\n' + js('QUIZ_P5', p5))
+open(os.path.join(d, 'quiz_p5.js'), 'w', encoding='utf-8').write('// 單字填空題庫（Part 5 風格，原創）：id, wid=目標單字（文法題沒有）, lv, t=v 單字題/f 詞性題/gv gp gc gn go 文法題（動詞、介系詞、連接詞、代名詞、關係詞與其他）, q, o=選項, a=答案索引, zh, k=解題關鍵, n=各選項解析 [詞性, 中文, 用法, 為什麼]（沒有解析的題目是 ex）\n' + js('QUIZ_P5', p5))
 open(os.path.join(d, 'quiz_read.js'), 'w', encoding='utf-8').write('// 短文閱讀題庫（Part 6、7 風格，原創）：id, lv, p=6/7, k=類型, ti, tx, zh, w=用到的單字 id, qs=[{q, o, a, k=解題關鍵, n=各選項解析 [中文, 用法, 為什麼]}]\n' + js('QUIZ_READ', read))
 open(os.path.join(d, 'quiz_listen.js'), 'w', encoding='utf-8').write('// 聽力應答題庫（Part 2 風格，原創）：id, lv, t=題型, q, o=三個回答, a, zq, zo, k=解題關鍵, n=各選項解析 [陷阱類型, 為什麼]\n' + js('QUIZ_LISTEN', listen))
 open(os.path.join(d, 'quiz_meta.js'), 'w', encoding='utf-8').write('// 各題型各級的題數（統計頁和練習首頁用，不必先載入整個題庫）\nwindow.QUIZ_META = %s;\n' % json.dumps(meta, separators=(',', ':')))

@@ -1,0 +1,1702 @@
+[
+ {
+  "id": "g600-01",
+  "key": "since + 過去時間點（從那時到現在）→ 現在完成式 have／has + p.p.",
+  "notes": [
+   {
+    "o": "has worked",
+    "pos": "現在完成式",
+    "zh": "（至今）一直工作",
+    "use": "has／have + p.p. + since + 過去時間點／for + 一段時間",
+    "why": "看到 since 2020、for ten years → 先想現在完成式"
+   },
+   {
+    "o": "worked",
+    "pos": "過去式",
+    "zh": "（過去）工作過",
+    "use": "主詞 + V-ed + 明確過去時間（last year、in 2020）",
+    "why": "過去式只講過去，不能配主要子句的「since 從…到現在」"
+   },
+   {
+    "o": "is working",
+    "pos": "現在進行式",
+    "zh": "正在工作",
+    "use": "am／is／are + V-ing：說話當下或這段期間",
+    "why": "文法上不和 since 搭配；要說「至今」用完成式"
+   },
+   {
+    "o": "will work",
+    "pos": "未來式",
+    "zh": "將會工作",
+    "use": "will + 原形動詞：未來的事",
+    "why": "since 2020 指從過去到現在，不是未來"
+   }
+  ]
+ },
+ {
+  "id": "g600-02",
+  "key": "主詞 report 是被審閱的＋後面 by the team → 助動詞被動 must be + p.p.",
+  "notes": [
+   {
+    "o": "must be reviewed",
+    "pos": "助動詞＋被動",
+    "zh": "必須被審閱",
+    "use": "must／can／should／will + be + p.p.（+ by 執行者）",
+    "why": "助動詞的被動：助動詞 + be + p.p.，be 用原形"
+   },
+   {
+    "o": "must review",
+    "pos": "助動詞＋原形",
+    "zh": "必須審閱",
+    "use": "主詞 + must + 原形動詞 + 受詞（主動）",
+    "why": "report 不會自己審閱，而且後面沒有受詞、接的是 by"
+   },
+   {
+    "o": "must reviewing",
+    "pos": "錯誤形式",
+    "zh": "（不成立）",
+    "use": "助動詞後面一律接原形動詞",
+    "why": "文法錯：must 後面不能接 V-ing"
+   },
+   {
+    "o": "must be reviewing",
+    "pos": "助動詞＋進行式",
+    "zh": "一定正在審閱",
+    "use": "must + be + V-ing：推測某人一定正在做",
+    "why": "仍是主動，report 不會審閱別人，後面又沒有受詞"
+   }
+  ]
+ },
+ {
+  "id": "g600-03",
+  "key": "主詞是事物（system）造成感受 → -ing；人感到… → -ed",
+  "notes": [
+   {
+    "o": "confusing",
+    "pos": "現在分詞（形容詞）",
+    "zh": "令人困惑的",
+    "use": "事物 + be + confusing／boring／exciting",
+    "why": "-ing 形容詞描述「讓人有某種感覺」的事物"
+   },
+   {
+    "o": "confused",
+    "pos": "過去分詞（形容詞）",
+    "zh": "感到困惑的",
+    "use": "人 + be + confused（about + N）",
+    "why": "文法可以，但語意不通：系統不會「感到」困惑"
+   },
+   {
+    "o": "confuse",
+    "pos": "原形動詞",
+    "zh": "使困惑",
+    "use": "confuse + 人：使某人搞混",
+    "why": "文法錯：was 後面不能直接接原形動詞"
+   },
+   {
+    "o": "confusion",
+    "pos": "名詞",
+    "zh": "混亂；困惑",
+    "use": "cause confusion；confusion about + N",
+    "why": "was 後要描述系統的形容詞；說「系統是混亂」不成立"
+   }
+  ]
+ },
+ {
+  "id": "g600-04",
+  "key": "主詞是人（employees）＋ in V-ing → be interested in + N／V-ing",
+  "notes": [
+   {
+    "o": "interested",
+    "pos": "過去分詞（形容詞）",
+    "zh": "感興趣的",
+    "use": "人 + be interested in + N／V-ing",
+    "why": "be interested in 是固定搭配，in 後接 V-ing"
+   },
+   {
+    "o": "interesting",
+    "pos": "現在分詞（形容詞）",
+    "zh": "有趣的",
+    "use": "事物 + be interesting（to + 人）",
+    "why": "描述讓人覺得有趣的事物；不接 in V-ing"
+   },
+   {
+    "o": "interest",
+    "pos": "名詞／原形動詞",
+    "zh": "興趣；使感興趣",
+    "use": "have an interest in + N；interest + 人",
+    "why": "文法錯：are 後面不能接原形動詞或單數名詞"
+   },
+   {
+    "o": "interests",
+    "pos": "名詞複數",
+    "zh": "興趣；利益",
+    "use": "protect one's interests；hobbies and interests",
+    "why": "說「員工是興趣」不成立，也無 be interests in"
+   }
+  ]
+ },
+ {
+  "id": "g600-05",
+  "key": "介系詞（for）後面接動詞 → 動名詞 V-ing",
+  "notes": [
+   {
+    "o": "completing",
+    "pos": "動名詞",
+    "zh": "完成；填寫",
+    "use": "介系詞 + V-ing：thank you for V-ing",
+    "why": "介系詞後的動詞一律用 V-ing（for／by／without）"
+   },
+   {
+    "o": "complete",
+    "pos": "原形動詞",
+    "zh": "完成",
+    "use": "complete a form／survey（當動詞）",
+    "why": "文法錯：介系詞後不能接原形動詞"
+   },
+   {
+    "o": "completed",
+    "pos": "過去式／過去分詞",
+    "zh": "完成了",
+    "use": "主詞 + completed + 受詞；the completed form",
+    "why": "文法錯：for 後面要名詞或 V-ing，不能接過去式"
+   },
+   {
+    "o": "to complete",
+    "pos": "不定詞",
+    "zh": "去完成",
+    "use": "plan／need + to V",
+    "why": "文法錯：介系詞 for 後不能接 to V"
+   }
+  ]
+ },
+ {
+  "id": "g600-06",
+  "key": "If 子句＋主要子句 will → 第一條件句，If 子句用現在式代替未來",
+  "notes": [
+   {
+    "o": "arrives",
+    "pos": "現在式（第三人稱單數）",
+    "zh": "抵達",
+    "use": "If + 主詞 + 現在式, 主詞 + will + 原形",
+    "why": "條件子句講未來也用現在式；主詞單數加 -s"
+   },
+   {
+    "o": "will arrive",
+    "pos": "未來式",
+    "zh": "將抵達",
+    "use": "主要子句用 will；條件子句不用",
+    "why": "表條件的 if 子句一般不用 will，即使有 tomorrow"
+   },
+   {
+    "o": "arrived",
+    "pos": "過去式",
+    "zh": "抵達了",
+    "use": "If + 過去式, would + 原形（與現在事實相反）",
+    "why": "過去式配的是 would，這句主要子句是 will"
+   },
+   {
+    "o": "would arrive",
+    "pos": "would＋原形",
+    "zh": "會抵達",
+    "use": "放在與事實相反假設的主要子句",
+    "why": "這句主要子句是 will，屬第一條件句，不配 would"
+   }
+  ]
+ },
+ {
+  "id": "g600-07",
+  "key": "The list of + 複數名詞：真正主詞是 list（單數）→ is",
+  "notes": [
+   {
+    "o": "is",
+    "pos": "be 動詞單數",
+    "zh": "是；被（更新）",
+    "use": "單數主詞 + is + p.p.（現在式被動）",
+    "why": "A of B 當主詞，動詞跟著 A；別被 vendors 騙了"
+   },
+   {
+    "o": "are",
+    "pos": "be 動詞複數",
+    "zh": "是；被（更新）",
+    "use": "複數主詞 + are + p.p.",
+    "why": "主詞是 list 單數，不是 vendors"
+   },
+   {
+    "o": "be",
+    "pos": "be 原形",
+    "zh": "是",
+    "use": "助動詞後：will／must + be",
+    "why": "文法錯：前面沒有助動詞，句子缺動詞"
+   },
+   {
+    "o": "being",
+    "pos": "現在分詞",
+    "zh": "正在被",
+    "use": "is being + p.p.；介系詞 + being",
+    "why": "文法錯：being 不能單獨當句子的動詞"
+   }
+  ]
+ },
+ {
+  "id": "g600-08",
+  "key": "plan 後接動詞 → plan to V（同類：hope／decide／expect to V）",
+  "notes": [
+   {
+    "o": "to open",
+    "pos": "不定詞",
+    "zh": "去開設",
+    "use": "plan／decide／hope／agree + to V",
+    "why": "plan to V 必考；plan 不接 V-ing"
+   },
+   {
+    "o": "opening",
+    "pos": "動名詞",
+    "zh": "開設",
+    "use": "enjoy／consider／avoid + V-ing",
+    "why": "plan 後面不接 V-ing，要用 to V"
+   },
+   {
+    "o": "opened",
+    "pos": "過去式／過去分詞",
+    "zh": "開設了",
+    "use": "主詞 + opened + 受詞",
+    "why": "文法錯：plans 已是動詞，不能再接過去式動詞"
+   },
+   {
+    "o": "open",
+    "pos": "原形動詞",
+    "zh": "開設",
+    "use": "助動詞 + open；let／make + 人 + open",
+    "why": "文法錯：plans 後不能直接接原形動詞"
+   }
+  ]
+ },
+ {
+  "id": "g600-09",
+  "key": "suggest 後直接接動作 → suggest V-ing（不接 to V）",
+  "notes": [
+   {
+    "o": "postponing",
+    "pos": "動名詞",
+    "zh": "延後",
+    "use": "suggest／recommend／consider + V-ing",
+    "why": "suggest + V-ing 是常考搭配，別選 to V"
+   },
+   {
+    "o": "to postpone",
+    "pos": "不定詞",
+    "zh": "去延後",
+    "use": "decide／agree + to V",
+    "why": "標準英文中 suggest 不接 to V"
+   },
+   {
+    "o": "postpone",
+    "pos": "原形動詞",
+    "zh": "延後",
+    "use": "suggest that + 主詞 + 原形動詞",
+    "why": "文法錯：原形要放在 that 子句裡，前面要有主詞"
+   },
+   {
+    "o": "postponed",
+    "pos": "過去式／過去分詞",
+    "zh": "延後了",
+    "use": "主詞 + postponed + 受詞",
+    "why": "文法錯：suggested 後不能再接另一個過去式動詞"
+   }
+  ]
+ },
+ {
+  "id": "g600-10",
+  "key": "看到 ago／yesterday／last + 時間 → 簡單過去式",
+  "notes": [
+   {
+    "o": "signed",
+    "pos": "過去式",
+    "zh": "簽了",
+    "use": "主詞 + V-ed + … + two days ago／last week",
+    "why": "ago 表明確過去時間點，只能配過去式"
+   },
+   {
+    "o": "has signed",
+    "pos": "現在完成式",
+    "zh": "已經簽了",
+    "use": "has／have + p.p.；配 already、since、for",
+    "why": "現在完成式不和 ago 這種明確過去時間連用"
+   },
+   {
+    "o": "signs",
+    "pos": "現在式",
+    "zh": "簽",
+    "use": "現在式表習慣或事實",
+    "why": "two days ago 是過去，不能用現在式"
+   },
+   {
+    "o": "will sign",
+    "pos": "未來式",
+    "zh": "將會簽",
+    "use": "will + 原形 + next week／tomorrow",
+    "why": "ago 是過去時間，不能配未來式"
+   }
+  ]
+ },
+ {
+  "id": "g600-11",
+  "key": "句子已有動詞 will be shipped → 空格是修飾 orders 的分詞；被下的用 p.p.",
+  "notes": [
+   {
+    "o": "placed",
+    "pos": "過去分詞",
+    "zh": "被下的（訂單）",
+    "use": "名詞 + p.p. + 修飾語 = 名詞 + which are p.p.",
+    "why": "place an order 下訂單；訂單是「被下」→ placed"
+   },
+   {
+    "o": "placing",
+    "pos": "現在分詞",
+    "zh": "正在下（訂單）的",
+    "use": "名詞 + V-ing：名詞主動做這件事",
+    "why": "訂單不會自己去下單，主被動錯"
+   },
+   {
+    "o": "are placed",
+    "pos": "現在式被動",
+    "zh": "被下",
+    "use": "主詞 + are + p.p.（當句子動詞）",
+    "why": "文法錯：句子已有 will be shipped，不能再有動詞"
+   },
+   {
+    "o": "places",
+    "pos": "現在式（第三人稱單數）",
+    "zh": "放置；下（訂單）",
+    "use": "單數主詞 + places + 受詞",
+    "why": "文法錯：多一個動詞，且 orders 是複數"
+   }
+  ]
+ },
+ {
+  "id": "g600-12",
+  "key": "since 2022 → 完成式；warehouses 是被蓋的 → have been + p.p.",
+  "notes": [
+   {
+    "o": "have been built",
+    "pos": "現在完成式被動",
+    "zh": "已經被建造",
+    "use": "have／has + been + p.p. + since／for",
+    "why": "時態（since）和語態（被動）兩個線索要同時看"
+   },
+   {
+    "o": "have built",
+    "pos": "現在完成式主動",
+    "zh": "已經建造",
+    "use": "主詞 + have built + 受詞",
+    "why": "倉庫不會蓋東西；後面也沒有受詞"
+   },
+   {
+    "o": "were built",
+    "pos": "過去式被動",
+    "zh": "被建造了",
+    "use": "was／were + p.p. + 過去時間（in 2022）",
+    "why": "since 2022 表示到現在，要用完成式"
+   },
+   {
+    "o": "are building",
+    "pos": "現在進行式主動",
+    "zh": "正在建造",
+    "use": "主詞 + are + V-ing + 受詞",
+    "why": "主動錯，也不和 since 搭配"
+   }
+  ]
+ },
+ {
+  "id": "g600-13",
+  "key": "next Friday → 未來；winners 是被公布的 → will be + p.p.",
+  "notes": [
+   {
+    "o": "will be announced",
+    "pos": "未來式被動",
+    "zh": "將被公布",
+    "use": "will + be + p.p. + 未來時間",
+    "why": "未來被動 will be p.p.；winners 是被宣布的人"
+   },
+   {
+    "o": "announced",
+    "pos": "過去式主動",
+    "zh": "宣布了",
+    "use": "主詞 + announced + 受詞",
+    "why": "next Friday 是未來；而且得主不是宣布的人"
+   },
+   {
+    "o": "will announce",
+    "pos": "未來式主動",
+    "zh": "將宣布",
+    "use": "主詞 + will announce + 受詞",
+    "why": "時態對，但主動錯：得主不是宣布者，也沒有受詞"
+   },
+   {
+    "o": "have been announced",
+    "pos": "現在完成式被動",
+    "zh": "已經被公布",
+    "use": "have been + p.p.：到現在已完成",
+    "why": "完成式不能配 next Friday 這種未來時間"
+   }
+  ]
+ },
+ {
+  "id": "g600-14",
+  "key": "One of + 複數名詞：主詞是 one（單數）＋ every morning → 單數現在式",
+  "notes": [
+   {
+    "o": "inspects",
+    "pos": "現在式（第三人稱單數）",
+    "zh": "檢查",
+    "use": "one of the + 複數名詞 + 單數動詞",
+    "why": "every morning 表習慣用現在式；主詞 one 加 -s"
+   },
+   {
+    "o": "inspect",
+    "pos": "原形／現在式複數",
+    "zh": "檢查",
+    "use": "複數主詞 + inspect",
+    "why": "主詞是 one 單數，不是 technicians"
+   },
+   {
+    "o": "inspecting",
+    "pos": "現在分詞",
+    "zh": "正在檢查",
+    "use": "be + V-ing；名詞 + V-ing 修飾",
+    "why": "文法錯：句子少了主要動詞"
+   },
+   {
+    "o": "have inspected",
+    "pos": "現在完成式",
+    "zh": "已經檢查",
+    "use": "複數主詞 + have + p.p.",
+    "why": "one 要配 has；every morning 是習慣，用現在式"
+   }
+  ]
+ },
+ {
+  "id": "g600-15",
+  "key": "went（過去）＋ while（…的時候）→ 過去進行式 was／were + V-ing",
+  "notes": [
+   {
+    "o": "was giving",
+    "pos": "過去進行式",
+    "zh": "（當時）正在做",
+    "use": "短動作（過去式）+ while + 主詞 + was／were V-ing",
+    "why": "過去某動作發生時，另一件事正在進行 → 過去進行式"
+   },
+   {
+    "o": "gives",
+    "pos": "現在式",
+    "zh": "做；給",
+    "use": "現在式表習慣或事實",
+    "why": "停電是過去（went），時態不一致"
+   },
+   {
+    "o": "is giving",
+    "pos": "現在進行式",
+    "zh": "正在做",
+    "use": "am／is／are + V-ing：現在正在",
+    "why": "主要子句是過去式 went，要用過去進行式"
+   },
+   {
+    "o": "has given",
+    "pos": "現在完成式",
+    "zh": "已經做過",
+    "use": "has／have + p.p.：過去延續到現在",
+    "why": "while 描述過去當時正在進行的事，不用完成式"
+   }
+  ]
+ },
+ {
+  "id": "g600-16",
+  "key": "期限「…之內」＋ of + 起算點 → within + 時間 + of",
+  "notes": [
+   {
+    "o": "within",
+    "pos": "介系詞",
+    "zh": "在…之內",
+    "use": "within + 一段時間（of + 起算點）；within budget",
+    "why": "within 30 days of purchase 這類期限句超常考"
+   },
+   {
+    "o": "during",
+    "pos": "介系詞",
+    "zh": "在…期間",
+    "use": "during + 事件／期間（during the meeting）",
+    "why": "during 不表「期限之內」，也沒有 during … of 起算點"
+   },
+   {
+    "o": "among",
+    "pos": "介系詞",
+    "zh": "在…之中",
+    "use": "among + 複數名詞（三者以上的人或物）",
+    "why": "among 用在一群人或物之中，不接時間長度"
+   },
+   {
+    "o": "since",
+    "pos": "介系詞／連接詞",
+    "zh": "自從",
+    "use": "since + 過去時間點，主要子句用完成式",
+    "why": "since 接時間點，不接「五個工作天」這種長度"
+   }
+  ]
+ },
+ {
+  "id": "g600-17",
+  "key": "the year＋「不只節慶期間」→ 整段時間都… → throughout",
+  "notes": [
+   {
+    "o": "throughout",
+    "pos": "介系詞",
+    "zh": "在整個…期間／各處",
+    "use": "throughout the year／day；throughout the country",
+    "why": "throughout 可接時間（一整段）也可接地點（各處）"
+   },
+   {
+    "o": "among",
+    "pos": "介系詞",
+    "zh": "在…之中",
+    "use": "among + 複數名詞（among employees）",
+    "why": "among 接一群人或物，不接 the year"
+   },
+   {
+    "o": "between",
+    "pos": "介系詞",
+    "zh": "在…之間",
+    "use": "between A and B；between + 兩個時間點",
+    "why": "between 需要兩個端點，the year 只有一個"
+   },
+   {
+    "o": "along",
+    "pos": "介系詞",
+    "zh": "沿著",
+    "use": "along + 路／河／海岸（along the street）",
+    "why": "along 用於沿著長條狀的地方，不接時間"
+   }
+  ]
+ },
+ {
+  "id": "g600-18",
+  "key": "popular ＋ 一群人（複數名詞）→ popular among + 群體",
+  "notes": [
+   {
+    "o": "among",
+    "pos": "介系詞",
+    "zh": "在…之中",
+    "use": "popular／common among + 複數名詞（群體）",
+    "why": "be popular among／with + 群體 是常考搭配"
+   },
+   {
+    "o": "between",
+    "pos": "介系詞",
+    "zh": "在…之間",
+    "use": "between A and B；difference between A and B",
+    "why": "群體裡的受歡迎程度用 among；popular between 不自然"
+   },
+   {
+    "o": "along",
+    "pos": "介系詞",
+    "zh": "沿著",
+    "use": "along the road；get along with + 人",
+    "why": "along 指沿著路線，不能接一群人"
+   },
+   {
+    "o": "across",
+    "pos": "介系詞",
+    "zh": "橫越；遍及",
+    "use": "across the street；across the country",
+    "why": "across 接地區或範圍，不接 the employees 這種人群"
+   }
+  ]
+ },
+ {
+  "id": "g600-19",
+  "key": "延誤 ↔ 濃霧是原因 → due to + 名詞（= because of）",
+  "notes": [
+   {
+    "o": "due to",
+    "pos": "介系詞片語",
+    "zh": "由於",
+    "use": "due to + 名詞片語（= because of）",
+    "why": "due to 後接名詞，不接子句；子句要用 because"
+   },
+   {
+    "o": "according to",
+    "pos": "介系詞片語",
+    "zh": "根據",
+    "use": "according to + 資料來源／規定",
+    "why": "語意不通：濃霧是原因，不是資訊來源"
+   },
+   {
+    "o": "instead of",
+    "pos": "介系詞片語",
+    "zh": "而不是；代替",
+    "use": "A instead of B；instead of + N／V-ing",
+    "why": "語意不通：不是「延誤而不是濃霧」"
+   },
+   {
+    "o": "in spite of",
+    "pos": "介系詞片語",
+    "zh": "儘管",
+    "use": "in spite of + 名詞（= despite）",
+    "why": "文法可以，但語意相反：濃霧正是延誤的原因"
+   }
+  ]
+ },
+ {
+  "id": "g600-20",
+  "key": "survey／report／study 是資訊來源 → according to + 來源",
+  "notes": [
+   {
+    "o": "according to",
+    "pos": "介系詞片語",
+    "zh": "根據",
+    "use": "according to + 調查／報告／規定／某人",
+    "why": "according to the survey／report 是引用來源的固定說法"
+   },
+   {
+    "o": "due to",
+    "pos": "介系詞片語",
+    "zh": "由於",
+    "use": "due to + 原因名詞",
+    "why": "語意不通：調查不是顧客偏好的原因"
+   },
+   {
+    "o": "regardless of",
+    "pos": "介系詞片語",
+    "zh": "不論",
+    "use": "regardless of + 條件（price／age）",
+    "why": "語意不通：不是「不論調查如何」"
+   },
+   {
+    "o": "on behalf of",
+    "pos": "介系詞片語",
+    "zh": "代表",
+    "use": "on behalf of + 人／公司",
+    "why": "語意不通：調查無法被「代表」"
+   }
+  ]
+ },
+ {
+  "id": "g600-21",
+  "key": "具體日期（July 1、Monday）→ on；月份／年 → in；時刻 → at",
+  "notes": [
+   {
+    "o": "on",
+    "pos": "介系詞",
+    "zh": "在（某日）",
+    "use": "on + 日期／星期幾（on July 1、on Friday）",
+    "why": "時間介系詞：at 時刻、on 日期、in 月／年"
+   },
+   {
+    "o": "in",
+    "pos": "介系詞",
+    "zh": "在（月／年）",
+    "use": "in + 月份／年份／季節（in July、in 2027）",
+    "why": "July 1 是具體某天，要用 on"
+   },
+   {
+    "o": "at",
+    "pos": "介系詞",
+    "zh": "在（時刻）",
+    "use": "at + 時刻（at 9 a.m.、at noon）",
+    "why": "at 接時刻，不接日期"
+   },
+   {
+    "o": "for",
+    "pos": "介系詞",
+    "zh": "持續；為了",
+    "use": "for + 一段時間（for two weeks）",
+    "why": "for 接期間長度；July 1 是時間點"
+   }
+  ]
+ },
+ {
+  "id": "g600-22",
+  "key": "remain open（持續狀態）到某時間點 → until；期限前完成 → by",
+  "notes": [
+   {
+    "o": "until",
+    "pos": "介系詞",
+    "zh": "直到",
+    "use": "持續性動詞（stay／remain／wait）+ until + 時間",
+    "why": "until 表持續到某時；by 表最晚在某時之前完成"
+   },
+   {
+    "o": "by",
+    "pos": "介系詞",
+    "zh": "在…之前（期限）",
+    "use": "完成性動作 + by + 期限（submit by Friday）",
+    "why": "remain open 是持續狀態，不是期限前完成的動作"
+   },
+   {
+    "o": "since",
+    "pos": "介系詞",
+    "zh": "自從",
+    "use": "since + 過去時間點，配完成式",
+    "why": "since 指從過去某點起算，與未來 will 不搭"
+   },
+   {
+    "o": "within",
+    "pos": "介系詞",
+    "zh": "在…之內",
+    "use": "within + 一段時間（within two hours）",
+    "why": "9 p.m. 是時間點，不是一段時間長度"
+   }
+  ]
+ },
+ {
+  "id": "g600-23",
+  "key": "be responsible 後接負責的事 → be responsible for + N／V-ing",
+  "notes": [
+   {
+    "o": "for",
+    "pos": "介系詞",
+    "zh": "負責（某事）",
+    "use": "be responsible for + N／V-ing",
+    "why": "responsible for = in charge of，後接 V-ing"
+   },
+   {
+    "o": "to",
+    "pos": "介系詞",
+    "zh": "對（某人）",
+    "use": "be responsible to + 人（向某人負責）",
+    "why": "to 後面接負責的對象（人），不接工作內容"
+   },
+   {
+    "o": "of",
+    "pos": "介系詞",
+    "zh": "…的",
+    "use": "名詞 + of + 名詞（the cost of）",
+    "why": "沒有 responsible of 這種搭配"
+   },
+   {
+    "o": "with",
+    "pos": "介系詞",
+    "zh": "和；用",
+    "use": "be familiar with；deal with + N",
+    "why": "沒有 responsible with + V-ing 這種用法"
+   }
+  ]
+ },
+ {
+  "id": "g600-24",
+  "key": "樓層 floor → on the + 序數 + floor",
+  "notes": [
+   {
+    "o": "on",
+    "pos": "介系詞",
+    "zh": "在（某樓層）",
+    "use": "on the second／top floor；on the ground floor",
+    "why": "樓層固定用 on，be located on the X floor"
+   },
+   {
+    "o": "in",
+    "pos": "介系詞",
+    "zh": "在…裡面",
+    "use": "in + 建築／房間／城市（in the lobby）",
+    "why": "美式英文樓層不用 in"
+   },
+   {
+    "o": "at",
+    "pos": "介系詞",
+    "zh": "在（某地點）",
+    "use": "at + 地點（at the front desk）",
+    "why": "樓層不用 at，固定說 on the second floor"
+   },
+   {
+    "o": "to",
+    "pos": "介系詞",
+    "zh": "往；到",
+    "use": "go／move to + 地點（表方向）",
+    "why": "is located 表位置，不表移動方向"
+   }
+  ]
+ },
+ {
+  "id": "g600-25",
+  "key": "增減的「幅度」→ increase／rise／drop + by + 數量",
+  "notes": [
+   {
+    "o": "by",
+    "pos": "介系詞",
+    "zh": "（相差）達…",
+    "use": "increase／decrease by + 幅度；increase to + 結果",
+    "why": "by 表變化的幅度，to 表變化後的數值"
+   },
+   {
+    "o": "at",
+    "pos": "介系詞",
+    "zh": "在（某數值）",
+    "use": "at a rate／price of；at 50 percent off",
+    "why": "increase at 15 percent 不是標準說法"
+   },
+   {
+    "o": "in",
+    "pos": "介系詞",
+    "zh": "在…方面",
+    "use": "an increase in + 項目（an increase in sales）",
+    "why": "in 後接增加的「項目」，不接幅度數字"
+   },
+   {
+    "o": "for",
+    "pos": "介系詞",
+    "zh": "持續；為了",
+    "use": "for + 一段時間；for + 目的",
+    "why": "for 15 percent 不能表示增加的幅度"
+   }
+  ]
+ },
+ {
+  "id": "g600-26",
+  "key": "空格後只有名詞片語（the bad weather）＋語意相反 → 介系詞 despite",
+  "notes": [
+   {
+    "o": "Despite",
+    "pos": "介系詞",
+    "zh": "儘管",
+    "use": "Despite + 名詞／V-ing, 子句（= in spite of）",
+    "why": "despite 後不加 of，也不接子句"
+   },
+   {
+    "o": "Although",
+    "pos": "連接詞",
+    "zh": "雖然",
+    "use": "Although + 主詞 + 動詞, 子句",
+    "why": "文法錯：although 後要接子句，這裡只有名詞"
+   },
+   {
+    "o": "However",
+    "pos": "副詞",
+    "zh": "然而",
+    "use": "句子. However, 句子.",
+    "why": "文法錯：副詞不能帶名詞片語，也不能連接兩部分"
+   },
+   {
+    "o": "Because",
+    "pos": "連接詞",
+    "zh": "因為",
+    "use": "Because + 主詞 + 動詞；名詞要用 because of",
+    "why": "文法錯：後面只有名詞；語意也該是讓步不是因果"
+   }
+  ]
+ },
+ {
+  "id": "g600-27",
+  "key": "空格後是完整子句（主詞＋動詞）＋前後語意相反 → 連接詞 although",
+  "notes": [
+   {
+    "o": "Although",
+    "pos": "連接詞",
+    "zh": "雖然",
+    "use": "Although／Even though + 子句, 子句",
+    "why": "although 接子句、despite 接名詞，看空格後的結構決定"
+   },
+   {
+    "o": "Despite",
+    "pos": "介系詞",
+    "zh": "儘管",
+    "use": "Despite + 名詞／V-ing",
+    "why": "文法錯：介系詞不能接子句 the train was delayed"
+   },
+   {
+    "o": "Because of",
+    "pos": "介系詞片語",
+    "zh": "因為",
+    "use": "Because of + 名詞",
+    "why": "文法錯：後接子句；語意也相反（誤點卻準時）"
+   },
+   {
+    "o": "Nevertheless",
+    "pos": "副詞",
+    "zh": "儘管如此",
+    "use": "句子. Nevertheless, 句子.",
+    "why": "文法錯：副詞不能用逗號連接兩個子句"
+   }
+  ]
+ },
+ {
+  "id": "g600-28",
+  "key": "空格後是名詞片語（low attendance）＋表原因 → because of",
+  "notes": [
+   {
+    "o": "because of",
+    "pos": "介系詞片語",
+    "zh": "因為",
+    "use": "because of + 名詞片語（= due to）",
+    "why": "because of 接名詞，because 接子句"
+   },
+   {
+    "o": "because",
+    "pos": "連接詞",
+    "zh": "因為",
+    "use": "because + 主詞 + 動詞",
+    "why": "文法錯：low attendance 沒有動詞，不是子句"
+   },
+   {
+    "o": "so",
+    "pos": "連接詞",
+    "zh": "所以",
+    "use": "原因子句, so + 結果子句",
+    "why": "文法錯：so 後要接子句；且出席率低是原因不是結果"
+   },
+   {
+    "o": "although",
+    "pos": "連接詞",
+    "zh": "雖然",
+    "use": "although + 子句",
+    "why": "文法錯：後面不是子句；語意也不是讓步"
+   }
+  ]
+ },
+ {
+  "id": "g600-29",
+  "key": "空格後是子句（she had …）＋說明原因 → 連接詞 because",
+  "notes": [
+   {
+    "o": "because",
+    "pos": "連接詞",
+    "zh": "因為",
+    "use": "結果子句 + because + 原因子句",
+    "why": "空格後有主詞＋動詞 → 選連接詞，不選 because of"
+   },
+   {
+    "o": "because of",
+    "pos": "介系詞片語",
+    "zh": "因為",
+    "use": "because of + 名詞片語",
+    "why": "文法錯：介系詞片語不能接子句"
+   },
+   {
+    "o": "despite",
+    "pos": "介系詞",
+    "zh": "儘管",
+    "use": "despite + 名詞／V-ing",
+    "why": "文法錯：不能接子句；語意也不是讓步"
+   },
+   {
+    "o": "unless",
+    "pos": "連接詞",
+    "zh": "除非",
+    "use": "主要子句 + unless + 條件子句",
+    "why": "文法可以，但語意不通：開會是原因不是條件"
+   }
+  ]
+ },
+ {
+  "id": "g600-30",
+  "key": "空格後是子句＋「一…就…」的時間條件 → once（= as soon as）",
+  "notes": [
+   {
+    "o": "once",
+    "pos": "連接詞",
+    "zh": "一旦；一…就",
+    "use": "主要子句（will）+ once + 子句（現在式／完成式）",
+    "why": "once 當連接詞＝一旦；子句用現在式表未來"
+   },
+   {
+    "o": "unless",
+    "pos": "連接詞",
+    "zh": "除非",
+    "use": "主要子句 + unless + 子句（= if … not）",
+    "why": "文法可以，但語意相反：變成「沒付款才出貨」"
+   },
+   {
+    "o": "during",
+    "pos": "介系詞",
+    "zh": "在…期間",
+    "use": "during + 名詞（during the sale）",
+    "why": "文法錯：介系詞不能接子句"
+   },
+   {
+    "o": "despite",
+    "pos": "介系詞",
+    "zh": "儘管",
+    "use": "despite + 名詞／V-ing",
+    "why": "文法錯：不能接子句；語意也不通"
+   }
+  ]
+ },
+ {
+  "id": "g600-31",
+  "key": "否定句 cannot ＋必要條件 → unless（除非，= if … not）",
+  "notes": [
+   {
+    "o": "unless",
+    "pos": "連接詞",
+    "zh": "除非",
+    "use": "否定的結果 + unless + 條件子句",
+    "why": "unless = if … not；常配 cannot、will not"
+   },
+   {
+    "o": "although",
+    "pos": "連接詞",
+    "zh": "雖然",
+    "use": "although + 子句（前後語意相反）",
+    "why": "文法可以，但語意不通：有門禁卡卻不能進？"
+   },
+   {
+    "o": "despite",
+    "pos": "介系詞",
+    "zh": "儘管",
+    "use": "despite + 名詞／V-ing",
+    "why": "文法錯：介系詞不能接子句"
+   },
+   {
+    "o": "therefore",
+    "pos": "副詞",
+    "zh": "因此",
+    "use": "句子; therefore, 句子.",
+    "why": "文法錯：副詞不能直接連接兩個子句"
+   }
+  ]
+ },
+ {
+  "id": "g600-32",
+  "key": "未來動作 + 空格 + 子句（現在式）→「一…就…」as soon as",
+  "notes": [
+   {
+    "o": "as soon as",
+    "pos": "連接詞片語",
+    "zh": "一…就…",
+    "use": "主要子句（will）+ as soon as + 子句（現在式）",
+    "why": "時間子句講未來仍用現在式（are finished）"
+   },
+   {
+    "o": "as well as",
+    "pos": "連接詞片語",
+    "zh": "以及",
+    "use": "A as well as B（連接對等的詞或片語）",
+    "why": "語意與文法都不對：它不引導時間子句"
+   },
+   {
+    "o": "such as",
+    "pos": "介系詞片語",
+    "zh": "例如",
+    "use": "名詞 + such as + 舉例名詞",
+    "why": "文法錯：用來舉例，後面不接子句"
+   },
+   {
+    "o": "as far as",
+    "pos": "連接詞片語",
+    "zh": "就…而言；遠至",
+    "use": "as far as I know；as far as + 地點",
+    "why": "語意不通：不表示時間上的「一…就…」"
+   }
+  ]
+ },
+ {
+  "id": "g600-33",
+  "key": "空格後是子句（he was waiting）＋同時進行 → while；名詞才用 during",
+  "notes": [
+   {
+    "o": "while",
+    "pos": "連接詞",
+    "zh": "當…的時候",
+    "use": "while + 主詞 + 動詞（常用進行式）",
+    "why": "while 接子句、during 接名詞，是常見陷阱"
+   },
+   {
+    "o": "during",
+    "pos": "介系詞",
+    "zh": "在…期間",
+    "use": "during + 名詞（during his flight）",
+    "why": "文法錯：介系詞不能接子句 he was waiting"
+   },
+   {
+    "o": "unless",
+    "pos": "連接詞",
+    "zh": "除非",
+    "use": "主要子句 + unless + 條件子句",
+    "why": "文法可以，但語意不通：候機不是回信的條件"
+   },
+   {
+    "o": "so",
+    "pos": "連接詞",
+    "zh": "所以",
+    "use": "原因子句, so + 結果子句",
+    "why": "語意不通：候機不是回信造成的結果"
+   }
+  ]
+ },
+ {
+  "id": "g600-34",
+  "key": "分號 ; 後＋逗號 → 副詞連接詞；前因後果 → therefore",
+  "notes": [
+   {
+    "o": "therefore",
+    "pos": "副詞",
+    "zh": "因此",
+    "use": "子句; therefore, 子句.／子句. Therefore, 子句.",
+    "why": "therefore 是副詞，常用分號或句號隔開兩句"
+   },
+   {
+    "o": "however",
+    "pos": "副詞",
+    "zh": "然而",
+    "use": "子句; however, 子句.（前後轉折）",
+    "why": "位置可以，但語意不通：沒碳粉→明天印是因果"
+   },
+   {
+    "o": "because",
+    "pos": "連接詞",
+    "zh": "因為",
+    "use": "結果子句 + because + 原因子句",
+    "why": "文法錯：because 不能放在 ; 和逗號之間"
+   },
+   {
+    "o": "although",
+    "pos": "連接詞",
+    "zh": "雖然",
+    "use": "although + 子句, 子句",
+    "why": "文法錯：不能用 ; although, 的格式，語意也不對"
+   }
+  ]
+ },
+ {
+  "id": "g600-35",
+  "key": "句號後＋逗號開頭 → 副詞；貴 vs. 省時（轉折）→ However",
+  "notes": [
+   {
+    "o": "However",
+    "pos": "副詞",
+    "zh": "然而",
+    "use": "句子. However, 句子.（前後轉折）",
+    "why": "however 是副詞，句首加逗號，不能直接連接兩子句"
+   },
+   {
+    "o": "Despite",
+    "pos": "介系詞",
+    "zh": "儘管",
+    "use": "Despite + 名詞／V-ing, 子句",
+    "why": "文法錯：despite 後面要接名詞，不能接逗號"
+   },
+   {
+    "o": "Although",
+    "pos": "連接詞",
+    "zh": "雖然",
+    "use": "Although + 子句, 子句",
+    "why": "文法錯：although 後面要直接接子句，不能接逗號"
+   },
+   {
+    "o": "Therefore",
+    "pos": "副詞",
+    "zh": "因此",
+    "use": "句子. Therefore, 句子.（前因後果）",
+    "why": "位置可以，但語意不通：貴和省時是轉折不是因果"
+   }
+  ]
+ },
+ {
+  "id": "g600-36",
+  "key": "兩方互相做某事（work with）→ each other",
+  "notes": [
+   {
+    "o": "each other",
+    "pos": "相互代名詞",
+    "zh": "彼此；互相",
+    "use": "動詞／介系詞 + each other（work with each other）",
+    "why": "兩方「互相」用 each other；自己對自己才用反身"
+   },
+   {
+    "o": "themselves",
+    "pos": "反身代名詞",
+    "zh": "他們自己",
+    "use": "主詞的動作回到主詞本身（help themselves）",
+    "why": "語意不通：是兩個部門互相合作，不是和自己合作"
+   },
+   {
+    "o": "their",
+    "pos": "所有格",
+    "zh": "他們的",
+    "use": "their + 名詞（their staff）",
+    "why": "文法錯：所有格後面必須接名詞"
+   },
+   {
+    "o": "theirs",
+    "pos": "所有格代名詞",
+    "zh": "他們的（東西）",
+    "use": "= their + 名詞，代替前面提過的名詞",
+    "why": "前面沒有可代替的名詞，work with theirs 不通"
+   }
+  ]
+ },
+ {
+  "id": "g600-37",
+  "key": "on ------- own → 固定用所有格：on one's own（獨自）",
+  "notes": [
+   {
+    "o": "her",
+    "pos": "所有格",
+    "zh": "她的",
+    "use": "on + 所有格 + own = by + 反身代名詞",
+    "why": "on her own = by herself，所有格接 own"
+   },
+   {
+    "o": "she",
+    "pos": "主格",
+    "zh": "她",
+    "use": "當主詞：She prepared …",
+    "why": "文法錯：介系詞後不能用主格，own 前要所有格"
+   },
+   {
+    "o": "hers",
+    "pos": "所有格代名詞",
+    "zh": "她的（東西）",
+    "use": "獨立使用，後面不接名詞（The idea was hers.）",
+    "why": "文法錯：hers 後面不能再接 own"
+   },
+   {
+    "o": "herself",
+    "pos": "反身代名詞",
+    "zh": "她自己",
+    "use": "by herself；主詞 + V + herself",
+    "why": "文法錯：沒有 on herself own；要說 by herself"
+   }
+  ]
+ },
+ {
+  "id": "g600-38",
+  "key": "代替前面的複數名詞（chairs）＋前有形容詞 → ones",
+  "notes": [
+   {
+    "o": "ones",
+    "pos": "代名詞（複數）",
+    "zh": "（同類的）那些",
+    "use": "形容詞 + ones：代替前面提過的複數可數名詞",
+    "why": "one／ones 代替「同類但不同的」東西，前可加形容詞"
+   },
+   {
+    "o": "one",
+    "pos": "代名詞（單數）",
+    "zh": "（同類的）一個",
+    "use": "a + 形容詞 + one（a larger one）",
+    "why": "單數可數要有冠詞 a larger one；且 chairs 是複數"
+   },
+   {
+    "o": "it",
+    "pos": "代名詞",
+    "zh": "它",
+    "use": "代替「同一個」單數名詞，前面不加形容詞",
+    "why": "文法錯：it 前不能加形容詞 larger"
+   },
+   {
+    "o": "them",
+    "pos": "受格代名詞",
+    "zh": "它們",
+    "use": "代替「同一批」複數名詞，前面不加形容詞",
+    "why": "文法錯：them 前不能加 larger，且指的是同一批椅子"
+   }
+  ]
+ },
+ {
+  "id": "g600-39",
+  "key": "空格 + who + 動詞 → those who（…的人們）",
+  "notes": [
+   {
+    "o": "Those",
+    "pos": "指示代名詞",
+    "zh": "那些（人）",
+    "use": "those who + 動詞（複數）：…的人",
+    "why": "those who 是固定用法；動詞用複數 register"
+   },
+   {
+    "o": "They",
+    "pos": "主格",
+    "zh": "他們",
+    "use": "當主詞，指前面提過的人",
+    "why": "現代英文不說 they who；表「…的人」要用 those who"
+   },
+   {
+    "o": "Them",
+    "pos": "受格",
+    "zh": "他們",
+    "use": "動詞／介系詞 + them",
+    "why": "文法錯：受格不能當主詞"
+   },
+   {
+    "o": "Their",
+    "pos": "所有格",
+    "zh": "他們的",
+    "use": "their + 名詞",
+    "why": "文法錯：所有格後面要接名詞，不能接 who"
+   }
+  ]
+ },
+ {
+  "id": "g600-40",
+  "key": "介系詞（to）的受詞 → 受格；拿掉 Mr. Ito or 再聽：send to me",
+  "notes": [
+   {
+    "o": "me",
+    "pos": "受格",
+    "zh": "我",
+    "use": "動詞／介系詞 + 受格（to A or me）",
+    "why": "A and／or + 代名詞時，拿掉 A 檢查格位最快"
+   },
+   {
+    "o": "I",
+    "pos": "主格",
+    "zh": "我",
+    "use": "當主詞：Mr. Ito and I will …",
+    "why": "文法錯：介系詞 to 的受詞不能用主格"
+   },
+   {
+    "o": "my",
+    "pos": "所有格",
+    "zh": "我的",
+    "use": "my + 名詞",
+    "why": "文法錯：所有格後面要接名詞"
+   },
+   {
+    "o": "myself",
+    "pos": "反身代名詞",
+    "zh": "我自己",
+    "use": "主詞是 I 時才用（I did it myself.）",
+    "why": "句子主詞不是 I，正式寫作不用 myself 代替 me"
+   }
+  ]
+ },
+ {
+  "id": "g600-41",
+  "key": "空格當主詞＋代替前面的 proposal → 所有格代名詞 ours（= our proposal）",
+  "notes": [
+   {
+    "o": "ours",
+    "pos": "所有格代名詞",
+    "zh": "我們的（提案）",
+    "use": "= our + 名詞；可當主詞或受詞，後面不接名詞",
+    "why": "mine／yours／ours 代替「所有格 + 前面的名詞」"
+   },
+   {
+    "o": "us",
+    "pos": "受格",
+    "zh": "我們",
+    "use": "動詞／介系詞 + us",
+    "why": "文法錯：受格不能當主詞；語意上被退回的是提案"
+   },
+   {
+    "o": "our",
+    "pos": "所有格",
+    "zh": "我們的",
+    "use": "our + 名詞（our proposal）",
+    "why": "文法錯：our 後面一定要接名詞"
+   },
+   {
+    "o": "ourselves",
+    "pos": "反身代名詞",
+    "zh": "我們自己",
+    "use": "主詞是 we 時當受詞（we did it ourselves）",
+    "why": "文法錯：反身代名詞不能當主詞"
+   }
+  ]
+ },
+ {
+  "id": "g600-42",
+  "key": "句子已完整（book rooms）＋強調「自己來」→ 反身代名詞",
+  "notes": [
+   {
+    "o": "themselves",
+    "pos": "反身代名詞",
+    "zh": "他們自己",
+    "use": "主詞 + 動詞 + 受詞 + 反身代名詞（強調親自）",
+    "why": "完整句後加反身代名詞＝親自做，可省略而不影響文法"
+   },
+   {
+    "o": "them",
+    "pos": "受格",
+    "zh": "他們；它們",
+    "use": "動詞／介系詞 + them",
+    "why": "文法錯：book 已有受詞 rooms，不能再接 them"
+   },
+   {
+    "o": "their",
+    "pos": "所有格",
+    "zh": "他們的",
+    "use": "their + 名詞",
+    "why": "文法錯：所有格後面要接名詞"
+   },
+   {
+    "o": "they",
+    "pos": "主格",
+    "zh": "他們",
+    "use": "放在動詞前當主詞",
+    "why": "文法錯：主格不能放在受詞後面"
+   }
+  ]
+ },
+ {
+  "id": "g600-43",
+  "key": "先行詞 + 空格 + 名詞 + 動詞（「supplier 的 products」）→ whose",
+  "notes": [
+   {
+    "o": "whose",
+    "pos": "關係代名詞所有格",
+    "zh": "…的",
+    "use": "先行詞 + whose + 名詞 + 動詞（人或物都可）",
+    "why": "空格後緊接名詞且表「誰的」→ whose"
+   },
+   {
+    "o": "who",
+    "pos": "關係代名詞主格",
+    "zh": "（…的那個人）",
+    "use": "人 + who + 動詞",
+    "why": "who 後應直接接動詞；這裡接的是名詞 products"
+   },
+   {
+    "o": "which",
+    "pos": "關係代名詞",
+    "zh": "（…的那個東西）",
+    "use": "物 + which + 動詞／主詞 + 動詞",
+    "why": "which 後的子句要缺主詞或受詞；products meet … 已完整"
+   },
+   {
+    "o": "what",
+    "pos": "關係代名詞",
+    "zh": "…的東西",
+    "use": "what = the thing(s) that，前面不接先行詞",
+    "why": "文法錯：what 前面不能有先行詞 supplier"
+   }
+  ]
+ },
+ {
+  "id": "g600-44",
+  "key": "地點先行詞＋後面子句完整（the conference will be held）→ where",
+  "notes": [
+   {
+    "o": "where",
+    "pos": "關係副詞",
+    "zh": "在那裡",
+    "use": "地點 + where + 完整子句（= in which）",
+    "why": "where 後接完整子句；which 後的子句要缺主詞或受詞"
+   },
+   {
+    "o": "which",
+    "pos": "關係代名詞",
+    "zh": "（…的那個）",
+    "use": "物 + which + 缺主詞／受詞的子句",
+    "why": "文法錯：子句完整，要用 in which 或 where"
+   },
+   {
+    "o": "what",
+    "pos": "關係代名詞",
+    "zh": "…的東西",
+    "use": "what 前不接先行詞（what we need）",
+    "why": "文法錯：前面已有先行詞 the hotel"
+   },
+   {
+    "o": "who",
+    "pos": "關係代名詞",
+    "zh": "（…的那個人）",
+    "use": "人 + who + 動詞",
+    "why": "hotel 不是人，且後面子句已完整"
+   }
+  ]
+ },
+ {
+  "id": "g600-45",
+  "key": "空格前無先行詞＋ need 缺受詞 → what（= the thing that）",
+  "notes": [
+   {
+    "o": "what",
+    "pos": "關係代名詞",
+    "zh": "…的東西",
+    "use": "動詞 + what + 主詞 + 動詞（缺受詞）",
+    "why": "what 自帶先行詞＝the thing that，後面子句缺受詞"
+   },
+   {
+    "o": "that",
+    "pos": "連接詞／關代",
+    "zh": "（引導子句）",
+    "use": "tell + 人 + that + 完整子句；名詞 + that",
+    "why": "文法錯：that 子句要完整，need 後卻缺受詞"
+   },
+   {
+    "o": "where",
+    "pos": "疑問副詞",
+    "zh": "在哪裡",
+    "use": "tell me where + 完整子句",
+    "why": "文法錯：where 後子句要完整，need 缺受詞"
+   },
+   {
+    "o": "whose",
+    "pos": "疑問詞所有格",
+    "zh": "誰的",
+    "use": "whose + 名詞（whose bag）",
+    "why": "文法錯：whose 後面要接名詞"
+   }
+  ]
+ },
+ {
+  "id": "g600-46",
+  "key": "as … as 中間用原級形容詞／副詞；be 動詞後 → 形容詞原級",
+  "notes": [
+   {
+    "o": "light",
+    "pos": "形容詞原級",
+    "zh": "輕的",
+    "use": "as + 原級 + as：和…一樣",
+    "why": "as … as 中間絕不放比較級或最高級"
+   },
+   {
+    "o": "lighter",
+    "pos": "比較級",
+    "zh": "較輕的",
+    "use": "比較級 + than（lighter than）",
+    "why": "比較級要配 than，不能放在 as … as 中間"
+   },
+   {
+    "o": "lightest",
+    "pos": "最高級",
+    "zh": "最輕的",
+    "use": "the + 最高級 + in／of + 範圍",
+    "why": "最高級不能放在 as … as 中間"
+   },
+   {
+    "o": "lightly",
+    "pos": "副詞",
+    "zh": "輕輕地",
+    "use": "修飾動詞：pack lightly",
+    "why": "be 動詞後描述主詞要用形容詞，不用副詞"
+   }
+  ]
+ },
+ {
+  "id": "g600-47",
+  "key": "看到 than → 比較級；much 可修飾比較級",
+  "notes": [
+   {
+    "o": "higher",
+    "pos": "比較級",
+    "zh": "更高的",
+    "use": "much／far／even + 比較級 + than",
+    "why": "much、far、even 用來加強比較級，very 不行"
+   },
+   {
+    "o": "high",
+    "pos": "形容詞原級",
+    "zh": "高的",
+    "use": "very high；as high as",
+    "why": "文法錯：後面有 than，要用比較級"
+   },
+   {
+    "o": "highest",
+    "pos": "最高級",
+    "zh": "最高的",
+    "use": "the highest + 名詞 + in／of／ever",
+    "why": "文法錯：最高級不配 than"
+   },
+   {
+    "o": "highly",
+    "pos": "副詞",
+    "zh": "高度地；非常",
+    "use": "highly + 形容詞（highly recommended）",
+    "why": "文法錯：be 動詞後要形容詞，且有 than 要比較級"
+   }
+  ]
+ },
+ {
+  "id": "g600-48",
+  "key": "看到後面的 nor → Neither A nor B（兩者都不）",
+  "notes": [
+   {
+    "o": "Neither",
+    "pos": "對等連接詞",
+    "zh": "兩者都不",
+    "use": "Neither A nor B + 動詞（動詞跟 B 一致）",
+    "why": "成對記：neither … nor、either … or、both … and"
+   },
+   {
+    "o": "Either",
+    "pos": "對等連接詞",
+    "zh": "兩者之一",
+    "use": "Either A or B",
+    "why": "文法錯：either 要配 or，不配 nor"
+   },
+   {
+    "o": "Both",
+    "pos": "對等連接詞",
+    "zh": "兩者都",
+    "use": "Both A and B + 複數動詞",
+    "why": "文法錯：both 要配 and，且動詞用複數 were"
+   },
+   {
+    "o": "Not",
+    "pos": "副詞",
+    "zh": "不",
+    "use": "not only A but also B；not A but B",
+    "why": "文法錯：沒有 not A nor B 的句型"
+   }
+  ]
+ },
+ {
+  "id": "g600-49",
+  "key": "看到後面的 and → both A and B",
+  "notes": [
+   {
+    "o": "both",
+    "pos": "對等連接詞",
+    "zh": "兩者都",
+    "use": "both A and B",
+    "why": "both 配 and；either 配 or；neither 配 nor"
+   },
+   {
+    "o": "either",
+    "pos": "對等連接詞",
+    "zh": "兩者之一",
+    "use": "either A or B",
+    "why": "文法錯：either 要配 or，不配 and"
+   },
+   {
+    "o": "neither",
+    "pos": "對等連接詞",
+    "zh": "兩者都不",
+    "use": "neither A nor B",
+    "why": "文法錯：neither 要配 nor，不配 and"
+   },
+   {
+    "o": "each",
+    "pos": "限定詞",
+    "zh": "每一個",
+    "use": "each + 單數名詞；each of the + 複數名詞",
+    "why": "文法錯：each 不和 and 形成成對句型"
+   }
+  ]
+ },
+ {
+  "id": "g600-50",
+  "key": "空格後是單數可數名詞（participant）→ each／every",
+  "notes": [
+   {
+    "o": "each",
+    "pos": "限定詞",
+    "zh": "每一個",
+    "use": "each + 單數名詞 + 單數動詞",
+    "why": "each／every 後接單數名詞；all／most／many 接複數"
+   },
+   {
+    "o": "all",
+    "pos": "限定詞",
+    "zh": "所有的",
+    "use": "all + 複數名詞／不可數名詞",
+    "why": "文法錯：participant 是單數，要 all participants"
+   },
+   {
+    "o": "most",
+    "pos": "限定詞",
+    "zh": "大部分的",
+    "use": "most + 複數名詞；most of the + 名詞",
+    "why": "文法錯：後面要複數 participants"
+   },
+   {
+    "o": "many",
+    "pos": "限定詞",
+    "zh": "許多的",
+    "use": "many + 可數複數名詞",
+    "why": "文法錯：many 後面要接複數名詞"
+   }
+  ]
+ }
+]

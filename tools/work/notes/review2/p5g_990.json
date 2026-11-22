@@ -1,0 +1,3 @@
+[
+ {"id": "g990-32", "field": "notes.3.why", "problem": "With a comma and past-tense 'fell', ', so that' reads as result ('with the result that'), not purpose; the why misdescribes how the option would be read.", "fix": "文法可以（逗號＋so that 可表結果），但語意不通：台南沒達標不是台北超標造成的"}
+]

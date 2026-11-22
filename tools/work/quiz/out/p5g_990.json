@@ -1,0 +1,602 @@
+[
+ {
+  "gid": "g990-01",
+  "type": "verb",
+  "q": "------- you require any further assistance with the installation, please contact our technical support team at extension 4512.",
+  "answer": "Should",
+  "distractors": [
+   "Had",
+   "Were",
+   "Would"
+  ],
+  "zh": "如果您在安裝上還需要任何協助，請撥分機 4512 聯絡我們的技術支援團隊。"
+ },
+ {
+  "gid": "g990-02",
+  "type": "verb",
+  "q": "Had the vendor ------- the defective parts sooner, the assembly line would not have been shut down for three days.",
+  "answer": "replaced",
+  "distractors": [
+   "replace",
+   "replacing",
+   "been replaced"
+  ],
+  "zh": "要是廠商早一點更換那些瑕疵零件，組裝線就不會停工三天了。"
+ },
+ {
+  "gid": "g990-03",
+  "type": "verb",
+  "q": "If the board had approved the merger last year, the company ------- the largest logistics provider in the region today.",
+  "answer": "would be",
+  "distractors": [
+   "would have been",
+   "will be",
+   "had been"
+  ],
+  "zh": "如果董事會去年核准了合併案，這家公司今天就會是該地區最大的物流業者。"
+ },
+ {
+  "gid": "g990-04",
+  "type": "verb",
+  "q": "It is imperative that every employee ------- the updated data-protection training before accessing the client database next month.",
+  "answer": "complete",
+  "distractors": [
+   "completes",
+   "completed",
+   "will complete"
+  ],
+  "zh": "所有員工下個月在存取客戶資料庫之前，都務必完成更新後的資料保護訓練。"
+ },
+ {
+  "gid": "g990-05",
+  "type": "verb",
+  "q": "If the supplier ------- to raise its prices again, we would have no choice but to look for an alternative manufacturer overseas.",
+  "answer": "were",
+  "distractors": [
+   "are",
+   "will",
+   "would"
+  ],
+  "zh": "萬一供應商再次漲價，我們將別無選擇，只能另找海外的製造商。"
+ },
+ {
+  "gid": "g990-06",
+  "type": "verb",
+  "q": "------- the quarterly targets two weeks ahead of schedule, the sales team was rewarded with an extra day of paid leave.",
+  "answer": "Having met",
+  "distractors": [
+   "Being met",
+   "To meet",
+   "Met"
+  ],
+  "zh": "業務團隊提前兩週達成季度目標，因此獲得額外一天的帶薪假。"
+ },
+ {
+  "gid": "g990-07",
+  "type": "verb",
+  "q": "The contract, ------- by both parties last Tuesday, now goes into effect at the start of the next fiscal quarter.",
+  "answer": "signed",
+  "distractors": [
+   "signing",
+   "having signed",
+   "to sign"
+  ],
+  "zh": "這份合約已於上週二由雙方簽署，將自下一個會計季度開始生效。"
+ },
+ {
+  "gid": "g990-08",
+  "type": "verb",
+  "q": "By the time the new CEO takes office in March, the company ------- its restructuring of the overseas divisions.",
+  "answer": "will have completed",
+  "distractors": [
+   "has completed",
+   "had completed",
+   "will be completed"
+  ],
+  "zh": "等到新任執行長三月上任時，公司將已完成海外部門的重整。"
+ },
+ {
+  "gid": "g990-09",
+  "type": "verb",
+  "q": "When the replacement unit finally arrived at the warehouse, the client ------- the order and requested a full refund.",
+  "answer": "had already canceled",
+  "distractors": [
+   "has already canceled",
+   "will already have canceled",
+   "was already canceled"
+  ],
+  "zh": "等替換品終於送達倉庫時，客戶早已取消訂單並要求全額退款。"
+ },
+ {
+  "gid": "g990-10",
+  "type": "verb",
+  "q": "The number of applicants who have passed the preliminary screening for the engineering positions ------- considerably higher than the hiring committee expected.",
+  "answer": "was",
+  "distractors": [
+   "were",
+   "have been",
+   "are"
+  ],
+  "zh": "通過工程職缺初步篩選的應徵人數，遠高於招募委員會的預期。"
+ },
+ {
+  "gid": "g990-11",
+  "type": "verb",
+  "q": "Not only ------- the new inventory software reduce processing time, but it also cuts the error rate in half.",
+  "answer": "does",
+  "distractors": [
+   "is",
+   "has",
+   "do"
+  ],
+  "zh": "新的庫存軟體不僅縮短處理時間，也讓錯誤率減半。"
+ },
+ {
+  "gid": "g990-12",
+  "type": "verb",
+  "q": "Rarely ------- a first-year analyst been entrusted with a client account as large as the one Ms. Ortiz now manages.",
+  "answer": "has",
+  "distractors": [
+   "have",
+   "is",
+   "does"
+  ],
+  "zh": "第一年的分析師很少被託付像 Ortiz 女士目前負責的這麼大的客戶帳戶。"
+ },
+ {
+  "gid": "g990-13",
+  "type": "verb",
+  "q": "No sooner ------- the quarterly results been announced than the company's share price began to climb sharply.",
+  "answer": "had",
+  "distractors": [
+   "have",
+   "has",
+   "did"
+  ],
+  "zh": "季度財報一公布，公司股價隨即急速攀升。"
+ },
+ {
+  "gid": "g990-14",
+  "type": "verb",
+  "q": "Before the trade show next week, the marketing director wants to have all the product brochures ------- into Spanish and Portuguese.",
+  "answer": "translated",
+  "distractors": [
+   "translate",
+   "translating",
+   "to translate"
+  ],
+  "zh": "下週商展之前，行銷總監想把所有產品手冊翻譯成西班牙文和葡萄牙文。"
+ },
+ {
+  "gid": "g990-15",
+  "type": "verb",
+  "q": "Several senior engineers objected to ------- to the new facility in Hsinchu without being consulted in advance.",
+  "answer": "being transferred",
+  "distractors": [
+   "be transferred",
+   "been transferred",
+   "to be transferred"
+  ],
+  "zh": "幾位資深工程師反對在未事先徵詢的情況下被調到新竹的新廠區。"
+ },
+ {
+  "gid": "g990-16",
+  "type": "prep",
+  "q": "The public announcement of the partnership has been postponed ------- final approval from both companies' legal departments.",
+  "answer": "pending",
+  "distractors": [
+   "regarding",
+   "beside",
+   "among"
+  ],
+  "zh": "合作案的公開宣布已延後，等待雙方公司法務部門的最終核准。"
+ },
+ {
+  "gid": "g990-17",
+  "type": "prep",
+  "q": "------- the recent slowdown in consumer spending, the retailer expects its holiday sales to exceed last year's record figures.",
+  "answer": "Notwithstanding",
+  "distractors": [
+   "Because of",
+   "Instead of",
+   "Except for"
+  ],
+  "zh": "儘管近期消費支出放緩，這家零售商仍預期假期銷售額將超越去年的紀錄。"
+ },
+ {
+  "gid": "g990-18",
+  "type": "prep",
+  "q": "------- any unexpected delays at customs, the replacement components should reach our Kaohsiung plant by Thursday morning.",
+  "answer": "Barring",
+  "distractors": [
+   "Including",
+   "Regarding",
+   "Toward"
+  ],
+  "zh": "除非海關出現意外延誤，替換零件應該會在週四早上前送達我們的高雄廠。"
+ },
+ {
+  "gid": "g990-19",
+  "type": "prep",
+  "q": "Employees who work on national holidays may take a paid day off later in the month ------- overtime pay.",
+  "answer": "in lieu of",
+  "distractors": [
+   "on account of",
+   "in charge of",
+   "by means of"
+  ],
+  "zh": "在國定假日上班的員工，可選擇當月稍後休一天有薪假，以代替加班費。"
+ },
+ {
+  "gid": "g990-20",
+  "type": "prep",
+  "q": "Please direct all inquiries ------- the revised reimbursement policy to Ms. Huang in the accounting department.",
+  "answer": "with regard to",
+  "distractors": [
+   "in addition to",
+   "on behalf of",
+   "in spite of"
+  ],
+  "zh": "有關修訂後報銷規定的所有問題，請洽會計部的黃小姐。"
+ },
+ {
+  "gid": "g990-21",
+  "type": "prep",
+  "q": "Registration fees are fully refundable if a written cancellation request is received no later than ten business days ------- the start of the seminar.",
+  "answer": "prior to",
+  "distractors": [
+   "owing to",
+   "next to",
+   "according to"
+  ],
+  "zh": "若在研討會開始前至少十個工作天收到書面取消申請，報名費可全額退還。"
+ },
+ {
+  "gid": "g990-22",
+  "type": "prep",
+  "q": "All hazardous materials must be stored and labeled ------- the safety regulations issued by the Ministry of Labor.",
+  "answer": "in accordance with",
+  "distractors": [
+   "in comparison with",
+   "in exchange for",
+   "in favor of"
+  ],
+  "zh": "所有危險物質都必須依照勞動部發布的安全法規儲存並標示。"
+ },
+ {
+  "gid": "g990-23",
+  "type": "prep",
+  "q": "The museum's gift shop will remain open ------- the entire renovation period, although the main exhibition halls will be closed to visitors.",
+  "answer": "throughout",
+  "distractors": [
+   "among",
+   "since",
+   "between"
+  ],
+  "zh": "博物館禮品店在整個整修期間都會照常營業，不過主要展廳將不對外開放。"
+ },
+ {
+  "gid": "g990-24",
+  "type": "prep",
+  "q": "The success of the product launch was largely attributable ------- the marketing team's aggressive social media campaign.",
+  "answer": "to",
+  "distractors": [
+   "for",
+   "with",
+   "from"
+  ],
+  "zh": "產品上市的成功，主要歸功於行銷團隊積極的社群媒體宣傳。"
+ },
+ {
+  "gid": "g990-25",
+  "type": "prep",
+  "q": "Mr. Patel accepted the industry award ------- the entire research team, which spent three years developing the new battery.",
+  "answer": "on behalf of",
+  "distractors": [
+   "in terms of",
+   "by way of",
+   "in case of"
+  ],
+  "zh": "Patel 先生代表花了三年研發新電池的整個研究團隊領取這個產業獎項。"
+ },
+ {
+  "gid": "g990-26",
+  "type": "conj",
+  "q": "------- the shipment is delayed beyond Friday, the customer is entitled to a partial refund under the terms of the contract.",
+  "answer": "In the event that",
+  "distractors": [
+   "In the event of",
+   "Despite",
+   "However"
+  ],
+  "zh": "若貨物延誤超過週五，依合約條款客戶有權獲得部分退款。"
+ },
+ {
+  "gid": "g990-27",
+  "type": "conj",
+  "q": "------- the factory has upgraded its production equipment, it can now process twice as many orders per shift as it could last year.",
+  "answer": "Now that",
+  "distractors": [
+   "Even so",
+   "Due to",
+   "Unless"
+  ],
+  "zh": "既然工廠已升級生產設備，現在每班能處理的訂單量是去年的兩倍。"
+ },
+ {
+  "gid": "g990-28",
+  "type": "conj",
+  "q": "------- most of our clients are based in Southeast Asia, it makes sense to open a regional office in Singapore.",
+  "answer": "Given that",
+  "distractors": [
+   "Because of",
+   "Even though",
+   "Whereas"
+  ],
+  "zh": "考量到我們大多數客戶都在東南亞，在新加坡設立區域辦公室是合理的。"
+ },
+ {
+  "gid": "g990-29",
+  "type": "conj",
+  "q": "Employees may work remotely up to two days a week ------- their supervisors approve the schedule in advance.",
+  "answer": "as long as",
+  "distractors": [
+   "as well as",
+   "regardless of",
+   "in addition to"
+  ],
+  "zh": "只要主管事先核准排班，員工每週最多可遠距工作兩天。"
+ },
+ {
+  "gid": "g990-30",
+  "type": "conj",
+  "q": "------- the board approves the budget at Tuesday's meeting, construction on the new distribution center will begin in early April.",
+  "answer": "Assuming",
+  "distractors": [
+   "Regarding",
+   "Rather than",
+   "Nevertheless"
+  ],
+  "zh": "假設董事會在週二會議通過預算，新物流中心將於四月初動工。"
+ },
+ {
+  "gid": "g990-31",
+  "type": "conj",
+  "q": "Please submit your travel receipts by the 25th of the month; -------, your reimbursement will be delayed until the next pay cycle.",
+  "answer": "otherwise",
+  "distractors": [
+   "unless",
+   "moreover",
+   "therefore"
+  ],
+  "zh": "請在當月 25 日前繳交差旅收據，否則報銷款項將延到下一個發薪週期。"
+ },
+ {
+  "gid": "g990-32",
+  "type": "conj",
+  "q": "The Taipei branch exceeded its sales target by 15 percent, ------- the Tainan branch fell short of its goal for the second consecutive quarter.",
+  "answer": "whereas",
+  "distractors": [
+   "however",
+   "despite",
+   "so that"
+  ],
+  "zh": "台北分公司超越業績目標 15%，而台南分公司則連續第二季未達標。"
+ },
+ {
+  "gid": "g990-33",
+  "type": "conj",
+  "q": "------- its strong brand recognition in Europe, the company has struggled to attract customers in the North American market.",
+  "answer": "Despite",
+  "distractors": [
+   "Although",
+   "Whereas",
+   "Nonetheless"
+  ],
+  "zh": "儘管這家公司在歐洲的品牌知名度很高，在北美市場卻一直難以吸引顧客。"
+ },
+ {
+  "gid": "g990-34",
+  "type": "conj",
+  "q": "The planning committee has not yet decided ------- the annual conference will be held in Taichung or moved online this year.",
+  "answer": "whether",
+  "distractors": [
+   "unless",
+   "despite",
+   "so"
+  ],
+  "zh": "籌備委員會還沒決定今年的年會要在台中舉辦還是改為線上。"
+ },
+ {
+  "gid": "g990-35",
+  "type": "conj",
+  "q": "The hotel's conference rooms are smaller than we had hoped; -------, they are equipped with excellent audiovisual systems.",
+  "answer": "even so",
+  "distractors": [
+   "although",
+   "despite",
+   "as a result"
+  ],
+  "zh": "這家飯店的會議室比我們預期的小；即便如此，它們的影音設備非常好。"
+ },
+ {
+  "gid": "g990-36",
+  "type": "pron",
+  "q": "The two regional managers must coordinate closely with ------- to avoid duplicating work during the upcoming system migration.",
+  "answer": "each other",
+  "distractors": [
+   "themselves",
+   "them",
+   "their"
+  ],
+  "zh": "兩位區域經理必須密切互相協調，以免在即將進行的系統移轉中重複作業。"
+ },
+ {
+  "gid": "g990-37",
+  "type": "pron",
+  "q": "Our quarterly sales figures were strong, but our main competitor reported results that were considerably stronger than -------.",
+  "answer": "ours",
+  "distractors": [
+   "us",
+   "we",
+   "ourselves"
+  ],
+  "zh": "我們的季度銷售數字很亮眼，但主要競爭對手公布的成績又比我們的強得多。"
+ },
+ {
+  "gid": "g990-38",
+  "type": "pron",
+  "q": "The prices of the imported components are now nearly twice ------- of the parts we purchase from local suppliers.",
+  "answer": "those",
+  "distractors": [
+   "that",
+   "them",
+   "ones"
+  ],
+  "zh": "進口零件的價格現在幾乎是我們向本地供應商採購零件價格的兩倍。"
+ },
+ {
+  "gid": "g990-39",
+  "type": "pron",
+  "q": "Ms. Okafor reviewed every clause of the contract -------, as she did not want to rely solely on the legal team's summary.",
+  "answer": "herself",
+  "distractors": [
+   "her",
+   "hers",
+   "she"
+  ],
+  "zh": "Okafor 女士親自審閱了合約的每一條條款，因為她不想只依賴法務團隊的摘要。"
+ },
+ {
+  "gid": "g990-40",
+  "type": "pron",
+  "q": "The bonus will go to ------- submits the most accurate sales forecast for the third quarter.",
+  "answer": "whoever",
+  "distractors": [
+   "whomever",
+   "who",
+   "whose"
+  ],
+  "zh": "獎金將頒給提出最準確第三季業績預測的人。"
+ },
+ {
+  "gid": "g990-41",
+  "type": "pron",
+  "q": "Customers who return defective headphones may exchange them for new ------- at any of our retail locations.",
+  "answer": "ones",
+  "distractors": [
+   "one",
+   "other",
+   "others"
+  ],
+  "zh": "退回瑕疵耳機的顧客，可在我們任何一家門市換成新的。"
+ },
+ {
+  "gid": "g990-42",
+  "type": "pron",
+  "q": "Interns are encouraged to complete the first assignment on ------- own before asking senior staff members for help.",
+  "answer": "their",
+  "distractors": [
+   "them",
+   "theirs",
+   "themselves"
+  ],
+  "zh": "實習生被鼓勵在請教資深同事之前，先獨力完成第一項作業。"
+ },
+ {
+  "gid": "g990-43",
+  "type": "other",
+  "q": "The company acquired three smaller software firms last year, ------- have since been merged into its cloud services division.",
+  "answer": "all of which",
+  "distractors": [
+   "all of them",
+   "all of whom",
+   "all which"
+  ],
+  "zh": "公司去年收購了三家較小的軟體公司，這三家後來都已併入其雲端服務部門。"
+ },
+ {
+  "gid": "g990-44",
+  "type": "other",
+  "q": "The two firms signed a distribution agreement ------- each will sell the other's products in its home market.",
+  "answer": "whereby",
+  "distractors": [
+   "which",
+   "whom",
+   "whose"
+  ],
+  "zh": "兩家公司簽署經銷協議，依此協議雙方將在各自的本國市場銷售對方的產品。"
+ },
+ {
+  "gid": "g990-45",
+  "type": "other",
+  "q": "Subscribers may choose either the annual plan or the monthly plan, ------- better suits their budget.",
+  "answer": "whichever",
+  "distractors": [
+   "whoever",
+   "whomever",
+   "wherever"
+  ],
+  "zh": "訂戶可選擇年繳方案或月繳方案，哪一種比較符合預算就選哪一種。"
+ },
+ {
+  "gid": "g990-46",
+  "type": "other",
+  "q": "The firm interviewed twelve candidates for the auditing position, ------- had sufficient experience with the required accounting software.",
+  "answer": "none of whom",
+  "distractors": [
+   "none of them",
+   "none of which",
+   "neither of whom"
+  ],
+  "zh": "該公司為稽核職缺面試了十二位應徵者，但沒有一位具備所需會計軟體的足夠經驗。"
+ },
+ {
+  "gid": "g990-47",
+  "type": "other",
+  "q": "It was ------- a successful promotion that management decided to extend it through the end of the month.",
+  "answer": "such",
+  "distractors": [
+   "so",
+   "very",
+   "too"
+  ],
+  "zh": "這次促銷非常成功，所以管理階層決定延長到月底。"
+ },
+ {
+  "gid": "g990-48",
+  "type": "other",
+  "q": "The longer customers are kept on hold by the call center, ------- likely they are to cancel their subscriptions.",
+  "answer": "the more",
+  "distractors": [
+   "more",
+   "the most",
+   "most"
+  ],
+  "zh": "顧客在客服中心等候的時間越長，就越可能取消訂閱。"
+ },
+ {
+  "gid": "g990-49",
+  "type": "other",
+  "q": "Hardly ------- of the survey respondents said they would recommend the new mobile banking app to their friends.",
+  "answer": "any",
+  "distractors": [
+   "some",
+   "none",
+   "no"
+  ],
+  "zh": "幾乎沒有任何受訪者表示會向朋友推薦這款新的行動銀行 App。"
+ },
+ {
+  "gid": "g990-50",
+  "type": "other",
+  "q": "Applicants ------- portfolios do not include at least three completed projects will not be considered for the senior designer role.",
+  "answer": "whose",
+  "distractors": [
+   "who",
+   "whom",
+   "which"
+  ],
+  "zh": "作品集中未包含至少三件完成作品的應徵者，將不列入資深設計師職位的考慮。"
+ }
+]

@@ -88,5 +88,12 @@
  },
  "l800-042": {
   "key": "Would you like to … to me? 是主動提議幫忙；接受就說 help"
+ },
+ "g600-40": {
+  "notes.3.o": "mine",
+  "notes.3.pos": "所有格代名詞",
+  "notes.3.zh": "我的（東西）",
+  "notes.3.use": "代替「my + 名詞」：This seat is mine.",
+  "notes.3.why": "mine 是「我的東西」，不是「我」；表格是寄給人"
  }
 }

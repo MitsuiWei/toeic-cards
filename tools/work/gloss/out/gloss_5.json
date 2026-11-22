@@ -1,0 +1,818 @@
+[
+{
+"f": "adams",
+"name": 1
+},
+{
+"f": "patel",
+"name": 1
+},
+{
+"f": "romero",
+"name": 1
+},
+{
+"f": "tsai",
+"name": 1
+},
+{
+"f": "ward",
+"name": 1
+},
+{
+"f": "hsinchu",
+"name": 1
+},
+{
+"f": "kaohsiung",
+"name": 1
+},
+{
+"f": "taichung",
+"name": 1
+},
+{
+"f": "tainan",
+"name": 1
+},
+{
+"f": "toronto",
+"name": 1
+},
+{
+"f": "seoul",
+"name": 1
+},
+{
+"f": "asia",
+"name": 1
+},
+{
+"f": "accessing",
+"l": "access"
+},
+{
+"f": "approves",
+"l": "approve"
+},
+{
+"f": "assuming",
+"l": "assume"
+},
+{
+"f": "causes",
+"l": "cause"
+},
+{
+"f": "closer",
+"l": "close"
+},
+{
+"f": "comfortably",
+"l": "comfortable"
+},
+{
+"f": "companies'",
+"l": "company"
+},
+{
+"f": "complains",
+"l": "complain"
+},
+{
+"f": "completes",
+"l": "complete"
+},
+{
+"f": "considering",
+"l": "consider"
+},
+{
+"f": "discussed",
+"l": "discuss"
+},
+{
+"f": "discusses",
+"l": "discuss"
+},
+{
+"f": "divisions",
+"l": "division"
+},
+{
+"f": "duplicating",
+"l": "duplicate"
+},
+{
+"f": "extends",
+"l": "extend"
+},
+{
+"f": "focuses",
+"l": "focus"
+},
+{
+"f": "halls",
+"l": "hall"
+},
+{
+"f": "increased",
+"l": "increase"
+},
+{
+"f": "inspecting",
+"l": "inspect"
+},
+{
+"f": "largely",
+"l": "large"
+},
+{
+"f": "lightest",
+"l": "light"
+},
+{
+"f": "lightly",
+"l": "light"
+},
+{
+"f": "organized",
+"l": "organize"
+},
+{
+"f": "organizes",
+"l": "organize"
+},
+{
+"f": "placing",
+"l": "place"
+},
+{
+"f": "portfolios",
+"l": "portfolio"
+},
+{
+"f": "prefers",
+"l": "prefer"
+},
+{
+"f": "presenting",
+"l": "present"
+},
+{
+"f": "serviced",
+"l": "service"
+},
+{
+"f": "servicing",
+"l": "service"
+},
+{
+"f": "shareholders'",
+"l": "shareholder"
+},
+{
+"f": "sooner",
+"l": "soon"
+},
+{
+"f": "submits",
+"l": "submit"
+},
+{
+"f": "submitting",
+"l": "submit"
+},
+{
+"f": "subscriptions",
+"l": "subscription"
+},
+{
+"f": "talked",
+"l": "talk"
+},
+{
+"f": "wins",
+"l": "win"
+},
+{
+"f": "wished",
+"l": "wish"
+},
+{
+"f": "wishing",
+"l": "wish"
+},
+{
+"f": "wore",
+"l": "wear"
+},
+{
+"f": "auditing",
+"l": "audit"
+},
+{
+"f": "screening",
+"l": "screen"
+},
+{
+"f": "aggressive",
+"l": "aggressive",
+"d": [
+[
+"adj.",
+"積極進取的；侵略性的"
+]
+]
+},
+{
+"f": "american",
+"l": "american",
+"d": [
+[
+"adj.",
+"美國的；美洲的"
+],
+[
+"n.",
+"美國人"
+]
+]
+},
+{
+"f": "attributable",
+"l": "attributable",
+"d": [
+[
+"adj.",
+"可歸因於…的"
+]
+]
+},
+{
+"f": "audiovisual",
+"l": "audiovisual",
+"d": [
+[
+"adj.",
+"視聽的；影音的"
+]
+]
+},
+{
+"f": "barring",
+"l": "barring",
+"d": [
+[
+"prep.",
+"除非有；如果沒有"
+]
+]
+},
+{
+"f": "beneath",
+"l": "beneath",
+"d": [
+[
+"prep.",
+"在…之下"
+]
+]
+},
+{
+"f": "besides",
+"l": "besides",
+"d": [
+[
+"prep.",
+"除了…之外（還有）"
+],
+[
+"adv.",
+"此外"
+]
+]
+},
+{
+"f": "climb",
+"l": "climb",
+"d": [
+[
+"v.",
+"攀升；爬"
+],
+[
+"n.",
+"攀升"
+]
+]
+},
+{
+"f": "communicate",
+"l": "communicate",
+"d": [
+[
+"v.",
+"溝通；聯絡"
+]
+]
+},
+{
+"f": "confuse",
+"l": "confuse",
+"d": [
+[
+"v.",
+"使困惑；混淆"
+]
+]
+},
+{
+"f": "confusion",
+"l": "confusion",
+"d": [
+[
+"n.",
+"困惑；混亂"
+]
+]
+},
+{
+"f": "contest",
+"l": "contest",
+"d": [
+[
+"n.",
+"比賽；競賽"
+]
+]
+},
+{
+"f": "contrast",
+"l": "contrast",
+"d": [
+[
+"n.",
+"對比；差異"
+],
+[
+"v.",
+"對比"
+]
+]
+},
+{
+"f": "data-protection",
+"l": "data-protection",
+"d": [
+[
+"adj.",
+"資料保護的"
+]
+]
+},
+{
+"f": "dealership",
+"l": "dealership",
+"d": [
+[
+"n.",
+"經銷商；（汽車）代理店"
+]
+]
+},
+{
+"f": "eco-friendly",
+"l": "eco-friendly",
+"d": [
+[
+"adj.",
+"環保的"
+]
+]
+},
+{
+"f": "entrust",
+"l": "entrust",
+"d": [
+[
+"v.",
+"委託；託付"
+]
+]
+},
+{
+"f": "first-year",
+"l": "first-year",
+"d": [
+[
+"adj.",
+"第一年的；新進的"
+]
+]
+},
+{
+"f": "friend",
+"l": "friend",
+"d": [
+[
+"n.",
+"朋友"
+]
+]
+},
+{
+"f": "hazardous",
+"l": "hazardous",
+"d": [
+[
+"adj.",
+"危險的；有害的"
+]
+]
+},
+{
+"f": "hers",
+"l": "hers",
+"d": [
+[
+"pron.",
+"她的（東西）"
+]
+]
+},
+{
+"f": "himself",
+"l": "himself",
+"d": [
+[
+"pron.",
+"他自己"
+]
+]
+},
+{
+"f": "hour-long",
+"l": "hour-long",
+"d": [
+[
+"adj.",
+"長達一小時的"
+]
+]
+},
+{
+"f": "lieu",
+"l": "lieu",
+"d": [
+[
+"n.",
+"（in lieu of）代替"
+]
+]
+},
+{
+"f": "migration",
+"l": "migration",
+"d": [
+[
+"n.",
+"（系統、資料）轉移；遷移"
+]
+]
+},
+{
+"f": "ministry",
+"l": "ministry",
+"d": [
+[
+"n.",
+"（政府的）部"
+]
+]
+},
+{
+"f": "none",
+"l": "none",
+"d": [
+[
+"pron.",
+"沒有一個；全無"
+]
+]
+},
+{
+"f": "nonetheless",
+"l": "nonetheless",
+"d": [
+[
+"adv.",
+"儘管如此；然而"
+]
+]
+},
+{
+"f": "notwithstanding",
+"l": "notwithstanding",
+"d": [
+[
+"prep.",
+"儘管"
+],
+[
+"adv.",
+"儘管如此"
+]
+]
+},
+{
+"f": "ours",
+"l": "ours",
+"d": [
+[
+"pron.",
+"我們的（東西）"
+]
+]
+},
+{
+"f": "ourselves",
+"l": "ourselves",
+"d": [
+[
+"pron.",
+"我們自己"
+]
+]
+},
+{
+"f": "partial",
+"l": "partial",
+"d": [
+[
+"adj.",
+"部分的"
+]
+]
+},
+{
+"f": "pending",
+"l": "pending",
+"d": [
+[
+"prep.",
+"在…之前；直到…為止"
+],
+[
+"adj.",
+"待定的；即將發生的"
+]
+]
+},
+{
+"f": "portuguese",
+"l": "portuguese",
+"d": [
+[
+"n.",
+"葡萄牙文；葡萄牙人"
+],
+[
+"adj.",
+"葡萄牙的"
+]
+]
+},
+{
+"f": "provider",
+"l": "provider",
+"d": [
+[
+"n.",
+"供應商；提供者"
+]
+]
+},
+{
+"f": "ring",
+"l": "ring",
+"d": [
+[
+"v.",
+"（鈴、電話）響"
+],
+[
+"n.",
+"戒指；鈴聲"
+]
+]
+},
+{
+"f": "respondent",
+"l": "respondent",
+"d": [
+[
+"n.",
+"（問卷）受訪者；回覆者"
+]
+]
+},
+{
+"f": "simplify",
+"l": "simplify",
+"d": [
+[
+"v.",
+"簡化"
+]
+]
+},
+{
+"f": "slowdown",
+"l": "slowdown",
+"d": [
+[
+"n.",
+"趨緩；放慢"
+]
+]
+},
+{
+"f": "solely",
+"l": "solely",
+"d": [
+[
+"adv.",
+"只；完全"
+]
+]
+},
+{
+"f": "southeast",
+"l": "southeast",
+"d": [
+[
+"n.",
+"東南方"
+],
+[
+"adj.",
+"東南的"
+]
+]
+},
+{
+"f": "spanish",
+"l": "spanish",
+"d": [
+[
+"n.",
+"西班牙文"
+],
+[
+"adj.",
+"西班牙的"
+]
+]
+},
+{
+"f": "steadily",
+"l": "steadily",
+"d": [
+[
+"adv.",
+"穩定地；持續地"
+]
+]
+},
+{
+"f": "struggle",
+"l": "struggle",
+"d": [
+[
+"v.",
+"掙扎；努力（卻有困難）"
+],
+[
+"n.",
+"奮鬥；難題"
+]
+]
+},
+{
+"f": "theirs",
+"l": "theirs",
+"d": [
+[
+"pron.",
+"他們的（東西）"
+]
+]
+},
+{
+"f": "third-floor",
+"l": "third-floor",
+"d": [
+[
+"adj.",
+"三樓的"
+]
+]
+},
+{
+"f": "toner",
+"l": "toner",
+"d": [
+[
+"n.",
+"（印表機）碳粉"
+]
+]
+},
+{
+"f": "translate",
+"l": "translate",
+"d": [
+[
+"v.",
+"翻譯"
+]
+]
+},
+{
+"f": "whereby",
+"l": "whereby",
+"d": [
+[
+"adv.",
+"藉此；依此（規定、協議）"
+]
+]
+},
+{
+"f": "wherever",
+"l": "wherever",
+"d": [
+[
+"conj.",
+"無論在哪裡"
+]
+]
+},
+{
+"f": "whoever",
+"l": "whoever",
+"d": [
+[
+"pron.",
+"無論是誰；…的任何人"
+]
+]
+},
+{
+"f": "whomever",
+"l": "whomever",
+"d": [
+[
+"pron.",
+"無論是誰（受格）"
+]
+]
+},
+{
+"f": "confused",
+"l": "confuse"
+},
+{
+"f": "rang",
+"l": "ring"
+},
+{
+"f": "respondents",
+"l": "respondent"
+},
+{
+"f": "simplified",
+"l": "simplify"
+},
+{
+"f": "struggled",
+"l": "struggle"
+},
+{
+"f": "entrusted",
+"l": "entrust"
+},
+{
+"f": "friends",
+"l": "friend"
+},
+{
+"f": "translated",
+"l": "translate"
+},
+{
+"f": "translating",
+"l": "translate"
+}
+]

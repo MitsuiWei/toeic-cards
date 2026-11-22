@@ -27,7 +27,7 @@
 ## 2. 工作慣例
 
 - **先給使用者看畫面，他說「上線」才 commit / push。** 使用者自己沒有本機 repo，commit 和 push 都由這邊做。
-- 每次上線把 `sw.js` 的 `VERSION` 加一（目前 `toeic-cards-v19`），舊快取才會被換掉。上線後告訴使用者新的版本號和 commit。
+- 每次上線把 `sw.js` 的 `VERSION` 加一（目前 `toeic-cards-v20`），舊快取才會被換掉。上線後告訴使用者新的版本號和 commit。
 - commit 訊息最後要加兩行署名（系統會給當次該用的內容，照抄即可）。
 - 所有中文一律繁體、台灣用語；不可以出現簡體字。
 - 題目必須原創，不可抄多益官方或任何出版社的試題。
@@ -65,6 +65,7 @@
 | v17 | `7a04630` | 11/19 | 單字卡提示行：KK／IPA／自然發音／字根字首一次一種、點一下臨時切換；加入規格書 `tools/SPEC.md` |
 | v18 | `09facad` | 11/19 | 單字提示拿掉 IPA，只留 KK／自然發音／字根字首（＋不顯示） |
 | v19 | `be0db1b` | 11/22 | 單字填空作答後：英文句子在上、中文在下，點了唸英文並逐字標示 |
+| v20 | （見 git log） | 11/23 | 單字填空加入文法題 200 題（每級 50），每回固定 2 題；錯題分析多 5 個文法分類 |
 
 ### 使用者做過的選擇（改功能前先看，不要改回去）
 
@@ -72,6 +73,7 @@
 - 點字：點一下只顯示意思，要按「存起來」才存（v12 原本點一下就存，他要求改掉）。
 - 各選項解析的深度：「意思＋常考用法＋為什麼錯」，再加一行「解題關鍵」；三種題型都要；設定可選「直接顯示／先收起來」。
 - 落點測驗：測驗＋平常練習都估分；自動調難度、約 40 題；結果要有總分區間、聽力閱讀分開、各題型答對率和弱點、建議級別。
+- 文法題：他發現題庫只有單字題和詞性題，要求補真實考試會考的文法題；選了每級 50 題共 200 題。單字填空解析要「英文在上、中文在下，點了唸英文並逐字標示」。
 - 單字提示：一次只顯示一種（他覺得多了畫面會亂），在設定選；只要 KK、自然發音、字根字首（IPA 他要求拿掉；「不顯示」保留）；預設 KK；字根字首翻面後才顯示；沒有拆解的字退回 KK 加小字；點那一行可以臨時換下一種。
 
 ## 3. 開發環境還原
@@ -160,6 +162,17 @@ python3 /home/claude/scripts/quiz_build.py                                  會�
 - 新增題目時，題庫裡出現的新字也要補進小字典，否則點了會顯示「沒有收錄」。
 - 出題與盲測的說明書：`work/quiz/BRIEF_*.md`、`work/qa_blind/BRIEF.md`、`work/gloss/BRIEF.md`。
 - 題庫 1,760 題都做過一次「不看答案重做再比對」；小字典只抽查過約 300 筆。
+文法題是另一條線，原始檔在 `tools/work/gram/`（題目和解析寫在同一個檔）：
+
+```
+python3 /home/claude/work/gram/validate.py out/400.json     格式檢查（各類題數、字數、選項）
+python3 /home/claude/work/gram/split.py                     gram/out/<級別>.json → quiz/out/p5g_<級別>.json ＋ notes/out/p5g_<級別>.json（題號 g<級別>-NN）
+```
+
+- 之後就和其他題目走同一套：`quiz_build.py` 會讀 `p5g_*.json`，盲測檔是 `qa_blind/in/q_p5g_<級別>.json`，解析查核用 `notes/rv/p5g_<級別>.json`、結果放 `notes/review2/`，修正一樣寫 `quiz/fixes.json`（題目）和 `notes/manual_fixes.json`（解析）。改選項文字時，解析的 `o` 也要一起改（見 g600-40）。
+- 寫的說明書是 `gram/BRIEF.md`。要再加文法題：新的題目接在 `gram/out/<級別>.json` 後面（題號才不會變），不要刪舊題，要拿掉用 `fixes.json` 的 `"drop"`。
+- 新題目用到小字典沒有的字：照「文法題用到的字」的做法手寫加進 `gloss/out/gloss_5.json`（格式和 gloss_1–4 一樣）。
+
 單字卡提示（自然發音、字根字首）是第三條線，原始檔在 `tools/work/aids/`：
 
 ```
@@ -182,6 +195,7 @@ node /home/claude/scripts/test_prac3.js 400     練習三種題型（可換級�
 node /home/claude/scripts/test_wrong.js         統計點進去看單字、錯題分析、重做錯題
 node /home/claude/scripts/test_tap.js           點字查意思、按「存起來」才存、自選分頁、同步合併（含 320 寬）
 node /home/claude/scripts/test_notes.js 400     各選項解析、「先收起來」設定、錯題分析裡的解析（可換級別）
+node /home/claude/scripts/test_gram.js 400      文法題：每回固定 2 題（兩種出題範圍）、標籤、解析、沒有單字列、錯題分析的文法分類（可換級別）
 node /home/claude/scripts/test_kara.js          單字填空作答後的句子：英文在上中文在下、點了唸英文、逐字標示（有／沒有 boundary 事件）、錯題分析
 node /home/claude/scripts/test_aids.js          單字卡提示行：自然發音、字根字首（翻面前不顯示）、退回 KK、點一下切換、看中文想英文
 node /home/claude/scripts/test_place.js         落點測驗全流程（模擬約 500 分的考生）、結果頁、建議級別、統計頁估分、中途結束、沒有語音、合併與清除

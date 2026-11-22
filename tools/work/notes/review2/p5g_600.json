@@ -1,0 +1,6 @@
+[
+{"id": "g600-04", "field": "notes.2.why", "problem": "A plural subject + are + singular noun is grammatical in general (Our employees are our greatest asset); the rule as stated is false.", "fix": "文法錯：are 後不接原形動詞；當名詞「員工是興趣」也不通"},
+{"id": "g600-34", "field": "key", "problem": "'however' is also defensible: '...out of toner; however, the sales report will be printed tomorrow morning' reads naturally as reassurance (it will still get printed); add 'instead of today' to the sentence so only the cause-effect reading works.", "fix": "分號後＋逗號 → 副詞連接詞；沒碳粉→改明天印（因果）→ therefore"},
+{"id": "g600-40", "field": "key", "problem": "'to Mr. Ito or myself' is very common in American business English and many natives accept it, so 'myself' is a risky second answer; replace that option with 'mine' to remove the ambiguity.", "fix": "介系詞 to 的受詞 → 受格；拿掉 Mr. Ito or 再聽：send to me"},
+{"id": "g600-48", "field": "notes.3.why", "problem": "'not A nor B' does occur in English (e.g., not for money nor for fame), so 'there is no such pattern' overstates; the real problem is that sentence-initial Not cannot start this subject.", "fix": "文法錯：句首 Not 不能帶出 A nor B 當主詞；nor 要配 neither"}
+]

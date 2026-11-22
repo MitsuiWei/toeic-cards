@@ -15,7 +15,7 @@
   var GLOBALS = { p5: 'QUIZ_P5', read: 'QUIZ_READ', listen: 'QUIZ_LISTEN' };
   var NAMES = { p5: '單字填空', read: '短文閱讀', listen: '聽力應答' };
   var DESC = {
-    p5: 'Part 5 風格。一句話挖一個空，四選一。每回 10 題，答完有翻譯和解析。',
+    p5: 'Part 5 風格。一句話挖一個空，四選一，有單字題、詞性題和文法題。每回 10 題，答完有翻譯和解析。',
     read: 'Part 6、7 風格。讀一篇短文答 3 題，用的是這一級單字表裡的字。',
     listen: 'Part 2 風格。聽一個問句和三個回答，選最適合的。每回 10 題，可以重播。'
   };
@@ -63,10 +63,14 @@
      中文解釋來自 data/gloss.js（第一次點才載入）。 */
   var WORD_RE = /[A-Za-z]+(?:['’\-][A-Za-z]+)*/g;
   var pop = null, popState = null, listMap = null, glossCbs = null;
+  var NOT_WORD = /\b[AaPp]\.[Mm]\.|\d(?:st|nd|rd|th)\b/g;        // A.M.／P.M. 和 25th 的 th 不是可以查的字
   function tw(text) {
-    var out = '', last = 0, m;
+    var out = '', last = 0, m, skip = [], k;
+    NOT_WORD.lastIndex = 0;
+    while ((k = NOT_WORD.exec(text))) skip.push([k.index, k.index + k[0].length]);
     WORD_RE.lastIndex = 0;
     while ((m = WORD_RE.exec(text))) {
+      if (skip.some(function (r) { return m.index >= r[0] && m.index < r[1]; })) continue;
       out += esc(text.slice(last, m.index)) + '<span class="tw">' + esc(m[0]) + '</span>';
       last = m.index + m[0].length;
     }
@@ -230,7 +234,7 @@
   /* ---------- 成績 ---------- */
   function pr(type) { return T.state().practice[type]; }
   function lvOf(type, id) {
-    if (type === 'p5') { var w = T.byId[Number(String(id).slice(1))]; return w ? w.lv : 0; }
+    if (type === 'p5' && String(id).charAt(0) === 'p') { var w = T.byId[Number(String(id).slice(1))]; return w ? w.lv : 0; }
     return Number(String(id).slice(1, 4));
   }
   function inLevel(lv) { var f = T.levelFilter(); return f === 'all' || lv === f; }
@@ -286,6 +290,10 @@
   }
 
   /* ---------- 出題 ---------- */
+  /* 單字填空裡的文法題：沒有對應的單字（沒有 wid），t = gv 動詞／gp 介系詞／gc 連接詞／gn 代名詞／go 關係詞與其他 */
+  var GRAM_PER_ROUND = 2;
+  var P5_TAG = { v: '單字題', f: '詞性題', gv: '文法題・動詞', gp: '文法題・介系詞', gc: '文法題・連接詞', gn: '文法題・代名詞', go: '文法題・關係詞與其他' };
+  function isGram(it) { return it.wid === undefined; }
   function shuffle(a) {
     for (var i = a.length - 1; i > 0; i--) { var j = Math.floor(Math.random() * (i + 1)); var t = a[i]; a[i] = a[j]; a[j] = t; }
     return a;
@@ -298,10 +306,11 @@
       ws = ws.slice(0, ROUND[type]);
       return { items: type === 'read' ? ws : shuffle(ws), padded: 0 };
     }
-    var fresh = [], wrong = [], right = [], outside = [];
+    var fresh = [], wrong = [], right = [], outside = [], gram = [];
     data(type).forEach(function (it) {
       if (!inLevel(it.lv)) return;
       var r = p[it.id], seen = r && r[0] > 0;
+      if (type === 'p5' && isGram(it)) { gram.push(it); return; }          // 文法題另外挑（和學過哪些字無關）
       if (type === 'p5' && scope === 'learned' && !learned(it.wid)) { outside.push(it); return; }
       if (!seen) fresh.push(it);
       else if (r[3] < perQ(type)) wrong.push(it);
@@ -313,11 +322,20 @@
     if (type === 'read') {
       out = fresh.concat(wrong, right).slice(0, n);
     } else {
+      // 單字填空每回帶 GRAM_PER_ROUND 題文法題：之前錯的先（最多 1 題），再來沒做過的，最後是答對過、最久沒做的
+      var g = [];
+      if (gram.length) {
+        var gf = [], gw = [], gr = [];
+        gram.forEach(function (it) { var r = p[it.id]; if (!(r && r[0] > 0)) gf.push(it); else if (r[3] < 1) gw.push(it); else gr.push(it); });
+        shuffle(gf); gw.sort(byT); gr.sort(byT);
+        g = gw.slice(0, 1).concat(gf, gw.slice(1), gr).slice(0, GRAM_PER_ROUND);
+      }
+      var m = n - g.length;
       out = wrong.slice(0, 3);                               // 每回先帶 3 題之前錯的
-      out = out.concat(fresh.slice(0, n - out.length));
-      if (out.length < n) out = out.concat(wrong.slice(3, 3 + n - out.length));
-      if (out.length < n) out = out.concat(right.slice(0, n - out.length));
-      shuffle(out);
+      out = out.concat(fresh.slice(0, m - out.length));
+      if (out.length < m) out = out.concat(wrong.slice(3, 3 + m - out.length));
+      if (out.length < m) out = out.concat(right.slice(0, m - out.length));
+      out = shuffle(out.concat(g));
     }
     var padded = 0;
     if (out.length < n && outside.length) {                  // 學過的字不夠，用還沒學的補
@@ -393,7 +411,7 @@
     h += '<div class="prac-scope"><span>單字填空出題範圍</span>' +
       '<button class="chip' + (sc === 'learned' ? ' is-on' : '') + '" data-scope="learned">只出我學過的字</button>' +
       '<button class="chip' + (sc === 'all' ? ' is-on' : '') + '" data-scope="all">這一級全部</button></div>' +
-      '<p class="note">「學過的字」是指單字卡裡已經背過或標成已會的字；不夠 10 題時會用還沒學的字補滿。題目是仿多益題型的原創練習題，不是真題；落點分數是用這些題目粗估的，僅供參考。</p>';
+      '<p class="note">「學過的字」是指單字卡裡已經背過或標成已會的字；不夠 10 題時會用還沒學的字補滿。文法題不受這個範圍限制，每一回固定有 2 題。題目是仿多益題型的原創練習題，不是真題；落點分數是用這些題目粗估的，僅供參考。</p>';
     return h;
   }
   function topHtml() {
@@ -472,7 +490,7 @@
     var answered = sess.chosen !== null;
     var parts = it.q.split(BLANK);
     var q = tw(parts[0]) + (answered ? '<mark>' + tw(it.o[it.a]) + '</mark>' : '<span class="blank"></span>') + tw(parts[1] || '');
-    var h = '<div class="prac-tag">' + (it.t === 'f' ? '詞性題' : '單字題') + '</div>' +
+    var h = '<div class="prac-tag">' + (P5_TAG[it.t] || '單字題') + '</div>' +
       '<div class="prac-q" lang="en"' + exAttr(it.q.replace(BLANK, it.o[it.a]), it.zh) + '>' + q + '</div>' +
       optsHtml(it.o, it.a, sess.chosen, undefined, false, answered && xpOn('q') ? it.n : null, 'p5');
     if (answered) {
@@ -480,7 +498,7 @@
       h += '<div class="fb ' + (ok ? 'is-ok' : 'is-no') + '">' +
         '<p class="fb-head">' + (ok ? '答對了' : '答錯了，答案是 ' + esc(it.o[it.a])) + '</p>' +
         sentHtml(it) + keyHtml(it, 'q') +
-        '<p class="fb-wordline">' + wordInfo(it.wid) + '</p>' +
+        (isGram(it) ? '' : '<p class="fb-wordline">' + wordInfo(it.wid) + '</p>') +
         (sess.note ? '<p class="fb-note">' + esc(sess.note) + '</p>' : '') + '</div>' +
         nextBtn(sess.idx + 1 < sess.items.length ? '下一題' : '看這一回成績');
     }
@@ -592,6 +610,11 @@
   var CATS = [
     ['pv', 'p5', '單字題（選意思對的字）', '多半是字義還不熟。答錯的字已經自動排回單字卡，照卡片複習就會補起來。'],
     ['pf', 'p5', '詞性題（選對的詞性）', '先不要看意思，看空格前後判斷詞性：冠詞、形容詞後面是名詞；be 動詞後面多半是形容詞；修飾動詞的是副詞；助動詞（can、will）後面是原形動詞。'],
+    ['pgv', 'p5', '文法題：動詞（時態、被動、to V／V-ing）', '先找時間的線索（since、last week、by next month）決定時態，再看主詞是「做動作」還是「被做」決定主動或被動；空格後面沒有受詞多半是被動。'],
+    ['pgp', 'p5', '文法題：介系詞', '介系詞多半是固定搭配，要跟著前面的動詞、形容詞一起記（depend on、responsible for）。時間：at 幾點、on 日期、in 月份或年；by 是「在…之前完成」，until 是「持續到…」。'],
+    ['pgc', 'p5', '文法題：連接詞／介系詞／副詞', '看空格後面：接完整句子（主詞＋動詞）用連接詞（although、because）；接名詞用介系詞（despite、because of）；前後有逗號或分號隔開的是副詞（however、therefore）。'],
+    ['pgn', 'p5', '文法題：代名詞', '看空格在句子裡的位置：動詞前面是主格（he）、動詞或介系詞後面是受格（him）、名詞前面是所有格（his）；主詞和受詞是同一個人用反身代名詞（himself）。'],
+    ['pgo', 'p5', '文法題：關係詞、比較級、數量詞', '關係詞看前面的名詞：人用 who、事物用 which、後面接名詞表示「…的」用 whose。有 than 用比較級，有 the 和範圍（in the company）用最高級。'],
     ['r6', 'read', 'Part 6 段落填空', '空格前後兩句都要讀。連接詞題先判斷前後句的關係是轉折（However）、因果（Therefore）還是補充（In addition）。'],
     ['r7main', 'read', '主旨題（目的、主題）', '主旨通常在主旨欄（Subject）或開頭一兩句，先讀那裡再看選項。'],
     ['r7detail', 'read', '細節題（誰、何時、多少）', '用題目裡的關鍵字（人名、日期、數字）回文章找到那一句，答案就在附近。'],
@@ -662,7 +685,7 @@
       var pp = it.q.split(BLANK);
       body = '<p class="wq-sent" lang="en"' + exAttr(it.q.replace(BLANK, it.o[it.a]), it.zh) + '>' + tw(pp[0]) + '<mark>' + tw(it.o[it.a]) + '</mark>' + tw(pp[1] || '') + '</p>' +
         optsHtml(it.o, it.a, e.ch, undefined, false, it.n, 'p5') +
-        sentHtml(it) + keyHtml(it, 'q', true) + '<p class="fb-wordline">' + wordInfo(it.wid) + '</p>';
+        sentHtml(it) + keyHtml(it, 'q', true) + (isGram(it) ? '' : '<p class="fb-wordline">' + wordInfo(it.wid) + '</p>');
     } else if (e.type === 'listen') {
       sum = '<span class="wq-tag">聽力應答</span><span class="wq-q" lang="en">' + esc(it.q) + '</span>';
       body = scriptHtml(it, e.ch, it.n) + keyHtml(it, 'q', true);
@@ -758,7 +781,7 @@
     sess.chosen = i;
     var ok = i === it.a;
     sess.note = '';
-    if (sess.type === 'p5' && !ok) sess.note = sendBack(it.wid);
+    if (sess.type === 'p5' && !ok && !isGram(it)) sess.note = sendBack(it.wid);
     if (sess.type === 'listen') { T.stopSpeech(); sess.playing = false; }
     sess.results.push({ it: it, ok: ok });
     record(sess.type, it.id, ok ? 1 : 0, 1, i);
@@ -989,7 +1012,7 @@
       var ok = pt.sel === it.a;
       pt.obs[type === 'listen' ? 'L' : 'R'].push({ lv: it.lv, c: GUESS[type], ok: ok });
       pt.ans.push({ type: type, it: it, ch: pt.sel, ok: ok });
-      if (type === 'p5' && !ok && sendBack(it.wid)) pt.sent++;
+      if (type === 'p5' && !ok && !isGram(it) && sendBack(it.wid)) pt.sent++;
       record(type, it.id, ok ? 1 : 0, 1, pt.sel);
       pt.doneQ++;
     }

@@ -1,0 +1,2102 @@
+[
+ {
+  "cat": "verb",
+  "q": "By the time the auditors arrived, the accounting team ------- all of the quarterly records.",
+  "answer": "had organized",
+  "distractors": [
+   "has organized",
+   "will have organized",
+   "organizes"
+  ],
+  "zh": "稽核人員抵達時，會計團隊已經整理好所有季度紀錄。",
+  "key": "By the time + 過去式（arrived）→ 主要子句用過去完成式 had + p.p.",
+  "notes": [
+   {
+    "o": "had organized",
+    "pos": "過去完成式",
+    "zh": "（在那之前）已整理好",
+    "use": "had + p.p.：比另一個過去動作更早完成",
+    "why": "By the time + 過去式，主要子句常配 had + p.p."
+   },
+   {
+    "o": "has organized",
+    "pos": "現在完成式",
+    "zh": "已經整理好（到現在）",
+    "use": "have／has + p.p.：從過去延續到現在",
+    "why": "arrived 是過去時間點，主要子句不能用現在完成式"
+   },
+   {
+    "o": "will have organized",
+    "pos": "未來完成式",
+    "zh": "將會已整理好",
+    "use": "will have + p.p.：未來某時之前完成",
+    "why": "未來完成式要配 By the time + 現在式，這裡是過去式"
+   },
+   {
+    "o": "organizes",
+    "pos": "現在簡單式",
+    "zh": "整理",
+    "use": "表示習慣或一般事實",
+    "why": "時間在過去，且要表達「之前已完成」"
+   }
+  ]
+ },
+ {
+  "cat": "verb",
+  "q": "By the end of next month, the contractor ------- the renovation of the third-floor offices.",
+  "answer": "will have completed",
+  "distractors": [
+   "had completed",
+   "has completed",
+   "completed"
+  ],
+  "zh": "到下個月底，承包商將已完成三樓辦公室的整修。",
+  "key": "By + 未來時間（next month）→ 未來完成式 will have + p.p.",
+  "notes": [
+   {
+    "o": "will have completed",
+    "pos": "未來完成式",
+    "zh": "將已完成",
+    "use": "By + 未來時間, 主詞 + will have + p.p.",
+    "why": "看到 by the end of next month 等「by + 未來時間」就選它"
+   },
+   {
+    "o": "had completed",
+    "pos": "過去完成式",
+    "zh": "（過去某時前）已完成",
+    "use": "had + p.p.：過去某時之前完成",
+    "why": "next month 是未來，不是過去"
+   },
+   {
+    "o": "has completed",
+    "pos": "現在完成式",
+    "zh": "已經完成",
+    "use": "have／has + p.p.：到現在為止",
+    "why": "現在完成式是「到現在」，不能配 next month"
+   },
+   {
+    "o": "completed",
+    "pos": "過去簡單式",
+    "zh": "完成了",
+    "use": "主詞 + V-ed：過去發生的事",
+    "why": "next month 是未來，不能用過去式"
+   }
+  ]
+ },
+ {
+  "cat": "verb",
+  "q": "All expense reports are required ------- by a department manager before they are submitted to the accounting office.",
+  "answer": "to be signed",
+  "distractors": [
+   "signing",
+   "to sign",
+   "being signed"
+  ],
+  "zh": "所有費用報告在送交會計室之前，都必須由部門主管簽名。",
+  "key": "be required to V；主詞 reports 是「被簽」，後有 by → to be p.p.",
+  "notes": [
+   {
+    "o": "to be signed",
+    "pos": "被動不定詞",
+    "zh": "被簽名",
+    "use": "be required to be + p.p.：主詞是動作承受者",
+    "why": "報告被簽，後面有 by + 主管 → to be p.p."
+   },
+   {
+    "o": "signing",
+    "pos": "動名詞",
+    "zh": "簽名",
+    "use": "be required 後面不接 V-ing",
+    "why": "be required 要接 to V，不接 V-ing"
+   },
+   {
+    "o": "to sign",
+    "pos": "主動不定詞",
+    "zh": "去簽名",
+    "use": "be required to V + 受詞",
+    "why": "報告不會自己簽名，且 sign 後面沒有受詞"
+   },
+   {
+    "o": "being signed",
+    "pos": "被動動名詞",
+    "zh": "被簽名",
+    "use": "介系詞或 avoid 等動詞後：being + p.p.",
+    "why": "be required 後要接 to 不定詞，不接 being p.p."
+   }
+  ]
+ },
+ {
+  "cat": "verb",
+  "q": "After twenty years as head of the company, Ms. Ward is used to ------- by financial reporters.",
+  "answer": "being interviewed",
+  "distractors": [
+   "interviewing",
+   "be interviewed",
+   "have interviewed"
+  ],
+  "zh": "擔任公司負責人二十年後，Ward 女士已經習慣接受財經記者採訪。",
+  "key": "be used to 的 to 是介系詞 → 接 V-ing；被採訪＋by → being p.p.",
+  "notes": [
+   {
+    "o": "being interviewed",
+    "pos": "被動動名詞",
+    "zh": "被採訪",
+    "use": "介系詞 to + being + p.p.",
+    "why": "be used to + V-ing「習慣於」，被動用 being p.p."
+   },
+   {
+    "o": "interviewing",
+    "pos": "主動動名詞",
+    "zh": "採訪（別人）",
+    "use": "be used to + V-ing + 受詞",
+    "why": "她是被採訪的人，後面又有 by reporters，要用被動"
+   },
+   {
+    "o": "be interviewed",
+    "pos": "被動原形",
+    "zh": "被採訪",
+    "use": "used to + 原形：「過去常常」",
+    "why": "is used to 的 to 是介系詞，不接原形動詞"
+   },
+   {
+    "o": "have interviewed",
+    "pos": "完成式原形",
+    "zh": "已經採訪",
+    "use": "助動詞後：have + p.p.",
+    "why": "to 是介系詞不接原形，而且語態應為被動"
+   }
+  ]
+ },
+ {
+  "cat": "verb",
+  "q": "Applications ------- after the March 31 deadline will not be considered.",
+  "answer": "submitted",
+  "distractors": [
+   "submitting",
+   "are submitted",
+   "submit"
+  ],
+  "zh": "在 3 月 31 日截止日之後送出的申請將不予受理。",
+  "key": "已有動詞 will not be considered → 空格修飾名詞；申請「被送出」→ p.p.",
+  "notes": [
+   {
+    "o": "submitted",
+    "pos": "過去分詞",
+    "zh": "被提交的",
+    "use": "名詞 + p.p. + 修飾語（＝which are submitted）",
+    "why": "省略關係子句：名詞是被動的一方就用 p.p."
+   },
+   {
+    "o": "submitting",
+    "pos": "現在分詞",
+    "zh": "提交（主動）",
+    "use": "名詞 + V-ing（＝who／which + 主動動詞）",
+    "why": "申請是被提交的，不會自己提交"
+   },
+   {
+    "o": "are submitted",
+    "pos": "現在式被動",
+    "zh": "被提交",
+    "use": "主詞 + are + p.p.（完整的動詞）",
+    "why": "句子已有動詞 will not be considered，不能再加一個"
+   },
+   {
+    "o": "submit",
+    "pos": "原形動詞",
+    "zh": "提交",
+    "use": "主詞 + submit + 受詞",
+    "why": "已有主要動詞，而且申請不能主動提交"
+   }
+  ]
+ },
+ {
+  "cat": "verb",
+  "q": "Employees ------- to attend the leadership workshop should register through the HR portal by Friday.",
+  "answer": "wishing",
+  "distractors": [
+   "wished",
+   "wish",
+   "are wishing"
+  ],
+  "zh": "想參加領導力工作坊的員工，請於週五前透過人資入口網站報名。",
+  "key": "主要動詞是 should register → 空格修飾 Employees；員工主動「想」→ V-ing",
+  "notes": [
+   {
+    "o": "wishing",
+    "pos": "現在分詞",
+    "zh": "想要（主動）",
+    "use": "名詞 + V-ing + 補語（＝who wish to V）",
+    "why": "省略關係子句：名詞是動作者就用 V-ing"
+   },
+   {
+    "o": "wished",
+    "pos": "過去分詞／過去式",
+    "zh": "被希望；曾想要",
+    "use": "名詞 + p.p.：表被動",
+    "why": "員工是主動想參加，不是「被希望」"
+   },
+   {
+    "o": "wish",
+    "pos": "現在式動詞",
+    "zh": "想要",
+    "use": "主詞 + wish to V",
+    "why": "句子已有 should register，不能再放一個動詞"
+   },
+   {
+    "o": "are wishing",
+    "pos": "現在進行式",
+    "zh": "正在希望",
+    "use": "be + V-ing 當主要動詞",
+    "why": "已有主要動詞；wish 也很少用進行式"
+   }
+  ]
+ },
+ {
+  "cat": "verb",
+  "q": "The consultant recommended that the company ------- its customer service hours on weekends.",
+  "answer": "extend",
+  "distractors": [
+   "extends",
+   "extending",
+   "to extend"
+  ],
+  "zh": "顧問建議公司延長週末的客服時間。",
+  "key": "recommend／suggest／request that + 主詞 + 原形動詞（不看人稱、時態）",
+  "notes": [
+   {
+    "o": "extend",
+    "pos": "原形動詞",
+    "zh": "延長",
+    "use": "recommend that + 主詞 + (should) + 原形",
+    "why": "建議類動詞的 that 子句用原形，不加 -s、不改過去式"
+   },
+   {
+    "o": "extends",
+    "pos": "第三人稱單數",
+    "zh": "延長",
+    "use": "一般陳述句：he／it + V-s",
+    "why": "美式英語與多益標準：recommend that 子句用原形"
+   },
+   {
+    "o": "extending",
+    "pos": "動名詞／現在分詞",
+    "zh": "延長",
+    "use": "recommend + V-ing（不用 that 子句時）",
+    "why": "that 子句需要動詞，V-ing 不能當動詞"
+   },
+   {
+    "o": "to extend",
+    "pos": "不定詞",
+    "zh": "去延長",
+    "use": "動詞 + 人 + to V（如 ask／want）",
+    "why": "that 子句主詞後要接動詞，不接 to V"
+   }
+  ]
+ },
+ {
+  "cat": "verb",
+  "q": "Ms. Cho has requested that all overtime ------- in advance by her office.",
+  "answer": "be approved",
+  "distractors": [
+   "is approved",
+   "been approved",
+   "approving"
+  ],
+  "zh": "Cho 女士要求所有加班都必須事先經她的辦公室核准。",
+  "key": "request that + 主詞 + 原形；加班「被核准」＋by → be + p.p.",
+  "notes": [
+   {
+    "o": "be approved",
+    "pos": "原形被動",
+    "zh": "被核准",
+    "use": "request that + 主詞 + be + p.p.",
+    "why": "要求、建議類 that 子句的被動用 be + p.p."
+   },
+   {
+    "o": "is approved",
+    "pos": "現在式被動",
+    "zh": "被核准",
+    "use": "一般陳述：主詞 + is + p.p.",
+    "why": "美式與多益標準：request that 子句用原形 be，不用 is"
+   },
+   {
+    "o": "been approved",
+    "pos": "過去分詞",
+    "zh": "被核准過",
+    "use": "前面要有 have／has：have been + p.p.",
+    "why": "缺 have，been 不能單獨當動詞"
+   },
+   {
+    "o": "approving",
+    "pos": "現在分詞",
+    "zh": "核准（主動）",
+    "use": "be + V-ing，或修飾名詞",
+    "why": "子句缺動詞，而且加班是被核准，不是去核准"
+   }
+  ]
+ },
+ {
+  "cat": "verb",
+  "q": "If the store ------- open on Sundays, it would probably attract more weekend shoppers.",
+  "answer": "were",
+  "distractors": [
+   "is",
+   "has been",
+   "will be"
+  ],
+  "zh": "如果這家店週日有營業，可能會吸引更多週末購物的客人。",
+  "key": "主要子句 would + 原形 → 與現在事實相反，if 子句用過去式（be 用 were）",
+  "notes": [
+   {
+    "o": "were",
+    "pos": "過去式（假設語氣）",
+    "zh": "是（假設）",
+    "use": "If + 主詞 + were／V-ed, 主詞 + would + 原形",
+    "why": "與現在事實相反的假設，be 動詞正式用 were"
+   },
+   {
+    "o": "is",
+    "pos": "現在式",
+    "zh": "是",
+    "use": "If + 現在式, 主詞 + will + 原形（真實條件）",
+    "why": "主要子句用 would，if 子句不能用現在式"
+   },
+   {
+    "o": "has been",
+    "pos": "現在完成式",
+    "zh": "一直是",
+    "use": "表示到現在為止的狀態",
+    "why": "與現在相反的假設，if 子句用過去式，不用完成式"
+   },
+   {
+    "o": "will be",
+    "pos": "未來式",
+    "zh": "將會是",
+    "use": "條件 if 子句通常用現在式代替未來式",
+    "why": "if 條件子句不用 will，且主要子句是 would"
+   }
+  ]
+ },
+ {
+  "cat": "verb",
+  "q": "If the shipment had left the warehouse on time, the client ------- it before last week's trade show.",
+  "answer": "would have received",
+  "distractors": [
+   "will have received",
+   "had received",
+   "has received"
+  ],
+  "zh": "如果那批貨當初準時出倉，客戶就能在上週的商展前收到。",
+  "key": "If + had p.p.＋last week → 與過去事實相反，主要子句 would have + p.p.",
+  "notes": [
+   {
+    "o": "would have received",
+    "pos": "假設語氣（過去）",
+    "zh": "本來會收到",
+    "use": "If + had p.p., 主詞 + would have + p.p.",
+    "why": "與過去相反：if 子句 had p.p.，主要子句 would have p.p."
+   },
+   {
+    "o": "will have received",
+    "pos": "未來完成式",
+    "zh": "將已收到",
+    "use": "By + 未來時間, will have + p.p.",
+    "why": "商展在上週，而且假設語氣的主要子句要用 would"
+   },
+   {
+    "o": "had received",
+    "pos": "過去完成式",
+    "zh": "（那時）早已收到",
+    "use": "真實敘述：過去某時之前 had + p.p.",
+    "why": "had p.p. 放在 if 子句；主要子句要 would have p.p."
+   },
+   {
+    "o": "has received",
+    "pos": "現在完成式",
+    "zh": "已經收到",
+    "use": "have／has + p.p.：到現在為止",
+    "why": "這是與過去事實相反的假設，不能用現在完成式"
+   }
+  ]
+ },
+ {
+  "cat": "verb",
+  "q": "Mr. Patel had his car ------- at the dealership while he was attending the conference.",
+  "answer": "serviced",
+  "distractors": [
+   "service",
+   "servicing",
+   "to service"
+  ],
+  "zh": "Patel 先生參加會議期間，請車商幫他的車做保養。",
+  "key": "have + 物 + p.p.「請人處理某物」；車是被保養的 → p.p.",
+  "notes": [
+   {
+    "o": "serviced",
+    "pos": "過去分詞",
+    "zh": "被保養",
+    "use": "have／get + 物 + p.p.：請人處理某物",
+    "why": "have something done：受詞是被處理的物，用 p.p."
+   },
+   {
+    "o": "service",
+    "pos": "原形動詞",
+    "zh": "保養",
+    "use": "have + 人 + 原形：叫某人做某事",
+    "why": "have + 原形時受詞要是人，車不會自己保養"
+   },
+   {
+    "o": "servicing",
+    "pos": "現在分詞",
+    "zh": "保養（主動）",
+    "use": "have + 人 + V-ing",
+    "why": "受詞是車，是被保養的，要用 p.p."
+   },
+   {
+    "o": "to service",
+    "pos": "不定詞",
+    "zh": "去保養",
+    "use": "get + 人 + to V",
+    "why": "使役動詞 have 不接 to V"
+   }
+  ]
+ },
+ {
+  "cat": "verb",
+  "q": "The list of approved vendors ------- updated every quarter by the purchasing department.",
+  "answer": "is",
+  "distractors": [
+   "are",
+   "have",
+   "being"
+  ],
+  "zh": "核准廠商名單由採購部門每季更新一次。",
+  "key": "主詞是 The list（of 片語只是修飾）→ 單數 is；updated by → 被動",
+  "notes": [
+   {
+    "o": "is",
+    "pos": "be 動詞（單數）",
+    "zh": "被（更新）",
+    "use": "單數主詞 + is + p.p.（被動）",
+    "why": "主詞 + of + 複數名詞時，看 of 前面的名詞決定單複數"
+   },
+   {
+    "o": "are",
+    "pos": "be 動詞（複數）",
+    "zh": "被（更新）",
+    "use": "複數主詞 + are + p.p.",
+    "why": "真正主詞是單數 list，不是 vendors"
+   },
+   {
+    "o": "have",
+    "pos": "助動詞（複數）",
+    "zh": "已經",
+    "use": "複數主詞 + have + p.p.（完成式）",
+    "why": "list 單數不能配 have；被動也缺 been"
+   },
+   {
+    "o": "being",
+    "pos": "現在分詞",
+    "zh": "正在被",
+    "use": "is being + p.p.：正在被…",
+    "why": "缺主要動詞，being 不能單獨當動詞"
+   }
+  ]
+ },
+ {
+  "cat": "verb",
+  "q": "Sales of the company's eco-friendly packaging ------- steadily since the product line was introduced in 2022.",
+  "answer": "have risen",
+  "distractors": [
+   "rose",
+   "are rising",
+   "had risen"
+  ],
+  "zh": "自 2022 年推出該產品線以來，公司環保包裝的銷售量穩定成長。",
+  "key": "since + 過去時間點 → 主要子句用現在完成式；主詞 Sales 複數 → have",
+  "notes": [
+   {
+    "o": "have risen",
+    "pos": "現在完成式",
+    "zh": "（一直）上升",
+    "use": "主詞 + have p.p. + since + 過去時間點",
+    "why": "since 表示從過去延續到現在 → 現在完成式"
+   },
+   {
+    "o": "rose",
+    "pos": "過去簡單式",
+    "zh": "上升了",
+    "use": "主詞 + V-ed + 過去時間（last year）",
+    "why": "since 表示延續到現在，主要子句不用過去式"
+   },
+   {
+    "o": "are rising",
+    "pos": "現在進行式",
+    "zh": "正在上升",
+    "use": "am／is／are + V-ing：此刻正在進行",
+    "why": "標準英文中 since + 過去時間，主要子句要用完成式"
+   },
+   {
+    "o": "had risen",
+    "pos": "過去完成式",
+    "zh": "（那時）早已上升",
+    "use": "需要另一個過去時間點當基準",
+    "why": "沒有過去的基準點，成長是持續到現在"
+   }
+  ]
+ },
+ {
+  "cat": "verb",
+  "q": "The error in the invoice ------- caught before it was sent to the client.",
+  "answer": "should have been",
+  "distractors": [
+   "should be",
+   "should have",
+   "should being"
+  ],
+  "zh": "發票上的錯誤早該在寄給客戶前就被發現。",
+  "key": "過去該做卻沒做 → should have + p.p.；錯誤「被發現」→ should have been p.p.",
+  "notes": [
+   {
+    "o": "should have been",
+    "pos": "助動詞完成被動",
+    "zh": "早該被…",
+    "use": "should have been + p.p.：過去該被…卻沒有",
+    "why": "對過去的遺憾或批評：should have + p.p."
+   },
+   {
+    "o": "should be",
+    "pos": "助動詞被動",
+    "zh": "應該被…",
+    "use": "should be + p.p.：現在或未來應該",
+    "why": "寄送已發生（was sent），要用完成式"
+   },
+   {
+    "o": "should have",
+    "pos": "助動詞完成主動",
+    "zh": "早該…",
+    "use": "should have + p.p. + 受詞",
+    "why": "錯誤是被發現的，主動的話 caught 後要有受詞"
+   },
+   {
+    "o": "should being",
+    "pos": "錯誤形式",
+    "zh": "（不成立）",
+    "use": "助動詞後面接原形動詞",
+    "why": "助動詞 should 後不能接 V-ing"
+   }
+  ]
+ },
+ {
+  "cat": "verb",
+  "q": "The board is considering ------- the annual shareholders' meeting to a larger venue.",
+  "answer": "moving",
+  "distractors": [
+   "to move",
+   "move",
+   "moved"
+  ],
+  "zh": "董事會正在考慮把年度股東大會移到更大的場地。",
+  "key": "consider 後接 V-ing（不接 to V）",
+  "notes": [
+   {
+    "o": "moving",
+    "pos": "動名詞",
+    "zh": "移動；搬遷",
+    "use": "consider + V-ing（考慮做…）",
+    "why": "consider／avoid／suggest／postpone + V-ing"
+   },
+   {
+    "o": "to move",
+    "pos": "不定詞",
+    "zh": "去移動",
+    "use": "plan／decide + to V",
+    "why": "consider 後面不接 to V"
+   },
+   {
+    "o": "move",
+    "pos": "原形動詞",
+    "zh": "移動",
+    "use": "助動詞或不定詞 to 後才接原形",
+    "why": "is considering 後面不能接原形動詞"
+   },
+   {
+    "o": "moved",
+    "pos": "過去分詞",
+    "zh": "被移動",
+    "use": "be + p.p. 或完成式 have + p.p.",
+    "why": "considering 後要接受詞位置的 V-ing，不接 p.p."
+   }
+  ]
+ },
+ {
+  "cat": "prep",
+  "q": "Passengers must check in at least two hours ------- departure for all international flights.",
+  "answer": "prior to",
+  "distractors": [
+   "except",
+   "beside",
+   "upon"
+  ],
+  "zh": "所有國際航班的旅客都必須在起飛前至少兩小時辦理報到。",
+  "key": "「時間長度 + ___ + 事件」表示「在…之前」→ prior to（＝before）",
+  "notes": [
+   {
+    "o": "prior to",
+    "pos": "介系詞片語",
+    "zh": "在…之前",
+    "use": "prior to + 名詞／V-ing（＝before）",
+    "why": "正式書面用語：prior to departure／the meeting"
+   },
+   {
+    "o": "except",
+    "pos": "介系詞",
+    "zh": "除了…之外",
+    "use": "all／every … except + 名詞",
+    "why": "語意不通：沒有「除了起飛之外」的意思"
+   },
+   {
+    "o": "beside",
+    "pos": "介系詞",
+    "zh": "在…旁邊",
+    "use": "beside + 地點／人（表位置）",
+    "why": "beside 表位置，不表時間"
+   },
+   {
+    "o": "upon",
+    "pos": "介系詞",
+    "zh": "一…就",
+    "use": "upon + 名詞／V-ing（＝as soon as）",
+    "why": "upon departure 是「起飛時」，不能接在兩小時後"
+   }
+  ]
+ },
+ {
+  "cat": "prep",
+  "q": "We will ship your order within two business days ------- receiving your payment.",
+  "answer": "upon",
+  "distractors": [
+   "during",
+   "among",
+   "toward"
+  ],
+  "zh": "收到您的款項後，我們將在兩個工作天內出貨。",
+  "key": "「一…就」＋V-ing → upon／on + V-ing",
+  "notes": [
+   {
+    "o": "upon",
+    "pos": "介系詞",
+    "zh": "一…就",
+    "use": "upon + V-ing／名詞（＝as soon as）",
+    "why": "upon receiving／upon arrival 是多益常見寫法"
+   },
+   {
+    "o": "during",
+    "pos": "介系詞",
+    "zh": "在…期間",
+    "use": "during + 期間名詞（the meeting）",
+    "why": "during 後接表示期間的名詞，不接 V-ing"
+   },
+   {
+    "o": "among",
+    "pos": "介系詞",
+    "zh": "在…之中",
+    "use": "among + 複數名詞（三者以上）",
+    "why": "語意不通，among 不表時間"
+   },
+   {
+    "o": "toward",
+    "pos": "介系詞",
+    "zh": "朝向",
+    "use": "toward + 方向／目標",
+    "why": "語意不通，不能表示「收到後」"
+   }
+  ]
+ },
+ {
+  "cat": "prep",
+  "q": "Mr. Lee accepted the industry award ------- the entire engineering team.",
+  "answer": "on behalf of",
+  "distractors": [
+   "in terms of",
+   "in spite of",
+   "by means of"
+  ],
+  "zh": "Lee 先生代表整個工程團隊領取了業界獎項。",
+  "key": "一個人替全體做事 → on behalf of + 人／團體「代表…」",
+  "notes": [
+   {
+    "o": "on behalf of",
+    "pos": "介系詞片語",
+    "zh": "代表…",
+    "use": "on behalf of + 人／公司",
+    "why": "on behalf of the company／all of us 常考"
+   },
+   {
+    "o": "in terms of",
+    "pos": "介系詞片語",
+    "zh": "就…而言",
+    "use": "in terms of + 面向（cost, quality）",
+    "why": "語意不通：團隊不是評比的面向"
+   },
+   {
+    "o": "in spite of",
+    "pos": "介系詞片語",
+    "zh": "儘管",
+    "use": "in spite of + 名詞（＝despite）",
+    "why": "文法可以，但語意不通：沒有讓步關係"
+   },
+   {
+    "o": "by means of",
+    "pos": "介系詞片語",
+    "zh": "藉由（方法）",
+    "use": "by means of + 工具／方法",
+    "why": "語意不通：團隊不是領獎的方法"
+   }
+  ]
+ },
+ {
+  "cat": "prep",
+  "q": "All chemicals must be stored ------- the safety regulations posted in the laboratory.",
+  "answer": "in accordance with",
+  "distractors": [
+   "in charge of",
+   "in favor of",
+   "in exchange for"
+  ],
+  "zh": "所有化學品都必須依照實驗室張貼的安全規定存放。",
+  "key": "動作 + ___ + 規定／政策 → in accordance with「依照」",
+  "notes": [
+   {
+    "o": "in accordance with",
+    "pos": "介系詞片語",
+    "zh": "依照",
+    "use": "in accordance with + 規定／法律／政策",
+    "why": "後面常接 regulations、policy、the law"
+   },
+   {
+    "o": "in charge of",
+    "pos": "介系詞片語",
+    "zh": "負責",
+    "use": "人 + be in charge of + 事務",
+    "why": "語意不通：化學品不能「負責」規定"
+   },
+   {
+    "o": "in favor of",
+    "pos": "介系詞片語",
+    "zh": "贊成；有利於",
+    "use": "vote／be in favor of + 提案",
+    "why": "語意不通：存放不是表態"
+   },
+   {
+    "o": "in exchange for",
+    "pos": "介系詞片語",
+    "zh": "作為交換",
+    "use": "給 A in exchange for B",
+    "why": "語意不通：沒有交換關係"
+   }
+  ]
+ },
+ {
+  "cat": "prep",
+  "q": "Please direct all questions ------- the new parking policy to the facilities office.",
+  "answer": "regarding",
+  "distractors": [
+   "besides",
+   "throughout",
+   "beneath"
+  ],
+  "zh": "關於新停車規定的所有問題，請洽總務處。",
+  "key": "questions ___ + 主題 → regarding（＝about, concerning）",
+  "notes": [
+   {
+    "o": "regarding",
+    "pos": "介系詞",
+    "zh": "關於",
+    "use": "名詞 + regarding + 主題（＝about）",
+    "why": "questions／information regarding + 主題"
+   },
+   {
+    "o": "besides",
+    "pos": "介系詞",
+    "zh": "除了…還有",
+    "use": "besides + 名詞（＝in addition to）",
+    "why": "語意不通：不是「除了政策以外的問題」"
+   },
+   {
+    "o": "throughout",
+    "pos": "介系詞",
+    "zh": "遍及；在整段期間",
+    "use": "throughout + 地點／期間",
+    "why": "政策不是地點或期間"
+   },
+   {
+    "o": "beneath",
+    "pos": "介系詞",
+    "zh": "在…下方",
+    "use": "beneath + 物體（表位置）",
+    "why": "表位置，語意不通"
+   }
+  ]
+ },
+ {
+  "cat": "prep",
+  "q": "The quarterly sales report must be submitted ------- 5 P.M. on Friday.",
+  "answer": "by",
+  "distractors": [
+   "until",
+   "since",
+   "within"
+  ],
+  "zh": "季度銷售報告必須在週五下午五點前繳交。",
+  "key": "一次完成的動作 + 期限 → by；持續的動作 + 終點 → until",
+  "notes": [
+   {
+    "o": "by",
+    "pos": "介系詞",
+    "zh": "在…之前（期限）",
+    "use": "一次性動作 + by + 時間點",
+    "why": "submit／finish／arrive by + 期限"
+   },
+   {
+    "o": "until",
+    "pos": "介系詞",
+    "zh": "直到",
+    "use": "持續動作 + until + 時間點（wait／stay until）",
+    "why": "submit 是一次完成的動作，不能「一直交到」五點"
+   },
+   {
+    "o": "since",
+    "pos": "介系詞",
+    "zh": "自從",
+    "use": "完成式 + since + 過去時間點",
+    "why": "期限在未來，而且句子不是完成式"
+   },
+   {
+    "o": "within",
+    "pos": "介系詞",
+    "zh": "在…之內",
+    "use": "within + 一段時間（within 3 days）",
+    "why": "within 接時間長度，不接時間點"
+   }
+  ]
+ },
+ {
+  "cat": "prep",
+  "q": "The new accounting software is compatible ------- most operating systems currently on the market.",
+  "answer": "with",
+  "distractors": [
+   "to",
+   "for",
+   "of"
+  ],
+  "zh": "新的會計軟體與目前市面上大多數作業系統相容。",
+  "key": "固定搭配 be compatible with「與…相容」",
+  "notes": [
+   {
+    "o": "with",
+    "pos": "介系詞",
+    "zh": "與…",
+    "use": "be compatible with + 系統／設備",
+    "why": "compatible with、consistent with、familiar with"
+   },
+   {
+    "o": "to",
+    "pos": "介系詞",
+    "zh": "對…；到…",
+    "use": "similar to、equivalent to",
+    "why": "compatible 的標準搭配是 with，不用 to"
+   },
+   {
+    "o": "for",
+    "pos": "介系詞",
+    "zh": "為了；適合",
+    "use": "suitable for、responsible for",
+    "why": "compatible 不接 for"
+   },
+   {
+    "o": "of",
+    "pos": "介系詞",
+    "zh": "…的",
+    "use": "capable of、aware of",
+    "why": "compatible 不接 of"
+   }
+  ]
+ },
+ {
+  "cat": "prep",
+  "q": "Customers are entitled ------- a full refund if they return the item within 30 days.",
+  "answer": "to",
+  "distractors": [
+   "for",
+   "with",
+   "of"
+  ],
+  "zh": "顧客若在 30 天內退貨，有權獲得全額退款。",
+  "key": "固定搭配 be entitled to + 名詞／原形「有權獲得／做」",
+  "notes": [
+   {
+    "o": "to",
+    "pos": "介系詞",
+    "zh": "（有權）得到",
+    "use": "be entitled to + 名詞／原形動詞",
+    "why": "be entitled to／be eligible for 都常考"
+   },
+   {
+    "o": "for",
+    "pos": "介系詞",
+    "zh": "為了",
+    "use": "be eligible for + 名詞",
+    "why": "意思相近的 eligible 才配 for，entitled 配 to"
+   },
+   {
+    "o": "with",
+    "pos": "介系詞",
+    "zh": "與…",
+    "use": "be satisfied with + 名詞",
+    "why": "entitled 不接 with"
+   },
+   {
+    "o": "of",
+    "pos": "介系詞",
+    "zh": "…的",
+    "use": "be aware of + 名詞",
+    "why": "entitled 不接 of"
+   }
+  ]
+ },
+ {
+  "cat": "prep",
+  "q": "Online sales rose ------- 12 percent over the previous quarter.",
+  "answer": "by",
+  "distractors": [
+   "at",
+   "on",
+   "for"
+  ],
+  "zh": "網路銷售額比上一季成長了 12%。",
+  "key": "增減動詞 + by + 幅度（差額）；+ to + 變化後的數值",
+  "notes": [
+   {
+    "o": "by",
+    "pos": "介系詞",
+    "zh": "（增減）了…",
+    "use": "rise／increase／fall + by + 幅度",
+    "why": "by 表變化量，to 表變化後的數值"
+   },
+   {
+    "o": "at",
+    "pos": "介系詞",
+    "zh": "在（某數值）",
+    "use": "stand at／remain at + 數值",
+    "why": "at 表停在某數值，不表增加的幅度"
+   },
+   {
+    "o": "on",
+    "pos": "介系詞",
+    "zh": "在…上",
+    "use": "on + 日期／表面",
+    "why": "rise 不用 on 表示幅度"
+   },
+   {
+    "o": "for",
+    "pos": "介系詞",
+    "zh": "持續；為了",
+    "use": "for + 時間長度",
+    "why": "12 percent 不是時間長度"
+   }
+  ]
+ },
+ {
+  "cat": "prep",
+  "q": "Participants will receive a $50 gift card ------- completing the hour-long online survey.",
+  "answer": "in exchange for",
+  "distractors": [
+   "in case of",
+   "in contrast to",
+   "in place of"
+  ],
+  "zh": "參加者只要完成一小時的線上問卷，就能獲得 50 美元禮券作為回饋。",
+  "key": "得到 A ___ 付出 B → in exchange for「作為…的交換」",
+  "notes": [
+   {
+    "o": "in exchange for",
+    "pos": "介系詞片語",
+    "zh": "作為…的交換",
+    "use": "得到 A in exchange for + 名詞／V-ing",
+    "why": "禮券是填問卷的回報：A in exchange for B"
+   },
+   {
+    "o": "in case of",
+    "pos": "介系詞片語",
+    "zh": "萬一發生",
+    "use": "in case of + 意外狀況（fire, emergency）",
+    "why": "後面接意外或緊急狀況，不接 completing"
+   },
+   {
+    "o": "in contrast to",
+    "pos": "介系詞片語",
+    "zh": "與…相反",
+    "use": "in contrast to + 對照的事物",
+    "why": "句中沒有兩件事在對比"
+   },
+   {
+    "o": "in place of",
+    "pos": "介系詞片語",
+    "zh": "代替",
+    "use": "用 A in place of B",
+    "why": "文法可以，但語意變成「不用填問卷就拿禮券」"
+   }
+  ]
+ },
+ {
+  "cat": "conj",
+  "q": "Employees may work from home on Fridays ------- their managers approve the arrangement in advance.",
+  "answer": "provided that",
+  "distractors": [
+   "in spite of",
+   "unless",
+   "whereas"
+  ],
+  "zh": "只要主管事先核准，員工週五可以在家工作。",
+  "key": "空格後是完整子句＋語意是「條件」→ provided that（＝only if）",
+  "notes": [
+   {
+    "o": "provided that",
+    "pos": "連接詞",
+    "zh": "只要；前提是",
+    "use": "主要子句 + provided that + 子句",
+    "why": "provided／providing that ＝ only if，多益常考"
+   },
+   {
+    "o": "in spite of",
+    "pos": "介系詞片語",
+    "zh": "儘管",
+    "use": "in spite of + 名詞／V-ing",
+    "why": "介系詞後不能接完整子句"
+   },
+   {
+    "o": "unless",
+    "pos": "連接詞",
+    "zh": "除非",
+    "use": "主要子句 + unless + 子句（＝if not）",
+    "why": "文法可以，但語意相反：變成主管沒核准才能在家"
+   },
+   {
+    "o": "whereas",
+    "pos": "連接詞",
+    "zh": "而（對比）",
+    "use": "子句 A, whereas 子句 B",
+    "why": "文法可以，但兩件事是條件關係，不是對比"
+   }
+  ]
+ },
+ {
+  "cat": "conj",
+  "q": "Please keep a copy of your receipt ------- you need to return the item.",
+  "answer": "in case",
+  "distractors": [
+   "so that",
+   "even though",
+   "as if"
+  ],
+  "zh": "請保留收據影本，以備您需要退貨。",
+  "key": "預防可能發生的事 → in case + 子句（用現在式）「以防萬一」",
+  "notes": [
+   {
+    "o": "in case",
+    "pos": "連接詞",
+    "zh": "以防萬一",
+    "use": "預防的動作 + in case + 子句（現在式）",
+    "why": "in case 子句用現在式，表「以防…」"
+   },
+   {
+    "o": "so that",
+    "pos": "連接詞",
+    "zh": "以便；好讓",
+    "use": "動作 + so that + 子句（常含 can／will）",
+    "why": "語意不通：留收據不是為了「讓你需要退貨」"
+   },
+   {
+    "o": "even though",
+    "pos": "連接詞",
+    "zh": "雖然",
+    "use": "even though + 已知事實",
+    "why": "語意不通：前後沒有讓步關係"
+   },
+   {
+    "o": "as if",
+    "pos": "連接詞",
+    "zh": "彷彿",
+    "use": "動作 + as if + 子句",
+    "why": "語意不通，as if 表「好像」"
+   }
+  ]
+ },
+ {
+  "cat": "conj",
+  "q": "The meeting was moved to a larger room ------- all forty participants could be seated comfortably.",
+  "answer": "so that",
+  "distractors": [
+   "in order to",
+   "because of",
+   "as though"
+  ],
+  "zh": "會議移到較大的會議室，好讓四十位與會者都能舒適入座。",
+  "key": "空格後是子句（含 could）＋表目的 → so that；in order to 接原形",
+  "notes": [
+   {
+    "o": "so that",
+    "pos": "連接詞",
+    "zh": "以便；好讓",
+    "use": "子句 + so that + 主詞 + can／could + 原形",
+    "why": "so that 子句常搭 can／could／will 表目的"
+   },
+   {
+    "o": "in order to",
+    "pos": "不定詞片語",
+    "zh": "為了",
+    "use": "in order to + 原形動詞",
+    "why": "後面是完整子句，不能接 in order to"
+   },
+   {
+    "o": "because of",
+    "pos": "介系詞片語",
+    "zh": "因為",
+    "use": "because of + 名詞",
+    "why": "介系詞片語不能接子句，語意也不是原因"
+   },
+   {
+    "o": "as though",
+    "pos": "連接詞",
+    "zh": "彷彿",
+    "use": "動作 + as though + 子句",
+    "why": "語意不通，這裡要表達目的"
+   }
+  ]
+ },
+ {
+  "cat": "conj",
+  "q": "The Chicago office focuses on domestic sales, ------- the Toronto office handles international accounts.",
+  "answer": "whereas",
+  "distractors": [
+   "however",
+   "despite",
+   "therefore"
+  ],
+  "zh": "芝加哥辦公室專注於國內業務，而多倫多辦公室負責國際客戶。",
+  "key": "只用逗號連接兩個子句＋對比 → 連接詞 whereas；however 是副詞",
+  "notes": [
+   {
+    "o": "whereas",
+    "pos": "連接詞",
+    "zh": "而；然而",
+    "use": "子句 A, whereas 子句 B（兩者對比）",
+    "why": "whereas／while 可以直接連接兩個對比的子句"
+   },
+   {
+    "o": "however",
+    "pos": "副詞",
+    "zh": "然而",
+    "use": "子句 A; however, 子句 B",
+    "why": "副詞不能只靠逗號連接兩個子句"
+   },
+   {
+    "o": "despite",
+    "pos": "介系詞",
+    "zh": "儘管",
+    "use": "despite + 名詞／V-ing",
+    "why": "介系詞後不能接完整子句"
+   },
+   {
+    "o": "therefore",
+    "pos": "副詞",
+    "zh": "因此",
+    "use": "子句 A; therefore, 子句 B",
+    "why": "副詞不能連接子句，語意也不是因果"
+   }
+  ]
+ },
+ {
+  "cat": "conj",
+  "q": "The committee has not yet decided ------- to renew its contract with the current supplier.",
+  "answer": "whether",
+  "distractors": [
+   "if",
+   "that",
+   "unless"
+  ],
+  "zh": "委員會尚未決定是否與目前的供應商續約。",
+  "key": "「是否」後面直接接 to V → 只能用 whether（if 不接 to V）",
+  "notes": [
+   {
+    "o": "whether",
+    "pos": "連接詞",
+    "zh": "是否",
+    "use": "decide whether + to V／子句",
+    "why": "whether to V 可以，if to V 不行"
+   },
+   {
+    "o": "if",
+    "pos": "連接詞",
+    "zh": "是否；如果",
+    "use": "decide if + 子句",
+    "why": "if 表「是否」時只接子句，不接 to V"
+   },
+   {
+    "o": "that",
+    "pos": "連接詞",
+    "zh": "（引導名詞子句）",
+    "use": "decide that + 子句",
+    "why": "that 後要接子句，不接 to V"
+   },
+   {
+    "o": "unless",
+    "pos": "連接詞",
+    "zh": "除非",
+    "use": "主要子句 + unless + 子句",
+    "why": "unless 不接 to V，語意也不通"
+   }
+  ]
+ },
+ {
+  "cat": "conj",
+  "q": "------- the merger has been completed, the two companies will combine their IT departments.",
+  "answer": "Now that",
+  "distractors": [
+   "As a result",
+   "Due to",
+   "Therefore"
+  ],
+  "zh": "既然合併已經完成，兩家公司將整合資訊部門。",
+  "key": "空格後是子句、逗號後是主要子句 → 需要連接詞；「既然」→ now that",
+  "notes": [
+   {
+    "o": "Now that",
+    "pos": "連接詞",
+    "zh": "既然",
+    "use": "Now that + 子句, 主要子句",
+    "why": "now that ＝ because now：新情況成為理由"
+   },
+   {
+    "o": "As a result",
+    "pos": "副詞片語",
+    "zh": "因此",
+    "use": "子句. As a result, 子句.",
+    "why": "副詞片語不能引導從屬子句"
+   },
+   {
+    "o": "Due to",
+    "pos": "介系詞片語",
+    "zh": "由於",
+    "use": "due to + 名詞",
+    "why": "介系詞後不能接完整子句"
+   },
+   {
+    "o": "Therefore",
+    "pos": "副詞",
+    "zh": "因此",
+    "use": "子句; therefore, 子句",
+    "why": "副詞不能引導從屬子句"
+   }
+  ]
+ },
+ {
+  "cat": "conj",
+  "q": "The new printer is much faster than the old one; -------, it uses considerably more ink.",
+  "answer": "however",
+  "distractors": [
+   "although",
+   "despite",
+   "whereas"
+  ],
+  "zh": "新印表機比舊的快很多；不過，它的耗墨量也多出不少。",
+  "key": "分號後、空格後有逗號 → 填連接副詞（however／therefore／moreover）",
+  "notes": [
+   {
+    "o": "however",
+    "pos": "副詞",
+    "zh": "然而；不過",
+    "use": "子句 A; however, 子句 B",
+    "why": "分號＋however＋逗號是標準位置"
+   },
+   {
+    "o": "although",
+    "pos": "連接詞",
+    "zh": "雖然",
+    "use": "although + 子句（後面不直接加逗號）",
+    "why": "連接詞要直接接子句，不接逗號"
+   },
+   {
+    "o": "despite",
+    "pos": "介系詞",
+    "zh": "儘管",
+    "use": "despite + 名詞",
+    "why": "介系詞後要接名詞，不能接逗號"
+   },
+   {
+    "o": "whereas",
+    "pos": "連接詞",
+    "zh": "而（對比）",
+    "use": "子句 A, whereas 子句 B",
+    "why": "連接詞要直接接子句，不接逗號"
+   }
+  ]
+ },
+ {
+  "cat": "conj",
+  "q": "The new location offers lower rent; -------, it is closer to the train station.",
+  "answer": "moreover",
+  "distractors": [
+   "nevertheless",
+   "otherwise",
+   "instead"
+  ],
+  "zh": "新地點租金較低；此外，離火車站也比較近。",
+  "key": "分號後填副詞，看語意：兩個優點並列 → moreover（此外）",
+  "notes": [
+   {
+    "o": "moreover",
+    "pos": "副詞",
+    "zh": "此外；而且",
+    "use": "子句 A; moreover, 子句 B（同方向補充）",
+    "why": "moreover／furthermore／in addition 表追加"
+   },
+   {
+    "o": "nevertheless",
+    "pos": "副詞",
+    "zh": "儘管如此",
+    "use": "子句 A; nevertheless, 子句 B（轉折）",
+    "why": "文法可以，但兩句都是優點，沒有轉折"
+   },
+   {
+    "o": "otherwise",
+    "pos": "副詞",
+    "zh": "否則",
+    "use": "指示／條件; otherwise, 後果",
+    "why": "文法可以，但語意不通：沒有「否則」關係"
+   },
+   {
+    "o": "instead",
+    "pos": "副詞",
+    "zh": "反而；改為",
+    "use": "否定句; instead, 替代的做法",
+    "why": "文法可以，但前句沒有被取代的事"
+   }
+  ]
+ },
+ {
+  "cat": "conj",
+  "q": "The outdoor product launch was postponed ------- the heavy rain forecast for Saturday.",
+  "answer": "because of",
+  "distractors": [
+   "because",
+   "since",
+   "so"
+  ],
+  "zh": "由於預報週六將有大雨，戶外產品發表會延期了。",
+  "key": "空格後是名詞片語（沒有動詞）→ 介系詞 because of",
+  "notes": [
+   {
+    "o": "because of",
+    "pos": "介系詞片語",
+    "zh": "因為",
+    "use": "because of + 名詞片語",
+    "why": "because of／due to + 名詞；because + 子句"
+   },
+   {
+    "o": "because",
+    "pos": "連接詞",
+    "zh": "因為",
+    "use": "because + 主詞 + 動詞",
+    "why": "後面沒有動詞，不是子句"
+   },
+   {
+    "o": "since",
+    "pos": "連接詞／介系詞",
+    "zh": "因為；自從",
+    "use": "since + 子句；當介系詞時只表「自從」",
+    "why": "since 後接名詞時只表時間，不表原因"
+   },
+   {
+    "o": "so",
+    "pos": "連接詞",
+    "zh": "所以",
+    "use": "原因子句, so + 結果子句",
+    "why": "so 後要接結果子句，而且因果方向相反"
+   }
+  ]
+ },
+ {
+  "cat": "conj",
+  "q": "------- her limited experience in sales, Ms. Romero was offered the regional manager position.",
+  "answer": "Despite",
+  "distractors": [
+   "Although",
+   "Even if",
+   "Nevertheless"
+  ],
+  "zh": "儘管銷售經驗有限，Romero 女士仍獲得區域經理的職位。",
+  "key": "空格後是名詞片語＋逗號 → 介系詞 despite；although 要接子句",
+  "notes": [
+   {
+    "o": "Despite",
+    "pos": "介系詞",
+    "zh": "儘管",
+    "use": "Despite + 名詞／V-ing, 主要子句",
+    "why": "despite／in spite of + 名詞；although + 子句"
+   },
+   {
+    "o": "Although",
+    "pos": "連接詞",
+    "zh": "雖然",
+    "use": "Although + 主詞 + 動詞, 主要子句",
+    "why": "後面只有名詞片語，沒有動詞"
+   },
+   {
+    "o": "Even if",
+    "pos": "連接詞",
+    "zh": "即使",
+    "use": "Even if + 子句（假設情況）",
+    "why": "連接詞要接子句，這裡只有名詞片語"
+   },
+   {
+    "o": "Nevertheless",
+    "pos": "副詞",
+    "zh": "儘管如此",
+    "use": "子句. Nevertheless, 子句.",
+    "why": "副詞不能接名詞片語來表示讓步"
+   }
+  ]
+ },
+ {
+  "cat": "pron",
+  "q": "The prices at our online store are lower than ------- of our main competitors.",
+  "answer": "those",
+  "distractors": [
+   "that",
+   "them",
+   "these"
+  ],
+  "zh": "我們網路商店的價格比主要競爭對手的價格低。",
+  "key": "比較的對象要對等：prices（複數）→ 用 those of 代替",
+  "notes": [
+   {
+    "o": "those",
+    "pos": "指示代名詞（複）",
+    "zh": "那些（＝the prices）",
+    "use": "those of + 名詞：代替前面的複數名詞",
+    "why": "比較時避免重複名詞：複數 those of，單數 that of"
+   },
+   {
+    "o": "that",
+    "pos": "指示代名詞（單）",
+    "zh": "那個",
+    "use": "that of + 名詞：代替單數名詞",
+    "why": "prices 是複數，要用 those"
+   },
+   {
+    "o": "them",
+    "pos": "受格代名詞",
+    "zh": "它們",
+    "use": "動詞／介系詞 + them",
+    "why": "them 後面不能接 of 片語來修飾"
+   },
+   {
+    "o": "these",
+    "pos": "指示代名詞（複）",
+    "zh": "這些",
+    "use": "these 指近處的人事物",
+    "why": "比較句中代替名詞的慣用說法是 those of"
+   }
+  ]
+ },
+ {
+  "cat": "pron",
+  "q": "The battery life of the new model is nearly twice as long as ------- of the previous version.",
+  "answer": "that",
+  "distractors": [
+   "those",
+   "it",
+   "this"
+  ],
+  "zh": "新機型的電池續航力幾乎是前一代的兩倍。",
+  "key": "比較對象是單數的 battery life → that of；複數才用 those of",
+  "notes": [
+   {
+    "o": "that",
+    "pos": "指示代名詞（單）",
+    "zh": "那個（指續航力）",
+    "use": "that of + 名詞：代替前面的單數名詞",
+    "why": "比較句：單數／不可數用 that of，複數用 those of"
+   },
+   {
+    "o": "those",
+    "pos": "指示代名詞（複）",
+    "zh": "那些",
+    "use": "those of + 名詞：代替複數名詞",
+    "why": "battery life 是單數，不能用 those"
+   },
+   {
+    "o": "it",
+    "pos": "人稱代名詞",
+    "zh": "它",
+    "use": "it 指同一個東西，後面不接 of 片語",
+    "why": "這裡指另一款的續航力，it 不能接 of 片語"
+   },
+   {
+    "o": "this",
+    "pos": "指示代名詞（單）",
+    "zh": "這個",
+    "use": "this 指近處的人事物",
+    "why": "比較句中代替名詞的慣用說法是 that of"
+   }
+  ]
+ },
+ {
+  "cat": "pron",
+  "q": "Ms. Grant prefers to review all client contracts ------- rather than delegate the task to an assistant.",
+  "answer": "herself",
+  "distractors": [
+   "her",
+   "hers",
+   "she"
+  ],
+  "zh": "Grant 女士偏好親自審閱所有客戶合約，而不是交給助理處理。",
+  "key": "句子結構已完整，空格強調「親自」→ 反身代名詞 herself",
+  "notes": [
+   {
+    "o": "herself",
+    "pos": "反身代名詞",
+    "zh": "她自己；親自",
+    "use": "完整句 + 反身代名詞：強調本人親自做",
+    "why": "放句尾的反身代名詞表「親自」，要對應主詞"
+   },
+   {
+    "o": "her",
+    "pos": "受格代名詞",
+    "zh": "她",
+    "use": "動詞／介系詞 + her",
+    "why": "review 的受詞已是 contracts，沒有位置放 her"
+   },
+   {
+    "o": "hers",
+    "pos": "所有格代名詞",
+    "zh": "她的（東西）",
+    "use": "hers ＝ her + 名詞，當主詞或受詞",
+    "why": "句子已有受詞，hers 沒有位置"
+   },
+   {
+    "o": "she",
+    "pos": "主格代名詞",
+    "zh": "她",
+    "use": "放在動詞前當主詞",
+    "why": "主詞已是 Ms. Grant，句中不能再放主格"
+   }
+  ]
+ },
+ {
+  "cat": "pron",
+  "q": "New hires are not expected to handle client complaints on ------- own during their first month.",
+  "answer": "their",
+  "distractors": [
+   "them",
+   "themselves",
+   "theirs"
+  ],
+  "zh": "新進員工在第一個月不需要獨自處理客訴。",
+  "key": "on one's own「獨自」→ own 前面一定是所有格（their）",
+  "notes": [
+   {
+    "o": "their",
+    "pos": "所有格",
+    "zh": "他們的",
+    "use": "on + 所有格 + own ＝ by oneself",
+    "why": "on one's own ＝ by oneself，own 前要用所有格"
+   },
+   {
+    "o": "them",
+    "pos": "受格代名詞",
+    "zh": "他們",
+    "use": "動詞／介系詞 + them",
+    "why": "own 前面要所有格，不能用受格"
+   },
+   {
+    "o": "themselves",
+    "pos": "反身代名詞",
+    "zh": "他們自己",
+    "use": "by themselves（獨自）",
+    "why": "「獨自」是 by themselves 或 on their own"
+   },
+   {
+    "o": "theirs",
+    "pos": "所有格代名詞",
+    "zh": "他們的（東西）",
+    "use": "theirs 單獨使用，後面不接名詞",
+    "why": "所有格代名詞後面不能再接 own"
+   }
+  ]
+ },
+ {
+  "cat": "pron",
+  "q": "The old laptops in the sales department will be replaced with lighter ------- by the end of the year.",
+  "answer": "ones",
+  "distractors": [
+   "one",
+   "them",
+   "those"
+  ],
+  "zh": "業務部的舊筆電將在年底前換成較輕的機型。",
+  "key": "形容詞 + ___ 代替前面的複數名詞 laptops → ones",
+  "notes": [
+   {
+    "o": "ones",
+    "pos": "代名詞（複數）",
+    "zh": "那種東西（複數）",
+    "use": "形容詞 + ones：代替前面的複數可數名詞",
+    "why": "lighter ones ＝ lighter laptops；單數用 a lighter one"
+   },
+   {
+    "o": "one",
+    "pos": "代名詞（單數）",
+    "zh": "那種東西（單數）",
+    "use": "a／the + 形容詞 + one",
+    "why": "laptops 是複數，而且單數 one 前要有冠詞"
+   },
+   {
+    "o": "them",
+    "pos": "受格代名詞",
+    "zh": "它們",
+    "use": "動詞／介系詞 + them（前面不加形容詞）",
+    "why": "人稱代名詞前不能加形容詞 lighter"
+   },
+   {
+    "o": "those",
+    "pos": "指示代名詞",
+    "zh": "那些",
+    "use": "those + of 片語／關係子句",
+    "why": "those 前面不能加形容詞"
+   }
+  ]
+ },
+ {
+  "cat": "pron",
+  "q": "The final decision on next year's budget rests with Mr. Tanaka and -------.",
+  "answer": "me",
+  "distractors": [
+   "I",
+   "my",
+   "mine"
+  ],
+  "zh": "明年度預算的最終決定權在 Tanaka 先生和我身上。",
+  "key": "介系詞 with 的受詞（A and ___）→ 受格 me",
+  "notes": [
+   {
+    "o": "me",
+    "pos": "受格代名詞",
+    "zh": "我",
+    "use": "介系詞 + A and me",
+    "why": "with A and me：and 連接的仍是受詞，用受格"
+   },
+   {
+    "o": "I",
+    "pos": "主格代名詞",
+    "zh": "我",
+    "use": "放在動詞前當主詞",
+    "why": "介系詞後面要用受格，不用主格"
+   },
+   {
+    "o": "my",
+    "pos": "所有格",
+    "zh": "我的",
+    "use": "my + 名詞",
+    "why": "所有格後面要接名詞"
+   },
+   {
+    "o": "mine",
+    "pos": "所有格代名詞",
+    "zh": "我的（東西）",
+    "use": "mine ＝ my + 名詞",
+    "why": "語意不通：前面沒有「我的什麼」可指"
+   }
+  ]
+ },
+ {
+  "cat": "pron",
+  "q": "The two regional managers rarely communicate with ------- directly, which often causes delays.",
+  "answer": "each other",
+  "distractors": [
+   "themselves",
+   "one",
+   "their own"
+  ],
+  "zh": "兩位區域經理很少直接與彼此聯絡，因此常造成延誤。",
+  "key": "兩方之間互相 → each other；反身代名詞是「自己對自己」",
+  "notes": [
+   {
+    "o": "each other",
+    "pos": "相互代名詞",
+    "zh": "彼此",
+    "use": "動詞／介系詞 + each other（雙方互相）",
+    "why": "communicate／meet with each other 常考"
+   },
+   {
+    "o": "themselves",
+    "pos": "反身代名詞",
+    "zh": "他們自己",
+    "use": "動作回到主詞本身",
+    "why": "語意不通：變成各自和自己溝通"
+   },
+   {
+    "o": "one",
+    "pos": "代名詞",
+    "zh": "一個（人／物）",
+    "use": "形容詞 + one：代替單數名詞",
+    "why": "前面沒有可代替的名詞，語意不通"
+   },
+   {
+    "o": "their own",
+    "pos": "所有格 + own",
+    "zh": "他們自己的",
+    "use": "their own + 名詞",
+    "why": "their own 後面缺名詞"
+   }
+  ]
+ },
+ {
+  "cat": "other",
+  "q": "------- wins this quarter's sales contest will receive an extra week of paid vacation.",
+  "answer": "Whoever",
+  "distractors": [
+   "Anyone",
+   "Who",
+   "Whomever"
+  ],
+  "zh": "本季業績競賽的優勝者，將多獲得一週帶薪假。",
+  "key": "___ wins… 當主詞，will receive 是主要動詞 → whoever（＝anyone who）",
+  "notes": [
+   {
+    "o": "Whoever",
+    "pos": "複合關係代名詞",
+    "zh": "任何…的人",
+    "use": "Whoever + 動詞…＋主要動詞（＝anyone who）",
+    "why": "whoever 本身含先行詞，可直接當主詞子句"
+   },
+   {
+    "o": "Anyone",
+    "pos": "不定代名詞",
+    "zh": "任何人",
+    "use": "Anyone who + 動詞…",
+    "why": "缺 who：wins 和 will receive 兩個動詞無法連接"
+   },
+   {
+    "o": "Who",
+    "pos": "疑問／關係代名詞",
+    "zh": "誰；…的人",
+    "use": "先行詞 + who + 動詞",
+    "why": "Who 子句當主詞是「誰會贏」，不是「贏的人」"
+   },
+   {
+    "o": "Whomever",
+    "pos": "複合關係代名詞",
+    "zh": "任何…的人（受格）",
+    "use": "動詞／介系詞 + whomever + 主詞 + 動詞",
+    "why": "空格是 wins 的主詞，要用主格"
+   }
+  ]
+ },
+ {
+  "cat": "other",
+  "q": "Customers may choose ------- payment option is most convenient for them.",
+  "answer": "whichever",
+  "distractors": [
+   "whoever",
+   "wherever",
+   "however"
+  ],
+  "zh": "顧客可以選擇對他們最方便的任何一種付款方式。",
+  "key": "___ + 名詞 + 動詞，從選項中「任選一個」→ whichever + 名詞",
+  "notes": [
+   {
+    "o": "whichever",
+    "pos": "複合關係形容詞",
+    "zh": "無論哪一個",
+    "use": "whichever + 名詞 + 動詞（從有限選項中選）",
+    "why": "whichever 可直接接名詞；whoever 指人"
+   },
+   {
+    "o": "whoever",
+    "pos": "複合關係代名詞",
+    "zh": "任何…的人",
+    "use": "whoever + 動詞",
+    "why": "指人，而且後面不能直接接名詞"
+   },
+   {
+    "o": "wherever",
+    "pos": "複合關係副詞",
+    "zh": "無論哪裡",
+    "use": "wherever + 主詞 + 動詞",
+    "why": "表地點，後面不接名詞當主詞"
+   },
+   {
+    "o": "however",
+    "pos": "複合關係副詞",
+    "zh": "無論多麼",
+    "use": "however + 形容詞／副詞 + 主詞 + 動詞",
+    "why": "however 後接形容詞或副詞，不接名詞"
+   }
+  ]
+ },
+ {
+  "cat": "other",
+  "q": "The conference room ------- the job interviews will take place is on the fifth floor.",
+  "answer": "in which",
+  "distractors": [
+   "which",
+   "whose",
+   "what"
+  ],
+  "zh": "面試要舉行的那間會議室在五樓。",
+  "key": "關係子句已完整（interviews will take place）→ 介系詞 + which（＝where）",
+  "notes": [
+   {
+    "o": "in which",
+    "pos": "介系詞＋關係代名詞",
+    "zh": "在那裡（＝where）",
+    "use": "地點名詞 + in which + 完整子句",
+    "why": "子句完整時用「介系詞 + which」；in which ＝ where"
+   },
+   {
+    "o": "which",
+    "pos": "關係代名詞",
+    "zh": "（指物）",
+    "use": "名詞 + which + 缺主詞或受詞的子句",
+    "why": "take place 不接受詞，子句不缺東西"
+   },
+   {
+    "o": "whose",
+    "pos": "關係代名詞所有格",
+    "zh": "…的",
+    "use": "名詞 + whose + 名詞 + 動詞",
+    "why": "語意不通：面試不屬於會議室，且 whose 後不加 the"
+   },
+   {
+    "o": "what",
+    "pos": "關係代名詞",
+    "zh": "…的東西",
+    "use": "what ＝ the thing which，前面沒有先行詞",
+    "why": "前面已有先行詞 room，不能用 what"
+   }
+  ]
+ },
+ {
+  "cat": "other",
+  "q": "The company received more than 200 applications for the position, ------- were submitted online.",
+  "answer": "most of which",
+  "distractors": [
+   "most of them",
+   "most of whom",
+   "most of what"
+  ],
+  "zh": "公司收到兩百多份該職位的申請，其中大部分是線上提交的。",
+  "key": "逗號後接動詞、沒有連接詞 → 用關代：most of which（物）／whom（人）",
+  "notes": [
+   {
+    "o": "most of which",
+    "pos": "數量詞＋關係代名詞",
+    "zh": "其中大部分",
+    "use": "名詞, most／some／all of which + 動詞",
+    "why": "指物用 which、指人用 whom，可連接兩個子句"
+   },
+   {
+    "o": "most of them",
+    "pos": "數量詞＋代名詞",
+    "zh": "它們大部分",
+    "use": "子句; most of them + 動詞",
+    "why": "them 不是連接詞，只用逗號不能連接兩個子句"
+   },
+   {
+    "o": "most of whom",
+    "pos": "數量詞＋關係代名詞",
+    "zh": "其中大部分（人）",
+    "use": "指人：名詞, most of whom + 動詞",
+    "why": "先行詞 applications 是物，不能用 whom"
+   },
+   {
+    "o": "most of what",
+    "pos": "數量詞＋what",
+    "zh": "所…的大部分",
+    "use": "most of what + 主詞 + 動詞",
+    "why": "what 前面不能有先行詞，這裡已有 applications"
+   }
+  ]
+ },
+ {
+  "cat": "other",
+  "q": "The more training employees receive, ------- they tend to make on the job.",
+  "answer": "the fewer mistakes",
+  "distractors": [
+   "fewer mistakes",
+   "the fewest mistakes",
+   "the more mistakes"
+  ],
+  "zh": "員工受的訓練越多，工作上犯的錯往往越少。",
+  "key": "The + 比較級…, the + 比較級… → 後半也要 the + 比較級",
+  "notes": [
+   {
+    "o": "the fewer mistakes",
+    "pos": "the + 比較級",
+    "zh": "錯誤越少",
+    "use": "The + 比較級 + 主詞 + 動詞, the + 比較級 + 主詞 + 動詞",
+    "why": "越…越…：前後都要 the；mistakes 可數用 fewer"
+   },
+   {
+    "o": "fewer mistakes",
+    "pos": "比較級",
+    "zh": "較少的錯誤",
+    "use": "fewer + 複數名詞 + than",
+    "why": "「越…越…」句型的後半缺 the"
+   },
+   {
+    "o": "the fewest mistakes",
+    "pos": "最高級",
+    "zh": "最少的錯誤",
+    "use": "the + 最高級（三者以上之最）",
+    "why": "這個句型要用比較級，不用最高級"
+   },
+   {
+    "o": "the more mistakes",
+    "pos": "the + 比較級",
+    "zh": "錯誤越多",
+    "use": "The + 比較級…, the + 比較級…",
+    "why": "文法可以，但語意不合理：訓練越多錯越多"
+   }
+  ]
+ },
+ {
+  "cat": "other",
+  "q": "We are looking for a packaging supplier ------- products meet international safety standards.",
+  "answer": "whose",
+  "distractors": [
+   "who",
+   "which",
+   "whom"
+  ],
+  "zh": "我們正在尋找產品符合國際安全標準的包裝供應商。",
+  "key": "空格後是「名詞 + 動詞」，表示先行詞「的」→ 所有格 whose",
+  "notes": [
+   {
+    "o": "whose",
+    "pos": "關係代名詞所有格",
+    "zh": "…的",
+    "use": "先行詞 + whose + 名詞 + 動詞",
+    "why": "whose 後面直接接名詞；先行詞是人或物都可用"
+   },
+   {
+    "o": "who",
+    "pos": "關係代名詞主格",
+    "zh": "（指人）",
+    "use": "先行詞 + who + 動詞",
+    "why": "who 後要接動詞，這裡接的是名詞 products"
+   },
+   {
+    "o": "which",
+    "pos": "關係代名詞",
+    "zh": "（指物）",
+    "use": "先行詞 + which + 缺主詞或受詞的子句",
+    "why": "products meet… 已完整，缺的是「的」"
+   },
+   {
+    "o": "whom",
+    "pos": "關係代名詞受格",
+    "zh": "（指人）",
+    "use": "先行詞 + whom + 主詞 + 動詞",
+    "why": "子句不缺受詞，語意是所有關係"
+   }
+  ]
+ },
+ {
+  "cat": "other",
+  "q": "------- of the new employees has been assigned a mentor for the first three months.",
+  "answer": "Each",
+  "distractors": [
+   "Every",
+   "All",
+   "Most"
+  ],
+  "zh": "每位新進員工在前三個月都已分配到一位導師。",
+  "key": "___ of the + 複數名詞 + 單數動詞 has → Each of",
+  "notes": [
+   {
+    "o": "Each",
+    "pos": "代名詞",
+    "zh": "每一個",
+    "use": "Each of the + 複數名詞 + 單數動詞",
+    "why": "each of 可以，every of 不行；動詞用單數"
+   },
+   {
+    "o": "Every",
+    "pos": "限定詞",
+    "zh": "每一個",
+    "use": "every + 單數名詞（不接 of）",
+    "why": "every 後面不能直接接 of"
+   },
+   {
+    "o": "All",
+    "pos": "代名詞",
+    "zh": "全部",
+    "use": "All of the + 複數名詞 + 複數動詞",
+    "why": "all of the employees 要配 have，不配 has"
+   },
+   {
+    "o": "Most",
+    "pos": "代名詞",
+    "zh": "大部分",
+    "use": "Most of the + 複數名詞 + 複數動詞",
+    "why": "most of the employees 要配 have，不配 has"
+   }
+  ]
+ },
+ {
+  "cat": "other",
+  "q": "The new inventory system requires ------- less maintenance than the old one.",
+  "answer": "much",
+  "distractors": [
+   "very",
+   "more",
+   "many"
+  ],
+  "zh": "新的庫存系統所需的維護比舊系統少得多。",
+  "key": "修飾比較級（less + 不可數名詞）用 much／far，不用 very",
+  "notes": [
+   {
+    "o": "much",
+    "pos": "副詞",
+    "zh": "…得多",
+    "use": "much／far／even + 比較級",
+    "why": "強調比較級用 much、far、even、a lot"
+   },
+   {
+    "o": "very",
+    "pos": "副詞",
+    "zh": "非常",
+    "use": "very + 原級形容詞／副詞",
+    "why": "very 不能修飾比較級"
+   },
+   {
+    "o": "more",
+    "pos": "比較級",
+    "zh": "更多",
+    "use": "more + 原級形容詞或名詞",
+    "why": "more 和 less 不能連用"
+   },
+   {
+    "o": "many",
+    "pos": "形容詞",
+    "zh": "許多",
+    "use": "many + 複數名詞；many more + 複數名詞",
+    "why": "maintenance 不可數，不能用 many 修飾"
+   }
+  ]
+ }
+]

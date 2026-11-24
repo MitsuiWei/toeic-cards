@@ -1,9 +1,9 @@
-# 多益單字卡網站 規格書
+# 兔兔多益（多益單字卡網站）規格書
 
 > 網站：https://mitsuiwei.github.io/toeic-cards/　｜　原始碼：GitHub `MitsuiWei/toeic-cards`（公開 repo，`main` 分支）
 > 這份文件描述網站「是什麼、怎麼運作、資料長什麼樣子」，讓任何人或 AI 不靠對話紀錄也能接手。
 > 怎麼動手改（工作慣例、還原開發環境、建置與測試指令、上線流程）寫在同一個資料夾的 `HANDOFF.md`。兩份要一起讀。
-> 版本：v23（2026-11-24）。規格和程式不一致時以程式為準，並回頭修正這份文件。
+> 版本：v24（2026-11-24）。網站顯示名稱是「兔兔多益」（v24 改名；repo 和網址仍是 `toeic-cards`）。規格和程式不一致時以程式為準，並回頭修正這份文件。
 
 ---
 
@@ -72,7 +72,7 @@
 | `data/gloss.js` | 題庫小字典（第 9.3 節），第一次點字時才載入 |
 | `data/aids.js` | 單字卡的自然發音與字根字首（第 9.4 節），設定或切換到這兩種提示時才載入 |
 | `sw.js` | Service Worker：快取、離線、更新（第 12 節） |
-| `manifest.webmanifest`、`icons/`、`favicon.ico` | 加到主畫面用 |
+| `manifest.webmanifest`、`icons/`、`favicon.ico` | 加到主畫面用。圖示是看書的兔兔，由 `tools/scripts/icon_gen.py` 產生（照使用者提供的圖描成向量；`icons/icon.svg` 是原始檔，分頁用的 32px 版本把圖放大、線加粗） |
 | `README.md` | 對外的專案說明與 Firebase 設定步驟 |
 | `tools/` | 不屬於網站：交接文件、這份規格書、建置腳本、內容原始檔、測試（見 `HANDOFF.md`） |
 

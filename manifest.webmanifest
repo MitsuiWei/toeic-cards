@@ -1,6 +1,6 @@
 {
-  "name": "多益單字卡",
-  "short_name": "多益單字",
+  "name": "兔兔多益",
+  "short_name": "兔兔多益",
   "description": "多益 1000 單字間隔複習卡片，點一下就能聽發音",
   "start_url": "./",
   "scope": "./",

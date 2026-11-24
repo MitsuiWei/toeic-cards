@@ -19,7 +19,6 @@
  *  - 規則還沒更新時讀自己的申請單會被拒（permission-denied）→ 視為「審核尚未啟用」（dormant），登入就放行，不會把人鎖在外面。
  *  - 核准過的裝置把結果記在 localStorage（toeic-gate-v1），下次開啟先放行再背景確認，離線也能用。
  *  - file:// 直接開啟、或沒有 FIREBASE_CONFIG 時不啟用（本機開發與測試）；測試可設 window.TOEIC_FORCE_GATE = true。
- *  - 管理員可以讀每個人的 toeicCards/{uid}（管理頁的學習狀況），但不能改。
  *  注意：這是前端的門，擋的是一般訪客；網站程式和題庫本身放在公開的 GitHub Pages，懂技術的人仍然拿得到。
  *  真正由伺服器把關的只有 Firestore 裡的雲端資料（見 README 的安全規則）。
  */
@@ -156,7 +155,7 @@
     return db.collection(ACC).doc(uid).update({ status: st, decidedAt: firebase.firestore.FieldValue.serverTimestamp() })
       .catch(function (e) { hooks.toast('更新失敗：' + friendly(e)); });
   }
-  /* 管理員看某個人的學習狀況：讀對方的 toeicCards/{uid} 和最近兩個月的複習紀錄（規則只允許管理員讀別人的） */
+  /* 管理頁用：讀 toeicCards/{uid} 和最近兩個月的複習紀錄 */
   function loadUser(uid) {
     if (!gate.admin || !db) return Promise.reject(new Error('not admin'));
     var ref = db.collection(COLL).doc(uid), now = Date.now(), d = new Date(now);

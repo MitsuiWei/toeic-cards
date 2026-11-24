@@ -13,7 +13,7 @@
   var SWITCH = '<button type="button" class="link-btn" data-gate="signout">換一個帳號</button>';
   function gateHtml(g, info) {
     var err = g.msg || (g.state === 'signed-out' ? info.msg : '');
-    var h = '<div class="gate-card"><p class="gate-brand">多益單字卡</p>';
+    var h = '<div class="gate-card"><p class="gate-brand">兔兔多益</p>';
     if (g.state === 'checking') h += '<p class="gate-text">確認登入狀態中…</p>';
     else if (g.state === 'nosdk') h += '<h1>連不上登入服務</h1><p class="gate-text">請連上網路後重新整理</p>' +
       '<button type="button" class="reveal" data-gate="reload">重新整理</button>';
@@ -28,13 +28,13 @@
     if (err) h += '<p class="gate-err">' + esc(err) + '</p>';
     return h + '</div>';
   }
-  /* ---------- 管理頁（只有管理員看得到「管理」分頁）：審核申請＋每個人的學習狀況 ---------- */
+  /* ---------- 管理頁（只有管理員有「管理」分頁） ---------- */
   var stats = {};                                    // uid → { loading, err, s: 摘要, t: 讀取時間 }
   function pad(n) { return (n < 10 ? '0' : '') + n; }
   function dayKey(t) { var d = new Date(t); return d.getFullYear() + '-' + pad(d.getMonth() + 1) + '-' + pad(d.getDate()); }
   function md(t) { var d = new Date(t); return (d.getMonth() + 1) + '/' + d.getDate(); }
   function mdhm(t) { var d = new Date(t); return md(t) + ' ' + pad(d.getHours()) + ':' + pad(d.getMinutes()); }
-  /* 把對方的雲端資料整理成幾個數字（資料格式見 tools/SPEC.md 第 10 節） */
+  /* 把雲端資料整理成幾個數字（資料格式見 tools/SPEC.md 第 10 節） */
   function summarize(x) {
     var d = x.data; if (!d) return null;
     var c = { total: 0, learning: 0, review: 0, known: 0 }, recs = d.recs || {};
@@ -72,8 +72,8 @@
   }
   function statHtml(uid) {
     var st = stats[uid];
-    if (!st || (st.loading && !st.s)) return '<p class="adm-line adm-dim">讀取學習狀況中…</p>';
-    if (st.err) return '<p class="adm-line adm-dim">讀不到學習狀況（' + esc(st.err === 'permission-denied' ? 'Firestore 規則不允許' : st.err) + '）</p>';
+    if (!st || (st.loading && !st.s)) return '<p class="adm-line adm-dim">讀取中…</p>';
+    if (st.err) return '<p class="adm-line adm-dim">讀不到資料（' + esc(st.err === 'permission-denied' ? 'Firestore 規則不允許' : st.err) + '）</p>';
     var s = st.s;
     if (!s) return '<p class="adm-line adm-dim">還沒有學習紀錄。</p>';
     var pct = s.qn ? Math.round(s.qc / s.qn * 100) + '%' : '—';
@@ -115,7 +115,7 @@
     if (!g.admin) return '';
     var pend = g.reqs.filter(function (r) { return r.status === 'pending'; }).length;
     return '<h2 class="stat-h">使用權限' + (pend ? '<span class="acc-badge">' + pend + ' 個待審核</span>' : '') + '</h2>' +
-      '<p class="note">你是管理員。審核申請、看每個人的學習狀況，請到「管理」分頁。</p>';
+      '<p class="note">你是管理員。審核申請請到「管理」分頁。</p>';
   }
   var lastGate = '', lastSet = '', lastAdm = '';
   function render() {
@@ -157,7 +157,7 @@
   });
   document.addEventListener('click', function (e) {
     if (e.target.closest('[data-adm="reload"]')) { ensureStats(Sync.gate(), true); render(); }
-    if (e.target.closest('.view-btn')) setTimeout(render, 0);           // 切到管理頁時畫出內容、讀學習狀況
+    if (e.target.closest('.view-btn')) setTimeout(render, 0);           // 切到管理頁時畫出內容
   });
   // 鎖住時，鍵盤快捷鍵不要動到後面的單字卡
   ['keydown', 'keyup', 'keypress'].forEach(function (t) {

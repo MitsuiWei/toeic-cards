@@ -3,7 +3,7 @@
 > 網站：https://mitsuiwei.github.io/toeic-cards/　｜　原始碼：GitHub `MitsuiWei/toeic-cards`（公開 repo，`main` 分支）
 > 這份文件描述網站「是什麼、怎麼運作、資料長什麼樣子」，讓任何人或 AI 不靠對話紀錄也能接手。
 > 怎麼動手改（工作慣例、還原開發環境、建置與測試指令、上線流程）寫在同一個資料夾的 `HANDOFF.md`。兩份要一起讀。
-> 版本：v20（2026-11-23）。規格和程式不一致時以程式為準，並回頭修正這份文件。
+> 版本：v21（2026-11-24）。規格和程式不一致時以程式為準，並回頭修正這份文件。
 
 ---
 
@@ -38,6 +38,8 @@
 
 技術：純靜態網站（HTML／CSS／原生 JavaScript，沒有框架、沒有建置步驟、沒有後端），放在 GitHub Pages。登入與跨裝置同步用 Firebase（Google 登入＋Firestore）。發音用瀏覽器內建的 Web Speech API。可離線使用（Service Worker）。
 
+存取控制：線上版要用 Google 帳號登入，並經管理員同意才能使用（第 10.5 節）。
+
 不做的事：不收費、沒有帳號以外的個資、不放多益真題或出版社題目、不用簡體中文。
 
 ## 2. 使用者與設計原則
@@ -60,7 +62,8 @@
 | `js/srs.js` | `window.SRS`：間隔複習排程（第 5 節） |
 | `js/app.js` | 主程式：狀態載入與儲存、單字卡、單字庫、統計、設定、匯入匯出、自選單字、同步合併、單字卡提示行；並把共用功能以 `Practice.init(T)` 傳給練習頁 |
 | `data/words.js` | `window.WORDS`：1000 個字（第 9.1 節） |
-| `js/sync.js` | `window.Sync`：Firebase Auth＋Firestore 同步（第 10.3 節） |
+| `js/sync.js` | `window.Sync`：Firebase Auth＋Firestore 同步（第 10.3 節）、使用權限的判斷（第 10.5 節） |
+| `js/gate.js` | 使用權限的畫面：登入／申請／等待的遮罩（`#gate`）、管理員的「管理」分頁（`#view-admin`）。只管畫面，邏輯在 `sync.js` |
 | `js/firebase-config.js` | Firebase 瀏覽器端設定（金鑰本來就是公開的，已限制 HTTP referrer） |
 | `js/score.js` | `window.ToeicScore`：估分模型，純計算（第 7 節），Node 也能 `require` |
 | `js/practice.js` | `window.Practice`：練習頁全部功能（三種題型、解析、錯題分析、點字查詢、落點測驗、統計頁的練習區塊） |
@@ -82,6 +85,7 @@ index.html 依序載入（全部是一般 <script>，沒有模組）：
   3. Firebase compat SDK  （gstatic CDN：app、auth、firestore 10.14.1）
   4. js/firebase-config.js
   5. js/sync.js           → window.Sync；透過 hooks 回呼 app.js（取狀態、合併遠端、重畫）
+  5b. js/gate.js          → 使用權限的畫面（訂閱 Sync.onStatus）
   6. data/quiz_meta.js    → 題數
   7. js/score.js          → window.ToeicScore
   8. js/practice.js       → window.Practice；只透過 T（app.js 給的介面）讀寫狀態
@@ -102,7 +106,7 @@ index.html 依序載入（全部是一般 <script>，沒有模組）：
 ### 4.1 共用版面
 
 - **級別分頁**：400、600、800、990、全部、自選。切換會改變單字卡、單字庫、練習題的範圍（練習頁「自選」沒有題庫）。切換時結束進行中的練習回合，但**不會**中斷落點測驗。
-- **檢視切換**：學習、練習、單字庫、統計、設定、說明。目前所在檢視記在 `state.view`。
+- **檢視切換**：學習、練習、單字庫、統計、設定、說明；管理員多一個「管理」（第 4.10 節）。目前所在檢視記在 `state.view`。
 - 小提示訊息用 `toast()`，約 2 秒後消失。
 
 ### 4.2 學習（單字卡）
@@ -185,13 +189,26 @@ index.html 依序載入（全部是一般 <script>，沒有模組）：
 | 作答後的各選項解析 | **直接顯示**／先收起來 |
 | 新卡出現時自動唸單字 | **唸**／不唸 |
 | 翻面時自動播放 | 不播／**單字**／單字＋例句 |
-| 語速 | 0.7／**0.85**／1.0／1.15 |
-| 語音 | **自動（偏好美式）**／瀏覽器提供的英文語音 |
+| 語速 | 0.5／0.6／**0.7**／0.8／0.9／1.0／1.15（v21 起預設從 0.85 改成 0.7；舊的 0.85 會自動改一次） |
+| 語音 | **自動挑最自然的**／裝置上的英文語音（依自然程度排序）；有「試聽」按鈕和怎麼安裝高音質語音的說明 |
 | 資料 | 匯出備份（JSON）、匯入備份、匯出 Anki TSV、清除全部進度 |
 
 ### 4.8 說明
 
 依使用者要求只有三段：翻面後四個按鈕的意思、兩個「已經會了」按鈕、電腦快捷鍵。不要自行增加段落。
+
+### 4.10 登入、申請與管理頁
+
+- 線上版（http／https）一開始整個網站是鎖住的（`<body class="is-locked">`，只顯示 `#gate`）：
+  - 未登入：「請先登入」＋「使用 Google 帳號登入」。
+  - 登入但沒有權限：顯示帳號、「申請使用權限」（並說明同意後管理員看得到學習狀況）、「換一個帳號」。
+  - 已申請：「等待管理員同意」，管理員同意後畫面自動進入，不用重新整理。
+  - 被拒絕或被撤銷：「申請沒有通過」。連不上伺服器且這台裝置沒核准過：「無法確認使用權限」＋再試一次。
+- 核准過的裝置會記住（`localStorage['toeic-gate-v1']`），下次開啟先放行再背景確認，離線照常可用；登出會清掉。
+- **管理頁**（「管理」分頁，只有管理員看得到；有待審核的申請時分頁上有紅點）：
+  - 待審核：同意／拒絕。使用中：撤銷。已拒絕：改為同意／刪除（刪除後對方可以重新申請）。
+  - 每個使用中的人顯示學習狀況：學過的字、練習題數、練習答對率、近 7 天有使用的天數；單字各狀態數量、各題型作答題數、最近 7 天的複習次數和練習題數、最近一次落點測驗、最後同步時間。資料是對方最後一次同步到雲端的內容，「重新整理」會重讀。
+- 本機直接開 `index.html`（`file://`）或沒有 `FIREBASE_CONFIG` 時不啟用，直接可用。
 
 ### 4.9 鍵盤快捷鍵
 
@@ -360,6 +377,22 @@ level, view          目前級別與檢視
 - 因為 `merge: true` 是深層合併，要「清掉」的欄位必須明確寫成 0（例如 `pri: 0`、`del: 0`），不能靠刪 key。
 - 未登入時一切照常，只存在本機；登入後自動合併。
 
+### 10.5 使用權限
+
+- Firestore 文件 `toeicAccess/{uid}`：`{ email, name, status: 'pending' | 'approved' | 'denied', requestedAt, decidedAt }`。
+- 規則（全文在 `README.md`；實際生效的那一份在 Firebase Console，管理員信箱只寫在那裡，**不放進這個公開的 repo**）：
+  - 只接受 Google 登入（`sign_in_provider == 'google.com'`）。
+  - `toeicAccess/{uid}`：本人可讀自己的、只能建立 `status: 'pending'` 且 email 等於登入帳號的申請；list／update／delete 只有管理員。
+  - `toeicCards/{uid}`（含 `log`）：本人且已核准（或是管理員）才能讀寫；管理員可以讀所有人的、不能寫別人的。
+- 前端判斷（`sync.js` 的 `checkAccess()`／`applyAccess()`）：
+  - 管理員：登入後試著向伺服器列出 `toeicAccess`（`get({ source: 'server' })`），成功就是管理員。程式裡沒有管理員信箱。
+  - 一般人：讀自己的 `toeicAccess/{uid}` → 沒有＝`none`、`pending`、`denied`、`approved`＝`ok`；並用 `onSnapshot` 監聽，狀態一變畫面就跟著變。
+  - 讀自己的申請單被拒（`permission-denied`）代表規則還沒更新 → `dormant`：登入就放行，設定頁顯示「審核還沒啟用」。這樣先上線程式、後更新規則也不會把人鎖在外面。
+  - 其他錯誤（離線）：這台裝置核准過（有 `toeic-gate-v1`）就放行，否則 `unavailable`。
+  - 沒通過時不啟動同步、不排隊上傳。
+- `Sync.gate()` 回傳 `{ on, state, admin, dormant, msg, reqs, user }`；`state`：`off`／`checking`／`nosdk`／`signed-out`／`none`／`pending`／`denied`／`unavailable`／`ok`。管理員另有 `Sync.decide(uid, status)`、`Sync.removeAccess(uid)`、`Sync.loadUser(uid)`。
+- **這是前端的門**：擋的是一般訪客。網站程式和題庫放在公開的 GitHub Pages（repo 也是公開的），懂技術的人仍然可以直接下載。伺服器真正把關的只有 Firestore 裡每個人的學習資料。要讓網站本身不公開，得搬到有存取控制的主機。
+
 ### 10.4 匯入匯出
 
 - 匯出備份：整份 `state` 的 JSON。匯入時覆蓋本機，並把所有欄位標記為要同步。
@@ -386,7 +419,7 @@ level, view          目前級別與檢視
 - **版面**：390px、320px 寬不可橫向捲動；桌機 1280px 正常。觸控目標夠大；手機寬度下練習頁不顯示鍵盤提示。
 - **離線與更新**：Service Worker 預先快取所有頁面檔與資料檔（題庫、小字典、aids 都在快取清單裡）；採 stale-while-revalidate。每次上線把 `sw.js` 的 `VERSION` 加一，新版啟用後頁面自動重新整理一次。
 - **效能**：首頁只載入單字資料；題庫、小字典、aids 用到才載入。
-- **語音**：Web Speech API；預設挑美式英文語音；瀏覽器規定第一次出聲前要有使用者點擊。沒有語音時隱藏聽力、落點測驗只測閱讀。
+- **語音**：Web Speech API，聲音是裝置內建的。自動挑選時給每個英文語音打分數（`app.js` 的 `voiceScore()`）：美式優先，Apple 的高級／增強語音、Edge 的線上自然語音、Android 的 neural 語音加分，趣味語音和 Eloquence 語音排最後；瀏覽器規定第一次出聲前要有使用者點擊。沒有語音時隱藏聽力、落點測驗只測閱讀。
 - **無障礙**：按鈕有 `aria-label`；選項有 `aria-pressed`；鍵盤可完成主要操作。
 - **隱私與安全**：repo 公開，不放任何密碼或 Token；Firebase 瀏覽器端金鑰本就公開並限制了 referrer；Firestore 規則限制只能存取自己的文件。
 - **語言**：繁體中文（台灣用語），英文內容以美式為準。

@@ -27,12 +27,17 @@
     phonetic: 'kk',
     practiceScope: 'learned',
     explain: 'show',               // 練習作答後的各選項解析：show 直接顯示／fold 先收起來
-    rate: '0.85',
+    rate: '0.7',                   // 語速（v21 起預設從 0.85 調慢成 0.7）
     voice: ''
   };
 
   // 舊設定相容：v18 起單字提示拿掉 IPA（使用者要求），存過 ipa 的一律改成 KK（另一台還沒更新的裝置同步過來也一樣）
-  function normSettings(st) { if (st.phonetic === 'ipa') st.phonetic = 'kk'; return st; }
+  //           v21 起語速預設調慢：舊的預設值 0.85 改成 0.7（只改一次，之後使用者自己選的不動）
+  function normSettings(st) {
+    if (st.phonetic === 'ipa') st.phonetic = 'kk';
+    if (!st.rateMig) { if (String(st.rate) === '0.85') st.rate = '0.7'; st.rateMig = 1; }
+    return st;
+  }
 
   var state = load();
   rebuildCustom();
@@ -260,12 +265,15 @@
     var sel = $('#voiceSelect');
     if (!sel) return;
     var keep = state.settings.voice;
-    sel.innerHTML = '<option value="">自動（偏好美式）</option>';
-    voices.filter(function (v) { return /^en/i.test(v.lang); }).forEach(function (v) {
-      var o = document.createElement('option');
-      o.value = v.name; o.textContent = v.name + '（' + v.lang + '）';
-      sel.appendChild(o);
-    });
+    var auto = bestVoice();
+    sel.innerHTML = '<option value="">自動挑最自然的' + (auto ? '（目前：' + esc(auto.name) + '）' : '') + '</option>';
+    voices.filter(function (v) { return voiceScore(v) > 1; })
+      .sort(function (a, b) { return voiceScore(b) - voiceScore(a); })
+      .forEach(function (v) {
+        var o = document.createElement('option');
+        o.value = v.name; o.textContent = v.name + '（' + v.lang + (voiceScore(v) >= 80 ? '・較自然' : '') + '）';
+        sel.appendChild(o);
+      });
     sel.value = keep;
     if (sel.value !== keep) sel.value = '';
   }
@@ -275,13 +283,31 @@
       var v = voices.filter(function (x) { return x.name === state.settings.voice; })[0];
       if (v) return v;
     }
-    var prefer = ['Google US English', 'Samantha', 'Aria', 'Jenny', 'Ava', 'Allison', 'Zira', 'Alex'];
-    for (var i = 0; i < prefer.length; i++) {
-      var hit = voices.filter(function (x) { return x.name.indexOf(prefer[i]) === 0 && /^en/i.test(x.lang); })[0];
-      if (hit) return hit;
-    }
-    return voices.filter(function (x) { return /en[-_]US/i.test(x.lang); })[0] ||
-           voices.filter(function (x) { return /^en/i.test(x.lang); })[0] || null;
+    return bestVoice();
+  }
+  /* 語音是裝置內建的，品質差很多。自動挑的時候給每個英文語音打分數，挑最自然的：
+     美式優先；Apple 的「高級／增強」語音（名稱或 voiceURI 有 premium、enhanced）、Edge 的線上自然語音（Natural）、
+     Android 的 neural 語音加分；Apple 的趣味語音（Albert、Bells…）和機械感很重的 Eloquence 語音（Eddy、Flo…）排最後。 */
+  var NOVELTY = /^(Albert|Bad News|Bahh|Bells|Boing|Bubbles|Cellos|Deranged|Good News|Hysterical|Jester|Organ|Pipe Organ|Superstar|Trinoids|Whisper|Wobble|Zarvox|Junior|Ralph|Fred|Kathy|Princess|Bruce|Agnes|Vicki|Victoria)\b/i;
+  var ELOQ = /^(Eddy|Flo|Grandma|Grandpa|Reed|Rocko|Sandy|Shelley)\b/;
+  function voiceScore(v) {
+    var n = v.name || '', id = n + ' ' + (v.voiceURI || ''), s = 2;
+    if (!/^en/i.test(v.lang || '')) return -1;
+    if (NOVELTY.test(n) || ELOQ.test(n) || /eloquence/i.test(id)) return 1;
+    if (/en[-_]US/i.test(v.lang)) s += 40; else if (/en[-_](GB|AU|CA)/i.test(v.lang)) s += 10;
+    if (/premium/i.test(id)) s += 60;
+    else if (/natural|neural/i.test(id)) s += 55;
+    else if (/enhanced/i.test(id)) s += 45;
+    else if (/siri/i.test(id)) s += 40;
+    else if (/^Google US English/.test(n)) s += 30;
+    else if (/compact/i.test(id)) s -= 1;
+    if (/^(Ava|Zoe|Evan|Samantha|Allison|Nathan|Joelle|Noelle|Aria|Jenny|Guy|Michelle)\b/.test(n)) s += 6;
+    return s;
+  }
+  function bestVoice() {
+    var best = null, bs = 0;
+    voices.forEach(function (v) { var sc = voiceScore(v); if (sc > bs) { bs = sc; best = v; } });
+    return best;
   }
   var speakingEl = null;
   function clearSpeaking() {
@@ -1140,8 +1166,12 @@
   }
   $('#view-settings').addEventListener('click', function (e) {
     if (e.target.id === 'signInBtn') Sync.signIn();
-    if (e.target.id === 'signOutBtn') { if (confirm('登出後這台裝置會保留目前進度，但不再同步。確定？')) Sync.signOut(); }
+    if (e.target.id === 'signOutBtn') {
+      var gated = Sync.gate && Sync.gate().on;
+      if (confirm(gated ? '登出後要重新登入才能使用這個網站（這台裝置的進度會保留）。確定？' : '登出後這台裝置會保留目前進度，但不再同步。確定？')) Sync.signOut();
+    }
     if (e.target.id === 'syncNowBtn') { Sync.flush(); toast('已送出'); }
+    if (e.target.id === 'voiceTestBtn') { lastGesture = Date.now(); speak('The manager announced a new vacation policy this morning.', e.target); }
   });
 
   // 給 js/practice.js 用的內部介面

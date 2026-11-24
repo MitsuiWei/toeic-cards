@@ -19,7 +19,12 @@
 <link rel="icon" href="favicon.ico" sizes="32x32">
 <link rel="icon" href="icons/icon.svg" type="image/svg+xml">
 </head>
-<body>
+<body class="is-locked">
+<script>/* 核准過的裝置（或本機直接開檔案）先解鎖，不用等登入程式載入；之後 js/gate.js 會再確認 */
+try { if ((location.protocol === 'file:' && !window.TOEIC_FORCE_GATE) || localStorage.getItem('toeic-gate-v1')) document.body.classList.remove('is-locked'); } catch (e) {}</script>
+
+<!-- 使用權限的遮罩（js/gate.js）：登入並經管理員同意後才會拿掉 is-locked -->
+<div id="gate" class="gate"><div class="gate-card"><p class="gate-brand">多益單字卡</p><p class="gate-text">載入中…</p></div></div>
 
 <div class="page">
   <!-- 左側級別側標（手機改為上方橫列） -->
@@ -48,6 +53,7 @@
       <button class="view-btn" data-view="stats">統計</button>
       <button class="view-btn" data-view="settings">設定</button>
       <button class="view-btn" data-view="help">說明</button>
+      <button class="view-btn" data-view="admin" id="adminTab" hidden>管理</button>
     </nav>
 
     <!-- ===== 學習 ===== -->
@@ -137,10 +143,13 @@
     </section>
 
     <!-- ===== 設定 ===== -->
+    <section class="view view-admin" id="view-admin"><div id="adminRoot"></div></section>
+
     <section class="view view-settings" id="view-settings">
       <form id="settingsForm" onsubmit="return false">
         <h2 class="stat-h">雲端同步</h2>
         <div id="syncBox"></div>
+        <div id="accessBox"></div>
 
         <h2 class="stat-h">學習</h2>
         <label class="row"><span>每天新字上限</span><input type="number" min="0" max="200" name="newPerDay"></label>
@@ -156,8 +165,13 @@
         <h2 class="stat-h">發音</h2>
         <label class="row"><span>新卡出現時自動唸單字</span><select name="speakOnShow"><option value="yes">唸</option><option value="no">不唸</option></select></label>
         <label class="row"><span>翻面時自動播放</span><select name="autoSpeak"><option value="none">不播</option><option value="word">單字</option><option value="both">單字＋例句</option></select></label>
-        <label class="row"><span>語速</span><select name="rate"><option value="0.7">0.7 慢</option><option value="0.85">0.85</option><option value="1">1.0 正常</option><option value="1.15">1.15 快</option></select></label>
-        <label class="row"><span>語音</span><select name="voice" id="voiceSelect"><option value="">自動（偏好美式）</option></select></label>
+        <label class="row"><span>語速</span><select name="rate"><option value="0.5">0.5 很慢</option><option value="0.6">0.6</option><option value="0.7">0.7 慢</option><option value="0.8">0.8</option><option value="0.9">0.9</option><option value="1">1.0 正常</option><option value="1.15">1.15 快</option></select></label>
+        <label class="row"><span>語音</span><select name="voice" id="voiceSelect"><option value="">自動挑最自然的</option></select></label>
+        <div class="voice-help"><button type="button" class="tool-btn" id="voiceTestBtn">試聽語速和語音</button>
+          <p class="note">聲音是這台裝置內建的語音，網站會自動挑最自然的一個。覺得太生硬的話可以多裝一個比較自然的聲音：<br>
+          <b>iPad／iPhone</b>：設定 → 輔助使用 → 語音內容（舊版叫「朗讀內容」）→ 聲音 → 英語，選 Ava、Zoe 或 Evan，下載音質較高的版本（檔案比較大的那個）。裝好後重新打開這個網站就會自動改用。<br>
+          <b>Mac</b>：系統設定 → 輔助使用 → 語音內容 → 系統聲音 → 管理聲音，一樣下載英語的高音質聲音。<br>
+          <b>Windows</b>：用 Edge 瀏覽器開這個網站，會有 Microsoft 的線上自然語音。</p></div>
         <p class="note">「新卡出現時自動唸」只在「看英文，想中文」時作用；剛打開網頁的第一張卡不會自動唸（瀏覽器規定要先有點擊才能出聲）。音標依美式發音標註，詞性不同唸法不同的字會分開列。</p>
         <p class="note">發音用的是瀏覽器內建的語音（Web Speech API），不同裝置聲音會不一樣。Chrome 的「Google US English」和 iPhone / Mac 的「Samantha」品質較好。</p>
 
@@ -215,6 +229,7 @@
 <script src="https://www.gstatic.com/firebasejs/10.14.1/firebase-firestore-compat.js"></script>
 <script src="js/firebase-config.js"></script>
 <script src="js/sync.js"></script>
+<script src="js/gate.js"></script>
 <script src="data/quiz_meta.js"></script>
 <script src="js/score.js"></script>
 <script src="js/practice.js"></script>

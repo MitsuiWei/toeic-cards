@@ -1024,3 +1024,45 @@ button.opt:hover:not(:disabled) { border-color: var(--ink); background: var(--pa
 .kw.is-now { background: #FFD666; box-shadow: 0 0 0 3px #FFD666; color: var(--ink); }
 @media (prefers-reduced-motion: reduce) { .kw { transition: none; } }
 @media (max-width: 720px) { .fb-en { font-size: 16px; } }
+
+/* ===== 使用權限：登入／申請的遮罩，和管理員的審核清單 ===== */
+.gate { display: none; }
+body.is-locked .page, body.is-locked .toast, body.is-locked .word-pop { display: none !important; }
+body.is-locked .gate { display: flex; min-height: 100vh; min-height: 100dvh; align-items: center; justify-content: center; padding: 24px 16px; box-sizing: border-box; }
+.gate-card { width: 100%; max-width: 420px; background: #fff; border: 2px solid var(--ink); border-radius: 22px; padding: 26px 22px 24px; display: flex; flex-direction: column; align-items: stretch; gap: 12px; text-align: center; box-sizing: border-box; }
+.gate-brand { margin: 0; font-size: 15px; font-weight: 700; color: var(--orange); letter-spacing: .08em; }
+.gate-card h1 { margin: 0; font-size: 24px; color: var(--ink); }
+.gate-text { margin: 0; font-size: 15px; line-height: 1.8; color: var(--text); text-align: left; }
+.gate-card .reveal { margin-top: 4px; }
+.gate-card .link-btn { align-self: center; }
+.gate-err { margin: 0; font-size: 14px; color: var(--again); }
+.gate-user { display: flex; align-items: center; gap: 12px; text-align: left; border: 1px dashed var(--rule); border-radius: 12px; padding: 10px 12px; min-width: 0; }
+.gate-user img { width: 40px; height: 40px; border-radius: 50%; flex: none; }
+.gate-user div { min-width: 0; }
+.gate-user b { display: block; color: var(--ink); line-height: 1.3; }
+.gate-user span { display: block; font-size: 13px; color: var(--muted); overflow-wrap: anywhere; }
+.view-btn.has-badge::before { content: ""; position: absolute; top: 6px; right: 2px; width: 9px; height: 9px; border-radius: 50%; background: var(--again); }
+.acc-badge { margin-left: 10px; font-size: 12px; font-weight: 700; color: #fff; background: var(--again); border-radius: 999px; padding: 2px 9px; vertical-align: middle; }
+.acc-list { display: flex; flex-direction: column; gap: 8px; }
+.acc-row { border: 1.5px solid var(--rule); border-radius: 14px; padding: 12px 14px; background: #fff; }
+.acc-head { display: flex; align-items: center; justify-content: space-between; gap: 10px; flex-wrap: wrap; }
+.adm-stats { margin-top: 10px; padding-top: 10px; border-top: 1px dashed var(--rule); }
+.adm-nums { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 8px; margin-bottom: 8px; }
+.adm-nums div { background: var(--orange-soft); border-radius: 10px; padding: 8px 6px; text-align: center; min-width: 0; }
+.adm-nums b { display: block; font-size: 20px; color: var(--ink); line-height: 1.2; }
+.adm-nums span { display: block; font-size: 12px; color: var(--muted); }
+.adm-line { margin: 0; font-size: 14px; line-height: 1.8; color: var(--text); }
+.adm-dim { color: var(--muted); font-size: 13px; }
+@media (max-width: 720px) { .adm-nums { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+.acc-row.is-pending { border-color: var(--orange); background: var(--orange-soft); }
+.acc-who { min-width: 0; flex: 1 1 180px; }
+.acc-who b { display: block; color: var(--ink); line-height: 1.3; }
+.acc-who span { display: block; font-size: 13px; color: var(--text); overflow-wrap: anywhere; }
+.acc-who small { display: block; font-size: 12px; color: var(--muted); margin-top: 2px; }
+.acc-btns { display: flex; gap: 8px; flex: none; }
+.acc-btns .tool-btn { padding: 6px 14px; }
+.acc-yes { background: var(--ink); color: #fff; border-color: var(--ink); }
+.voice-help { display: flex; flex-direction: column; align-items: flex-start; gap: 8px; margin: 2px 0 8px; }
+.voice-help .note { margin: 0; line-height: 1.8; }
+.voice-help .note b { color: var(--ink); }
+.gate-hint { margin: 0; font-size: 12px; line-height: 1.7; color: var(--muted); text-align: left; }

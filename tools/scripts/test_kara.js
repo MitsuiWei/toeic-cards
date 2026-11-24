@@ -15,7 +15,7 @@ const fakeSpeech = (withBoundary) => {
       setTimeout(() => fire('start'), 5);
       const words = []; const re = /\S+/g; let m; while ((m = re.exec(u.text))) words.push(m.index);
       if (withBoundary) words.forEach((c, i) => setTimeout(() => fire('boundary', { name: 'word', charIndex: c }), 10 + i * 60));
-      const total = withBoundary ? 10 + words.length * 60 + 40 : u.text.length * 75 / (u.rate || 1) + 300;
+      const total = withBoundary ? 10 + words.length * 60 + 40 : u.text.length * 45 / (u.rate || 1) + 300;
       setTimeout(() => { if (my === tok) { this.speaking = false; fire('end'); } }, total);
     } };
   Object.defineProperty(window, 'speechSynthesis', { value: fake, configurable: true });
@@ -35,9 +35,13 @@ const fakeSpeech = (withBoundary) => {
     await p.click('.tab[data-level="400"]'); await p.click('[data-view="practice"]'); await p.waitForTimeout(150);
     await p.click('[data-start="p5"]'); await p.waitForTimeout(500);
     // 第一題故意答錯（之後看錯題分析）
-    const it = await p.evaluate(() => { const q = document.querySelector('.prac-q'); return { ex: q.getAttribute('data-ex'), zh: q.getAttribute('data-zh') }; });
-    const right = await p.evaluate(() => { const ex = document.querySelector('.prac-q').getAttribute('data-ex'); const q = document.querySelector('.prac-q').textContent; const opts = [...document.querySelectorAll('.opts .opt .opt-t')].map(e => e.textContent); return opts.findIndex(o => ex.includes(o) && !q.includes(o)); });
-    await p.click('.opts .opt >> nth=' + ((right + 1) % 4)); await p.waitForTimeout(200);
+    let it = null;
+    for (let k = 0; k < 8; k++) {             // 一直選第一個選項，直到答錯一題（之後看錯題分析要有錯題）
+      it = await p.evaluate(() => { const q = document.querySelector('.prac-q'); return { ex: q.getAttribute('data-ex'), zh: q.getAttribute('data-zh') }; });
+      await p.click('.opts .opt >> nth=0'); await p.waitForTimeout(200);
+      if (await p.$('.fb.is-no')) break;
+      await p.click('.prac-next'); await p.waitForTimeout(200);
+    }
     need('sentence block', await p.$$eval('.fb .fb-sent', e => e.length) === 1);
     need('old button gone', await p.$$eval('.fb-say', e => e.length) === 0);
     const blk = await p.$eval('.fb-sent', e => ({ en: e.querySelector('.fb-en').textContent, zh: e.querySelector('.fb-zh').textContent, enTop: e.querySelector('.fb-en').getBoundingClientRect().top, zhTop: e.querySelector('.fb-zh').getBoundingClientRect().top, n: e.querySelectorAll('.kw').length, ans: [...e.querySelectorAll('.kw-ans')].map(x => x.textContent).join(' ') }));

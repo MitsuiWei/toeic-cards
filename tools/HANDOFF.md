@@ -27,7 +27,7 @@
 ## 2. 工作慣例
 
 - **先給使用者看畫面，他說「上線」才 commit / push。** 使用者自己沒有本機 repo，commit 和 push 都由這邊做。
-- 每次上線把 `sw.js` 的 `VERSION` 加一（目前 `toeic-cards-v20`），舊快取才會被換掉。上線後告訴使用者新的版本號和 commit。
+- 每次上線把 `sw.js` 的 `VERSION` 加一（目前 `toeic-cards-v21`），舊快取才會被換掉。上線後告訴使用者新的版本號和 commit。
 - commit 訊息最後要加兩行署名（系統會給當次該用的內容，照抄即可）。
 - 所有中文一律繁體、台灣用語；不可以出現簡體字。
 - 題目必須原創，不可抄多益官方或任何出版社的試題。
@@ -45,7 +45,7 @@
 ### 主機與服務（全部都在這裡，沒有其他）
 
 - **網站主機：只有 GitHub Pages**（repo `MitsuiWei/toeic-cards`，`main` 分支根目錄，公開 repo）。沒有自訂網域、沒有用 Hostinger 或其他虛擬主機、沒有後端伺服器。
-- **Firebase 專案 `project-ad1d2`**：只用 Authentication（Google 登入）和 Firestore（collection `toeicCards`）。這個專案同時給使用者另一個旅遊行程網站用（ChatGPT 幫他做的），Firestore 規則要兩邊並存，改規則時只能加 `toeicCards` 那一段，不要動別的。使用者的 Google 帳號 Cloud 專案額度已滿，不能另開專案。
+- **Firebase 專案 `project-ad1d2`**：只用 Authentication（Google 登入）和 Firestore（collection `toeicCards`、`toeicAccess`）。管理員信箱只寫在 Firebase Console 的規則裡，不要寫進 repo 的任何檔案（README 的規則用佔位字）。這個專案同時給使用者另一個旅遊行程網站用（ChatGPT 幫他做的），Firestore 規則要兩邊並存，改規則時只能加 `toeicCards` 那一段，不要動別的。使用者的 Google 帳號 Cloud 專案額度已滿，不能另開專案。
 - Firebase 端已經設定好的：Google 登入已啟用、Authorized domains 有 `mitsuiwei.github.io`、Firestore 規則見 `README.md` 的「Firebase 設定」、瀏覽器端 API 金鑰限制了 HTTP referrer。這些都在使用者的 Firebase Console，這邊改不到，要改就給他步驟。
 - 沙盒的限制：連不到 `mitsuiwei.github.io` 和 Firebase（所以線上版和跨裝置同步要請使用者自己驗），`gh api` 查 Pages 建置狀態會被擋；`git push` 可以。
 
@@ -66,6 +66,7 @@
 | v18 | `09facad` | 11/19 | 單字提示拿掉 IPA，只留 KK／自然發音／字根字首（＋不顯示） |
 | v19 | `be0db1b` | 11/22 | 單字填空作答後：英文句子在上、中文在下，點了唸英文並逐字標示 |
 | v20 | `09f0033` | 11/23 | 單字填空加入文法題 200 題（每級 50），每回固定 2 題；錯題分析多 5 個文法分類 |
+| v21 | （見 git log） | 11/24 | 登入＋管理員同意才能用、管理頁（審核、每個人的學習狀況）；自動挑較自然的語音、語速預設調慢、試聽 |
 
 ### 使用者做過的選擇（改功能前先看，不要改回去）
 
@@ -73,6 +74,8 @@
 - 點字：點一下只顯示意思，要按「存起來」才存（v12 原本點一下就存，他要求改掉）。
 - 各選項解析的深度：「意思＋常考用法＋為什麼錯」，再加一行「解題關鍵」；三種題型都要；設定可選「直接顯示／先收起來」。
 - 落點測驗：測驗＋平常練習都估分；自動調難度、約 40 題；結果要有總分區間、聽力閱讀分開、各題型答對率和弱點、建議級別。
+- 使用權限：只能用 Google 登入，登入後要申請、管理員（他本人）同意才能用；要有獨立的管理頁，能審核、也能看每個人的學習狀況。這一批他說「交給你，我不接手，完成跟我說」，所以沒有等「上線」就直接推了。
+- 語音：他覺得唸得生硬、語速太快 → 自動挑較自然的語音、預設語速 0.7。
 - 文法題：他發現題庫只有單字題和詞性題，要求補真實考試會考的文法題；選了每級 50 題共 200 題。單字填空解析要「英文在上、中文在下，點了唸英文並逐字標示」。
 - 單字提示：一次只顯示一種（他覺得多了畫面會亂），在設定選；只要 KK、自然發音、字根字首（IPA 他要求拿掉；「不顯示」保留）；預設 KK；字根字首翻面後才顯示；沒有拆解的字退回 KK 加小字；點那一行可以臨時換下一種。
 
@@ -195,6 +198,8 @@ node /home/claude/scripts/test_prac3.js 400     練習三種題型（可換級�
 node /home/claude/scripts/test_wrong.js         統計點進去看單字、錯題分析、重做錯題
 node /home/claude/scripts/test_tap.js           點字查意思、按「存起來」才存、自選分頁、同步合併（含 320 寬）
 node /home/claude/scripts/test_notes.js 400     各選項解析、「先收起來」設定、錯題分析裡的解析（可換級別）
+node /home/claude/scripts/test_gate.js          使用權限全流程（用假的 Firebase `fake_firebase.js`＋本機 http 伺服器）：登入、申請、同意後自動進入、撤銷、管理頁與學習狀況、舊規則時放行、離線
+node /home/claude/scripts/test_voice.js         語音挑選（各平台的語音清單）、試聽、語速預設與舊值轉換
 node /home/claude/scripts/test_gram.js 400      文法題：每回固定 2 題（兩種出題範圍）、標籤、解析、沒有單字列、錯題分析的文法分類（可換級別）
 node /home/claude/scripts/test_kara.js          單字填空作答後的句子：英文在上中文在下、點了唸英文、逐字標示（有／沒有 boundary 事件）、錯題分析
 node /home/claude/scripts/test_aids.js          單字卡提示行：自然發音、字根字首（翻面前不顯示）、退回 KK、點一下切換、看中文想英文

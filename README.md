@@ -18,7 +18,8 @@
 - **多益落點測驗**：約 40 題、15 分鐘（聽力 15、單字填空 16、短文 3 篇），題目依答對答錯自動調整難度，做完給估計總分區間、聽力／閱讀分開的分數、各題型答對率與弱點，並建議該練哪一級；統計頁另外依平常練習持續估分。用的是 3PL 試題反應理論，難度是依題目級別假設的，沒有用真實考生校正，只能當粗估
 - **錯題分析**：練習頁裡，統計哪一類題型最常錯（單字題／詞性題、閱讀的主旨／細節／推論／NOT／字義題、聽力的各種問句），列出每一題錯題、你選的和正確答案，並可以只重做錯題
 - **點字查意思、存單字**：練習題的題目、短文、聽力原文裡，每個英文字都可以點。點了會顯示音標和中文意思；想背的話再按小卡上的「存起來」：字表裡還沒學的字會排到該級別新字的最前面；字表以外的字進「自選」分頁，例句就是點它的那一句，之後和其他單字卡一樣排程複習
-- **雲端同步**：用 Google 帳號登入後，iPad、手機、電腦的進度互相同步（Firebase Firestore，免費方案夠用）；沒登入也能用，只存本機
+- **登入與使用權限**：要用 Google 帳號登入，並經管理員同意才能使用（第一次登入送出申請）；管理員有「管理」分頁可以審核申請、看每個人的學習狀況。本機直接開 `index.html` 不需要登入
+- **雲端同步**：登入後，iPad、手機、電腦的進度互相同步（Firebase Firestore，免費方案夠用）
 - **備份**：匯出 / 匯入 JSON；也能匯出成 Anki 可匯入的 TSV
 - **鍵盤**：空白鍵翻面（翻面後再按一次 = 良好）、1–4 評分、P 唸單字、S 唸例句、Z 復原；練習頁用 1–4 或 A–D 作答、Enter 下一題、R 重聽
 
@@ -31,7 +32,8 @@ js/srs.js         排程演算法（純函式，可單獨測試）
 js/app.js         介面與狀態
 js/practice.js    練習頁（單字填空 / 短文閱讀 / 聽力應答、錯題分析、落點測驗）
 js/score.js       落點分數估計（3PL 試題反應理論，純計算）
-js/sync.js        雲端同步（Firebase Auth + Firestore）
+js/sync.js        雲端同步與使用權限的判斷（Firebase Auth + Firestore）
+js/gate.js        使用權限的畫面：登入／申請／等待的遮罩、管理員的「管理」分頁
 js/firebase-config.js  Firebase 專案設定；改成 null 就關閉同步
 data/words.js     1000 個單字（從 PDF 抽出，已修正原表的 3 個錯字），含 KK / IPA 音標
 data/quiz_*.js    練習題庫（p5 / read / listen，進到練習頁才載入）與各級題數（meta）
@@ -48,23 +50,56 @@ manifest.webmanifest, icons/   加到手機主畫面用
 1. Firebase Console → 專案 → **Authentication → Sign-in method** → 啟用 Google
 2. **Authentication → Settings → Authorized domains** → 新增 `你的帳號.github.io`（本機測試用 `localhost` 已預設在裡面）
 3. **Firestore Database** → 若還沒建，建立資料庫（asia-east1、production mode）
-4. **Firestore → 規則** 貼上下面這段並發布（只動 `toeicCards` 這個 collection，不影響同專案其他資料）：
+4. **Firestore → 規則** 貼上下面這段並發布（只動 `toeicCards`、`toeicAccess` 這兩個 collection，不影響同專案其他資料）。把 `你的管理員信箱@gmail.com` 換成管理員的 Google 帳號：
 
 ```
 rules_version = '2';
 service cloud.firestore {
   match /databases/{database}/documents {
+
+    // ===== 多益單字卡（toeic-cards）開始 =====
+    function toeicIsGoogle() {
+      return request.auth != null && request.auth.token.firebase.sign_in_provider == 'google.com';
+    }
+    function toeicIsAdmin() {
+      return toeicIsGoogle()
+        && request.auth.token.email == '你的管理員信箱@gmail.com'
+        && request.auth.token.email_verified == true;
+    }
+    function toeicIsApproved() {
+      return toeicIsAdmin() || (toeicIsGoogle()
+        && exists(/databases/$(database)/documents/toeicAccess/$(request.auth.uid))
+        && get(/databases/$(database)/documents/toeicAccess/$(request.auth.uid)).data.status == 'approved');
+    }
+    // 使用權限申請：自己只能讀自己的、只能建立「待審核」的申請；同意、拒絕、刪除只有管理員能做
+    match /toeicAccess/{uid} {
+      allow get: if toeicIsAdmin() || (toeicIsGoogle() && request.auth.uid == uid);
+      allow list, update, delete: if toeicIsAdmin();
+      allow create: if toeicIsAdmin() || (toeicIsGoogle() && request.auth.uid == uid
+        && request.resource.data.keys().hasOnly(['email', 'name', 'status', 'requestedAt'])
+        && request.resource.data.status == 'pending'
+        && request.resource.data.email == request.auth.token.email);
+    }
+    // 學習資料：核准的人讀寫自己的；管理員可以讀每個人的（管理頁的學習狀況），不能改別人的
     match /toeicCards/{uid} {
-      allow read, write: if request.auth != null && request.auth.uid == uid;
+      allow read: if toeicIsAdmin() || (toeicIsGoogle() && request.auth.uid == uid && toeicIsApproved());
+      allow write: if toeicIsGoogle() && request.auth.uid == uid && toeicIsApproved();
       match /log/{month} {
-        allow read, write: if request.auth != null && request.auth.uid == uid;
+        allow read: if toeicIsAdmin() || (toeicIsGoogle() && request.auth.uid == uid && toeicIsApproved());
+        allow write: if toeicIsGoogle() && request.auth.uid == uid && toeicIsApproved();
       }
     }
+    // ===== 多益單字卡（toeic-cards）結束 =====
+
   }
 }
 ```
 
-如果原本的規則裡已經有別的 `match`，把 `match /toeicCards/{uid} { ... }` 整段加進 `documents` 裡面就好。
+如果原本的規則裡已經有別的 `match`，只要把「多益單字卡 開始」到「結束」這一段放進 `documents` 裡面（取代舊的 `match /toeicCards/{uid} { ... }`），其他的不要動。
+
+**使用權限**：網站要用 Google 帳號登入，第一次登入要按「申請使用權限」，管理員在「管理」分頁同意後才能使用；管理員也在那一頁看每個人的學習狀況。誰是管理員只寫在上面的規則裡（規則放在 Firebase Console，不在這個公開的 repo）。規則還沒換成這一版之前，審核不會生效（登入就能用），網站的設定頁會顯示「使用權限審核還沒啟用」。
+
+請注意這道門擋的是一般訪客：網站程式和題庫放在公開的 GitHub Pages，懂技術的人仍然可以直接下載檔案。由伺服器真正把關的是 Firestore 裡每個人的學習資料。要連網站本身都不公開，得改放到有存取控制的主機（例如私人 repo 加 Cloudflare Access）。
 
 資料放在 `toeicCards/{使用者uid}`（卡片進度、設定、練習成績、自選單字）和 `toeicCards/{uid}/log/{年-月}`（複習紀錄）。兩台裝置同時改到同一張卡時，以最後操作時間較新的為準。
 
@@ -90,9 +125,9 @@ git push -u origin main
 
 ## 注意
 
-- 沒登入時進度只存在這台裝置的瀏覽器；登入 Google 後才會跨裝置同步
+- 線上版要登入並經管理員同意才能用；核准過的裝置離線時照常可用。登出後這台裝置的進度還在，但要重新登入才能使用
 - iPhone／iPad 加到主畫面的版本，登入視窗有時跳不回 app；遇到就先在 Safari 開網址登入並使用，或直接用 Safari 不加主畫面
-- 發音品質看裝置：Chrome 選「Google US English」、iPhone / Mac 選「Samantha」會比較自然。iOS Safari 要先點過頁面一次，語音才會出聲
+- 發音品質看裝置：網站會自動挑裝置上最自然的英文語音。iPhone／iPad／Mac 可以到系統的「輔助使用 → 語音內容 → 聲音」下載英語的高音質聲音（Ava、Zoe、Evan），Windows 用 Edge 有線上自然語音；設定頁有「試聽」。iOS Safari 要先點過頁面一次，語音才會出聲
 - 字型用 Google Fonts 的 Noto Sans TC，沒網路時會退回系統字型，功能不受影響
 
 ## 資料來源

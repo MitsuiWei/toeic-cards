@@ -10,11 +10,23 @@
  * 資料位置（collection 名稱刻意獨立，不碰同一專案裡其他 app 的資料）：
  *   toeicCards/{uid}                { recs, settings, settingsUpdated, daily, practice, pday, custom, place, placeCleared, updated }
  *   toeicCards/{uid}/log/{YYYY-MM}  { e: [{t, id, r, s}, ...] }
+ *   toeicAccess/{uid}               { email, name, status: pending|approved|denied, requestedAt, decidedAt }   使用權限申請
+ *
+ * 使用權限（gate）：網站要用 Google 帳號登入，而且管理員同意後才能用。
+ *  - 誰是管理員寫在 Firestore 安全規則裡（規則在 Firebase Console，不在這個公開的 repo），程式裡沒有管理員的信箱：
+ *    登入後試著列出 toeicAccess，規則允許（＝管理員）就是管理員。
+ *  - 一般使用者：讀自己的 toeicAccess/{uid}。沒有 → 可以送出申請（status: pending）；approved → 放行；其他 → 等待或被拒。
+ *  - 規則還沒更新時讀自己的申請單會被拒（permission-denied）→ 視為「審核尚未啟用」（dormant），登入就放行，不會把人鎖在外面。
+ *  - 核准過的裝置把結果記在 localStorage（toeic-gate-v1），下次開啟先放行再背景確認，離線也能用。
+ *  - file:// 直接開啟、或沒有 FIREBASE_CONFIG 時不啟用（本機開發與測試）；測試可設 window.TOEIC_FORCE_GATE = true。
+ *  - 管理員可以讀每個人的 toeicCards/{uid}（管理頁的學習狀況），但不能改。
+ *  注意：這是前端的門，擋的是一般訪客；網站程式和題庫本身放在公開的 GitHub Pages，懂技術的人仍然拿得到。
+ *  真正由伺服器把關的只有 Firestore 裡的雲端資料（見 README 的安全規則）。
  */
 (function (global) {
   'use strict';
 
-  var COLL = 'toeicCards';
+  var COLL = 'toeicCards', ACC = 'toeicAccess', GATE_KEY = 'toeic-gate-v1';
   var app = null, auth = null, db = null, user = null;
   var hooks = null;           // { getState, mergeRemote(remote) -> {localWinIds, changed}, render, toast, clearPending }
   var unsubDoc = null, unsubLog = null;
@@ -22,6 +34,15 @@
   var lastSync = 0, status = 'off';   // off | ready | signed-out | syncing | synced | error
   var statusMsg = '';
   var listeners = [];
+  var started = false, unsubAcc = null, unsubReqs = null;
+
+  function gateEnabled() { return !!global.FIREBASE_CONFIG && (location.protocol !== 'file:' || !!global.TOEIC_FORCE_GATE); }
+  function gateCache() { try { return JSON.parse(localStorage.getItem(GATE_KEY) || 'null'); } catch (e) { return null; } }
+  function setGateCache(v) { try { if (v) localStorage.setItem(GATE_KEY, JSON.stringify(v)); else localStorage.removeItem(GATE_KEY); } catch (e) {} }
+  // state：off 不啟用｜checking 確認中｜nosdk 登入程式庫沒載入｜signed-out｜none 還沒申請｜pending｜denied｜unavailable 連不上｜ok 可以用
+  var gate = { on: gateEnabled(), state: 'off', admin: false, dormant: false, msg: '', reqs: [] };
+  gate.state = gate.on ? (gateCache() ? 'ok' : 'checking') : 'off';
+  function setGate(st, msg) { gate.state = st; gate.msg = msg || ''; listeners.forEach(function (f) { try { f(); } catch (e) {} }); }
 
   function monthKey(t) { var d = new Date(t); return d.getFullYear() + '-' + (d.getMonth() < 9 ? '0' : '') + (d.getMonth() + 1); }
   function setStatus(s, msg) { status = s; statusMsg = msg || ''; listeners.forEach(function (f) { try { f(); } catch (e) {} }); }
@@ -32,7 +53,11 @@
 
   function init(h) {
     hooks = h;
-    if (!available()) { setStatus('off', global.FIREBASE_CONFIG ? '同步程式庫沒載入（可能沒有網路）' : '未設定'); return; }
+    if (!available()) {
+      setStatus('off', global.FIREBASE_CONFIG ? '同步程式庫沒載入（可能沒有網路）' : '未設定');
+      if (gate.on) setGate(gateCache() ? 'ok' : 'nosdk');      // 之前核准過的裝置，離線時照常使用
+      return;
+    }
     try {
       app = firebase.apps.length ? firebase.app() : firebase.initializeApp(global.FIREBASE_CONFIG);
       auth = firebase.auth();
@@ -43,9 +68,108 @@
     auth.getRedirectResult().catch(function (e) { if (e && e.code !== 'auth/no-auth-event') setStatus('signed-out', '登入失敗：' + friendly(e)); });
     auth.onAuthStateChanged(function (u) {
       user = u || null;
-      stopListening();
-      if (user) start(); else setStatus('signed-out');
+      stopListening(); stopAccess(); started = false;
+      if (!user) {
+        gate.admin = false; gate.dormant = false; gate.reqs = [];
+        if (gate.on) { setGateCache(null); gate.state = 'signed-out'; }
+        setStatus('signed-out');
+        return;
+      }
+      if (!gate.on) { startOnce(); return; }
+      var c = gateCache();
+      if (c && c.uid === user.uid) { gate.admin = !!c.admin; gate.state = 'ok'; startOnce(); }   // 先放行，背景再確認
+      else { setGateCache(null); gate.state = 'checking'; setStatus('ready'); }
+      checkAccess();
     });
+  }
+  function startOnce() { if (!started) { started = true; start(); } }
+
+  /* ---------- 使用權限 ---------- */
+  function accRef() { return db.collection(ACC).doc(user.uid); }
+  function stopAccess() {
+    if (unsubAcc) { unsubAcc(); unsubAcc = null; }
+    if (unsubReqs) { unsubReqs(); unsubReqs = null; }
+  }
+  function checkAccess() {
+    if (!user || !gate.on) return;
+    var uid = user.uid;
+    var own = accRef().get().then(function (s) { return { snap: s }; }, function (e) { return { err: e }; });
+    // 管理員才列得出申請單。一定要問伺服器（離線快取會回空結果，不能當成「列得出來」）
+    var probe = db.collection(ACC).limit(1).get({ source: 'server' }).then(function () { return 'yes'; },
+      function (e) { return e && e.code === 'permission-denied' ? 'no' : 'unknown'; });
+    Promise.all([own, probe]).then(function (r) {
+      if (!user || user.uid !== uid) return;
+      var c = gateCache();
+      var admin = r[1] === 'yes' || (r[1] === 'unknown' && !!(c && c.uid === uid && c.admin));
+      applyAccess(r[0], admin);
+      if (!gate.dormant && !unsubAcc) {
+        // 管理員同意或撤銷時，這個畫面會自己更新
+        unsubAcc = accRef().onSnapshot(function (s) {
+          if (!user || user.uid !== uid || (s.metadata.fromCache && !s.exists)) return;
+          applyAccess({ snap: s }, gate.admin);
+        }, function () {});
+      }
+    });
+  }
+  function applyAccess(own, admin) {
+    var st;
+    gate.admin = admin; gate.dormant = false;
+    if (admin) st = 'ok';
+    else if (own.err) {
+      if (own.err.code === 'permission-denied') { gate.dormant = true; st = 'ok'; }     // 規則還沒更新：審核尚未啟用
+      else st = gateCache() ? 'ok' : 'unavailable';
+    } else if (!own.snap.exists) st = 'none';
+    else { var v = own.snap.data().status; st = v === 'approved' ? 'ok' : v === 'denied' ? 'denied' : 'pending'; }
+    if (st === 'ok') {
+      setGateCache({ uid: user.uid, admin: admin, t: Date.now() });
+      if (admin && !unsubReqs) watchRequests();
+      setGate('ok');
+      startOnce();
+    } else {
+      if (st !== 'unavailable') setGateCache(null);
+      stopListening(); started = false; queue = null;
+      status = 'ready'; statusMsg = '';
+      setGate(st, st === 'unavailable' ? friendly(own.err) : '');
+    }
+  }
+  function requestAccess() {
+    if (!user || !db) return;
+    accRef().set({ email: user.email || '', name: user.displayName || '', status: 'pending',
+                   requestedAt: firebase.firestore.FieldValue.serverTimestamp() })
+      .then(function () { if (gate.state === 'none') setGate('pending'); })
+      .catch(function (e) { setGate(gate.state, '送出失敗：' + friendly(e)); });
+  }
+  function watchRequests() {
+    unsubReqs = db.collection(ACC).onSnapshot(function (qs) {
+      var a = [];
+      qs.forEach(function (d) {
+        var x = d.data(), t = x.requestedAt && x.requestedAt.toMillis ? x.requestedAt.toMillis() : 0;
+        a.push({ uid: d.id, email: x.email || '', name: x.name || '', status: x.status || 'pending', t: t });
+      });
+      a.sort(function (p, q) { return (p.status === 'pending' ? 0 : 1) - (q.status === 'pending' ? 0 : 1) || q.t - p.t; });
+      gate.reqs = a;
+      setGate(gate.state, gate.msg);
+    }, function () {});
+  }
+  function decide(uid, st) {
+    if (!gate.admin || !db) return Promise.resolve();
+    return db.collection(ACC).doc(uid).update({ status: st, decidedAt: firebase.firestore.FieldValue.serverTimestamp() })
+      .catch(function (e) { hooks.toast('更新失敗：' + friendly(e)); });
+  }
+  /* 管理員看某個人的學習狀況：讀對方的 toeicCards/{uid} 和最近兩個月的複習紀錄（規則只允許管理員讀別人的） */
+  function loadUser(uid) {
+    if (!gate.admin || !db) return Promise.reject(new Error('not admin'));
+    var ref = db.collection(COLL).doc(uid), now = Date.now(), d = new Date(now);
+    var prev = monthKey(new Date(d.getFullYear(), d.getMonth() - 1, 1).getTime());
+    return Promise.all([ref.get(), ref.collection('log').doc(monthKey(now)).get(), ref.collection('log').doc(prev).get()]).then(function (r) {
+      var data = r[0].exists ? r[0].data() : null, log = [];
+      [r[1], r[2]].forEach(function (s) { if (s.exists) (s.data().e || []).forEach(function (o) { log.push(o.t); }); });
+      return { data: data, log: log, updated: data && data.updated && data.updated.toMillis ? data.updated.toMillis() : 0 };
+    });
+  }
+  function removeAccess(uid) {
+    if (!gate.admin || !db) return Promise.resolve();
+    return db.collection(ACC).doc(uid).delete().catch(function (e) { hooks.toast('刪除失敗：' + friendly(e)); });
   }
 
   function friendly(e) {
@@ -73,6 +197,7 @@
   function signOut() {
     if (!auth) return;
     flushNow();
+    setGateCache(null);
     auth.signOut();
   }
 
@@ -148,7 +273,7 @@
 
   /* app 每次 save() 呼叫：累積變更，1.5 秒後一次推 */
   function noteChange(ch) {
-    if (!user || status === 'off') return;
+    if (!user || status === 'off' || (gate.on && gate.state !== 'ok')) return;
     queue = queue || { ids: {}, settings: false, daily: false, log: [], practice: {}, pdays: {}, custom: {}, place: {}, placeCleared: false };
     (ch.ids || []).forEach(function (id) { queue.ids[id] = true; });
     if (ch.settings) queue.settings = true;
@@ -212,6 +337,9 @@
     noteChange: noteChange,
     flush: flushNow,
     onStatus: function (f) { listeners.push(f); },
+    gate: function () { return { on: gate.on, state: gate.state, admin: gate.admin, dormant: gate.dormant, msg: gate.msg, reqs: gate.reqs,
+                                 user: user ? { name: user.displayName, email: user.email, photo: user.photoURL } : null }; },
+    requestAccess: requestAccess, decide: decide, removeAccess: removeAccess, recheck: checkAccess, loadUser: loadUser,
     info: function () {
       return { status: status, msg: statusMsg, user: user ? { name: user.displayName, email: user.email, photo: user.photoURL } : null, lastSync: lastSync };
     }

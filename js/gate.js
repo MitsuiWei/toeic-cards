@@ -15,15 +15,15 @@
     var err = g.msg || (g.state === 'signed-out' ? info.msg : '');
     var h = '<div class="gate-card"><p class="gate-brand">多益單字卡</p>';
     if (g.state === 'checking') h += '<p class="gate-text">確認登入狀態中…</p>';
-    else if (g.state === 'nosdk') h += '<h1>連不上登入服務</h1><p class="gate-text">這個網站要先登入才能使用，但登入用的程式沒有載入（可能沒有網路）。請連上網路後重新整理。</p>' +
+    else if (g.state === 'nosdk') h += '<h1>連不上登入服務</h1><p class="gate-text">請連上網路後重新整理</p>' +
       '<button type="button" class="reveal" data-gate="reload">重新整理</button>';
     else if (g.state === 'signed-out') h += '<h1>請先登入</h1>' +
       '<button type="button" class="reveal" data-gate="signin">使用 Google 帳號登入</button>';
     else if (g.state === 'none') h += '<h1>申請使用權限</h1>' + who(g.user) +
       '<button type="button" class="reveal" data-gate="request">申請使用權限</button>' + SWITCH;
-    else if (g.state === 'pending') h += '<h1>等待管理員同意</h1>' + who(g.user) + '<p class="gate-text">申請已經送出。管理員同意後，這個畫面會自動進入網站，不用重新整理。</p>' + SWITCH;
-    else if (g.state === 'denied') h += '<h1>申請沒有通過</h1>' + who(g.user) + '<p class="gate-text">這個帳號目前不能使用這個網站。如果覺得有誤，請直接聯絡管理員。</p>' + SWITCH;
-    else if (g.state === 'unavailable') h += '<h1>無法確認使用權限</h1>' + who(g.user) + '<p class="gate-text">目前連不上伺服器，沒辦法確認這個帳號的使用權限。請確認網路後再試一次。</p>' +
+    else if (g.state === 'pending') h += '<h1>等待管理員同意</h1>' + who(g.user) + '<p class="gate-text">申請已經送出。等待管理員同意。</p>' + SWITCH;
+    else if (g.state === 'denied') h += '<h1>申請沒有通過</h1>' + who(g.user) + SWITCH;
+    else if (g.state === 'unavailable') h += '<h1>無法確認使用權限</h1>' + who(g.user) + '<p class="gate-text">權限不足</p>' +
       '<button type="button" class="reveal" data-gate="retry">再試一次</button>' + SWITCH;
     if (err) h += '<p class="gate-err">' + esc(err) + '</p>';
     return h + '</div>';

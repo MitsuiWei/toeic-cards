@@ -45,7 +45,7 @@
 ### 主機與服務（全部都在這裡，沒有其他）
 
 - **網站主機：只有 GitHub Pages**（repo `MitsuiWei/toeic-cards`，`main` 分支根目錄，公開 repo）。沒有自訂網域、沒有用 Hostinger 或其他虛擬主機、沒有後端伺服器。
-- **Firebase 專案 `project-ad1d2`**：只用 Authentication（Google 登入）和 Firestore（collection `toeicCards`、`toeicAccess`）。管理員信箱只寫在 Firebase Console 的規則裡，不要寫進 repo 的任何檔案（README 的規則用佔位字）。這個專案同時給使用者另一個旅遊行程網站用（ChatGPT 幫他做的），Firestore 規則要兩邊並存，改規則時只能加 `toeicCards` 那一段，不要動別的。使用者的 Google 帳號 Cloud 專案額度已滿，不能另開專案。
+- **Firebase 專案 `project-ad1d2`**：只用 Authentication（Google 登入）和 Firestore（collection `toeicCards`、`toeicAccess`）。管理員信箱只寫在 Firebase Console 的規則裡，不要寫進 repo 的任何檔案（README 的規則用佔位字）。v21 的規則已在 2026-11-24 發布（只換掉 `toeicCards` 那一段、新增 `toeicAccess`；旅遊行程的 `sharedTrips`、`users/{userId}/trips` 兩段沒動）。發布後用未登入的 REST 請求確認過：`toeicAccess`、`toeicCards` 回 403，`sharedTrips` 照常 200。Console 的規則頁網址是 `…/firestore/databases/-default-/security/rules`，左側有歷史版本可以還原。這個專案同時給使用者另一個旅遊行程網站用（ChatGPT 幫他做的），Firestore 規則要兩邊並存，改規則時只能加 `toeicCards` 那一段，不要動別的。使用者的 Google 帳號 Cloud 專案額度已滿，不能另開專案。
 - Firebase 端已經設定好的：Google 登入已啟用、Authorized domains 有 `mitsuiwei.github.io`、Firestore 規則見 `README.md` 的「Firebase 設定」、瀏覽器端 API 金鑰限制了 HTTP referrer。這些都在使用者的 Firebase Console，這邊改不到，要改就給他步驟。
 - 沙盒的限制：連不到 `mitsuiwei.github.io` 和 Firebase（所以線上版和跨裝置同步要請使用者自己驗），`gh api` 查 Pages 建置狀態會被擋；`git push` 可以。
 

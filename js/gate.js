@@ -17,10 +17,9 @@
     if (g.state === 'checking') h += '<p class="gate-text">確認登入狀態中…</p>';
     else if (g.state === 'nosdk') h += '<h1>連不上登入服務</h1><p class="gate-text">這個網站要先登入才能使用，但登入用的程式沒有載入（可能沒有網路）。請連上網路後重新整理。</p>' +
       '<button type="button" class="reveal" data-gate="reload">重新整理</button>';
-    else if (g.state === 'signed-out') h += '<h1>請先登入</h1><p class="gate-text">這個網站只開放給經過管理員同意的人使用。請用 Google 帳號登入；第一次登入後可以送出使用申請。</p>' +
-      '<button type="button" class="reveal" data-gate="signin">使用 Google 帳號登入</button>' +
-      '<p class="gate-hint">iPhone／iPad 如果是從主畫面的圖示打開、登入視窗跳不回來，請改用 Safari 開這個網址登入。</p>';
-    else if (g.state === 'none') h += '<h1>申請使用權限</h1>' + who(g.user) + '<p class="gate-text">這個帳號還沒有使用權限。送出申請後，等管理員同意就可以使用。同意之後，管理員看得到你的學習狀況（背了多少字、練習成績）。</p>' +
+    else if (g.state === 'signed-out') h += '<h1>請先登入</h1>' +
+      '<button type="button" class="reveal" data-gate="signin">使用 Google 帳號登入</button>';
+    else if (g.state === 'none') h += '<h1>申請使用權限</h1>' + who(g.user) +
       '<button type="button" class="reveal" data-gate="request">申請使用權限</button>' + SWITCH;
     else if (g.state === 'pending') h += '<h1>等待管理員同意</h1>' + who(g.user) + '<p class="gate-text">申請已經送出。管理員同意後，這個畫面會自動進入網站，不用重新整理。</p>' + SWITCH;
     else if (g.state === 'denied') h += '<h1>申請沒有通過</h1>' + who(g.user) + '<p class="gate-text">這個帳號目前不能使用這個網站。如果覺得有誤，請直接聯絡管理員。</p>' + SWITCH;
@@ -101,15 +100,14 @@
     if (!g.admin) return '<p class="note">這一頁只有管理員可以使用。</p>';
     var by = { pending: [], approved: [], denied: [] };
     g.reqs.forEach(function (r) { (by[r.status] || by.pending).push(r); });
-    var h = '<div class="prac-top"><b>管理</b><span>使用權限與學習狀況</span><button type="button" class="link-btn" data-adm="reload">重新整理</button></div>';
+    var h = '<div class="prac-top"><b>管理</b><span></span><button type="button" class="link-btn" data-adm="reload">重新整理</button></div>';
     h += '<h2 class="stat-h">待審核' + (by.pending.length ? '<span class="acc-badge">' + by.pending.length + '</span>' : '') + '</h2>';
     h += by.pending.length ? '<div class="acc-list">' + by.pending.map(userCard).join('') + '</div>'
       : '<p class="note">目前沒有新的申請。別人用 Google 帳號登入並按「申請使用權限」後，會出現在這裡。</p>';
     h += '<h2 class="stat-h">使用中（' + by.approved.length + ' 人）</h2>';
-    h += by.approved.length ? '<div class="acc-list">' + by.approved.map(userCard).join('') + '</div>' : '<p class="note">還沒有同意任何人。</p>';
+    h += by.approved.length ? '<div class="acc-list">' + by.approved.map(userCard).join('') + '</div>' : '';
     if (by.denied.length) h += '<h2 class="stat-h">已拒絕</h2><div class="acc-list">' + by.denied.map(userCard).join('') + '</div>';
-    return h + '<p class="note">同意後，對方的畫面會自動進入網站；撤銷後對方會回到「申請沒有通過」的畫面。「刪除」會清掉這筆申請，對方可以重新申請。' +
-      '學習狀況是對方最後一次同步到雲端的資料，按「重新整理」會重新讀取。你自己的學習狀況在「統計」分頁。</p>';
+    return h;
   }
   function settingsHtml(g) {
     if (!g.on) return '';

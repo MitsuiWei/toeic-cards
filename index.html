@@ -122,6 +122,13 @@ try { if ((location.protocol === 'file:' && !window.TOEIC_FORCE_GATE) || localSt
           <option value="lapsed">常忘（忘記 2 次以上）</option>
         </select>
       </div>
+      <div class="lp-bar" id="lpBar">
+        <div class="lp-seg" id="lpShow" role="group" aria-label="顯示方式"><button type="button" data-v="all">全部顯示</button><button type="button" data-v="hidezh">遮中文</button><button type="button" data-v="hideen">遮英文</button></div>
+        <div class="lp-seg" id="lpSay" role="group" aria-label="唸哪一種語言"><button type="button" data-v="both">英＋中</button><button type="button" data-v="en">只唸英文</button><button type="button" data-v="zh">只唸中文</button></div>
+        <button type="button" class="lp-auto" id="lpAuto"></button>
+        <button type="button" class="lp-tog" id="lpFollow" aria-pressed="true">自動跟隨</button>
+        <select id="lpRate" aria-label="語速"><option value="0.5">0.5 很慢</option><option value="0.6">0.6</option><option value="0.7">0.7 慢</option><option value="0.8">0.8</option><option value="0.9">0.9</option><option value="1">1.0 正常</option><option value="1.15">1.15 快</option></select>
+      </div>
       <div class="browse-summary" id="browseSummary"></div>
       <ul class="wordlist" id="wordList"></ul>
     </section>
@@ -211,6 +218,16 @@ try { if ((location.protocol === 'file:' && !window.TOEIC_FORCE_GATE) || localSt
   </main>
 </div>
 
+<!-- 單字庫連續播放時的控制列（js/app.js 的 lib*） -->
+<div class="lp-now" id="lpNow">
+  <button type="button" id="lpPrev" aria-label="上一個單字">‹</button>
+  <button type="button" id="lpPlay" aria-label="連續播放"></button>
+  <button type="button" id="lpNext" aria-label="下一個單字">›</button>
+  <span class="lp-pos" id="lpPos"></span>
+  <span class="lp-word" id="lpWord"></span>
+  <button type="button" id="lpLoc">定位</button>
+  <span class="lp-prog" id="lpProg"></span>
+</div>
 <div class="toast" id="toast" role="status" aria-live="polite"></div>
 
 <script src="data/words.js"></script>

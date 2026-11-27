@@ -47,6 +47,21 @@
   var forceAhead = false;
   var screen = null;         // 快速篩選：{list, idx, history}
   var browseLimit = 80;
+  var browseIds = [];        // 單字庫目前列出來的字（依序的 id）；連續播放照這個順序
+  // 單字庫的連續播放（函式在「單字庫：連續播放」那一段）
+  var lib = { cur: null, auto: false, token: 0, shown: {}, show: 'all', say: 'both', follow: true, stage: null, playing: false, waiting: false, unlocked: false, wake: null, utter: null };
+  (function () {
+    try {
+      var p = JSON.parse(localStorage.getItem('toeic-lib-v1') || '{}');
+      if (/^(all|hidezh|hideen)$/.test(p.show)) lib.show = p.show;
+      if (/^(both|en|zh)$/.test(p.say)) lib.say = p.say;
+      if (p.follow === false) lib.follow = false;
+    } catch (e) {}
+  })();
+  function libHidden(id, side) { return !lib.shown[id] && ((lib.show === 'hidezh' && side === 'zh') || (lib.show === 'hideen' && side === 'en')); }
+  var reducedMotion = window.matchMedia ? window.matchMedia('(prefers-reduced-motion: reduce)') : { matches: false };
+  var LP_PLAY = '<svg class="lp-ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5v14l11-7z" fill="currentColor"/></svg>';
+  var LP_PAUSE = '<svg class="lp-ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 5h4v14H7zM13 5h4v14h-4z" fill="currentColor"/></svg>';
 
   /* ---------- 儲存 ---------- */
   function load() {
@@ -385,6 +400,7 @@
   /* items: [{text, el, pause}]，pause 是唸完後停頓的毫秒數；onDone 在整串唸完或中斷時呼叫 */
   function speakSeq(items, onDone) {
     if (!synth) { toast('這個瀏覽器不支援語音發音'); if (onDone) onDone(); return; }
+    libHalt();
     stopSpeech();
     var my = seqId, i = 0;
     function next() {
@@ -443,6 +459,7 @@
   function renderViews() {
     $all('.view-btn').forEach(function (b) { b.classList.toggle('is-active', b.getAttribute('data-view') === state.view); });
     $all('.view').forEach(function (v) { v.classList.toggle('is-active', v.id === 'view-' + state.view); });
+    if (state.view !== 'browse') { libStop(); libBar(); }      // 離開單字庫：停止連續播放、收起控制列
     if (state.view === 'study') renderStudy();
     if (state.view === 'browse') renderBrowse();
     if (state.view === 'stats') renderStats();
@@ -664,6 +681,8 @@
       return w.w.toLowerCase().indexOf(qText) >= 0 || w.d.some(function (d) { return d[1].indexOf(qText) >= 0; }) || w.ex.toLowerCase().indexOf(qText) >= 0;
     });
     $('#browseSummary').textContent = '共 ' + items.length + ' 個字' + (qText ? '（搜尋「' + qText + '」）' : '');
+    browseIds = items.map(function (w) { return w.id; });
+    if (lib.cur != null && browseIds.indexOf(lib.cur) < 0) { libStop(); lib.cur = null; }   // 正在唸的字被篩掉了
     var ul = $('#wordList');
     var html = items.slice(0, browseLimit).map(function (w) {
       var r = rec(w.id);
@@ -684,16 +703,227 @@
             (w.custom ? '<button class="tool-btn danger" data-act="remove">從自選移除</button>' : '') +
           '</div></div>';
       }
-      return '<li class="wl-item" data-id="' + w.id + '">' +
+      return '<li class="wl-item' + (lib.cur === w.id ? ' is-cur no-anim' : '') + '" data-id="' + w.id + '">' +
         '<div class="wl-head" role="button" tabindex="0" aria-expanded="' + open + '">' +
-          '<span class="wl-main"><button class="speakable wl-word" data-say-text="' + esc(w.w) + '" aria-label="唸 ' + esc(w.w) + '">' + esc(w.w) + SPK + '</button>' + phonHtml(w) +
-          '<span class="wl-def">' + esc(defsText(w)) + '</span></span>' +
+          '<button class="lp-play" aria-label="從 ' + esc(w.w) + ' 開始播放">' + LP_PLAY + '<span class="lp-eq"><i></i><i></i><i></i></span></button>' +
+          '<span class="wl-main"><span class="lp-en' + (libHidden(w.id, 'en') ? ' cover' : '') + '"><button class="speakable wl-word" data-say-text="' + esc(w.w) + '" aria-label="唸 ' + esc(w.w) + '">' + esc(w.w) + SPK + '</button>' + phonHtml(w) + '</span>' +
+          '<span class="wl-def lp-zh' + (libHidden(w.id, 'zh') ? ' cover' : '') + '">' + esc(defsText(w)) + '</span></span>' +
           '<span class="wl-meta">' + meta + '</span>' +
         '</div>' + body + '</li>';
     }).join('');
     if (items.length > browseLimit) html += '<li class="wl-more"><button class="tool-btn" id="moreBtn">顯示更多（還有 ' + (items.length - browseLimit) + ' 個）</button></li>';
     if (!items.length) html = '<li class="empty" style="border:0">沒有符合的字</li>';
     ul.innerHTML = html;
+    libTools(); libPaint(); libBar();
+  }
+
+  /* ---------- 單字庫：連續播放 ----------
+     照單字庫目前列出來的順序（級別、搜尋、狀態篩選之後）一個字一個字唸：英文用設定的英文語音，中文用裝置的中文語音。
+     lib.show 顯示方式：all 全部顯示／hidezh 遮中文／hideen 遮英文（遮住的點一下就顯示）
+     lib.say  唸哪一種：both 英文＋中文／en 只唸英文／zh 只唸中文
+     連續播放時如果有遮住的一邊：先唸看得到的那一邊 → 停一下讓人想（遮住的地方會閃）→ 揭曉 → 再唸剛揭曉的那一邊。
+     lib.cur 是正在唸的字的 id；lib.token 每次停止／換字就加一，還在排隊的步驟看到 token 變了就不再往下做。
+     這三個選項只存在這台裝置（localStorage 的 toeic-lib-v1），不跟著帳號同步。 */
+  var LIB_KEY = 'toeic-lib-v1';
+  function libStop() {
+    var was = lib.auto || lib.playing || lib.waiting;
+    lib.token++; lib.auto = false; lib.playing = false; lib.waiting = false;
+    if (synth && was) { if (synth.speaking || synth.pending) cancelBusyAt = Date.now(); synth.cancel(); }
+    libWake(false); libPaint(); libBar();
+  }
+  // 使用者點了別的東西發音（單字、例句）：連續播放讓路，聲音交給 speakSeq 處理
+  function libHalt() {
+    if (!lib.auto && !lib.playing && !lib.waiting) return;
+    lib.token++; lib.auto = false; lib.playing = false; lib.waiting = false;
+    libWake(false); libPaint(); libBar();
+  }
+  function libSavePrefs() { try { localStorage.setItem(LIB_KEY, JSON.stringify({ show: lib.show, say: lib.say, follow: lib.follow })); } catch (e) {} }
+  function libRow(id) { return id == null ? null : document.querySelector('#wordList .wl-item[data-id="' + id + '"]'); }
+  function libReveal(id) {
+    lib.shown[id] = 1;
+    var row = libRow(id);
+    if (row) Array.prototype.forEach.call(row.querySelectorAll('.cover'), function (n) { n.classList.remove('cover'); });
+    libBar();
+  }
+  // 把「正在唸／正在等／唸到哪一邊」反映到那一列上（重畫清單之後也要再呼叫一次）
+  function libPaint() {
+    var row = libRow(lib.cur); if (!row) return;
+    row.classList.toggle('is-playing', !!lib.playing);
+    row.classList.toggle('is-waiting', !!lib.waiting);
+    if (lib.stage) row.setAttribute('data-stage', lib.stage); else row.removeAttribute('data-stage');
+  }
+  function libSetCur(id) {
+    if (id === lib.cur) { if (lib.follow) libLocate(false); return; }
+    var old = libRow(lib.cur);
+    if (old) { old.classList.remove('is-cur', 'no-anim', 'is-playing', 'is-waiting'); old.removeAttribute('data-stage'); }
+    lib.cur = id; lib.stage = null; lib.playing = false; lib.waiting = false;
+    var k = browseIds.indexOf(id);
+    if (k >= browseLimit) { browseLimit = k + 60; renderBrowse(); }      // 唸到還沒列出來的字：多列一些
+    var row = libRow(id);
+    if (row) { row.classList.remove('no-anim'); row.classList.add('is-cur'); }
+    libBar();
+    if (lib.follow) libLocate(false);
+  }
+  // 把正在唸的字捲到畫面中間；已經在看得到的範圍裡就不動（force：按「定位」時一定捲）
+  function libLocate(force) {
+    var row = libRow(lib.cur); if (!row) return;
+    var r = row.getBoundingClientRect(), h = window.innerHeight;
+    if (!force && r.top > h * 0.22 && r.bottom < h * 0.68) return;
+    row.scrollIntoView({ block: 'center', behavior: reducedMotion.matches ? 'auto' : 'smooth' });
+  }
+  function libAway() {
+    var row = libRow(lib.cur); if (!row) return false;
+    var r = row.getBoundingClientRect();
+    return r.bottom < 60 || r.top > window.innerHeight - 90;
+  }
+  function libTools() {
+    [['#lpShow', lib.show], ['#lpSay', lib.say]].forEach(function (x) {
+      Array.prototype.forEach.call($(x[0]).children, function (b) { b.setAttribute('aria-pressed', b.getAttribute('data-v') === x[1]); });
+    });
+    $('#lpFollow').setAttribute('aria-pressed', !!lib.follow);
+    $('#lpRate').value = state.settings.rate;
+  }
+  function libBar() {
+    var bar = $('#lpNow'); if (!bar) return;
+    var k = browseIds.indexOf(lib.cur), on = state.view === 'browse' && lib.cur != null && k >= 0;
+    bar.classList.toggle('is-on', on);
+    document.body.classList.toggle('lp-on', on);
+    $('#lpPlay').innerHTML = lib.auto ? LP_PAUSE : LP_PLAY;
+    $('#lpPlay').setAttribute('aria-label', lib.auto ? '暫停' : '連續播放');
+    $('#lpAuto').innerHTML = lib.auto ? LP_PAUSE + '暫停' : LP_PLAY + '連續播放';
+    if (!on) return;
+    $('#lpPos').textContent = (k + 1) + ' / ' + browseIds.length;
+    $('#lpWord').textContent = libHidden(lib.cur, 'en') ? '？？？' : byId[lib.cur].w;
+    $('#lpProg').style.width = ((k + 1) / browseIds.length * 100) + '%';
+    $('#lpLoc').classList.toggle('is-away', libAway());
+  }
+  // 連續播放時讓螢幕不要自己關掉（螢幕一關，手機就不唸了）；瀏覽器不支援就算了
+  function libWake(on) {
+    try {
+      if (on) {
+        if (!lib.wake && navigator.wakeLock) navigator.wakeLock.request('screen').then(function (l) { if (lib.auto) lib.wake = l; else l.release(); }).catch(function () {});
+      } else if (lib.wake) { lib.wake.release(); lib.wake = null; }
+    } catch (e) {}
+  }
+  // 中文語音：台灣的國語優先，沒有就用其他國語；粵語不要
+  function zhVoice() {
+    if (!voices.length && synth) voices = synth.getVoices() || [];
+    var best = null, bs = 0;
+    voices.forEach(function (v) {
+      var lang = (v.lang || '').replace('_', '-').toLowerCase(), s = 0;
+      if (/^(zh-tw|cmn-hant)/.test(lang)) s = 60;
+      else if (/^(zh-cn|zh$|cmn)/.test(lang)) s = 20;
+      else return;
+      var id = (v.name + ' ' + (v.voiceURI || '')).toLowerCase();
+      if (/premium/.test(id)) s += 30; else if (/natural|neural/.test(id)) s += 28; else if (/enhanced/.test(id)) s += 22;
+      if (v.localService) s += 2;
+      if (s > bs) { bs = s; best = v; }
+    });
+    return best;
+  }
+  function libRate() { return parseFloat(state.settings.rate) || 1; }
+  function libSleep(ms, token) { return new Promise(function (res) { setTimeout(function () { res(token === lib.token); }, ms); }); }
+  /* 唸某個字的英文或中文，唸完才 resolve；被停止（token 變了）回 false。
+     有些瀏覽器偶爾不送 end 事件，所以另外估一個時間保底。 */
+  function libSay(id, side, token) {
+    var w = byId[id];
+    var text = side === 'en' ? w.w : w.d.map(function (d) { return d[1]; }).join('，');
+    return new Promise(function (res) {
+      if (token !== lib.token) return res(false);
+      if (!synth || !text) return res(true);
+      var done = false, timer = 0;
+      function fin() {
+        if (done) return; done = true; clearTimeout(timer);
+        if (token === lib.token) { lib.playing = false; libPaint(); }
+        res(token === lib.token);
+      }
+      var u = new SpeechSynthesisUtterance(text), v;
+      if (side === 'zh') { u.lang = 'zh-TW'; u.rate = 1; v = zhVoice(); }
+      else { u.lang = 'en-US'; u.rate = libRate(); v = pickVoice(); }
+      if (v) u.voice = v;
+      u.onend = fin; u.onerror = fin;
+      function go() {
+        if (token !== lib.token) return fin();
+        lib.stage = side; lib.playing = true; libPaint();
+        lib.utter = u;                              // 留著參考，免得唸到一半被回收
+        timer = setTimeout(fin, Math.max(2600, text.length * 280) / u.rate + 1500);
+        synth.speak(u);
+      }
+      // 剛打斷別的語音時，Chrome 立刻 speak 偶爾會被吃掉，稍等一下；其他情況同步播放（iPhone 要求第一次發聲在點擊事件裡）
+      if (Date.now() - cancelBusyAt < 150) setTimeout(go, 90); else go();
+    });
+  }
+  function libThink(token) {
+    lib.waiting = true; libPaint();
+    return libSleep(2200 / libRate(), token).then(function (ok) { if (ok) { lib.waiting = false; libPaint(); } return ok; });
+  }
+  // 這個字要做哪些步驟。quiz：連續播放時遮住的一邊要「先唸另一邊 → 想 → 揭曉 → 再唸」
+  function libSteps(id, quiz) {
+    var sayEn = lib.say !== 'zh', sayZh = lib.say !== 'en', steps = [];
+    var hid = !quiz ? null : libHidden(id, 'zh') ? 'zh' : libHidden(id, 'en') ? 'en' : null;
+    if (!hid) {
+      if (sayEn) steps.push(['say', 'en']);
+      if (sayEn && sayZh) steps.push(['gap', 250]);
+      if (sayZh) steps.push(['say', 'zh']);
+    } else {
+      var first = hid === 'zh' ? 'en' : 'zh';
+      if (first === 'en' ? sayEn : sayZh) steps.push(['say', first]);
+      steps.push(['think'], ['reveal']);
+      if (hid === 'en' ? sayEn : sayZh) steps.push(['say', hid]);
+    }
+    return steps;
+  }
+  function libPlayEntry(id, token, quiz) {
+    var steps = libSteps(id, quiz);
+    function run(i) {
+      if (token !== lib.token) return Promise.resolve(false);
+      if (i >= steps.length) return Promise.resolve(true);
+      var s = steps[i], p;
+      if (s[0] === 'say') p = libSay(id, s[1], token);
+      else if (s[0] === 'gap') p = libSleep(s[1], token);
+      else if (s[0] === 'think') p = libThink(token);
+      else { libReveal(id); p = Promise.resolve(true); }
+      return p.then(function (ok) { return ok ? run(i + 1) : false; });
+    }
+    return run(0);
+  }
+  function libRun() {
+    if (!browseIds.length) return;
+    stopSpeech();
+    var token = ++lib.token;
+    lib.auto = true; libWake(true);
+    if (lib.cur == null || browseIds.indexOf(lib.cur) < 0) libSetCur(browseIds[0]); else if (lib.follow) libLocate(false);
+    libBar();
+    // 第一步不是發音（先想再唸）的話，先在這次點擊裡出一個聽不到的聲音，之後計時器裡的發音 iPhone 才會放行
+    if (synth && !lib.unlocked && libSteps(lib.cur, true)[0][0] !== 'say') {
+      try { var u0 = new SpeechSynthesisUtterance(' '); u0.volume = 0; synth.speak(u0); } catch (e) {}
+    }
+    lib.unlocked = true;
+    (function loop() {
+      libPlayEntry(lib.cur, token, true).then(function (ok) {
+        if (!ok) return;
+        libSleep(600 / libRate(), token).then(function (ok2) {
+          if (!ok2) return;
+          var k = browseIds.indexOf(lib.cur);
+          if (k < 0 || k + 1 >= browseIds.length) { lib.auto = false; libWake(false); libBar(); return; }   // 唸完最後一個字
+          libSetCur(browseIds[k + 1]); loop();
+        });
+      });
+    })();
+  }
+  function libToggle() { if (lib.auto) libStop(); else libRun(); }
+  // 跳到某個字：連續播放中就從那個字接著播，否則只唸那個字
+  function libGo(id) {
+    var wasAuto = lib.auto;
+    libStop(); stopSpeech();
+    libSetCur(id);
+    if (wasAuto) libRun(); else libPlayEntry(id, ++lib.token, false);
+  }
+  function libStep(d) {
+    if (!browseIds.length) return;
+    var k = browseIds.indexOf(lib.cur);
+    k = k < 0 ? 0 : Math.max(0, Math.min(browseIds.length - 1, k + d));
+    libGo(browseIds[k]);
   }
 
   /* ---------- 統計 ---------- */
@@ -933,9 +1163,36 @@
   $('#screenUndo').addEventListener('click', screenUndo);
   $('#screenExit').addEventListener('click', function () { endScreen(false); });
 
+  /* 單字庫連續播放的按鈕 */
+  ['#lpShow', '#lpSay'].forEach(function (sel) {
+    $(sel).addEventListener('click', function (e) {
+      var b = e.target.closest('button'); if (!b) return;
+      if (sel === '#lpShow') { lib.show = b.getAttribute('data-v'); lib.shown = {}; } else lib.say = b.getAttribute('data-v');
+      libSavePrefs();
+      var wasAuto = lib.auto;
+      if (wasAuto) libStop();
+      renderBrowse();
+      if (wasAuto) libRun();                 // 播到一半換方式：從目前這個字用新的方式接著播
+    });
+  });
+  $('#lpAuto').addEventListener('click', libToggle);
+  $('#lpPlay').addEventListener('click', libToggle);
+  $('#lpPrev').addEventListener('click', function () { libStep(-1); });
+  $('#lpNext').addEventListener('click', function () { libStep(1); });
+  $('#lpLoc').addEventListener('click', function () { libLocate(true); });
+  $('#lpFollow').addEventListener('click', function () { lib.follow = !lib.follow; libSavePrefs(); libTools(); if (lib.follow) libLocate(false); });
+  $('#lpRate').addEventListener('change', function () {
+    state.settings.rate = this.value; state.settingsUpdated = Date.now(); pending.settings = true; save();
+  });
+  window.addEventListener('scroll', function () { if (lib.cur != null) $('#lpLoc').classList.toggle('is-away', libAway()); }, { passive: true });
+
   $('#searchBox').addEventListener('input', function () { browseLimit = 80; renderBrowse(); });
   $('#stateFilter').addEventListener('change', function () { browseLimit = 80; renderBrowse(); });
   $('#wordList').addEventListener('click', function (e) {
+    var cv = e.target.closest('.cover');
+    if (cv) { e.stopPropagation(); libReveal(idOf(cv.closest('.wl-item').getAttribute('data-id'))); return; }
+    var pb = e.target.closest('.lp-play');
+    if (pb) { e.stopPropagation(); libGo(idOf(pb.closest('.wl-item').getAttribute('data-id'))); return; }
     var sp = e.target.closest('.speakable');
     if (sp) { e.stopPropagation(); speak(sp.getAttribute('data-say-text'), sp); return; }
     if (e.target.id === 'moreBtn') { browseLimit += 100; renderBrowse(); return; }
@@ -1036,6 +1293,16 @@
       if (e.key === 'p' || e.key === 'P') speak(byId[screen.list[screen.idx]].w, $('#screenWord'));
       return;
     }
+    if (state.view === 'browse') {
+      // 單字庫：空白鍵 播放／暫停、J K 或 ← → 上一個／下一個、G 捲到正在唸的字（焦點在按鈕上時空白鍵照按鈕原本的作用）
+      var onBtn = tag === 'button' || (e.target.getAttribute && e.target.getAttribute('role') === 'button');
+      var key = e.key.toLowerCase();
+      if (key === ' ' && !onBtn) { e.preventDefault(); libToggle(); }
+      else if (key === 'j' || key === 'arrowleft') { e.preventDefault(); libStep(-1); }
+      else if (key === 'k' || key === 'arrowright') { e.preventDefault(); libStep(1); }
+      else if (key === 'g') libLocate(true);
+      return;
+    }
     if (state.view !== 'study') return;
     if (!current) {
       // 休息畫面：空白鍵 / Enter =「不等了，現在複習」。畫面剛出現的 0.6 秒內不反應，避免連按評分時誤觸
@@ -1055,7 +1322,11 @@
   });
 
   // 回到分頁時重新計算（到期時間可能已過）
-  document.addEventListener('visibilitychange', function () { if (!document.hidden) renderAll(); });
+  document.addEventListener('visibilitychange', function () {
+    if (document.hidden) return;
+    renderAll();
+    if (lib.auto) { lib.wake = null; libWake(true); }      // 螢幕恆亮在切走時會被系統收回，回來再要一次
+  });
   setInterval(function () { if (state.view === 'study' && !current && !screen) renderStudy(); }, 30000);
 
   /* ---------- 雲端同步：合併與介面 ---------- */

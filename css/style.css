@@ -1066,3 +1066,82 @@ body.is-locked .gate { display: flex; min-height: 100vh; min-height: 100dvh; ali
 .voice-help .note { margin: 0; line-height: 1.8; }
 .voice-help .note b { color: var(--ink); }
 .gate-hint { margin: 0; font-size: 12px; line-height: 1.7; color: var(--muted); text-align: left; }
+
+/* ===== 單字庫：連續播放（js/app.js 的 lib*）===== */
+.lp-bar { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; margin: 0 0 10px; }
+.lp-seg { display: inline-flex; border: 1.5px solid var(--rule); border-radius: 10px; overflow: hidden; background: var(--card); }
+.lp-seg button { padding: 7px 11px; font-size: 14px; color: var(--ink); white-space: nowrap; }
+.lp-seg button + button { border-left: 1.5px solid var(--rule); }
+.lp-seg button[aria-pressed="true"] { background: var(--ink); color: #fff; }
+.lp-auto { display: inline-flex; align-items: center; gap: 6px; background: var(--orange); color: #fff; border-radius: 999px; padding: 8px 16px 8px 12px; font-weight: 700; font-size: 14px; white-space: nowrap; }
+.lp-ico { width: 16px; height: 16px; flex: none; }
+.lp-tog { border: 1.5px solid var(--rule); background: var(--card); border-radius: 10px; padding: 7px 11px; font-size: 14px; color: var(--muted); white-space: nowrap; }
+.lp-tog[aria-pressed="true"] { background: var(--orange-soft); border-color: var(--orange); color: var(--orange); }
+.lp-bar select { border: 1.5px solid var(--rule); border-radius: 10px; background: var(--card); padding: 7px 8px; font-size: 14px; }
+
+/* 每一列前面的播放鈕；正在發音時換成跳動的三條線 */
+#wordList .wl-item { scroll-margin: 120px 0; }
+#wordList .wl-head { grid-template-columns: 34px minmax(0, 1fr) auto; }
+.lp-play { width: 32px; height: 32px; border-radius: 50%; border: 1.5px solid var(--rule); color: var(--muted); display: grid; place-items: center; }
+.lp-play .lp-ico { width: 14px; height: 14px; margin-left: 1px; }
+.lp-eq { display: none; gap: 2px; align-items: flex-end; height: 12px; }
+.lp-eq i { width: 3px; height: 100%; background: #fff; border-radius: 1px; transform-origin: bottom; animation: lp-eq .7s ease-in-out infinite; }
+.lp-eq i:nth-child(2) { animation-delay: -.25s; }
+.lp-eq i:nth-child(3) { animation-delay: -.5s; }
+@keyframes lp-eq { 0%, 100% { transform: scaleY(.3); } 50% { transform: scaleY(1); } }
+.wl-item.is-playing .lp-play { background: var(--orange); border-color: var(--orange); }
+.wl-item.is-playing .lp-play .lp-ico { display: none; }
+.wl-item.is-playing .lp-eq { display: flex; }
+
+/* 正在唸的那一列：底色＋外框，換到這一列時放大一下再縮回來 */
+#wordList .wl-item.is-cur { background: var(--orange-soft); box-shadow: inset 0 0 0 2px var(--orange); border-radius: 12px; border-bottom-color: transparent; }
+#wordList .wl-item.is-cur:not(.no-anim) { animation: lp-arrive .5s ease-out; }
+#wordList .wl-item.is-cur .wl-head:hover { background: transparent; }
+@keyframes lp-arrive { from { background: #FFD08A; transform: scale(1.02); } to { background: var(--orange-soft); transform: none; } }
+@keyframes lp-arrive-fade { from { background: #FFD08A; } to { background: var(--orange-soft); } }
+/* 唸到英文或中文時，那一邊底下畫一條線掃過去 */
+.lp-en { display: inline-flex; align-items: baseline; flex-wrap: wrap; gap: 4px 10px; }
+.lp-en, .lp-zh { padding: 1px 3px 3px; margin: 0 -3px; background: linear-gradient(var(--orange), var(--orange)) left bottom / 0 2px no-repeat; transition: background-size .35s ease-out; }
+.wl-item.is-playing[data-stage="en"] .lp-en, .wl-item.is-playing[data-stage="zh"] .lp-zh { background-size: 100% 2px; }
+
+/* 遮住的一邊：點一下顯示；連續播放在「想一下」的時候會閃 */
+.cover { cursor: pointer; border-radius: 6px; background: var(--rule) !important; color: transparent !important; user-select: none; -webkit-user-select: none; min-width: 72px; }
+.cover * { color: transparent !important; pointer-events: none; }
+.wl-item.is-waiting .cover { animation: lp-breathe 1s ease-in-out infinite; }
+@keyframes lp-breathe { 50% { opacity: .4; } }
+
+/* 底部的控制列：有正在唸的字時滑上來 */
+.lp-now {
+  position: fixed; left: 50%; bottom: calc(14px + env(safe-area-inset-bottom, 0px));
+  transform: translate(-50%, 180%); transition: transform .28s ease;
+  z-index: 40; display: flex; align-items: center; gap: 8px;
+  width: max-content; max-width: calc(100vw - 20px); box-sizing: border-box;
+  background: #fff; border: 2.5px solid var(--ink); border-radius: 999px; padding: 7px 14px 9px 10px;
+  box-shadow: 0 6px 18px rgba(89, 63, 40, .18); overflow: hidden;
+}
+.lp-now.is-on { transform: translate(-50%, 0); }
+body.is-locked .lp-now { display: none; }
+.lp-now button { border: 1.5px solid var(--rule); border-radius: 999px; height: 36px; min-width: 36px; padding: 0 10px; font-size: 14px; color: var(--ink); display: inline-grid; place-items: center; flex: none; }
+.lp-now #lpPrev, .lp-now #lpNext { font-size: 20px; line-height: 1; padding: 0 0 2px; }
+.lp-now #lpPlay { background: var(--orange); border-color: var(--orange); color: #fff; width: 42px; height: 42px; padding: 0; }
+.lp-now #lpPlay .lp-ico { width: 20px; height: 20px; }
+.lp-pos { font-size: 13px; color: var(--muted); font-variant-numeric: tabular-nums; white-space: nowrap; flex: none; }
+.lp-word { font-weight: 700; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; min-width: 0; max-width: 34vw; flex: 0 1 auto; }
+.lp-now #lpLoc.is-away { background: var(--orange-soft); border-color: var(--orange); color: var(--orange); }
+.lp-prog { position: absolute; left: 0; bottom: 0; height: 3px; width: 0; background: var(--orange); transition: width .3s; }
+body.lp-on .toast { bottom: calc(92px + env(safe-area-inset-bottom, 0px)); }
+body.lp-on .view-browse { padding-bottom: 90px; }
+
+@media (max-width: 640px) {
+  .lp-seg button, .lp-tog, .lp-bar select { font-size: 13px; padding: 7px 9px; }
+  .lp-auto { font-size: 13px; }
+  #wordList .wl-head { grid-template-columns: 32px minmax(0, 1fr) auto; gap: 6px; }
+  .lp-now { gap: 6px; padding: 6px 10px 8px 8px; }
+  .lp-word { max-width: 28vw; }
+}
+@media (prefers-reduced-motion: reduce) {
+  #wordList .wl-item.is-cur:not(.no-anim) { animation-name: lp-arrive-fade; }
+  .lp-now, .lp-prog, .lp-en, .lp-zh { transition: none; }
+  .lp-eq i, .wl-item.is-waiting .cover { animation-duration: 1.6s; }
+}
+.lp-en.cover .phon { display: none; }      /* 遮英文時音標也收起來，遮罩才不會變成兩行高 */

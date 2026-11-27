@@ -127,7 +127,7 @@ try { if ((location.protocol === 'file:' && !window.TOEIC_FORCE_GATE) || localSt
         <div class="lp-seg" id="lpSay" role="group" aria-label="唸哪一種語言"><button type="button" data-v="both">英＋中</button><button type="button" data-v="en">只唸英文</button><button type="button" data-v="zh">只唸中文</button></div>
         <button type="button" class="lp-auto" id="lpAuto"></button>
         <button type="button" class="lp-tog" id="lpFollow" aria-pressed="true">自動跟隨</button>
-        <select id="lpRate" aria-label="語速"><option value="0.5">0.5 很慢</option><option value="0.6">0.6</option><option value="0.7">0.7 慢</option><option value="0.8">0.8</option><option value="0.9">0.9</option><option value="1">1.0 正常</option><option value="1.15">1.15 快</option></select>
+        <select id="lpRate" aria-label="語速"><option value="0.2">0.2 最慢</option><option value="0.5">0.5 很慢</option><option value="0.6">0.6</option><option value="0.7">0.7 慢</option><option value="0.8">0.8</option><option value="0.9">0.9</option><option value="1">1.0 正常</option><option value="1.15">1.15 快</option></select>
       </div>
       <div class="browse-summary" id="browseSummary"></div>
       <ul class="wordlist" id="wordList"></ul>
@@ -172,7 +172,7 @@ try { if ((location.protocol === 'file:' && !window.TOEIC_FORCE_GATE) || localSt
         <h2 class="stat-h">發音</h2>
         <label class="row"><span>新卡出現時自動唸單字</span><select name="speakOnShow"><option value="yes">唸</option><option value="no">不唸</option></select></label>
         <label class="row"><span>翻面時自動播放</span><select name="autoSpeak"><option value="none">不播</option><option value="word">單字</option><option value="both">單字＋例句</option></select></label>
-        <label class="row"><span>語速</span><select name="rate"><option value="0.5">0.5 很慢</option><option value="0.6">0.6</option><option value="0.7">0.7 慢</option><option value="0.8">0.8</option><option value="0.9">0.9</option><option value="1">1.0 正常</option><option value="1.15">1.15 快</option></select></label>
+        <label class="row"><span>語速</span><select name="rate"><option value="0.2">0.2 最慢</option><option value="0.5">0.5 很慢</option><option value="0.6">0.6</option><option value="0.7">0.7 慢</option><option value="0.8">0.8</option><option value="0.9">0.9</option><option value="1">1.0 正常</option><option value="1.15">1.15 快</option></select></label>
         <label class="row"><span>語音</span><select name="voice" id="voiceSelect"><option value="">自動挑最自然的</option></select></label>
         <div class="voice-help"><button type="button" class="tool-btn" id="voiceTestBtn">試聽語速和語音</button></div>
 

@@ -822,6 +822,8 @@
     return best;
   }
   function libRate() { return parseFloat(state.settings.rate) || 1; }
+  // 停頓（想一下、字跟字之間）跟著語速拉長，但語速調到很慢（0.2）時不要跟著等太久
+  function libPace() { return Math.max(0.5, libRate()); }
   function libSleep(ms, token) { return new Promise(function (res) { setTimeout(function () { res(token === lib.token); }, ms); }); }
   /* 唸某個字的英文或中文，唸完才 resolve；被停止（token 變了）回 false。
      有些瀏覽器偶爾不送 end 事件，所以另外估一個時間保底。 */
@@ -855,7 +857,7 @@
   }
   function libThink(token) {
     lib.waiting = true; libPaint();
-    return libSleep(2200 / libRate(), token).then(function (ok) { if (ok) { lib.waiting = false; libPaint(); } return ok; });
+    return libSleep(2200 / libPace(), token).then(function (ok) { if (ok) { lib.waiting = false; libPaint(); } return ok; });
   }
   // 這個字要做哪些步驟。quiz：連續播放時遮住的一邊要「先唸另一邊 → 想 → 揭曉 → 再唸」
   function libSteps(id, quiz) {
@@ -902,7 +904,7 @@
     (function loop() {
       libPlayEntry(lib.cur, token, true).then(function (ok) {
         if (!ok) return;
-        libSleep(600 / libRate(), token).then(function (ok2) {
+        libSleep(600 / libPace(), token).then(function (ok2) {
           if (!ok2) return;
           var k = browseIds.indexOf(lib.cur);
           if (k < 0 || k + 1 >= browseIds.length) { lib.auto = false; libWake(false); libBar(); return; }   // 唸完最後一個字

@@ -38,7 +38,7 @@ const cases = [
     if (!u || Math.abs(u.rate - 0.7) > 1e-6) errs.push(name + ': default rate should be 0.7, got ' + (u && u.rate));
     if (name === 'Chrome') {
       const rates = await p.$$eval('select[name="rate"] option', o => o.map(x => x.value));
-      if (rates.join() !== '0.5,0.6,0.7,0.8,0.9,1,1.15') errs.push('rate options ' + rates);
+      if (rates.join() !== '0.2,0.5,0.6,0.7,0.8,0.9,1,1.15') errs.push('rate options ' + rates);
       await p.selectOption('select[name="rate"]', '0.5'); await p.click('#voiceTestBtn'); await p.waitForTimeout(80);
       const r5 = await p.evaluate(() => (window.__utter[window.__utter.length - 1] || {}).rate); if (r5 !== 0.5) errs.push('rate 0.5 not applied: ' + r5);
       await p.selectOption('#voiceSelect', 'Google UK English Female'); await p.click('#voiceTestBtn'); await p.waitForTimeout(80);

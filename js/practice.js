@@ -61,7 +61,7 @@
        字表裡還沒學的字 → 排到那一級新字的最前面
        字表以外的字     → 存成「自選」單字（例句就是點它的那一句）
      中文解釋來自 data/gloss.js（第一次點才載入）。 */
-  var WORD_RE = /[A-Za-z]+(?:['’\-][A-Za-z]+)*/g;
+  var WORD_RE = /[A-Za-zÀ-ÖØ-öø-ÿ]+(?:['’\-][A-Za-zÀ-ÖØ-öø-ÿ]+)*/g;      // 含重音字母（résumé 是一個字）
   var pop = null, popState = null, listMap = null, glossCbs = null;
   var NOT_WORD = /\b[AaPp]\.[Mm]\.|\d(?:st|nd|rd|th)\b/g;        // A.M.／P.M. 和 25th 的 th 不是可以查的字
   function tw(text) {
@@ -71,6 +71,7 @@
     WORD_RE.lastIndex = 0;
     while ((m = WORD_RE.exec(text))) {
       if (skip.some(function (r) { return m.index >= r[0] && m.index < r[1]; })) continue;
+      if (m[0].length === 1 && !/^[AaI]$/.test(m[0])) continue;            // 單一個字母（R&D 的 R）不是可以查的字
       out += esc(text.slice(last, m.index)) + '<span class="tw">' + esc(m[0]) + '</span>';
       last = m.index + m[0].length;
     }
@@ -168,7 +169,7 @@
         st.id = T.customId(r.w.w);
         st.mode = T.byId[st.id] ? 'custom-old' : 'ask-custom';
       } else st.mode = r.kind;
-      var old = root.querySelector('.tw.is-picked'); if (old) old.classList.remove('is-picked');
+      var old = document.querySelector('.tw.is-picked'); if (old) old.classList.remove('is-picked');
       el.classList.add('is-picked');
       popState = st;
       renderPop();
@@ -206,8 +207,8 @@
     pop.hidden = false;
   }
   function closePop() {
-    popState = null; pop.hidden = true;
-    var old = root.querySelector('.tw.is-picked'); if (old) old.classList.remove('is-picked');
+    popState = null; if (pop) pop.hidden = true;
+    var old = document.querySelector('.tw.is-picked'); if (old) old.classList.remove('is-picked');
   }
   function onPopClick(e) {
     e.stopPropagation();                       // 小卡裡的點擊不要被當成「點外面」而關掉
@@ -1214,5 +1215,6 @@
   }
 
   window.Practice = { init: init, render: render, reset: reset, statsHtml: statsHtml, openWrong: openWrong, openPlace: openPlace,
+                      tw: tw, pickWord: pickWord, closePop: closePop,      // 單字卡的例句也用同一套點字查意思
                       _pt: function () { return pt; } };   // 測試腳本用
 })();

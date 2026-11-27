@@ -27,7 +27,7 @@
 ## 2. 工作慣例
 
 - **先給使用者看畫面，他說「上線」才 commit / push。** 使用者自己沒有本機 repo，commit 和 push 都由這邊做。
-- 每次上線把 `sw.js` 的 `VERSION` 加一（目前 `toeic-cards-v26`），舊快取才會被換掉。上線後告訴使用者新的版本號和 commit。
+- 每次上線把 `sw.js` 的 `VERSION` 加一（目前 `toeic-cards-v27`），舊快取才會被換掉。上線後告訴使用者新的版本號和 commit。
 - commit 訊息最後要加兩行署名（系統會給當次該用的內容，照抄即可）。
 - 所有中文一律繁體、台灣用語；不可以出現簡體字。
 - 題目必須原創，不可抄多益官方或任何出版社的試題。
@@ -72,6 +72,7 @@
 | v24 | `a928fb3` | 11/24 | 改名「兔兔多益」；新圖示（看書的兔兔，照使用者提供的圖描成向量）；畫面、程式註解、README 不再出現「管理員看得到學習狀況」的文字（功能沒變） |
 | v25 | `5a92a6b` | 11/27 | 單字庫加「連續播放」：英＋中／只唸英文／只唸中文、遮中文／遮英文（想一下再揭曉）、底部控制列、自動捲到正在唸的字、標示動畫 |
 | v26 | `0f21210` | 11/27 | 語速多一個 0.2（有使用者覺得 0.5 和 0.7 一樣快） |
+| v27 | （見 git log） | 11/27 | 單字卡的例句可以點字查意思（跟練習題同一張小卡），整句發音改成點句尾的喇叭；小字典補了例句用到的字 |
 
 ### 使用者做過的選擇（改功能前先看，不要改回去）
 
@@ -210,6 +211,8 @@ node /home/claude/scripts/test_prac3.js 400     練習三種題型（可換級�
 node /home/claude/scripts/test_wrong.js         統計點進去看單字、錯題分析、重做錯題
 node /home/claude/scripts/test_tap.js           點字查意思、按「存起來」才存、自選分頁、同步合併（含 320 寬）
 node /home/claude/scripts/test_notes.js 400     各選項解析、「先收起來」設定、錯題分析裡的解析（可換級別）
+node /home/claude/scripts/sweep_extap.js        把 1000 句單字卡例句裡每個可以點的字都實際點一次：不能有錯誤、不能有查不到的字（改小字典或例句後要跑）
+node /home/claude/scripts/test_extap.js         單字卡例句點字查意思：跳小卡、卡片自己的字不能查、喇叭唸整句、存起來、翻面收起、挖空模式
 node /home/claude/scripts/test_lib.js           單字庫連續播放：三種唸法、兩種遮法、暫停／接著播、上下一個、自動多列與捲動、讓路、離開就停
 node /home/claude/scripts/test_gate.js          使用權限全流程（用假的 Firebase `fake_firebase.js`＋本機 http 伺服器）：登入、申請、同意後自動進入、撤銷、管理頁與學習狀況、舊規則時放行、離線
 node /home/claude/scripts/test_voice.js         語音挑選（各平台的語音清單）、試聽、語速預設與舊值轉換

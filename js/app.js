@@ -543,8 +543,11 @@
     var meanings = '<div class="meaning-list">' + w.d.map(function (d) {
       return '<div class="meaning"><span class="pos">' + esc(posText(d)) + '</span>' + esc(d[1]) + '</div>';
     }).join('') + '</div>';
-    var exHtml = exampleHtml(w, s.frontExample === 'cloze' && s.direction === 'en' && !revealed);
-    var exBtn = w.ex ? '<button class="speakable example" data-say="ex" aria-label="唸例句">' + exHtml + SPK + '</button>' : '';   // 自選的字不一定有例句
+    var exHtml = exampleHtml(w, s.frontExample === 'cloze' && s.direction === 'en' && !revealed, true);
+    // 例句：點裡面的字查意思、點喇叭唸整句、點這張卡的字唸那個字。data-ex／data-zh 是把查到的字存成自選時用的例句
+    var exBtn = w.ex ? '<div class="speakable example ex-tap" data-ex="' + esc(w.ex) + '"' + (w.zh ? ' data-zh="' + esc(w.zh) + '"' : '') + '>' + exHtml +
+      '<button class="ex-say" data-say="ex" aria-label="唸例句">' + SPK + '</button></div>' : '';   // 自選的字不一定有例句
+    if (window.Practice && Practice.closePop) Practice.closePop();      // 換卡或翻面時把查字的小卡收起來
     var zh = w.zh ? '<div class="example-zh">' + esc(w.zh) + '</div>' : '';
 
     if (s.direction === 'en') {
@@ -564,9 +567,12 @@
       for (var r = 1; r <= 4; r++) $('#iv' + r).textContent = pv[r];
     }
   }
-  function exampleHtml(w, cloze) {
+  /* tap：其他的字包成可以點的 <span class="tw">（點一下查意思，見 practice.js 的 pickWord）；
+     這張卡自己的字（<mark>）不包，免得還沒翻面就查到答案 */
+  function exampleHtml(w, cloze, tap) {
     var a = w.hl[0], b = w.hl[1];
-    var pre = esc(w.ex.slice(0, a)), mid = esc(w.ex.slice(a, b)), post = esc(w.ex.slice(b));
+    var wrap = tap && window.Practice && Practice.tw ? Practice.tw : esc;
+    var pre = wrap(w.ex.slice(0, a)), mid = esc(w.ex.slice(a, b)), post = wrap(w.ex.slice(b));
     if (cloze) return pre + '<span class="cloze" aria-label="空格"></span>' + post;
     return pre + '<mark>' + mid + '</mark>' + post;
   }
@@ -1154,8 +1160,14 @@
   });
   $('#card').addEventListener('click', function (e) {
     if (e.target.closest('.aid-line')) { cycleAid(); return; }
-    var b = e.target.closest('.speakable'); if (!b || !current) return;
+    if (!current) return;
     var w = byId[current.id];
+    var tw = e.target.closest('.ex-tap .tw');
+    if (tw && window.Practice) { Practice.pickWord(tw); return; }               // 例句裡的字：查意思
+    if (e.target.closest('.ex-tap mark')) { speak(w.w, e.target.closest('mark')); return; }   // 這張卡的字：唸這個字
+    if (e.target.closest('.ex-say')) { speak(w.ex, exEl()); return; }             // 喇叭：唸整句
+    if (e.target.closest('.ex-tap')) return;                                      // 例句的空白處：不做事
+    var b = e.target.closest('.speakable'); if (!b) return;
     speak(b.getAttribute('data-say') === 'word' ? w.w : w.ex, b);
   });
 

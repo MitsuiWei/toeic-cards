@@ -1,0 +1,3768 @@
+[
+{
+"f": "amsterdam",
+"name": 1
+},
+{
+"f": "boston",
+"name": 1
+},
+{
+"f": "california",
+"name": 1
+},
+{
+"f": "chung-hua",
+"name": 1
+},
+{
+"f": "dubai",
+"name": 1
+},
+{
+"f": "francisco",
+"name": 1
+},
+{
+"f": "harvard",
+"name": 1
+},
+{
+"f": "jax",
+"name": 1
+},
+{
+"f": "john",
+"name": 1
+},
+{
+"f": "microsoft",
+"name": 1
+},
+{
+"f": "mozart",
+"name": 1
+},
+{
+"f": "paris",
+"name": 1
+},
+{
+"f": "san",
+"name": 1
+},
+{
+"f": "taiwan",
+"name": 1
+},
+{
+"f": "york",
+"name": 1
+},
+{
+"f": "accidents",
+"l": "accident"
+},
+{
+"f": "accommodations",
+"l": "accommodation"
+},
+{
+"f": "achievements",
+"l": "achievement"
+},
+{
+"f": "achieving",
+"l": "achieve"
+},
+{
+"f": "actions",
+"l": "action"
+},
+{
+"f": "administers",
+"l": "administer"
+},
+{
+"f": "adopted",
+"l": "adopt"
+},
+{
+"f": "advocates",
+"l": "advocate"
+},
+{
+"f": "affairs",
+"l": "affair",
+"d": [
+[
+"n.",
+"事務；事件"
+]
+]
+},
+{
+"f": "agreements",
+"l": "agreement"
+},
+{
+"f": "americans",
+"l": "american"
+},
+{
+"f": "appealed",
+"l": "appeal"
+},
+{
+"f": "appears",
+"l": "appear"
+},
+{
+"f": "artists",
+"l": "artist",
+"d": [
+[
+"n.",
+"藝術家；藝人"
+]
+]
+},
+{
+"f": "arts",
+"l": "art"
+},
+{
+"f": "assets",
+"l": "asset"
+},
+{
+"f": "badges",
+"l": "badge"
+},
+{
+"f": "banned",
+"l": "ban"
+},
+{
+"f": "belongs",
+"l": "belong",
+"d": [
+[
+"v.",
+"屬於"
+]
+]
+},
+{
+"f": "benefited",
+"l": "benefit"
+},
+{
+"f": "boosted",
+"l": "boost"
+},
+{
+"f": "breaches",
+"l": "breach"
+},
+{
+"f": "brings",
+"l": "bring"
+},
+{
+"f": "challenges",
+"l": "challenge",
+"d": [
+[
+"n.",
+"挑戰"
+],
+[
+"v.",
+"向…挑戰；質疑"
+]
+]
+},
+{
+"f": "characteristics",
+"l": "characteristic"
+},
+{
+"f": "cigarettes",
+"l": "cigarette",
+"d": [
+[
+"n.",
+"香菸"
+]
+]
+},
+{
+"f": "conditions",
+"l": "condition"
+},
+{
+"f": "conducting",
+"l": "conduct"
+},
+{
+"f": "conducts",
+"l": "conduct"
+},
+{
+"f": "confiscated",
+"l": "confiscate"
+},
+{
+"f": "consisted",
+"l": "consist"
+},
+{
+"f": "controls",
+"l": "control"
+},
+{
+"f": "convicted",
+"l": "convict",
+"d": [
+[
+"v.",
+"判…有罪"
+],
+[
+"n.",
+"囚犯"
+]
+]
+},
+{
+"f": "convicting",
+"l": "convict"
+},
+{
+"f": "coordinates",
+"l": "coordinate"
+},
+{
+"f": "costumes",
+"l": "costume",
+"d": [
+[
+"n.",
+"戲服；服裝"
+]
+]
+},
+{
+"f": "crossing",
+"l": "cross"
+},
+{
+"f": "culturally",
+"l": "cultural",
+"d": [
+[
+"adj.",
+"文化的"
+]
+]
+},
+{
+"f": "cyclists",
+"l": "cyclist",
+"d": [
+[
+"n.",
+"騎自行車的人"
+]
+]
+},
+{
+"f": "dancers",
+"l": "dancer",
+"d": [
+[
+"n.",
+"舞者"
+]
+]
+},
+{
+"f": "debriefed",
+"l": "debrief"
+},
+{
+"f": "decreased",
+"l": "decrease",
+"d": [
+[
+"v.",
+"減少"
+],
+[
+"n.",
+"減少"
+]
+]
+},
+{
+"f": "developed",
+"l": "develop"
+},
+{
+"f": "disabilities",
+"l": "disability",
+"d": [
+[
+"n.",
+"身心障礙；殘疾"
+]
+]
+},
+{
+"f": "discussions",
+"l": "discussion"
+},
+{
+"f": "diseases",
+"l": "disease",
+"d": [
+[
+"n.",
+"疾病"
+]
+]
+},
+{
+"f": "disengaged",
+"l": "disengage"
+},
+{
+"f": "dismissed",
+"l": "dismiss"
+},
+{
+"f": "doctors",
+"l": "doctor"
+},
+{
+"f": "donations",
+"l": "donation"
+},
+{
+"f": "downsized",
+"l": "downsize"
+},
+{
+"f": "drugs",
+"l": "drug",
+"d": [
+[
+"n.",
+"藥物；毒品"
+]
+]
+},
+{
+"f": "duties",
+"l": "duty",
+"d": [
+[
+"n.",
+"職責；關稅"
+]
+]
+},
+{
+"f": "earns",
+"l": "earn"
+},
+{
+"f": "earthquakes",
+"l": "earthquake",
+"d": [
+[
+"n.",
+"地震"
+]
+]
+},
+{
+"f": "efforts",
+"l": "effort",
+"d": [
+[
+"n.",
+"努力"
+]
+]
+},
+{
+"f": "endorses",
+"l": "endorse"
+},
+{
+"f": "enforces",
+"l": "enforce"
+},
+{
+"f": "escalates",
+"l": "escalate"
+},
+{
+"f": "europeans",
+"l": "european"
+},
+{
+"f": "exams",
+"l": "exam"
+},
+{
+"f": "exemplifies",
+"l": "exemplify"
+},
+{
+"f": "exercises",
+"l": "exercise"
+},
+{
+"f": "experiments",
+"l": "experiment"
+},
+{
+"f": "explaining",
+"l": "explain"
+},
+{
+"f": "faced",
+"l": "face"
+},
+{
+"f": "faces",
+"l": "face"
+},
+{
+"f": "factors",
+"l": "factor"
+},
+{
+"f": "fighting",
+"l": "fight",
+"d": [
+[
+"n.",
+"吵架；打架；戰鬥"
+],
+[
+"v.",
+"打架；對抗"
+]
+]
+},
+{
+"f": "finances",
+"l": "finance"
+},
+{
+"f": "flyers",
+"l": "flyer",
+"d": [
+[
+"n.",
+"傳單"
+]
+]
+},
+{
+"f": "fruits",
+"l": "fruit"
+},
+{
+"f": "fuels",
+"l": "fuel"
+},
+{
+"f": "functioning",
+"l": "function"
+},
+{
+"f": "gases",
+"l": "gas"
+},
+{
+"f": "gathered",
+"l": "gather",
+"d": [
+[
+"v.",
+"收集；聚集"
+]
+]
+},
+{
+"f": "gatherings",
+"l": "gathering",
+"d": [
+[
+"n.",
+"聚會"
+]
+]
+},
+{
+"f": "generously",
+"l": "generous",
+"d": [
+[
+"adj.",
+"慷慨的；大方的"
+]
+]
+},
+{
+"f": "gestures",
+"l": "gesture"
+},
+{
+"f": "greeted",
+"l": "greet"
+},
+{
+"f": "guarantees",
+"l": "guarantee"
+},
+{
+"f": "headaches",
+"l": "headache",
+"d": [
+[
+"n.",
+"頭痛"
+]
+]
+},
+{
+"f": "highlighted",
+"l": "highlight"
+},
+{
+"f": "hosted",
+"l": "host"
+},
+{
+"f": "hurdles",
+"l": "hurdle"
+},
+{
+"f": "illnesses",
+"l": "illness",
+"d": [
+[
+"n.",
+"疾病"
+]
+]
+},
+{
+"f": "impressed",
+"l": "impress",
+"d": [
+[
+"v.",
+"使印象深刻；使欽佩"
+]
+]
+},
+{
+"f": "improvements",
+"l": "improvement"
+},
+{
+"f": "increasing",
+"l": "increase"
+},
+{
+"f": "independently",
+"l": "independent",
+"d": [
+[
+"adj.",
+"獨立的"
+]
+]
+},
+{
+"f": "indicates",
+"l": "indicate"
+},
+{
+"f": "instituted",
+"l": "institute"
+},
+{
+"f": "interacting",
+"l": "interact"
+},
+{
+"f": "interviewees",
+"l": "interviewee",
+"d": [
+[
+"n.",
+"受訪者；面試者"
+]
+]
+},
+{
+"f": "jokes",
+"l": "joke",
+"d": [
+[
+"n.",
+"笑話"
+],
+[
+"v.",
+"開玩笑"
+]
+]
+},
+{
+"f": "judges",
+"l": "judge"
+},
+{
+"f": "kids",
+"l": "kid",
+"d": [
+[
+"n.",
+"小孩"
+],
+[
+"v.",
+"開玩笑"
+]
+]
+},
+{
+"f": "leveraged",
+"l": "leverage"
+},
+{
+"f": "lives",
+"l": "life",
+"d": [
+[
+"n.",
+"生活；生命"
+]
+]
+},
+{
+"f": "louder",
+"l": "loud"
+},
+{
+"f": "maintaining",
+"l": "maintain"
+},
+{
+"f": "matters",
+"l": "matter"
+},
+{
+"f": "medicines",
+"l": "medicine"
+},
+{
+"f": "melodies",
+"l": "melody",
+"d": [
+[
+"n.",
+"旋律"
+]
+]
+},
+{
+"f": "merits",
+"l": "merit"
+},
+{
+"f": "methods",
+"l": "method"
+},
+{
+"f": "milliliters",
+"l": "milliliter",
+"d": [
+[
+"n.",
+"毫升"
+]
+]
+},
+{
+"f": "minerals",
+"l": "mineral",
+"d": [
+[
+"n.",
+"礦物；礦物質"
+]
+]
+},
+{
+"f": "naturally",
+"l": "natural",
+"d": [
+[
+"adj.",
+"自然的；天生的"
+]
+]
+},
+{
+"f": "necessarily",
+"l": "necessary",
+"d": [
+[
+"adj.",
+"必要的"
+]
+]
+},
+{
+"f": "negotiated",
+"l": "negotiate"
+},
+{
+"f": "nerves",
+"l": "nerve",
+"d": [
+[
+"n.",
+"神經；勇氣"
+]
+]
+},
+{
+"f": "novels",
+"l": "novel",
+"d": [
+[
+"n.",
+"小說"
+],
+[
+"adj.",
+"新穎的"
+]
+]
+},
+{
+"f": "obligations",
+"l": "obligation"
+},
+{
+"f": "obtained",
+"l": "obtain"
+},
+{
+"f": "opportunities",
+"l": "opportunity"
+},
+{
+"f": "optimized",
+"l": "optimize"
+},
+{
+"f": "outages",
+"l": "outage"
+},
+{
+"f": "overrides",
+"l": "override",
+"d": [
+[
+"v.",
+"推翻；凌駕"
+]
+]
+},
+{
+"f": "packages",
+"l": "package"
+},
+{
+"f": "paintings",
+"l": "painting"
+},
+{
+"f": "peers",
+"l": "peer",
+"d": [
+[
+"n.",
+"同儕；同輩"
+]
+]
+},
+{
+"f": "plays",
+"l": "play"
+},
+{
+"f": "pounds",
+"l": "pound",
+"d": [
+[
+"n.",
+"磅；英鎊"
+]
+]
+},
+{
+"f": "prioritizes",
+"l": "prioritize"
+},
+{
+"f": "programs",
+"l": "program"
+},
+{
+"f": "properties",
+"l": "property"
+},
+{
+"f": "protects",
+"l": "protect"
+},
+{
+"f": "protocols",
+"l": "protocol",
+"d": [
+[
+"n.",
+"協定；規程；禮節"
+]
+]
+},
+{
+"f": "re-employed",
+"l": "re-employ",
+"d": [
+[
+"v.",
+"重新僱用"
+]
+]
+},
+{
+"f": "recognized",
+"l": "recognize"
+},
+{
+"f": "reduces",
+"l": "reduce"
+},
+{
+"f": "reflects",
+"l": "reflect"
+},
+{
+"f": "regulates",
+"l": "regulate"
+},
+{
+"f": "reimbursements",
+"l": "reimbursement"
+},
+{
+"f": "relationships",
+"l": "relationship",
+"d": [
+[
+"n.",
+"關係"
+]
+]
+},
+{
+"f": "relies",
+"l": "rely"
+},
+{
+"f": "remained",
+"l": "remain"
+},
+{
+"f": "rented",
+"l": "rent"
+},
+{
+"f": "respected",
+"l": "respect"
+},
+{
+"f": "respects",
+"l": "respect"
+},
+{
+"f": "restricts",
+"l": "restrict"
+},
+{
+"f": "resulted",
+"l": "result"
+},
+{
+"f": "rights",
+"l": "right"
+},
+{
+"f": "robbing",
+"l": "rob",
+"d": [
+[
+"v.",
+"搶劫"
+]
+]
+},
+{
+"f": "roles",
+"l": "role"
+},
+{
+"f": "sections",
+"l": "section"
+},
+{
+"f": "segments",
+"l": "segment"
+},
+{
+"f": "settings",
+"l": "setting"
+},
+{
+"f": "severely",
+"l": "severe",
+"d": [
+[
+"adj.",
+"嚴重的；嚴厲的"
+]
+]
+},
+{
+"f": "showed",
+"l": "show"
+},
+{
+"f": "shrunk",
+"l": "shrink",
+"d": [
+[
+"v.",
+"縮小；縮水"
+]
+]
+},
+{
+"f": "smoking",
+"l": "smoke"
+},
+{
+"f": "socks",
+"l": "sock",
+"d": [
+[
+"n.",
+"襪子"
+]
+]
+},
+{
+"f": "sources",
+"l": "source"
+},
+{
+"f": "staffs",
+"l": "staff"
+},
+{
+"f": "stages",
+"l": "stage"
+},
+{
+"f": "states",
+"l": "state"
+},
+{
+"f": "stepped",
+"l": "step"
+},
+{
+"f": "stereotypes",
+"l": "stereotype",
+"d": [
+[
+"n.",
+"刻板印象"
+]
+]
+},
+{
+"f": "stocks",
+"l": "stock"
+},
+{
+"f": "strategies",
+"l": "strategy"
+},
+{
+"f": "streamlines",
+"l": "streamline"
+},
+{
+"f": "strengths",
+"l": "strength"
+},
+{
+"f": "strictly",
+"l": "strict",
+"d": [
+[
+"adj.",
+"嚴格的"
+]
+]
+},
+{
+"f": "struggling",
+"l": "struggle"
+},
+{
+"f": "studied",
+"l": "study"
+},
+{
+"f": "studies",
+"l": "study"
+},
+{
+"f": "subjects",
+"l": "subject"
+},
+{
+"f": "substances",
+"l": "substance"
+},
+{
+"f": "suffered",
+"l": "suffer",
+"d": [
+[
+"v.",
+"遭受；受苦"
+]
+]
+},
+{
+"f": "suggesting",
+"l": "suggest"
+},
+{
+"f": "sums",
+"l": "sum"
+},
+{
+"f": "supports",
+"l": "support"
+},
+{
+"f": "surged",
+"l": "surge"
+},
+{
+"f": "sweeteners",
+"l": "sweetener",
+"d": [
+[
+"n.",
+"甜味劑；代糖"
+]
+]
+},
+{
+"f": "symptoms",
+"l": "symptom",
+"d": [
+[
+"n.",
+"症狀"
+]
+]
+},
+{
+"f": "teachers",
+"l": "teacher"
+},
+{
+"f": "thieves",
+"l": "thief",
+"d": [
+[
+"n.",
+"小偷"
+]
+]
+},
+{
+"f": "thinking",
+"l": "think"
+},
+{
+"f": "thoroughly",
+"l": "thorough",
+"d": [
+[
+"adj.",
+"徹底的；仔細的"
+]
+]
+},
+{
+"f": "traced",
+"l": "trace",
+"d": [
+[
+"v.",
+"追蹤；追溯"
+],
+[
+"n.",
+"痕跡"
+]
+]
+},
+{
+"f": "tries",
+"l": "try"
+},
+{
+"f": "turbines",
+"l": "turbine",
+"d": [
+[
+"n.",
+"渦輪機"
+]
+]
+},
+{
+"f": "twins",
+"l": "twin",
+"d": [
+[
+"n.",
+"雙胞胎之一"
+],
+[
+"adj.",
+"成對的"
+]
+]
+},
+{
+"f": "twisted",
+"l": "twist",
+"d": [
+[
+"v.",
+"扭傷；扭轉"
+],
+[
+"n.",
+"轉折"
+]
+]
+},
+{
+"f": "underestimated",
+"l": "underestimate",
+"d": [
+[
+"v.",
+"低估"
+]
+]
+},
+{
+"f": "underwent",
+"l": "undergo",
+"d": [
+[
+"v.",
+"經歷；接受（治療、檢查）"
+]
+]
+},
+{
+"f": "validated",
+"l": "validate"
+},
+{
+"f": "values",
+"l": "value"
+},
+{
+"f": "vibes",
+"l": "vibe",
+"d": [
+[
+"n.",
+"氣氛；感覺"
+]
+]
+},
+{
+"f": "vomiting",
+"l": "vomit",
+"d": [
+[
+"v.",
+"嘔吐"
+]
+]
+},
+{
+"f": "weakens",
+"l": "weaken",
+"d": [
+[
+"v.",
+"削弱；變弱"
+]
+]
+},
+{
+"f": "whining",
+"l": "whine",
+"d": [
+[
+"v.",
+"抱怨；哀鳴"
+],
+[
+"n.",
+"抱怨聲"
+]
+]
+},
+{
+"f": "whispered",
+"l": "whisper",
+"d": [
+[
+"v.",
+"低聲說"
+],
+[
+"n.",
+"耳語"
+]
+]
+},
+{
+"f": "winning",
+"l": "win"
+},
+{
+"f": "wrestling",
+"l": "wrestle",
+"d": [
+[
+"v.",
+"奮力對付（難題）；搏鬥；摔角"
+]
+]
+},
+{
+"f": "yielded",
+"l": "yield"
+},
+{
+"f": "abortion",
+"l": "abortion",
+"d": [
+[
+"n.",
+"墮胎"
+]
+]
+},
+{
+"f": "absent",
+"l": "absent",
+"d": [
+[
+"adj.",
+"缺席的；不在的"
+]
+]
+},
+{
+"f": "actor",
+"l": "actor",
+"d": [
+[
+"n.",
+"演員"
+]
+]
+},
+{
+"f": "affair",
+"l": "affair"
+},
+{
+"f": "album",
+"l": "album",
+"d": [
+[
+"n.",
+"專輯；相簿"
+]
+]
+},
+{
+"f": "alcohol",
+"l": "alcohol",
+"d": [
+[
+"n.",
+"酒；酒精"
+]
+]
+},
+{
+"f": "ankle",
+"l": "ankle",
+"d": [
+[
+"n.",
+"腳踝"
+]
+]
+},
+{
+"f": "antique",
+"l": "antique",
+"d": [
+[
+"n.",
+"古董"
+],
+[
+"adj.",
+"古董的"
+]
+]
+},
+{
+"f": "apart",
+"l": "apart",
+"d": [
+[
+"adv.",
+"分開；拆開"
+]
+]
+},
+{
+"f": "argument",
+"l": "argument",
+"d": [
+[
+"n.",
+"爭論；論點"
+]
+]
+},
+{
+"f": "artist",
+"l": "artist"
+},
+{
+"f": "artwork",
+"l": "artwork",
+"d": [
+[
+"n.",
+"藝術品"
+]
+]
+},
+{
+"f": "astronomy",
+"l": "astronomy",
+"d": [
+[
+"n.",
+"天文學"
+]
+]
+},
+{
+"f": "astrophysics",
+"l": "astrophysics",
+"d": [
+[
+"n.",
+"天體物理學"
+]
+]
+},
+{
+"f": "athletics",
+"l": "athletics",
+"d": [
+[
+"n.",
+"體育運動；田徑"
+]
+]
+},
+{
+"f": "atm",
+"l": "atm",
+"d": [
+[
+"abbr.",
+"自動提款機"
+]
+]
+},
+{
+"f": "automotive",
+"l": "automotive",
+"d": [
+[
+"adj.",
+"汽車的"
+]
+]
+},
+{
+"f": "awkward",
+"l": "awkward",
+"d": [
+[
+"adj.",
+"尷尬的；笨拙的"
+]
+]
+},
+{
+"f": "balanced",
+"l": "balanced",
+"d": [
+[
+"adj.",
+"均衡的；平衡的"
+]
+]
+},
+{
+"f": "bankruptcy",
+"l": "bankruptcy",
+"d": [
+[
+"n.",
+"破產"
+]
+]
+},
+{
+"f": "bathroom",
+"l": "bathroom",
+"d": [
+[
+"n.",
+"浴室；廁所"
+]
+]
+},
+{
+"f": "bay",
+"l": "bay",
+"d": [
+[
+"n.",
+"海灣"
+]
+]
+},
+{
+"f": "beautiful",
+"l": "beautiful",
+"d": [
+[
+"adj.",
+"美麗的"
+]
+]
+},
+{
+"f": "belong",
+"l": "belong"
+},
+{
+"f": "belongings",
+"l": "belongings",
+"d": [
+[
+"n.",
+"隨身物品；財物"
+]
+]
+},
+{
+"f": "best-selling",
+"l": "best-selling",
+"d": [
+[
+"adj.",
+"暢銷的"
+]
+]
+},
+{
+"f": "binding",
+"l": "binding",
+"d": [
+[
+"adj.",
+"有約束力的"
+]
+]
+},
+{
+"f": "blaze",
+"l": "blaze",
+"d": [
+[
+"n.",
+"大火；（一陣）光彩"
+]
+]
+},
+{
+"f": "bleak",
+"l": "bleak",
+"d": [
+[
+"adj.",
+"黯淡的；沒有希望的"
+]
+]
+},
+{
+"f": "body",
+"l": "body",
+"d": [
+[
+"n.",
+"身體；主體"
+]
+]
+},
+{
+"f": "bookcase",
+"l": "bookcase",
+"d": [
+[
+"n.",
+"書櫃"
+]
+]
+},
+{
+"f": "boss",
+"l": "boss",
+"d": [
+[
+"n.",
+"老闆；上司"
+]
+]
+},
+{
+"f": "british",
+"l": "british",
+"d": [
+[
+"adj.",
+"英國的"
+],
+[
+"n.",
+"英國人"
+]
+]
+},
+{
+"f": "budget-conscious",
+"l": "budget-conscious",
+"d": [
+[
+"adj.",
+"注重預算的；精打細算的"
+]
+]
+},
+{
+"f": "butter",
+"l": "butter",
+"d": [
+[
+"n.",
+"奶油"
+]
+]
+},
+{
+"f": "calm",
+"l": "calm",
+"d": [
+[
+"adj.",
+"冷靜的；平靜的"
+],
+[
+"v.",
+"使平靜"
+]
+]
+},
+{
+"f": "cancelation",
+"l": "cancelation",
+"d": [
+[
+"n.",
+"取消（也拼作 cancellation）"
+]
+]
+},
+{
+"f": "carelessness",
+"l": "carelessness",
+"d": [
+[
+"n.",
+"粗心"
+]
+]
+},
+{
+"f": "certain",
+"l": "certain",
+"d": [
+[
+"adj.",
+"某些；確定的"
+]
+]
+},
+{
+"f": "challenge",
+"l": "challenge"
+},
+{
+"f": "challenging",
+"l": "challenging",
+"d": [
+[
+"adj.",
+"有挑戰性的"
+]
+]
+},
+{
+"f": "cigarette",
+"l": "cigarette"
+},
+{
+"f": "classroom",
+"l": "classroom",
+"d": [
+[
+"n.",
+"教室"
+]
+]
+},
+{
+"f": "colorful",
+"l": "colorful",
+"d": [
+[
+"adj.",
+"色彩鮮豔的；多采多姿的"
+]
+]
+},
+{
+"f": "complex",
+"l": "complex",
+"d": [
+[
+"adj.",
+"複雜的"
+],
+[
+"n.",
+"綜合大樓"
+]
+]
+},
+{
+"f": "composed",
+"l": "composed",
+"d": [
+[
+"adj.",
+"鎮定的；沉著的"
+]
+]
+},
+{
+"f": "concise",
+"l": "concise",
+"d": [
+[
+"adj.",
+"簡潔的"
+]
+]
+},
+{
+"f": "content",
+"l": "content",
+"d": [
+[
+"n.",
+"內容"
+],
+[
+"adj.",
+"滿足的"
+]
+]
+},
+{
+"f": "convict",
+"l": "convict"
+},
+{
+"f": "corruption",
+"l": "corruption",
+"d": [
+[
+"n.",
+"貪污；腐敗"
+]
+]
+},
+{
+"f": "cost-cutting",
+"l": "cost-cutting",
+"d": [
+[
+"n.",
+"削減成本"
+],
+[
+"adj.",
+"削減成本的"
+]
+]
+},
+{
+"f": "cost-effective",
+"l": "cost-effective",
+"d": [
+[
+"adj.",
+"划算的；有成本效益的"
+]
+]
+},
+{
+"f": "costume",
+"l": "costume"
+},
+{
+"f": "crime",
+"l": "crime",
+"d": [
+[
+"n.",
+"犯罪；罪行"
+]
+]
+},
+{
+"f": "crisis",
+"l": "crisis",
+"d": [
+[
+"n.",
+"危機"
+]
+]
+},
+{
+"f": "crop",
+"l": "crop",
+"d": [
+[
+"n.",
+"農作物；收成"
+]
+]
+},
+{
+"f": "crude",
+"l": "crude",
+"d": [
+[
+"adj.",
+"未加工的；粗糙的"
+]
+]
+},
+{
+"f": "cultural",
+"l": "cultural"
+},
+{
+"f": "cyclist",
+"l": "cyclist"
+},
+{
+"f": "dance",
+"l": "dance",
+"d": [
+[
+"n.",
+"舞蹈"
+],
+[
+"v.",
+"跳舞"
+]
+]
+},
+{
+"f": "dancer",
+"l": "dancer"
+},
+{
+"f": "dealings",
+"l": "dealings",
+"d": [
+[
+"n.",
+"交易；往來"
+]
+]
+},
+{
+"f": "dean",
+"l": "dean",
+"d": [
+[
+"n.",
+"院長；教務長"
+]
+]
+},
+{
+"f": "death",
+"l": "death",
+"d": [
+[
+"n.",
+"死亡"
+]
+]
+},
+{
+"f": "debut",
+"l": "debut",
+"d": [
+[
+"n.",
+"首次亮相；出道"
+]
+]
+},
+{
+"f": "decrease",
+"l": "decrease"
+},
+{
+"f": "dedication",
+"l": "dedication",
+"d": [
+[
+"n.",
+"奉獻；投入"
+]
+]
+},
+{
+"f": "defense",
+"l": "defense",
+"d": [
+[
+"n.",
+"防禦；國防；辯護"
+]
+]
+},
+{
+"f": "diagram",
+"l": "diagram",
+"d": [
+[
+"n.",
+"圖表；圖解"
+]
+]
+},
+{
+"f": "disability",
+"l": "disability"
+},
+{
+"f": "disease",
+"l": "disease"
+},
+{
+"f": "dissertation",
+"l": "dissertation",
+"d": [
+[
+"n.",
+"學位論文；博士論文"
+]
+]
+},
+{
+"f": "dizziness",
+"l": "dizziness",
+"d": [
+[
+"n.",
+"頭暈"
+]
+]
+},
+{
+"f": "downturn",
+"l": "downturn",
+"d": [
+[
+"n.",
+"（經濟）衰退；下滑"
+]
+]
+},
+{
+"f": "dream",
+"l": "dream",
+"d": [
+[
+"n.",
+"夢想；夢"
+],
+[
+"v.",
+"做夢；夢想"
+]
+]
+},
+{
+"f": "drill",
+"l": "drill",
+"d": [
+[
+"n.",
+"演習；鑽頭"
+],
+[
+"v.",
+"鑽孔"
+]
+]
+},
+{
+"f": "drug",
+"l": "drug"
+},
+{
+"f": "drunk",
+"l": "drunk",
+"d": [
+[
+"adj.",
+"喝醉的"
+]
+]
+},
+{
+"f": "duty",
+"l": "duty"
+},
+{
+"f": "earnings",
+"l": "earnings",
+"d": [
+[
+"n.",
+"收入；盈餘"
+]
+]
+},
+{
+"f": "earthquake",
+"l": "earthquake"
+},
+{
+"f": "ease",
+"l": "ease",
+"d": [
+[
+"v.",
+"減輕；緩和"
+],
+[
+"n.",
+"容易；輕鬆"
+]
+]
+},
+{
+"f": "edit",
+"l": "edit",
+"d": [
+[
+"v.",
+"編輯；修改"
+]
+]
+},
+{
+"f": "education",
+"l": "education",
+"d": [
+[
+"n.",
+"教育"
+]
+]
+},
+{
+"f": "effort",
+"l": "effort"
+},
+{
+"f": "end-of-year",
+"l": "end-of-year",
+"d": [
+[
+"adj.",
+"年終的"
+]
+]
+},
+{
+"f": "entity",
+"l": "entity",
+"d": [
+[
+"n.",
+"實體；獨立的機構"
+]
+]
+},
+{
+"f": "estate",
+"l": "estate",
+"d": [
+[
+"n.",
+"地產；莊園"
+]
+]
+},
+{
+"f": "ethics",
+"l": "ethics",
+"d": [
+[
+"n.",
+"道德規範；倫理"
+]
+]
+},
+{
+"f": "eu",
+"l": "eu",
+"d": [
+[
+"abbr.",
+"歐盟"
+]
+]
+},
+{
+"f": "excuse",
+"l": "excuse",
+"d": [
+[
+"n.",
+"藉口"
+],
+[
+"v.",
+"原諒"
+]
+]
+},
+{
+"f": "far-reaching",
+"l": "far-reaching",
+"d": [
+[
+"adj.",
+"影響深遠的"
+]
+]
+},
+{
+"f": "farming",
+"l": "farming",
+"d": [
+[
+"n.",
+"農業；耕作"
+]
+]
+},
+{
+"f": "fascinating",
+"l": "fascinating",
+"d": [
+[
+"adj.",
+"迷人的；極有趣的"
+]
+]
+},
+{
+"f": "fast-paced",
+"l": "fast-paced",
+"d": [
+[
+"adj.",
+"步調快的"
+]
+]
+},
+{
+"f": "fat",
+"l": "fat",
+"d": [
+[
+"adj.",
+"胖的"
+],
+[
+"n.",
+"脂肪"
+]
+]
+},
+{
+"f": "father",
+"l": "father",
+"d": [
+[
+"n.",
+"父親"
+]
+]
+},
+{
+"f": "faulty",
+"l": "faulty",
+"d": [
+[
+"adj.",
+"有故障的；有缺陷的"
+]
+]
+},
+{
+"f": "feasibility",
+"l": "feasibility",
+"d": [
+[
+"n.",
+"可行性"
+]
+]
+},
+{
+"f": "female",
+"l": "female",
+"d": [
+[
+"adj.",
+"女性的"
+],
+[
+"n.",
+"女性"
+]
+]
+},
+{
+"f": "ferry",
+"l": "ferry",
+"d": [
+[
+"n.",
+"渡輪"
+]
+]
+},
+{
+"f": "fight",
+"l": "fight"
+},
+{
+"f": "findings",
+"l": "findings",
+"d": [
+[
+"n.",
+"研究結果；調查發現"
+]
+]
+},
+{
+"f": "flu",
+"l": "flu",
+"d": [
+[
+"n.",
+"流行性感冒"
+]
+]
+},
+{
+"f": "flyer",
+"l": "flyer"
+},
+{
+"f": "fossil",
+"l": "fossil",
+"d": [
+[
+"n.",
+"化石"
+]
+]
+},
+{
+"f": "funding",
+"l": "funding",
+"d": [
+[
+"n.",
+"資金；撥款"
+]
+]
+},
+{
+"f": "gallery",
+"l": "gallery",
+"d": [
+[
+"n.",
+"畫廊；美術館"
+]
+]
+},
+{
+"f": "gather",
+"l": "gather"
+},
+{
+"f": "gathering",
+"l": "gathering"
+},
+{
+"f": "generous",
+"l": "generous"
+},
+{
+"f": "glowing",
+"l": "glowing",
+"d": [
+[
+"adj.",
+"熱烈讚揚的；發光的"
+]
+]
+},
+{
+"f": "government-owned",
+"l": "government-owned",
+"d": [
+[
+"adj.",
+"政府擁有的；國營的"
+]
+]
+},
+{
+"f": "greenhouse",
+"l": "greenhouse",
+"d": [
+[
+"n.",
+"溫室"
+]
+]
+},
+{
+"f": "guidance",
+"l": "guidance",
+"d": [
+[
+"n.",
+"指導；引導"
+]
+]
+},
+{
+"f": "hands-on",
+"l": "hands-on",
+"d": [
+[
+"adj.",
+"實際動手做的"
+]
+]
+},
+{
+"f": "hardworking",
+"l": "hardworking",
+"d": [
+[
+"adj.",
+"勤奮的"
+]
+]
+},
+{
+"f": "hat",
+"l": "hat",
+"d": [
+[
+"n.",
+"帽子"
+]
+]
+},
+{
+"f": "headache",
+"l": "headache"
+},
+{
+"f": "healthcare",
+"l": "healthcare",
+"d": [
+[
+"n.",
+"醫療保健"
+]
+]
+},
+{
+"f": "healthy",
+"l": "healthy",
+"d": [
+[
+"adj.",
+"健康的"
+]
+]
+},
+{
+"f": "heated",
+"l": "heated",
+"d": [
+[
+"adj.",
+"激烈的；加熱的"
+]
+]
+},
+{
+"f": "historical",
+"l": "historical",
+"d": [
+[
+"adj.",
+"歷史的"
+]
+]
+},
+{
+"f": "hospital",
+"l": "hospital",
+"d": [
+[
+"n.",
+"醫院"
+]
+]
+},
+{
+"f": "hotline",
+"l": "hotline",
+"d": [
+[
+"n.",
+"熱線；專線"
+]
+]
+},
+{
+"f": "hourly",
+"l": "hourly",
+"d": [
+[
+"adj.",
+"每小時的"
+],
+[
+"adv.",
+"每小時地"
+]
+]
+},
+{
+"f": "housing",
+"l": "housing",
+"d": [
+[
+"n.",
+"住房；住宅"
+]
+]
+},
+{
+"f": "huge",
+"l": "huge",
+"d": [
+[
+"adj.",
+"巨大的"
+]
+]
+},
+{
+"f": "hungarian",
+"l": "hungarian",
+"d": [
+[
+"adj.",
+"匈牙利的"
+],
+[
+"n.",
+"匈牙利人"
+]
+]
+},
+{
+"f": "hypothesis",
+"l": "hypothesis",
+"d": [
+[
+"n.",
+"假設"
+]
+]
+},
+{
+"f": "illness",
+"l": "illness"
+},
+{
+"f": "image",
+"l": "image",
+"d": [
+[
+"n.",
+"影像；形象"
+]
+]
+},
+{
+"f": "implementation",
+"l": "implementation",
+"d": [
+[
+"n.",
+"實施；執行"
+]
+]
+},
+{
+"f": "impress",
+"l": "impress"
+},
+{
+"f": "independent",
+"l": "independent"
+},
+{
+"f": "infection",
+"l": "infection",
+"d": [
+[
+"n.",
+"感染"
+]
+]
+},
+{
+"f": "intelligent",
+"l": "intelligent",
+"d": [
+[
+"adj.",
+"聰明的"
+]
+]
+},
+{
+"f": "interrogation",
+"l": "interrogation",
+"d": [
+[
+"n.",
+"審問；訊問"
+]
+]
+},
+{
+"f": "interviewee",
+"l": "interviewee"
+},
+{
+"f": "it'll",
+"l": "it'll",
+"d": [
+[
+"phr.",
+"它將；這將（it will）"
+]
+]
+},
+{
+"f": "joke",
+"l": "joke"
+},
+{
+"f": "journalist",
+"l": "journalist",
+"d": [
+[
+"n.",
+"記者"
+]
+]
+},
+{
+"f": "justice",
+"l": "justice",
+"d": [
+[
+"n.",
+"正義；司法"
+]
+]
+},
+{
+"f": "kid",
+"l": "kid"
+},
+{
+"f": "knowledge",
+"l": "knowledge",
+"d": [
+[
+"n.",
+"知識"
+]
+]
+},
+{
+"f": "knowledgeable",
+"l": "knowledgeable",
+"d": [
+[
+"adj.",
+"知識豐富的"
+]
+]
+},
+{
+"f": "laid-off",
+"l": "laid-off",
+"d": [
+[
+"adj.",
+"被解僱的；被裁員的"
+]
+]
+},
+{
+"f": "landlord",
+"l": "landlord",
+"d": [
+[
+"n.",
+"房東"
+]
+]
+},
+{
+"f": "lately",
+"l": "lately",
+"d": [
+[
+"adv.",
+"最近"
+]
+]
+},
+{
+"f": "lgbtq",
+"l": "lgbtq",
+"d": [
+[
+"abbr.",
+"多元性別族群（同志、雙性戀、跨性別等的總稱）"
+]
+]
+},
+{
+"f": "life",
+"l": "life"
+},
+{
+"f": "lifestyle",
+"l": "lifestyle",
+"d": [
+[
+"n.",
+"生活方式"
+]
+]
+},
+{
+"f": "lifetime",
+"l": "lifetime",
+"d": [
+[
+"n.",
+"一生；終身"
+]
+]
+},
+{
+"f": "living",
+"l": "living",
+"d": [
+[
+"adj.",
+"居住用的（living room 客廳）；活著的"
+],
+[
+"n.",
+"生計；生活"
+]
+]
+},
+{
+"f": "luxurious",
+"l": "luxurious",
+"d": [
+[
+"adj.",
+"豪華的"
+]
+]
+},
+{
+"f": "male",
+"l": "male",
+"d": [
+[
+"adj.",
+"男性的"
+],
+[
+"n.",
+"男性"
+]
+]
+},
+{
+"f": "margarine",
+"l": "margarine",
+"d": [
+[
+"n.",
+"人造奶油"
+]
+]
+},
+{
+"f": "marijuana",
+"l": "marijuana",
+"d": [
+[
+"n.",
+"大麻"
+]
+]
+},
+{
+"f": "mayor",
+"l": "mayor",
+"d": [
+[
+"n.",
+"市長"
+]
+]
+},
+{
+"f": "medication",
+"l": "medication",
+"d": [
+[
+"n.",
+"藥物"
+]
+]
+},
+{
+"f": "melody",
+"l": "melody"
+},
+{
+"f": "mental",
+"l": "mental",
+"d": [
+[
+"adj.",
+"心理的；精神的"
+]
+]
+},
+{
+"f": "milliliter",
+"l": "milliliter"
+},
+{
+"f": "mineral",
+"l": "mineral"
+},
+{
+"f": "mirror",
+"l": "mirror",
+"d": [
+[
+"n.",
+"鏡子"
+],
+[
+"v.",
+"反映"
+]
+]
+},
+{
+"f": "misconduct",
+"l": "misconduct",
+"d": [
+[
+"n.",
+"不當行為"
+]
+]
+},
+{
+"f": "misleading",
+"l": "misleading",
+"d": [
+[
+"adj.",
+"誤導的"
+]
+]
+},
+{
+"f": "mismanagement",
+"l": "mismanagement",
+"d": [
+[
+"n.",
+"管理不善"
+]
+]
+},
+{
+"f": "mrt",
+"l": "mrt",
+"d": [
+[
+"abbr.",
+"捷運"
+]
+]
+},
+{
+"f": "multiple",
+"l": "multiple",
+"d": [
+[
+"adj.",
+"多個的；多重的"
+]
+]
+},
+{
+"f": "musical",
+"l": "musical",
+"d": [
+[
+"adj.",
+"音樂的"
+],
+[
+"n.",
+"音樂劇"
+]
+]
+},
+{
+"f": "musician",
+"l": "musician",
+"d": [
+[
+"n.",
+"音樂家"
+]
+]
+},
+{
+"f": "nationwide",
+"l": "nationwide",
+"d": [
+[
+"adj.",
+"全國的"
+],
+[
+"adv.",
+"在全國"
+]
+]
+},
+{
+"f": "natural",
+"l": "natural"
+},
+{
+"f": "necessary",
+"l": "necessary"
+},
+{
+"f": "nerve",
+"l": "nerve"
+},
+{
+"f": "novel",
+"l": "novel"
+},
+{
+"f": "nutrition",
+"l": "nutrition",
+"d": [
+[
+"n.",
+"營養"
+]
+]
+},
+{
+"f": "odds",
+"l": "odds",
+"d": [
+[
+"n.",
+"可能性；機率"
+]
+]
+},
+{
+"f": "oil",
+"l": "oil",
+"d": [
+[
+"n.",
+"油；石油"
+]
+]
+},
+{
+"f": "outfit",
+"l": "outfit",
+"d": [
+[
+"n.",
+"一套服裝"
+]
+]
+},
+{
+"f": "override",
+"l": "override"
+},
+{
+"f": "pace",
+"l": "pace",
+"d": [
+[
+"n.",
+"步調；速度"
+]
+]
+},
+{
+"f": "pain",
+"l": "pain",
+"d": [
+[
+"n.",
+"疼痛；痛苦"
+]
+]
+},
+{
+"f": "pd",
+"l": "pd",
+"d": [
+[
+"abbr.",
+"專業進修（professional development）"
+]
+]
+},
+{
+"f": "peer",
+"l": "peer"
+},
+{
+"f": "piano",
+"l": "piano",
+"d": [
+[
+"n.",
+"鋼琴"
+]
+]
+},
+{
+"f": "police",
+"l": "police",
+"d": [
+[
+"n.",
+"警察；警方"
+]
+]
+},
+{
+"f": "political",
+"l": "political",
+"d": [
+[
+"adj.",
+"政治的"
+]
+]
+},
+{
+"f": "politician",
+"l": "politician",
+"d": [
+[
+"n.",
+"政治人物"
+]
+]
+},
+{
+"f": "pound",
+"l": "pound"
+},
+{
+"f": "proceedings",
+"l": "proceedings",
+"d": [
+[
+"n.",
+"訴訟程序；會議紀錄"
+]
+]
+},
+{
+"f": "programming",
+"l": "programming",
+"d": [
+[
+"n.",
+"程式設計"
+]
+]
+},
+{
+"f": "protocol",
+"l": "protocol"
+},
+{
+"f": "re-employ",
+"l": "re-employ"
+},
+{
+"f": "real-time",
+"l": "real-time",
+"d": [
+[
+"adj.",
+"即時的"
+]
+]
+},
+{
+"f": "relationship",
+"l": "relationship"
+},
+{
+"f": "renaissance",
+"l": "renaissance",
+"d": [
+[
+"n.",
+"文藝復興"
+]
+]
+},
+{
+"f": "rewarding",
+"l": "rewarding",
+"d": [
+[
+"adj.",
+"值得的；有回報的"
+]
+]
+},
+{
+"f": "rewrite",
+"l": "rewrite",
+"d": [
+[
+"v.",
+"重寫；改寫"
+]
+]
+},
+{
+"f": "ridiculous",
+"l": "ridiculous",
+"d": [
+[
+"adj.",
+"荒謬的；可笑的"
+]
+]
+},
+{
+"f": "rob",
+"l": "rob"
+},
+{
+"f": "salt",
+"l": "salt",
+"d": [
+[
+"n.",
+"鹽"
+]
+]
+},
+{
+"f": "scandal",
+"l": "scandal",
+"d": [
+[
+"n.",
+"醜聞"
+]
+]
+},
+{
+"f": "scenic",
+"l": "scenic",
+"d": [
+[
+"adj.",
+"風景優美的"
+]
+]
+},
+{
+"f": "sci-fi",
+"l": "sci-fi",
+"d": [
+[
+"n.",
+"科幻（小說、電影）"
+]
+]
+},
+{
+"f": "scientific",
+"l": "scientific",
+"d": [
+[
+"adj.",
+"科學的"
+]
+]
+},
+{
+"f": "scientist",
+"l": "scientist",
+"d": [
+[
+"n.",
+"科學家"
+]
+]
+},
+{
+"f": "semi-final",
+"l": "semi-final",
+"d": [
+[
+"n.",
+"準決賽"
+]
+]
+},
+{
+"f": "sensitive",
+"l": "sensitive",
+"d": [
+[
+"adj.",
+"敏感的；機密的"
+]
+]
+},
+{
+"f": "seventy",
+"l": "seventy",
+"d": [
+[
+"num.",
+"七十"
+]
+]
+},
+{
+"f": "severe",
+"l": "severe"
+},
+{
+"f": "shot",
+"l": "shot",
+"d": [
+[
+"n.",
+"注射；射擊；嘗試"
+]
+]
+},
+{
+"f": "shrink",
+"l": "shrink"
+},
+{
+"f": "silence",
+"l": "silence",
+"d": [
+[
+"n.",
+"沉默；寂靜"
+]
+]
+},
+{
+"f": "silent",
+"l": "silent",
+"d": [
+[
+"adj.",
+"沉默的；安靜的"
+]
+]
+},
+{
+"f": "sister",
+"l": "sister",
+"d": [
+[
+"n.",
+"姊妹"
+]
+]
+},
+{
+"f": "six-figure",
+"l": "six-figure",
+"d": [
+[
+"adj.",
+"六位數的（指金額）"
+]
+]
+},
+{
+"f": "skin",
+"l": "skin",
+"d": [
+[
+"n.",
+"皮膚"
+]
+]
+},
+{
+"f": "smartphone",
+"l": "smartphone",
+"d": [
+[
+"n.",
+"智慧型手機"
+]
+]
+},
+{
+"f": "sock",
+"l": "sock"
+},
+{
+"f": "sodium",
+"l": "sodium",
+"d": [
+[
+"n.",
+"鈉"
+]
+]
+},
+{
+"f": "steady",
+"l": "steady",
+"d": [
+[
+"adj.",
+"穩定的；平穩的"
+]
+]
+},
+{
+"f": "steak",
+"l": "steak",
+"d": [
+[
+"n.",
+"牛排"
+]
+]
+},
+{
+"f": "stereotype",
+"l": "stereotype"
+},
+{
+"f": "stress",
+"l": "stress",
+"d": [
+[
+"n.",
+"壓力；重音"
+],
+[
+"v.",
+"強調"
+]
+]
+},
+{
+"f": "stress-management",
+"l": "stress-management",
+"d": [
+[
+"n.",
+"壓力管理"
+]
+]
+},
+{
+"f": "strict",
+"l": "strict"
+},
+{
+"f": "stunning",
+"l": "stunning",
+"d": [
+[
+"adj.",
+"令人驚豔的；極美的"
+]
+]
+},
+{
+"f": "sturdy",
+"l": "sturdy",
+"d": [
+[
+"adj.",
+"堅固的；結實的"
+]
+]
+},
+{
+"f": "suffer",
+"l": "suffer"
+},
+{
+"f": "sun",
+"l": "sun",
+"d": [
+[
+"n.",
+"太陽；陽光"
+]
+]
+},
+{
+"f": "supreme",
+"l": "supreme",
+"d": [
+[
+"adj.",
+"最高的；至上的"
+]
+]
+},
+{
+"f": "sweetener",
+"l": "sweetener"
+},
+{
+"f": "symptom",
+"l": "symptom"
+},
+{
+"f": "tailor",
+"l": "tailor",
+"d": [
+[
+"v.",
+"量身訂做；調整"
+],
+[
+"n.",
+"裁縫"
+]
+]
+},
+{
+"f": "taxation",
+"l": "taxation",
+"d": [
+[
+"n.",
+"課稅；稅制"
+]
+]
+},
+{
+"f": "team-building",
+"l": "team-building",
+"d": [
+[
+"n.",
+"團隊建立（活動）"
+]
+]
+},
+{
+"f": "tech",
+"l": "tech",
+"d": [
+[
+"n.",
+"科技（technology 的簡稱）"
+]
+]
+},
+{
+"f": "thief",
+"l": "thief"
+},
+{
+"f": "thorough",
+"l": "thorough"
+},
+{
+"f": "three-month",
+"l": "three-month",
+"d": [
+[
+"adj.",
+"三個月的"
+]
+]
+},
+{
+"f": "tough",
+"l": "tough",
+"d": [
+[
+"adj.",
+"困難的；強硬的；堅韌的"
+]
+]
+},
+{
+"f": "trace",
+"l": "trace"
+},
+{
+"f": "treatment",
+"l": "treatment",
+"d": [
+[
+"n.",
+"治療；對待"
+]
+]
+},
+{
+"f": "treaty",
+"l": "treaty",
+"d": [
+[
+"n.",
+"條約"
+]
+]
+},
+{
+"f": "turbine",
+"l": "turbine"
+},
+{
+"f": "tv",
+"l": "tv",
+"d": [
+[
+"abbr.",
+"電視"
+]
+]
+},
+{
+"f": "twin",
+"l": "twin"
+},
+{
+"f": "twist",
+"l": "twist"
+},
+{
+"f": "unauthorized",
+"l": "unauthorized",
+"d": [
+[
+"adj.",
+"未經授權的"
+]
+]
+},
+{
+"f": "uncertainty",
+"l": "uncertainty",
+"d": [
+[
+"n.",
+"不確定性"
+]
+]
+},
+{
+"f": "underestimate",
+"l": "underestimate"
+},
+{
+"f": "undergo",
+"l": "undergo"
+},
+{
+"f": "unnecessary",
+"l": "unnecessary",
+"d": [
+[
+"adj.",
+"不必要的"
+]
+]
+},
+{
+"f": "unprofitable",
+"l": "unprofitable",
+"d": [
+[
+"adj.",
+"不賺錢的；無利可圖的"
+]
+]
+},
+{
+"f": "unwavering",
+"l": "unwavering",
+"d": [
+[
+"adj.",
+"堅定不移的"
+]
+]
+},
+{
+"f": "upward",
+"l": "upward",
+"d": [
+[
+"adj.",
+"向上的"
+],
+[
+"adv.",
+"向上"
+]
+]
+},
+{
+"f": "urban",
+"l": "urban",
+"d": [
+[
+"adj.",
+"都市的"
+]
+]
+},
+{
+"f": "venture",
+"l": "venture",
+"d": [
+[
+"n.",
+"（有風險的）事業；企業"
+],
+[
+"v.",
+"冒險"
+]
+]
+},
+{
+"f": "vibe",
+"l": "vibe"
+},
+{
+"f": "vibrant",
+"l": "vibrant",
+"d": [
+[
+"adj.",
+"充滿活力的；鮮豔的"
+]
+]
+},
+{
+"f": "victory",
+"l": "victory",
+"d": [
+[
+"n.",
+"勝利"
+]
+]
+},
+{
+"f": "vip",
+"l": "vip",
+"d": [
+[
+"abbr.",
+"貴賓"
+]
+]
+},
+{
+"f": "vomit",
+"l": "vomit"
+},
+{
+"f": "waterfall",
+"l": "waterfall",
+"d": [
+[
+"n.",
+"瀑布"
+]
+]
+},
+{
+"f": "weaken",
+"l": "weaken"
+},
+{
+"f": "wedding",
+"l": "wedding",
+"d": [
+[
+"n.",
+"婚禮"
+]
+]
+},
+{
+"f": "well-known",
+"l": "well-known",
+"d": [
+[
+"adj.",
+"知名的"
+]
+]
+},
+{
+"f": "whine",
+"l": "whine"
+},
+{
+"f": "whisper",
+"l": "whisper"
+},
+{
+"f": "win-win",
+"l": "win-win",
+"d": [
+[
+"adj.",
+"雙贏的"
+]
+]
+},
+{
+"f": "withstand",
+"l": "withstand",
+"d": [
+[
+"v.",
+"承受；抵擋"
+]
+]
+},
+{
+"f": "work-related",
+"l": "work-related",
+"d": [
+[
+"adj.",
+"與工作有關的"
+]
+]
+},
+{
+"f": "workforce",
+"l": "workforce",
+"d": [
+[
+"n.",
+"勞動力；全體員工"
+]
+]
+},
+{
+"f": "wrestle",
+"l": "wrestle"
+},
+{
+"f": "yoga",
+"l": "yoga",
+"d": [
+[
+"n.",
+"瑜伽"
+]
+]
+}
+]

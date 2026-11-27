@@ -1145,3 +1145,14 @@ body.lp-on .view-browse { padding-bottom: 90px; }
   .lp-eq i, .wl-item.is-waiting .cover { animation-duration: 1.6s; }
 }
 .lp-en.cover .phon { display: none; }      /* 遮英文時音標也收起來，遮罩才不會變成兩行高 */
+
+/* 單字卡的例句：每個字可以點（查意思），喇叭唸整句 */
+.example.ex-tap { display: block; cursor: default; }
+.example.ex-tap:hover { background: none; }
+.example.ex-tap.is-speaking { background: var(--orange-soft); }
+.ex-tap mark { cursor: pointer; border-radius: 4px; }
+.ex-tap mark.is-speaking { background: var(--orange-soft); box-shadow: 0 0 0 2px var(--orange-soft); }
+.ex-say { display: inline-grid; place-items: center; vertical-align: -6px; width: 34px; height: 30px; margin-left: 2px; border-radius: 8px; color: var(--muted); }
+.ex-say .spk { margin: 0; vertical-align: 0; }
+.ex-say:hover, .example.is-speaking .ex-say { color: var(--orange); }
+.ex-say:hover { background: var(--orange-soft); }

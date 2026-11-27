@@ -21,7 +21,7 @@ G = '/home/claude/work/gloss'
 SITE = '/home/claude/work/site'
 listw = set(open(os.path.join(G, 'in', 'list_words.txt'), encoding='utf-8').read().split('\n'))
 entries = []
-for i in (1, 2, 3, 4, 5):          # 5 = 之後補的（文法題用到的字），格式相同，手寫
+for i in (1, 2, 3, 4, 5, 6):       # 5 = 之後補的（文法題用到的字）；6 = 單字卡例句用到的字（make_gloss6.py）。格式相同，手寫
     gp = os.path.join(G, 'out', 'gloss_%d.json' % i)
     if os.path.exists(gp): entries += json.load(open(gp, encoding='utf-8'))
 fixes = {}
@@ -46,11 +46,13 @@ missing = sorted({l for l in list(fmap.values()) + [e['l'] for e in entries if n
 if missing: print('沒有解釋的原形：', missing); sys.exit(1)
 
 cmu = cmudict.dict()
+# CMUdict 的第一個發音不是最常用（或和解釋的詞性對不上）的字：改用第幾個
+PRON_PICK = {'costume': 1, 'convict': 1, 'bankruptcy': 1, 'awkward': 1, 'boss': 1}
 def phon(word):
     ps = cmu.get(word.lower())
     if not ps: return '', ''
     try:
-        ipa = pb.to_ipa(pb.normalize(word, pb.parse(ps[0])))
+        ipa = pb.to_ipa(pb.normalize(word, pb.parse(ps[PRON_PICK.get(word.lower(), 0)])))
         return pb.strip_adjacent(pb.to_kk(ipa), 'ˋ', 'ˏ'), pb.strip_adjacent(ipa, 'ˈ', 'ˌ')
     except Exception:
         return '', ''
@@ -64,12 +66,12 @@ for l in sorted(defs):
 MONTHS = ['january', 'february', 'march', 'april', 'may', 'june', 'july', 'august', 'september', 'october', 'november', 'december']
 DAYS = ['monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday', 'sunday']
 NAT = ['english', 'european', 'italian', 'korean', 'japanese', 'chinese', 'american', 'french', 'german', 'spanish', 'asian', 'british', 'canadian', 'australian', 'taiwanese', 'indian', 'mexican', 'thai', 'vietnamese', 'portuguese']
-UPPER = ['ceo', 'hr', 'id', 'pdf', 'qr', 'ok', 'tv', 'atm', 'vip', 'usb', 'gps', 'faq', 'it', 'pc', 'cv', 'pr', 'diy', 'ai']
+UPPER = ['ceo', 'hr', 'id', 'pdf', 'qr', 'ok', 'tv', 'atm', 'vip', 'usb', 'gps', 'faq', 'it', 'pc', 'cv', 'pr', 'diy', 'ai', 'mrt', 'eu', 'pd', 'lgbtq']
 TITLE = ['mr', 'mrs', 'ms', 'dr', 'ltd', 'inc']
 disp = {}
 for l in w:
     zh = ''.join(w[l][2:])
-    if l in DAYS or l in NAT or l in TITLE: disp[l] = l.capitalize()
+    if l in DAYS or l in NAT or l in TITLE or l in ('hungarian', 'renaissance'): disp[l] = l.capitalize()
     elif l in MONTHS and '月' in zh and l != 'may': disp[l] = l.capitalize()
     elif l == 'i' or l.startswith("i'"): disp[l] = 'I' + l[1:]
     elif l in UPPER and any(x.startswith('abbr.') or x.startswith('int.') for x in w[l][2:]): disp[l] = l.upper()
